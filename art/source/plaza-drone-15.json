@@ -8,7 +8,7 @@
     "name": "plaza-drone-15",
     "image": "assets/tilesets/original/plaza-drone-15.png",
     "sourceId": "plaza-original-drones",
-    "level": "belowAvatar",
+    "level": "aboveScenery",
     "x": 15,
     "y": 45,
     "width": 2,
@@ -239,7 +239,7 @@
       "inputs": [
         {
           "path": "tools/art/plaza-drones.ts",
-          "sha256": "326cca89c7dba0b8a4321ce882dca2bfcaa54c47b02ab057df6e103270ed1df6"
+          "sha256": "3d5aaef73b605b81dcc7427432c54027f70fb63141d862918a2f9ce054b37eab"
         },
         {
           "path": "tools/art/native-motion.ts",

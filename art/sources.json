@@ -115,23 +115,23 @@
       },
       {
         "path": "art/source/coast-life-harbor-dolphin.json",
-        "sha256": "1b9f15c8e747a4de72e2b7144a057d45b012cffc530eb8902042752b65f600f1"
+        "sha256": "71a9d3197b540da91ec8ac8f805efe226d016de2fa531cc0f0f2f2e53b68d4e7"
       },
       {
         "path": "art/source/coast-life-harbor-fish-east.json",
-        "sha256": "67823d629744fdb4e695a0823730ea3ed21a71b869e755eca789dc318b7234c0"
+        "sha256": "b492571577c44454bde9f0e2c4a961bd900165f987098cece53f06537e1b9b7d"
       },
       {
         "path": "art/source/coast-life-harbor-fish-west.json",
-        "sha256": "059265a5511056faea2592d5741bfd0babce0d1cd728cf8cec7e673a49fddacb"
+        "sha256": "cef6c60381b744c34b1f20ca6bd72d2084e86ac4325eeba4196e93e01b5bc5e1"
       },
       {
         "path": "art/source/coast-life-harbor-gull-north.json",
-        "sha256": "c9c2e6a41a9b77afe1e0401ccd2b6cfd0659cb7843841ee8eb69fc975a2ab2a3"
+        "sha256": "c60aaac10e3ebc70c7feb131eac71c7fbfb3eaedd2073859f673de816f03a83b"
       },
       {
         "path": "art/source/coast-life-harbor-gull-south.json",
-        "sha256": "b8061d64fd48c354bd068b9b1d9506b6e1253d98e1c29a5fea2f3da8705574ab"
+        "sha256": "0926574aae1eb541ff7d1d485117e83906f2ce1a3d7fd9e19b4c98ce92c4f9b3"
       },
       {
         "path": "art/source/coast-life-marine-master.png",
@@ -155,27 +155,27 @@
       },
       {
         "path": "art/source/coast-life-shore-dolphin.json",
-        "sha256": "8934d4e6f08c116eecdd46dc5ec60280d457d2082c2197a25793de1d070bd857"
+        "sha256": "0f68cf1574f72ee9b6193f9e2d0c65c774b415c7cb28885a9b4c088383cd1809"
       },
       {
         "path": "art/source/coast-life-shore-fish-bay.json",
-        "sha256": "a3f25206b8fb2416a0b7997a9536c556c7ff34a618379c406b9f171b430f937e"
+        "sha256": "c5487820d5820927eba0bd9796c0c7a69633a2f9542ae57f8964d742d561f326"
       },
       {
         "path": "art/source/coast-life-shore-fish-west.json",
-        "sha256": "521609f9b428ae7f366a45fa00cde080829a7bedf2d1fa906dd89a8ccf29ef9e"
+        "sha256": "0295d87a84af86e8916cbc078c770c37553b6b748f037182bd94d8a49af08c2b"
       },
       {
         "path": "art/source/coast-life-shore-gull-north.json",
-        "sha256": "727da51ef9847f774dda8ccb5f8289bda61a05549af7289ef555ee367fd56333"
+        "sha256": "f8df7d984dd1cdaf85f2929c65bcc037eb2843104bf5fea1b221ee41dc4d6d18"
       },
       {
         "path": "art/source/coast-life-shore-gull-south.json",
-        "sha256": "bd5a543b9b0f6ba0203c40bec3c23d4350343d87a299c39f761ab620c90b5d12"
+        "sha256": "70d61cdf9e0558159b73cf570d7d69bb45288e7261043e72127569137ccf9dd4"
       },
       {
         "path": "art/source/coast-life-shore-seal.json",
-        "sha256": "1a640630c60a469cc5b500d4ddbca784323fa58d4642f8944bb87c3c02a9efe8"
+        "sha256": "1c4c2d002897653e21cd18755553e6809054441c126291f14272c3259db2a21e"
       },
       {
         "path": "art/source/coast-life-small-props-master.png",
@@ -195,7 +195,7 @@
       },
       {
         "path": "art/source/coastal-flight.json",
-        "sha256": "70664b5c61e53b4463d68edf82e2cd9eaa969284f25f437c24127c42d2939a51"
+        "sha256": "5d3245de820e5275d0ed7fdaad1f2d7ad7e16e83211087ce251cb161df03d019"
       },
       {
         "path": "art/source/expo-captions.json",
@@ -391,7 +391,7 @@
       },
       {
         "path": "art/source/world-ambient-air-district-device-1.json",
-        "sha256": "6c3e794d8b47c9fb65822f609fb01e0ab0915f339f7791cd02c1ab3a4f5bef1b"
+        "sha256": "39f2a199dab45a7f56703c27f2188291fa411ed652a938ebd510cdab34c0464d"
       },
       {
         "path": "art/source/world-ambient-air-district-lamp-2-poses.png",
@@ -399,7 +399,7 @@
       },
       {
         "path": "art/source/world-ambient-air-district-lamp-2.json",
-        "sha256": "6cbb3ec3e87cf11bb080cfb06f3c54344547b3b1e839e25369e7ace8a56ff69f"
+        "sha256": "0fe57b0216525dc1310179f3a024f650b8204b46cd81f7554c219aba455fd407"
       },
       {
         "path": "art/source/world-ambient-approved-fish-strip.png",
@@ -419,7 +419,7 @@
       },
       {
         "path": "art/source/world-ambient-campus-exploration-device-1.json",
-        "sha256": "eff47b60aea85b7a3f7c8adfcf5b76531f501270d78f953d27b4be0f221ad951"
+        "sha256": "9a4fd41d5e39c9b6a152e53c82ec653b5e4e8b22aa3fbe8897e285d8df480f99"
       },
       {
         "path": "art/source/world-ambient-campus-exploration-leaves-2-poses.png",
@@ -427,7 +427,7 @@
       },
       {
         "path": "art/source/world-ambient-campus-exploration-leaves-2.json",
-        "sha256": "0b991c80a07c463f364fa365e897439b193d1518e8486434ebc151684170c943"
+        "sha256": "ff88b06598804254b5e997a0ea66543c4fb40c5716470ee891bc19e1b980d925"
       },
       {
         "path": "art/source/world-ambient-cascade-poses.png",
@@ -439,7 +439,7 @@
       },
       {
         "path": "art/source/world-ambient-comet-maze-lamp-1.json",
-        "sha256": "6f33436119c324b171dbddf13dd4f491303329af1fff669266c7ef4e5f5dad03"
+        "sha256": "903a41aa20f28e9755303d51b901a611bc44a2b8387cf5c7b68c23d55593f085"
       },
       {
         "path": "art/source/world-ambient-comet-maze-lamp-2-poses.png",
@@ -447,7 +447,7 @@
       },
       {
         "path": "art/source/world-ambient-comet-maze-lamp-2.json",
-        "sha256": "4277cfcf469479eda63c90a2395d90f60c16a50b7657379b601a180a04c5541a"
+        "sha256": "fa9b9643e20e29c7ab3ca0e7c3233d497de03ffb9ecc342a128fc0509a7f04a6"
       },
       {
         "path": "art/source/world-ambient-device-poses.png",
@@ -459,7 +459,7 @@
       },
       {
         "path": "art/source/world-ambient-earth-district-device-1.json",
-        "sha256": "60ed682bc6d96d710e3b4f410a4149a0a0a1840228690ccd0ae5a0c1c6a2239b"
+        "sha256": "f1a315836053a6782a0c1ad94640ae3c677e094147e1a6089a34b072706cbf6a"
       },
       {
         "path": "art/source/world-ambient-earth-district-lamp-2-poses.png",
@@ -467,7 +467,7 @@
       },
       {
         "path": "art/source/world-ambient-earth-district-lamp-2.json",
-        "sha256": "d93fbcced89100bafffbf55b68836e662e19415f763e3850ffe49a8602c2ada5"
+        "sha256": "85d6c4fa89a82fa1a645f5e26ae0d3a7dcd575ba9d590f17d3b96a28c7fd4c06"
       },
       {
         "path": "art/source/world-ambient-fa-ship-fish-2-poses.png",
@@ -475,7 +475,7 @@
       },
       {
         "path": "art/source/world-ambient-fa-ship-fish-2.json",
-        "sha256": "5322eff8095889ac33d101c061d8b0d8a0d154d8f90c40307c210599b9b95485"
+        "sha256": "5927cefa860fd9f3ed31fe477d53a4ec0ec01589e8fd1f09f175029aeba55513"
       },
       {
         "path": "art/source/world-ambient-fa-ship-gull-1-poses.png",
@@ -483,7 +483,7 @@
       },
       {
         "path": "art/source/world-ambient-fa-ship-gull-1.json",
-        "sha256": "d9888a79e4e50d87dcde803d83dec265cc030adc5438889ca31eb015b0f5da09"
+        "sha256": "b2fad36b8c29cdc1e051bbf6e5384bab04b91945bc36ae15715dc5147d1b0f88"
       },
       {
         "path": "art/source/world-ambient-fa-ship-interior-lamp-2-poses.png",
@@ -491,7 +491,7 @@
       },
       {
         "path": "art/source/world-ambient-fa-ship-interior-lamp-2.json",
-        "sha256": "7305e5748927f57ecf8a1d89a86bf09e2c51b8a6618677b86a0e75b3df295db8"
+        "sha256": "1e56a8f7ec39b41871e1b3c4506c31346dd30ae0cb71ee5374897a0c6d73245a"
       },
       {
         "path": "art/source/world-ambient-fa-ship-interior-steam-1-lower-poses.png",
@@ -507,11 +507,11 @@
       },
       {
         "path": "art/source/world-ambient-fa-ship-interior-steam-1-upper.json",
-        "sha256": "e63bfc33b3b41f9414fef5917ada6381455b903c1a8a842724da75d5899950be"
+        "sha256": "2af75eaeedba696ff67f5e4f1c4b312d43cd8df47110c81156a7d3a06a0792bb"
       },
       {
         "path": "art/source/world-ambient-fa-ship-interior-steam-1.json",
-        "sha256": "b302663584e44cd5564f1c883d955e6e24e37fafdcfe16538ffef657c79127d5"
+        "sha256": "0b4bc828d0873b4b0ef88629672f27c3cca9a0b5e52d1e299bd36dc63c0b8533"
       },
       {
         "path": "art/source/world-ambient-fire-district-heat-1-poses.png",
@@ -519,7 +519,7 @@
       },
       {
         "path": "art/source/world-ambient-fire-district-heat-1.json",
-        "sha256": "df39676b6e9061ac89f42faf543153b0e485b4a6a9656c298d84002843f35bf0"
+        "sha256": "66e57f91e81c143b8e8342c6f8b6e65c41d2b1c168b31306a1ac2bff0bbba8cd"
       },
       {
         "path": "art/source/world-ambient-fire-district-steam-2-poses.png",
@@ -527,7 +527,7 @@
       },
       {
         "path": "art/source/world-ambient-fire-district-steam-2.json",
-        "sha256": "b6e4ad98ef517db6b88a47985f202c69bc02bd2a870c2e33f974affc36ba3049"
+        "sha256": "eae981217aed4de17ebf30458a1f7652479ca5dbdb7e5e0ddf7241196a4e7b78"
       },
       {
         "path": "art/source/world-ambient-fish-poses.png",
@@ -555,7 +555,7 @@
       },
       {
         "path": "art/source/world-ambient-hidden-observatory-device-2.json",
-        "sha256": "c2f5a8f28f1cfec4d890225010e29ed2fcea558c4fc820bdd7ffbfe4ccb93c60"
+        "sha256": "4f27b052a5ae239bbaba01b185112c5d6e4ed2dd0fa4b4014b6a2a5c0fd16fef"
       },
       {
         "path": "art/source/world-ambient-hidden-observatory-instrument-1-poses.png",
@@ -563,7 +563,7 @@
       },
       {
         "path": "art/source/world-ambient-hidden-observatory-instrument-1.json",
-        "sha256": "7b5f71c5656be4bee6bb10e4fac102751b3f7f48ba8f634ca14bc3bb96fc0cdd"
+        "sha256": "07c90e412d0af1be13d6e10225b7f85278bd40868a962f17789ba4f562455f1f"
       },
       {
         "path": "art/source/world-ambient-lamp-poses.png",
@@ -579,7 +579,7 @@
       },
       {
         "path": "art/source/world-ambient-moon-cafe-bubbles-2.json",
-        "sha256": "371243a58dd963b81fbc49ce1ae58900490b5d1b0eec71fc1fd4bde8b5c010eb"
+        "sha256": "329db5c074fe798d33fe686abd79f9dc315a9db4061ae8013775cd81fc483ce7"
       },
       {
         "path": "art/source/world-ambient-moon-cafe-steam-1-poses.png",
@@ -587,7 +587,7 @@
       },
       {
         "path": "art/source/world-ambient-moon-cafe-steam-1.json",
-        "sha256": "fc227e5fca05f081a2d3902644d451c9290bda0834e3dde5a445c943f296907c"
+        "sha256": "269fa108716b2b5da7598d956cb6e68e25702b1dc5b738ff56bee9f3610fdeed"
       },
       {
         "path": "art/source/world-ambient-moon-grotto-crystal-2-poses.png",
@@ -595,7 +595,7 @@
       },
       {
         "path": "art/source/world-ambient-moon-grotto-crystal-2.json",
-        "sha256": "3018c527b54de06cbf94c48b8e36d452849fc7f73ae3f70839748a14b6b3bf25"
+        "sha256": "56c3e01982ad2109e73bd62cea093f1d95ce5e63b3838d4f9cfa64915f6c03e5"
       },
       {
         "path": "art/source/world-ambient-moon-grotto-ripples-1-poses.png",
@@ -603,7 +603,7 @@
       },
       {
         "path": "art/source/world-ambient-moon-grotto-ripples-1.json",
-        "sha256": "63c76100af7ae83c47b8c738174011ee05be2993286763f93649eef3c0a72e1f"
+        "sha256": "a17ce908f64e60a93144efaac53d5a0e86196f76c6f0b53b5088c4b5748727f3"
       },
       {
         "path": "art/source/world-ambient-nebula-arcade-device-1-poses.png",
@@ -611,7 +611,7 @@
       },
       {
         "path": "art/source/world-ambient-nebula-arcade-device-1.json",
-        "sha256": "cc12532575a27349bf328d563c94bfa6d112aaf2d9d76d98b18b72fdcc14d906"
+        "sha256": "5a297070ba4cf1b1fb6034e620a0c6b17841f88fe383d6f72adce7b2505587db"
       },
       {
         "path": "art/source/world-ambient-nebula-arcade-device-2-poses.png",
@@ -619,7 +619,7 @@
       },
       {
         "path": "art/source/world-ambient-nebula-arcade-device-2.json",
-        "sha256": "1a188c93fadd8591617949b9926c093a5da5fb4dc7c81a1b381fb29b3a7521f7"
+        "sha256": "0029fdce2b400b47e8f49ec2df406dfb4082df70fdd003f30063624ee3791017"
       },
       {
         "path": "art/source/world-ambient-nebula-arcade-device-3-poses.png",
@@ -627,7 +627,7 @@
       },
       {
         "path": "art/source/world-ambient-nebula-arcade-device-3.json",
-        "sha256": "66d51a7ea868b5690756bbe98b1aed950e504a738b6c9a7da23be9296bca0dc4"
+        "sha256": "cc5aa3cb7e52b700de9b2ef94c9a2ce2202f22b521c959f8965d74db580c0b0e"
       },
       {
         "path": "art/source/world-ambient-orbit-maze-lamp-1-poses.png",
@@ -635,7 +635,7 @@
       },
       {
         "path": "art/source/world-ambient-orbit-maze-lamp-1.json",
-        "sha256": "cd174dc0bc58cada9115e6ad05989b3051a35b9b03d686d53fce646af29a50a8"
+        "sha256": "7c6c5a7af0623f1b8e68a9a1633c18ca17af6351e92fddea1840377779604d79"
       },
       {
         "path": "art/source/world-ambient-orbit-maze-lamp-2-poses.png",
@@ -643,7 +643,7 @@
       },
       {
         "path": "art/source/world-ambient-orbit-maze-lamp-2.json",
-        "sha256": "c209944483ad3f5a39890cb1cf8a750d56f0dde67d5d6e0d9c4cd92413ce9df7"
+        "sha256": "a159feb727f7345b45e6ec7da113ded8df2869bc8af2444ea1ed3a440593609c"
       },
       {
         "path": "art/source/world-ambient-orbit-playground-device-1-poses.png",
@@ -651,7 +651,7 @@
       },
       {
         "path": "art/source/world-ambient-orbit-playground-device-1.json",
-        "sha256": "8b4705bee0151e2716047739a798de13e067839a4f7caefadb1deddee5f522d3"
+        "sha256": "921bd7bb6a75260637ca856c7a248fde0e8f704e41deb1457959f8ea64363436"
       },
       {
         "path": "art/source/world-ambient-orbit-playground-leaves-2-poses.png",
@@ -659,7 +659,7 @@
       },
       {
         "path": "art/source/world-ambient-orbit-playground-leaves-2.json",
-        "sha256": "2f4e662c8bbfaad4539615be60e9a10d41e3ea4f13c09cbe4e19b1e729ab0e2c"
+        "sha256": "8a7edd3887c78813b66bb3f8dd025fa1dd87edeee13c86fabb7a0add8170b215"
       },
       {
         "path": "art/source/world-ambient-planter-approved-atlas.png",
@@ -675,7 +675,7 @@
       },
       {
         "path": "art/source/world-ambient-star-garden-leaves-2.json",
-        "sha256": "c7f9958a3e2d461f149b7071bf027b4d578cb491534efeba44a95756f246ab10"
+        "sha256": "c88181f00e391824d7f6c4263054e1934ccd76328b64134d33ffc8022edd077d"
       },
       {
         "path": "art/source/world-ambient-star-garden-ripples-1-poses.png",
@@ -683,7 +683,7 @@
       },
       {
         "path": "art/source/world-ambient-star-garden-ripples-1.json",
-        "sha256": "bc727e08e4d72b7df5bba9edf046ac995cfb126d564c6381294b386520ba2705"
+        "sha256": "116a91d8553fb4ba7b6c8522728051ad5f96285365783d7fbf74bdf1dc7b49f4"
       },
       {
         "path": "art/source/world-ambient-stargazer-terrace-instrument-1-poses.png",
@@ -691,7 +691,7 @@
       },
       {
         "path": "art/source/world-ambient-stargazer-terrace-instrument-1.json",
-        "sha256": "41ee718b56f5f98f237c321c1af319ada54df830ce8a012322be52955e9c14e2"
+        "sha256": "64b594f38d8f69026644444dd96d1bf0e9e446520cd0fae1d2d613cb3f19d6ff"
       },
       {
         "path": "art/source/world-ambient-stargazer-terrace-leaves-2-poses.png",
@@ -699,7 +699,7 @@
       },
       {
         "path": "art/source/world-ambient-stargazer-terrace-leaves-2.json",
-        "sha256": "a7629d46201a9db539733a40d097c9760ab332334859a72a865925dce4e8a068"
+        "sha256": "744e2a00340531bff78d45b247640ad780c6d9ff0513ffb2c6ec6102ec814ca4"
       },
       {
         "path": "art/source/world-ambient-steam-poses.png",
@@ -711,7 +711,7 @@
       },
       {
         "path": "art/source/world-ambient-water-district-cascade-2.json",
-        "sha256": "3a1438d720059dce2eae49e4bf568b22502e944b8726225c997a2a18a533ef5f"
+        "sha256": "8904cec29178c0cae92e5f672f3a3f2aec235de33302dffb30c3f418217d0e56"
       },
       {
         "path": "art/source/world-ambient-water-district-ripples-1-poses.png",
@@ -719,7 +719,7 @@
       },
       {
         "path": "art/source/world-ambient-water-district-ripples-1.json",
-        "sha256": "0e0e5fe2173d2c974ca275477042596840e02bd7cc0b46277ef92407eb8dac65"
+        "sha256": "b0f89a2b455081ae546a31a52ac7ea7a614f749bb826ceb6eba149d0868f2773"
       },
       {
         "path": "art/source/world-ambient-zodiac-festival-park-leaves-2-poses.png",
@@ -727,7 +727,7 @@
       },
       {
         "path": "art/source/world-ambient-zodiac-festival-park-leaves-2.json",
-        "sha256": "b0710bb9a3950891424b7c0b03289831c725e7d2dbcf1be69e247985872021e3"
+        "sha256": "c70e23d9ddc8517b8e815c2ee6bf84843edc1253710bcb3e1e3076c8fc3079de"
       },
       {
         "path": "art/source/world-ambient-zodiac-festival-park-ripples-1-poses.png",
@@ -735,7 +735,7 @@
       },
       {
         "path": "art/source/world-ambient-zodiac-festival-park-ripples-1.json",
-        "sha256": "7078bfde407a636e9c06cc54d286577aacacd086a47695534e24eb08a8b2f50b"
+        "sha256": "80df530be73cc4f39db3a68b12487ce39dbd801ce765b07dc6e4546b989a646e"
       },
       {
         "path": "art/source/world-ambient.json",
@@ -1364,7 +1364,7 @@
       },
       {
         "path": "art/source/plaza-fleet-camera.json",
-        "sha256": "ac834453094765d2741c4c68a47c7bbfd6400feb9ef0add676e51fb68acb0abd"
+        "sha256": "25704c015dda1588ffb8608ce26fc6ec8746909c93c144c100a5bfdacbc3259e"
       },
       {
         "path": "art/source/plaza-fleet-delivery-poses.png",
@@ -1372,7 +1372,7 @@
       },
       {
         "path": "art/source/plaza-fleet-delivery.json",
-        "sha256": "3dd77ecdf8354d04404b4ec7bb4821170352e1398a89d9cb2d215a82c29d2042"
+        "sha256": "f049addd49309ac2b34f8b6e6236db3d21553f6968569d76f40e8c2f4057f61b"
       },
       {
         "path": "art/source/plaza-fleet-original/NOTICE.txt",
@@ -1396,7 +1396,7 @@
       },
       {
         "path": "art/source/plaza-fleet-recipe.json",
-        "sha256": "343db1ef1f79eaf111759651092ae82efeaa61ae152fe971c5f30ce4d41f78f3"
+        "sha256": "56ccb60d6a7d40ad99954ce4c6c90972fbcfad87482427238fa8c713536bd793"
       },
       {
         "path": "art/source/plaza-fleet-survey-poses.png",
@@ -1404,11 +1404,11 @@
       },
       {
         "path": "art/source/plaza-fleet-survey.json",
-        "sha256": "d33d1ae1bc4249ad7022480b99605689ada08a24dffc8779e696dc93a0578669"
+        "sha256": "2ac4a5b3b672258aabb88b07b5d134414b5b8b4fe57b58fe1c967188622d417e"
       },
       {
         "path": "art/source/plaza-fleet.json",
-        "sha256": "907f8bad1060455f7d462289d406e6d16903de039e0b1cf2535b949223f54753"
+        "sha256": "50293823d400f1046b90951b968f0dc63e0cc3a2805e02a48a3e45276e8c36dc"
       },
       {
         "path": "assets/tilesets/original/plaza-fleet-camera.png",

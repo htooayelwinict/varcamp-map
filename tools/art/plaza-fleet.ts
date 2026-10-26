@@ -6,7 +6,7 @@ import{renderNativeMotion}from'./native-motion';
 import type{NativeMotionPose,NativeMotionTrack}from'./native-motion';
 import type{MapLayout,TileRect}from'../maps/types';
 export const FLEET_IDS=['plaza-fleet-camera','plaza-fleet-delivery','plaza-fleet-survey']as const;
-type Aircraft={id:typeof FLEET_IDS[number];type:string;source:string;sourceSha256:string;rect:TileRect;periodMs:number;phaseOffset:number;level:'belowAvatar'};
+type Aircraft={id:typeof FLEET_IDS[number];type:string;source:string;sourceSha256:string;rect:TileRect;periodMs:number;phaseOffset:number;level:'aboveScenery'};
 type Recipe={version:number;sourceId:string;nativePoseBox:number;stepMs:number;maxTotalDecodedRgbaBytes:number;aircraft:Aircraft[]};
 const recipePath='art/source/plaza-fleet-recipe.json',sha=(b:Buffer)=>createHash('sha256').update(b).digest('hex');
 const read=(p:string)=>JSON.parse(readFileSync(p,'utf8'));
@@ -18,7 +18,7 @@ export function assertFleetSafety(layout:MapLayout,recipe:Recipe):void{
  const obstacles=[...layout.placements.filter(p=>!['terrain','atmosphere'].includes(p.layer)),...(layout.images??[]),...layout.entries,...layout.exits,...layout.areas];
  for(const a of recipe.aircraft){
   if(a.id!=='plaza-fleet-'+a.type||a.source!==`art/source/plaza-fleet-original/${a.type}-generated-master.png`||!/^[a-f0-9]{64}$/.test(a.sourceSha256))throw Error('Fleet aircraft type/master binding changed');
-  const r=a.rect;if(a.level!=='belowAvatar'||![r.x,r.y,r.width,r.height,a.periodMs].every(Number.isSafeInteger)||r.x<0||r.y<0||r.width<2||r.height<2||r.width*r.height>=256||r.x+r.width>128||r.y+r.height>128||a.periodMs<12000||a.periodMs>20000||a.periodMs%200||!Number.isFinite(a.phaseOffset)||a.phaseOffset<0||a.phaseOffset>=1)throw Error('Fleet bounded below-avatar lane/clock changed');
+  const r=a.rect;if(a.level!=='aboveScenery'||![r.x,r.y,r.width,r.height,a.periodMs].every(Number.isSafeInteger)||r.x<0||r.y<0||r.width<2||r.height<2||r.width*r.height>=256||r.x+r.width>128||r.y+r.height>128||a.periodMs<12000||a.periodMs>20000||a.periodMs%200||!Number.isFinite(a.phaseOffset)||a.phaseOffset<0||a.phaseOffset>=1)throw Error('Fleet bounded above-scenery lane/clock changed');
   if(obstacles.some(p=>overlaps(r,p)))throw Error('Fleet lane intersects a prop, logo, entry, exit or activity: '+a.id);
  }
  for(let i=0;i<recipe.aircraft.length;i++)for(let j=i+1;j<recipe.aircraft.length;j++)if(overlaps(recipe.aircraft[i].rect,recipe.aircraft[j].rect))throw Error('Fleet lanes overlap');
@@ -52,7 +52,7 @@ export async function renderPlazaFleet(){
    return{x:Math.round(a.rect.width*16-12+(a.rect.width*32-40)/2*Math.cos(angle)),y:Math.round(a.rect.height*16-12+(a.rect.height*32-40)/2*Math.sin(angle)),pose:phase%3*4+direction};
   })};
   for(const s of track.samples)if(s.x<8||s.y<8||s.x+24>a.rect.width*32-8||s.y+24>a.rect.height*32-8)throw Error('Fleet pose escaped its clear lane');
-  const motion=await renderNativeMotion({name:a.id,image:`assets/tilesets/original/${a.id}.png`,sourceId:recipe.sourceId,level:'belowAvatar',rect:a.rect,stepMs:recipe.stepMs,periodMs:a.periodMs,poses,tracks:[track]}),metadataPath=`art/source/${a.id}.json`,posePath=`art/source/${a.id}-poses.png`;
+  const motion=await renderNativeMotion({name:a.id,image:`assets/tilesets/original/${a.id}.png`,sourceId:recipe.sourceId,level:'aboveScenery',rect:a.rect,stepMs:recipe.stepMs,periodMs:a.periodMs,poses,tracks:[track]}),metadataPath=`art/source/${a.id}.json`,posePath=`art/source/${a.id}-poses.png`;
   motion.overlay.provenance={metadataPath,atlasSha256:sha(motion.png),inputs:[recipePath,'tools/art/plaza-fleet.ts','tools/art/native-motion.ts','tools/maps/builder.ts','tools/maps/types.ts'].map(path=>({path,sha256:sha(readFileSync(path))}))};
   const posePng=await sharp(poseAtlas,{raw:{width:128,height:96,channels:4}}).png().toBuffer(),metadata={version:1,id:a.id,type:a.type,source:{path:a.source,sha256:sha(master),width:info.width,height:info.height},recipe:a,stepMs:recipe.stepMs,posePath,crops,poseHashes:poses.map(p=>sha(p.rgba)),track,overlay:motion.overlay,diagnostics:motion.diagnostics};
   aircraft.push({...motion,metadataPath,posePath,posePng,metadata,poses});

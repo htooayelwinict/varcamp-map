@@ -7,7 +7,8 @@ import type {NativeMotionPose,NativeMotionTrack} from './native-motion';
 const sha=(b:Buffer)=>createHash('sha256').update(b).digest('hex');
 const source='art/source/plaza-original/drone-approved-master.png';
 const stepMs=200,periodMs=80000,phaseCount=periodMs/stepMs;
-/** Two full-campus flight circuits; 24px actors, independent of avatar/network motion. */
+/** Two full-campus flight circuits; 24px actors, independent of avatar/network motion.
+ * Every resource flies aboveScenery (closed PLAZA_DRONES class in tools/maps/airborne.ts). */
 export async function renderPlazaDrones(){
  const master=readFileSync(source),{data,info}=await sharp(master).ensureAlpha().raw().toBuffer({resolveWithObject:true});
  if(info.width!==1448||info.height!==1086)throw Error('Approved 4×3 drone master dimensions changed');
@@ -32,7 +33,7 @@ export async function renderPlazaDrones(){
  const resources=[];
  for(const [i,r] of [...rosters.values()].sort((a,b)=>a.gy-b.gy||a.gx-b.gx).entries()){
   const x=Math.min(...r.xs),y=Math.min(...r.ys),width=Math.max(...r.xs)-x+1,height=Math.max(...r.ys)-y+1,name=`plaza-drone-${String(i).padStart(2,'0')}`;
-  const result=await renderNativeMotion({name,image:`assets/tilesets/original/${name}.png`,sourceId:'plaza-original-drones',level:'belowAvatar',rect:{x,y,width,height},stepMs,periodMs,poses,tracks:tracks.map(t=>({...t,samples:t.samples.map(s=>({...s,x:s.x-x*32,y:s.y-y*32}))}))});
+  const result=await renderNativeMotion({name,image:`assets/tilesets/original/${name}.png`,sourceId:'plaza-original-drones',level:'aboveScenery',rect:{x,y,width,height},stepMs,periodMs,poses,tracks:tracks.map(t=>({...t,samples:t.samples.map(s=>({...s,x:s.x-x*32,y:s.y-y*32}))}))});
   const metadataPath=`art/source/${name}.json`;
   result.overlay.provenance={metadataPath,atlasSha256:sha(result.png),inputs:['tools/art/plaza-drones.ts','tools/art/native-motion.ts','tools/maps/builder.ts','tools/maps/types.ts'].map(path=>({path,sha256:sha(readFileSync(path))}))};
   resources.push({...result,metadataPath});

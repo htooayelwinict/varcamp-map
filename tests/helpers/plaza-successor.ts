@@ -20,6 +20,7 @@ import {renderRoadster,renderRoadsterV1,ROADSTER_V2_ATLAS_PATH} from '../../tool
 import {renderPlazaDrones} from '../../tools/art/plaza-drones';
 import {renderPlazaFleet} from '../../tools/art/plaza-fleet';
 import {approvedHistoricalPlaza,approvedHistoricalRaw} from './approved-world-successor';
+import {DRONE_DEPTH_INPUTS,advanceDroneDepthLayout,advanceDroneDepthNative,beforeDroneDepthJson,renumberFreshDroneLayers} from './drone-depth-epoch';
 import type {TileCatalog} from '../../tools/art/catalog';
 import type {MapLayout,TiledMap,TileLayer} from '../../tools/maps/types';
 import contract from '../../world/plaza-floor-garden-native.json';
@@ -35,15 +36,17 @@ const fleetNames=['plaza-fleet-camera','plaza-fleet-delivery','plaza-fleet-surve
 const fleetPngPins=['24e1fb8d757c08aefc12e6f7e27b8103f8a20b55811c26edd4081f48bd529cb0','caf13a85f2e813a64354e823f14ba8f0b027c1df13a60d481a6659d63d1fce57','b391c29129d863be52d51ec529431bcb837c911cd9706042e863c5e02776863e'];
 type Fleet=Awaited<ReturnType<typeof renderPlazaFleet>>['aircraft'];
 /** Independent native extension, not a call back into the projection under
- * test. All65 historical atlases and98 layer bodies remain exact. */
+ * test. All65 historical atlases and98 layer bodies remain exact. The chain runs in the
+ * drone-depth successor space (tests/helpers/drone-depth-epoch.ts): the forty ring drones move to
+ * the native tail and the three fleet drones are appended after them, all aboveScenery. */
 export function appendReviewedFleetNative(original:TiledMap,aircraft:Fleet):TiledMap{
  assert.equal(original.tilesets.length,65);assert.equal(original.layers.length,98);assert.equal(original.nextlayerid,102);
  assert.deepEqual(aircraft.map(a=>a.overlay.name),fleetNames,'Exactly three reviewed fleet types required');
  assert.equal(original.layers[45].name,'Sponsors / Demo 01');assert.equal(original.layers[49].name,'floorLayer');
- const native=structuredClone(original),layers:TileLayer[]=[];let gid=10914;
+ const native=advanceDroneDepthNative(original),layers:TileLayer[]=[];let gid=10914;
  assert.equal(Math.max(...original.tilesets.map(t=>t.firstgid+t.tilecount!)),gid);
  for(const[i,a]of aircraft.entries()){
-  const o=a.overlay;assert.equal(o.level,'belowAvatar');assert.equal(createHash('sha256').update(a.png).digest('hex'),fleetPngPins[i]);
+  const o=a.overlay;assert.equal(o.level,'aboveScenery');assert.equal(createHash('sha256').update(a.png).digest('hex'),fleetPngPins[i]);
   assert.equal(o.image,`assets/tilesets/original/${fleetNames[i]}.png`);assert.ok(a.png.equals(readFileSync(o.image)),'Saved fleet PNG differs from reviewed pure producer');
   const width=a.png.readUInt32BE(16),height=a.png.readUInt32BE(20),count=width/32*height/32;assert.equal(width,512);assert.equal(count,[176,240,272][i]);
   assert.deepEqual([o.x,o.y,o.width,o.height],[[60,62,6,3],[67,70,8,3],[53,69,7,3]][i]);
@@ -51,7 +54,7 @@ export function appendReviewedFleetNative(original:TiledMap,aircraft:Fleet):Tile
   const data=Array(128*128).fill(0);for(let y=0;y<o.height;y++)for(let x=0;x<o.width;x++)data[(o.y+y)*128+o.x+x]=gid+o.carrierTileIds[y*o.width+x];
   layers.push({id:102+i,name:o.name,type:'tilelayer',width:128,height:128,data,visible:true,opacity:1,x:0,y:0});gid+=count;
  }
- native.layers.splice(45,0,...layers);native.nextlayerid=105;return native;
+ native.layers.push(...layers);native.nextlayerid=105;return native;
 }
 /** Approved welcome-plaza retirement: two standing signs with posts, the compass marker, the
  * reception desk and its wide screen. Source IDs and native cells are listed independently;
@@ -130,14 +133,16 @@ export function applyExpoPlazaSuccessor(layout:MapLayout,native:TiledMap,catalog
 export async function expectedPreExpoSuccessor(catalog:TileCatalog):Promise<{layout:MapLayout;native:TiledMap}>{
  for(const [id,s] of Object.entries(plazaGardenSprites()))assert.deepEqual(catalog[id],s,`Original grounded tree/canopy contract ${id}`);
  return (async()=>{
-  assert.equal(createHash('sha256').update(readFileSync('tools/art/plaza-fleet.ts')).digest('hex'),'3ffa9d3b2da3aba95251226725d56516ecfc5e0688944a73d41e178cb3ba6960');
-  assert.equal(createHash('sha256').update(readFileSync('art/source/plaza-fleet-recipe.json')).digest('hex'),'343db1ef1f79eaf111759651092ae82efeaa61ae152fe971c5f30ce4d41f78f3');
+  // The reviewed fleet producer/recipe advanced once, in the drone-depth epoch (level only, belowAvatar -> aboveScenery).
+  assert.equal(DRONE_DEPTH_INPUTS['tools/art/plaza-fleet.ts'][0],'3ffa9d3b2da3aba95251226725d56516ecfc5e0688944a73d41e178cb3ba6960');assert.equal(DRONE_DEPTH_INPUTS['art/source/plaza-fleet-recipe.json'][0],'343db1ef1f79eaf111759651092ae82efeaa61ae152fe971c5f30ce4d41f78f3');
+  assert.equal(createHash('sha256').update(readFileSync('tools/art/plaza-fleet.ts')).digest('hex'),DRONE_DEPTH_INPUTS['tools/art/plaza-fleet.ts'][1]);
+  assert.equal(createHash('sha256').update(readFileSync('art/source/plaza-fleet-recipe.json')).digest('hex'),DRONE_DEPTH_INPUTS['art/source/plaza-fleet-recipe.json'][1]);
   const l=refinePlazaFloorGarden(historicalFloorPlaza('layout') as MapLayout),roadster=await renderRoadsterV1(),drones=await renderPlazaDrones(),fleet=await renderPlazaFleet();// the pre-v2 chain carries the frozen v1 roadster epoch
   l.animatedOverlays=l.animatedOverlays!.filter(o=>o.name!=='roadster'&&!o.name.startsWith('plaza-drone-'));
   l.animatedOverlays.push(roadster.metadata.overlay,...drones.metadata.resources.map(r=>r.overlay));
   // Refine the genuine old65 epoch BEFORE adding fleet source. Passing the
   // historical refiner a current fleet would manufacture an invalid hybrid.
-  const legacy=refineNativePlaza(readFileSync(folder+'before-native.tmj','utf8'),l,catalog);
+  const raw=readFileSync(folder+'before-native.tmj','utf8'),legacy=renumberFreshDroneLayers(refineNativePlaza(raw,l,catalog),JSON.parse(raw));
   const base=approvedHistoricalPlaza();assert.equal(createHash('sha256').update(approvedHistoricalRaw('maps/overworld.tmj')).digest('hex'),'65d9705f7c44078bf7f593b4d966315cac67f0b02029660f7d2666bbd18ebcd8');assert.deepEqual(legacy.tilesets,base.tilesets);
   l.animatedOverlays.push(...fleet.aircraft.map(a=>a.overlay));
   const manual=appendReviewedFleetNative(base,fleet.aircraft);
@@ -212,8 +217,10 @@ export async function expectedPlazaSuccessor(catalog:TileCatalog):Promise<{layou
  const hallNative=reconcileNativeProjection(zodiacNative,buildMap(next,catalog).tmj);
  assert.deepEqual(next,beforePhysicsJson('world/layouts/overworld.json'),'Genuine pre-physics source must match the hall forward operation');
  assert.deepEqual(hallNative,beforePhysicsJson('maps/overworld.tmj'),'Genuine pre-physics native must match the hall forward operation');
- const physical=applyZodiacPhysics(next);
- return {layout:physical,native:reconcileZodiacPhysics(hallNative,physical,catalog)};
+ const physical=applyZodiacPhysics(next),physicalNative=reconcileZodiacPhysics(hallNative,physical,catalog);
+ assert.deepEqual(physical,advanceDroneDepthLayout(beforeDroneDepthJson('world/layouts/overworld.json')),'Genuine pre-drone-depth source must match the physics forward operation');
+ assert.deepEqual(physicalNative,advanceDroneDepthNative(beforeDroneDepthJson('maps/overworld.tmj')),'Genuine pre-drone-depth native must match the physics forward operation');
+ return {layout:physical,native:physicalNative};
 }
 export async function assertPlazaSuccessor(layout:MapLayout,map:TiledMap,catalog:TileCatalog):Promise<void>{
  const expected=await expectedPlazaSuccessor(catalog);

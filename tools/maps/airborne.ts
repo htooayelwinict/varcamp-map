@@ -13,12 +13,20 @@ export const AIRBORNE_BIRDS=[
  {map:'constellation-shore',name:'coast-life-shore-gull-south',x:0,y:37,width:40,height:3,stepMs:100,periodMs:22600},
  {map:'fa-ship',name:'world-ambient-fa-ship-gull-1',x:0,y:17,width:48,height:1,stepMs:200,periodMs:32000},
 ]as const;
-/** The one sponsor aircraft role (2026-10-24 owner decision): it draws above
- * every tile, object and attendee as a purely visual crossing of the spawn
- * strip, so it is deliberately exempt from the bird lane rules (offshore
- * blocked lane, 32px sprite, attendee-envelope alpha). Only this closed row
- * may claim that exemption; every other aboveScenery overlay is a bird. */
-export const AIRCRAFT=[{map:'shipyard-beach',name:'coastal-flight'}]as const;
+/** The closed overworld drone class (2026-10-26 owner decision, "set all
+ * drones at upper layer top of other objects and tiles"): the forty ring drone
+ * resources and the three fleet drones fly above every tile, object and
+ * attendee exactly like the sponsor seaplane. Exactly these43 rows. */
+export const PLAZA_DRONES=[
+ ...Array.from({length:40},(_,i)=>({map:'overworld',name:'plaza-drone-'+String(i).padStart(2,'0')})),
+ {map:'overworld',name:'plaza-fleet-camera'},{map:'overworld',name:'plaza-fleet-delivery'},{map:'overworld',name:'plaza-fleet-survey'},
+]as readonly{map:'overworld';name:string}[];
+/** The sponsor aircraft role (2026-10-24 owner decision) and the overworld
+ * drones above: each draws above every tile, object and attendee as a purely
+ * visual crossing, so it is deliberately exempt from the bird lane rules
+ * (offshore blocked lane, 32px sprite, attendee-envelope alpha). Only these
+ * closed44 rows may claim that exemption; every other aboveScenery overlay is a bird. */
+export const AIRCRAFT=[{map:'shipyard-beach',name:'coastal-flight'},...PLAZA_DRONES]as readonly{map:string;name:string}[];
 export const isCurrentAircraft=(map:string,name:string)=>AIRCRAFT.some(r=>r.map===map&&r.name===name);
 const need=(ok:unknown,m:string):void=>{if(!ok)throw Error('Airborne safety '+m);};
 const overlap=(a:TileRect,b:TileRect)=>a.x<b.x+b.width&&a.x+a.width>b.x&&a.y<b.y+b.height&&a.y+a.height>b.y;
@@ -60,12 +68,15 @@ export function visitAirborneNativePhases(map:TiledMap,o:LayoutAnimatedOverlay,v
   }visit(rgba,t);
  }
 }
-/** One closed airborne class. Native map order has to put birds (and the
- * registered aircraft) after all scenery, while actual bird alpha must remain
- * outside any possible attendee body. */
+/** One closed airborne class. Native map order has to put birds and the
+ * registered aircraft (also on a map without birds, such as the overworld
+ * drones) after all scenery, while actual bird alpha must remain outside any
+ * possible attendee body. */
 export function assertNativeAirborne(map:TiledMap,layout:MapLayout):void{
- assertAirborneSource(layout);const rows=AIRBORNE_BIRDS.filter(r=>r.map===layout.id);if(!rows.length)return;
- const names=(layout.animatedOverlays??[]).filter(o=>o.level==='aboveScenery').map(o=>o.name);need(isDeepStrictEqual(map.layers.slice(-names.length).map(l=>l.name),names),'airborne birds are not at the end of the complete native stack');
+ assertAirborneSource(layout);
+ const names=(layout.animatedOverlays??[]).filter(o=>o.level==='aboveScenery').map(o=>o.name);if(!names.length)return;
+ need(isDeepStrictEqual(map.layers.slice(-names.length).map(l=>l.name),names),'airborne birds are not at the end of the complete native stack');
+ const rows=AIRBORNE_BIRDS.filter(r=>r.map===layout.id);if(!rows.length)return;
  const masks=map.layers.filter(l=>l.name==='physical-collisions');need(masks.length===1&&masks[0].type==='tilelayer','actual physical mask missing');const mask=masks[0];if(mask.type!=='tilelayer')return;
  const w=map.width*32,h=map.height*32,unsafe=Buffer.alloc(w*h);
  // A32px attendee may occupy any point in a walkable32px cell. This conservative

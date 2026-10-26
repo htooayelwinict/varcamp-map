@@ -25120,7 +25120,7 @@
       "name": "plaza-drone-00",
       "image": "assets/tilesets/original/plaza-drone-00.png",
       "sourceId": "plaza-original-drones",
-      "level": "belowAvatar",
+      "level": "aboveScenery",
       "x": 48,
       "y": 12,
       "width": 12,
@@ -25699,7 +25699,7 @@
         "inputs": [
           {
             "path": "tools/art/plaza-drones.ts",
-            "sha256": "326cca89c7dba0b8a4321ce882dca2bfcaa54c47b02ab057df6e103270ed1df6"
+            "sha256": "3d5aaef73b605b81dcc7427432c54027f70fb63141d862918a2f9ce054b37eab"
           },
           {
             "path": "tools/art/native-motion.ts",
@@ -25720,7 +25720,7 @@
       "name": "plaza-drone-01",
       "image": "assets/tilesets/original/plaza-drone-01.png",
       "sourceId": "plaza-original-drones",
-      "level": "belowAvatar",
+      "level": "aboveScenery",
       "x": 60,
       "y": 12,
       "width": 15,
@@ -26513,7 +26513,7 @@
         "inputs": [
           {
             "path": "tools/art/plaza-drones.ts",
-            "sha256": "326cca89c7dba0b8a4321ce882dca2bfcaa54c47b02ab057df6e103270ed1df6"
+            "sha256": "3d5aaef73b605b81dcc7427432c54027f70fb63141d862918a2f9ce054b37eab"
           },
           {
             "path": "tools/art/native-motion.ts",
@@ -26534,7 +26534,7 @@
       "name": "plaza-drone-02",
       "image": "assets/tilesets/original/plaza-drone-02.png",
       "sourceId": "plaza-original-drones",
-      "level": "belowAvatar",
+      "level": "aboveScenery",
       "x": 75,
       "y": 13,
       "width": 5,
@@ -26717,7 +26717,7 @@
         "inputs": [
           {
             "path": "tools/art/plaza-drones.ts",
-            "sha256": "326cca89c7dba0b8a4321ce882dca2bfcaa54c47b02ab057df6e103270ed1df6"
+            "sha256": "3d5aaef73b605b81dcc7427432c54027f70fb63141d862918a2f9ce054b37eab"
           },
           {
             "path": "tools/art/native-motion.ts",
@@ -26738,7 +26738,7 @@
       "name": "plaza-drone-03",
       "image": "assets/tilesets/original/plaza-drone-03.png",
       "sourceId": "plaza-original-drones",
-      "level": "belowAvatar",
+      "level": "aboveScenery",
       "x": 25,
       "y": 25,
       "width": 5,
@@ -27123,7 +27123,7 @@
         "inputs": [
           {
             "path": "tools/art/plaza-drones.ts",
-            "sha256": "326cca89c7dba0b8a4321ce882dca2bfcaa54c47b02ab057df6e103270ed1df6"
+            "sha256": "3d5aaef73b605b81dcc7427432c54027f70fb63141d862918a2f9ce054b37eab"
           },
           {
             "path": "tools/art/native-motion.ts",
@@ -27144,7 +27144,7 @@
       "name": "plaza-drone-04",
       "image": "assets/tilesets/original/plaza-drone-04.png",
       "sourceId": "plaza-original-drones",
-      "level": "belowAvatar",
+      "level": "aboveScenery",
       "x": 30,
       "y": 16,
       "width": 15,
@@ -29193,7 +29193,7 @@
         "inputs": [
           {
             "path": "tools/art/plaza-drones.ts",
-            "sha256": "326cca89c7dba0b8a4321ce882dca2bfcaa54c47b02ab057df6e103270ed1df6"
+            "sha256": "3d5aaef73b605b81dcc7427432c54027f70fb63141d862918a2f9ce054b37eab"
           },
           {
             "path": "tools/art/native-motion.ts",
@@ -29214,7 +29214,7 @@
       "name": "plaza-drone-05",
       "image": "assets/tilesets/original/plaza-drone-05.png",
       "sourceId": "plaza-original-drones",
-      "level": "belowAvatar",
+      "level": "aboveScenery",
       "x": 45,
       "y": 15,
       "width": 6,
@@ -29449,7 +29449,7 @@
         "inputs": [
           {
             "path": "tools/art/plaza-drones.ts",
-            "sha256": "326cca89c7dba0b8a4321ce882dca2bfcaa54c47b02ab057df6e103270ed1df6"
+            "sha256": "3d5aaef73b605b81dcc7427432c54027f70fb63141d862918a2f9ce054b37eab"
           },
           {
             "path": "tools/art/native-motion.ts",
@@ -29470,7 +29470,7 @@
       "name": "plaza-drone-06",
       "image": "assets/tilesets/original/plaza-drone-06.png",
       "sourceId": "plaza-original-drones",
-      "level": "belowAvatar",
+      "level": "aboveScenery",
       "x": 77,
       "y": 15,
       "width": 13,
@@ -30533,7 +30533,7 @@
         "inputs": [
           {
             "path": "tools/art/plaza-drones.ts",
-            "sha256": "326cca89c7dba0b8a4321ce882dca2bfcaa54c47b02ab057df6e103270ed1df6"
+            "sha256": "3d5aaef73b605b81dcc7427432c54027f70fb63141d862918a2f9ce054b37eab"
           },
           {
             "path": "tools/art/native-motion.ts",
@@ -30554,7 +30554,7 @@
       "name": "plaza-drone-07",
       "image": "assets/tilesets/original/plaza-drone-07.png",
       "sourceId": "plaza-original-drones",
-      "level": "belowAvatar",
+      "level": "aboveScenery",
       "x": 90,
       "y": 19,
       "width": 13,
@@ -32339,7 +32339,7 @@
         "inputs": [
           {
             "path": "tools/art/plaza-drones.ts",
-            "sha256": "326cca89c7dba0b8a4321ce882dca2bfcaa54c47b02ab057df6e103270ed1df6"
+            "sha256": "3d5aaef73b605b81dcc7427432c54027f70fb63141d862918a2f9ce054b37eab"
           },
           {
             "path": "tools/art/native-motion.ts",
@@ -32360,7 +32360,7 @@
       "name": "plaza-drone-08",
       "image": "assets/tilesets/original/plaza-drone-08.png",
       "sourceId": "plaza-original-drones",
-      "level": "belowAvatar",
+      "level": "aboveScenery",
       "x": 16,
       "y": 30,
       "width": 11,
@@ -34393,7 +34393,7 @@
         "inputs": [
           {
             "path": "tools/art/plaza-drones.ts",
-            "sha256": "326cca89c7dba0b8a4321ce882dca2bfcaa54c47b02ab057df6e103270ed1df6"
+            "sha256": "3d5aaef73b605b81dcc7427432c54027f70fb63141d862918a2f9ce054b37eab"
           },
           {
             "path": "tools/art/native-motion.ts",
@@ -34414,7 +34414,7 @@
       "name": "plaza-drone-09",
       "image": "assets/tilesets/original/plaza-drone-09.png",
       "sourceId": "plaza-original-drones",
-      "level": "belowAvatar",
+      "level": "aboveScenery",
       "x": 47,
       "y": 38,
       "width": 13,
@@ -35807,7 +35807,7 @@
         "inputs": [
           {
             "path": "tools/art/plaza-drones.ts",
-            "sha256": "326cca89c7dba0b8a4321ce882dca2bfcaa54c47b02ab057df6e103270ed1df6"
+            "sha256": "3d5aaef73b605b81dcc7427432c54027f70fb63141d862918a2f9ce054b37eab"
           },
           {
             "path": "tools/art/native-motion.ts",
@@ -35828,7 +35828,7 @@
       "name": "plaza-drone-10",
       "image": "assets/tilesets/original/plaza-drone-10.png",
       "sourceId": "plaza-original-drones",
-      "level": "belowAvatar",
+      "level": "aboveScenery",
       "x": 60,
       "y": 38,
       "width": 15,
@@ -37031,7 +37031,7 @@
         "inputs": [
           {
             "path": "tools/art/plaza-drones.ts",
-            "sha256": "326cca89c7dba0b8a4321ce882dca2bfcaa54c47b02ab057df6e103270ed1df6"
+            "sha256": "3d5aaef73b605b81dcc7427432c54027f70fb63141d862918a2f9ce054b37eab"
           },
           {
             "path": "tools/art/native-motion.ts",
@@ -37052,7 +37052,7 @@
       "name": "plaza-drone-11",
       "image": "assets/tilesets/original/plaza-drone-11.png",
       "sourceId": "plaza-original-drones",
-      "level": "belowAvatar",
+      "level": "aboveScenery",
       "x": 75,
       "y": 41,
       "width": 6,
@@ -37531,7 +37531,7 @@
         "inputs": [
           {
             "path": "tools/art/plaza-drones.ts",
-            "sha256": "326cca89c7dba0b8a4321ce882dca2bfcaa54c47b02ab057df6e103270ed1df6"
+            "sha256": "3d5aaef73b605b81dcc7427432c54027f70fb63141d862918a2f9ce054b37eab"
           },
           {
             "path": "tools/art/native-motion.ts",
@@ -37552,7 +37552,7 @@
       "name": "plaza-drone-12",
       "image": "assets/tilesets/original/plaza-drone-12.png",
       "sourceId": "plaza-original-drones",
-      "level": "belowAvatar",
+      "level": "aboveScenery",
       "x": 101,
       "y": 30,
       "width": 4,
@@ -37875,7 +37875,7 @@
         "inputs": [
           {
             "path": "tools/art/plaza-drones.ts",
-            "sha256": "326cca89c7dba0b8a4321ce882dca2bfcaa54c47b02ab057df6e103270ed1df6"
+            "sha256": "3d5aaef73b605b81dcc7427432c54027f70fb63141d862918a2f9ce054b37eab"
           },
           {
             "path": "tools/art/native-motion.ts",
@@ -37896,7 +37896,7 @@
       "name": "plaza-drone-13",
       "image": "assets/tilesets/original/plaza-drone-13.png",
       "sourceId": "plaza-original-drones",
-      "level": "belowAvatar",
+      "level": "aboveScenery",
       "x": 105,
       "y": 33,
       "width": 7,
@@ -39011,7 +39011,7 @@
         "inputs": [
           {
             "path": "tools/art/plaza-drones.ts",
-            "sha256": "326cca89c7dba0b8a4321ce882dca2bfcaa54c47b02ab057df6e103270ed1df6"
+            "sha256": "3d5aaef73b605b81dcc7427432c54027f70fb63141d862918a2f9ce054b37eab"
           },
           {
             "path": "tools/art/native-motion.ts",
@@ -39032,7 +39032,7 @@
       "name": "plaza-drone-14",
       "image": "assets/tilesets/original/plaza-drone-14.png",
       "sourceId": "plaza-original-drones",
-      "level": "belowAvatar",
+      "level": "aboveScenery",
       "x": 12,
       "y": 48,
       "width": 3,
@@ -39611,7 +39611,7 @@
         "inputs": [
           {
             "path": "tools/art/plaza-drones.ts",
-            "sha256": "326cca89c7dba0b8a4321ce882dca2bfcaa54c47b02ab057df6e103270ed1df6"
+            "sha256": "3d5aaef73b605b81dcc7427432c54027f70fb63141d862918a2f9ce054b37eab"
           },
           {
             "path": "tools/art/native-motion.ts",
@@ -39632,7 +39632,7 @@
       "name": "plaza-drone-15",
       "image": "assets/tilesets/original/plaza-drone-15.png",
       "sourceId": "plaza-original-drones",
-      "level": "belowAvatar",
+      "level": "aboveScenery",
       "x": 15,
       "y": 45,
       "width": 2,
@@ -39863,7 +39863,7 @@
         "inputs": [
           {
             "path": "tools/art/plaza-drones.ts",
-            "sha256": "326cca89c7dba0b8a4321ce882dca2bfcaa54c47b02ab057df6e103270ed1df6"
+            "sha256": "3d5aaef73b605b81dcc7427432c54027f70fb63141d862918a2f9ce054b37eab"
           },
           {
             "path": "tools/art/native-motion.ts",
@@ -39884,7 +39884,7 @@
       "name": "plaza-drone-16",
       "image": "assets/tilesets/original/plaza-drone-16.png",
       "sourceId": "plaza-original-drones",
-      "level": "belowAvatar",
+      "level": "aboveScenery",
       "x": 38,
       "y": 47,
       "width": 7,
@@ -41293,7 +41293,7 @@
         "inputs": [
           {
             "path": "tools/art/plaza-drones.ts",
-            "sha256": "326cca89c7dba0b8a4321ce882dca2bfcaa54c47b02ab057df6e103270ed1df6"
+            "sha256": "3d5aaef73b605b81dcc7427432c54027f70fb63141d862918a2f9ce054b37eab"
           },
           {
             "path": "tools/art/native-motion.ts",
@@ -41314,7 +41314,7 @@
       "name": "plaza-drone-17",
       "image": "assets/tilesets/original/plaza-drone-17.png",
       "sourceId": "plaza-original-drones",
-      "level": "belowAvatar",
+      "level": "aboveScenery",
       "x": 45,
       "y": 45,
       "width": 4,
@@ -41625,7 +41625,7 @@
         "inputs": [
           {
             "path": "tools/art/plaza-drones.ts",
-            "sha256": "326cca89c7dba0b8a4321ce882dca2bfcaa54c47b02ab057df6e103270ed1df6"
+            "sha256": "3d5aaef73b605b81dcc7427432c54027f70fb63141d862918a2f9ce054b37eab"
           },
           {
             "path": "tools/art/native-motion.ts",
@@ -41646,7 +41646,7 @@
       "name": "plaza-drone-18",
       "image": "assets/tilesets/original/plaza-drone-18.png",
       "sourceId": "plaza-original-drones",
-      "level": "belowAvatar",
+      "level": "aboveScenery",
       "x": 79,
       "y": 45,
       "width": 11,
@@ -43931,7 +43931,7 @@
         "inputs": [
           {
             "path": "tools/art/plaza-drones.ts",
-            "sha256": "326cca89c7dba0b8a4321ce882dca2bfcaa54c47b02ab057df6e103270ed1df6"
+            "sha256": "3d5aaef73b605b81dcc7427432c54027f70fb63141d862918a2f9ce054b37eab"
           },
           {
             "path": "tools/art/native-motion.ts",
@@ -43952,7 +43952,7 @@
       "name": "plaza-drone-19",
       "image": "assets/tilesets/original/plaza-drone-19.png",
       "sourceId": "plaza-original-drones",
-      "level": "belowAvatar",
+      "level": "aboveScenery",
       "x": 111,
       "y": 45,
       "width": 5,
@@ -45017,7 +45017,7 @@
         "inputs": [
           {
             "path": "tools/art/plaza-drones.ts",
-            "sha256": "326cca89c7dba0b8a4321ce882dca2bfcaa54c47b02ab057df6e103270ed1df6"
+            "sha256": "3d5aaef73b605b81dcc7427432c54027f70fb63141d862918a2f9ce054b37eab"
           },
           {
             "path": "tools/art/native-motion.ts",
@@ -45038,7 +45038,7 @@
       "name": "plaza-drone-20",
       "image": "assets/tilesets/original/plaza-drone-20.png",
       "sourceId": "plaza-original-drones",
-      "level": "belowAvatar",
+      "level": "aboveScenery",
       "x": 12,
       "y": 60,
       "width": 3,
@@ -45835,7 +45835,7 @@
         "inputs": [
           {
             "path": "tools/art/plaza-drones.ts",
-            "sha256": "326cca89c7dba0b8a4321ce882dca2bfcaa54c47b02ab057df6e103270ed1df6"
+            "sha256": "3d5aaef73b605b81dcc7427432c54027f70fb63141d862918a2f9ce054b37eab"
           },
           {
             "path": "tools/art/native-motion.ts",
@@ -45856,7 +45856,7 @@
       "name": "plaza-drone-21",
       "image": "assets/tilesets/original/plaza-drone-21.png",
       "sourceId": "plaza-original-drones",
-      "level": "belowAvatar",
+      "level": "aboveScenery",
       "x": 38,
       "y": 60,
       "width": 5,
@@ -47209,7 +47209,7 @@
         "inputs": [
           {
             "path": "tools/art/plaza-drones.ts",
-            "sha256": "326cca89c7dba0b8a4321ce882dca2bfcaa54c47b02ab057df6e103270ed1df6"
+            "sha256": "3d5aaef73b605b81dcc7427432c54027f70fb63141d862918a2f9ce054b37eab"
           },
           {
             "path": "tools/art/native-motion.ts",
@@ -47230,7 +47230,7 @@
       "name": "plaza-drone-22",
       "image": "assets/tilesets/original/plaza-drone-22.png",
       "sourceId": "plaza-original-drones",
-      "level": "belowAvatar",
+      "level": "aboveScenery",
       "x": 85,
       "y": 60,
       "width": 5,
@@ -48583,7 +48583,7 @@
         "inputs": [
           {
             "path": "tools/art/plaza-drones.ts",
-            "sha256": "326cca89c7dba0b8a4321ce882dca2bfcaa54c47b02ab057df6e103270ed1df6"
+            "sha256": "3d5aaef73b605b81dcc7427432c54027f70fb63141d862918a2f9ce054b37eab"
           },
           {
             "path": "tools/art/native-motion.ts",
@@ -48604,7 +48604,7 @@
       "name": "plaza-drone-23",
       "image": "assets/tilesets/original/plaza-drone-23.png",
       "sourceId": "plaza-original-drones",
-      "level": "belowAvatar",
+      "level": "aboveScenery",
       "x": 113,
       "y": 60,
       "width": 3,
@@ -49377,7 +49377,7 @@
         "inputs": [
           {
             "path": "tools/art/plaza-drones.ts",
-            "sha256": "326cca89c7dba0b8a4321ce882dca2bfcaa54c47b02ab057df6e103270ed1df6"
+            "sha256": "3d5aaef73b605b81dcc7427432c54027f70fb63141d862918a2f9ce054b37eab"
           },
           {
             "path": "tools/art/native-motion.ts",
@@ -49398,7 +49398,7 @@
       "name": "plaza-drone-24",
       "image": "assets/tilesets/original/plaza-drone-24.png",
       "sourceId": "plaza-original-drones",
-      "level": "belowAvatar",
+      "level": "aboveScenery",
       "x": 13,
       "y": 75,
       "width": 2,
@@ -49577,7 +49577,7 @@
         "inputs": [
           {
             "path": "tools/art/plaza-drones.ts",
-            "sha256": "326cca89c7dba0b8a4321ce882dca2bfcaa54c47b02ab057df6e103270ed1df6"
+            "sha256": "3d5aaef73b605b81dcc7427432c54027f70fb63141d862918a2f9ce054b37eab"
           },
           {
             "path": "tools/art/native-motion.ts",
@@ -49598,7 +49598,7 @@
       "name": "plaza-drone-25",
       "image": "assets/tilesets/original/plaza-drone-25.png",
       "sourceId": "plaza-original-drones",
-      "level": "belowAvatar",
+      "level": "aboveScenery",
       "x": 15,
       "y": 77,
       "width": 6,
@@ -50661,7 +50661,7 @@
         "inputs": [
           {
             "path": "tools/art/plaza-drones.ts",
-            "sha256": "326cca89c7dba0b8a4321ce882dca2bfcaa54c47b02ab057df6e103270ed1df6"
+            "sha256": "3d5aaef73b605b81dcc7427432c54027f70fb63141d862918a2f9ce054b37eab"
           },
           {
             "path": "tools/art/native-motion.ts",
@@ -50682,7 +50682,7 @@
       "name": "plaza-drone-26",
       "image": "assets/tilesets/original/plaza-drone-26.png",
       "sourceId": "plaza-original-drones",
-      "level": "belowAvatar",
+      "level": "aboveScenery",
       "x": 41,
       "y": 75,
       "width": 4,
@@ -51153,7 +51153,7 @@
         "inputs": [
           {
             "path": "tools/art/plaza-drones.ts",
-            "sha256": "326cca89c7dba0b8a4321ce882dca2bfcaa54c47b02ab057df6e103270ed1df6"
+            "sha256": "3d5aaef73b605b81dcc7427432c54027f70fb63141d862918a2f9ce054b37eab"
           },
           {
             "path": "tools/art/native-motion.ts",
@@ -51174,7 +51174,7 @@
       "name": "plaza-drone-27",
       "image": "assets/tilesets/original/plaza-drone-27.png",
       "sourceId": "plaza-original-drones",
-      "level": "belowAvatar",
+      "level": "aboveScenery",
       "x": 45,
       "y": 79,
       "width": 15,
@@ -53309,7 +53309,7 @@
         "inputs": [
           {
             "path": "tools/art/plaza-drones.ts",
-            "sha256": "326cca89c7dba0b8a4321ce882dca2bfcaa54c47b02ab057df6e103270ed1df6"
+            "sha256": "3d5aaef73b605b81dcc7427432c54027f70fb63141d862918a2f9ce054b37eab"
           },
           {
             "path": "tools/art/native-motion.ts",
@@ -53330,7 +53330,7 @@
       "name": "plaza-drone-28",
       "image": "assets/tilesets/original/plaza-drone-28.png",
       "sourceId": "plaza-original-drones",
-      "level": "belowAvatar",
+      "level": "aboveScenery",
       "x": 60,
       "y": 85,
       "width": 15,
@@ -54655,7 +54655,7 @@
         "inputs": [
           {
             "path": "tools/art/plaza-drones.ts",
-            "sha256": "326cca89c7dba0b8a4321ce882dca2bfcaa54c47b02ab057df6e103270ed1df6"
+            "sha256": "3d5aaef73b605b81dcc7427432c54027f70fb63141d862918a2f9ce054b37eab"
           },
           {
             "path": "tools/art/native-motion.ts",
@@ -54676,7 +54676,7 @@
       "name": "plaza-drone-29",
       "image": "assets/tilesets/original/plaza-drone-29.png",
       "sourceId": "plaza-original-drones",
-      "level": "belowAvatar",
+      "level": "aboveScenery",
       "x": 75,
       "y": 75,
       "width": 12,
@@ -56719,7 +56719,7 @@
         "inputs": [
           {
             "path": "tools/art/plaza-drones.ts",
-            "sha256": "326cca89c7dba0b8a4321ce882dca2bfcaa54c47b02ab057df6e103270ed1df6"
+            "sha256": "3d5aaef73b605b81dcc7427432c54027f70fb63141d862918a2f9ce054b37eab"
           },
           {
             "path": "tools/art/native-motion.ts",
@@ -56740,7 +56740,7 @@
       "name": "plaza-drone-30",
       "image": "assets/tilesets/original/plaza-drone-30.png",
       "sourceId": "plaza-original-drones",
-      "level": "belowAvatar",
+      "level": "aboveScenery",
       "x": 107,
       "y": 75,
       "width": 8,
@@ -58287,7 +58287,7 @@
         "inputs": [
           {
             "path": "tools/art/plaza-drones.ts",
-            "sha256": "326cca89c7dba0b8a4321ce882dca2bfcaa54c47b02ab057df6e103270ed1df6"
+            "sha256": "3d5aaef73b605b81dcc7427432c54027f70fb63141d862918a2f9ce054b37eab"
           },
           {
             "path": "tools/art/native-motion.ts",
@@ -58308,7 +58308,7 @@
       "name": "plaza-drone-31",
       "image": "assets/tilesets/original/plaza-drone-31.png",
       "sourceId": "plaza-original-drones",
-      "level": "belowAvatar",
+      "level": "aboveScenery",
       "x": 19,
       "y": 90,
       "width": 11,
@@ -60117,7 +60117,7 @@
         "inputs": [
           {
             "path": "tools/art/plaza-drones.ts",
-            "sha256": "326cca89c7dba0b8a4321ce882dca2bfcaa54c47b02ab057df6e103270ed1df6"
+            "sha256": "3d5aaef73b605b81dcc7427432c54027f70fb63141d862918a2f9ce054b37eab"
           },
           {
             "path": "tools/art/native-motion.ts",
@@ -60138,7 +60138,7 @@
       "name": "plaza-drone-32",
       "image": "assets/tilesets/original/plaza-drone-32.png",
       "sourceId": "plaza-original-drones",
-      "level": "belowAvatar",
+      "level": "aboveScenery",
       "x": 30,
       "y": 101,
       "width": 5,
@@ -60465,7 +60465,7 @@
         "inputs": [
           {
             "path": "tools/art/plaza-drones.ts",
-            "sha256": "326cca89c7dba0b8a4321ce882dca2bfcaa54c47b02ab057df6e103270ed1df6"
+            "sha256": "3d5aaef73b605b81dcc7427432c54027f70fb63141d862918a2f9ce054b37eab"
           },
           {
             "path": "tools/art/native-motion.ts",
@@ -60486,7 +60486,7 @@
       "name": "plaza-drone-33",
       "image": "assets/tilesets/original/plaza-drone-33.png",
       "sourceId": "plaza-original-drones",
-      "level": "belowAvatar",
+      "level": "aboveScenery",
       "x": 93,
       "y": 93,
       "width": 12,
@@ -62305,7 +62305,7 @@
         "inputs": [
           {
             "path": "tools/art/plaza-drones.ts",
-            "sha256": "326cca89c7dba0b8a4321ce882dca2bfcaa54c47b02ab057df6e103270ed1df6"
+            "sha256": "3d5aaef73b605b81dcc7427432c54027f70fb63141d862918a2f9ce054b37eab"
           },
           {
             "path": "tools/art/native-motion.ts",
@@ -62326,7 +62326,7 @@
       "name": "plaza-drone-34",
       "image": "assets/tilesets/original/plaza-drone-34.png",
       "sourceId": "plaza-original-drones",
-      "level": "belowAvatar",
+      "level": "aboveScenery",
       "x": 105,
       "y": 90,
       "width": 4,
@@ -62653,7 +62653,7 @@
         "inputs": [
           {
             "path": "tools/art/plaza-drones.ts",
-            "sha256": "326cca89c7dba0b8a4321ce882dca2bfcaa54c47b02ab057df6e103270ed1df6"
+            "sha256": "3d5aaef73b605b81dcc7427432c54027f70fb63141d862918a2f9ce054b37eab"
           },
           {
             "path": "tools/art/native-motion.ts",
@@ -62674,7 +62674,7 @@
       "name": "plaza-drone-35",
       "image": "assets/tilesets/original/plaza-drone-35.png",
       "sourceId": "plaza-original-drones",
-      "level": "belowAvatar",
+      "level": "aboveScenery",
       "x": 33,
       "y": 105,
       "width": 12,
@@ -63801,7 +63801,7 @@
         "inputs": [
           {
             "path": "tools/art/plaza-drones.ts",
-            "sha256": "326cca89c7dba0b8a4321ce882dca2bfcaa54c47b02ab057df6e103270ed1df6"
+            "sha256": "3d5aaef73b605b81dcc7427432c54027f70fb63141d862918a2f9ce054b37eab"
           },
           {
             "path": "tools/art/native-motion.ts",
@@ -63822,7 +63822,7 @@
       "name": "plaza-drone-36",
       "image": "assets/tilesets/original/plaza-drone-36.png",
       "sourceId": "plaza-original-drones",
-      "level": "belowAvatar",
+      "level": "aboveScenery",
       "x": 45,
       "y": 111,
       "width": 15,
@@ -64859,7 +64859,7 @@
         "inputs": [
           {
             "path": "tools/art/plaza-drones.ts",
-            "sha256": "326cca89c7dba0b8a4321ce882dca2bfcaa54c47b02ab057df6e103270ed1df6"
+            "sha256": "3d5aaef73b605b81dcc7427432c54027f70fb63141d862918a2f9ce054b37eab"
           },
           {
             "path": "tools/art/native-motion.ts",
@@ -64880,7 +64880,7 @@
       "name": "plaza-drone-37",
       "image": "assets/tilesets/original/plaza-drone-37.png",
       "sourceId": "plaza-original-drones",
-      "level": "belowAvatar",
+      "level": "aboveScenery",
       "x": 60,
       "y": 113,
       "width": 15,
@@ -65665,7 +65665,7 @@
         "inputs": [
           {
             "path": "tools/art/plaza-drones.ts",
-            "sha256": "326cca89c7dba0b8a4321ce882dca2bfcaa54c47b02ab057df6e103270ed1df6"
+            "sha256": "3d5aaef73b605b81dcc7427432c54027f70fb63141d862918a2f9ce054b37eab"
           },
           {
             "path": "tools/art/native-motion.ts",
@@ -65686,7 +65686,7 @@
       "name": "plaza-drone-38",
       "image": "assets/tilesets/original/plaza-drone-38.png",
       "sourceId": "plaza-original-drones",
-      "level": "belowAvatar",
+      "level": "aboveScenery",
       "x": 75,
       "y": 107,
       "width": 15,
@@ -67067,7 +67067,7 @@
         "inputs": [
           {
             "path": "tools/art/plaza-drones.ts",
-            "sha256": "326cca89c7dba0b8a4321ce882dca2bfcaa54c47b02ab057df6e103270ed1df6"
+            "sha256": "3d5aaef73b605b81dcc7427432c54027f70fb63141d862918a2f9ce054b37eab"
           },
           {
             "path": "tools/art/native-motion.ts",
@@ -67088,7 +67088,7 @@
       "name": "plaza-drone-39",
       "image": "assets/tilesets/original/plaza-drone-39.png",
       "sourceId": "plaza-original-drones",
-      "level": "belowAvatar",
+      "level": "aboveScenery",
       "x": 90,
       "y": 105,
       "width": 5,
@@ -67415,7 +67415,7 @@
         "inputs": [
           {
             "path": "tools/art/plaza-drones.ts",
-            "sha256": "326cca89c7dba0b8a4321ce882dca2bfcaa54c47b02ab057df6e103270ed1df6"
+            "sha256": "3d5aaef73b605b81dcc7427432c54027f70fb63141d862918a2f9ce054b37eab"
           },
           {
             "path": "tools/art/native-motion.ts",
@@ -67436,7 +67436,7 @@
       "name": "plaza-fleet-camera",
       "image": "assets/tilesets/original/plaza-fleet-camera.png",
       "sourceId": "plaza-original-drones",
-      "level": "belowAvatar",
+      "level": "aboveScenery",
       "x": 60,
       "y": 62,
       "width": 6,
@@ -68359,11 +68359,11 @@
         "inputs": [
           {
             "path": "art/source/plaza-fleet-recipe.json",
-            "sha256": "343db1ef1f79eaf111759651092ae82efeaa61ae152fe971c5f30ce4d41f78f3"
+            "sha256": "56ccb60d6a7d40ad99954ce4c6c90972fbcfad87482427238fa8c713536bd793"
           },
           {
             "path": "tools/art/plaza-fleet.ts",
-            "sha256": "3ffa9d3b2da3aba95251226725d56516ecfc5e0688944a73d41e178cb3ba6960"
+            "sha256": "1805e418fb36508ea1ba0eda72d9cfbe983919a57f46a413c44deb71b6fd8bac"
           },
           {
             "path": "tools/art/native-motion.ts",
@@ -68384,7 +68384,7 @@
       "name": "plaza-fleet-delivery",
       "image": "assets/tilesets/original/plaza-fleet-delivery.png",
       "sourceId": "plaza-original-drones",
-      "level": "belowAvatar",
+      "level": "aboveScenery",
       "x": 67,
       "y": 70,
       "width": 8,
@@ -69551,11 +69551,11 @@
         "inputs": [
           {
             "path": "art/source/plaza-fleet-recipe.json",
-            "sha256": "343db1ef1f79eaf111759651092ae82efeaa61ae152fe971c5f30ce4d41f78f3"
+            "sha256": "56ccb60d6a7d40ad99954ce4c6c90972fbcfad87482427238fa8c713536bd793"
           },
           {
             "path": "tools/art/plaza-fleet.ts",
-            "sha256": "3ffa9d3b2da3aba95251226725d56516ecfc5e0688944a73d41e178cb3ba6960"
+            "sha256": "1805e418fb36508ea1ba0eda72d9cfbe983919a57f46a413c44deb71b6fd8bac"
           },
           {
             "path": "tools/art/native-motion.ts",
@@ -69576,7 +69576,7 @@
       "name": "plaza-fleet-survey",
       "image": "assets/tilesets/original/plaza-fleet-survey.png",
       "sourceId": "plaza-original-drones",
-      "level": "belowAvatar",
+      "level": "aboveScenery",
       "x": 53,
       "y": 69,
       "width": 7,
@@ -70865,11 +70865,11 @@
         "inputs": [
           {
             "path": "art/source/plaza-fleet-recipe.json",
-            "sha256": "343db1ef1f79eaf111759651092ae82efeaa61ae152fe971c5f30ce4d41f78f3"
+            "sha256": "56ccb60d6a7d40ad99954ce4c6c90972fbcfad87482427238fa8c713536bd793"
           },
           {
             "path": "tools/art/plaza-fleet.ts",
-            "sha256": "3ffa9d3b2da3aba95251226725d56516ecfc5e0688944a73d41e178cb3ba6960"
+            "sha256": "1805e418fb36508ea1ba0eda72d9cfbe983919a57f46a413c44deb71b6fd8bac"
           },
           {
             "path": "tools/art/native-motion.ts",

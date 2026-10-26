@@ -42,16 +42,17 @@ it('uses whole-box clear lanes without props, logos, entrances, exits or activit
   ['room door',(r:typeof recipe)=>{r.aircraft[0].rect={x:101,y:69,width:2,height:2};}],
   ['board',(r:typeof recipe)=>{r.aircraft[0].rect={x:66,y:61,width:6,height:3};}],
   ['above avatar',(r:typeof recipe)=>{r.aircraft[0].level='aboveAvatar';}],
+  ['below avatar',(r:typeof recipe)=>{r.aircraft[0].level='belowAvatar';}],
   ['duplicate',(r:typeof recipe)=>{r.aircraft[1].id=r.aircraft[0].id;}],
   ['aircraft overlap',(r:typeof recipe)=>{r.aircraft[1].rect=r.aircraft[0].rect;}],
  ]as const){const bad=structuredClone(recipe);mutate(bad);expect(()=>assertFleetSafety(layout,bad),name).toThrow();}
 });
-it('emits exact native Phaser RGBA in every moving phase and loop with no collision or avatar occlusion',async()=>{
+it('emits exact native Phaser RGBA in every moving phase and loop with no collision, flying above scenery and avatars',async()=>{
  const result=await renderPlazaFleet(),layout:MapLayout={id:'overworld',width:128,height:128,placements:[],entries:[],exits:[],areas:[],inspectionZones:[],animatedOverlays:result.aircraft.map(a=>a.overlay)},map=buildMap(layout,loadTileCatalog()).tmj as TiledMap,engines=parse(map).tilesets,floor=map.layers.findIndex(l=>l.name==='floorLayer');
  let tested=0;
  for(const a of result.aircraft){
   const o=a.overlay,set=map.tilesets.find(s=>s.name===o.name)!,engine=engines.find((s:{name:string})=>s.name===o.name),{data,info}=await sharp(a.png).ensureAlpha().raw().toBuffer({resolveWithObject:true}),width=o.width*32,height=o.height*32;
-  expect(map.layers.findIndex(l=>l.name===o.name)).toBeLessThan(floor);expect(set.tiles!.every(t=>t.properties?.some(p=>p.name==='collides'&&p.value===false))).toBe(true);expect(o.width*o.height).toBeLessThan(256);expect(data.length).toBeLessThan(4*1024*1024);
+  expect(o.level).toBe('aboveScenery');expect(map.layers.findIndex(l=>l.name===o.name)).toBeGreaterThan(floor);expect(map.layers.slice(-result.aircraft.length).map(l=>l.name)).toEqual(result.aircraft.map(a=>a.overlay.name));expect(set.tiles!.every(t=>t.properties?.some(p=>p.name==='collides'&&p.value===false))).toBe(true);expect(o.width*o.height).toBeLessThan(256);expect(data.length).toBeLessThan(4*1024*1024);
   for(let phase=0;phase<=a.metadata.track.samples.length;phase++){
    const actual=Buffer.alloc(width*height*4),s=a.metadata.track.samples[phase%a.metadata.track.samples.length],pose=a.poses[s.pose!],expected=Buffer.alloc(width*height*4);
    for(let y=0;y<24;y++)pose.rgba.copy(expected,((s.y+y)*width+s.x)*4,y*96,(y+1)*96);

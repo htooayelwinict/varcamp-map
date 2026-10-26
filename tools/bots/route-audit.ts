@@ -4,6 +4,7 @@
 import {createHash} from 'node:crypto';
 import type {TileCatalog} from '../art/catalog';
 import type {MapLayout,TiledMap,TileRect,WamFile} from '../maps/types';
+import {isCurrentAircraft} from '../maps/airborne';
 interface Routes {allowedCells:number[][];startupReservedCells:number[][];home:number[];patrol:number[][];destinations:{id:string;tile:number[];gate:string;onward:string}[]}
 interface Input {map:TiledMap;layout:MapLayout;catalog:TileCatalog;wam:WamFile;routes:Routes}
 const need=(ok:unknown,message:string):void=>{if(!ok)throw Error('Guide route audit: '+message);};
@@ -45,7 +46,10 @@ export function auditGuideRoutes({map,layout,catalog,wam,routes}:Input){
   const exit=l.properties?.some(p=>p.name==='exitUrl')??false;
   if(l.type==='tilelayer'){
    need(l.width===W&&l.height===W&&Array.isArray(l.data)&&l.data.length===N,'unsupported native tile data');
-   for(const [i,gid] of l.data.entries())if(gid){const g=tile(gid);if(collides.has(g))nativeBlocked.add(i);if(exit)nativePortals.add(i);if(z>floor&&l.visible!==false&&(l.opacity??1)>0)nativeRaised.add(i);}
+   // The closed overworld drone class (airborne.ts PLAZA_DRONES) flies above every attendee by owner
+   // decision: a transient 24px crossing, never static raised scenery, so it may pass over the graph.
+   const aircraft=z>floor&&isCurrentAircraft(layout.id,l.name);
+   for(const [i,gid] of l.data.entries())if(gid){const g=tile(gid);if(collides.has(g))nativeBlocked.add(i);if(exit)nativePortals.add(i);if(z>floor&&!aircraft&&l.visible!==false&&(l.opacity??1)>0)nativeRaised.add(i);}
   }else if(l.type==='objectgroup'){
    for(const o of l.objects){
     need(!(o.rotation||o.gid||o.polygon||o.polyline||o.ellipse||o.point),'unsupported native object shape');

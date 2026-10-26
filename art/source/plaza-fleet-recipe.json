@@ -18,7 +18,7 @@
       },
       "periodMs": 12000,
       "phaseOffset": 0,
-      "level": "belowAvatar"
+      "level": "aboveScenery"
     },
     {
       "id": "plaza-fleet-delivery",
@@ -33,7 +33,7 @@
       },
       "periodMs": 16000,
       "phaseOffset": 0.3333333333333333,
-      "level": "belowAvatar"
+      "level": "aboveScenery"
     },
     {
       "id": "plaza-fleet-survey",
@@ -48,7 +48,7 @@
       },
       "periodMs": 20000,
       "phaseOffset": 0.625,
-      "level": "belowAvatar"
+      "level": "aboveScenery"
     }
   ]
 }

@@ -2,8 +2,8 @@
   "provenance": {
     "proposalSha256": "a071e0c81c18ad4b1d759f8c246384fc50032e6e3b7c395413246b9858958282",
     "sourceSha256": {
-      "world/layouts/overworld.json": "6f3ef0f77e1a3276b8dda27323f36083424e0a578d89cf98b1c6868ff4faa3cd",
-      "maps/overworld.tmj": "fec9679fdd384c46c67ed1e854fa705ffdb626514a40638e85b2a642d027fbfb",
+      "world/layouts/overworld.json": "0763fd03cf6b0167aced28b878de08c3eceb4f8b10bc11e4186e0c2c47d09f83",
+      "maps/overworld.tmj": "a721ace704cf2ff15cbc17efa5c27824b78f8b76526cf4f9d3da17865f85888c",
       "maps/overworld.wam": "34912c410e77b9ce32c356275f585a5b8f444187b8f447d346f7542bbe159eff",
       "tests/exterior-gates.test.ts": "4c14be13d0ba12bb4104c9ed65bde28e7e2a88d5229b6869c374dc7b823f1e55",
       "tests/npc-maps.test.ts": "9e0951890a877421e27e13127a1d2243b057c1e89559276d4e5d43d321c8ea57",
@@ -12,12 +12,12 @@
       "world/editor-collections.json": "024e7de19bc32d573b6bb79b77e013e153584ebbfb413436b9991fd467452fc0",
       "tests/helpers/physical-prop-contracts.ts": "209edce85a88345cd3026e3fb3273a10f59fa4353ed89bbe7b6b36b84f61f52f",
       "art/tile-catalog.json": "022bc756bc55fdb661e7fd1a4095659725cc247be376d20b8511891dfd6f7951",
-      "tools/bots/route-audit.ts": "2c429afeee71370eea7441bad7891482124b4e67ddeedc5d9d34b677a23106ce",
+      "tools/bots/route-audit.ts": "5afd01b411c9843095f3c4f5bcf2b968a71e2ddaa02bee738131bb5aef87730d",
       "tests/guide-route-audit.test.ts": "683d17b1f1d15de969e7f753f6fdfb5df30c4bdbfb858f79947914c79c9bcb7e",
       "src/bots/map-guard.ts": "9ee1397f8886e7f11e723f3ee3b7e011692b6352481dd83503739455f7055c15"
     },
     "allowedCellsSha256": "04695f018d0f5f46b0ff52c41afe0c50facdbf5c2db3acf2df06fbaf9e33a0b9",
-    "geometrySha256": "6c6db0ae4b689328c55c3ef23aae0c550ffc26f8b150e5a4c9ae22d23a14e171",
+    "geometrySha256": "48e83ec973c4f7dae57a958a279d1b198efaf68089d7b9af103f39d8bc7e042f",
     "geometryEncoding": "Sorted-key JSON of width,height,tilewidth,tileheight,layers with objectgroup class omitted only when identical to nonempty object type,tilesets excluding image,properties excluding script; UTF-8 SHA-256."
   },
   "home": [

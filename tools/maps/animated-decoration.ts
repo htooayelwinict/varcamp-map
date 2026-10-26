@@ -7,7 +7,7 @@ import{ambientDepthOwner,opaqueAmbientOwnerSupport}from'./world-ambient-depth';
 import{assertAirborneSource,assertNativeAirborne,isCurrentAirborne,isCurrentAircraft}from'./airborne';
 import type{TileCatalog}from'../art/catalog';
 import type{MapLayout,TiledMap,LayoutAnimatedOverlay}from'./types';
-// 'aircraft': the single registered sponsor aircraft drawn above everything (see airborne.ts AIRCRAFT).
+// 'aircraft': the registered sponsor aircraft and the43 overworld drones, drawn above everything (see airborne.ts AIRCRAFT/PLAZA_DRONES).
 type Role={name:string;role:'avatarForeground'|'opaqueOwnerUpper'|'airborne'|'aircraft';owner?:NonNullable<ReturnType<typeof ambientDepthOwner>>&{sheetSha256:string}};
 const read=(p:string)=>JSON.parse(readFileSync(p,'utf8'));
 const sha=(b:Buffer)=>createHash('sha256').update(b).digest('hex');
@@ -33,7 +33,7 @@ export function currentDecorationRoles():Record<string,Role[]>{
   need(isDeepStrictEqual(rows.map((r:Role)=>r.name),sorted(names)),'required role roster/order changed: '+id);
   for(const r of rows){const isUpper=r.role==='opaqueOwnerUpper';need(r&&isDeepStrictEqual(Object.keys(r).sort(),isUpper?['name','owner','role']:['name','role'])&&typeof r.name==='string'&&['avatarForeground','opaqueOwnerUpper','airborne','aircraft'].includes(r.role),'role schema changed');if(isUpper){upper++;need(id==='fa-ship-interior'&&r.owner&&/^[a-f0-9]{64}$/.test(r.owner.sheetSha256),'owning upper family/registration changed');}need((r.role==='airborne')===isCurrentAirborne(id,r.name),'closed airborne role changed');if(r.role==='airborne')airborne++;need((r.role==='aircraft')===isCurrentAircraft(id,r.name),'closed aircraft role changed');if(r.role==='aircraft')aircraft++;count++;}
  }
- need(count===140&&upper===2&&airborne===5&&aircraft===1,'closed140-role/two-upper/one-aircraft ownership count changed');return contract.maps;
+ need(count===140&&upper===2&&airborne===5&&aircraft===44,'closed140-role/two-upper/44-aircraft ownership count changed');return contract.maps;
 }
 /** Shared current author/current acceptance source policy; historical generic
  * builders never call this and retain their independently tested behavior. */

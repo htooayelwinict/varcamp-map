@@ -21,7 +21,7 @@
     },
     "periodMs": 20000,
     "phaseOffset": 0.625,
-    "level": "belowAvatar"
+    "level": "aboveScenery"
   },
   "stepMs": 200,
   "posePath": "art/source/plaza-fleet-survey-poses.png",
@@ -826,7 +826,7 @@
     "name": "plaza-fleet-survey",
     "image": "assets/tilesets/original/plaza-fleet-survey.png",
     "sourceId": "plaza-original-drones",
-    "level": "belowAvatar",
+    "level": "aboveScenery",
     "x": 53,
     "y": 69,
     "width": 7,
@@ -2115,11 +2115,11 @@
       "inputs": [
         {
           "path": "art/source/plaza-fleet-recipe.json",
-          "sha256": "343db1ef1f79eaf111759651092ae82efeaa61ae152fe971c5f30ce4d41f78f3"
+          "sha256": "56ccb60d6a7d40ad99954ce4c6c90972fbcfad87482427238fa8c713536bd793"
         },
         {
           "path": "tools/art/plaza-fleet.ts",
-          "sha256": "3ffa9d3b2da3aba95251226725d56516ecfc5e0688944a73d41e178cb3ba6960"
+          "sha256": "1805e418fb36508ea1ba0eda72d9cfbe983919a57f46a413c44deb71b6fd8bac"
         },
         {
           "path": "tools/art/native-motion.ts",

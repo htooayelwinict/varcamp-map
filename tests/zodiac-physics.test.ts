@@ -8,6 +8,7 @@ import type {TiledMap,MapLayout,TileLayer} from '../tools/maps/types';
 import {assertNativePlaza} from '../tools/maps/plaza-native';
 import {buildMap} from '../tools/maps/builder';
 import {beforeZodiacPhysics,beforePhysicsJson,beforePhysicsRaw} from './helpers/zodiac-physics-history';
+import {droneDepthSuccessorSha} from './helpers/drone-depth-epoch';
 const read=<T=any>(p:string):T=>JSON.parse(readFileSync(p,'utf8'));
 const sha=(b:Buffer|string)=>createHash('sha256').update(b).digest('hex');
 const cell=(x:number,y:number)=>{const m=read<TiledMap>('maps/overworld.tmj'),l=m.layers.find(l=>l.name==='physical-collisions')as TileLayer;return l.data[y*m.width+x];};
@@ -47,8 +48,11 @@ describe('zodiac building physical silhouettes',()=>{
   }
  });
  it('preserves the twelve entrances, returns, every old media byte and all other maps/layouts/WAMs',()=>{
-  const b=beforeZodiacPhysics();for(const[path,pin]of Object.entries({...b.assets,...b.protected}))expect(sha(readFileSync(path)),path).toBe(pin);
-  expect(readFileSync('art/sources.json')).toEqual(beforePhysicsRaw('art/sources.json'));
+  // Later epochs advance a pinned byte only through their closed receipt (drone depth: tests/fixtures/drone-depth).
+  const b=beforeZodiacPhysics();for(const[path,pin]of Object.entries({...b.assets,...b.protected}))expect(sha(readFileSync(path)),path).toBe(droneDepthSuccessorSha(path,pin));
+  const sources=JSON.parse(readFileSync('art/sources.json','utf8')),priorSources=JSON.parse(beforePhysicsRaw('art/sources.json').toString());
+  for(const s of Object.values(priorSources)as{files:{path:string;sha256:string}[]}[])for(const f of s.files)f.sha256=droneDepthSuccessorSha(f.path,f.sha256);
+  expect(sources).toEqual(priorSources);expect(sha(readFileSync('art/sources.json'))).toBe(droneDepthSuccessorSha('art/sources.json',sha(beforePhysicsRaw('art/sources.json'))));
   const l=read<MapLayout>('world/layouts/overworld.json'),old=beforePhysicsJson<MapLayout>('world/layouts/overworld.json');
   for(const key of['entries','exits','areas','signs','inspectionZones','images','animatedOverlays','standingSigns']as const)expect(l[key],key).toEqual(old[key]);
   for(const sign of SIGN_IDS){const p=l.placements.find(p=>p.id===sign+'-building')!;for(const x of[5,6])for(const y of[9,10,11])expect(cell(p.x+x,p.y+y),sign+' clear entrance').toBe(0);}

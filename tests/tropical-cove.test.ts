@@ -4,6 +4,7 @@ import {resolve,dirname} from 'node:path';
 import {createHash} from 'node:crypto';
 import {describe,expect,it} from 'vitest';
 import {loadTileCatalog} from '../tools/art/catalog';
+import {advanceDroneDepthProvenance} from './helpers/drone-depth-epoch';
 import {reconcileTropicalCove} from '../tools/maps/tropical-cove';
 import {assertCoastAerialLayout} from '../tools/maps/coast-aerial';
 import {renderTropicalCove,COVE_IMAGE} from '../tools/art/tropical-cove';
@@ -93,7 +94,7 @@ describe('tropical cove visitor experience',()=>{
  it('preserves every original asset byte, the complete ship and protected aircraft band',()=>{
   for(const[p,h]of Object.entries(baseline().assets))expect(sha(readFileSync(p)),p).toBe(h);
   const l=layout(),old=before('world/layouts/shipyard-beach.json'),ship=(l:any)=>l.placements.filter((p:any)=>p.id.startsWith('lpc-')||p.id.startsWith('harbor-'));
-  expect(ship(l)).toEqual(ship(old));expect(l.animatedOverlays).toEqual(old.animatedOverlays);
+  expect(ship(l)).toEqual(ship(old));expect(l.animatedOverlays).toEqual(advanceDroneDepthProvenance(old).animatedOverlays);
   const band=(l:any)=>surface(l).slice(5*48,8*48);expect(band(l)).toEqual(band(old));
   const mask=(m:any)=>m.layers.find((x:any)=>x.name==='physical-collisions').data.slice(5*48,8*48);expect(mask(native()).map(Boolean)).toEqual(mask(before('maps/shipyard-beach.tmj')).map(Boolean));
  });
