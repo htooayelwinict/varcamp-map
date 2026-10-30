@@ -110,7 +110,7 @@ Journal တွင် အတည်ပြုပြီး၊ သိမ်းဆည�
 | --- | --- | --- |
 | ကြိုဆိုရေး | [Overworld](maps/overworld.tmj) | 128 × 128 tile ရှိပြီး ပြခန်း၊ ဥယျာဉ်နှင့် အနီးပတ်ဝန်းကျင်အဆောက်အဦများ၏ ဝင်ပေါက်များ ပါဝင်ပါသည်။ |
 | အဓိကခန်းမ | [Solar Hall](maps/solar-hall.tmj)၊ [Lunar Hall](maps/lunar-hall.tmj) | တစ်ခန်းလျှင် 64 × 56 tile ရှိသော ဟောပြောပွဲခန်းမနှစ်ခု။ |
-| ဝင်္ကပါ | [Orbit Maze](maps/orbit-maze.tmj)၊ [Comet Maze](maps/comet-maze.tmj) | လမ်းရှာစိန်ခေါ်မှုနှင့် checkpoint ပါသော စိန်ခေါ်မှု။ |
+| ဝင်္ကပါ | [Orbit Maze](maps/orbit-maze.tmj)၊ [Comet Maze](maps/comet-maze.tmj) | Orbit တွင် သစ်ပင်ပန်းပင်များပါသော ဥယျာဉ်ဝင်္ကပါ၊ Comet တွင် ကြယ်စုအလှဆင်နံရံများနှင့် သိမ်းဆည်းရမည့် checkpoint သုံးခု ရှိပါသည်။ နှစ်ခုလုံးတွင် လမ်းမီးများ၊ အမှတ်အသားနေရာများနှင့် အနားယူရာနေရာများ ပါဝင်သည်။ [အတွင်းပိုင်းပြင်ဆင်နည်း](docs/operating/maze-interiors.md)။ |
 | ပွဲတော် | [Zodiac Festival Park](maps/zodiac-festival-park.tmj)၊ [Nebula Arcade](maps/nebula-arcade.tmj)၊ [Orbit Playground](maps/orbit-playground.tmj) | အလွတ်သဘောတွေ့ဆုံခြင်းနှင့် အပန်းဖြေခြင်း။ |
 | ကမ်းခြေ | [Shipyard Beach](maps/shipyard-beach.tmj)၊ [Constellation Shore](maps/constellation-shore.tmj)၊ [FA SHIP](maps/fa-ship.tmj)၊ [Ship Interior](maps/fa-ship-interior.tmj) | ကမ်းခြေကွေ့၊ ပင်လယ်ကမ်းလျှောက်လမ်းနှင့် နှစ်ထပ်သင်္ဘော။ |
 | လေ့လာရေးလမ်းဆုံ | [Campus Exploration](maps/campus-exploration.tmj) | ဓာတ်ကြီးလေးပါးနှင့် အပန်းဖြေနေရာများသို့ ချိတ်ဆက်ပေးပါသည်။ |

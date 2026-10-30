@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "revisions": [
+    {
+      "path": "maps/comet-maze.tmj",
+      "fromSha256": "c120f39182d701310fd4bf458d4d4e32bfdd47057d23b7dd03b1b7ba7d88ac43",
+      "toSha256": "151911265fa69db47a750cdc58ee10e95fb6d96dad02593490d4f385f8491e75",
+      "reason": "Refresh only Orbit and Comet maze interiors with planted wall beds, constellation panels, sconces, court borders and lounge floors using existing native art. Preserve exact collision masks, all controls, existing placements, atlas reservations, animation anchors and WAM bytes."
+    },
+    {
+      "path": "maps/orbit-maze.tmj",
+      "fromSha256": "b30c019721a3fed256d4dad69a83d6010b695bb50e007eb4580f14564b5a802e",
+      "toSha256": "d4bd9fbad77143457b19903cdbbd9da5d0a1582c6b47de06a9b2496d650c3a43",
+      "reason": "Refresh only Orbit and Comet maze interiors with planted wall beds, constellation panels, sconces, court borders and lounge floors using existing native art. Preserve exact collision masks, all controls, existing placements, atlas reservations, animation anchors and WAM bytes."
+    },
+    {
+      "path": "maps/preview/comet-maze.tmj",
+      "fromSha256": "dd5e852ca0f6ffda3cd7303bdd1ec3b448f346bb153fbca4493b0d6264a853b9",
+      "toSha256": "1860fa4a398ae2a0285d9019b84621291241808259e5efb364aedffd9954f852",
+      "reason": "Refresh only Orbit and Comet maze interiors with planted wall beds, constellation panels, sconces, court borders and lounge floors using existing native art. Preserve exact collision masks, all controls, existing placements, atlas reservations, animation anchors and WAM bytes."
+    },
+    {
+      "path": "maps/preview/orbit-maze.tmj",
+      "fromSha256": "806f37d8ee9a1105305cc5f1b76ffea37f6858ef3eb741c8b6972094110bd95f",
+      "toSha256": "4f19576e98877ac4a3df19c73c3c55fa88078a02b711082a0b5ee61e4160bb38",
+      "reason": "Refresh only Orbit and Comet maze interiors with planted wall beds, constellation panels, sconces, court borders and lounge floors using existing native art. Preserve exact collision masks, all controls, existing placements, atlas reservations, animation anchors and WAM bytes."
+    },
+    {
+      "path": "world/layouts/comet-maze.json",
+      "fromSha256": "5bdd7cb5330ea4ecd82314d1c28a9e96b94f56737a2f3f95c89cd5f1205a66a7",
+      "toSha256": "3f8bf77bae2363ebd0ab04b2ad87182df759dcd8c1b7abc1856ac0f35f9707a0",
+      "reason": "Refresh only Orbit and Comet maze interiors with planted wall beds, constellation panels, sconces, court borders and lounge floors using existing native art. Preserve exact collision masks, all controls, existing placements, atlas reservations, animation anchors and WAM bytes."
+    },
+    {
+      "path": "world/layouts/orbit-maze.json",
+      "fromSha256": "cfaa2c0d7bdeeded94d3f9a5c26af63813340d66f9505cb66b12e3a4ad6b1481",
+      "toSha256": "6af63a1738de018b0be33ec6ff0bb3585ebc994f2f38f2105c6d8f08f671d2f6",
+      "reason": "Refresh only Orbit and Comet maze interiors with planted wall beds, constellation panels, sconces, court borders and lounge floors using existing native art. Preserve exact collision masks, all controls, existing placements, atlas reservations, animation anchors and WAM bytes."
+    }
+  ]
+}

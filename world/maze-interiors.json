@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "maps": {
+    "orbit-maze": {
+      "theme": "Moonlit garden labyrinth",
+      "wallBounds": {"x": 2, "y": 2, "width": 76, "height": 62},
+      "wallInfill": "ground-grass",
+      "path": "path-stone",
+      "gardenSprites": ["plaza-tree-flowering", "plaza-lavender", "plaza-tree-round", "plaza-wildflowers", "plaza-shrub", "plaza-flower-bed"],
+      "gardenLimit": 54,
+      "loungeRugs": [
+        {"x": 53, "y": 67, "width": 16, "height": 4, "sprite": "floor-blue"},
+        {"x": 57, "y": 74, "width": 7, "height": 4, "sprite": "floor-cosmic"},
+        {"x": 12, "y": 76, "width": 7, "height": 2, "sprite": "floor-blue"}
+      ]
+    },
+    "comet-maze": {
+      "theme": "Crystal observatory labyrinth",
+      "wallBounds": {"x": 1, "y": 1, "width": 46, "height": 38},
+      "wallInfill": "floor-cosmic",
+      "path": "floor-blue",
+      "constellations": ["aquarius", "gemini", "sagittarius", "capricorn", "libra", "aries"],
+      "galleryLimit": 12,
+      "loungeRugs": [
+        {"x": 14, "y": 43, "width": 8, "height": 3, "sprite": "floor-wood-long"},
+        {"x": 31, "y": 43, "width": 9, "height": 3, "sprite": "floor-wood-long"},
+        {"x": 29, "y": 39, "width": 9, "height": 4, "sprite": "floor-blue"}
+      ]
+    }
+  }
+}

@@ -1,3 +1,4 @@
+import {beforeMazeInteriorLayout,beforeMazeInteriorMap,mazeInteriorSuccessorSha} from './maze-interiors-history';
 import {beforeExpoChairCatalog} from '../../tools/maps/expo-chair-physics';
 import {expoChairSuccessorSha} from './expo-chair-history';
 import assert from 'node:assert/strict';
@@ -9,10 +10,11 @@ const raw=readFileSync('tests/fixtures/maze-gates/before.json.gz');
 assert.equal(createHash('sha256').update(raw).digest('hex'),'21c78da230741c5b61082f51c321e37688255ccbb24aaf9ea9733dded4f738e5');
 const snapshot=JSON.parse(gunzipSync(raw).toString()),before=snapshot.components;
 assert.equal(snapshot.base,'71405c9a9c4fbd780b5f94c174dd06144b4c0b2a');
-export function mazeGateSuccessorSha(path:string,pin:string):string{const t=JSON.parse(readFileSync('tests/fixtures/maze-gates/transitions.json','utf8'));assert.equal(t.base,snapshot.base);const pair=t.transitions[path];if(!pair||pair[0]!==pin)return expoChairSuccessorSha(path,pin);assert.equal(pair[0],snapshot.pins[path]);return expoChairSuccessorSha(path,pair[1]);}
+export function mazeGateSuccessorSha(path:string,pin:string):string{const t=JSON.parse(readFileSync('tests/fixtures/maze-gates/transitions.json','utf8'));assert.equal(t.base,snapshot.base);const pair=t.transitions[path];if(!pair||pair[0]!==pin)return mazeInteriorSuccessorSha(path,expoChairSuccessorSha(path,pin));assert.equal(pair[0],snapshot.pins[path]);return mazeInteriorSuccessorSha(path,expoChairSuccessorSha(path,pair[1]));}
 /** Historical ambient assertions retain their original baseline. Only this
  * exact reviewed successor may be undone; current mutation tests check it too. */
 export function beforeMazeGateLayout(input:any):any{
+ input=beforeMazeInteriorLayout(input);
  const row=(refresh.maps as any)[input.id];if(!row)return input;
  const layout=structuredClone(input);delete layout.animatedOverlays;
  assert.deepEqual(layout,row.layoutAfter);
@@ -22,6 +24,7 @@ export function beforeMazeGateLayout(input:any):any{
  return prior;
 }
 export function beforeMazeGateMap(input:any):any{
+ input=beforeMazeInteriorMap(input);
  const id=input.properties.find((p:any)=>p.name==='worldMapId').value,row=(refresh.maps as any)[id];if(!row)return input;
  const prior=JSON.parse(before[`maps/${id}.tmj`]),map=structuredClone(input);
  for(const change of row.layers){

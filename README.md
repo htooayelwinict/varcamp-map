@@ -102,7 +102,7 @@ Every map below has a native `.tmj` file and a matching `.wam` file under [`maps
 | --- | --- | --- |
 | Arrival | [Overworld](maps/overworld.tmj) | A 128 × 128 tile campus containing the expo, gardens and entrances to the surrounding venues. |
 | Main halls | [Solar Hall](maps/solar-hall.tmj), [Lunar Hall](maps/lunar-hall.tmj) | Two 64 × 56 tile presentation venues. |
-| Mazes | [Orbit Maze](maps/orbit-maze.tmj), [Comet Maze](maps/comet-maze.tmj) | A large navigation challenge followed by a checkpoint-based maze. |
+| Mazes | [Orbit Maze](maps/orbit-maze.tmj), [Comet Maze](maps/comet-maze.tmj) | Orbit's planted garden labyrinth and Comet's constellation gallery, with illuminated paths, landmark courts and rest areas. Comet has three collectible checkpoints. [Interior authoring guide](docs/operating/maze-interiors.md). |
 | Festival | [Zodiac Festival Park](maps/zodiac-festival-park.tmj), [Nebula Arcade](maps/nebula-arcade.tmj), [Orbit Playground](maps/orbit-playground.tmj) | Informal gathering and social play spaces. |
 | Coast | [Shipyard Beach](maps/shipyard-beach.tmj), [Constellation Shore](maps/constellation-shore.tmj), [FA SHIP](maps/fa-ship.tmj), [Ship Interior](maps/fa-ship-interior.tmj) | Tropical cove, waterfront walks and a two-level ship destination. |
 | Exploration hub | [Campus Exploration](maps/campus-exploration.tmj) | Routes to the elemental districts and retreats. |

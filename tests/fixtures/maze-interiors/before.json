@@ -1,0 +1,1627 @@
+{
+  "base": "3486c0f93745d60c71fc5859108a2555d9e51ee3",
+  "maps": {
+    "orbit-maze": {
+      "width": 80,
+      "height": 80,
+      "collisionMask": "0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001111111111111111111111111111111111111111111111111111111111111111111111111111000011111111111111111111111111111111111111111111111111111111111111111111111111110000111111111111111111111111111111111111111111111111111111111111111111111111111100001111111111111111111111111111111111111111111111111111111111111111000000000111000011111111111111111111111111111111111111111111111111111111111111111000000011110000111110000000111110000000111110000000111110000000111110000000111100011100011100001111100000000000000000001111100000000000000000000000000000001111000000000111000011111000000000000000000011111000000000000000000000000000000011110000000001110000111110000000000000000000111110000000000000000000000000000000111100000000001100001111100000000000000000001111100000000000000000000000000000001111000000000011000011111000000000000000000011111000000000000000000000000000000011110000000000110000111110000000111110000000111110000000111110000000111110000000111100000000001100001111110000011111110000011111110000011111111111111111111111111111000000000011000011111100000111111100000111111100000111111111111111111111111111111100000111110000111111000001111111000001111111000001111111111111111111111111111111000001111100001111110000011111110000011111110000011111111111111111111111111111110000011111000011111100000111111100000111000000000001111111111111111111111111111100000111110000111110000000111110000000110000000000011110000000111110000000111110000000111100001111100000001111100000001101110000000000000000001111100000000000000000001111000011111000000011111000000011000000000000000000000011111000000000000000000011110000111110000000111110000000110000000000000000000000111110000000000000000000111100001111100000001111100000001100000000000000000000001111100000000000000000001111000011111000000011111000000011000000000000000000000011111000000000000000000011110000111110000000111110000000110000000000011110000000111110000000111110000000111100001111110000011111111111111100000000000111110000011111110000011111110000011111000011111100000111111111111111111100000111111100000111111100000111111100000111110000111111000001111111111111111111000001111111000001111111000001111111000001111100001111110000011111111111111111110000011111110000011111110000011111110000011111000011111100000111111111111111111100000111111100000111110000000001111100000111110000111110000000111110000000111110000000111110000000111100000000011110000000111100001111100000000000000000000000000000001111100000000000000000000111100000001111000011111000000000000000000000000000000011111000000000000000000001111000000011110000111110000000000000000000000000000000111110000000000000000000011110000000111100001111100000000000000000000000000000001111100000000000000000000111100000001111000011111000000000000000000000000000000011111000000000000000000001111000000011110000111110000000111110000000111110000000111110000000111100000000011110000000111100001111111111111111110000011111111111111111111111111111000000000111111111111111000011111111111111111100000111111111111111111111111111111111111111111111111111110000111111111111111111000001111111111111111111111111111111111111111111111111111100001111111111111111110000011111111111111111111111111111111111111111111111111111000011111111111111111100000001111111111111111111111111111111111111111111111111110000111110000000111111000000011110000000111110000000111110000000111110000000111100001111100000000100010000000111100000000000000000000000000000000000000000001111000011111000000000000000000001111000000000000000000000000000000000000000000011110000111110000000000000000000011110000000000000000000000000000000000000000000111100001111100000000000000000000111100000000000000000000000000000000000000000001111000011111000000000000000000001111000000000000000000000000000000000000000000011110000111110000000100000000000011110000000111110000000111110000000111110000000111100001111110000011000000000000111111111111111111111111111111111111111110000011111000011111100000111111111111111111111111111111111111111111111111111111100000111110000111111000001111111111111111111111111111111111111111111111111111111000001111100001111110000011111111111111111111111111111111111111111111111111111110000011111000011111100000111111111111111111111111111111111111111111111111111111100000111110000111110000000111110000000111110000000111110000000111110000000111110000000111100001111100000000000000000000000000000000000000000000000000000000000000000001111000011111000000000000000000000000000000000000000000000000000000000000000000011110000111110000000000000000000000000000000000000000000000000000000000000000000111100001111100000000000000000000000000000000000000000000000000000000000000000001111000011111000000000000000000000000000000000000000000000000000000000000000000011110000111110000000111110000000111110000000111110000000111110000000111110000000111100001111110000011111111111111111111111111111111111111111111111111111111111111111000011111100000111111111111111111111111111111111111111111111111111111111111111110000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000100000000111100000000010000000000000000000000000000000000000000000000000000000000000111101111111100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001100000000000000001100000000000110000000000000000000100000000000000000000000000100100000000001110000100000000010010010011101001100000010010000000000000000000100000000000000000000000000000000000000000000000000000000000000000000000000000000000111000000000010000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "entries": [
+        {
+          "name": "maze-entry",
+          "isDefault": true,
+          "x": 9,
+          "y": 67,
+          "width": 3,
+          "height": 3
+        },
+        {
+          "name": "from-comet",
+          "x": 70,
+          "y": 70,
+          "width": 2,
+          "height": 2
+        }
+      ],
+      "exits": [
+        {
+          "name": "maze-restart",
+          "destination": "orbit-maze",
+          "entry": "maze-entry",
+          "x": 73,
+          "y": 14,
+          "width": 2,
+          "height": 1
+        },
+        {
+          "name": "campus-return",
+          "destination": "overworld",
+          "entry": "from-maze",
+          "x": 38,
+          "y": 77,
+          "width": 4,
+          "height": 1
+        },
+        {
+          "name": "comet-gate",
+          "destination": "comet-maze",
+          "entry": "comet-entry",
+          "x": 73,
+          "y": 70,
+          "width": 2,
+          "height": 2
+        }
+      ],
+      "areas": [
+        {
+          "id": "maze-finish",
+          "name": "maze-finish",
+          "x": 69,
+          "y": 10,
+          "width": 3,
+          "height": 3,
+          "properties": []
+        },
+        {
+          "id": "maze-quiet",
+          "name": "maze-quiet",
+          "x": 2,
+          "y": 2,
+          "width": 76,
+          "height": 62,
+          "properties": [
+            {
+              "id": "maze-quiet-silent",
+              "type": "silent"
+            }
+          ]
+        },
+        {
+          "id": "quiet-garden",
+          "name": "quiet-garden",
+          "x": 2,
+          "y": 65,
+          "width": 34,
+          "height": 13,
+          "properties": [
+            {
+              "id": "quiet-garden-silent",
+              "type": "silent"
+            }
+          ]
+        },
+        {
+          "id": "maze-social-alcove",
+          "name": "maze-social-alcove",
+          "x": 63,
+          "y": 71,
+          "width": 4,
+          "height": 3,
+          "properties": []
+        }
+      ],
+      "inspectionZones": [
+        {
+          "name": "crescent-fountain",
+          "x": 15,
+          "y": 42,
+          "width": 12,
+          "height": 9,
+          "kind": "landmark"
+        },
+        {
+          "name": "comet-statue",
+          "x": 28,
+          "y": 18,
+          "width": 11,
+          "height": 9,
+          "kind": "landmark"
+        },
+        {
+          "name": "star-ring",
+          "x": 54,
+          "y": 30,
+          "width": 9,
+          "height": 9,
+          "kind": "landmark"
+        },
+        {
+          "name": "finish-shrine",
+          "x": 65,
+          "y": 4,
+          "width": 12,
+          "height": 12,
+          "kind": "auxiliary"
+        },
+        {
+          "name": "quiet-garden",
+          "x": 2,
+          "y": 74,
+          "width": 32,
+          "height": 6,
+          "kind": "auxiliary"
+        },
+        {
+          "name": "maze-social-alcove",
+          "x": 49,
+          "y": 65,
+          "width": 28,
+          "height": 14,
+          "kind": "auxiliary"
+        },
+        {
+          "name": "wall-sector-0-0",
+          "x": 2,
+          "y": 2,
+          "width": 25,
+          "height": 21,
+          "kind": "landmark"
+        },
+        {
+          "name": "wall-sector-0-1",
+          "x": 27,
+          "y": 2,
+          "width": 25,
+          "height": 21,
+          "kind": "landmark"
+        },
+        {
+          "name": "wall-sector-0-2",
+          "x": 52,
+          "y": 2,
+          "width": 25,
+          "height": 21,
+          "kind": "landmark"
+        },
+        {
+          "name": "wall-sector-1-0",
+          "x": 2,
+          "y": 23,
+          "width": 25,
+          "height": 21,
+          "kind": "landmark"
+        },
+        {
+          "name": "wall-sector-1-1",
+          "x": 27,
+          "y": 23,
+          "width": 25,
+          "height": 21,
+          "kind": "landmark"
+        },
+        {
+          "name": "wall-sector-1-2",
+          "x": 52,
+          "y": 23,
+          "width": 25,
+          "height": 21,
+          "kind": "landmark"
+        },
+        {
+          "name": "wall-sector-2-0",
+          "x": 2,
+          "y": 44,
+          "width": 25,
+          "height": 21,
+          "kind": "landmark"
+        },
+        {
+          "name": "wall-sector-2-1",
+          "x": 27,
+          "y": 44,
+          "width": 25,
+          "height": 21,
+          "kind": "landmark"
+        },
+        {
+          "name": "wall-sector-2-2",
+          "x": 52,
+          "y": 44,
+          "width": 25,
+          "height": 21,
+          "kind": "landmark"
+        }
+      ],
+      "signs": [
+        {
+          "name": "crescent-fountain-label",
+          "text": "01  CRESCENT FOUNTAIN",
+          "x": 18,
+          "y": 49,
+          "width": 9,
+          "height": 1,
+          "fontSize": 16,
+          "color": "#f1d9a0",
+          "align": "left"
+        },
+        {
+          "name": "comet-statue-label",
+          "text": "02  COMET COURT",
+          "x": 30,
+          "y": 25,
+          "width": 9,
+          "height": 1,
+          "fontSize": 16,
+          "color": "#f1d9a0",
+          "align": "left"
+        },
+        {
+          "name": "star-ring-label",
+          "text": "03  STAR RING",
+          "x": 54,
+          "y": 37,
+          "width": 9,
+          "height": 1,
+          "fontSize": 16,
+          "color": "#f1d9a0",
+          "align": "left"
+        },
+        {
+          "name": "finish-title",
+          "text": "ORBIT SHRINE",
+          "x": 67,
+          "y": 9,
+          "width": 8,
+          "height": 1,
+          "fontSize": 15,
+          "color": "#f1d9a0",
+          "align": "left"
+        },
+        {
+          "name": "restart-label",
+          "text": "\u2191 RESTART ORBIT",
+          "x": 69,
+          "y": 13,
+          "width": 9,
+          "height": 1,
+          "fontSize": 14,
+          "color": "#fff0b0",
+          "align": "left"
+        },
+        {
+          "name": "maze-title",
+          "text": "ORBIT MAZE",
+          "x": 7,
+          "y": 61,
+          "width": 7,
+          "height": 1,
+          "fontSize": 18,
+          "color": "#f1d9a0",
+          "align": "left"
+        },
+        {
+          "name": "maze-instructions",
+          "text": "01 \u2192 02 \u2192 03\nFIND THE ORBIT SHRINE\nRETURNS VIA SOUTH LANE",
+          "x": 17,
+          "y": 65,
+          "width": 12,
+          "height": 3,
+          "fontSize": 16,
+          "color": "#fff0b0",
+          "align": "left"
+        },
+        {
+          "name": "campus-return-label",
+          "text": "\u2193 ZODIAC PLAZA",
+          "x": 35,
+          "y": 76,
+          "width": 11,
+          "height": 1,
+          "fontSize": 16,
+          "color": "#fff0b0",
+          "align": "left"
+        },
+        {
+          "name": "quiet-nook-label",
+          "text": "QUIET GARDEN",
+          "x": 14,
+          "y": 74,
+          "width": 10,
+          "height": 1,
+          "fontSize": 13,
+          "color": "#f1d9a0",
+          "align": "left"
+        },
+        {
+          "name": "social-alcove-label",
+          "text": "MEET & RELAX",
+          "x": 51,
+          "y": 65,
+          "width": 12,
+          "height": 1,
+          "fontSize": 17,
+          "color": "#17283c",
+          "align": "left"
+        },
+        {
+          "name": "social-alcove-note",
+          "text": "Before or after the maze.",
+          "x": 52,
+          "y": 66,
+          "width": 12,
+          "height": 1,
+          "fontSize": 12,
+          "color": "#17283c",
+          "align": "left"
+        },
+        {
+          "name": "comet-gate-label",
+          "text": "\u2191 COMET MAZE",
+          "x": 68,
+          "y": 72,
+          "width": 9,
+          "height": 1,
+          "fontSize": 15,
+          "color": "#fff0b0",
+          "align": "left"
+        }
+      ],
+      "images": [
+        {
+          "name": "Orbit / VarCamp",
+          "image": "assets/sponsors/varcamp-2026.png",
+          "x": 37,
+          "y": 66,
+          "width": 6,
+          "height": 2
+        }
+      ],
+      "wamSha256": "632d4a3621e971722fd54b79f3518bdffc0e8abc00d393df47ec2acc2afd72c9",
+      "tilesets": [
+        {
+          "firstgid": 1,
+          "name": "art-0",
+          "tilewidth": 32,
+          "tileheight": 32,
+          "columns": 25,
+          "tilecount": 1000,
+          "image": "../assets/tilesets/workadventure/WA_Room_Builder.png",
+          "imagewidth": 800,
+          "imageheight": 1280,
+          "properties": [
+            {
+              "name": "tilesetCopyright",
+              "type": "string",
+              "value": "WorkAdventure / The Coding Machine; preserve all authors and terms in LICENSE.assets; WorkAdventure assets license \u2014 redistribution only with a WorkAdventure map; not a standalone asset pack"
+            }
+          ]
+        },
+        {
+          "firstgid": 1001,
+          "name": "art-1",
+          "tilewidth": 32,
+          "tileheight": 32,
+          "columns": 25,
+          "tilecount": 850,
+          "image": "../assets/tilesets/workadventure/WA_Exterior.png",
+          "imagewidth": 800,
+          "imageheight": 1088,
+          "properties": [
+            {
+              "name": "tilesetCopyright",
+              "type": "string",
+              "value": "WorkAdventure / The Coding Machine; preserve all authors and terms in LICENSE.assets; WorkAdventure assets license \u2014 redistribution only with a WorkAdventure map; not a standalone asset pack"
+            }
+          ]
+        },
+        {
+          "firstgid": 1851,
+          "name": "art-2",
+          "tilewidth": 32,
+          "tileheight": 32,
+          "columns": 16,
+          "tilecount": 304,
+          "image": "../assets/tilesets/original/magic.png",
+          "imagewidth": 512,
+          "imageheight": 608,
+          "properties": [
+            {
+              "name": "tilesetCopyright",
+              "type": "string",
+              "value": "Original VarCamp cosmic pixel artwork created by Codex for this project, 2026; CC0 1.0"
+            }
+          ]
+        },
+        {
+          "firstgid": 2155,
+          "name": "art-3",
+          "tilewidth": 32,
+          "tileheight": 32,
+          "columns": 16,
+          "tilecount": 144,
+          "image": "../assets/tilesets/original/zodiac.png",
+          "imagewidth": 512,
+          "imageheight": 288,
+          "properties": [
+            {
+              "name": "tilesetCopyright",
+              "type": "string",
+              "value": "Original VarCamp cosmic pixel artwork created by Codex for this project, 2026; CC0 1.0"
+            }
+          ]
+        },
+        {
+          "firstgid": 2299,
+          "name": "art-4",
+          "tilewidth": 32,
+          "tileheight": 32,
+          "columns": 14,
+          "tilecount": 112,
+          "image": "../assets/tilesets/lpc-space/scifi_space_rpg_tiles_lpcized_0.png",
+          "imagewidth": 448,
+          "imageheight": 256,
+          "properties": [
+            {
+              "name": "tilesetCopyright",
+              "type": "string",
+              "value": "Ba\u015dto/Basxto, Hyptosis, FunwithPixels and Skorpio; CC-BY-SA 4.0"
+            }
+          ]
+        },
+        {
+          "firstgid": 2411,
+          "name": "art-5",
+          "tilewidth": 32,
+          "tileheight": 32,
+          "columns": 12,
+          "tilecount": 156,
+          "image": "../assets/tilesets/workadventure/WA_Other_Furniture.png",
+          "imagewidth": 384,
+          "imageheight": 416,
+          "properties": [
+            {
+              "name": "tilesetCopyright",
+              "type": "string",
+              "value": "WorkAdventure / The Coding Machine; preserve all authors and terms in LICENSE.assets; WorkAdventure assets license \u2014 redistribution only with a WorkAdventure map; not a standalone asset pack"
+            }
+          ]
+        },
+        {
+          "firstgid": 2567,
+          "name": "art-6",
+          "tilewidth": 32,
+          "tileheight": 32,
+          "columns": 12,
+          "tilecount": 96,
+          "image": "../assets/tilesets/workadventure/WA_Decoration.png",
+          "imagewidth": 384,
+          "imageheight": 256,
+          "properties": [
+            {
+              "name": "tilesetCopyright",
+              "type": "string",
+              "value": "WorkAdventure / The Coding Machine; preserve all authors and terms in LICENSE.assets; WorkAdventure assets license \u2014 redistribution only with a WorkAdventure map; not a standalone asset pack"
+            }
+          ]
+        },
+        {
+          "firstgid": 2663,
+          "name": "art-7",
+          "tilewidth": 32,
+          "tileheight": 32,
+          "columns": 10,
+          "tilecount": 270,
+          "image": "../assets/tilesets/workadventure/WA_Tables.png",
+          "imagewidth": 320,
+          "imageheight": 864,
+          "properties": [
+            {
+              "name": "tilesetCopyright",
+              "type": "string",
+              "value": "WorkAdventure / The Coding Machine; preserve all authors and terms in LICENSE.assets; WorkAdventure assets license \u2014 redistribution only with a WorkAdventure map; not a standalone asset pack"
+            }
+          ]
+        },
+        {
+          "firstgid": 2933,
+          "name": "art-8",
+          "tilewidth": 32,
+          "tileheight": 32,
+          "columns": 13,
+          "tilecount": 182,
+          "image": "../assets/tilesets/workadventure/WA_Seats.png",
+          "imagewidth": 416,
+          "imageheight": 448,
+          "properties": [
+            {
+              "name": "tilesetCopyright",
+              "type": "string",
+              "value": "WorkAdventure / The Coding Machine; preserve all authors and terms in LICENSE.assets; WorkAdventure assets license \u2014 redistribution only with a WorkAdventure map; not a standalone asset pack"
+            }
+          ]
+        },
+        {
+          "firstgid": 3115,
+          "name": "art-9",
+          "tilewidth": 32,
+          "tileheight": 32,
+          "columns": 4,
+          "tilecount": 8,
+          "image": "../assets/tilesets/lpc-office/Water Cooler.png",
+          "imagewidth": 128,
+          "imageheight": 64,
+          "properties": [
+            {
+              "name": "tilesetCopyright",
+              "type": "string",
+              "value": "Eliza Wyatt and Lanea Zimmerman (Sharm); OGA-BY 3.0"
+            }
+          ]
+        },
+        {
+          "firstgid": 3123,
+          "name": "art-10",
+          "tilewidth": 32,
+          "tileheight": 32,
+          "columns": 4,
+          "tilecount": 16,
+          "image": "../assets/tilesets/lpc-office/Laptop.png",
+          "imagewidth": 128,
+          "imageheight": 128,
+          "properties": [
+            {
+              "name": "tilesetCopyright",
+              "type": "string",
+              "value": "Eliza Wyatt and Lanea Zimmerman (Sharm); OGA-BY 3.0"
+            }
+          ]
+        },
+        {
+          "firstgid": 3139,
+          "name": "art-11",
+          "tilewidth": 32,
+          "tileheight": 32,
+          "columns": 8,
+          "tilecount": 16,
+          "image": "../assets/tilesets/original/wayfinding.png",
+          "imagewidth": 256,
+          "imageheight": 64,
+          "properties": [
+            {
+              "name": "tilesetCopyright",
+              "type": "string",
+              "value": "Original VarCamp cosmic pixel artwork created by Codex for this project, 2026; CC0 1.0"
+            }
+          ]
+        },
+        {
+          "firstgid": 3155,
+          "name": "art-12",
+          "tilewidth": 32,
+          "tileheight": 32,
+          "columns": 3,
+          "tilecount": 6,
+          "image": "../assets/tilesets/original/guides.png",
+          "imagewidth": 96,
+          "imageheight": 64,
+          "properties": [
+            {
+              "name": "tilesetCopyright",
+              "type": "string",
+              "value": "Original VarCamp cosmic pixel artwork created by Codex for this project, 2026; CC0 1.0"
+            }
+          ]
+        },
+        {
+          "firstgid": 3161,
+          "name": "navigation-mask",
+          "tilewidth": 32,
+          "tileheight": 32,
+          "columns": 16,
+          "tilecount": 304,
+          "image": "../assets/tilesets/original/magic.png",
+          "imagewidth": 512,
+          "imageheight": 608,
+          "properties": [
+            {
+              "name": "tilesetCopyright",
+              "type": "string",
+              "value": "Original VarCamp cosmic pixel artwork created by Codex for this project, 2026; CC0 1.0"
+            }
+          ],
+          "tiles": [
+            {
+              "id": 0,
+              "properties": [
+                {
+                  "name": "collides",
+                  "type": "bool",
+                  "value": false
+                }
+              ]
+            },
+            {
+              "id": 1,
+              "properties": [
+                {
+                  "name": "collides",
+                  "type": "bool",
+                  "value": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "firstgid": 3477,
+          "name": "plaza-garden",
+          "tilewidth": 32,
+          "tileheight": 32,
+          "columns": 8,
+          "tilecount": 64,
+          "image": "../assets/tilesets/original/plaza-garden.png",
+          "imagewidth": 256,
+          "imageheight": 256,
+          "properties": [
+            {
+              "name": "tilesetCopyright",
+              "type": "string",
+              "value": "Original pixel artwork generated by Codex for VarCamp Myanmar, 2026; Original project artwork; permitted project distribution"
+            }
+          ]
+        },
+        {
+          "firstgid": 3541,
+          "name": "world-ambient-orbit-maze-lamp-1",
+          "tilewidth": 32,
+          "tileheight": 32,
+          "columns": 16,
+          "tilecount": 16,
+          "image": "../assets/tilesets/original/world-ambient-orbit-maze-lamp-1.png",
+          "imagewidth": 512,
+          "imageheight": 32,
+          "properties": [
+            {
+              "name": "tilesetCopyright",
+              "type": "string",
+              "value": "Original VarCamp cosmic pixel artwork created by Codex for this project, 2026; CC0 1.0"
+            }
+          ],
+          "tiles": [
+            {
+              "id": 5,
+              "animation": [
+                {
+                  "tileid": 1,
+                  "duration": 750
+                },
+                {
+                  "tileid": 2,
+                  "duration": 750
+                },
+                {
+                  "tileid": 3,
+                  "duration": 750
+                },
+                {
+                  "tileid": 4,
+                  "duration": 750
+                },
+                {
+                  "tileid": 1,
+                  "duration": 750
+                },
+                {
+                  "tileid": 2,
+                  "duration": 750
+                },
+                {
+                  "tileid": 3,
+                  "duration": 750
+                },
+                {
+                  "tileid": 4,
+                  "duration": 750
+                },
+                {
+                  "tileid": 1,
+                  "duration": 750
+                },
+                {
+                  "tileid": 2,
+                  "duration": 750
+                },
+                {
+                  "tileid": 3,
+                  "duration": 750
+                },
+                {
+                  "tileid": 4,
+                  "duration": 750
+                },
+                {
+                  "tileid": 1,
+                  "duration": 750
+                },
+                {
+                  "tileid": 2,
+                  "duration": 750
+                },
+                {
+                  "tileid": 3,
+                  "duration": 750
+                },
+                {
+                  "tileid": 4,
+                  "duration": 750
+                }
+              ],
+              "properties": [
+                {
+                  "name": "collides",
+                  "type": "bool",
+                  "value": false
+                }
+              ]
+            },
+            {
+              "id": 6,
+              "animation": [
+                {
+                  "tileid": 0,
+                  "duration": 12000
+                }
+              ],
+              "properties": [
+                {
+                  "name": "collides",
+                  "type": "bool",
+                  "value": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "firstgid": 3557,
+          "name": "world-ambient-orbit-maze-lamp-2",
+          "tilewidth": 32,
+          "tileheight": 32,
+          "columns": 16,
+          "tilecount": 16,
+          "image": "../assets/tilesets/original/world-ambient-orbit-maze-lamp-2.png",
+          "imagewidth": 512,
+          "imageheight": 32,
+          "properties": [
+            {
+              "name": "tilesetCopyright",
+              "type": "string",
+              "value": "Original VarCamp cosmic pixel artwork created by Codex for this project, 2026; CC0 1.0"
+            }
+          ],
+          "tiles": [
+            {
+              "id": 5,
+              "animation": [
+                {
+                  "tileid": 1,
+                  "duration": 750
+                },
+                {
+                  "tileid": 2,
+                  "duration": 750
+                },
+                {
+                  "tileid": 3,
+                  "duration": 750
+                },
+                {
+                  "tileid": 4,
+                  "duration": 750
+                },
+                {
+                  "tileid": 1,
+                  "duration": 750
+                },
+                {
+                  "tileid": 2,
+                  "duration": 750
+                },
+                {
+                  "tileid": 3,
+                  "duration": 750
+                },
+                {
+                  "tileid": 4,
+                  "duration": 750
+                },
+                {
+                  "tileid": 1,
+                  "duration": 750
+                },
+                {
+                  "tileid": 2,
+                  "duration": 750
+                },
+                {
+                  "tileid": 3,
+                  "duration": 750
+                },
+                {
+                  "tileid": 4,
+                  "duration": 750
+                },
+                {
+                  "tileid": 1,
+                  "duration": 750
+                },
+                {
+                  "tileid": 2,
+                  "duration": 750
+                },
+                {
+                  "tileid": 3,
+                  "duration": 750
+                },
+                {
+                  "tileid": 4,
+                  "duration": 750
+                }
+              ],
+              "properties": [
+                {
+                  "name": "collides",
+                  "type": "bool",
+                  "value": false
+                }
+              ]
+            },
+            {
+              "id": 6,
+              "animation": [
+                {
+                  "tileid": 0,
+                  "duration": 12000
+                }
+              ],
+              "properties": [
+                {
+                  "name": "collides",
+                  "type": "bool",
+                  "value": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "firstgid": 3573,
+          "name": "plaza-pots",
+          "tilewidth": 32,
+          "tileheight": 32,
+          "columns": 4,
+          "tilecount": 8,
+          "image": "../assets/tilesets/original/plaza-pots.png",
+          "imagewidth": 128,
+          "imageheight": 64,
+          "properties": [
+            {
+              "name": "tilesetCopyright",
+              "type": "string",
+              "value": "Original pixel artwork generated by Codex for VarCamp Myanmar, 2026; Original project artwork; permitted project distribution"
+            }
+          ]
+        },
+        {
+          "firstgid": 3581,
+          "name": "world-ambient-plants",
+          "tilewidth": 32,
+          "tileheight": 32,
+          "columns": 3,
+          "tilecount": 9,
+          "image": "../assets/tilesets/original/world-ambient-plants.png",
+          "imagewidth": 96,
+          "imageheight": 96,
+          "properties": [
+            {
+              "name": "tilesetCopyright",
+              "type": "string",
+              "value": "Original VarCamp cosmic pixel artwork created by Codex for this project, 2026; CC0 1.0"
+            }
+          ]
+        },
+        {
+          "firstgid": 3590,
+          "name": "Orbit / VarCamp",
+          "tilewidth": 32,
+          "tileheight": 32,
+          "columns": 6,
+          "tilecount": 12,
+          "image": "../assets/sponsors/varcamp-2026.png",
+          "imagewidth": 192,
+          "imageheight": 64,
+          "properties": [
+            {
+              "name": "sponsorPanel",
+              "type": "bool",
+              "value": true
+            },
+            {
+              "name": "tilesetCopyright",
+              "type": "string",
+              "value": "Sponsor artwork: see credits/sponsors.json for original attribution and replacement terms."
+            }
+          ]
+        }
+      ]
+    },
+    "comet-maze": {
+      "width": 48,
+      "height": 48,
+      "collisionMask": "111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111110000000011111111111111111111111111111111111111110000000011111100000111100000111100000111100000110000000011111100000000000000111100000000000000110011100011111100000000000000111100000000000000110000000011111100000000000000111100000000000000110000000011111100000111100000111100000111100000110000000011111110001111111111111110001111111111110000000011111110001111111111111110001111111111110000000011111110001111111111111110001111111111110000000011111110001111111111111110001111111111111110001111111100000111100000111110000111100000111100000111111100000111100000000000000000000000111100000111111100000111100000000000000000000000111100000111111100000111100000000000000000000000111100000111111100000111100000111100000111100000111100000111111110001111110001111110001111110001111110001111111110001111110001111110001111110001111110001111111110001111110001111110001111110001111110001111111110001111110001111110001111110001111110001111111100000111100000111100000111100000111110000111111100000111100000000000000000000000000000000111111100000111100000000000000000000000000000000111111100000111100000000000000000000000000000000111111100000111100000111100000111100000111100000111111110001111110001111110001111110001111111111111111110001111110001111110001111110001111111111111111110001111110001111110001111110001111111111111111110001111110001111110001111110001111111111111111100000111110000111100000111100000111100000111111100000000000000000000000000000000000000000111111100000000000000000000000000000000000000000111111100000000000000000000000000000000000000000111111100000111100000111100000111100000111100000111111110001111111111111111111111111111111111111111111110001111111111111111111111111111111111111111111110001111111111111111111111111111111111111111110000000000000000000000000000000000000000000011110000000000000000000000000000000000000000000011110000000000000000000000000000000000000000000011110000000000000000000000000000000000000000000011110000000000000000000000000000000000000000000011110000000000000001100000000000000000000000010011110000000000000010010000000000010001110000000011110000000000000000000000000000000000000000000011111111111111111111111111111111111111111111111111",
+      "entries": [
+        {
+          "name": "comet-entry",
+          "isDefault": true,
+          "x": 5,
+          "y": 41,
+          "width": 3,
+          "height": 2
+        }
+      ],
+      "exits": [
+        {
+          "name": "orbit-return",
+          "destination": "orbit-maze",
+          "entry": "from-comet",
+          "x": 5,
+          "y": 45,
+          "width": 3,
+          "height": 1
+        },
+        {
+          "name": "plaza-return",
+          "destination": "overworld",
+          "entry": "from-maze",
+          "x": 26,
+          "y": 45,
+          "width": 2,
+          "height": 1
+        }
+      ],
+      "areas": [
+        {
+          "id": "comet-checkpoint-1",
+          "name": "comet-checkpoint-1",
+          "x": 14,
+          "y": 32,
+          "width": 3,
+          "height": 3,
+          "properties": []
+        },
+        {
+          "id": "comet-checkpoint-2",
+          "name": "comet-checkpoint-2",
+          "x": 23,
+          "y": 14,
+          "width": 3,
+          "height": 3,
+          "properties": []
+        },
+        {
+          "id": "comet-checkpoint-3",
+          "name": "comet-checkpoint-3",
+          "x": 41,
+          "y": 23,
+          "width": 3,
+          "height": 3,
+          "properties": []
+        },
+        {
+          "id": "comet-finish",
+          "name": "comet-finish",
+          "x": 40,
+          "y": 7,
+          "width": 3,
+          "height": 3,
+          "properties": []
+        }
+      ],
+      "inspectionZones": [
+        {
+          "name": "comet-lobby",
+          "kind": "auxiliary",
+          "x": 2,
+          "y": 39,
+          "width": 44,
+          "height": 8
+        },
+        {
+          "name": "comet-finish-court",
+          "kind": "auxiliary",
+          "x": 38,
+          "y": 2,
+          "width": 8,
+          "height": 10
+        }
+      ],
+      "signs": [
+        {
+          "name": "checkpoint-label-1",
+          "text": "01  CRYSTAL",
+          "x": 13,
+          "y": 29,
+          "width": 5,
+          "height": 1,
+          "fontSize": 17,
+          "color": "#f1d9a0",
+          "align": "left"
+        },
+        {
+          "name": "checkpoint-label-2",
+          "text": "02  CRYSTAL",
+          "x": 22,
+          "y": 11,
+          "width": 5,
+          "height": 1,
+          "fontSize": 17,
+          "color": "#f1d9a0",
+          "align": "left"
+        },
+        {
+          "name": "checkpoint-label-3",
+          "text": "03  CRYSTAL",
+          "x": 40,
+          "y": 20,
+          "width": 5,
+          "height": 1,
+          "fontSize": 17,
+          "color": "#f1d9a0",
+          "align": "left"
+        },
+        {
+          "name": "finish-title",
+          "text": "COMET SHRINE",
+          "x": 38,
+          "y": 2,
+          "width": 8,
+          "height": 1,
+          "fontSize": 17,
+          "color": "#f1d9a0",
+          "align": "left"
+        },
+        {
+          "name": "maze-title",
+          "text": "COMET",
+          "x": 4,
+          "y": 36,
+          "width": 5,
+          "height": 1,
+          "fontSize": 18,
+          "color": "#f1d9a0",
+          "align": "left"
+        },
+        {
+          "name": "maze-instructions",
+          "text": "FIND THE THREE CRYSTALS\nTHEN REACH THE SHRINE\nRETURNS \u2193",
+          "x": 12,
+          "y": 40,
+          "width": 12,
+          "height": 3,
+          "fontSize": 16,
+          "color": "#fff0b0",
+          "align": "left"
+        },
+        {
+          "name": "return-label",
+          "text": "\u2193 ORBIT MAZE",
+          "x": 3,
+          "y": 44,
+          "width": 9,
+          "height": 1,
+          "fontSize": 16,
+          "color": "#fff0b0",
+          "align": "left"
+        },
+        {
+          "name": "plaza-return-label",
+          "text": "\u2193 PLAZA",
+          "fontSize": 16,
+          "color": "#fff0b0",
+          "x": 24,
+          "y": 44,
+          "width": 7,
+          "height": 1,
+          "align": "left"
+        }
+      ],
+      "images": [
+        {
+          "name": "Comet / VarCamp",
+          "image": "assets/sponsors/varcamp-2026.png",
+          "x": 30,
+          "y": 40,
+          "width": 6,
+          "height": 2
+        }
+      ],
+      "wamSha256": "9bc9c08ee62056fe3c849e837433af0feb3d920e36dd55afd7e4d697a94220da",
+      "tilesets": [
+        {
+          "firstgid": 1,
+          "name": "art-0",
+          "tilewidth": 32,
+          "tileheight": 32,
+          "columns": 25,
+          "tilecount": 1000,
+          "image": "../assets/tilesets/workadventure/WA_Room_Builder.png",
+          "imagewidth": 800,
+          "imageheight": 1280,
+          "properties": [
+            {
+              "name": "tilesetCopyright",
+              "type": "string",
+              "value": "WorkAdventure / The Coding Machine; preserve all authors and terms in LICENSE.assets; WorkAdventure assets license \u2014 redistribution only with a WorkAdventure map; not a standalone asset pack"
+            }
+          ]
+        },
+        {
+          "firstgid": 1001,
+          "name": "art-1",
+          "tilewidth": 32,
+          "tileheight": 32,
+          "columns": 25,
+          "tilecount": 850,
+          "image": "../assets/tilesets/workadventure/WA_Exterior.png",
+          "imagewidth": 800,
+          "imageheight": 1088,
+          "properties": [
+            {
+              "name": "tilesetCopyright",
+              "type": "string",
+              "value": "WorkAdventure / The Coding Machine; preserve all authors and terms in LICENSE.assets; WorkAdventure assets license \u2014 redistribution only with a WorkAdventure map; not a standalone asset pack"
+            }
+          ]
+        },
+        {
+          "firstgid": 1851,
+          "name": "art-2",
+          "tilewidth": 32,
+          "tileheight": 32,
+          "columns": 14,
+          "tilecount": 112,
+          "image": "../assets/tilesets/lpc-space/scifi_space_rpg_tiles_lpcized_0.png",
+          "imagewidth": 448,
+          "imageheight": 256,
+          "properties": [
+            {
+              "name": "tilesetCopyright",
+              "type": "string",
+              "value": "Ba\u015dto/Basxto, Hyptosis, FunwithPixels and Skorpio; CC-BY-SA 4.0"
+            }
+          ]
+        },
+        {
+          "firstgid": 1963,
+          "name": "art-3",
+          "tilewidth": 32,
+          "tileheight": 32,
+          "columns": 16,
+          "tilecount": 304,
+          "image": "../assets/tilesets/original/magic.png",
+          "imagewidth": 512,
+          "imageheight": 608,
+          "properties": [
+            {
+              "name": "tilesetCopyright",
+              "type": "string",
+              "value": "Original VarCamp cosmic pixel artwork created by Codex for this project, 2026; CC0 1.0"
+            }
+          ]
+        },
+        {
+          "firstgid": 2267,
+          "name": "art-4",
+          "tilewidth": 32,
+          "tileheight": 32,
+          "columns": 16,
+          "tilecount": 144,
+          "image": "../assets/tilesets/original/zodiac.png",
+          "imagewidth": 512,
+          "imageheight": 288,
+          "properties": [
+            {
+              "name": "tilesetCopyright",
+              "type": "string",
+              "value": "Original VarCamp cosmic pixel artwork created by Codex for this project, 2026; CC0 1.0"
+            }
+          ]
+        },
+        {
+          "firstgid": 2411,
+          "name": "art-5",
+          "tilewidth": 32,
+          "tileheight": 32,
+          "columns": 13,
+          "tilecount": 182,
+          "image": "../assets/tilesets/workadventure/WA_Seats.png",
+          "imagewidth": 416,
+          "imageheight": 448,
+          "properties": [
+            {
+              "name": "tilesetCopyright",
+              "type": "string",
+              "value": "WorkAdventure / The Coding Machine; preserve all authors and terms in LICENSE.assets; WorkAdventure assets license \u2014 redistribution only with a WorkAdventure map; not a standalone asset pack"
+            }
+          ]
+        },
+        {
+          "firstgid": 2593,
+          "name": "art-6",
+          "tilewidth": 32,
+          "tileheight": 32,
+          "columns": 10,
+          "tilecount": 270,
+          "image": "../assets/tilesets/workadventure/WA_Tables.png",
+          "imagewidth": 320,
+          "imageheight": 864,
+          "properties": [
+            {
+              "name": "tilesetCopyright",
+              "type": "string",
+              "value": "WorkAdventure / The Coding Machine; preserve all authors and terms in LICENSE.assets; WorkAdventure assets license \u2014 redistribution only with a WorkAdventure map; not a standalone asset pack"
+            }
+          ]
+        },
+        {
+          "firstgid": 2863,
+          "name": "art-7",
+          "tilewidth": 32,
+          "tileheight": 32,
+          "columns": 12,
+          "tilecount": 96,
+          "image": "../assets/tilesets/workadventure/WA_Decoration.png",
+          "imagewidth": 384,
+          "imageheight": 256,
+          "properties": [
+            {
+              "name": "tilesetCopyright",
+              "type": "string",
+              "value": "WorkAdventure / The Coding Machine; preserve all authors and terms in LICENSE.assets; WorkAdventure assets license \u2014 redistribution only with a WorkAdventure map; not a standalone asset pack"
+            }
+          ]
+        },
+        {
+          "firstgid": 2959,
+          "name": "art-8",
+          "tilewidth": 32,
+          "tileheight": 32,
+          "columns": 8,
+          "tilecount": 16,
+          "image": "../assets/tilesets/original/wayfinding.png",
+          "imagewidth": 256,
+          "imageheight": 64,
+          "properties": [
+            {
+              "name": "tilesetCopyright",
+              "type": "string",
+              "value": "Original VarCamp cosmic pixel artwork created by Codex for this project, 2026; CC0 1.0"
+            }
+          ]
+        },
+        {
+          "firstgid": 2975,
+          "name": "art-9",
+          "tilewidth": 32,
+          "tileheight": 32,
+          "columns": 3,
+          "tilecount": 6,
+          "image": "../assets/tilesets/original/guides.png",
+          "imagewidth": 96,
+          "imageheight": 64,
+          "properties": [
+            {
+              "name": "tilesetCopyright",
+              "type": "string",
+              "value": "Original VarCamp cosmic pixel artwork created by Codex for this project, 2026; CC0 1.0"
+            }
+          ]
+        },
+        {
+          "firstgid": 2981,
+          "name": "navigation-mask",
+          "tilewidth": 32,
+          "tileheight": 32,
+          "columns": 16,
+          "tilecount": 304,
+          "image": "../assets/tilesets/original/magic.png",
+          "imagewidth": 512,
+          "imageheight": 608,
+          "properties": [
+            {
+              "name": "tilesetCopyright",
+              "type": "string",
+              "value": "Original VarCamp cosmic pixel artwork created by Codex for this project, 2026; CC0 1.0"
+            }
+          ],
+          "tiles": [
+            {
+              "id": 0,
+              "properties": [
+                {
+                  "name": "collides",
+                  "type": "bool",
+                  "value": false
+                }
+              ]
+            },
+            {
+              "id": 1,
+              "properties": [
+                {
+                  "name": "collides",
+                  "type": "bool",
+                  "value": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "firstgid": 3297,
+          "name": "world-ambient-comet-maze-lamp-1",
+          "tilewidth": 32,
+          "tileheight": 32,
+          "columns": 16,
+          "tilecount": 16,
+          "image": "../assets/tilesets/original/world-ambient-comet-maze-lamp-1.png",
+          "imagewidth": 512,
+          "imageheight": 32,
+          "properties": [
+            {
+              "name": "tilesetCopyright",
+              "type": "string",
+              "value": "Original VarCamp cosmic pixel artwork created by Codex for this project, 2026; CC0 1.0"
+            }
+          ],
+          "tiles": [
+            {
+              "id": 5,
+              "animation": [
+                {
+                  "tileid": 1,
+                  "duration": 750
+                },
+                {
+                  "tileid": 2,
+                  "duration": 750
+                },
+                {
+                  "tileid": 3,
+                  "duration": 750
+                },
+                {
+                  "tileid": 4,
+                  "duration": 750
+                },
+                {
+                  "tileid": 1,
+                  "duration": 750
+                },
+                {
+                  "tileid": 2,
+                  "duration": 750
+                },
+                {
+                  "tileid": 3,
+                  "duration": 750
+                },
+                {
+                  "tileid": 4,
+                  "duration": 750
+                },
+                {
+                  "tileid": 1,
+                  "duration": 750
+                },
+                {
+                  "tileid": 2,
+                  "duration": 750
+                },
+                {
+                  "tileid": 3,
+                  "duration": 750
+                },
+                {
+                  "tileid": 4,
+                  "duration": 750
+                },
+                {
+                  "tileid": 1,
+                  "duration": 750
+                },
+                {
+                  "tileid": 2,
+                  "duration": 750
+                },
+                {
+                  "tileid": 3,
+                  "duration": 750
+                },
+                {
+                  "tileid": 4,
+                  "duration": 750
+                }
+              ],
+              "properties": [
+                {
+                  "name": "collides",
+                  "type": "bool",
+                  "value": false
+                }
+              ]
+            },
+            {
+              "id": 6,
+              "animation": [
+                {
+                  "tileid": 0,
+                  "duration": 12000
+                }
+              ],
+              "properties": [
+                {
+                  "name": "collides",
+                  "type": "bool",
+                  "value": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "firstgid": 3313,
+          "name": "world-ambient-comet-maze-lamp-2",
+          "tilewidth": 32,
+          "tileheight": 32,
+          "columns": 16,
+          "tilecount": 16,
+          "image": "../assets/tilesets/original/world-ambient-comet-maze-lamp-2.png",
+          "imagewidth": 512,
+          "imageheight": 32,
+          "properties": [
+            {
+              "name": "tilesetCopyright",
+              "type": "string",
+              "value": "Original VarCamp cosmic pixel artwork created by Codex for this project, 2026; CC0 1.0"
+            }
+          ],
+          "tiles": [
+            {
+              "id": 5,
+              "animation": [
+                {
+                  "tileid": 1,
+                  "duration": 750
+                },
+                {
+                  "tileid": 2,
+                  "duration": 750
+                },
+                {
+                  "tileid": 3,
+                  "duration": 750
+                },
+                {
+                  "tileid": 4,
+                  "duration": 750
+                },
+                {
+                  "tileid": 1,
+                  "duration": 750
+                },
+                {
+                  "tileid": 2,
+                  "duration": 750
+                },
+                {
+                  "tileid": 3,
+                  "duration": 750
+                },
+                {
+                  "tileid": 4,
+                  "duration": 750
+                },
+                {
+                  "tileid": 1,
+                  "duration": 750
+                },
+                {
+                  "tileid": 2,
+                  "duration": 750
+                },
+                {
+                  "tileid": 3,
+                  "duration": 750
+                },
+                {
+                  "tileid": 4,
+                  "duration": 750
+                },
+                {
+                  "tileid": 1,
+                  "duration": 750
+                },
+                {
+                  "tileid": 2,
+                  "duration": 750
+                },
+                {
+                  "tileid": 3,
+                  "duration": 750
+                },
+                {
+                  "tileid": 4,
+                  "duration": 750
+                }
+              ],
+              "properties": [
+                {
+                  "name": "collides",
+                  "type": "bool",
+                  "value": false
+                }
+              ]
+            },
+            {
+              "id": 6,
+              "animation": [
+                {
+                  "tileid": 0,
+                  "duration": 12000
+                }
+              ],
+              "properties": [
+                {
+                  "name": "collides",
+                  "type": "bool",
+                  "value": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "firstgid": 3329,
+          "name": "world-ambient-plants",
+          "tilewidth": 32,
+          "tileheight": 32,
+          "columns": 3,
+          "tilecount": 9,
+          "image": "../assets/tilesets/original/world-ambient-plants.png",
+          "imagewidth": 96,
+          "imageheight": 96,
+          "properties": [
+            {
+              "name": "tilesetCopyright",
+              "type": "string",
+              "value": "Original VarCamp cosmic pixel artwork created by Codex for this project, 2026; CC0 1.0"
+            }
+          ]
+        },
+        {
+          "firstgid": 3338,
+          "name": "Comet / VarCamp",
+          "tilewidth": 32,
+          "tileheight": 32,
+          "columns": 6,
+          "tilecount": 12,
+          "image": "../assets/sponsors/varcamp-2026.png",
+          "imagewidth": 192,
+          "imageheight": 64,
+          "properties": [
+            {
+              "name": "sponsorPanel",
+              "type": "bool",
+              "value": true
+            },
+            {
+              "name": "tilesetCopyright",
+              "type": "string",
+              "value": "Sponsor artwork: see credits/sponsors.json for original attribution and replacement terms."
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
