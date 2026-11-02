@@ -293,6 +293,69 @@
       "layer": "props"
     },
     {
+      "id": "audience-boundary-floor",
+      "sprite": "floor-charcoal",
+      "x": 2,
+      "y": 14,
+      "width": 32,
+      "height": 11,
+      "layer": "terrain"
+    },
+    {
+      "id": "audience-boundary-rug-west",
+      "sprite": "floor-blue",
+      "x": 3,
+      "y": 17,
+      "width": 13,
+      "height": 8,
+      "layer": "terrain"
+    },
+    {
+      "id": "audience-boundary-rug-east",
+      "sprite": "floor-blue",
+      "x": 20,
+      "y": 17,
+      "width": 13,
+      "height": 8,
+      "layer": "terrain"
+    },
+    {
+      "id": "audience-boundary-edge-north",
+      "sprite": "speaker-style-edge-top",
+      "x": 2,
+      "y": 14,
+      "width": 32,
+      "height": 1,
+      "layer": "props"
+    },
+    {
+      "id": "audience-boundary-edge-south",
+      "sprite": "speaker-style-edge-bottom",
+      "x": 2,
+      "y": 24,
+      "width": 32,
+      "height": 1,
+      "layer": "props"
+    },
+    {
+      "id": "audience-boundary-edge-west",
+      "sprite": "speaker-style-edge-left",
+      "x": 2,
+      "y": 15,
+      "width": 1,
+      "height": 9,
+      "layer": "props"
+    },
+    {
+      "id": "audience-boundary-edge-east",
+      "sprite": "speaker-style-edge-right",
+      "x": 33,
+      "y": 15,
+      "width": 1,
+      "height": 9,
+      "layer": "props"
+    },
+    {
       "id": "gemini-style-listener-caption",
       "sprite": "speaker-style-caption-floor",
       "x": 6,
@@ -739,6 +802,177 @@
       "width": 1,
       "height": 2,
       "layer": "props"
+    },
+    {
+      "id": "audience-boundary-instruction-floor",
+      "sprite": "speaker-style-caption-floor",
+      "x": 6,
+      "y": 25,
+      "width": 24,
+      "height": 1,
+      "layer": "terrain"
+    },
+    {
+      "id": "audience-chair-extra-0-0",
+      "sprite": "chair-north-slate",
+      "x": 4,
+      "y": 17,
+      "width": 1,
+      "height": 2,
+      "layer": "props"
+    },
+    {
+      "id": "audience-chair-extra-0-1",
+      "sprite": "chair-north-slate",
+      "x": 6,
+      "y": 17,
+      "width": 1,
+      "height": 2,
+      "layer": "props"
+    },
+    {
+      "id": "audience-chair-extra-0-2",
+      "sprite": "chair-north-slate",
+      "x": 14,
+      "y": 17,
+      "width": 1,
+      "height": 2,
+      "layer": "props"
+    },
+    {
+      "id": "audience-chair-extra-0-3",
+      "sprite": "chair-north-slate",
+      "x": 21,
+      "y": 17,
+      "width": 1,
+      "height": 2,
+      "layer": "props"
+    },
+    {
+      "id": "audience-chair-extra-0-4",
+      "sprite": "chair-north-slate",
+      "x": 29,
+      "y": 17,
+      "width": 1,
+      "height": 2,
+      "layer": "props"
+    },
+    {
+      "id": "audience-chair-extra-0-5",
+      "sprite": "chair-north-slate",
+      "x": 31,
+      "y": 17,
+      "width": 1,
+      "height": 2,
+      "layer": "props"
+    },
+    {
+      "id": "audience-chair-extra-1-0",
+      "sprite": "chair-north-slate",
+      "x": 4,
+      "y": 20,
+      "width": 1,
+      "height": 2,
+      "layer": "props"
+    },
+    {
+      "id": "audience-chair-extra-1-1",
+      "sprite": "chair-north-slate",
+      "x": 6,
+      "y": 20,
+      "width": 1,
+      "height": 2,
+      "layer": "props"
+    },
+    {
+      "id": "audience-chair-extra-1-2",
+      "sprite": "chair-north-slate",
+      "x": 14,
+      "y": 20,
+      "width": 1,
+      "height": 2,
+      "layer": "props"
+    },
+    {
+      "id": "audience-chair-extra-1-3",
+      "sprite": "chair-north-slate",
+      "x": 21,
+      "y": 20,
+      "width": 1,
+      "height": 2,
+      "layer": "props"
+    },
+    {
+      "id": "audience-chair-extra-1-4",
+      "sprite": "chair-north-slate",
+      "x": 29,
+      "y": 20,
+      "width": 1,
+      "height": 2,
+      "layer": "props"
+    },
+    {
+      "id": "audience-chair-extra-1-5",
+      "sprite": "chair-north-slate",
+      "x": 31,
+      "y": 20,
+      "width": 1,
+      "height": 2,
+      "layer": "props"
+    },
+    {
+      "id": "audience-chair-extra-2-0",
+      "sprite": "chair-north-slate",
+      "x": 4,
+      "y": 23,
+      "width": 1,
+      "height": 2,
+      "layer": "props"
+    },
+    {
+      "id": "audience-chair-extra-2-1",
+      "sprite": "chair-north-slate",
+      "x": 6,
+      "y": 23,
+      "width": 1,
+      "height": 2,
+      "layer": "props"
+    },
+    {
+      "id": "audience-chair-extra-2-2",
+      "sprite": "chair-north-slate",
+      "x": 14,
+      "y": 23,
+      "width": 1,
+      "height": 2,
+      "layer": "props"
+    },
+    {
+      "id": "audience-chair-extra-2-3",
+      "sprite": "chair-north-slate",
+      "x": 21,
+      "y": 23,
+      "width": 1,
+      "height": 2,
+      "layer": "props"
+    },
+    {
+      "id": "audience-chair-extra-2-4",
+      "sprite": "chair-north-slate",
+      "x": 29,
+      "y": 23,
+      "width": 1,
+      "height": 2,
+      "layer": "props"
+    },
+    {
+      "id": "audience-chair-extra-2-5",
+      "sprite": "chair-north-slate",
+      "x": 31,
+      "y": 23,
+      "width": 1,
+      "height": 2,
+      "layer": "props"
     }
   ],
   "entries": [
@@ -902,14 +1136,14 @@
     },
     {
       "name": "gemini-style-listeners",
-      "text": "LISTENING AREA  ·  RAISE HAND TO SPEAK",
-      "x": 13,
+      "text": "AUDIENCE · LISTENING AREA",
+      "x": 6,
       "y": 15,
-      "width": 14,
+      "width": 24,
       "height": 1,
-      "fontSize": 14,
+      "fontSize": 15,
       "color": "#ffe6d4",
-      "align": "left",
+      "align": "center",
       "padding": 6
     },
     {
@@ -923,6 +1157,18 @@
       "color": "#ffb586",
       "align": "left",
       "padding": 0
+    },
+    {
+      "name": "audience-boundary-instruction",
+      "text": "STAY INSIDE TO LISTEN · RAISE HAND TO SPEAK",
+      "x": 6,
+      "y": 25,
+      "width": 24,
+      "height": 1,
+      "fontSize": 13,
+      "color": "#ffe6d4",
+      "align": "center",
+      "padding": 2
     }
   ],
   "animatedOverlays": [

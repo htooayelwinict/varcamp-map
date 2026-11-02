@@ -4,6 +4,7 @@ import {readFileSync} from 'node:fs';
 import {createHash} from 'node:crypto';
 import {gunzipSync} from 'node:zlib';
 import assert from 'node:assert/strict';
+import {isDeepStrictEqual} from 'node:util';
 import {applyVibeCodeBranding,restoreVibeCodeBranding,reconcileVibeCodeBranding} from '../../tools/maps/vibecode-branding';
 import {loadTileCatalog} from '../../tools/art/catalog';
 import {renderReferenceInterior} from '../../tools/maps/reference-interiors';
@@ -19,5 +20,8 @@ export function preVibeCodeNative(map:TiledMap):TiledMap{
  const id=String(map.properties?.find(p=>p.name==='worldMapId')?.value),old=beforeVibeCodeJson<TiledMap>(`maps/${id}.tmj`);
  if(id==='overworld')map=restoreExpoChairNative(map,JSON.parse(readFileSync('world/layouts/overworld.json','utf8')),loadTileCatalog());
  if(!cache.has(id)){const l=applyVibeCodeBranding(beforeVibeCodeJson<MapLayout>(`world/layouts/${id}.json`)),c=beforeExpoChairCatalog(loadTileCatalog());cache.set(id,id==='overworld'?reconcileVibeCodeBranding(old,l,c):renderReferenceInterior(l,c).tmj);}
- assert.deepEqual(map,cache.get(id),'exact Vibe Code native successor required');return old;
+ // A native map contains millions of repeated cells. Node's automatic deep
+ // assertion diff can exhaust host memory for a stale historical epoch.
+ // Keep the exact comparison, but report only the map identity on failure.
+ assert.ok(isDeepStrictEqual(map,cache.get(id)),`exact Vibe Code native successor required: ${id}`);return old;
 }

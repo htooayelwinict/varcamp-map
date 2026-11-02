@@ -24,7 +24,7 @@ describe('Event branding and audience presentation',()=>{
   expect(l.placements.some(p=>p.sprite==='speaker-style-logo-card')).toBe(false);
   for(const key of ['entries','exits','areas','inspectionZones','animatedOverlays']as const)expect(l[key]).toEqual(before[key]);
   if(id.startsWith('speaker-')){
-   expect(l.placements.filter(p=>p.id.startsWith('audience-chair-'))).toHaveLength(18);
+   expect(l.placements.filter(p=>p.id.startsWith('audience-chair-'))).toHaveLength(36);
    expect(l.placements.some(p=>p.id.endsWith('-style-partner-wallpaper')||p.id.endsWith('-style-partner-rule'))).toBe(false);
    expect(l.signs!.some(s=>s.text==='COMMUNITY PARTNERS')).toBe(false);
   }

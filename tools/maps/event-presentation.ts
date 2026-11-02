@@ -4,13 +4,15 @@ import data from '../../world/event-presentation.json';
 import type {MapLayout,LayoutImage,Placement} from './types';
 import {applyCheckInPhysics,restoreCheckInPhysics,isCheckInPhysics} from './check-in-physics';
 import {applySpeakerCommunity,restoreSpeakerCommunity,isSpeakerCommunity} from './speaker-community';
+import {applyAudienceFootprints,restoreAudienceFootprints,isAudienceFootprints} from './audience-footprints';
 type Row={beforeLayoutSha256:string;afterLayoutSha256:string;changes:{placements:{removed:{index:number;value:Placement}[];added:Placement[]};images?:{before:LayoutImage[];after:LayoutImage[]};[field:string]:unknown}};
 const rows=data.maps as unknown as Record<string,Row>;
 const sha=(v:unknown)=>createHash('sha256').update(JSON.stringify(v)).digest('hex');
 const need=(ok:unknown,message:string)=>{if(!ok)throw Error('Event presentation: '+message);};
 export const EVENT_MAP_IDS=Object.keys(rows);
-export function isEventPresentation(l:MapLayout):boolean{return l.id.startsWith('speaker-')?isSpeakerCommunity(l):rows[l.id]?.afterLayoutSha256===sha(l)||isCheckInPhysics(l);}
+export function isEventPresentation(l:MapLayout):boolean{return isAudienceFootprints(l)||(l.id.startsWith('speaker-')?isSpeakerCommunity(l):rows[l.id]?.afterLayoutSha256===sha(l)||isCheckInPhysics(l));}
 export function transformEventPresentation(input:MapLayout,forward:boolean):MapLayout{
+ if(!forward&&isAudienceFootprints(input))input=restoreAudienceFootprints(input);
  if(!forward&&isCheckInPhysics(input))input=restoreCheckInPhysics(input);
  if(!forward&&input.id.startsWith('speaker-')){
   need(isSpeakerCommunity(input),'unreviewed source layout: '+input.id);
@@ -31,7 +33,7 @@ export function transformEventPresentation(input:MapLayout,forward:boolean):MapL
   Object.assign(l,{[field]:structuredClone(forward?c.after:c.before)});
  }
  need(sha(l)===(forward?row.afterLayoutSha256:row.beforeLayoutSha256),'transaction output changed');
- return forward?(l.id==='overworld'?applyCheckInPhysics(l):l.id.startsWith('speaker-')?applySpeakerCommunity(l):l):l;
+ return forward?applyAudienceFootprints(l.id==='overworld'?applyCheckInPhysics(l):l.id.startsWith('speaker-')?applySpeakerCommunity(l):l):l;
 }
 export const applyEventPresentation=(l:MapLayout)=>transformEventPresentation(l,true);
 export const restoreEventPresentation=(l:MapLayout)=>transformEventPresentation(l,false);

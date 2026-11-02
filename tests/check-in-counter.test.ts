@@ -6,6 +6,7 @@ import {registerCheckInCounter,CHECK_IN_MESSAGE,type CheckInApi} from '../src/ch
 import counter from '../world/check-in-counter.json';
 import {applyCheckInCounter,restoreCheckInCounter} from '../tools/maps/check-in-definition';
 import {applyEventPresentation,restoreEventPresentation} from '../tools/maps/event-presentation';
+import {restoreAudienceFootprints} from '../tools/maps/audience-footprints';
 import {buildMap} from '../tools/maps/builder';
 import {loadTileCatalog} from '../tools/art/catalog';
 import {assertCurrentNativeMap} from '../tools/maps/current-native';
@@ -63,7 +64,7 @@ describe('Check-in counter',()=>{
  it('blocks all six desk tiles from every side, reuses native art and keeps the perimeter clear',()=>{
   const layout=read('world/layouts/overworld.json') as MapLayout,map=read('maps/overworld.tmj') as TiledMap,old=before['maps/overworld.tmj'] as TiledMap,catalog=loadTileCatalog();
   const mask=(m:TiledMap)=>{const l=m.layers.find(l=>l.name==='physical-collisions');if(l?.type!=='tilelayer')throw Error('No mask');return l.data.map(Boolean);};
-  const a=mask(old),b=mask(map);expect(b.flatMap((v,i)=>v!==a[i]?[i]:[])).toEqual([60*128+71,60*128+72,60*128+73,61*128+71,61*128+72,61*128+73]);
+  const a=mask(old),b=mask(map),deskOnly=mask(buildMap(restoreAudienceFootprints(layout),catalog).tmj);expect(deskOnly.flatMap((v,i)=>v!==a[i]?[i]:[])).toEqual([60*128+71,60*128+72,60*128+73,61*128+71,61*128+72,61*128+73]);
   expect(mask(buildMap(layout,catalog).tmj)).toEqual(b);
   const desk=layout.placements.find(p=>p.id==='check-in-counter-desk')!;expect(catalog[desk.sprite].blockingCells).toEqual([[0,0],[1,0],[2,0],[0,1],[1,1],[2,1]]);
   for(const [x,y]of [[71,59],[72,59],[73,59],[70,60],[70,61],[74,60],[74,61],[71,62],[72,62],[73,62]])expect(b[y*128+x]).toBe(false);

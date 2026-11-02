@@ -2,7 +2,11 @@
 
 The left plaza group is Community Corner. BSides Myanmar stays in its lower middle booth and Vibe Code Tours occupies the booth immediately to its right. The right group is Sponsor Expo; its VarCamp Info Desk remains. The other booths have no brand marks or placeholder names. The three demo logos around arrival are removed.
 
-All twelve zodiac speaker rooms use eighteen north-facing chairs in three rows, with a clear central aisle. Audience desks, laptops, collaboration tables, pods and lounge seats were removed from those listening zones. The stages, room themes, social lounges, exits, quest beacons and broadcast/listener settings are preserved. These twelve rooms display VarCamp branding with their zodiac themes, without community banners. Solar and Lunar retain their sixty-chair audience layouts and their VarCamp, BSides Myanmar and Vibe Code Tours banners.
+All twelve zodiac speaker rooms use thirty-six north-facing chairs in three rows, with a clear central aisle. Audience desks, laptops, collaboration tables, pods and lounge seats were removed from those listening zones. The stages, room themes, social lounges, exits, quest beacons and broadcast/listener settings are preserved. These twelve rooms display VarCamp branding with their zodiac themes, without community banners. Solar and Lunar retain their sixty-chair audience layouts and their VarCamp, BSides Myanmar and Vibe Code Tours banners.
+
+An orange floor outline follows the actual listener area in each zodiac room, including the deeper Pisces area. The floor labels explain that listeners stay inside and raise a hand to speak. The outline is decorative and does not block walking. The chair count is visible seating, not a platform attendance limit.
+
+The six plaza aisle lamps collide only at the bottom tile. Their upper two tiles draw over Woka. All twelve zodiac buildings and both hall exteriors retain their raised artwork, with collisions confined to the lower four rows of walls and foundations and their existing open doorways. Existing water and shoreline collisions remain in place. See [audience-footprints.json](../../world/audience-footprints.json) and [its author](../../tools/maps/author-audience-footprints.ts).
 
 The arrival check-in counter uses native desk and laptop tiles at their original 32 px scale. A small floor label identifies it. Clicking the computer or using the nearby Check In action opens the official ticket page. The transparent click target adds no banner or enlarged monitor artwork.
 
@@ -16,6 +20,8 @@ When real sponsor marks arrive, confirm their assigned booths and wall panels, a
 
 ဘယ်ဘက် Community Corner တွင် BSides Myanmar နှင့် Vibe Code Tours ကို ဘေးချင်းယှဉ်ထားပြီး ညာဘက် Sponsor Expo တွင် VarCamp Info Desk ကို ထားရှိပါသည်။ ကျန်ပြခန်းများသည် sponsor အစစ်၏ လိုဂိုကို စောင့်နေသော နေရာများဖြစ်ပါသည်။
 
-ရာသီခွင်ဟောပြောခန်းတစ်ခန်းလျှင် ပရိသတ်ထိုင်ခုံ ၁၈ လုံးကို သုံးတန်းစီထားပါသည်။ စင်မြင့်၊ ရာသီခွင်အလှဆင်မှု၊ အဝင်အထွက်လမ်းနှင့် ဟောပြောသူ/နားထောင်သူ zone များကို မပြောင်းထားပါ။ နောက်နှစ်အတွက် sponsor လိုဂိုအသစ်များ ထည့်သွင်းရာတွင် မူရင်းနှင့် အသုံးပြုခွင့်မှတ်တမ်းကိုပါ သိမ်းပါ။ ယခင် release မှတ်တမ်းများကို ပြန်မရေးဘဲ revision အသစ်အဖြစ် စစ်ဆေးပြီးမှ ထုတ်လွှင့်ပါ။
+ရာသီခွင်ဟောပြောခန်းတစ်ခန်းလျှင် ပရိသတ်ထိုင်ခုံ ၃၆ လုံးကို သုံးတန်းစီထားပါသည်။ စင်မြင့်၊ ရာသီခွင်အလှဆင်မှု၊ အဝင်အထွက်လမ်းနှင့် ဟောပြောသူ/နားထောင်သူ zone များကို မပြောင်းထားပါ။ နောက်နှစ်အတွက် sponsor လိုဂိုအသစ်များ ထည့်သွင်းရာတွင် မူရင်းနှင့် အသုံးပြုခွင့်မှတ်တမ်းကိုပါ သိမ်းပါ။ ယခင် release မှတ်တမ်းများကို ပြန်မရေးဘဲ revision အသစ်အဖြစ် စစ်ဆေးပြီးမှ ထုတ်လွှင့်ပါ။
 
 ရာသီခွင်ဟောပြောခန်း ၁၂ ခန်းတွင် community banner များ မထားပါ။ VarCamp အမှတ်တံဆိပ်နှင့် ရာသီခွင်အလှဆင်မှုကို ဆက်လက်ထားရှိပါသည်။ Solar နှင့် Lunar ခန်းမများတွင် BSides Myanmar နှင့် Vibe Code Tours banner များကို VarCamp နှင့်အတူ ဆက်လက်ထားရှိပါသည်။
+
+လိမ္မော်ရောင်ကြမ်းပြင်ဘောင်သည် နားထောင်နိုင်သည့် zone ၏ အမှန်တကယ်နယ်နိမိတ်ဖြစ်ပါသည်။ ဟောပြောချက်ကို နားထောင်ရန် ဘောင်အတွင်း၌ နေပါ။ ဘောင်သည် လမ်းလျှောက်ခြင်းကို မပိတ်ပါ။ လမ်းမီးတိုင်များ၏ အောက်ခြေကသာ လူကိုတားပြီး အပေါ်ပိုင်းနှင့် အဆောက်အအုံအမိုးများ၏ နောက်ဘက်၌ လမ်းလျှောက်နိုင်ပါသည်။ နံရံ၊ အုတ်မြစ်နှင့် ရေပြင်ကို ဖြတ်လျှောက်၍ မရပါ။

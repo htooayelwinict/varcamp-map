@@ -1,0 +1,245 @@
+{
+  "schemaVersion": 1,
+  "revisions": [
+    {
+      "path": "art/tile-catalog.json",
+      "fromSha256": "7d0f0c08512a071971f33c7fdc60eee06617969e6ed8eee1486fe8d297c828e0",
+      "toSha256": "f6c2d7087f1c7435ff7ff58bdc92c706bbfa15551cb931870118f0ca6b294c28",
+      "reason": "Add 36 audience chairs and an accurate visual listening boundary per zodiac room; use ground footprints for six plaza lamps and fourteen buildings while preserving artwork, entrances, WAM controls and historical receipts."
+    },
+    {
+      "path": "maps/overworld.tmj",
+      "fromSha256": "c63f96d02e38617d75abd5071242d3f03879297124467e84a5dc654c0f0f182f",
+      "toSha256": "207e426836ce62294f5a97b021e600bfa519791e6f2cc17c2cbea9a17c88f1f0",
+      "reason": "Add 36 audience chairs and an accurate visual listening boundary per zodiac room; use ground footprints for six plaza lamps and fourteen buildings while preserving artwork, entrances, WAM controls and historical receipts."
+    },
+    {
+      "path": "maps/preview/overworld.tmj",
+      "fromSha256": "4530504e798e0f47a4fc8582e977f0dff05e400348f7a4c9e0c7dc8b9a850034",
+      "toSha256": "2cea07d3c47558dc762981097cd6ba728ec98489369f51f097e44c5e2d994efb",
+      "reason": "Add 36 audience chairs and an accurate visual listening boundary per zodiac room; use ground footprints for six plaza lamps and fourteen buildings while preserving artwork, entrances, WAM controls and historical receipts."
+    },
+    {
+      "path": "maps/preview/speaker-aquarius.tmj",
+      "fromSha256": "749b06251e8eff9d15c9439a483213abbf97a62baf4eb4a368e27f045201be7e",
+      "toSha256": "ce8ba57838b2a2da19ed086d188883b3e7e75a511792a2cd1ede6cc9a92ade12",
+      "reason": "Add 36 audience chairs and an accurate visual listening boundary per zodiac room; use ground footprints for six plaza lamps and fourteen buildings while preserving artwork, entrances, WAM controls and historical receipts."
+    },
+    {
+      "path": "maps/preview/speaker-aries.tmj",
+      "fromSha256": "63a76af104df126d7e0610413a074d81ae879313c4a1720474f5d76f29cd7442",
+      "toSha256": "6ff1ce0605ef7eb9f1eb9b9a3162e77e97e27af92b60cb6e28b588d1a0ed3bed",
+      "reason": "Add 36 audience chairs and an accurate visual listening boundary per zodiac room; use ground footprints for six plaza lamps and fourteen buildings while preserving artwork, entrances, WAM controls and historical receipts."
+    },
+    {
+      "path": "maps/preview/speaker-cancer.tmj",
+      "fromSha256": "562bf2e6e08894ddd4d66d92791f34cf66b35f0e0b73d6390987336cc92fed25",
+      "toSha256": "cd4ef375c95b7a563d833657f3775beececdfad596b338c092049ac81bae2c91",
+      "reason": "Add 36 audience chairs and an accurate visual listening boundary per zodiac room; use ground footprints for six plaza lamps and fourteen buildings while preserving artwork, entrances, WAM controls and historical receipts."
+    },
+    {
+      "path": "maps/preview/speaker-capricorn.tmj",
+      "fromSha256": "999d95065c4f5bc4420e1421040ce4c822e131b02de9500f29d8f1e8f9ef1f92",
+      "toSha256": "e8567238c15597d9519bc73ff9b021736ce97262c3e063306a185b63d8bcc738",
+      "reason": "Add 36 audience chairs and an accurate visual listening boundary per zodiac room; use ground footprints for six plaza lamps and fourteen buildings while preserving artwork, entrances, WAM controls and historical receipts."
+    },
+    {
+      "path": "maps/preview/speaker-gemini.tmj",
+      "fromSha256": "8dfdbf70f5b865f5388696a040e2bbc4a94caa3e9e9e4a8f17a39e91371302e3",
+      "toSha256": "7f6980772a703dae7ee1bd981d0d4130e72ebad2a7e9424e2d6f79ead2cb2e8b",
+      "reason": "Add 36 audience chairs and an accurate visual listening boundary per zodiac room; use ground footprints for six plaza lamps and fourteen buildings while preserving artwork, entrances, WAM controls and historical receipts."
+    },
+    {
+      "path": "maps/preview/speaker-leo.tmj",
+      "fromSha256": "de2701331c684eaa90081a670721df4d24dc960411c133d9754582b33477ec60",
+      "toSha256": "e508e436e6493748e916ed02524464d016357af9b74417d74c2884ebb61f015a",
+      "reason": "Add 36 audience chairs and an accurate visual listening boundary per zodiac room; use ground footprints for six plaza lamps and fourteen buildings while preserving artwork, entrances, WAM controls and historical receipts."
+    },
+    {
+      "path": "maps/preview/speaker-libra.tmj",
+      "fromSha256": "a98f23528945b923277e5e1bb5f5d4fef2d26f743e57604d7bf9ed8cc745848c",
+      "toSha256": "9906d30e7cc24bb5a6bc914289e0f0c6f65606a3c1d661eb84fe27834b1a0e8c",
+      "reason": "Add 36 audience chairs and an accurate visual listening boundary per zodiac room; use ground footprints for six plaza lamps and fourteen buildings while preserving artwork, entrances, WAM controls and historical receipts."
+    },
+    {
+      "path": "maps/preview/speaker-pisces.tmj",
+      "fromSha256": "3260d489c1d3e1ebf1151c602a91514a4e63543f648510c7368b7d1fc87572be",
+      "toSha256": "bfa96e856722c754e443fadfea03e8c02bc21161fcc26a1b5a97e10a55bb8dcd",
+      "reason": "Add 36 audience chairs and an accurate visual listening boundary per zodiac room; use ground footprints for six plaza lamps and fourteen buildings while preserving artwork, entrances, WAM controls and historical receipts."
+    },
+    {
+      "path": "maps/preview/speaker-sagittarius.tmj",
+      "fromSha256": "246d56dce0b83b093fc7b386c8fed0c93ddcdb7111bcaeabf456531467c853c2",
+      "toSha256": "dc777677e4f74677a802484e67e17167c69813e85ccd7981f2a794e43f96807d",
+      "reason": "Add 36 audience chairs and an accurate visual listening boundary per zodiac room; use ground footprints for six plaza lamps and fourteen buildings while preserving artwork, entrances, WAM controls and historical receipts."
+    },
+    {
+      "path": "maps/preview/speaker-scorpio.tmj",
+      "fromSha256": "bd9ceb0c45aacb92aeb0ba1120f32888b6a34e8219d55acade58f5b3ceb8216d",
+      "toSha256": "f184320fc5677f8d137ab4e857c670002f87f5cbbceb7dac4d6c831954363646",
+      "reason": "Add 36 audience chairs and an accurate visual listening boundary per zodiac room; use ground footprints for six plaza lamps and fourteen buildings while preserving artwork, entrances, WAM controls and historical receipts."
+    },
+    {
+      "path": "maps/preview/speaker-taurus.tmj",
+      "fromSha256": "c926556b55d746f7eac56fb51493dcb322b0233cc0bf1a7b5393d9a1108446ca",
+      "toSha256": "73be5effc5322d15e84a06d8676dcebb0d616811b3b3b5c93931ebc00c566880",
+      "reason": "Add 36 audience chairs and an accurate visual listening boundary per zodiac room; use ground footprints for six plaza lamps and fourteen buildings while preserving artwork, entrances, WAM controls and historical receipts."
+    },
+    {
+      "path": "maps/preview/speaker-virgo.tmj",
+      "fromSha256": "dbbdf6a1fc5deaf6f704ae9a51287c777cc891b3ec8b72504203fe33aa92deda",
+      "toSha256": "f1c74ee12eda0a171c3a39269ababe9803c3fc715a9bb09c5935b23f55b7eb1f",
+      "reason": "Add 36 audience chairs and an accurate visual listening boundary per zodiac room; use ground footprints for six plaza lamps and fourteen buildings while preserving artwork, entrances, WAM controls and historical receipts."
+    },
+    {
+      "path": "maps/speaker-aquarius.tmj",
+      "fromSha256": "1a8c650e8ba83174069d7de470e2be963d17c7b5fcc5034c58e24c74019added",
+      "toSha256": "bc70437af6ffcaa0d2cb4af6ffb9d2b00bc052c780174f389bfb3137b37ebae7",
+      "reason": "Add 36 audience chairs and an accurate visual listening boundary per zodiac room; use ground footprints for six plaza lamps and fourteen buildings while preserving artwork, entrances, WAM controls and historical receipts."
+    },
+    {
+      "path": "maps/speaker-aries.tmj",
+      "fromSha256": "71e39c11614bd327166bc299ad11151839c6713f70487e5a2be835b2eedfac5d",
+      "toSha256": "5bdd3e646ee0f4014d9f4bb4ea26b55fbf42f65da89ce9525579acda78977304",
+      "reason": "Add 36 audience chairs and an accurate visual listening boundary per zodiac room; use ground footprints for six plaza lamps and fourteen buildings while preserving artwork, entrances, WAM controls and historical receipts."
+    },
+    {
+      "path": "maps/speaker-cancer.tmj",
+      "fromSha256": "fc7747ecd6555a9faa4a5ff0c69be3be02b29916a757c5ec24d516811c78dd16",
+      "toSha256": "e204d1250cad2c48843aa5256693c5c2cda6fbd2ff1c5e5c12cbaa7f6e8d4d7e",
+      "reason": "Add 36 audience chairs and an accurate visual listening boundary per zodiac room; use ground footprints for six plaza lamps and fourteen buildings while preserving artwork, entrances, WAM controls and historical receipts."
+    },
+    {
+      "path": "maps/speaker-capricorn.tmj",
+      "fromSha256": "3a630e85ce515baaeac3986876ed1c7d6a60608a6b574bc0bae412081038f1bf",
+      "toSha256": "5405d7059f44eeb7d1303c738d0fe56d159b286626b80cb73eb5f89f62383efd",
+      "reason": "Add 36 audience chairs and an accurate visual listening boundary per zodiac room; use ground footprints for six plaza lamps and fourteen buildings while preserving artwork, entrances, WAM controls and historical receipts."
+    },
+    {
+      "path": "maps/speaker-gemini.tmj",
+      "fromSha256": "3b82d4c110dce8b03bacced3d46d9d673753b1bc16b4b0505fb79298a197fb8d",
+      "toSha256": "946b40ec63eb9caebb72469e024da5eaae5abec5d21d4744ce9649e5e0b9ddc6",
+      "reason": "Add 36 audience chairs and an accurate visual listening boundary per zodiac room; use ground footprints for six plaza lamps and fourteen buildings while preserving artwork, entrances, WAM controls and historical receipts."
+    },
+    {
+      "path": "maps/speaker-leo.tmj",
+      "fromSha256": "5f0c381420041704af425e69a485c6ee5b9bc4e0b8159dd1791f6ac0da5c5396",
+      "toSha256": "9c1c7cd0e6f62c8dfcda7e79d7bd7a66802d47254ee3a1ba65d9305a3502b00e",
+      "reason": "Add 36 audience chairs and an accurate visual listening boundary per zodiac room; use ground footprints for six plaza lamps and fourteen buildings while preserving artwork, entrances, WAM controls and historical receipts."
+    },
+    {
+      "path": "maps/speaker-libra.tmj",
+      "fromSha256": "11699c8ab9d647cdc3bdadcdec89dc26b64f65230f06facaeb1b05d294cbc72e",
+      "toSha256": "057f5d7a6d634601f59c084b441131db2f1f7568dde7abada4540d6a88afdcef",
+      "reason": "Add 36 audience chairs and an accurate visual listening boundary per zodiac room; use ground footprints for six plaza lamps and fourteen buildings while preserving artwork, entrances, WAM controls and historical receipts."
+    },
+    {
+      "path": "maps/speaker-pisces.tmj",
+      "fromSha256": "3c9e506adaa1f2082af5a5eb9d5d301874ffb3c12e9258804257256aa40dcc0a",
+      "toSha256": "3a819cccc34ea01888d8a4c0e115c8a4686e8151768a1a322fd217ab2090540f",
+      "reason": "Add 36 audience chairs and an accurate visual listening boundary per zodiac room; use ground footprints for six plaza lamps and fourteen buildings while preserving artwork, entrances, WAM controls and historical receipts."
+    },
+    {
+      "path": "maps/speaker-sagittarius.tmj",
+      "fromSha256": "876e123fb70a53a40edebcbc68fc4be53df3f7bb824aacf0bb05674102d4ab3a",
+      "toSha256": "b4566d31fb04a012dab08f66867dd4ba99529f0532032af56f29be2e65a7a479",
+      "reason": "Add 36 audience chairs and an accurate visual listening boundary per zodiac room; use ground footprints for six plaza lamps and fourteen buildings while preserving artwork, entrances, WAM controls and historical receipts."
+    },
+    {
+      "path": "maps/speaker-scorpio.tmj",
+      "fromSha256": "cf803a960bcc424e18106e3a1074e8cd441fd0f3124a9407aaefd547b9eab29b",
+      "toSha256": "9e78d57e29c6d458252b9160ca72a3184a6633e556e3bdac83e624cfa3daf137",
+      "reason": "Add 36 audience chairs and an accurate visual listening boundary per zodiac room; use ground footprints for six plaza lamps and fourteen buildings while preserving artwork, entrances, WAM controls and historical receipts."
+    },
+    {
+      "path": "maps/speaker-taurus.tmj",
+      "fromSha256": "bcf107053fb7a510f8334896335f46262815c1122093ea5d979434c13517c35f",
+      "toSha256": "02de217b9ff8227cee7db325a34390414df16d7cb62932f6f54e9bc3b2b461ea",
+      "reason": "Add 36 audience chairs and an accurate visual listening boundary per zodiac room; use ground footprints for six plaza lamps and fourteen buildings while preserving artwork, entrances, WAM controls and historical receipts."
+    },
+    {
+      "path": "maps/speaker-virgo.tmj",
+      "fromSha256": "5e8d44656292a7f91d0882824e55eede1fc94f32065e354d42a1a7798b0a69e3",
+      "toSha256": "ee3a6b4de259b2f0173151156b6d187268ed3feb5d469531b05f9949f4d78d57",
+      "reason": "Add 36 audience chairs and an accurate visual listening boundary per zodiac room; use ground footprints for six plaza lamps and fourteen buildings while preserving artwork, entrances, WAM controls and historical receipts."
+    },
+    {
+      "path": "world/layouts/overworld.json",
+      "fromSha256": "7a9a331c3a607e7e41c91bd153075ef0aed0bd4785171fc73ace73a1c90137d6",
+      "toSha256": "3ff45adcc5004051e5821af0d4eb163830e1938f62ebe30eddb810aba26968fb",
+      "reason": "Add 36 audience chairs and an accurate visual listening boundary per zodiac room; use ground footprints for six plaza lamps and fourteen buildings while preserving artwork, entrances, WAM controls and historical receipts."
+    },
+    {
+      "path": "world/layouts/speaker-aquarius.json",
+      "fromSha256": "eb0fd9941d0c761107ee8f86c36a2b10fcb05cbd8fa3e23fb89bb8bc6f7e9fb8",
+      "toSha256": "af21f88e6a61cd35203f69f8e7b64b8f80225dfa586cbf1d6fd1f4a3ffa71065",
+      "reason": "Add 36 audience chairs and an accurate visual listening boundary per zodiac room; use ground footprints for six plaza lamps and fourteen buildings while preserving artwork, entrances, WAM controls and historical receipts."
+    },
+    {
+      "path": "world/layouts/speaker-aries.json",
+      "fromSha256": "06f180a889c75532d77ab534cb28832ed68816f18246a29ab9c6f1639c0fbc72",
+      "toSha256": "3c77c49453795704e75223e1a378c162bf6e8b22788cb059f3e338be7ee2adf2",
+      "reason": "Add 36 audience chairs and an accurate visual listening boundary per zodiac room; use ground footprints for six plaza lamps and fourteen buildings while preserving artwork, entrances, WAM controls and historical receipts."
+    },
+    {
+      "path": "world/layouts/speaker-cancer.json",
+      "fromSha256": "7da1f31c46348181432a3cea4da353af9966b01f8568dc8cae94f5b46ed16b2a",
+      "toSha256": "0ca8428cc89ed0f6879e8513140967edb967dbdbfd08c1e76099d0abd91bc3b8",
+      "reason": "Add 36 audience chairs and an accurate visual listening boundary per zodiac room; use ground footprints for six plaza lamps and fourteen buildings while preserving artwork, entrances, WAM controls and historical receipts."
+    },
+    {
+      "path": "world/layouts/speaker-capricorn.json",
+      "fromSha256": "5e4cf5310eac4d20e6eb121a7fe1a2a5d0cb3ded2a65cadb5259f80d8ab7a9e8",
+      "toSha256": "b614dbcd43f4c830852ad0c6956449a9a993b15632465e70cd844b11ccee2636",
+      "reason": "Add 36 audience chairs and an accurate visual listening boundary per zodiac room; use ground footprints for six plaza lamps and fourteen buildings while preserving artwork, entrances, WAM controls and historical receipts."
+    },
+    {
+      "path": "world/layouts/speaker-gemini.json",
+      "fromSha256": "a8a6f85201f15ca28416a71b2de11f6a763a90cd92f4ad7410f445a2b61a8914",
+      "toSha256": "5038570503fe4b501df9c876494fd69b74cd04b826062d4d8aaea34667a30fcc",
+      "reason": "Add 36 audience chairs and an accurate visual listening boundary per zodiac room; use ground footprints for six plaza lamps and fourteen buildings while preserving artwork, entrances, WAM controls and historical receipts."
+    },
+    {
+      "path": "world/layouts/speaker-leo.json",
+      "fromSha256": "3d7348447eeb32c415af985f0f310e7b19879de6dd6956ac1b570ad50ef245f3",
+      "toSha256": "be0ab628c7674a19610cf4f738376d8827d6778e490ad79f7bf69b0fe9f9412f",
+      "reason": "Add 36 audience chairs and an accurate visual listening boundary per zodiac room; use ground footprints for six plaza lamps and fourteen buildings while preserving artwork, entrances, WAM controls and historical receipts."
+    },
+    {
+      "path": "world/layouts/speaker-libra.json",
+      "fromSha256": "3c7d9fdc326eaad6a599d8980ee2d89a08d9f183ea35fc5cc37f2892c76c53b5",
+      "toSha256": "5e30fe248682ee76af318a9186be5e7f9d32d5bad532a266e747667d0fc17d40",
+      "reason": "Add 36 audience chairs and an accurate visual listening boundary per zodiac room; use ground footprints for six plaza lamps and fourteen buildings while preserving artwork, entrances, WAM controls and historical receipts."
+    },
+    {
+      "path": "world/layouts/speaker-pisces.json",
+      "fromSha256": "cbdc0503c23371ea12545be6fe8dee32b19d7adf088711bc44c7d1ce0ca81aad",
+      "toSha256": "84e5f7da71156f17677fd2681c8ac4f6de726e87189b1c374f93033a600598b0",
+      "reason": "Add 36 audience chairs and an accurate visual listening boundary per zodiac room; use ground footprints for six plaza lamps and fourteen buildings while preserving artwork, entrances, WAM controls and historical receipts."
+    },
+    {
+      "path": "world/layouts/speaker-sagittarius.json",
+      "fromSha256": "7ca0d50adab4cfd5e2d4d88248e1402da0e1afe89b7fb539035c24751928c5ac",
+      "toSha256": "ca33b061cead15fe51ee46dfa32af85003eaeca0a49733bd01a943a03d948670",
+      "reason": "Add 36 audience chairs and an accurate visual listening boundary per zodiac room; use ground footprints for six plaza lamps and fourteen buildings while preserving artwork, entrances, WAM controls and historical receipts."
+    },
+    {
+      "path": "world/layouts/speaker-scorpio.json",
+      "fromSha256": "5efe3673e9ce97cbe1411f2f5a60a7d4b14e00e6f93cf0c0c8ab8ba0fcd54834",
+      "toSha256": "e92e64ab5577f3ad1a3bf33c071d0ae0d195210e25f1e814a59941efe4d9d315",
+      "reason": "Add 36 audience chairs and an accurate visual listening boundary per zodiac room; use ground footprints for six plaza lamps and fourteen buildings while preserving artwork, entrances, WAM controls and historical receipts."
+    },
+    {
+      "path": "world/layouts/speaker-taurus.json",
+      "fromSha256": "de72e8895369ac1b34bbca721dfe1812eb6d845bffc792abe6da039c24c4fbe7",
+      "toSha256": "8054a485f7458a3a8a326586f67cf12059ac20c6b65ec7b1655726c3d91f6e9e",
+      "reason": "Add 36 audience chairs and an accurate visual listening boundary per zodiac room; use ground footprints for six plaza lamps and fourteen buildings while preserving artwork, entrances, WAM controls and historical receipts."
+    },
+    {
+      "path": "world/layouts/speaker-virgo.json",
+      "fromSha256": "b7a3321efccefea00cef9f75086eab4274ee007d28a648bcc30ec2806a13cb10",
+      "toSha256": "7988df1cb6e6127d2e3ff421859364dad194fa443818df97ef8022453740ede1",
+      "reason": "Add 36 audience chairs and an accurate visual listening boundary per zodiac room; use ground footprints for six plaza lamps and fourteen buildings while preserving artwork, entrances, WAM controls and historical receipts."
+    }
+  ]
+}

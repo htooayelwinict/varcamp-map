@@ -27,7 +27,7 @@ describe('final plaza guide physical/depth audit',()=>{
  });
  it('accepts the final exact 864-cell graph and intentional below-avatar floor identity',()=>{
   const d=data(),result=check(d);
-  expect(result).toMatchObject({allowedCells:864,startupReservedCells:4,nativeCollisionCells:6860,portalCells:48,walkablePropOverlapCells:102,walkableImageOverlapCells:8});
+  expect(result).toMatchObject({allowedCells:864,startupReservedCells:4,nativeCollisionCells:6133,portalCells:48,walkablePropOverlapCells:102,walkableImageOverlapCells:8});
   expect(result.walkableProps.map((p:any)=>p.id).sort()).toEqual([...['aries','taurus','gemini','cancer','leo','virgo','libra','scorpio','sagittarius','capricorn','aquarius','pisces'].map(s=>`${s}-zodiac-threshold`),...['cancer','scorpio','sagittarius','capricorn','aquarius','pisces'].map(s=>`${s}-ground-name`),'approach-arrow-cancer','approach-arrow-capricorn','gate-return-arrow-maze','community-corner-floor','sponsor-expo-floor'].sort());
   const {provenance,...graph}=d.routes;
   expect(createHash('sha256').update(JSON.stringify(graph)).digest('hex')).toBe('3f0e753809114d3d54f4e56affe909cbdb46daf66b43ed7d5d801111376a5666');

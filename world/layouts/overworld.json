@@ -9698,7 +9698,7 @@
     },
     {
       "id": "aries-building",
-      "sprite": "zodiac-physical-aries",
+      "sprite": "grounded-zodiac-physical-aries",
       "x": 102,
       "y": 58,
       "width": 12,
@@ -9752,7 +9752,7 @@
     },
     {
       "id": "taurus-building",
-      "sprite": "zodiac-physical-taurus",
+      "sprite": "grounded-zodiac-physical-taurus",
       "x": 96,
       "y": 80,
       "width": 12,
@@ -9806,7 +9806,7 @@
     },
     {
       "id": "gemini-building",
-      "sprite": "zodiac-physical-gemini",
+      "sprite": "grounded-zodiac-physical-gemini",
       "x": 80,
       "y": 96,
       "width": 12,
@@ -9860,7 +9860,7 @@
     },
     {
       "id": "cancer-building",
-      "sprite": "zodiac-physical-cancer",
+      "sprite": "grounded-zodiac-physical-cancer",
       "x": 58,
       "y": 102,
       "width": 12,
@@ -9914,7 +9914,7 @@
     },
     {
       "id": "leo-building",
-      "sprite": "zodiac-physical-leo",
+      "sprite": "grounded-zodiac-physical-leo",
       "x": 36,
       "y": 96,
       "width": 12,
@@ -9968,7 +9968,7 @@
     },
     {
       "id": "virgo-building",
-      "sprite": "zodiac-physical-virgo",
+      "sprite": "grounded-zodiac-physical-virgo",
       "x": 20,
       "y": 80,
       "width": 12,
@@ -10022,7 +10022,7 @@
     },
     {
       "id": "libra-building",
-      "sprite": "zodiac-physical-libra",
+      "sprite": "grounded-zodiac-physical-libra",
       "x": 14,
       "y": 58,
       "width": 12,
@@ -10058,7 +10058,7 @@
     },
     {
       "id": "scorpio-building",
-      "sprite": "zodiac-physical-scorpio",
+      "sprite": "grounded-zodiac-physical-scorpio",
       "x": 20,
       "y": 36,
       "width": 12,
@@ -10094,7 +10094,7 @@
     },
     {
       "id": "sagittarius-building",
-      "sprite": "zodiac-physical-sagittarius",
+      "sprite": "grounded-zodiac-physical-sagittarius",
       "x": 36,
       "y": 20,
       "width": 12,
@@ -10130,7 +10130,7 @@
     },
     {
       "id": "capricorn-building",
-      "sprite": "zodiac-physical-capricorn",
+      "sprite": "grounded-zodiac-physical-capricorn",
       "x": 58,
       "y": 14,
       "width": 12,
@@ -10166,7 +10166,7 @@
     },
     {
       "id": "aquarius-building",
-      "sprite": "zodiac-physical-aquarius",
+      "sprite": "grounded-zodiac-physical-aquarius",
       "x": 80,
       "y": 20,
       "width": 12,
@@ -10220,7 +10220,7 @@
     },
     {
       "id": "pisces-building",
-      "sprite": "zodiac-physical-pisces",
+      "sprite": "grounded-zodiac-physical-pisces",
       "x": 96,
       "y": 36,
       "width": 12,
@@ -10589,7 +10589,7 @@
     },
     {
       "id": "exterior-gate-solar",
-      "sprite": "hall-building-solar",
+      "sprite": "grounded-hall-building-solar",
       "x": 15,
       "y": 10,
       "width": 12,
@@ -10625,7 +10625,7 @@
     },
     {
       "id": "exterior-gate-lunar",
-      "sprite": "hall-building-lunar",
+      "sprite": "grounded-hall-building-lunar",
       "x": 101,
       "y": 10,
       "width": 12,
@@ -13016,7 +13016,7 @@
     },
     {
       "id": "plaza-lamp-62-74",
-      "sprite": "plaza-lamp",
+      "sprite": "grounded-plaza-lamp",
       "layer": "props",
       "x": 62,
       "y": 72,
@@ -13025,7 +13025,7 @@
     },
     {
       "id": "plaza-lamp-62-79",
-      "sprite": "plaza-lamp",
+      "sprite": "grounded-plaza-lamp",
       "layer": "props",
       "x": 62,
       "y": 77,
@@ -13034,7 +13034,7 @@
     },
     {
       "id": "plaza-lamp-62-84",
-      "sprite": "plaza-lamp",
+      "sprite": "grounded-plaza-lamp",
       "layer": "props",
       "x": 62,
       "y": 82,
@@ -13043,7 +13043,7 @@
     },
     {
       "id": "plaza-lamp-65-74",
-      "sprite": "plaza-lamp",
+      "sprite": "grounded-plaza-lamp",
       "layer": "props",
       "x": 65,
       "y": 72,
@@ -13052,7 +13052,7 @@
     },
     {
       "id": "plaza-lamp-65-79",
-      "sprite": "plaza-lamp",
+      "sprite": "grounded-plaza-lamp",
       "layer": "props",
       "x": 65,
       "y": 77,
@@ -13061,7 +13061,7 @@
     },
     {
       "id": "plaza-lamp-65-84",
-      "sprite": "plaza-lamp",
+      "sprite": "grounded-plaza-lamp",
       "layer": "props",
       "x": 65,
       "y": 82,
