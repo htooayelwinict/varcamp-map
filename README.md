@@ -56,6 +56,8 @@ Demo company marks and some community-hub names are placeholders. Organizer-prov
 
 Physical doors and exits remain available if the optional quest interface fails to initialize. Arcade cabinets and playground props are social scenery; this repository does not provide an external arcade game service.
 
+For event attendance, find the computer counter labelled **REGISTER / CHECK IN** beside the main VarCamp logo, to the right of arrival. Click **CHECK IN**, or approach the desk and activate its prompt. The [official ticket check-in page](https://register.var.camp/2026/attendee/check-in) opens in a new tab; follow its instructions to scan your ticket QR code or upload the ticket image. The registration service controls opening times and attendance records. [Counter maintenance guide](docs/operating/check-in-counter.md).
+
 ### Find the main destinations
 
 From the overworld, the zodiac buildings and both halls have their own entrances. The outer gates lead **north to Orbit Maze**, **west to the festival park**, **east to the coast**, and **south to Campus Exploration**. Signs and the directory help you return to the plaza.

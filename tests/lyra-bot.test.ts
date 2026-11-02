@@ -53,7 +53,7 @@ describe('audited native navigation', () => {
     for (const [path, hash] of Object.entries(ROUTES.provenance.sourceSha256)) expect(createHash('sha256').update(readFileSync(path)).digest('hex'), path).toBe(hash);
     const map=native(),layout=JSON.parse(readFileSync('world/layouts/overworld.json','utf8')),wam=JSON.parse(readFileSync('maps/overworld.wam','utf8'));
     const result=auditGuideRoutes({map,layout,wam,catalog:loadTileCatalog(),routes:ROUTES});
-    expect(result).toMatchObject({allowedCells:864,startupReservedCells:4,nativeCollisionCells:6854,portalCells:48,walkablePropOverlapCells:78,walkableImageOverlapCells:12});
+    expect(result).toMatchObject({allowedCells:864,startupReservedCells:4,nativeCollisionCells:6857,portalCells:48,walkablePropOverlapCells:78,walkableImageOverlapCells:12});
     const collisionGids=new Set<number>();for(const s of map.tilesets)for(const t of s.tiles??[])if(t.properties?.some(p=>p.name==='collides'&&p.value===true))collisionGids.add(s.firstgid+t.id);
     const forbidden=new Set<number>();for(const l of map.layers)if(l.type==='tilelayer')l.data.forEach((g,i)=>{if(collisionGids.has((g&0x0fffffff)>>>0)||(g&&l.properties?.some(p=>p.name==='exitUrl')))forbidden.add(i);});
     for(const n of forbidden)expect(()=>planRoute([70,76],[n%128,Math.floor(n/128)])).toThrow();

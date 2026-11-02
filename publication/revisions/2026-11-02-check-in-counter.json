@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "revisions": [
+    {
+      "path": "maps/overworld.tmj",
+      "fromSha256": "639e9b26afd22260e6e3f26a8eca60786543b3f93c4ddd6f7c87e297e5f8f3c4",
+      "toSha256": "bc8fb84eb963df7d1c40e710f3ea0ffef1ad82e0051273338bbde5ab12eb66fb",
+      "reason": "Add an arrival computer desk with a clickable registration sign and deliberate Check In action opening the official attendee page in a separate tab. Preserve saved WAMs, all portals, map assets, guide routes and existing placements. Only three new desk collision cells are occupied; refresh public geometry and module receipts without starting guides."
+    },
+    {
+      "path": "maps/preview/overworld.tmj",
+      "fromSha256": "da738fdf88a04e5a5a39bf0fea2c15541914c47940e2487803d7bdb8dfed9c8b",
+      "toSha256": "05ff79cc3b1196c6fec38606419cb9a45b1eb1c8558f05cb37c643c3e75b53aa",
+      "reason": "Add an arrival computer desk with a clickable registration sign and deliberate Check In action opening the official attendee page in a separate tab. Preserve saved WAMs, all portals, map assets, guide routes and existing placements. Only three new desk collision cells are occupied; refresh public geometry and module receipts without starting guides."
+    },
+    {
+      "path": "src/main.ts",
+      "fromSha256": "16fdfe2026543dba8dcba221dbb6c99f95b6cfb652847bbdb5abd4a30ace8f4a",
+      "toSha256": "786b0d47c80bdccd784cf1cb77e14de5ca8453da03bf3cae3d6a9417456c4038",
+      "reason": "Add an arrival computer desk with a clickable registration sign and deliberate Check In action opening the official attendee page in a separate tab. Preserve saved WAMs, all portals, map assets, guide routes and existing placements. Only three new desk collision cells are occupied; refresh public geometry and module receipts without starting guides."
+    },
+    {
+      "path": "world/layouts/overworld.json",
+      "fromSha256": "d21f3cb13dbaccc9a47cf42ad9ee424f32673a80465ff1357430d25fd1342b41",
+      "toSha256": "7a0b2ed3f8304f2b25abd323780f7f1a401628e1565a0ea4529fdd5050646815",
+      "reason": "Add an arrival computer desk with a clickable registration sign and deliberate Check In action opening the official attendee page in a separate tab. Preserve saved WAMs, all portals, map assets, guide routes and existing placements. Only three new desk collision cells are occupied; refresh public geometry and module receipts without starting guides."
+    }
+  ]
+}

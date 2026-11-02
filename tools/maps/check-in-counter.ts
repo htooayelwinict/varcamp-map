@@ -1,0 +1,30 @@
+import {readFileSync,writeFileSync} from 'node:fs';
+import {isDeepStrictEqual} from 'node:util';
+import {loadTileCatalog} from '../art/catalog';
+import {buildMap} from './builder';
+import {applyCheckInCounter,restoreCheckInCounter} from './check-in-definition';
+import {assertNativeSourceProjection,reconcileNativeProjection} from './native-projection';
+import {assertCurrentNativeMap} from './current-native';
+import type {MapLayout,TiledMap} from './types';
+
+const read=(path:string)=>JSON.parse(readFileSync(path,'utf8'));
+const catalog=loadTileCatalog(),current=read('world/layouts/overworld.json') as MapLayout;
+const layout=current.placements.some(p=>p.id.startsWith('check-in-counter-'))?applyCheckInCounter(restoreCheckInCounter(current)):applyCheckInCounter(current);
+const native=read('maps/overworld.tmj') as TiledMap;
+assertNativeSourceProjection(native,buildMap(current,catalog).tmj);
+const source=buildMap(layout,catalog).tmj,staged=structuredClone(native);
+const from=source.tilesets.find(t=>t.name==='navigation-mask')!,to=staged.tilesets.find(t=>t.name==='navigation-mask')!;
+const mask=staged.layers.find(l=>l.name==='physical-collisions'),target=source.layers.find(l=>l.name==='physical-collisions');
+if(mask?.type!=='tilelayer'||target?.type!=='tilelayer')throw Error('Missing collision mask');
+const allowed=new Set([71,72,73].map(x=>61*128+x));
+mask.data=mask.data.map((old,index)=>{
+ const next=target.data[index]?target.data[index]-from.firstgid+to.firstgid:0;
+ if(next!==old&&!allowed.has(index))throw Error('Counter changed an unrelated collision cell');
+ return next;
+});
+const map=reconcileNativeProjection(staged,source);
+if(!isDeepStrictEqual(map.tilesets,native.tilesets))throw Error('Counter must reuse the existing atlas reservations');
+assertCurrentNativeMap('overworld',map,layout,read('maps/overworld.wam'),catalog);
+writeFileSync('world/layouts/overworld.json',JSON.stringify(layout,null,2)+'\n');
+writeFileSync('maps/overworld.tmj',JSON.stringify(map)+'\n');
+console.log('Check-in desk added; only its three occupied desk-front cells change collisions. WAM preserved.');

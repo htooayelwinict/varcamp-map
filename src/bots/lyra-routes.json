@@ -2,8 +2,8 @@
   "provenance": {
     "proposalSha256": "a071e0c81c18ad4b1d759f8c246384fc50032e6e3b7c395413246b9858958282",
     "sourceSha256": {
-      "world/layouts/overworld.json": "d21f3cb13dbaccc9a47cf42ad9ee424f32673a80465ff1357430d25fd1342b41",
-      "maps/overworld.tmj": "639e9b26afd22260e6e3f26a8eca60786543b3f93c4ddd6f7c87e297e5f8f3c4",
+      "world/layouts/overworld.json": "7a0b2ed3f8304f2b25abd323780f7f1a401628e1565a0ea4529fdd5050646815",
+      "maps/overworld.tmj": "bc8fb84eb963df7d1c40e710f3ea0ffef1ad82e0051273338bbde5ab12eb66fb",
       "maps/overworld.wam": "34912c410e77b9ce32c356275f585a5b8f444187b8f447d346f7542bbe159eff",
       "tests/exterior-gates.test.ts": "eeaf05f4e7311d7bf8053609a7221d63dbc60d6b0493cfa513278a77339f84da",
       "tests/npc-maps.test.ts": "9e0951890a877421e27e13127a1d2243b057c1e89559276d4e5d43d321c8ea57",
@@ -13,7 +13,7 @@
       "tests/helpers/physical-prop-contracts.ts": "9ac76984fe6fe3e32514aeb755b1317dda180ffac4efa656c51f513eadf57972",
       "art/tile-catalog.json": "05ae1dd05955e2c3520c92ec1b4e26a7a5e117980e765a5572652d7ae30ee0ef",
       "tools/bots/route-audit.ts": "47671835b82b951cde24acfd95478be8d5b770f080e7e4b8726208cb28a67cf0",
-      "tests/guide-route-audit.test.ts": "a74ce0f4f0ca25213ecb616fc77cfc488802ef755f8489bfeb21075a927d0638",
+      "tests/guide-route-audit.test.ts": "05711f56bcd1fb0535543275dfbc711497d04aab58d05ed54eb2f543a72d8bc3",
       "src/bots/map-guard.ts": "9ee1397f8886e7f11e723f3ee3b7e011692b6352481dd83503739455f7055c15",
       "tools/maps/expo-spacing.ts": "4330f38db5c0803df656a952819fd528be46e99b00f7a1186e727165692f3852",
       "world/expo-spacing.json": "7a89b2714d8073fed691cbd1c4d61cf1600a239d23581c2d84d427beb3f83a92",
@@ -57,10 +57,12 @@
       "tools/maps/maze-gate-context.ts": "c037c2de5058365087839c3208244360e4d80bffae0aec98e2263974807fc350",
       "art/source/maze-gate-refresh.json": "44a807922c89b3bf6c46ade6d4578ed3a304c9dbfac0e2215fdbe24434ad1b19",
       "tools/maps/expo-chair-physics.ts": "ee0fed3318613b75d9565a413c1e725ba3849994a147854a442b6a09701607e9",
-      "tools/maps/plaza-native.ts": "1c10ac69d96222ae0e8d83f643e0e4288fab6e6920e48eac9446d4598b424722"
+      "tools/maps/plaza-native.ts": "0f5ff2dcb6b6e5af4580fc1fea422008b5162e1ebf6a26e57db5989f5c2ffb18",
+      "tools/maps/check-in-definition.ts": "269d398c6a4f8c8f2760361dd67a107e34d9d4c064ea511b7bbce979c7a6123f",
+      "world/check-in-counter.json": "866948b4bb574d6484d33fd672b1f6888a052fa1e2b0d84b70be71833d671a32"
     },
     "allowedCellsSha256": "34d4a7f34610d0b669b9f059086557e03aec0f379cf28c832797a279cc07061d",
-    "geometrySha256": "99cccd86946e1600b2a8a491ab941b9a9dc25f6e7572e5cd2088af03cbb237ad",
+    "geometrySha256": "418e001c6d38912fc0234369e80042965a8f75cd8c8c4a4c21ca922ef86101c4",
     "geometryEncoding": "Sorted-key JSON of width,height,tilewidth,tileheight,layers with objectgroup class omitted only when identical to nonempty object type,tilesets excluding image,properties excluding script; UTF-8 SHA-256."
   },
   "home": [

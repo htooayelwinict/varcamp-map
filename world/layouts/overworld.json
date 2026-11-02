@@ -55943,6 +55943,42 @@
       "width": 2,
       "height": 2,
       "layer": "props"
+    },
+    {
+      "id": "check-in-counter-pad",
+      "sprite": "floor-charcoal",
+      "x": 70,
+      "y": 58,
+      "width": 5,
+      "height": 5,
+      "layer": "terrain"
+    },
+    {
+      "id": "check-in-counter-desk",
+      "sprite": "desk-glass",
+      "x": 71,
+      "y": 59,
+      "width": 3,
+      "height": 3,
+      "layer": "props"
+    },
+    {
+      "id": "check-in-counter-monitor",
+      "sprite": "screen-wide",
+      "x": 71,
+      "y": 58,
+      "width": 3,
+      "height": 2,
+      "layer": "props"
+    },
+    {
+      "id": "check-in-counter-display",
+      "sprite": "screen-content",
+      "x": 71,
+      "y": 58,
+      "width": 3,
+      "height": 2,
+      "layer": "props"
     }
   ],
   "entries": [
