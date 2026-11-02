@@ -1,0 +1,221 @@
+{
+  "schemaVersion": 1,
+  "revisions": [
+    {
+      "path": "maps/preview/speaker-aquarius.tmj",
+      "fromSha256": "53cad447b726c032ad2d4dd20f0ea7ef149d50add5a853a89099d72e8dcd24ab",
+      "toSha256": "749b06251e8eff9d15c9439a483213abbf97a62baf4eb4a368e27f045201be7e",
+      "reason": "Remove BSides Myanmar and Vibe Code Tours community banners, headings and decorative display panels from the twelve zodiac speaker rooms only. Retain their VarCamp branding and zodiac themes, preserve all room physics and controls, and leave Solar, Lunar and plaza branding unchanged."
+    },
+    {
+      "path": "maps/preview/speaker-aries.tmj",
+      "fromSha256": "39611ed1f616f8de637fa4d615d5555fd12b0b0b890be6fda863c652f33a15a0",
+      "toSha256": "63a76af104df126d7e0610413a074d81ae879313c4a1720474f5d76f29cd7442",
+      "reason": "Remove BSides Myanmar and Vibe Code Tours community banners, headings and decorative display panels from the twelve zodiac speaker rooms only. Retain their VarCamp branding and zodiac themes, preserve all room physics and controls, and leave Solar, Lunar and plaza branding unchanged."
+    },
+    {
+      "path": "maps/preview/speaker-cancer.tmj",
+      "fromSha256": "7b2c9384a031b486b0fb48a79382b7ec1eccc5cbaf9081fdc7753e09919bc9ec",
+      "toSha256": "562bf2e6e08894ddd4d66d92791f34cf66b35f0e0b73d6390987336cc92fed25",
+      "reason": "Remove BSides Myanmar and Vibe Code Tours community banners, headings and decorative display panels from the twelve zodiac speaker rooms only. Retain their VarCamp branding and zodiac themes, preserve all room physics and controls, and leave Solar, Lunar and plaza branding unchanged."
+    },
+    {
+      "path": "maps/preview/speaker-capricorn.tmj",
+      "fromSha256": "cffcea657414d362690b6c1ef853fc2525a1cdc5e6c11a416fb405b4b8009678",
+      "toSha256": "999d95065c4f5bc4420e1421040ce4c822e131b02de9500f29d8f1e8f9ef1f92",
+      "reason": "Remove BSides Myanmar and Vibe Code Tours community banners, headings and decorative display panels from the twelve zodiac speaker rooms only. Retain their VarCamp branding and zodiac themes, preserve all room physics and controls, and leave Solar, Lunar and plaza branding unchanged."
+    },
+    {
+      "path": "maps/preview/speaker-gemini.tmj",
+      "fromSha256": "320f4c2c5ea45dbcd13206fe752e2921eee143d4864c7aa48d84ae3996b8ea28",
+      "toSha256": "8dfdbf70f5b865f5388696a040e2bbc4a94caa3e9e9e4a8f17a39e91371302e3",
+      "reason": "Remove BSides Myanmar and Vibe Code Tours community banners, headings and decorative display panels from the twelve zodiac speaker rooms only. Retain their VarCamp branding and zodiac themes, preserve all room physics and controls, and leave Solar, Lunar and plaza branding unchanged."
+    },
+    {
+      "path": "maps/preview/speaker-leo.tmj",
+      "fromSha256": "1413df27f70cef901eda364d8962e84994d64cf65bed58e05de2a2190dd9f16f",
+      "toSha256": "de2701331c684eaa90081a670721df4d24dc960411c133d9754582b33477ec60",
+      "reason": "Remove BSides Myanmar and Vibe Code Tours community banners, headings and decorative display panels from the twelve zodiac speaker rooms only. Retain their VarCamp branding and zodiac themes, preserve all room physics and controls, and leave Solar, Lunar and plaza branding unchanged."
+    },
+    {
+      "path": "maps/preview/speaker-libra.tmj",
+      "fromSha256": "507c321172723017e0f954165810ef8103a7b8920199c4ac1cbcc4a7f2b2a666",
+      "toSha256": "a98f23528945b923277e5e1bb5f5d4fef2d26f743e57604d7bf9ed8cc745848c",
+      "reason": "Remove BSides Myanmar and Vibe Code Tours community banners, headings and decorative display panels from the twelve zodiac speaker rooms only. Retain their VarCamp branding and zodiac themes, preserve all room physics and controls, and leave Solar, Lunar and plaza branding unchanged."
+    },
+    {
+      "path": "maps/preview/speaker-pisces.tmj",
+      "fromSha256": "af4ecb8e0abb226c6155b49c0a3b55183a59acc9ccb64ab2fc8d696ef3b6eec6",
+      "toSha256": "3260d489c1d3e1ebf1151c602a91514a4e63543f648510c7368b7d1fc87572be",
+      "reason": "Remove BSides Myanmar and Vibe Code Tours community banners, headings and decorative display panels from the twelve zodiac speaker rooms only. Retain their VarCamp branding and zodiac themes, preserve all room physics and controls, and leave Solar, Lunar and plaza branding unchanged."
+    },
+    {
+      "path": "maps/preview/speaker-sagittarius.tmj",
+      "fromSha256": "18e44c3d00782ca8284d7b19d6bfdf4f3ab5b3300e51f892ce6d7a263a2d8c55",
+      "toSha256": "246d56dce0b83b093fc7b386c8fed0c93ddcdb7111bcaeabf456531467c853c2",
+      "reason": "Remove BSides Myanmar and Vibe Code Tours community banners, headings and decorative display panels from the twelve zodiac speaker rooms only. Retain their VarCamp branding and zodiac themes, preserve all room physics and controls, and leave Solar, Lunar and plaza branding unchanged."
+    },
+    {
+      "path": "maps/preview/speaker-scorpio.tmj",
+      "fromSha256": "daf54cc2ed8665ea24b63bb66e2ba2d6a01ce899bce091936a46fcbfac0579d9",
+      "toSha256": "bd9ceb0c45aacb92aeb0ba1120f32888b6a34e8219d55acade58f5b3ceb8216d",
+      "reason": "Remove BSides Myanmar and Vibe Code Tours community banners, headings and decorative display panels from the twelve zodiac speaker rooms only. Retain their VarCamp branding and zodiac themes, preserve all room physics and controls, and leave Solar, Lunar and plaza branding unchanged."
+    },
+    {
+      "path": "maps/preview/speaker-taurus.tmj",
+      "fromSha256": "10a4943f9bdf76adbe672d6a8ab9aa5baa8c52fc033a20ac677cda840f6601f9",
+      "toSha256": "c926556b55d746f7eac56fb51493dcb322b0233cc0bf1a7b5393d9a1108446ca",
+      "reason": "Remove BSides Myanmar and Vibe Code Tours community banners, headings and decorative display panels from the twelve zodiac speaker rooms only. Retain their VarCamp branding and zodiac themes, preserve all room physics and controls, and leave Solar, Lunar and plaza branding unchanged."
+    },
+    {
+      "path": "maps/preview/speaker-virgo.tmj",
+      "fromSha256": "783b51dab7712f85a3e1d6868d6c087de339c596640ca0224277b535db0257da",
+      "toSha256": "dbbdf6a1fc5deaf6f704ae9a51287c777cc891b3ec8b72504203fe33aa92deda",
+      "reason": "Remove BSides Myanmar and Vibe Code Tours community banners, headings and decorative display panels from the twelve zodiac speaker rooms only. Retain their VarCamp branding and zodiac themes, preserve all room physics and controls, and leave Solar, Lunar and plaza branding unchanged."
+    },
+    {
+      "path": "maps/speaker-aquarius.tmj",
+      "fromSha256": "f6be55af8353691974463ecc16a1b093a9ee8ec818e2c7a336e02fb0bccacf0e",
+      "toSha256": "1a8c650e8ba83174069d7de470e2be963d17c7b5fcc5034c58e24c74019added",
+      "reason": "Remove BSides Myanmar and Vibe Code Tours community banners, headings and decorative display panels from the twelve zodiac speaker rooms only. Retain their VarCamp branding and zodiac themes, preserve all room physics and controls, and leave Solar, Lunar and plaza branding unchanged."
+    },
+    {
+      "path": "maps/speaker-aries.tmj",
+      "fromSha256": "9b221e5e4934f68a94f735402367578680f8e828bedefcdea8a5a95853cc6f6b",
+      "toSha256": "71e39c11614bd327166bc299ad11151839c6713f70487e5a2be835b2eedfac5d",
+      "reason": "Remove BSides Myanmar and Vibe Code Tours community banners, headings and decorative display panels from the twelve zodiac speaker rooms only. Retain their VarCamp branding and zodiac themes, preserve all room physics and controls, and leave Solar, Lunar and plaza branding unchanged."
+    },
+    {
+      "path": "maps/speaker-cancer.tmj",
+      "fromSha256": "b219f7966f7377eaea3d89f64b5afc3704e02d5261678b11e67c1d89c94cf5e0",
+      "toSha256": "fc7747ecd6555a9faa4a5ff0c69be3be02b29916a757c5ec24d516811c78dd16",
+      "reason": "Remove BSides Myanmar and Vibe Code Tours community banners, headings and decorative display panels from the twelve zodiac speaker rooms only. Retain their VarCamp branding and zodiac themes, preserve all room physics and controls, and leave Solar, Lunar and plaza branding unchanged."
+    },
+    {
+      "path": "maps/speaker-capricorn.tmj",
+      "fromSha256": "09a09c259be44d213119a1d8ae447a24846b7dc2ab075b417664d5f965d635ac",
+      "toSha256": "3a630e85ce515baaeac3986876ed1c7d6a60608a6b574bc0bae412081038f1bf",
+      "reason": "Remove BSides Myanmar and Vibe Code Tours community banners, headings and decorative display panels from the twelve zodiac speaker rooms only. Retain their VarCamp branding and zodiac themes, preserve all room physics and controls, and leave Solar, Lunar and plaza branding unchanged."
+    },
+    {
+      "path": "maps/speaker-gemini.tmj",
+      "fromSha256": "2522dff533fb2f060bbdd246b6cc64c633189f0fb7b549431dbc051b0901d5c0",
+      "toSha256": "3b82d4c110dce8b03bacced3d46d9d673753b1bc16b4b0505fb79298a197fb8d",
+      "reason": "Remove BSides Myanmar and Vibe Code Tours community banners, headings and decorative display panels from the twelve zodiac speaker rooms only. Retain their VarCamp branding and zodiac themes, preserve all room physics and controls, and leave Solar, Lunar and plaza branding unchanged."
+    },
+    {
+      "path": "maps/speaker-leo.tmj",
+      "fromSha256": "920e4a13095d1b038a3ff6eb70ff41bfa2d5a4814928e99a4771a40811445861",
+      "toSha256": "5f0c381420041704af425e69a485c6ee5b9bc4e0b8159dd1791f6ac0da5c5396",
+      "reason": "Remove BSides Myanmar and Vibe Code Tours community banners, headings and decorative display panels from the twelve zodiac speaker rooms only. Retain their VarCamp branding and zodiac themes, preserve all room physics and controls, and leave Solar, Lunar and plaza branding unchanged."
+    },
+    {
+      "path": "maps/speaker-libra.tmj",
+      "fromSha256": "89f7bd09477554fb5e806096d28f75ba7ea9f59efaad559cab82a5abc0e2c24f",
+      "toSha256": "11699c8ab9d647cdc3bdadcdec89dc26b64f65230f06facaeb1b05d294cbc72e",
+      "reason": "Remove BSides Myanmar and Vibe Code Tours community banners, headings and decorative display panels from the twelve zodiac speaker rooms only. Retain their VarCamp branding and zodiac themes, preserve all room physics and controls, and leave Solar, Lunar and plaza branding unchanged."
+    },
+    {
+      "path": "maps/speaker-pisces.tmj",
+      "fromSha256": "6e62250c61836c7c2be58202c3d2ebcd8cfabd16952b5de9690af246a3c0549f",
+      "toSha256": "3c9e506adaa1f2082af5a5eb9d5d301874ffb3c12e9258804257256aa40dcc0a",
+      "reason": "Remove BSides Myanmar and Vibe Code Tours community banners, headings and decorative display panels from the twelve zodiac speaker rooms only. Retain their VarCamp branding and zodiac themes, preserve all room physics and controls, and leave Solar, Lunar and plaza branding unchanged."
+    },
+    {
+      "path": "maps/speaker-sagittarius.tmj",
+      "fromSha256": "19c9f6eaf20ea7e4d85b7cf8fa693d82802bff5d37b881aefd87f505138a9d62",
+      "toSha256": "876e123fb70a53a40edebcbc68fc4be53df3f7bb824aacf0bb05674102d4ab3a",
+      "reason": "Remove BSides Myanmar and Vibe Code Tours community banners, headings and decorative display panels from the twelve zodiac speaker rooms only. Retain their VarCamp branding and zodiac themes, preserve all room physics and controls, and leave Solar, Lunar and plaza branding unchanged."
+    },
+    {
+      "path": "maps/speaker-scorpio.tmj",
+      "fromSha256": "380329c0154bf841ce517792232716b12383096727eee507396268e69bf56acb",
+      "toSha256": "cf803a960bcc424e18106e3a1074e8cd441fd0f3124a9407aaefd547b9eab29b",
+      "reason": "Remove BSides Myanmar and Vibe Code Tours community banners, headings and decorative display panels from the twelve zodiac speaker rooms only. Retain their VarCamp branding and zodiac themes, preserve all room physics and controls, and leave Solar, Lunar and plaza branding unchanged."
+    },
+    {
+      "path": "maps/speaker-taurus.tmj",
+      "fromSha256": "27ff4df830d41a6dd32663a7d973ce066bc9aeb3481c29bc4cfaf63a546c8637",
+      "toSha256": "bcf107053fb7a510f8334896335f46262815c1122093ea5d979434c13517c35f",
+      "reason": "Remove BSides Myanmar and Vibe Code Tours community banners, headings and decorative display panels from the twelve zodiac speaker rooms only. Retain their VarCamp branding and zodiac themes, preserve all room physics and controls, and leave Solar, Lunar and plaza branding unchanged."
+    },
+    {
+      "path": "maps/speaker-virgo.tmj",
+      "fromSha256": "10d17b374787b85b565dad0c1cecfa71096ac04afc7b574db39205e4bc97a137",
+      "toSha256": "5e8d44656292a7f91d0882824e55eede1fc94f32065e354d42a1a7798b0a69e3",
+      "reason": "Remove BSides Myanmar and Vibe Code Tours community banners, headings and decorative display panels from the twelve zodiac speaker rooms only. Retain their VarCamp branding and zodiac themes, preserve all room physics and controls, and leave Solar, Lunar and plaza branding unchanged."
+    },
+    {
+      "path": "world/layouts/speaker-aquarius.json",
+      "fromSha256": "a2e39175dff49dc6c81ada372134b538dcc7e66e6212c90237558db2d9e0bfe5",
+      "toSha256": "eb0fd9941d0c761107ee8f86c36a2b10fcb05cbd8fa3e23fb89bb8bc6f7e9fb8",
+      "reason": "Remove BSides Myanmar and Vibe Code Tours community banners, headings and decorative display panels from the twelve zodiac speaker rooms only. Retain their VarCamp branding and zodiac themes, preserve all room physics and controls, and leave Solar, Lunar and plaza branding unchanged."
+    },
+    {
+      "path": "world/layouts/speaker-aries.json",
+      "fromSha256": "026a4eecdcfe905e38f0ccf763118edb40766604b615a3c068b95b63ac5ac6f6",
+      "toSha256": "06f180a889c75532d77ab534cb28832ed68816f18246a29ab9c6f1639c0fbc72",
+      "reason": "Remove BSides Myanmar and Vibe Code Tours community banners, headings and decorative display panels from the twelve zodiac speaker rooms only. Retain their VarCamp branding and zodiac themes, preserve all room physics and controls, and leave Solar, Lunar and plaza branding unchanged."
+    },
+    {
+      "path": "world/layouts/speaker-cancer.json",
+      "fromSha256": "facb92992b069eaf52c7f5faa13a87d18f0125a6ec65aa353bb37c283991d32e",
+      "toSha256": "7da1f31c46348181432a3cea4da353af9966b01f8568dc8cae94f5b46ed16b2a",
+      "reason": "Remove BSides Myanmar and Vibe Code Tours community banners, headings and decorative display panels from the twelve zodiac speaker rooms only. Retain their VarCamp branding and zodiac themes, preserve all room physics and controls, and leave Solar, Lunar and plaza branding unchanged."
+    },
+    {
+      "path": "world/layouts/speaker-capricorn.json",
+      "fromSha256": "0159d91ec40e62dc80daeaeccce1602d5273a2cc1d41b6b4d9ba24f8c9490f2c",
+      "toSha256": "5e4cf5310eac4d20e6eb121a7fe1a2a5d0cb3ded2a65cadb5259f80d8ab7a9e8",
+      "reason": "Remove BSides Myanmar and Vibe Code Tours community banners, headings and decorative display panels from the twelve zodiac speaker rooms only. Retain their VarCamp branding and zodiac themes, preserve all room physics and controls, and leave Solar, Lunar and plaza branding unchanged."
+    },
+    {
+      "path": "world/layouts/speaker-gemini.json",
+      "fromSha256": "5d3cb8a5c28c43480052458a0cd7329ee3e22a43bcbd9180a6fc218d7ea61074",
+      "toSha256": "a8a6f85201f15ca28416a71b2de11f6a763a90cd92f4ad7410f445a2b61a8914",
+      "reason": "Remove BSides Myanmar and Vibe Code Tours community banners, headings and decorative display panels from the twelve zodiac speaker rooms only. Retain their VarCamp branding and zodiac themes, preserve all room physics and controls, and leave Solar, Lunar and plaza branding unchanged."
+    },
+    {
+      "path": "world/layouts/speaker-leo.json",
+      "fromSha256": "ce1991e291e50baa9d95d2f229a7a29cc1db2ea15ee38ff3c926226ca0a65c78",
+      "toSha256": "3d7348447eeb32c415af985f0f310e7b19879de6dd6956ac1b570ad50ef245f3",
+      "reason": "Remove BSides Myanmar and Vibe Code Tours community banners, headings and decorative display panels from the twelve zodiac speaker rooms only. Retain their VarCamp branding and zodiac themes, preserve all room physics and controls, and leave Solar, Lunar and plaza branding unchanged."
+    },
+    {
+      "path": "world/layouts/speaker-libra.json",
+      "fromSha256": "de2c63ba7c2a372b271d572acecdb2d8dd8d9f41ee2906b823ade86876a99eb0",
+      "toSha256": "3c7d9fdc326eaad6a599d8980ee2d89a08d9f183ea35fc5cc37f2892c76c53b5",
+      "reason": "Remove BSides Myanmar and Vibe Code Tours community banners, headings and decorative display panels from the twelve zodiac speaker rooms only. Retain their VarCamp branding and zodiac themes, preserve all room physics and controls, and leave Solar, Lunar and plaza branding unchanged."
+    },
+    {
+      "path": "world/layouts/speaker-pisces.json",
+      "fromSha256": "36d1ebacc40362aeaafd7fcbefabc2b6c60a21021f67a37eaefb2043c36cee82",
+      "toSha256": "cbdc0503c23371ea12545be6fe8dee32b19d7adf088711bc44c7d1ce0ca81aad",
+      "reason": "Remove BSides Myanmar and Vibe Code Tours community banners, headings and decorative display panels from the twelve zodiac speaker rooms only. Retain their VarCamp branding and zodiac themes, preserve all room physics and controls, and leave Solar, Lunar and plaza branding unchanged."
+    },
+    {
+      "path": "world/layouts/speaker-sagittarius.json",
+      "fromSha256": "6ef7e20e7da96c0fed20851f229a9939a333bedd71b452ed941792dd62992f31",
+      "toSha256": "7ca0d50adab4cfd5e2d4d88248e1402da0e1afe89b7fb539035c24751928c5ac",
+      "reason": "Remove BSides Myanmar and Vibe Code Tours community banners, headings and decorative display panels from the twelve zodiac speaker rooms only. Retain their VarCamp branding and zodiac themes, preserve all room physics and controls, and leave Solar, Lunar and plaza branding unchanged."
+    },
+    {
+      "path": "world/layouts/speaker-scorpio.json",
+      "fromSha256": "39d2bd5c6ee1da4795a0c09837efe73e462fe891fecae5b88591e3bdc4bca483",
+      "toSha256": "5efe3673e9ce97cbe1411f2f5a60a7d4b14e00e6f93cf0c0c8ab8ba0fcd54834",
+      "reason": "Remove BSides Myanmar and Vibe Code Tours community banners, headings and decorative display panels from the twelve zodiac speaker rooms only. Retain their VarCamp branding and zodiac themes, preserve all room physics and controls, and leave Solar, Lunar and plaza branding unchanged."
+    },
+    {
+      "path": "world/layouts/speaker-taurus.json",
+      "fromSha256": "f2fe82529683dc92490c555341aabe932a48dc3cc6b946bf0c7c8ac768edea92",
+      "toSha256": "de72e8895369ac1b34bbca721dfe1812eb6d845bffc792abe6da039c24c4fbe7",
+      "reason": "Remove BSides Myanmar and Vibe Code Tours community banners, headings and decorative display panels from the twelve zodiac speaker rooms only. Retain their VarCamp branding and zodiac themes, preserve all room physics and controls, and leave Solar, Lunar and plaza branding unchanged."
+    },
+    {
+      "path": "world/layouts/speaker-virgo.json",
+      "fromSha256": "d9b7e9f8b77a3683af8b98bc4d94a320858228c11539ae12e24d899b19552682",
+      "toSha256": "b7a3321efccefea00cef9f75086eab4274ee007d28a648bcc30ec2806a13cb10",
+      "reason": "Remove BSides Myanmar and Vibe Code Tours community banners, headings and decorative display panels from the twelve zodiac speaker rooms only. Retain their VarCamp branding and zodiac themes, preserve all room physics and controls, and leave Solar, Lunar and plaza branding unchanged."
+    }
+  ]
+}

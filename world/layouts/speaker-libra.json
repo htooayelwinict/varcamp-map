@@ -104,24 +104,6 @@
       "layer": "props"
     },
     {
-      "id": "libra-style-partner-wallpaper",
-      "sprite": "speaker-style-wall",
-      "x": 6,
-      "y": 3,
-      "width": 24,
-      "height": 3,
-      "layer": "props"
-    },
-    {
-      "id": "libra-style-partner-rule",
-      "sprite": "speaker-style-edge-bottom",
-      "x": 6,
-      "y": 5,
-      "width": 24,
-      "height": 1,
-      "layer": "props"
-    },
-    {
       "id": "west-wall",
       "sprite": "wall-navy",
       "x": 0,
@@ -916,18 +898,6 @@
       "align": "left"
     },
     {
-      "name": "libra-style-partners",
-      "text": "COMMUNITY PARTNERS",
-      "x": 16,
-      "y": 3,
-      "width": 8,
-      "height": 1,
-      "fontSize": 12,
-      "color": "#f1d9a0",
-      "align": "left",
-      "padding": 6
-    },
-    {
       "name": "libra-style-presenters",
       "text": "PRESENTERS",
       "x": 17,
@@ -1383,22 +1353,6 @@
       "x": 15,
       "y": 0,
       "width": 6,
-      "height": 2
-    },
-    {
-      "name": "Libra / BSides Myanmar",
-      "image": "assets/sponsors/partner-bsides-mm.png",
-      "x": 11,
-      "y": 4,
-      "width": 4,
-      "height": 2
-    },
-    {
-      "name": "Libra / Vibe Code Tours",
-      "image": "assets/sponsors/vibecode-tours.png",
-      "x": 21,
-      "y": 4,
-      "width": 4,
       "height": 2
     }
   ]

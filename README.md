@@ -42,7 +42,7 @@ The world contains **34 connected maps**, authored on a **32 × 32 pixel tile gr
 
 The plaza's left side is **Community Corner**, with **BSides Myanmar and Vibe Code Tours** next to each other. The right side is **Sponsor Expo**, with the **VarCamp Info Desk** retained. Other booths are unbranded while confirmed sponsor artwork is pending. The booths do not use separate meeting zones to isolate conversations.
 
-The twelve zodiac rooms have stage-facing audience chairs and clear aisles. Solar and Lunar retain their larger chair rows. Room walls retain VarCamp, BSides Myanmar and Vibe Code Tours; retired demo and unapproved partner marks are no longer displayed. See the [event presentation handoff](docs/operating/event-presentation.md) and [branding registry](art/sponsors.json).
+The twelve zodiac rooms have stage-facing audience chairs and clear aisles, with VarCamp branding and their zodiac themes. Community banners appear in Solar and Lunar halls, which retain BSides Myanmar and Vibe Code Tours alongside VarCamp and their larger chair rows. Retired demo and unapproved partner marks are no longer displayed. See the [event presentation handoff](docs/operating/event-presentation.md) and [branding registry](art/sponsors.json).
 
 ## Visitor guide
 

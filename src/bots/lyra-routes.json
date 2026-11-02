@@ -60,13 +60,15 @@
       "tools/maps/plaza-native.ts": "c70c55f8f369529e26b6b3082d52a39c182d035946772dbf419acbef621f50b2",
       "tools/maps/check-in-definition.ts": "269d398c6a4f8c8f2760361dd67a107e34d9d4c064ea511b7bbce979c7a6123f",
       "world/check-in-counter.json": "866948b4bb574d6484d33fd672b1f6888a052fa1e2b0d84b70be71833d671a32",
-      "tools/maps/event-presentation.ts": "0eec212d35e1bec0e31706618772dd6a1f9d7127cd586099a8136aafb22d9495",
+      "tools/maps/event-presentation.ts": "e9130f22afd0a435a62dc344d46df89212636883254840e4ccbbf5dd2d8ae3ae",
       "tools/maps/event-native-context.ts": "3f1e3ace564feb1e2056a8e7ac924686d944b5f0f02ae7a48d8e7c422e460fd8",
       "world/event-presentation.json": "36bfa30e29be41bcef6fccb0606ce6bc14b9d182f22cc5f2e3e9b97e6d7aa400",
       "world/event-native-reservations.json": "44e6801550887db382e3157499728c3649ac617d890bafa49e1631b11331ff63",
       "world/check-in-counter-style.json": "e4b3a61a9adf95d7c5712e33a91e4dc26a86f84f1ed7727a47fa7f689088f014",
       "tools/maps/check-in-physics.ts": "cbb7817ba7b7bcde248f1a06f87e5fddef3ae09f8aa463ca756053929e2c67ff",
-      "world/check-in-physics.json": "d4d65a520a56b0e0bbcdded6d00f587748ed697a75274b0586e378095f0fa470"
+      "world/check-in-physics.json": "d4d65a520a56b0e0bbcdded6d00f587748ed697a75274b0586e378095f0fa470",
+      "tools/maps/speaker-community.ts": "7a221c8177795cdbd2e071dd036d44699d20472b90e6b0a80be8f6e9182bfef5",
+      "world/speaker-community-banners.json": "d2e64c9518f7916d6be2cf13072e23472ba677ed4c50239c0eec66f2c0ecd813"
     },
     "allowedCellsSha256": "34d4a7f34610d0b669b9f059086557e03aec0f379cf28c832797a279cc07061d",
     "geometrySha256": "bc50d3859f93d85ae9000e0105341b007998baf957849fa823dcbb55eff2ee56",

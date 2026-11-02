@@ -1,0 +1,1002 @@
+{
+  "version": 1,
+  "baselineCommit": "5231506d9892c6eacf376814d9edc3371c278c3d",
+  "maps": {
+    "speaker-aquarius": {
+      "beforeLayoutSha256": "8424c4c33968c6838ddf69dad2f802b5c5a612c5f66550b08119f330fc47b849",
+      "afterLayoutSha256": "81745aeea31fb91389a9ba10a75dda87442b0ae1e9ab7b0fa1288d83ffc3cc91",
+      "beforeImages": [
+        {
+          "name": "Aquarius / VarCamp",
+          "image": "assets/sponsors/varcamp-2026.png",
+          "x": 15,
+          "y": 0,
+          "width": 6,
+          "height": 2
+        },
+        {
+          "name": "Aquarius / BSides Myanmar",
+          "image": "assets/sponsors/partner-bsides-mm.png",
+          "x": 11,
+          "y": 4,
+          "width": 4,
+          "height": 2
+        },
+        {
+          "name": "Aquarius / Vibe Code Tours",
+          "image": "assets/sponsors/vibecode-tours.png",
+          "x": 21,
+          "y": 4,
+          "width": 4,
+          "height": 2
+        }
+      ],
+      "afterImages": [
+        {
+          "name": "Aquarius / VarCamp",
+          "image": "assets/sponsors/varcamp-2026.png",
+          "x": 15,
+          "y": 0,
+          "width": 6,
+          "height": 2
+        }
+      ],
+      "removedPlacements": [
+        {
+          "index": 11,
+          "value": {
+            "id": "aquarius-style-partner-wallpaper",
+            "sprite": "speaker-style-wall",
+            "x": 6,
+            "y": 3,
+            "width": 24,
+            "height": 3,
+            "layer": "props"
+          }
+        },
+        {
+          "index": 12,
+          "value": {
+            "id": "aquarius-style-partner-rule",
+            "sprite": "speaker-style-edge-bottom",
+            "x": 6,
+            "y": 5,
+            "width": 24,
+            "height": 1,
+            "layer": "props"
+          }
+        }
+      ],
+      "removedSigns": [
+        {
+          "index": 4,
+          "value": {
+            "name": "aquarius-style-partners",
+            "text": "COMMUNITY PARTNERS",
+            "x": 16,
+            "y": 3,
+            "width": 8,
+            "height": 1,
+            "fontSize": 12,
+            "color": "#f1d9a0",
+            "align": "left",
+            "padding": 6
+          }
+        }
+      ]
+    },
+    "speaker-aries": {
+      "beforeLayoutSha256": "e046d3c083ee4cecc13b7f1fbcafffe770df882604b9163de9bbd00f26df4958",
+      "afterLayoutSha256": "a113d01d6c4ac1249f423224862a7a27c318077aa94b410c9254300f53518418",
+      "beforeImages": [
+        {
+          "name": "Aries / VarCamp",
+          "image": "assets/sponsors/varcamp-2026.png",
+          "x": 15,
+          "y": 0,
+          "width": 6,
+          "height": 2
+        },
+        {
+          "name": "Aries / BSides Myanmar",
+          "image": "assets/sponsors/partner-bsides-mm.png",
+          "x": 11,
+          "y": 4,
+          "width": 4,
+          "height": 2
+        },
+        {
+          "name": "Aries / Vibe Code Tours",
+          "image": "assets/sponsors/vibecode-tours.png",
+          "x": 21,
+          "y": 4,
+          "width": 4,
+          "height": 2
+        }
+      ],
+      "afterImages": [
+        {
+          "name": "Aries / VarCamp",
+          "image": "assets/sponsors/varcamp-2026.png",
+          "x": 15,
+          "y": 0,
+          "width": 6,
+          "height": 2
+        }
+      ],
+      "removedPlacements": [
+        {
+          "index": 11,
+          "value": {
+            "id": "aries-style-partner-wallpaper",
+            "sprite": "speaker-style-wall",
+            "x": 6,
+            "y": 3,
+            "width": 24,
+            "height": 3,
+            "layer": "props"
+          }
+        },
+        {
+          "index": 12,
+          "value": {
+            "id": "aries-style-partner-rule",
+            "sprite": "speaker-style-edge-bottom",
+            "x": 6,
+            "y": 5,
+            "width": 24,
+            "height": 1,
+            "layer": "props"
+          }
+        }
+      ],
+      "removedSigns": [
+        {
+          "index": 4,
+          "value": {
+            "name": "aries-style-partners",
+            "text": "COMMUNITY PARTNERS",
+            "x": 16,
+            "y": 3,
+            "width": 8,
+            "height": 1,
+            "fontSize": 12,
+            "color": "#f1d9a0",
+            "align": "left",
+            "padding": 6
+          }
+        }
+      ]
+    },
+    "speaker-cancer": {
+      "beforeLayoutSha256": "89d5a4211e7a011425cb56185726902f088fc24168f4875ba6cea648e79f0951",
+      "afterLayoutSha256": "dedfc0eb0e06b17f4ae08ae2ef48daabe38af7b8c0eb37bb46d6af38caf15f53",
+      "beforeImages": [
+        {
+          "name": "Cancer / VarCamp",
+          "image": "assets/sponsors/varcamp-2026.png",
+          "x": 15,
+          "y": 0,
+          "width": 6,
+          "height": 2
+        },
+        {
+          "name": "Cancer / BSides Myanmar",
+          "image": "assets/sponsors/partner-bsides-mm.png",
+          "x": 11,
+          "y": 4,
+          "width": 4,
+          "height": 2
+        },
+        {
+          "name": "Cancer / Vibe Code Tours",
+          "image": "assets/sponsors/vibecode-tours.png",
+          "x": 21,
+          "y": 4,
+          "width": 4,
+          "height": 2
+        }
+      ],
+      "afterImages": [
+        {
+          "name": "Cancer / VarCamp",
+          "image": "assets/sponsors/varcamp-2026.png",
+          "x": 15,
+          "y": 0,
+          "width": 6,
+          "height": 2
+        }
+      ],
+      "removedPlacements": [
+        {
+          "index": 11,
+          "value": {
+            "id": "cancer-style-partner-wallpaper",
+            "sprite": "speaker-style-wall",
+            "x": 6,
+            "y": 3,
+            "width": 24,
+            "height": 3,
+            "layer": "props"
+          }
+        },
+        {
+          "index": 12,
+          "value": {
+            "id": "cancer-style-partner-rule",
+            "sprite": "speaker-style-edge-bottom",
+            "x": 6,
+            "y": 5,
+            "width": 24,
+            "height": 1,
+            "layer": "props"
+          }
+        }
+      ],
+      "removedSigns": [
+        {
+          "index": 4,
+          "value": {
+            "name": "cancer-style-partners",
+            "text": "COMMUNITY PARTNERS",
+            "x": 16,
+            "y": 3,
+            "width": 8,
+            "height": 1,
+            "fontSize": 12,
+            "color": "#f1d9a0",
+            "align": "left",
+            "padding": 6
+          }
+        }
+      ]
+    },
+    "speaker-capricorn": {
+      "beforeLayoutSha256": "6c3dbe2eef22c8a6cef638bdd7003ac0833b83aec520c34191417a73b2c61d2d",
+      "afterLayoutSha256": "0d06898627eef2775940c2c043d309046c127c3dd2980fe38ffbc7b6ea9979d8",
+      "beforeImages": [
+        {
+          "name": "Capricorn / VarCamp",
+          "image": "assets/sponsors/varcamp-2026.png",
+          "x": 15,
+          "y": 0,
+          "width": 6,
+          "height": 2
+        },
+        {
+          "name": "Capricorn / BSides Myanmar",
+          "image": "assets/sponsors/partner-bsides-mm.png",
+          "x": 11,
+          "y": 4,
+          "width": 4,
+          "height": 2
+        },
+        {
+          "name": "Capricorn / Vibe Code Tours",
+          "image": "assets/sponsors/vibecode-tours.png",
+          "x": 21,
+          "y": 4,
+          "width": 4,
+          "height": 2
+        }
+      ],
+      "afterImages": [
+        {
+          "name": "Capricorn / VarCamp",
+          "image": "assets/sponsors/varcamp-2026.png",
+          "x": 15,
+          "y": 0,
+          "width": 6,
+          "height": 2
+        }
+      ],
+      "removedPlacements": [
+        {
+          "index": 11,
+          "value": {
+            "id": "capricorn-style-partner-wallpaper",
+            "sprite": "speaker-style-wall",
+            "x": 6,
+            "y": 3,
+            "width": 24,
+            "height": 3,
+            "layer": "props"
+          }
+        },
+        {
+          "index": 12,
+          "value": {
+            "id": "capricorn-style-partner-rule",
+            "sprite": "speaker-style-edge-bottom",
+            "x": 6,
+            "y": 5,
+            "width": 24,
+            "height": 1,
+            "layer": "props"
+          }
+        }
+      ],
+      "removedSigns": [
+        {
+          "index": 4,
+          "value": {
+            "name": "capricorn-style-partners",
+            "text": "COMMUNITY PARTNERS",
+            "x": 18,
+            "y": 3,
+            "width": 8,
+            "height": 1,
+            "fontSize": 12,
+            "color": "#f1d9a0",
+            "align": "left",
+            "padding": 6
+          }
+        }
+      ]
+    },
+    "speaker-gemini": {
+      "beforeLayoutSha256": "e1e6f7b40701f5ee4b0ac907e6582216d628e670e117bb82473dd935bf2bdabb",
+      "afterLayoutSha256": "cde03c3aceb359925b030466a261544b2ed3dda455244aab69077cbdd78087e5",
+      "beforeImages": [
+        {
+          "name": "Gemini / VarCamp",
+          "image": "assets/sponsors/varcamp-2026.png",
+          "x": 15,
+          "y": 0,
+          "width": 6,
+          "height": 2
+        },
+        {
+          "name": "Gemini / BSides Myanmar",
+          "image": "assets/sponsors/partner-bsides-mm.png",
+          "x": 11,
+          "y": 4,
+          "width": 4,
+          "height": 2
+        },
+        {
+          "name": "Gemini / Vibe Code Tours",
+          "image": "assets/sponsors/vibecode-tours.png",
+          "x": 21,
+          "y": 4,
+          "width": 4,
+          "height": 2
+        }
+      ],
+      "afterImages": [
+        {
+          "name": "Gemini / VarCamp",
+          "image": "assets/sponsors/varcamp-2026.png",
+          "x": 15,
+          "y": 0,
+          "width": 6,
+          "height": 2
+        }
+      ],
+      "removedPlacements": [
+        {
+          "index": 11,
+          "value": {
+            "id": "gemini-style-partner-wallpaper",
+            "sprite": "speaker-style-wall",
+            "x": 6,
+            "y": 3,
+            "width": 24,
+            "height": 3,
+            "layer": "props"
+          }
+        },
+        {
+          "index": 12,
+          "value": {
+            "id": "gemini-style-partner-rule",
+            "sprite": "speaker-style-edge-bottom",
+            "x": 6,
+            "y": 5,
+            "width": 24,
+            "height": 1,
+            "layer": "props"
+          }
+        }
+      ],
+      "removedSigns": [
+        {
+          "index": 4,
+          "value": {
+            "name": "gemini-style-partners",
+            "text": "COMMUNITY PARTNERS",
+            "x": 16,
+            "y": 3,
+            "width": 8,
+            "height": 1,
+            "fontSize": 12,
+            "color": "#f1d9a0",
+            "align": "left",
+            "padding": 6
+          }
+        }
+      ]
+    },
+    "speaker-leo": {
+      "beforeLayoutSha256": "c36210503731fa4c1611187ac8e125c3c8c16b63eef3e6991396e3bd368d09b6",
+      "afterLayoutSha256": "2c1f183a2e5fafd2579f45dab7f66abeb81cc8b4645d6ba58e13201e672f8859",
+      "beforeImages": [
+        {
+          "name": "Leo / VarCamp",
+          "image": "assets/sponsors/varcamp-2026.png",
+          "x": 15,
+          "y": 0,
+          "width": 6,
+          "height": 2
+        },
+        {
+          "name": "Leo / BSides Myanmar",
+          "image": "assets/sponsors/partner-bsides-mm.png",
+          "x": 11,
+          "y": 4,
+          "width": 4,
+          "height": 2
+        },
+        {
+          "name": "Leo / Vibe Code Tours",
+          "image": "assets/sponsors/vibecode-tours.png",
+          "x": 21,
+          "y": 4,
+          "width": 4,
+          "height": 2
+        }
+      ],
+      "afterImages": [
+        {
+          "name": "Leo / VarCamp",
+          "image": "assets/sponsors/varcamp-2026.png",
+          "x": 15,
+          "y": 0,
+          "width": 6,
+          "height": 2
+        }
+      ],
+      "removedPlacements": [
+        {
+          "index": 11,
+          "value": {
+            "id": "leo-style-partner-wallpaper",
+            "sprite": "speaker-style-wall",
+            "x": 6,
+            "y": 3,
+            "width": 24,
+            "height": 3,
+            "layer": "props"
+          }
+        },
+        {
+          "index": 12,
+          "value": {
+            "id": "leo-style-partner-rule",
+            "sprite": "speaker-style-edge-bottom",
+            "x": 6,
+            "y": 5,
+            "width": 24,
+            "height": 1,
+            "layer": "props"
+          }
+        }
+      ],
+      "removedSigns": [
+        {
+          "index": 4,
+          "value": {
+            "name": "leo-style-partners",
+            "text": "COMMUNITY PARTNERS",
+            "x": 16,
+            "y": 3,
+            "width": 8,
+            "height": 1,
+            "fontSize": 12,
+            "color": "#f1d9a0",
+            "align": "left",
+            "padding": 6
+          }
+        }
+      ]
+    },
+    "speaker-libra": {
+      "beforeLayoutSha256": "90ca3121a00b5c41c4ae4bbf8d094ee6f1a0772583841087f4cf5c38ce6053a2",
+      "afterLayoutSha256": "3270e64719f08a2ed8bd6e3c47e9cd3a0cc9836c6d39ba5f57194716b85f6edc",
+      "beforeImages": [
+        {
+          "name": "Libra / VarCamp",
+          "image": "assets/sponsors/varcamp-2026.png",
+          "x": 15,
+          "y": 0,
+          "width": 6,
+          "height": 2
+        },
+        {
+          "name": "Libra / BSides Myanmar",
+          "image": "assets/sponsors/partner-bsides-mm.png",
+          "x": 11,
+          "y": 4,
+          "width": 4,
+          "height": 2
+        },
+        {
+          "name": "Libra / Vibe Code Tours",
+          "image": "assets/sponsors/vibecode-tours.png",
+          "x": 21,
+          "y": 4,
+          "width": 4,
+          "height": 2
+        }
+      ],
+      "afterImages": [
+        {
+          "name": "Libra / VarCamp",
+          "image": "assets/sponsors/varcamp-2026.png",
+          "x": 15,
+          "y": 0,
+          "width": 6,
+          "height": 2
+        }
+      ],
+      "removedPlacements": [
+        {
+          "index": 11,
+          "value": {
+            "id": "libra-style-partner-wallpaper",
+            "sprite": "speaker-style-wall",
+            "x": 6,
+            "y": 3,
+            "width": 24,
+            "height": 3,
+            "layer": "props"
+          }
+        },
+        {
+          "index": 12,
+          "value": {
+            "id": "libra-style-partner-rule",
+            "sprite": "speaker-style-edge-bottom",
+            "x": 6,
+            "y": 5,
+            "width": 24,
+            "height": 1,
+            "layer": "props"
+          }
+        }
+      ],
+      "removedSigns": [
+        {
+          "index": 4,
+          "value": {
+            "name": "libra-style-partners",
+            "text": "COMMUNITY PARTNERS",
+            "x": 16,
+            "y": 3,
+            "width": 8,
+            "height": 1,
+            "fontSize": 12,
+            "color": "#f1d9a0",
+            "align": "left",
+            "padding": 6
+          }
+        }
+      ]
+    },
+    "speaker-pisces": {
+      "beforeLayoutSha256": "76f5afee2b35090d08b87295872c91364cdb7054c32649e9baefbb10b44ddd81",
+      "afterLayoutSha256": "7294fcc3acd9cef58db88d00b5e7d397afb3aa52d582aaf2614b969ad567b05c",
+      "beforeImages": [
+        {
+          "name": "Pisces / VarCamp",
+          "image": "assets/sponsors/varcamp-2026.png",
+          "x": 15,
+          "y": 0,
+          "width": 6,
+          "height": 2
+        },
+        {
+          "name": "Pisces / BSides Myanmar",
+          "image": "assets/sponsors/partner-bsides-mm.png",
+          "x": 11,
+          "y": 4,
+          "width": 4,
+          "height": 2
+        },
+        {
+          "name": "Pisces / Vibe Code Tours",
+          "image": "assets/sponsors/vibecode-tours.png",
+          "x": 21,
+          "y": 4,
+          "width": 4,
+          "height": 2
+        }
+      ],
+      "afterImages": [
+        {
+          "name": "Pisces / VarCamp",
+          "image": "assets/sponsors/varcamp-2026.png",
+          "x": 15,
+          "y": 0,
+          "width": 6,
+          "height": 2
+        }
+      ],
+      "removedPlacements": [
+        {
+          "index": 11,
+          "value": {
+            "id": "pisces-style-partner-wallpaper",
+            "sprite": "speaker-style-wall",
+            "x": 6,
+            "y": 3,
+            "width": 24,
+            "height": 3,
+            "layer": "props"
+          }
+        },
+        {
+          "index": 12,
+          "value": {
+            "id": "pisces-style-partner-rule",
+            "sprite": "speaker-style-edge-bottom",
+            "x": 6,
+            "y": 5,
+            "width": 24,
+            "height": 1,
+            "layer": "props"
+          }
+        }
+      ],
+      "removedSigns": [
+        {
+          "index": 4,
+          "value": {
+            "name": "pisces-style-partners",
+            "text": "COMMUNITY PARTNERS",
+            "x": 16,
+            "y": 3,
+            "width": 8,
+            "height": 1,
+            "fontSize": 12,
+            "color": "#f1d9a0",
+            "align": "left",
+            "padding": 6
+          }
+        }
+      ]
+    },
+    "speaker-sagittarius": {
+      "beforeLayoutSha256": "881b89ab7fcde0760c603f28a613bf02c4383eafd03b527be7969d642246e3f5",
+      "afterLayoutSha256": "55bce1e5975bbb7c26483f8d33b6a1f56170f646963b775ffe1d9def240df2f0",
+      "beforeImages": [
+        {
+          "name": "Sagittarius / VarCamp",
+          "image": "assets/sponsors/varcamp-2026.png",
+          "x": 17,
+          "y": 0,
+          "width": 6,
+          "height": 2
+        },
+        {
+          "name": "Sagittarius / BSides Myanmar",
+          "image": "assets/sponsors/partner-bsides-mm.png",
+          "x": 13,
+          "y": 4,
+          "width": 4,
+          "height": 2
+        },
+        {
+          "name": "Sagittarius / Vibe Code Tours",
+          "image": "assets/sponsors/vibecode-tours.png",
+          "x": 23,
+          "y": 4,
+          "width": 4,
+          "height": 2
+        }
+      ],
+      "afterImages": [
+        {
+          "name": "Sagittarius / VarCamp",
+          "image": "assets/sponsors/varcamp-2026.png",
+          "x": 17,
+          "y": 0,
+          "width": 6,
+          "height": 2
+        }
+      ],
+      "removedPlacements": [
+        {
+          "index": 11,
+          "value": {
+            "id": "sagittarius-style-partner-wallpaper",
+            "sprite": "speaker-style-wall",
+            "x": 8,
+            "y": 3,
+            "width": 24,
+            "height": 3,
+            "layer": "props"
+          }
+        },
+        {
+          "index": 12,
+          "value": {
+            "id": "sagittarius-style-partner-rule",
+            "sprite": "speaker-style-edge-bottom",
+            "x": 8,
+            "y": 5,
+            "width": 24,
+            "height": 1,
+            "layer": "props"
+          }
+        }
+      ],
+      "removedSigns": [
+        {
+          "index": 4,
+          "value": {
+            "name": "sagittarius-style-partners",
+            "text": "COMMUNITY PARTNERS",
+            "x": 18,
+            "y": 3,
+            "width": 8,
+            "height": 1,
+            "fontSize": 12,
+            "color": "#f1d9a0",
+            "align": "left",
+            "padding": 6
+          }
+        }
+      ]
+    },
+    "speaker-scorpio": {
+      "beforeLayoutSha256": "610638fa99e9d3e15785248ce6960c0ea024f3bd93588f84d655f87aab210b55",
+      "afterLayoutSha256": "5968beafa1595097990bc146be445e246da23d17c3e7add97bb4f70d70110e2f",
+      "beforeImages": [
+        {
+          "name": "Scorpio / VarCamp",
+          "image": "assets/sponsors/varcamp-2026.png",
+          "x": 15,
+          "y": 0,
+          "width": 6,
+          "height": 2
+        },
+        {
+          "name": "Scorpio / BSides Myanmar",
+          "image": "assets/sponsors/partner-bsides-mm.png",
+          "x": 11,
+          "y": 4,
+          "width": 4,
+          "height": 2
+        },
+        {
+          "name": "Scorpio / Vibe Code Tours",
+          "image": "assets/sponsors/vibecode-tours.png",
+          "x": 21,
+          "y": 4,
+          "width": 4,
+          "height": 2
+        }
+      ],
+      "afterImages": [
+        {
+          "name": "Scorpio / VarCamp",
+          "image": "assets/sponsors/varcamp-2026.png",
+          "x": 15,
+          "y": 0,
+          "width": 6,
+          "height": 2
+        }
+      ],
+      "removedPlacements": [
+        {
+          "index": 11,
+          "value": {
+            "id": "scorpio-style-partner-wallpaper",
+            "sprite": "speaker-style-wall",
+            "x": 6,
+            "y": 3,
+            "width": 24,
+            "height": 3,
+            "layer": "props"
+          }
+        },
+        {
+          "index": 12,
+          "value": {
+            "id": "scorpio-style-partner-rule",
+            "sprite": "speaker-style-edge-bottom",
+            "x": 6,
+            "y": 5,
+            "width": 24,
+            "height": 1,
+            "layer": "props"
+          }
+        }
+      ],
+      "removedSigns": [
+        {
+          "index": 4,
+          "value": {
+            "name": "scorpio-style-partners",
+            "text": "COMMUNITY PARTNERS",
+            "x": 16,
+            "y": 3,
+            "width": 8,
+            "height": 1,
+            "fontSize": 12,
+            "color": "#f1d9a0",
+            "align": "left",
+            "padding": 6
+          }
+        }
+      ]
+    },
+    "speaker-taurus": {
+      "beforeLayoutSha256": "d0f1302cea8896dc222171d4adfd1fe4ccf7c1cc2787e741e1fe0fe06c9515ba",
+      "afterLayoutSha256": "12fdc13b7c483bb683373d38864fa5ed896d5266a01e58e53a1b38a3e0b0b0b5",
+      "beforeImages": [
+        {
+          "name": "Taurus / VarCamp",
+          "image": "assets/sponsors/varcamp-2026.png",
+          "x": 15,
+          "y": 0,
+          "width": 6,
+          "height": 2
+        },
+        {
+          "name": "Taurus / BSides Myanmar",
+          "image": "assets/sponsors/partner-bsides-mm.png",
+          "x": 11,
+          "y": 4,
+          "width": 4,
+          "height": 2
+        },
+        {
+          "name": "Taurus / Vibe Code Tours",
+          "image": "assets/sponsors/vibecode-tours.png",
+          "x": 21,
+          "y": 4,
+          "width": 4,
+          "height": 2
+        }
+      ],
+      "afterImages": [
+        {
+          "name": "Taurus / VarCamp",
+          "image": "assets/sponsors/varcamp-2026.png",
+          "x": 15,
+          "y": 0,
+          "width": 6,
+          "height": 2
+        }
+      ],
+      "removedPlacements": [
+        {
+          "index": 11,
+          "value": {
+            "id": "taurus-style-partner-wallpaper",
+            "sprite": "speaker-style-wall",
+            "x": 6,
+            "y": 3,
+            "width": 24,
+            "height": 3,
+            "layer": "props"
+          }
+        },
+        {
+          "index": 12,
+          "value": {
+            "id": "taurus-style-partner-rule",
+            "sprite": "speaker-style-edge-bottom",
+            "x": 6,
+            "y": 5,
+            "width": 24,
+            "height": 1,
+            "layer": "props"
+          }
+        }
+      ],
+      "removedSigns": [
+        {
+          "index": 4,
+          "value": {
+            "name": "taurus-style-partners",
+            "text": "COMMUNITY PARTNERS",
+            "x": 16,
+            "y": 3,
+            "width": 8,
+            "height": 1,
+            "fontSize": 12,
+            "color": "#f1d9a0",
+            "align": "left",
+            "padding": 6
+          }
+        }
+      ]
+    },
+    "speaker-virgo": {
+      "beforeLayoutSha256": "c2dff6b9fa32612887cf481dc897bd4f7ce9f481dbf949923f213082134bf9ff",
+      "afterLayoutSha256": "bb15547e80e471aae7844a8368994cf200be7d92f5c4a9057704a74289288588",
+      "beforeImages": [
+        {
+          "name": "Virgo / VarCamp",
+          "image": "assets/sponsors/varcamp-2026.png",
+          "x": 15,
+          "y": 0,
+          "width": 6,
+          "height": 2
+        },
+        {
+          "name": "Virgo / BSides Myanmar",
+          "image": "assets/sponsors/partner-bsides-mm.png",
+          "x": 11,
+          "y": 4,
+          "width": 4,
+          "height": 2
+        },
+        {
+          "name": "Virgo / Vibe Code Tours",
+          "image": "assets/sponsors/vibecode-tours.png",
+          "x": 21,
+          "y": 4,
+          "width": 4,
+          "height": 2
+        }
+      ],
+      "afterImages": [
+        {
+          "name": "Virgo / VarCamp",
+          "image": "assets/sponsors/varcamp-2026.png",
+          "x": 15,
+          "y": 0,
+          "width": 6,
+          "height": 2
+        }
+      ],
+      "removedPlacements": [
+        {
+          "index": 11,
+          "value": {
+            "id": "virgo-style-partner-wallpaper",
+            "sprite": "speaker-style-wall",
+            "x": 6,
+            "y": 3,
+            "width": 24,
+            "height": 3,
+            "layer": "props"
+          }
+        },
+        {
+          "index": 12,
+          "value": {
+            "id": "virgo-style-partner-rule",
+            "sprite": "speaker-style-edge-bottom",
+            "x": 6,
+            "y": 5,
+            "width": 24,
+            "height": 1,
+            "layer": "props"
+          }
+        }
+      ],
+      "removedSigns": [
+        {
+          "index": 4,
+          "value": {
+            "name": "virgo-style-partners",
+            "text": "COMMUNITY PARTNERS",
+            "x": 16,
+            "y": 3,
+            "width": 8,
+            "height": 1,
+            "fontSize": 12,
+            "color": "#f1d9a0",
+            "align": "left",
+            "padding": 6
+          }
+        }
+      ]
+    }
+  }
+}

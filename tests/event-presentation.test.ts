@@ -20,10 +20,14 @@ describe('Event branding and audience presentation',()=>{
  });
  it.each(EVENT_MAP_IDS.filter(id=>id!=='overworld'))('%s retains only the approved brands and preserves controls',id=>{
   const l=current(id),before=restoreEventPresentation(l);
-  expect(l.images!.map(i=>i.image.split('/').at(-1))).toEqual(['varcamp-2026.png','partner-bsides-mm.png','vibecode-tours.png']);
+  expect(l.images!.map(i=>i.image.split('/').at(-1))).toEqual(id.startsWith('speaker-')?['varcamp-2026.png']:['varcamp-2026.png','partner-bsides-mm.png','vibecode-tours.png']);
   expect(l.placements.some(p=>p.sprite==='speaker-style-logo-card')).toBe(false);
   for(const key of ['entries','exits','areas','inspectionZones','animatedOverlays']as const)expect(l[key]).toEqual(before[key]);
-  if(id.startsWith('speaker-'))expect(l.placements.filter(p=>p.id.startsWith('audience-chair-'))).toHaveLength(18);
+  if(id.startsWith('speaker-')){
+   expect(l.placements.filter(p=>p.id.startsWith('audience-chair-'))).toHaveLength(18);
+   expect(l.placements.some(p=>p.id.endsWith('-style-partner-wallpaper')||p.id.endsWith('-style-partner-rule'))).toBe(false);
+   expect(l.signs!.some(s=>s.text==='COMMUNITY PARTNERS')).toBe(false);
+  }
  });
  it.each(EVENT_MAP_IDS)('%s admits only the exact reviewed successor and validates its native map',id=>{
   const l=current(id);expect(applyEventPresentation(restoreEventPresentation(l))).toEqual(l);
