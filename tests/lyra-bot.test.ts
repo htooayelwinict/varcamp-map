@@ -1,6 +1,4 @@
-import {FOUNTAIN_MOTION_IDS} from '../tools/maps/fountain-motion-roles';
 import {auditGuideRoutes} from '../tools/bots/route-audit';
-import {PATROL_IDS} from '../tools/maps/patrol-roles';
 import {historicalPlaza} from './helpers/plaza-groves';
 import {historicalFloorPlaza} from './helpers/plaza-successor';
 import {loadTileCatalog} from '../tools/art/catalog';
@@ -53,7 +51,7 @@ describe('audited native navigation', () => {
     for (const [path, hash] of Object.entries(ROUTES.provenance.sourceSha256)) expect(createHash('sha256').update(readFileSync(path)).digest('hex'), path).toBe(hash);
     const map=native(),layout=JSON.parse(readFileSync('world/layouts/overworld.json','utf8')),wam=JSON.parse(readFileSync('maps/overworld.wam','utf8'));
     const result=auditGuideRoutes({map,layout,wam,catalog:loadTileCatalog(),routes:ROUTES});
-    expect(result).toMatchObject({allowedCells:864,startupReservedCells:4,nativeCollisionCells:6857,portalCells:48,walkablePropOverlapCells:78,walkableImageOverlapCells:12});
+    expect(result).toMatchObject({allowedCells:864,startupReservedCells:4,nativeCollisionCells:6857,portalCells:48,walkablePropOverlapCells:102,walkableImageOverlapCells:8});
     const collisionGids=new Set<number>();for(const s of map.tilesets)for(const t of s.tiles??[])if(t.properties?.some(p=>p.name==='collides'&&p.value===true))collisionGids.add(s.firstgid+t.id);
     const forbidden=new Set<number>();for(const l of map.layers)if(l.type==='tilelayer')l.data.forEach((g,i)=>{if(collisionGids.has((g&0x0fffffff)>>>0)||(g&&l.properties?.some(p=>p.name==='exitUrl')))forbidden.add(i);});
     for(const n of forbidden)expect(()=>planRoute([70,76],[n%128,Math.floor(n/128)])).toThrow();
@@ -272,10 +270,7 @@ describe('audited WorkAdventure runtime object aliases',()=>{
       (m:TiledMap)=>{const l=m.layers.find(l=>l.name==='physical-collisions');if(l?.type==='tilelayer')l.data[70*128+70]=1;},
       (m:TiledMap)=>{m.layers.find(l=>l.name==='exit-solar')!.properties![0].value='different.wam';},
       (m:TiledMap)=>{m.tilesets.find(s=>s.name==='navigation-mask')!.tiles![0].properties![0].value=true;},
-      (m:TiledMap)=>{const historical=preCanonicalNative(),layers=new Map(m.layers.map(l=>[l.name,l])),fleet=['plaza-fleet-camera','plaza-fleet-delivery','plaza-fleet-survey'];
-        // The expo hall added one panel layer per booth logo and one caption layer per nameplate after the fleet.
-        const layout=JSON.parse(readFileSync('world/layouts/overworld.json','utf8')),expo=[...layout.images.filter((i:{name:string})=>i.name.startsWith('Expo / ')).map((i:{name:string})=>i.name),...layout.standingSigns.filter((s:{text?:string})=>/^expo-[ns]\d-nameplate$/.test(s.text??'')).map((s:{text?:string})=>'standing-caption-'+s.text)];expect(expo).toHaveLength(24);
-        const retained=historical.layers.filter(l=>l.name!=='VarCamp 2026 Floor'),arrival=['NW','NE','SW','SE'].map(k=>'Arrival / VarCamp '+k);expect([...layers.keys()].sort()).toEqual([...retained.map(l=>l.name),...fleet,...expo,'scenery-aboveAvatar-1',...arrival,...PATROL_IDS,...FOUNTAIN_MOTION_IDS].sort());const oldNames=new Set(retained.map(l=>l.name));let index=0;m.layers=m.layers.map(l=>oldNames.has(l.name)?layers.get(retained[index++].name)!:l);expect(index).toBe(retained.length);},
+      (m:TiledMap)=>{const i=m.layers.findIndex(l=>l.name==='Expo / VarCamp');expect(i).toBeGreaterThanOrEqual(0);expect(i).toBeLessThan(m.layers.length-1);m.layers.push(m.layers.splice(i,1)[0]);},
     ]){const changed=runtimeMap();mutate(changed);await expect(guardMap(changed)).rejects.toThrow(/signature|geometry/i);}
   });
 });

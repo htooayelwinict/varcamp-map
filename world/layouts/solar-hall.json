@@ -1378,33 +1378,6 @@
       "width": 60,
       "height": 1,
       "layer": "props"
-    },
-    {
-      "id": "solar-hall-style-partner-card-aws",
-      "sprite": "speaker-style-logo-card",
-      "x": 22,
-      "y": 3,
-      "width": 4,
-      "height": 2,
-      "layer": "props"
-    },
-    {
-      "id": "solar-hall-style-partner-card-bsides",
-      "sprite": "speaker-style-logo-card",
-      "x": 30,
-      "y": 3,
-      "width": 4,
-      "height": 2,
-      "layer": "props"
-    },
-    {
-      "id": "solar-hall-style-partner-card-openinfra",
-      "sprite": "speaker-style-logo-card",
-      "x": 38,
-      "y": 3,
-      "width": 4,
-      "height": 2,
-      "layer": "props"
     }
   ],
   "entries": [
@@ -2353,25 +2326,9 @@
       "height": 2
     },
     {
-      "name": "Solar / AWS UG Myanmar",
-      "image": "assets/sponsors/partner-aws-ug-mm.png",
-      "x": 22,
-      "y": 3,
-      "width": 4,
-      "height": 2
-    },
-    {
       "name": "Solar / BSides Myanmar",
       "image": "assets/sponsors/partner-bsides-mm.png",
-      "x": 30,
-      "y": 3,
-      "width": 4,
-      "height": 2
-    },
-    {
-      "name": "Solar / OpenInfra Myanmar",
-      "image": "assets/sponsors/partner-openinfra-mm.png",
-      "x": 38,
+      "x": 25,
       "y": 3,
       "width": 4,
       "height": 2
@@ -2379,8 +2336,8 @@
     {
       "name": "Solar / Vibe Code Tours",
       "image": "assets/sponsors/vibecode-tours.png",
-      "x": 22,
-      "y": 0,
+      "x": 35,
+      "y": 3,
       "width": 4,
       "height": 2
     }

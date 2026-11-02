@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "placements": [
+    {"id":"check-in-counter-desk","sprite":"desk-coding","x":71,"y":60,"width":3,"height":2,"layer":"props"},
+    {"id":"check-in-counter-computer","sprite":"laptop","x":72,"y":60,"width":1,"height":1,"layer":"props"}
+  ],
+  "sign": {"x":71,"y":60,"width":3,"height":2},
+  "interaction": {"x":70,"y":62,"width":5,"height":2},
+  "floorLabel": {"name":"check-in-counter-label","text":"CHECK IN","x":71,"y":62,"width":3,"height":1,"fontSize":12,"color":"#e1ba7a","align":"center","padding":2}
+}

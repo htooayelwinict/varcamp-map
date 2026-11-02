@@ -416,24 +416,6 @@
       "layer": "props"
     },
     {
-      "id": "terrace-west",
-      "sprite": "lounge-terraced",
-      "x": 3,
-      "y": 18,
-      "width": 4,
-      "height": 3,
-      "layer": "props"
-    },
-    {
-      "id": "terrace-east",
-      "sprite": "lounge-terraced",
-      "x": 29,
-      "y": 18,
-      "width": 4,
-      "height": 3,
-      "layer": "props"
-    },
-    {
       "id": "terrace-library-west",
       "sprite": "bookcase",
       "x": 2,
@@ -493,78 +475,6 @@
       "x": 12,
       "y": 29,
       "width": 3,
-      "height": 2,
-      "layer": "props"
-    },
-    {
-      "id": "seat-00",
-      "sprite": "chair-north-slate",
-      "x": 9,
-      "y": 18,
-      "width": 1,
-      "height": 2,
-      "layer": "props"
-    },
-    {
-      "id": "seat-01",
-      "sprite": "chair-north-slate",
-      "x": 12,
-      "y": 18,
-      "width": 1,
-      "height": 2,
-      "layer": "props"
-    },
-    {
-      "id": "seat-02",
-      "sprite": "chair-north-slate",
-      "x": 23,
-      "y": 18,
-      "width": 1,
-      "height": 2,
-      "layer": "props"
-    },
-    {
-      "id": "seat-03",
-      "sprite": "chair-north-slate",
-      "x": 26,
-      "y": 18,
-      "width": 1,
-      "height": 2,
-      "layer": "props"
-    },
-    {
-      "id": "seat-04",
-      "sprite": "chair-north-slate",
-      "x": 7,
-      "y": 22,
-      "width": 1,
-      "height": 2,
-      "layer": "props"
-    },
-    {
-      "id": "seat-05",
-      "sprite": "chair-north-slate",
-      "x": 11,
-      "y": 22,
-      "width": 1,
-      "height": 2,
-      "layer": "props"
-    },
-    {
-      "id": "seat-06",
-      "sprite": "chair-north-slate",
-      "x": 24,
-      "y": 22,
-      "width": 1,
-      "height": 2,
-      "layer": "props"
-    },
-    {
-      "id": "seat-07",
-      "sprite": "chair-north-slate",
-      "x": 28,
-      "y": 22,
-      "width": 1,
       "height": 2,
       "layer": "props"
     },
@@ -704,29 +614,164 @@
       "layer": "props"
     },
     {
-      "id": "capricorn-style-partner-card-aws",
-      "sprite": "speaker-style-logo-card",
+      "id": "audience-chair-0-0",
+      "sprite": "chair-north-slate",
+      "x": 8,
+      "y": 17,
+      "width": 1,
+      "height": 2,
+      "layer": "props"
+    },
+    {
+      "id": "audience-chair-0-1",
+      "sprite": "chair-north-slate",
+      "x": 10,
+      "y": 17,
+      "width": 1,
+      "height": 2,
+      "layer": "props"
+    },
+    {
+      "id": "audience-chair-0-2",
+      "sprite": "chair-north-slate",
       "x": 12,
-      "y": 4,
-      "width": 4,
+      "y": 17,
+      "width": 1,
       "height": 2,
       "layer": "props"
     },
     {
-      "id": "capricorn-style-partner-card-bsides",
-      "sprite": "speaker-style-logo-card",
-      "x": 18,
-      "y": 4,
-      "width": 4,
+      "id": "audience-chair-0-3",
+      "sprite": "chair-north-slate",
+      "x": 23,
+      "y": 17,
+      "width": 1,
       "height": 2,
       "layer": "props"
     },
     {
-      "id": "capricorn-style-partner-card-openinfra",
-      "sprite": "speaker-style-logo-card",
-      "x": 24,
-      "y": 4,
-      "width": 4,
+      "id": "audience-chair-0-4",
+      "sprite": "chair-north-slate",
+      "x": 25,
+      "y": 17,
+      "width": 1,
+      "height": 2,
+      "layer": "props"
+    },
+    {
+      "id": "audience-chair-0-5",
+      "sprite": "chair-north-slate",
+      "x": 27,
+      "y": 17,
+      "width": 1,
+      "height": 2,
+      "layer": "props"
+    },
+    {
+      "id": "audience-chair-1-0",
+      "sprite": "chair-north-slate",
+      "x": 8,
+      "y": 20,
+      "width": 1,
+      "height": 2,
+      "layer": "props"
+    },
+    {
+      "id": "audience-chair-1-1",
+      "sprite": "chair-north-slate",
+      "x": 10,
+      "y": 20,
+      "width": 1,
+      "height": 2,
+      "layer": "props"
+    },
+    {
+      "id": "audience-chair-1-2",
+      "sprite": "chair-north-slate",
+      "x": 12,
+      "y": 20,
+      "width": 1,
+      "height": 2,
+      "layer": "props"
+    },
+    {
+      "id": "audience-chair-1-3",
+      "sprite": "chair-north-slate",
+      "x": 23,
+      "y": 20,
+      "width": 1,
+      "height": 2,
+      "layer": "props"
+    },
+    {
+      "id": "audience-chair-1-4",
+      "sprite": "chair-north-slate",
+      "x": 25,
+      "y": 20,
+      "width": 1,
+      "height": 2,
+      "layer": "props"
+    },
+    {
+      "id": "audience-chair-1-5",
+      "sprite": "chair-north-slate",
+      "x": 27,
+      "y": 20,
+      "width": 1,
+      "height": 2,
+      "layer": "props"
+    },
+    {
+      "id": "audience-chair-2-0",
+      "sprite": "chair-north-slate",
+      "x": 8,
+      "y": 23,
+      "width": 1,
+      "height": 2,
+      "layer": "props"
+    },
+    {
+      "id": "audience-chair-2-1",
+      "sprite": "chair-north-slate",
+      "x": 10,
+      "y": 23,
+      "width": 1,
+      "height": 2,
+      "layer": "props"
+    },
+    {
+      "id": "audience-chair-2-2",
+      "sprite": "chair-north-slate",
+      "x": 12,
+      "y": 23,
+      "width": 1,
+      "height": 2,
+      "layer": "props"
+    },
+    {
+      "id": "audience-chair-2-3",
+      "sprite": "chair-north-slate",
+      "x": 23,
+      "y": 23,
+      "width": 1,
+      "height": 2,
+      "layer": "props"
+    },
+    {
+      "id": "audience-chair-2-4",
+      "sprite": "chair-north-slate",
+      "x": 25,
+      "y": 23,
+      "width": 1,
+      "height": 2,
+      "layer": "props"
+    },
+    {
+      "id": "audience-chair-2-5",
+      "sprite": "chair-north-slate",
+      "x": 27,
+      "y": 23,
+      "width": 1,
       "height": 2,
       "layer": "props"
     }
@@ -1349,25 +1394,9 @@
       "height": 2
     },
     {
-      "name": "Capricorn / AWS UG Myanmar",
-      "image": "assets/sponsors/partner-aws-ug-mm.png",
-      "x": 12,
-      "y": 4,
-      "width": 4,
-      "height": 2
-    },
-    {
       "name": "Capricorn / BSides Myanmar",
       "image": "assets/sponsors/partner-bsides-mm.png",
-      "x": 18,
-      "y": 4,
-      "width": 4,
-      "height": 2
-    },
-    {
-      "name": "Capricorn / OpenInfra Myanmar",
-      "image": "assets/sponsors/partner-openinfra-mm.png",
-      "x": 24,
+      "x": 11,
       "y": 4,
       "width": 4,
       "height": 2
@@ -1375,8 +1404,8 @@
     {
       "name": "Capricorn / Vibe Code Tours",
       "image": "assets/sponsors/vibecode-tours.png",
-      "x": 8,
-      "y": 0,
+      "x": 21,
+      "y": 4,
       "width": 4,
       "height": 2
     }

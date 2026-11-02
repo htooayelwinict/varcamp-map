@@ -1,0 +1,383 @@
+{
+  "schemaVersion": 1,
+  "revisions": [
+    {
+      "path": "art/sources.json",
+      "fromSha256": "5e07d9a4872b8d93c8e6f55b2f97677636f53b225f8b1d5998c2efcb6df53b57",
+      "toSha256": "1a27139a982422c8cd708fa8417c5e5a195b3ece617d763d4dafd8e6a6568211",
+      "reason": "Use a native desk and computer at check-in; clear unapproved booth branding, move Vibe Code Tours beside BSides, label Community Corner and Sponsor Expo, and provide zodiac audience chair rows. Preserve saved WAMs, portals, themes, public guide routes and original art. Retain retired atlas reservations; independently re-pin ambient producer receipts with every animation pixel unchanged."
+    },
+    {
+      "path": "art/tile-catalog.json",
+      "fromSha256": "05ae1dd05955e2c3520c92ec1b4e26a7a5e117980e765a5572652d7ae30ee0ef",
+      "toSha256": "68f8d81e6783e30248d42dc48e79c1701c5857232abc69085e68151d5afc1cb4",
+      "reason": "Use a native desk and computer at check-in; clear unapproved booth branding, move Vibe Code Tours beside BSides, label Community Corner and Sponsor Expo, and provide zodiac audience chair rows. Preserve saved WAMs, portals, themes, public guide routes and original art. Retain retired atlas reservations; independently re-pin ambient producer receipts with every animation pixel unchanged."
+    },
+    {
+      "path": "maps/lunar-hall.tmj",
+      "fromSha256": "f54c32fe9acde5da4d4161bb677d7d8c136d0c822a293621a747c333c560a41e",
+      "toSha256": "17940eed18d2d56226efb2fa52bf5e8e23f7c543946f3b9f8ca0989a07858205",
+      "reason": "Use a native desk and computer at check-in; clear unapproved booth branding, move Vibe Code Tours beside BSides, label Community Corner and Sponsor Expo, and provide zodiac audience chair rows. Preserve saved WAMs, portals, themes, public guide routes and original art. Retain retired atlas reservations; independently re-pin ambient producer receipts with every animation pixel unchanged."
+    },
+    {
+      "path": "maps/overworld.tmj",
+      "fromSha256": "bc8fb84eb963df7d1c40e710f3ea0ffef1ad82e0051273338bbde5ab12eb66fb",
+      "toSha256": "ac8641eea1730f1cd14c72f66cbdd8d24459724695ad9fe1599270777910c6e8",
+      "reason": "Use a native desk and computer at check-in; clear unapproved booth branding, move Vibe Code Tours beside BSides, label Community Corner and Sponsor Expo, and provide zodiac audience chair rows. Preserve saved WAMs, portals, themes, public guide routes and original art. Retain retired atlas reservations; independently re-pin ambient producer receipts with every animation pixel unchanged."
+    },
+    {
+      "path": "maps/preview/lunar-hall.tmj",
+      "fromSha256": "e177d8b67e1963dd663b3287798b00a0219fa96a5d76ba7f8a87a4b20252c989",
+      "toSha256": "811400d0b7b3a36da34dfb843444ebbacfeb55db4fcf73ba2bc33f8d86b473be",
+      "reason": "Use a native desk and computer at check-in; clear unapproved booth branding, move Vibe Code Tours beside BSides, label Community Corner and Sponsor Expo, and provide zodiac audience chair rows. Preserve saved WAMs, portals, themes, public guide routes and original art. Retain retired atlas reservations; independently re-pin ambient producer receipts with every animation pixel unchanged."
+    },
+    {
+      "path": "maps/preview/overworld.tmj",
+      "fromSha256": "05ff79cc3b1196c6fec38606419cb9a45b1eb1c8558f05cb37c643c3e75b53aa",
+      "toSha256": "fc64958396fd1502827f68d971de22729e4ed020c32017c1717d28a02aa96ff9",
+      "reason": "Use a native desk and computer at check-in; clear unapproved booth branding, move Vibe Code Tours beside BSides, label Community Corner and Sponsor Expo, and provide zodiac audience chair rows. Preserve saved WAMs, portals, themes, public guide routes and original art. Retain retired atlas reservations; independently re-pin ambient producer receipts with every animation pixel unchanged."
+    },
+    {
+      "path": "maps/preview/solar-hall.tmj",
+      "fromSha256": "4af19c79f57201e4450dba873a9ce80ff875499ad006e00cdab236552fe45142",
+      "toSha256": "7ca14cd2d6f5c9b7a26095ef8e356d4ac6f7f59a5fdd2f3b404fae728b7402a4",
+      "reason": "Use a native desk and computer at check-in; clear unapproved booth branding, move Vibe Code Tours beside BSides, label Community Corner and Sponsor Expo, and provide zodiac audience chair rows. Preserve saved WAMs, portals, themes, public guide routes and original art. Retain retired atlas reservations; independently re-pin ambient producer receipts with every animation pixel unchanged."
+    },
+    {
+      "path": "maps/preview/speaker-aquarius.tmj",
+      "fromSha256": "e3ace710168464af81dd09d2280914601985cfa298296b7d1dd79cd805369653",
+      "toSha256": "53cad447b726c032ad2d4dd20f0ea7ef149d50add5a853a89099d72e8dcd24ab",
+      "reason": "Use a native desk and computer at check-in; clear unapproved booth branding, move Vibe Code Tours beside BSides, label Community Corner and Sponsor Expo, and provide zodiac audience chair rows. Preserve saved WAMs, portals, themes, public guide routes and original art. Retain retired atlas reservations; independently re-pin ambient producer receipts with every animation pixel unchanged."
+    },
+    {
+      "path": "maps/preview/speaker-aries.tmj",
+      "fromSha256": "79569bdc24c9455845ebcae8daa8d45cce156846192fb6c3f2d80059fe97ac48",
+      "toSha256": "39611ed1f616f8de637fa4d615d5555fd12b0b0b890be6fda863c652f33a15a0",
+      "reason": "Use a native desk and computer at check-in; clear unapproved booth branding, move Vibe Code Tours beside BSides, label Community Corner and Sponsor Expo, and provide zodiac audience chair rows. Preserve saved WAMs, portals, themes, public guide routes and original art. Retain retired atlas reservations; independently re-pin ambient producer receipts with every animation pixel unchanged."
+    },
+    {
+      "path": "maps/preview/speaker-cancer.tmj",
+      "fromSha256": "8532990823fe15ba2a01eab8389cea8d443846f9da492a9cb3e81d8f06daa03e",
+      "toSha256": "7b2c9384a031b486b0fb48a79382b7ec1eccc5cbaf9081fdc7753e09919bc9ec",
+      "reason": "Use a native desk and computer at check-in; clear unapproved booth branding, move Vibe Code Tours beside BSides, label Community Corner and Sponsor Expo, and provide zodiac audience chair rows. Preserve saved WAMs, portals, themes, public guide routes and original art. Retain retired atlas reservations; independently re-pin ambient producer receipts with every animation pixel unchanged."
+    },
+    {
+      "path": "maps/preview/speaker-capricorn.tmj",
+      "fromSha256": "e71c0cf9c4a870ee664af3888bea810d3efed780fc0af17f3685faf8542f7e24",
+      "toSha256": "cffcea657414d362690b6c1ef853fc2525a1cdc5e6c11a416fb405b4b8009678",
+      "reason": "Use a native desk and computer at check-in; clear unapproved booth branding, move Vibe Code Tours beside BSides, label Community Corner and Sponsor Expo, and provide zodiac audience chair rows. Preserve saved WAMs, portals, themes, public guide routes and original art. Retain retired atlas reservations; independently re-pin ambient producer receipts with every animation pixel unchanged."
+    },
+    {
+      "path": "maps/preview/speaker-gemini.tmj",
+      "fromSha256": "81cb21e9aa7d0f600558a8e335c95e33ca2c2c2a0eb1f446e907c5d46f8dbe6c",
+      "toSha256": "320f4c2c5ea45dbcd13206fe752e2921eee143d4864c7aa48d84ae3996b8ea28",
+      "reason": "Use a native desk and computer at check-in; clear unapproved booth branding, move Vibe Code Tours beside BSides, label Community Corner and Sponsor Expo, and provide zodiac audience chair rows. Preserve saved WAMs, portals, themes, public guide routes and original art. Retain retired atlas reservations; independently re-pin ambient producer receipts with every animation pixel unchanged."
+    },
+    {
+      "path": "maps/preview/speaker-leo.tmj",
+      "fromSha256": "55241f6d8ad54ea3c00597e1170b9c075ca1c5b821348826125e11f872d356c5",
+      "toSha256": "1413df27f70cef901eda364d8962e84994d64cf65bed58e05de2a2190dd9f16f",
+      "reason": "Use a native desk and computer at check-in; clear unapproved booth branding, move Vibe Code Tours beside BSides, label Community Corner and Sponsor Expo, and provide zodiac audience chair rows. Preserve saved WAMs, portals, themes, public guide routes and original art. Retain retired atlas reservations; independently re-pin ambient producer receipts with every animation pixel unchanged."
+    },
+    {
+      "path": "maps/preview/speaker-libra.tmj",
+      "fromSha256": "796075ed570a8458abbc951dd0d852f575ed5ca3f04c291cfa17ce9bdc3e6389",
+      "toSha256": "507c321172723017e0f954165810ef8103a7b8920199c4ac1cbcc4a7f2b2a666",
+      "reason": "Use a native desk and computer at check-in; clear unapproved booth branding, move Vibe Code Tours beside BSides, label Community Corner and Sponsor Expo, and provide zodiac audience chair rows. Preserve saved WAMs, portals, themes, public guide routes and original art. Retain retired atlas reservations; independently re-pin ambient producer receipts with every animation pixel unchanged."
+    },
+    {
+      "path": "maps/preview/speaker-pisces.tmj",
+      "fromSha256": "489ca9fec0127ce531525ef48ea9a8f5596ed2228e407fb7d592814c6fc11820",
+      "toSha256": "af4ecb8e0abb226c6155b49c0a3b55183a59acc9ccb64ab2fc8d696ef3b6eec6",
+      "reason": "Use a native desk and computer at check-in; clear unapproved booth branding, move Vibe Code Tours beside BSides, label Community Corner and Sponsor Expo, and provide zodiac audience chair rows. Preserve saved WAMs, portals, themes, public guide routes and original art. Retain retired atlas reservations; independently re-pin ambient producer receipts with every animation pixel unchanged."
+    },
+    {
+      "path": "maps/preview/speaker-sagittarius.tmj",
+      "fromSha256": "a3432167555aef30f7f433d088b948773ed715f846427748136a27ee3e31c39a",
+      "toSha256": "18e44c3d00782ca8284d7b19d6bfdf4f3ab5b3300e51f892ce6d7a263a2d8c55",
+      "reason": "Use a native desk and computer at check-in; clear unapproved booth branding, move Vibe Code Tours beside BSides, label Community Corner and Sponsor Expo, and provide zodiac audience chair rows. Preserve saved WAMs, portals, themes, public guide routes and original art. Retain retired atlas reservations; independently re-pin ambient producer receipts with every animation pixel unchanged."
+    },
+    {
+      "path": "maps/preview/speaker-scorpio.tmj",
+      "fromSha256": "2a07bd241ba6548ea941dc0c5614966b474ee6f4c4a408ca8b1e9879d4017133",
+      "toSha256": "daf54cc2ed8665ea24b63bb66e2ba2d6a01ce899bce091936a46fcbfac0579d9",
+      "reason": "Use a native desk and computer at check-in; clear unapproved booth branding, move Vibe Code Tours beside BSides, label Community Corner and Sponsor Expo, and provide zodiac audience chair rows. Preserve saved WAMs, portals, themes, public guide routes and original art. Retain retired atlas reservations; independently re-pin ambient producer receipts with every animation pixel unchanged."
+    },
+    {
+      "path": "maps/preview/speaker-taurus.tmj",
+      "fromSha256": "b76e6f7bbae3fb369f16926a738addf3fbffc26acb65404de09e1c161d51802b",
+      "toSha256": "10a4943f9bdf76adbe672d6a8ab9aa5baa8c52fc033a20ac677cda840f6601f9",
+      "reason": "Use a native desk and computer at check-in; clear unapproved booth branding, move Vibe Code Tours beside BSides, label Community Corner and Sponsor Expo, and provide zodiac audience chair rows. Preserve saved WAMs, portals, themes, public guide routes and original art. Retain retired atlas reservations; independently re-pin ambient producer receipts with every animation pixel unchanged."
+    },
+    {
+      "path": "maps/preview/speaker-virgo.tmj",
+      "fromSha256": "f087295040a7c5656c6e13d75b4776dcbce2ee0d8972773c3d7f797f72180146",
+      "toSha256": "783b51dab7712f85a3e1d6868d6c087de339c596640ca0224277b535db0257da",
+      "reason": "Use a native desk and computer at check-in; clear unapproved booth branding, move Vibe Code Tours beside BSides, label Community Corner and Sponsor Expo, and provide zodiac audience chair rows. Preserve saved WAMs, portals, themes, public guide routes and original art. Retain retired atlas reservations; independently re-pin ambient producer receipts with every animation pixel unchanged."
+    },
+    {
+      "path": "maps/solar-hall.tmj",
+      "fromSha256": "b7f7364a891490309ecd7615f2688d55fcc7412b578348e8a2f710b722598942",
+      "toSha256": "4f8118506d221cdde1b894177818f17304c359b721424ace596f56b1994c0544",
+      "reason": "Use a native desk and computer at check-in; clear unapproved booth branding, move Vibe Code Tours beside BSides, label Community Corner and Sponsor Expo, and provide zodiac audience chair rows. Preserve saved WAMs, portals, themes, public guide routes and original art. Retain retired atlas reservations; independently re-pin ambient producer receipts with every animation pixel unchanged."
+    },
+    {
+      "path": "maps/speaker-aquarius.tmj",
+      "fromSha256": "960c1c46ded22a03b9c6000b6eb653959f5b96b058b7a68a049253ee55c4b562",
+      "toSha256": "f6be55af8353691974463ecc16a1b093a9ee8ec818e2c7a336e02fb0bccacf0e",
+      "reason": "Use a native desk and computer at check-in; clear unapproved booth branding, move Vibe Code Tours beside BSides, label Community Corner and Sponsor Expo, and provide zodiac audience chair rows. Preserve saved WAMs, portals, themes, public guide routes and original art. Retain retired atlas reservations; independently re-pin ambient producer receipts with every animation pixel unchanged."
+    },
+    {
+      "path": "maps/speaker-aries.tmj",
+      "fromSha256": "79cd84dbbae464e10bd45038546920f3fea64d439065f9da54132f5a36483654",
+      "toSha256": "9b221e5e4934f68a94f735402367578680f8e828bedefcdea8a5a95853cc6f6b",
+      "reason": "Use a native desk and computer at check-in; clear unapproved booth branding, move Vibe Code Tours beside BSides, label Community Corner and Sponsor Expo, and provide zodiac audience chair rows. Preserve saved WAMs, portals, themes, public guide routes and original art. Retain retired atlas reservations; independently re-pin ambient producer receipts with every animation pixel unchanged."
+    },
+    {
+      "path": "maps/speaker-cancer.tmj",
+      "fromSha256": "0b21285f9caf57984ae550c0f50cb7a72afb3296f22aaa668900bd746360902d",
+      "toSha256": "b219f7966f7377eaea3d89f64b5afc3704e02d5261678b11e67c1d89c94cf5e0",
+      "reason": "Use a native desk and computer at check-in; clear unapproved booth branding, move Vibe Code Tours beside BSides, label Community Corner and Sponsor Expo, and provide zodiac audience chair rows. Preserve saved WAMs, portals, themes, public guide routes and original art. Retain retired atlas reservations; independently re-pin ambient producer receipts with every animation pixel unchanged."
+    },
+    {
+      "path": "maps/speaker-capricorn.tmj",
+      "fromSha256": "7fcea4b12e404f16b3fab06ac0ecd92298567eec84833d94ade0cda35d778ad0",
+      "toSha256": "09a09c259be44d213119a1d8ae447a24846b7dc2ab075b417664d5f965d635ac",
+      "reason": "Use a native desk and computer at check-in; clear unapproved booth branding, move Vibe Code Tours beside BSides, label Community Corner and Sponsor Expo, and provide zodiac audience chair rows. Preserve saved WAMs, portals, themes, public guide routes and original art. Retain retired atlas reservations; independently re-pin ambient producer receipts with every animation pixel unchanged."
+    },
+    {
+      "path": "maps/speaker-gemini.tmj",
+      "fromSha256": "eb7994805f60d1b34d3767a8fbbcafe7b18399fcfe9fb92ddd966176e20fa6df",
+      "toSha256": "2522dff533fb2f060bbdd246b6cc64c633189f0fb7b549431dbc051b0901d5c0",
+      "reason": "Use a native desk and computer at check-in; clear unapproved booth branding, move Vibe Code Tours beside BSides, label Community Corner and Sponsor Expo, and provide zodiac audience chair rows. Preserve saved WAMs, portals, themes, public guide routes and original art. Retain retired atlas reservations; independently re-pin ambient producer receipts with every animation pixel unchanged."
+    },
+    {
+      "path": "maps/speaker-leo.tmj",
+      "fromSha256": "4e528ac0372b0a9992ca339f6c4c62cdb9c171120f47004a93fc43115957d928",
+      "toSha256": "920e4a13095d1b038a3ff6eb70ff41bfa2d5a4814928e99a4771a40811445861",
+      "reason": "Use a native desk and computer at check-in; clear unapproved booth branding, move Vibe Code Tours beside BSides, label Community Corner and Sponsor Expo, and provide zodiac audience chair rows. Preserve saved WAMs, portals, themes, public guide routes and original art. Retain retired atlas reservations; independently re-pin ambient producer receipts with every animation pixel unchanged."
+    },
+    {
+      "path": "maps/speaker-libra.tmj",
+      "fromSha256": "a4eaf681e2015d0712fd39a508b1b50619fa8f762fe01b03ffc68aa2be409a2f",
+      "toSha256": "89f7bd09477554fb5e806096d28f75ba7ea9f59efaad559cab82a5abc0e2c24f",
+      "reason": "Use a native desk and computer at check-in; clear unapproved booth branding, move Vibe Code Tours beside BSides, label Community Corner and Sponsor Expo, and provide zodiac audience chair rows. Preserve saved WAMs, portals, themes, public guide routes and original art. Retain retired atlas reservations; independently re-pin ambient producer receipts with every animation pixel unchanged."
+    },
+    {
+      "path": "maps/speaker-pisces.tmj",
+      "fromSha256": "433a4b4844fba86b96871cbc087da6bb1eba509896826aab92639f25d0832b82",
+      "toSha256": "6e62250c61836c7c2be58202c3d2ebcd8cfabd16952b5de9690af246a3c0549f",
+      "reason": "Use a native desk and computer at check-in; clear unapproved booth branding, move Vibe Code Tours beside BSides, label Community Corner and Sponsor Expo, and provide zodiac audience chair rows. Preserve saved WAMs, portals, themes, public guide routes and original art. Retain retired atlas reservations; independently re-pin ambient producer receipts with every animation pixel unchanged."
+    },
+    {
+      "path": "maps/speaker-sagittarius.tmj",
+      "fromSha256": "3b7b6459d46a8cb08f2a791c143d6796f3d3445e90efc130b7fb44bdbda77e01",
+      "toSha256": "19c9f6eaf20ea7e4d85b7cf8fa693d82802bff5d37b881aefd87f505138a9d62",
+      "reason": "Use a native desk and computer at check-in; clear unapproved booth branding, move Vibe Code Tours beside BSides, label Community Corner and Sponsor Expo, and provide zodiac audience chair rows. Preserve saved WAMs, portals, themes, public guide routes and original art. Retain retired atlas reservations; independently re-pin ambient producer receipts with every animation pixel unchanged."
+    },
+    {
+      "path": "maps/speaker-scorpio.tmj",
+      "fromSha256": "4e0343c5404d8e74fefc91f7a705472a61d6451c14795e99504c28288005e336",
+      "toSha256": "380329c0154bf841ce517792232716b12383096727eee507396268e69bf56acb",
+      "reason": "Use a native desk and computer at check-in; clear unapproved booth branding, move Vibe Code Tours beside BSides, label Community Corner and Sponsor Expo, and provide zodiac audience chair rows. Preserve saved WAMs, portals, themes, public guide routes and original art. Retain retired atlas reservations; independently re-pin ambient producer receipts with every animation pixel unchanged."
+    },
+    {
+      "path": "maps/speaker-taurus.tmj",
+      "fromSha256": "9b1e34dc907daa58dcca9e76af38b0b790f1600c55906ef6060f24a88ca80796",
+      "toSha256": "27ff4df830d41a6dd32663a7d973ce066bc9aeb3481c29bc4cfaf63a546c8637",
+      "reason": "Use a native desk and computer at check-in; clear unapproved booth branding, move Vibe Code Tours beside BSides, label Community Corner and Sponsor Expo, and provide zodiac audience chair rows. Preserve saved WAMs, portals, themes, public guide routes and original art. Retain retired atlas reservations; independently re-pin ambient producer receipts with every animation pixel unchanged."
+    },
+    {
+      "path": "maps/speaker-virgo.tmj",
+      "fromSha256": "115270bbe665a894c5c7ff23c1f29bd4d99ee65f33fd70201b47578369b543e9",
+      "toSha256": "10d17b374787b85b565dad0c1cecfa71096ac04afc7b574db39205e4bc97a137",
+      "reason": "Use a native desk and computer at check-in; clear unapproved booth branding, move Vibe Code Tours beside BSides, label Community Corner and Sponsor Expo, and provide zodiac audience chair rows. Preserve saved WAMs, portals, themes, public guide routes and original art. Retain retired atlas reservations; independently re-pin ambient producer receipts with every animation pixel unchanged."
+    },
+    {
+      "path": "world/layouts/air-district.json",
+      "fromSha256": "b364914c58282857da12d5f9e482c4f094535225702270400cf636a57bda8f0a",
+      "toSha256": "d6c3f59287d411e5511bcde399c5a08080c3fb8ef4d9272822b4b03d34f81d56",
+      "reason": "Use a native desk and computer at check-in; clear unapproved booth branding, move Vibe Code Tours beside BSides, label Community Corner and Sponsor Expo, and provide zodiac audience chair rows. Preserve saved WAMs, portals, themes, public guide routes and original art. Retain retired atlas reservations; independently re-pin ambient producer receipts with every animation pixel unchanged."
+    },
+    {
+      "path": "world/layouts/campus-exploration.json",
+      "fromSha256": "8271961cf8f0d23ca44f1c3035f355d643f392f3ceb56dde0b85d99daf52a494",
+      "toSha256": "d73c7153e973deefa55194a25a9c68fd8b3aa2c21989c59df4352d69e8689963",
+      "reason": "Use a native desk and computer at check-in; clear unapproved booth branding, move Vibe Code Tours beside BSides, label Community Corner and Sponsor Expo, and provide zodiac audience chair rows. Preserve saved WAMs, portals, themes, public guide routes and original art. Retain retired atlas reservations; independently re-pin ambient producer receipts with every animation pixel unchanged."
+    },
+    {
+      "path": "world/layouts/comet-maze.json",
+      "fromSha256": "3f8bf77bae2363ebd0ab04b2ad87182df759dcd8c1b7abc1856ac0f35f9707a0",
+      "toSha256": "474bbdce49cfea15cec88c5f580dd4f595193c256c6ae6f67ebde676be8c51a3",
+      "reason": "Use a native desk and computer at check-in; clear unapproved booth branding, move Vibe Code Tours beside BSides, label Community Corner and Sponsor Expo, and provide zodiac audience chair rows. Preserve saved WAMs, portals, themes, public guide routes and original art. Retain retired atlas reservations; independently re-pin ambient producer receipts with every animation pixel unchanged."
+    },
+    {
+      "path": "world/layouts/earth-district.json",
+      "fromSha256": "3c8c43602fdda10727033a474f0a0844eb33788ef6ce43bfc7aa528b0f6f5593",
+      "toSha256": "59c29f9113985fa3a2798cafd95390b0e194db189c3e211f384a43b2ea96acb6",
+      "reason": "Use a native desk and computer at check-in; clear unapproved booth branding, move Vibe Code Tours beside BSides, label Community Corner and Sponsor Expo, and provide zodiac audience chair rows. Preserve saved WAMs, portals, themes, public guide routes and original art. Retain retired atlas reservations; independently re-pin ambient producer receipts with every animation pixel unchanged."
+    },
+    {
+      "path": "world/layouts/fa-ship.json",
+      "fromSha256": "ae93a596f4839719197f6f8913a135ca575aeb7aaaeb943b77e81ec70be98add",
+      "toSha256": "a0201daba443f74835827e6471a8200231d54f47dfd7538702fa11bc07f9f076",
+      "reason": "Use a native desk and computer at check-in; clear unapproved booth branding, move Vibe Code Tours beside BSides, label Community Corner and Sponsor Expo, and provide zodiac audience chair rows. Preserve saved WAMs, portals, themes, public guide routes and original art. Retain retired atlas reservations; independently re-pin ambient producer receipts with every animation pixel unchanged."
+    },
+    {
+      "path": "world/layouts/fire-district.json",
+      "fromSha256": "ba1f1908ef0f360b72e3035efe2cb8be61f55f70b400d34655f5e37e51e761cd",
+      "toSha256": "5839f3f47b44685be9ffb061fb0e0769fc4c60148833087c9980929c4f2acc87",
+      "reason": "Use a native desk and computer at check-in; clear unapproved booth branding, move Vibe Code Tours beside BSides, label Community Corner and Sponsor Expo, and provide zodiac audience chair rows. Preserve saved WAMs, portals, themes, public guide routes and original art. Retain retired atlas reservations; independently re-pin ambient producer receipts with every animation pixel unchanged."
+    },
+    {
+      "path": "world/layouts/hidden-observatory.json",
+      "fromSha256": "264a77027118afcd829b706c451f0667ca89d1f74d60f430eef83daf7329de3a",
+      "toSha256": "220277bbe813723067c029c674810d907dde59806c24b67ca9f6b4e7352a6e94",
+      "reason": "Use a native desk and computer at check-in; clear unapproved booth branding, move Vibe Code Tours beside BSides, label Community Corner and Sponsor Expo, and provide zodiac audience chair rows. Preserve saved WAMs, portals, themes, public guide routes and original art. Retain retired atlas reservations; independently re-pin ambient producer receipts with every animation pixel unchanged."
+    },
+    {
+      "path": "world/layouts/lunar-hall.json",
+      "fromSha256": "d0860fcc197902e935fa7c9aac7676ba9b86ff462e3abd88a017ddfa742974d1",
+      "toSha256": "d08aa5174834e43271d2481c733fe18278df9a3544530d4a460ce2140c88dc79",
+      "reason": "Use a native desk and computer at check-in; clear unapproved booth branding, move Vibe Code Tours beside BSides, label Community Corner and Sponsor Expo, and provide zodiac audience chair rows. Preserve saved WAMs, portals, themes, public guide routes and original art. Retain retired atlas reservations; independently re-pin ambient producer receipts with every animation pixel unchanged."
+    },
+    {
+      "path": "world/layouts/moon-cafe.json",
+      "fromSha256": "25830a1a4d82a7b70ad14060918ffad2a853d8431e86aa9dfb064d1263f61d8b",
+      "toSha256": "8dc5a625111df668bd8b7dbc67567a1880457207ef9377d4da2d46b5a0115174",
+      "reason": "Use a native desk and computer at check-in; clear unapproved booth branding, move Vibe Code Tours beside BSides, label Community Corner and Sponsor Expo, and provide zodiac audience chair rows. Preserve saved WAMs, portals, themes, public guide routes and original art. Retain retired atlas reservations; independently re-pin ambient producer receipts with every animation pixel unchanged."
+    },
+    {
+      "path": "world/layouts/moon-grotto.json",
+      "fromSha256": "11cd7c84f5f53f98cf8072359e6682089da257bf8a64d8681625816fe29d9b25",
+      "toSha256": "5b6db4c946384181796bdb0c4d1b2e202174c4ecee5515259ae976bb61757cda",
+      "reason": "Use a native desk and computer at check-in; clear unapproved booth branding, move Vibe Code Tours beside BSides, label Community Corner and Sponsor Expo, and provide zodiac audience chair rows. Preserve saved WAMs, portals, themes, public guide routes and original art. Retain retired atlas reservations; independently re-pin ambient producer receipts with every animation pixel unchanged."
+    },
+    {
+      "path": "world/layouts/nebula-arcade.json",
+      "fromSha256": "917c672a742a0892b73a8b738e025f37e0e147504cce17fbd586de220f203449",
+      "toSha256": "1025d62d15376fa98608edbfbdf0d5ad9170a68ec161fdffa8a18b4a9594b48e",
+      "reason": "Use a native desk and computer at check-in; clear unapproved booth branding, move Vibe Code Tours beside BSides, label Community Corner and Sponsor Expo, and provide zodiac audience chair rows. Preserve saved WAMs, portals, themes, public guide routes and original art. Retain retired atlas reservations; independently re-pin ambient producer receipts with every animation pixel unchanged."
+    },
+    {
+      "path": "world/layouts/orbit-maze.json",
+      "fromSha256": "6af63a1738de018b0be33ec6ff0bb3585ebc994f2f38f2105c6d8f08f671d2f6",
+      "toSha256": "9ddfdaff4a7abb4f1031abbdc5173d90692a7b7bc679f746ed8b52b1117d463f",
+      "reason": "Use a native desk and computer at check-in; clear unapproved booth branding, move Vibe Code Tours beside BSides, label Community Corner and Sponsor Expo, and provide zodiac audience chair rows. Preserve saved WAMs, portals, themes, public guide routes and original art. Retain retired atlas reservations; independently re-pin ambient producer receipts with every animation pixel unchanged."
+    },
+    {
+      "path": "world/layouts/orbit-playground.json",
+      "fromSha256": "198b3fe99f744d14a3b705520ba79471640d92e6b73d26dffcff0dcb278bccc2",
+      "toSha256": "cf2d3689d17f58cba9fd81b256cc4a01cb046233208ab5d48d1ee1bd9d0fea79",
+      "reason": "Use a native desk and computer at check-in; clear unapproved booth branding, move Vibe Code Tours beside BSides, label Community Corner and Sponsor Expo, and provide zodiac audience chair rows. Preserve saved WAMs, portals, themes, public guide routes and original art. Retain retired atlas reservations; independently re-pin ambient producer receipts with every animation pixel unchanged."
+    },
+    {
+      "path": "world/layouts/overworld.json",
+      "fromSha256": "7a0b2ed3f8304f2b25abd323780f7f1a401628e1565a0ea4529fdd5050646815",
+      "toSha256": "9a78dcbd6b842e268af320b967b6129ebc32a5d2ba89f6d83c9d44c4f483425c",
+      "reason": "Use a native desk and computer at check-in; clear unapproved booth branding, move Vibe Code Tours beside BSides, label Community Corner and Sponsor Expo, and provide zodiac audience chair rows. Preserve saved WAMs, portals, themes, public guide routes and original art. Retain retired atlas reservations; independently re-pin ambient producer receipts with every animation pixel unchanged."
+    },
+    {
+      "path": "world/layouts/solar-hall.json",
+      "fromSha256": "9a04f7711a8a9f3725704fccae9302db9e6d38fe7b5e0fb93aa1aa4fbd9533d6",
+      "toSha256": "41f62192e61d1b593c82b8ab87607c48cdd08d6de2dc2fc0aa5a083c2fed5323",
+      "reason": "Use a native desk and computer at check-in; clear unapproved booth branding, move Vibe Code Tours beside BSides, label Community Corner and Sponsor Expo, and provide zodiac audience chair rows. Preserve saved WAMs, portals, themes, public guide routes and original art. Retain retired atlas reservations; independently re-pin ambient producer receipts with every animation pixel unchanged."
+    },
+    {
+      "path": "world/layouts/speaker-aquarius.json",
+      "fromSha256": "8a5ccfc61b1613743111ec7a003df3749c1f827becf64d44d758146ebc107468",
+      "toSha256": "a2e39175dff49dc6c81ada372134b538dcc7e66e6212c90237558db2d9e0bfe5",
+      "reason": "Use a native desk and computer at check-in; clear unapproved booth branding, move Vibe Code Tours beside BSides, label Community Corner and Sponsor Expo, and provide zodiac audience chair rows. Preserve saved WAMs, portals, themes, public guide routes and original art. Retain retired atlas reservations; independently re-pin ambient producer receipts with every animation pixel unchanged."
+    },
+    {
+      "path": "world/layouts/speaker-aries.json",
+      "fromSha256": "df09f5f835794d830188728a54e33c24c10379e2ffe0b214d58d31feb81ba754",
+      "toSha256": "026a4eecdcfe905e38f0ccf763118edb40766604b615a3c068b95b63ac5ac6f6",
+      "reason": "Use a native desk and computer at check-in; clear unapproved booth branding, move Vibe Code Tours beside BSides, label Community Corner and Sponsor Expo, and provide zodiac audience chair rows. Preserve saved WAMs, portals, themes, public guide routes and original art. Retain retired atlas reservations; independently re-pin ambient producer receipts with every animation pixel unchanged."
+    },
+    {
+      "path": "world/layouts/speaker-cancer.json",
+      "fromSha256": "84d701fe8337a870ed679a1b2d984be81090fbed975d6e883ca1930b332b66dd",
+      "toSha256": "facb92992b069eaf52c7f5faa13a87d18f0125a6ec65aa353bb37c283991d32e",
+      "reason": "Use a native desk and computer at check-in; clear unapproved booth branding, move Vibe Code Tours beside BSides, label Community Corner and Sponsor Expo, and provide zodiac audience chair rows. Preserve saved WAMs, portals, themes, public guide routes and original art. Retain retired atlas reservations; independently re-pin ambient producer receipts with every animation pixel unchanged."
+    },
+    {
+      "path": "world/layouts/speaker-capricorn.json",
+      "fromSha256": "441d301214879ef96fd0299b01fca49624fdce6540e863daa4cb50395851e4c9",
+      "toSha256": "0159d91ec40e62dc80daeaeccce1602d5273a2cc1d41b6b4d9ba24f8c9490f2c",
+      "reason": "Use a native desk and computer at check-in; clear unapproved booth branding, move Vibe Code Tours beside BSides, label Community Corner and Sponsor Expo, and provide zodiac audience chair rows. Preserve saved WAMs, portals, themes, public guide routes and original art. Retain retired atlas reservations; independently re-pin ambient producer receipts with every animation pixel unchanged."
+    },
+    {
+      "path": "world/layouts/speaker-gemini.json",
+      "fromSha256": "5206beae3296cddfcf39d06c3eab3a52c9aa92ea325c866f630766f380a6d42d",
+      "toSha256": "5d3cb8a5c28c43480052458a0cd7329ee3e22a43bcbd9180a6fc218d7ea61074",
+      "reason": "Use a native desk and computer at check-in; clear unapproved booth branding, move Vibe Code Tours beside BSides, label Community Corner and Sponsor Expo, and provide zodiac audience chair rows. Preserve saved WAMs, portals, themes, public guide routes and original art. Retain retired atlas reservations; independently re-pin ambient producer receipts with every animation pixel unchanged."
+    },
+    {
+      "path": "world/layouts/speaker-leo.json",
+      "fromSha256": "e8afe3d98b080a3f7a1cb3e020c5370759ef58bd94a50d155162bf18b87dc1b9",
+      "toSha256": "ce1991e291e50baa9d95d2f229a7a29cc1db2ea15ee38ff3c926226ca0a65c78",
+      "reason": "Use a native desk and computer at check-in; clear unapproved booth branding, move Vibe Code Tours beside BSides, label Community Corner and Sponsor Expo, and provide zodiac audience chair rows. Preserve saved WAMs, portals, themes, public guide routes and original art. Retain retired atlas reservations; independently re-pin ambient producer receipts with every animation pixel unchanged."
+    },
+    {
+      "path": "world/layouts/speaker-libra.json",
+      "fromSha256": "f1dc5f1b30207af962ee9e62e69f663bd0e4c9ef18b4bf85a2ef098be041e9a5",
+      "toSha256": "de2c63ba7c2a372b271d572acecdb2d8dd8d9f41ee2906b823ade86876a99eb0",
+      "reason": "Use a native desk and computer at check-in; clear unapproved booth branding, move Vibe Code Tours beside BSides, label Community Corner and Sponsor Expo, and provide zodiac audience chair rows. Preserve saved WAMs, portals, themes, public guide routes and original art. Retain retired atlas reservations; independently re-pin ambient producer receipts with every animation pixel unchanged."
+    },
+    {
+      "path": "world/layouts/speaker-pisces.json",
+      "fromSha256": "2dce1c4f9bdcf69b741c1305ff7551ae62cfa683ec579933552601f5f11ae682",
+      "toSha256": "36d1ebacc40362aeaafd7fcbefabc2b6c60a21021f67a37eaefb2043c36cee82",
+      "reason": "Use a native desk and computer at check-in; clear unapproved booth branding, move Vibe Code Tours beside BSides, label Community Corner and Sponsor Expo, and provide zodiac audience chair rows. Preserve saved WAMs, portals, themes, public guide routes and original art. Retain retired atlas reservations; independently re-pin ambient producer receipts with every animation pixel unchanged."
+    },
+    {
+      "path": "world/layouts/speaker-sagittarius.json",
+      "fromSha256": "ea966bc69c438059110e681e7bcb91135aedde826740ce0e7034accb0d6606f1",
+      "toSha256": "6ef7e20e7da96c0fed20851f229a9939a333bedd71b452ed941792dd62992f31",
+      "reason": "Use a native desk and computer at check-in; clear unapproved booth branding, move Vibe Code Tours beside BSides, label Community Corner and Sponsor Expo, and provide zodiac audience chair rows. Preserve saved WAMs, portals, themes, public guide routes and original art. Retain retired atlas reservations; independently re-pin ambient producer receipts with every animation pixel unchanged."
+    },
+    {
+      "path": "world/layouts/speaker-scorpio.json",
+      "fromSha256": "5c320a7e1e891b132626147ea0ed1323d64fd5c370b79d93f7faa83b4cbcb348",
+      "toSha256": "39d2bd5c6ee1da4795a0c09837efe73e462fe891fecae5b88591e3bdc4bca483",
+      "reason": "Use a native desk and computer at check-in; clear unapproved booth branding, move Vibe Code Tours beside BSides, label Community Corner and Sponsor Expo, and provide zodiac audience chair rows. Preserve saved WAMs, portals, themes, public guide routes and original art. Retain retired atlas reservations; independently re-pin ambient producer receipts with every animation pixel unchanged."
+    },
+    {
+      "path": "world/layouts/speaker-taurus.json",
+      "fromSha256": "8403024384e70d2bb7e8e424c828b9952f3e13755ed31a3de6b7e88f33d561af",
+      "toSha256": "f2fe82529683dc92490c555341aabe932a48dc3cc6b946bf0c7c8ac768edea92",
+      "reason": "Use a native desk and computer at check-in; clear unapproved booth branding, move Vibe Code Tours beside BSides, label Community Corner and Sponsor Expo, and provide zodiac audience chair rows. Preserve saved WAMs, portals, themes, public guide routes and original art. Retain retired atlas reservations; independently re-pin ambient producer receipts with every animation pixel unchanged."
+    },
+    {
+      "path": "world/layouts/speaker-virgo.json",
+      "fromSha256": "8f3fd84ee2773320a001c091e7157c1fb46b626a26195b4717430f7232bd4e21",
+      "toSha256": "d9b7e9f8b77a3683af8b98bc4d94a320858228c11539ae12e24d899b19552682",
+      "reason": "Use a native desk and computer at check-in; clear unapproved booth branding, move Vibe Code Tours beside BSides, label Community Corner and Sponsor Expo, and provide zodiac audience chair rows. Preserve saved WAMs, portals, themes, public guide routes and original art. Retain retired atlas reservations; independently re-pin ambient producer receipts with every animation pixel unchanged."
+    },
+    {
+      "path": "world/layouts/star-garden.json",
+      "fromSha256": "49817eb641c07d64f0185914d9162a6c5e0ef83e81262d0ab79c97ee9b2d5f97",
+      "toSha256": "97426561d94dcecd51c3ac822f7a26013e1c69d694fff17d709974e8aee2e584",
+      "reason": "Use a native desk and computer at check-in; clear unapproved booth branding, move Vibe Code Tours beside BSides, label Community Corner and Sponsor Expo, and provide zodiac audience chair rows. Preserve saved WAMs, portals, themes, public guide routes and original art. Retain retired atlas reservations; independently re-pin ambient producer receipts with every animation pixel unchanged."
+    },
+    {
+      "path": "world/layouts/stargazer-terrace.json",
+      "fromSha256": "7920ddb097dc341ccc6c808622d9bd250aa891ff0f10c82d7296a968346494f7",
+      "toSha256": "14cff50f00a90da024c81c3c2116319a61c66c2facfbe9d44860c461f9376858",
+      "reason": "Use a native desk and computer at check-in; clear unapproved booth branding, move Vibe Code Tours beside BSides, label Community Corner and Sponsor Expo, and provide zodiac audience chair rows. Preserve saved WAMs, portals, themes, public guide routes and original art. Retain retired atlas reservations; independently re-pin ambient producer receipts with every animation pixel unchanged."
+    },
+    {
+      "path": "world/layouts/water-district.json",
+      "fromSha256": "dc758ec838b6f0606155d9c127835fa89346a37d12e9e8a9ef5bb0be675a455d",
+      "toSha256": "9300ff614d0afc96bdc4c0ff279c0ae4ab4f84b3d0bf557b76a8d904ca8dcf8f",
+      "reason": "Use a native desk and computer at check-in; clear unapproved booth branding, move Vibe Code Tours beside BSides, label Community Corner and Sponsor Expo, and provide zodiac audience chair rows. Preserve saved WAMs, portals, themes, public guide routes and original art. Retain retired atlas reservations; independently re-pin ambient producer receipts with every animation pixel unchanged."
+    },
+    {
+      "path": "world/layouts/zodiac-festival-park.json",
+      "fromSha256": "b31f9f2ccde07402c50b7c60256a9e128cf0b8b1ffcdcb62688001f307fe1bf7",
+      "toSha256": "19f692af8b190e79f48bd3133147e86b89b15dd443cc81346ad5d40623a08a7c",
+      "reason": "Use a native desk and computer at check-in; clear unapproved booth branding, move Vibe Code Tours beside BSides, label Community Corner and Sponsor Expo, and provide zodiac audience chair rows. Preserve saved WAMs, portals, themes, public guide routes and original art. Retain retired atlas reservations; independently re-pin ambient producer receipts with every animation pixel unchanged."
+    }
+  ]
+}

@@ -55945,39 +55945,48 @@
       "layer": "props"
     },
     {
-      "id": "check-in-counter-pad",
-      "sprite": "floor-charcoal",
-      "x": 70,
-      "y": 58,
-      "width": 5,
-      "height": 5,
-      "layer": "terrain"
-    },
-    {
       "id": "check-in-counter-desk",
-      "sprite": "desk-glass",
+      "sprite": "desk-coding",
       "x": 71,
-      "y": 59,
-      "width": 3,
-      "height": 3,
-      "layer": "props"
-    },
-    {
-      "id": "check-in-counter-monitor",
-      "sprite": "screen-wide",
-      "x": 71,
-      "y": 58,
+      "y": 60,
       "width": 3,
       "height": 2,
       "layer": "props"
     },
     {
-      "id": "check-in-counter-display",
-      "sprite": "screen-content",
-      "x": 71,
-      "y": 58,
-      "width": 3,
+      "id": "check-in-counter-computer",
+      "sprite": "laptop",
+      "x": 72,
+      "y": 60,
+      "width": 1,
+      "height": 1,
+      "layer": "props"
+    },
+    {
+      "id": "community-corner-floor",
+      "sprite": "event-community-floor-label",
+      "x": 44,
+      "y": 76,
+      "width": 12,
       "height": 2,
+      "layer": "props"
+    },
+    {
+      "id": "sponsor-expo-floor",
+      "sprite": "event-sponsor-floor-label",
+      "x": 72,
+      "y": 76,
+      "width": 12,
+      "height": 2,
+      "layer": "props"
+    },
+    {
+      "id": "check-in-floor-label",
+      "sprite": "event-check-in-floor-label",
+      "x": 71,
+      "y": 62,
+      "width": 3,
+      "height": 1,
       "layer": "props"
     }
   ],
@@ -56513,83 +56522,11 @@
   ],
   "signs": [
     {
-      "name": "expo-n1-nameplate",
-      "text": "DEMO ORBIT",
-      "x": 40,
-      "y": 65,
-      "width": 4,
-      "height": 1,
-      "fontSize": 18,
-      "color": "#f1d9a0",
-      "align": "center",
-      "padding": 1
-    },
-    {
-      "name": "expo-n2-nameplate",
-      "text": "DEMO NOVA",
-      "x": 48,
-      "y": 65,
-      "width": 4,
-      "height": 1,
-      "fontSize": 18,
-      "color": "#f1d9a0",
-      "align": "center",
-      "padding": 1
-    },
-    {
-      "name": "expo-n3-nameplate",
-      "text": "DEMO ATLAS",
-      "x": 56,
-      "y": 65,
-      "width": 4,
-      "height": 1,
-      "fontSize": 18,
-      "color": "#f1d9a0",
-      "align": "center",
-      "padding": 1
-    },
-    {
-      "name": "expo-n4-nameplate",
-      "text": "DEMO VECTOR",
-      "x": 68,
-      "y": 65,
-      "width": 4,
-      "height": 1,
-      "fontSize": 18,
-      "color": "#f1d9a0",
-      "align": "center",
-      "padding": 1
-    },
-    {
-      "name": "expo-n5-nameplate",
-      "text": "DEMO LUMEN",
-      "x": 76,
-      "y": 65,
-      "width": 4,
-      "height": 1,
-      "fontSize": 18,
-      "color": "#f1d9a0",
-      "align": "center",
-      "padding": 1
-    },
-    {
       "name": "expo-n6-nameplate",
       "text": "INFO DESK",
       "x": 84,
       "y": 65,
       "width": 4,
-      "height": 1,
-      "fontSize": 18,
-      "color": "#f1d9a0",
-      "align": "center",
-      "padding": 1
-    },
-    {
-      "name": "expo-s1-nameplate",
-      "text": "AWS UG MYANMAR",
-      "x": 39,
-      "y": 87,
-      "width": 6,
       "height": 1,
       "fontSize": 18,
       "color": "#f1d9a0",
@@ -56610,126 +56547,18 @@
     },
     {
       "name": "expo-s3-nameplate",
-      "text": "OPENINFRA MM",
+      "text": "VIBE CODE TOURS",
       "x": 56,
       "y": 87,
       "width": 4,
       "height": 1,
-      "fontSize": 18,
-      "color": "#f1d9a0",
-      "align": "center",
-      "padding": 1
-    },
-    {
-      "name": "expo-s4-nameplate",
-      "text": "CODE CIRCLE",
-      "x": 68,
-      "y": 87,
-      "width": 4,
-      "height": 1,
-      "fontSize": 18,
-      "color": "#f1d9a0",
-      "align": "center",
-      "padding": 1
-    },
-    {
-      "name": "expo-s5-nameplate",
-      "text": "DESIGN GUILD",
-      "x": 76,
-      "y": 87,
-      "width": 4,
-      "height": 1,
-      "fontSize": 18,
-      "color": "#f1d9a0",
-      "align": "center",
-      "padding": 1
-    },
-    {
-      "name": "expo-s6-nameplate",
-      "text": "VIBE CODE TOURS",
-      "x": 83,
-      "y": 87,
-      "width": 6,
-      "height": 1,
-      "fontSize": 18,
+      "fontSize": 12,
       "color": "#f1d9a0",
       "align": "center",
       "padding": 1
     }
   ],
   "images": [
-    {
-      "name": "Sponsors / Demo 01",
-      "image": "assets/sponsors/demo-01.png",
-      "x": 47,
-      "y": 55,
-      "width": 6,
-      "height": 2,
-      "standing": false
-    },
-    {
-      "name": "Sponsors / Demo 02",
-      "image": "assets/sponsors/demo-02.png",
-      "x": 61,
-      "y": 54,
-      "width": 6,
-      "height": 2,
-      "standing": false
-    },
-    {
-      "name": "Sponsors / Demo 03",
-      "image": "assets/sponsors/demo-03.png",
-      "x": 75,
-      "y": 55,
-      "width": 6,
-      "height": 2,
-      "standing": false
-    },
-    {
-      "name": "Expo / Demo Orbit",
-      "image": "assets/sponsors/demo-01.png",
-      "x": 39,
-      "y": 67,
-      "width": 6,
-      "height": 2,
-      "standing": false
-    },
-    {
-      "name": "Expo / Demo Nova Compact",
-      "image": "assets/sponsors/demo-02-compact.png",
-      "x": 48,
-      "y": 67,
-      "width": 4,
-      "height": 2,
-      "standing": false
-    },
-    {
-      "name": "Expo / Demo Atlas",
-      "image": "assets/sponsors/demo-03.png",
-      "x": 55,
-      "y": 67,
-      "width": 6,
-      "height": 2,
-      "standing": false
-    },
-    {
-      "name": "Expo / Demo Vector",
-      "image": "assets/sponsors/demo-04.png",
-      "x": 68,
-      "y": 67,
-      "width": 4,
-      "height": 2,
-      "standing": false
-    },
-    {
-      "name": "Expo / Demo Lumen",
-      "image": "assets/sponsors/demo-05.png",
-      "x": 76,
-      "y": 67,
-      "width": 4,
-      "height": 2,
-      "standing": false
-    },
     {
       "name": "Expo / VarCamp",
       "image": "assets/sponsors/varcamp-horizontal.png",
@@ -56740,45 +56569,9 @@
       "standing": false
     },
     {
-      "name": "Expo / AWS User Group Myanmar",
-      "image": "assets/sponsors/partner-aws-ug-mm.png",
-      "x": 40,
-      "y": 85,
-      "width": 4,
-      "height": 2,
-      "standing": false
-    },
-    {
       "name": "Expo / BSides Myanmar",
       "image": "assets/sponsors/partner-bsides-mm.png",
       "x": 48,
-      "y": 85,
-      "width": 4,
-      "height": 2,
-      "standing": false
-    },
-    {
-      "name": "Expo / OpenInfra User Group Myanmar",
-      "image": "assets/sponsors/partner-openinfra-mm.png",
-      "x": 56,
-      "y": 85,
-      "width": 4,
-      "height": 2,
-      "standing": false
-    },
-    {
-      "name": "Expo / Code Circle",
-      "image": "assets/sponsors/hub-01.png",
-      "x": 68,
-      "y": 85,
-      "width": 4,
-      "height": 2,
-      "standing": false
-    },
-    {
-      "name": "Expo / Design Guild",
-      "image": "assets/sponsors/hub-02.png",
-      "x": 76,
       "y": 85,
       "width": 4,
       "height": 2,
@@ -56823,7 +56616,7 @@
     {
       "name": "Expo / Vibe Code Tours",
       "image": "assets/sponsors/vibecode-tours.png",
-      "x": 84,
+      "x": 56,
       "y": 85,
       "width": 4,
       "height": 2
@@ -130163,8 +129956,7 @@
         "expo-n1-nameplate-fascia-post-1",
         "expo-n1-nameplate-fascia-post-2",
         "expo-n1-nameplate-fascia-post-3"
-      ],
-      "text": "expo-n1-nameplate"
+      ]
     },
     {
       "face": "expo-n2-nameplate-fascia",
@@ -130173,8 +129965,7 @@
         "expo-n2-nameplate-fascia-post-1",
         "expo-n2-nameplate-fascia-post-2",
         "expo-n2-nameplate-fascia-post-3"
-      ],
-      "text": "expo-n2-nameplate"
+      ]
     },
     {
       "face": "expo-n3-nameplate-fascia",
@@ -130183,8 +129974,7 @@
         "expo-n3-nameplate-fascia-post-1",
         "expo-n3-nameplate-fascia-post-2",
         "expo-n3-nameplate-fascia-post-3"
-      ],
-      "text": "expo-n3-nameplate"
+      ]
     },
     {
       "face": "expo-n4-nameplate-fascia",
@@ -130193,8 +129983,7 @@
         "expo-n4-nameplate-fascia-post-1",
         "expo-n4-nameplate-fascia-post-2",
         "expo-n4-nameplate-fascia-post-3"
-      ],
-      "text": "expo-n4-nameplate"
+      ]
     },
     {
       "face": "expo-n5-nameplate-fascia",
@@ -130203,8 +129992,7 @@
         "expo-n5-nameplate-fascia-post-1",
         "expo-n5-nameplate-fascia-post-2",
         "expo-n5-nameplate-fascia-post-3"
-      ],
-      "text": "expo-n5-nameplate"
+      ]
     },
     {
       "face": "expo-n6-nameplate-fascia",
@@ -130225,8 +130013,7 @@
         "expo-s1-nameplate-fascia-post-3",
         "expo-s1-nameplate-fascia-post-4",
         "expo-s1-nameplate-fascia-post-5"
-      ],
-      "text": "expo-s1-nameplate"
+      ]
     },
     {
       "face": "expo-s2-nameplate-fascia",
@@ -130257,8 +130044,7 @@
         "expo-s4-nameplate-fascia-post-1",
         "expo-s4-nameplate-fascia-post-2",
         "expo-s4-nameplate-fascia-post-3"
-      ],
-      "text": "expo-s4-nameplate"
+      ]
     },
     {
       "face": "expo-s5-nameplate-fascia",
@@ -130267,8 +130053,7 @@
         "expo-s5-nameplate-fascia-post-1",
         "expo-s5-nameplate-fascia-post-2",
         "expo-s5-nameplate-fascia-post-3"
-      ],
-      "text": "expo-s5-nameplate"
+      ]
     },
     {
       "face": "expo-s6-nameplate-fascia",
@@ -130279,8 +130064,7 @@
         "expo-s6-nameplate-fascia-post-3",
         "expo-s6-nameplate-fascia-post-4",
         "expo-s6-nameplate-fascia-post-5"
-      ],
-      "text": "expo-s6-nameplate"
+      ]
     }
   ]
 }

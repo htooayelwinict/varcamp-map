@@ -14,11 +14,11 @@ describe('closed current14 interior source/native/WAM contract',()=>{
  it('retains the independent historical functional baseline in the production contract',()=>{const raw=readFileSync('tests/fixtures/interior-reference/before-functions.json'),before=JSON.parse(raw.toString()),contract=read('world/interior-reference-contract.json');expect(Object.keys(contract.maps).sort()).toEqual(ids.slice().sort());expect(contract.historicalFunctionalSource.sha256).toBe(createHash('sha256').update(raw).digest('hex'));for(const id of ids)expect(contract.maps[id].functional).toEqual(before[id]);});
  for(const id of ids)it(`${id}: accepts the actual source and saved native/WAM pair`,()=>expect(()=>check(data(id))).not.toThrow());
  it.each(['audience-seats','all-furnishings','one-sofa','own-crest','motion-families'])('rejects omitted %s even after the native map is regenerated to match',kind=>{
-  const a=data();if(kind==='audience-seats')a.layout.placements=a.layout.placements.filter(p=>!p.id.startsWith('seat-'));if(kind==='all-furnishings'){a.layout.placements=a.layout.placements.filter(p=>!p.sprite.startsWith('interior-ref-')&&!p.sprite.startsWith('zodiac-emblem-'));a.layout.animatedOverlays=[];}
+  const a=data();if(kind==='audience-seats')a.layout.placements=a.layout.placements.filter(p=>!p.id.startsWith('seat-')&&!p.id.startsWith('audience-chair-'));if(kind==='all-furnishings'){a.layout.placements=a.layout.placements.filter(p=>!p.sprite.startsWith('interior-ref-')&&!p.sprite.startsWith('zodiac-emblem-'));a.layout.animatedOverlays=[];}
   if(kind==='one-sofa')a.layout.placements=a.layout.placements.filter(p=>p.sprite!=='interior-ref-sofa');
   if(kind==='own-crest')a.layout.placements=a.layout.placements.filter(p=>!p.sprite.startsWith('zodiac-emblem-'));
   if(kind==='motion-families')a.layout.animatedOverlays=[];
-  regenerate(a);expect(()=>check(a)).toThrow(/Interior|Vibe Code branding: unreviewed source layout/);
+  regenerate(a);expect(()=>check(a)).toThrow(/Interior|Vibe Code branding: unreviewed source layout|Event presentation: unreviewed source layout/);
  });
  it.each(['wrong-crest','motion-clock','blocking-crest','native-cell','foreground','title','collision','layout-rights','layout-exit','saved-wam-rights','saved-wam-geometry','saved-wam-missing','extra-duplicate-id','extra-duplicate-name','extra-duplicate-control','extra-duplicate-property'])('rejects %s without hiding the defect in renderer/metadata checks',kind=>{
   const a=data(kind==='layout-rights'?'solar-hall':'speaker-aries');
@@ -38,10 +38,10 @@ describe('closed current14 interior source/native/WAM contract',()=>{
   if(kind==='extra-duplicate-name')a.wam.areas.push({...structuredClone(a.wam.areas[0]),id:'extra-area',properties:[]});
   if(kind==='extra-duplicate-control')a.wam.areas.push({...structuredClone(a.wam.areas[0]),id:'extra-area',name:'Extra area',properties:[{...structuredClone(a.wam.areas[0].properties[0]),id:'new-owner'}]});
   if(kind==='extra-duplicate-property')a.wam.areas.push({...structuredClone(a.wam.areas[0]),id:'extra-area',name:'Extra area',properties:[{...structuredClone(a.wam.areas[0].properties[0]),roomName:'extra-unique-room'}]});
-  expect(()=>check(a)).toThrow(/Interior|Vibe Code branding: unreviewed source layout/);
+  expect(()=>check(a)).toThrow(/Interior|Vibe Code branding: unreviewed source layout|Event presentation: unreviewed source layout/);
  });
  it('rejects a new obstruction on a protected route even when source/native parity is valid',()=>{
-  const a=data();a.layout.placements.push({id:'new-route-obstruction',sprite:'interior-ref-cabinet',layer:'scenery',x:17,y:28,width:2,height:3});regenerate(a);expect(()=>check(a)).toThrow(/Interior.*route|Vibe Code branding: unreviewed source layout/);
+  const a=data();a.layout.placements.push({id:'new-route-obstruction',sprite:'interior-ref-cabinet',layer:'scenery',x:17,y:28,width:2,height:3});regenerate(a);expect(()=>check(a)).toThrow(/Interior.*route|Vibe Code branding: unreviewed source layout|Event presentation: unreviewed source layout/);
  });
  it('preserves independent valid editor entities and extra areas without writes',()=>{
   const a=data();a.wam.entities['editor-object']={x:96,y:96,prefabRef:{collectionName:'Office',id:'independent-decoration'}};a.wam.areas.push({id:'editor-extra-area',name:'Editor quiet corner',visible:true,x:32,y:32,width:32,height:32,properties:[{id:'editor-extra-silent',type:'silent'}]});const before=structuredClone(a);expect(()=>check(a)).not.toThrow();expect(a).toEqual(before);

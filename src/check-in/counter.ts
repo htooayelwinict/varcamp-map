@@ -1,4 +1,6 @@
-import counter from '../../world/check-in-counter.json';
+import original from '../../world/check-in-counter.json';
+import style from '../../world/check-in-counter-style.json';
+const counter={...original,...style};
 
 export interface CheckInApi {
  room: Pick<typeof WA.room,'id'|'website'>;

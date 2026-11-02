@@ -579,132 +579,6 @@
       "layer": "terrain"
     },
     {
-      "id": "interior-ref-west-0-workbench",
-      "sprite": "desk-coding",
-      "x": 4,
-      "y": 17,
-      "width": 9,
-      "height": 2,
-      "layer": "props"
-    },
-    {
-      "id": "interior-ref-west-0-0-laptop",
-      "sprite": "laptop",
-      "x": 5,
-      "y": 17,
-      "width": 1,
-      "height": 1,
-      "layer": "props"
-    },
-    {
-      "id": "seat-west-0-0",
-      "sprite": "chair-north-slate",
-      "x": 5,
-      "y": 19,
-      "width": 1,
-      "height": 2,
-      "layer": "props"
-    },
-    {
-      "id": "interior-ref-west-0-1-laptop",
-      "sprite": "laptop",
-      "x": 8,
-      "y": 17,
-      "width": 1,
-      "height": 1,
-      "layer": "props"
-    },
-    {
-      "id": "seat-west-0-1",
-      "sprite": "chair-north-slate",
-      "x": 8,
-      "y": 19,
-      "width": 1,
-      "height": 2,
-      "layer": "props"
-    },
-    {
-      "id": "interior-ref-west-0-2-laptop",
-      "sprite": "laptop",
-      "x": 11,
-      "y": 17,
-      "width": 1,
-      "height": 1,
-      "layer": "props"
-    },
-    {
-      "id": "seat-west-0-2",
-      "sprite": "chair-north-slate",
-      "x": 11,
-      "y": 19,
-      "width": 1,
-      "height": 2,
-      "layer": "props"
-    },
-    {
-      "id": "interior-ref-west-1-workbench",
-      "sprite": "desk-coding",
-      "x": 4,
-      "y": 21,
-      "width": 9,
-      "height": 2,
-      "layer": "props"
-    },
-    {
-      "id": "interior-ref-west-1-0-laptop",
-      "sprite": "laptop",
-      "x": 5,
-      "y": 21,
-      "width": 1,
-      "height": 1,
-      "layer": "props"
-    },
-    {
-      "id": "seat-west-1-0",
-      "sprite": "chair-north-slate",
-      "x": 5,
-      "y": 23,
-      "width": 1,
-      "height": 2,
-      "layer": "props"
-    },
-    {
-      "id": "interior-ref-west-1-1-laptop",
-      "sprite": "laptop",
-      "x": 8,
-      "y": 21,
-      "width": 1,
-      "height": 1,
-      "layer": "props"
-    },
-    {
-      "id": "seat-west-1-1",
-      "sprite": "chair-north-slate",
-      "x": 8,
-      "y": 23,
-      "width": 1,
-      "height": 2,
-      "layer": "props"
-    },
-    {
-      "id": "interior-ref-west-1-2-laptop",
-      "sprite": "laptop",
-      "x": 11,
-      "y": 21,
-      "width": 1,
-      "height": 1,
-      "layer": "props"
-    },
-    {
-      "id": "seat-west-1-2",
-      "sprite": "chair-north-slate",
-      "x": 11,
-      "y": 23,
-      "width": 1,
-      "height": 2,
-      "layer": "props"
-    },
-    {
       "id": "interior-ref-east-workshop-floor",
       "sprite": "floor-blue",
       "x": 22,
@@ -712,132 +586,6 @@
       "width": 11,
       "height": 8,
       "layer": "terrain"
-    },
-    {
-      "id": "interior-ref-east-0-workbench",
-      "sprite": "desk-coding",
-      "x": 23,
-      "y": 17,
-      "width": 9,
-      "height": 2,
-      "layer": "props"
-    },
-    {
-      "id": "interior-ref-east-0-0-laptop",
-      "sprite": "laptop",
-      "x": 24,
-      "y": 17,
-      "width": 1,
-      "height": 1,
-      "layer": "props"
-    },
-    {
-      "id": "seat-east-0-0",
-      "sprite": "chair-north-slate",
-      "x": 24,
-      "y": 19,
-      "width": 1,
-      "height": 2,
-      "layer": "props"
-    },
-    {
-      "id": "interior-ref-east-0-1-laptop",
-      "sprite": "laptop",
-      "x": 27,
-      "y": 17,
-      "width": 1,
-      "height": 1,
-      "layer": "props"
-    },
-    {
-      "id": "seat-east-0-1",
-      "sprite": "chair-north-slate",
-      "x": 27,
-      "y": 19,
-      "width": 1,
-      "height": 2,
-      "layer": "props"
-    },
-    {
-      "id": "interior-ref-east-0-2-laptop",
-      "sprite": "laptop",
-      "x": 30,
-      "y": 17,
-      "width": 1,
-      "height": 1,
-      "layer": "props"
-    },
-    {
-      "id": "seat-east-0-2",
-      "sprite": "chair-north-slate",
-      "x": 30,
-      "y": 19,
-      "width": 1,
-      "height": 2,
-      "layer": "props"
-    },
-    {
-      "id": "interior-ref-east-1-workbench",
-      "sprite": "desk-coding",
-      "x": 23,
-      "y": 21,
-      "width": 9,
-      "height": 2,
-      "layer": "props"
-    },
-    {
-      "id": "interior-ref-east-1-0-laptop",
-      "sprite": "laptop",
-      "x": 24,
-      "y": 21,
-      "width": 1,
-      "height": 1,
-      "layer": "props"
-    },
-    {
-      "id": "seat-east-1-0",
-      "sprite": "chair-north-slate",
-      "x": 24,
-      "y": 23,
-      "width": 1,
-      "height": 2,
-      "layer": "props"
-    },
-    {
-      "id": "interior-ref-east-1-1-laptop",
-      "sprite": "laptop",
-      "x": 27,
-      "y": 21,
-      "width": 1,
-      "height": 1,
-      "layer": "props"
-    },
-    {
-      "id": "seat-east-1-1",
-      "sprite": "chair-north-slate",
-      "x": 27,
-      "y": 23,
-      "width": 1,
-      "height": 2,
-      "layer": "props"
-    },
-    {
-      "id": "interior-ref-east-1-2-laptop",
-      "sprite": "laptop",
-      "x": 30,
-      "y": 21,
-      "width": 1,
-      "height": 1,
-      "layer": "props"
-    },
-    {
-      "id": "seat-east-1-2",
-      "sprite": "chair-north-slate",
-      "x": 30,
-      "y": 23,
-      "width": 1,
-      "height": 2,
-      "layer": "props"
     },
     {
       "id": "interior-ref-zodiac-floor-crest",
@@ -849,29 +597,164 @@
       "layer": "props"
     },
     {
-      "id": "aries-style-partner-card-aws",
-      "sprite": "speaker-style-logo-card",
+      "id": "audience-chair-0-0",
+      "sprite": "chair-north-slate",
       "x": 8,
-      "y": 4,
-      "width": 4,
+      "y": 17,
+      "width": 1,
       "height": 2,
       "layer": "props"
     },
     {
-      "id": "aries-style-partner-card-bsides",
-      "sprite": "speaker-style-logo-card",
-      "x": 16,
-      "y": 4,
-      "width": 4,
+      "id": "audience-chair-0-1",
+      "sprite": "chair-north-slate",
+      "x": 10,
+      "y": 17,
+      "width": 1,
       "height": 2,
       "layer": "props"
     },
     {
-      "id": "aries-style-partner-card-openinfra",
-      "sprite": "speaker-style-logo-card",
-      "x": 24,
-      "y": 4,
-      "width": 4,
+      "id": "audience-chair-0-2",
+      "sprite": "chair-north-slate",
+      "x": 12,
+      "y": 17,
+      "width": 1,
+      "height": 2,
+      "layer": "props"
+    },
+    {
+      "id": "audience-chair-0-3",
+      "sprite": "chair-north-slate",
+      "x": 23,
+      "y": 17,
+      "width": 1,
+      "height": 2,
+      "layer": "props"
+    },
+    {
+      "id": "audience-chair-0-4",
+      "sprite": "chair-north-slate",
+      "x": 25,
+      "y": 17,
+      "width": 1,
+      "height": 2,
+      "layer": "props"
+    },
+    {
+      "id": "audience-chair-0-5",
+      "sprite": "chair-north-slate",
+      "x": 27,
+      "y": 17,
+      "width": 1,
+      "height": 2,
+      "layer": "props"
+    },
+    {
+      "id": "audience-chair-1-0",
+      "sprite": "chair-north-slate",
+      "x": 8,
+      "y": 20,
+      "width": 1,
+      "height": 2,
+      "layer": "props"
+    },
+    {
+      "id": "audience-chair-1-1",
+      "sprite": "chair-north-slate",
+      "x": 10,
+      "y": 20,
+      "width": 1,
+      "height": 2,
+      "layer": "props"
+    },
+    {
+      "id": "audience-chair-1-2",
+      "sprite": "chair-north-slate",
+      "x": 12,
+      "y": 20,
+      "width": 1,
+      "height": 2,
+      "layer": "props"
+    },
+    {
+      "id": "audience-chair-1-3",
+      "sprite": "chair-north-slate",
+      "x": 23,
+      "y": 20,
+      "width": 1,
+      "height": 2,
+      "layer": "props"
+    },
+    {
+      "id": "audience-chair-1-4",
+      "sprite": "chair-north-slate",
+      "x": 25,
+      "y": 20,
+      "width": 1,
+      "height": 2,
+      "layer": "props"
+    },
+    {
+      "id": "audience-chair-1-5",
+      "sprite": "chair-north-slate",
+      "x": 27,
+      "y": 20,
+      "width": 1,
+      "height": 2,
+      "layer": "props"
+    },
+    {
+      "id": "audience-chair-2-0",
+      "sprite": "chair-north-slate",
+      "x": 8,
+      "y": 23,
+      "width": 1,
+      "height": 2,
+      "layer": "props"
+    },
+    {
+      "id": "audience-chair-2-1",
+      "sprite": "chair-north-slate",
+      "x": 10,
+      "y": 23,
+      "width": 1,
+      "height": 2,
+      "layer": "props"
+    },
+    {
+      "id": "audience-chair-2-2",
+      "sprite": "chair-north-slate",
+      "x": 12,
+      "y": 23,
+      "width": 1,
+      "height": 2,
+      "layer": "props"
+    },
+    {
+      "id": "audience-chair-2-3",
+      "sprite": "chair-north-slate",
+      "x": 23,
+      "y": 23,
+      "width": 1,
+      "height": 2,
+      "layer": "props"
+    },
+    {
+      "id": "audience-chair-2-4",
+      "sprite": "chair-north-slate",
+      "x": 25,
+      "y": 23,
+      "width": 1,
+      "height": 2,
+      "layer": "props"
+    },
+    {
+      "id": "audience-chair-2-5",
+      "sprite": "chair-north-slate",
+      "x": 27,
+      "y": 23,
+      "width": 1,
       "height": 2,
       "layer": "props"
     }
@@ -1494,25 +1377,9 @@
       "height": 2
     },
     {
-      "name": "Aries / AWS UG Myanmar",
-      "image": "assets/sponsors/partner-aws-ug-mm.png",
-      "x": 8,
-      "y": 4,
-      "width": 4,
-      "height": 2
-    },
-    {
       "name": "Aries / BSides Myanmar",
       "image": "assets/sponsors/partner-bsides-mm.png",
-      "x": 16,
-      "y": 4,
-      "width": 4,
-      "height": 2
-    },
-    {
-      "name": "Aries / OpenInfra Myanmar",
-      "image": "assets/sponsors/partner-openinfra-mm.png",
-      "x": 24,
+      "x": 11,
       "y": 4,
       "width": 4,
       "height": 2
@@ -1520,8 +1387,8 @@
     {
       "name": "Aries / Vibe Code Tours",
       "image": "assets/sponsors/vibecode-tours.png",
-      "x": 8,
-      "y": 0,
+      "x": 21,
+      "y": 4,
       "width": 4,
       "height": 2
     }

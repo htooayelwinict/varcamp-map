@@ -15,7 +15,7 @@ it.each(['all-source-missing','building-source-missing','crest-missing','renamed
  if(kind==='wrong-terrain')f.map.layers.find((p:any)=>p.name==='terrain').data[64*128+64]++;
  if(kind==='wrong-collision')f.map.layers.find((p:any)=>p.name==='physical-collisions').data[64*128+64]=1;
  if(kind==='lowered-canopy')f.catalog['plaza-tree-round'].upperCells=[];
- if(kind==='raised-logo'){const i=f.map.layers.findIndex((p:any)=>p.name==='Sponsors / Demo 01');f.map.layers.push(f.map.layers.splice(i,1)[0]);}
+ if(kind==='raised-logo'){const i=f.map.layers.findIndex((p:any)=>p.name==='Expo / VarCamp');expect(i).toBeGreaterThanOrEqual(0);f.map.layers.push(f.map.layers.splice(i,1)[0]);}
  if(kind==='wrong-drone-clock')f.map.tilesets.find((p:any)=>p.name.startsWith('plaza-drone-')).tiles[0].animation[0].duration++;
  if(kind==='missing-drone')f.map.layers=f.map.layers.filter((p:any)=>p.name!=='plaza-drone-00');
  if(kind==='extra-native-layer'){const extra=structuredClone(f.map.layers.find((p:any)=>p.name==='plaza-drone-00'));extra.name='unapproved-extra';extra.id=999;f.map.layers.push(extra);}

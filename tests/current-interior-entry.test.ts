@@ -15,6 +15,6 @@ it('normal maps:build accepts genuine sources, then rejects a coherent source/na
   const preview=readFileSync(resolve(fixture,'maps/preview/air-district.tmj'));
   const layout=JSON.parse(readFileSync(resolve(fixture,'world/layouts/lunar-hall.json'),'utf8'));layout.placements=layout.placements.filter((p:{sprite:string})=>p.sprite!=='interior-ref-sofa');const map=renderReferenceInterior(layout,loadTileCatalog()).tmj;
   writeFileSync(resolve(fixture,'world/layouts/lunar-hall.json'),JSON.stringify(layout));writeFileSync(resolve(fixture,'maps/lunar-hall.tmj'),JSON.stringify(map));
-  const mutant=run();expect(mutant.status).not.toBe(0);expect(mutant.stderr).toMatch(/Interior lunar-hall: required furnishing|Vibe Code branding: unreviewed source layout/);expect(mutant.stdout).toBe('');expect(readFileSync(resolve(fixture,'maps/preview/air-district.tmj'))).toEqual(preview);
+  const mutant=run();expect(mutant.status).not.toBe(0);expect(mutant.stderr).toMatch(/Interior lunar-hall: required furnishing|Vibe Code branding: unreviewed source layout|Event presentation: unreviewed source layout/);expect(mutant.stdout).toBe('');expect(readFileSync(resolve(fixture,'maps/preview/air-district.tmj'))).toEqual(preview);
  }finally{rmSync(fixture,{recursive:true,force:true});}
 },30000);

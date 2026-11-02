@@ -41447,5 +41447,41 @@
     "blockingCells": [],
     "level": "belowAvatar",
     "sourceId": "original"
+  },
+  "event-community-floor-label": {
+    "sheet": "assets/tilesets/original/event-floor-labels.png",
+    "rect": {
+      "x": 0,
+      "y": 0,
+      "width": 12,
+      "height": 2
+    },
+    "blockingCells": [],
+    "level": "belowAvatar",
+    "sourceId": "original"
+  },
+  "event-sponsor-floor-label": {
+    "sheet": "assets/tilesets/original/event-floor-labels.png",
+    "rect": {
+      "x": 0,
+      "y": 2,
+      "width": 12,
+      "height": 2
+    },
+    "blockingCells": [],
+    "level": "belowAvatar",
+    "sourceId": "original"
+  },
+  "event-check-in-floor-label": {
+    "sheet": "assets/tilesets/original/event-floor-labels.png",
+    "rect": {
+      "x": 0,
+      "y": 4,
+      "width": 3,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar",
+    "sourceId": "original"
   }
 }

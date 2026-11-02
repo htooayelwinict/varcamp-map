@@ -1,0 +1,443 @@
+{
+  "version": 1,
+  "baselineCommit": "3d97bda746c885a52c0993ee4053643203b27ba7",
+  "sponsorAtlases": [
+    {
+      "firstgid": 16705,
+      "name": "Sponsors / Demo 01",
+      "tilewidth": 32,
+      "tileheight": 32,
+      "columns": 6,
+      "tilecount": 12,
+      "image": "../assets/sponsors/demo-01.png",
+      "imagewidth": 192,
+      "imageheight": 64,
+      "properties": [
+        {
+          "name": "sponsorPanel",
+          "type": "bool",
+          "value": true
+        },
+        {
+          "name": "tilesetCopyright",
+          "type": "string",
+          "value": "Sponsor artwork: see credits/sponsors.json for original attribution and replacement terms."
+        }
+      ]
+    },
+    {
+      "firstgid": 16717,
+      "name": "Sponsors / Demo 02",
+      "tilewidth": 32,
+      "tileheight": 32,
+      "columns": 6,
+      "tilecount": 12,
+      "image": "../assets/sponsors/demo-02.png",
+      "imagewidth": 192,
+      "imageheight": 64,
+      "properties": [
+        {
+          "name": "sponsorPanel",
+          "type": "bool",
+          "value": true
+        },
+        {
+          "name": "tilesetCopyright",
+          "type": "string",
+          "value": "Sponsor artwork: see credits/sponsors.json for original attribution and replacement terms."
+        }
+      ]
+    },
+    {
+      "firstgid": 16729,
+      "name": "Sponsors / Demo 03",
+      "tilewidth": 32,
+      "tileheight": 32,
+      "columns": 6,
+      "tilecount": 12,
+      "image": "../assets/sponsors/demo-03.png",
+      "imagewidth": 192,
+      "imageheight": 64,
+      "properties": [
+        {
+          "name": "sponsorPanel",
+          "type": "bool",
+          "value": true
+        },
+        {
+          "name": "tilesetCopyright",
+          "type": "string",
+          "value": "Sponsor artwork: see credits/sponsors.json for original attribution and replacement terms."
+        }
+      ]
+    },
+    {
+      "firstgid": 16741,
+      "name": "Expo / Demo Orbit",
+      "tilewidth": 32,
+      "tileheight": 32,
+      "columns": 6,
+      "tilecount": 12,
+      "image": "../assets/sponsors/demo-01.png",
+      "imagewidth": 192,
+      "imageheight": 64,
+      "properties": [
+        {
+          "name": "sponsorPanel",
+          "type": "bool",
+          "value": true
+        },
+        {
+          "name": "tilesetCopyright",
+          "type": "string",
+          "value": "Sponsor artwork: see credits/sponsors.json for original attribution and replacement terms."
+        }
+      ]
+    },
+    {
+      "firstgid": 16753,
+      "name": "Expo / Demo Nova Compact",
+      "tilewidth": 32,
+      "tileheight": 32,
+      "columns": 4,
+      "tilecount": 8,
+      "image": "../assets/sponsors/demo-02-compact.png",
+      "imagewidth": 128,
+      "imageheight": 64,
+      "properties": [
+        {
+          "name": "sponsorPanel",
+          "type": "bool",
+          "value": true
+        },
+        {
+          "name": "tilesetCopyright",
+          "type": "string",
+          "value": "Sponsor artwork: see credits/sponsors.json for original attribution and replacement terms."
+        }
+      ]
+    },
+    {
+      "firstgid": 16761,
+      "name": "Expo / Demo Atlas",
+      "tilewidth": 32,
+      "tileheight": 32,
+      "columns": 6,
+      "tilecount": 12,
+      "image": "../assets/sponsors/demo-03.png",
+      "imagewidth": 192,
+      "imageheight": 64,
+      "properties": [
+        {
+          "name": "sponsorPanel",
+          "type": "bool",
+          "value": true
+        },
+        {
+          "name": "tilesetCopyright",
+          "type": "string",
+          "value": "Sponsor artwork: see credits/sponsors.json for original attribution and replacement terms."
+        }
+      ]
+    },
+    {
+      "firstgid": 16773,
+      "name": "Expo / Demo Vector",
+      "tilewidth": 32,
+      "tileheight": 32,
+      "columns": 4,
+      "tilecount": 8,
+      "image": "../assets/sponsors/demo-04.png",
+      "imagewidth": 128,
+      "imageheight": 64,
+      "properties": [
+        {
+          "name": "sponsorPanel",
+          "type": "bool",
+          "value": true
+        },
+        {
+          "name": "tilesetCopyright",
+          "type": "string",
+          "value": "Sponsor artwork: see credits/sponsors.json for original attribution and replacement terms."
+        }
+      ]
+    },
+    {
+      "firstgid": 16781,
+      "name": "Expo / Demo Lumen",
+      "tilewidth": 32,
+      "tileheight": 32,
+      "columns": 4,
+      "tilecount": 8,
+      "image": "../assets/sponsors/demo-05.png",
+      "imagewidth": 128,
+      "imageheight": 64,
+      "properties": [
+        {
+          "name": "sponsorPanel",
+          "type": "bool",
+          "value": true
+        },
+        {
+          "name": "tilesetCopyright",
+          "type": "string",
+          "value": "Sponsor artwork: see credits/sponsors.json for original attribution and replacement terms."
+        }
+      ]
+    },
+    {
+      "firstgid": 16789,
+      "name": "Expo / VarCamp",
+      "tilewidth": 32,
+      "tileheight": 32,
+      "columns": 4,
+      "tilecount": 8,
+      "image": "../assets/sponsors/varcamp-horizontal.png",
+      "imagewidth": 128,
+      "imageheight": 64,
+      "properties": [
+        {
+          "name": "sponsorPanel",
+          "type": "bool",
+          "value": true
+        },
+        {
+          "name": "tilesetCopyright",
+          "type": "string",
+          "value": "Sponsor artwork: see credits/sponsors.json for original attribution and replacement terms."
+        }
+      ]
+    },
+    {
+      "firstgid": 16797,
+      "name": "Expo / AWS User Group Myanmar",
+      "tilewidth": 32,
+      "tileheight": 32,
+      "columns": 4,
+      "tilecount": 8,
+      "image": "../assets/sponsors/partner-aws-ug-mm.png",
+      "imagewidth": 128,
+      "imageheight": 64,
+      "properties": [
+        {
+          "name": "sponsorPanel",
+          "type": "bool",
+          "value": true
+        },
+        {
+          "name": "tilesetCopyright",
+          "type": "string",
+          "value": "Sponsor artwork: see credits/sponsors.json for original attribution and replacement terms."
+        }
+      ]
+    },
+    {
+      "firstgid": 16805,
+      "name": "Expo / BSides Myanmar",
+      "tilewidth": 32,
+      "tileheight": 32,
+      "columns": 4,
+      "tilecount": 8,
+      "image": "../assets/sponsors/partner-bsides-mm.png",
+      "imagewidth": 128,
+      "imageheight": 64,
+      "properties": [
+        {
+          "name": "sponsorPanel",
+          "type": "bool",
+          "value": true
+        },
+        {
+          "name": "tilesetCopyright",
+          "type": "string",
+          "value": "Sponsor artwork: see credits/sponsors.json for original attribution and replacement terms."
+        }
+      ]
+    },
+    {
+      "firstgid": 16813,
+      "name": "Expo / OpenInfra User Group Myanmar",
+      "tilewidth": 32,
+      "tileheight": 32,
+      "columns": 4,
+      "tilecount": 8,
+      "image": "../assets/sponsors/partner-openinfra-mm.png",
+      "imagewidth": 128,
+      "imageheight": 64,
+      "properties": [
+        {
+          "name": "sponsorPanel",
+          "type": "bool",
+          "value": true
+        },
+        {
+          "name": "tilesetCopyright",
+          "type": "string",
+          "value": "Sponsor artwork: see credits/sponsors.json for original attribution and replacement terms."
+        }
+      ]
+    },
+    {
+      "firstgid": 16821,
+      "name": "Expo / Code Circle",
+      "tilewidth": 32,
+      "tileheight": 32,
+      "columns": 4,
+      "tilecount": 8,
+      "image": "../assets/sponsors/hub-01.png",
+      "imagewidth": 128,
+      "imageheight": 64,
+      "properties": [
+        {
+          "name": "sponsorPanel",
+          "type": "bool",
+          "value": true
+        },
+        {
+          "name": "tilesetCopyright",
+          "type": "string",
+          "value": "Sponsor artwork: see credits/sponsors.json for original attribution and replacement terms."
+        }
+      ]
+    },
+    {
+      "firstgid": 16829,
+      "name": "Expo / Design Guild",
+      "tilewidth": 32,
+      "tileheight": 32,
+      "columns": 4,
+      "tilecount": 8,
+      "image": "../assets/sponsors/hub-02.png",
+      "imagewidth": 128,
+      "imageheight": 64,
+      "properties": [
+        {
+          "name": "sponsorPanel",
+          "type": "bool",
+          "value": true
+        },
+        {
+          "name": "tilesetCopyright",
+          "type": "string",
+          "value": "Sponsor artwork: see credits/sponsors.json for original attribution and replacement terms."
+        }
+      ]
+    },
+    {
+      "firstgid": 16837,
+      "name": "Arrival / VarCamp NW",
+      "tilewidth": 32,
+      "tileheight": 32,
+      "columns": 6,
+      "tilecount": 12,
+      "image": "../assets/sponsors/varcamp-arrival-nw.png",
+      "imagewidth": 192,
+      "imageheight": 64,
+      "properties": [
+        {
+          "name": "sponsorPanel",
+          "type": "bool",
+          "value": true
+        },
+        {
+          "name": "tilesetCopyright",
+          "type": "string",
+          "value": "Sponsor artwork: see credits/sponsors.json for original attribution and replacement terms."
+        }
+      ]
+    },
+    {
+      "firstgid": 16849,
+      "name": "Arrival / VarCamp NE",
+      "tilewidth": 32,
+      "tileheight": 32,
+      "columns": 6,
+      "tilecount": 12,
+      "image": "../assets/sponsors/varcamp-arrival-ne.png",
+      "imagewidth": 192,
+      "imageheight": 64,
+      "properties": [
+        {
+          "name": "sponsorPanel",
+          "type": "bool",
+          "value": true
+        },
+        {
+          "name": "tilesetCopyright",
+          "type": "string",
+          "value": "Sponsor artwork: see credits/sponsors.json for original attribution and replacement terms."
+        }
+      ]
+    },
+    {
+      "firstgid": 16861,
+      "name": "Arrival / VarCamp SW",
+      "tilewidth": 32,
+      "tileheight": 32,
+      "columns": 6,
+      "tilecount": 12,
+      "image": "../assets/sponsors/varcamp-arrival-sw.png",
+      "imagewidth": 192,
+      "imageheight": 64,
+      "properties": [
+        {
+          "name": "sponsorPanel",
+          "type": "bool",
+          "value": true
+        },
+        {
+          "name": "tilesetCopyright",
+          "type": "string",
+          "value": "Sponsor artwork: see credits/sponsors.json for original attribution and replacement terms."
+        }
+      ]
+    },
+    {
+      "firstgid": 16873,
+      "name": "Arrival / VarCamp SE",
+      "tilewidth": 32,
+      "tileheight": 32,
+      "columns": 6,
+      "tilecount": 12,
+      "image": "../assets/sponsors/varcamp-arrival-se.png",
+      "imagewidth": 192,
+      "imageheight": 64,
+      "properties": [
+        {
+          "name": "sponsorPanel",
+          "type": "bool",
+          "value": true
+        },
+        {
+          "name": "tilesetCopyright",
+          "type": "string",
+          "value": "Sponsor artwork: see credits/sponsors.json for original attribution and replacement terms."
+        }
+      ]
+    },
+    {
+      "firstgid": 16885,
+      "name": "Expo / Vibe Code Tours",
+      "tilewidth": 32,
+      "tileheight": 32,
+      "columns": 4,
+      "tilecount": 8,
+      "image": "../assets/sponsors/vibecode-tours.png",
+      "imagewidth": 128,
+      "imageheight": 64,
+      "properties": [
+        {
+          "name": "sponsorPanel",
+          "type": "bool",
+          "value": true
+        },
+        {
+          "name": "tilesetCopyright",
+          "type": "string",
+          "value": "Sponsor artwork: see credits/sponsors.json for original attribution and replacement terms."
+        }
+      ]
+    }
+  ]
+}

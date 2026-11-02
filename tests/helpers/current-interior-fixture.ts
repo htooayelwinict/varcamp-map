@@ -19,8 +19,9 @@ export function stageCurrentInteriorInputs(project:string,target:string):void{
  * Source files are copied; preview writes stay in the private fixture. */
 export function stageCurrentWorldInputs(project:string,target:string):void{
  for(const directory of ['maps','world','assets','art','tools','src'])cpSync(resolve(project,directory),resolve(target,directory),{recursive:true,filter:p=>!p.includes('/maps/preview')&&!p.includes('/art/source/wokas')});
- for(const version of ['v1','v2'])cpSync(resolve(project,`public/wokas/varcamp-zodiac-${version}`),resolve(target,`public/wokas/varcamp-zodiac-${version}`),{recursive:true});
+ for(const version of ['v1','v2','v3'])cpSync(resolve(project,`public/wokas/varcamp-zodiac-${version}`),resolve(target,`public/wokas/varcamp-zodiac-${version}`),{recursive:true});
  mkdirSync(resolve(target,'art/source/wokas-readable-v2'),{recursive:true});cpSync(resolve(project,'art/source/wokas-readable-v2/native-design.json'),resolve(target,'art/source/wokas-readable-v2/native-design.json'));
+ mkdirSync(resolve(target,'art/source/wokas-pixel-v3'),{recursive:true});cpSync(resolve(project,'art/source/wokas-pixel-v3/native-design.json'),resolve(target,'art/source/wokas-pixel-v3/native-design.json'));
 }
 /** Complete pure-art producer inputs; no generated artifact is written here. */
 export function stageCurrentArtInputs(project:string,target:string):void{

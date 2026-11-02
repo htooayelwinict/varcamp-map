@@ -40,9 +40,9 @@ The world contains **34 connected maps**, authored on a **32 × 32 pixel tile gr
 | Exploration | Four elemental districts, Star Garden, Moon Café, Moon Grotto, Stargazer Terrace and a hidden observatory. |
 | Ambient motion | Fountain water, aerial patrol drones, a hovering Roadster and environmental animations. Vehicles are scenery; attendees cannot drive or ride them. |
 
-The plaza's north row contains **Demo Orbit, Demo Nova, Demo Atlas, Demo Vector, Demo Lumen and the Info Desk**. Its south row contains **AWS UG Myanmar, BSides Myanmar, OpenInfra MM, Code Circle, Design Guild and Vibe Code Tours**. Booth spacing provides room for visitors; the booths do not use separate meeting zones to isolate conversations.
+The plaza's left side is **Community Corner**, with **BSides Myanmar and Vibe Code Tours** next to each other. The right side is **Sponsor Expo**, with the **VarCamp Info Desk** retained. Other booths are unbranded while confirmed sponsor artwork is pending. The booths do not use separate meeting zones to isolate conversations.
 
-Demo company marks and some community-hub names are placeholders. Organizer-provided community and partner logos have separate source records in [the branding registry](art/sponsors.json).
+The twelve zodiac rooms have stage-facing audience chairs and clear aisles. Solar and Lunar retain their larger chair rows. Room walls retain VarCamp, BSides Myanmar and Vibe Code Tours; retired demo and unapproved partner marks are no longer displayed. See the [event presentation handoff](docs/operating/event-presentation.md) and [branding registry](art/sponsors.json).
 
 ## Visitor guide
 
@@ -56,7 +56,7 @@ Demo company marks and some community-hub names are placeholders. Organizer-prov
 
 Physical doors and exits remain available if the optional quest interface fails to initialize. Arcade cabinets and playground props are social scenery; this repository does not provide an external arcade game service.
 
-For event attendance, find the computer counter labelled **REGISTER / CHECK IN** beside the main VarCamp logo, to the right of arrival. Click **CHECK IN**, or approach the desk and activate its prompt. The [official ticket check-in page](https://register.var.camp/2026/attendee/check-in) opens in a new tab; follow its instructions to scan your ticket QR code or upload the ticket image. The registration service controls opening times and attendance records. [Counter maintenance guide](docs/operating/check-in-counter.md).
+For event attendance, find the small computer desk with the **CHECK IN** floor label beside the main VarCamp logo, to the right of arrival. Click the computer, or approach the desk and activate its prompt. The [official ticket check-in page](https://register.var.camp/2026/attendee/check-in) opens in a new tab; follow its instructions to scan your ticket QR code or upload the ticket image. The registration service controls opening times and attendance records. [Counter maintenance guide](docs/operating/check-in-counter.md).
 
 ### Find the main destinations
 

@@ -10,6 +10,8 @@ import {LEO_LION_IMAGE} from './leo-lion-head-definition';
 import {HALL_BUILDING_ATLASES} from './hall-buildings-definition';
 import {cafeArrivalProtectedLayers,cafeArrivalAtlases} from './cafe-arrival-context';
 import {mazeGateProtectedLayers,mazeGateAtlases} from './maze-gate-context';
+import {eventCounterAtlases,eventAtlasContextSource} from './event-native-context';
+import {EVENT_CAPTION_IMAGE} from '../art/event-captions';
 
 interface ContextRow{
  atlases:TiledTileset[];
@@ -178,7 +180,7 @@ function expoAtlases(source:TiledMap,row:ContextRow,start:number):TiledTileset[]
    need(/^art-\d+$/.test(set.name??'')&&set.columns===EXPO_STICKER_ATLAS.columns&&set.tilecount===EXPO_STICKER_ATLAS.tilecount&&set.imagewidth===EXPO_STICKER_ATLAS.imagewidth&&set.imageheight===EXPO_STICKER_ATLAS.imageheight&&!set.tiles,'expo sticker sheet identity/geometry changed');
    result.push({...structuredClone(set),firstgid:next,name:EXPO_STICKER_ATLAS.name});
   }else{
-   need(set.image===(source.tilesets.some(t=>t.image==='../'+VIBECODE_IMAGE)?'../'+VIBECODE_CAPTION_IMAGE:EXPO_CAPTION_ATLAS.image)&&set.columns===EXPO_CAPTION_ATLAS.columns&&set.imagewidth===EXPO_CAPTION_ATLAS.imagewidth&&Number.isSafeInteger(set.imageheight)&&set.imageheight!>0&&set.imageheight!%32===0&&set.imageheight!<=EXPO_CAPTION_ATLAS.maxImageHeight&&set.tilecount===set.imageheight!/32*16&&!set.tiles&&set.properties?.some(p=>p.name==='captionAtlasSha256'&&/^[0-9a-f]{64}$/.test(String(p.value)))===true,'expo caption atlas identity/geometry leaves its registered reservation');
+   need([source.tilesets.some(t=>t.image==='../'+VIBECODE_IMAGE)?'../'+VIBECODE_CAPTION_IMAGE:EXPO_CAPTION_ATLAS.image,'../'+EVENT_CAPTION_IMAGE].includes(set.image!)&&set.columns===EXPO_CAPTION_ATLAS.columns&&set.imagewidth===EXPO_CAPTION_ATLAS.imagewidth&&Number.isSafeInteger(set.imageheight)&&set.imageheight!>0&&set.imageheight!%32===0&&set.imageheight!<=EXPO_CAPTION_ATLAS.maxImageHeight&&set.tilecount===set.imageheight!/32*16&&!set.tiles&&set.properties?.some(p=>p.name==='captionAtlasSha256'&&/^[0-9a-f]{64}$/.test(String(p.value)))===true,'expo caption atlas identity/geometry leaves its registered reservation');
    result.push({...structuredClone(set),firstgid:next});
   }
   next+=set.tilecount!;
@@ -216,6 +218,7 @@ function protectedContext(actual:TiledMap,row:ContextRow,author=false):void{
 interface Epoch{expo:boolean;brand:boolean;roadsterV2:boolean}
 const CURRENT:Epoch={expo:true,brand:true,roadsterV2:true},PRE_ROADSTER_V2:Epoch={expo:true,brand:true,roadsterV2:false},PRE_BRAND:Epoch={expo:true,brand:false,roadsterV2:false},PRE_EXPO:Epoch={expo:false,brand:false,roadsterV2:false};
 function currentAtlases(row:ContextRow,source:TiledMap,epoch:Epoch=CURRENT,includeCove=true,includeZodiac=true,includeHall=true,includeArrival=true,includePatrol=true,includeFountain=true,includeLeo=true,includeBuildings=true):TiledTileset[]{
+ source=eventAtlasContextSource(source);
  const retired=new Set(row.retired.map(t=>t.firstgid));
  const expected=structuredClone(row.atlases.filter(t=>!retired.has(t.firstgid)));
  let next=row.nextAtlasGid;
@@ -274,6 +277,7 @@ function currentAtlases(row:ContextRow,source:TiledMap,epoch:Epoch=CURRENT,inclu
  }else{need(fleet.length===0,'plaza fleet source atlas requires overworld identity');need(!source.tilesets.some(set=>expoMember(set,row,false)),'expo source atlas requires overworld identity');need(!source.tilesets.some(brandMember),'brand asset source atlas requires overworld identity');need(!source.tilesets.some(isRoadsterV2),'roadster-v2 source atlas requires overworld identity');}
  const cove=tropicalCoveAtlas(source,next);if(cove&&includeCove)expected.push(cove);
  expected.push(...cafeArrivalAtlases(identities(source)[0]),...mazeGateAtlases(identities(source)[0]));
+ expected.push(...eventCounterAtlases(source,Math.max(...expected.map(t=>t.firstgid+t.tilecount!))));
  return expected;
 }
 /** Mandatory final current context: complete atlas roster/order/bodies/ranges,
@@ -294,6 +298,9 @@ export function assertNativeAuthoringContext(actual:TiledMap,source:TiledMap):vo
  const expected=currentAtlases(row,source);
  if(isDeepStrictEqual(actual.tilesets,row.atlases))return;
  if(isDeepStrictEqual(actual.tilesets,expected))return;
+ // Exact predecessor to the two native check-in furniture sheets.
+ const counterCount=eventCounterAtlases(source,0).length;
+ if(counterCount===3&&isDeepStrictEqual(actual.tilesets,expected.slice(0,-counterCount)))return;
  // Exact preceding maze/Court context, before its reviewed entry atlases.
  const mazeCount=mazeGateAtlases(identities(source)[0]).length;
  if(mazeCount&&isDeepStrictEqual(actual.tilesets,expected.slice(0,-mazeCount)))return;

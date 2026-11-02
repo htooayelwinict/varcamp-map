@@ -5,6 +5,7 @@ import {describe,it,expect,vi} from 'vitest';
 import {registerCheckInCounter,CHECK_IN_MESSAGE,type CheckInApi} from '../src/check-in/counter';
 import counter from '../world/check-in-counter.json';
 import {applyCheckInCounter,restoreCheckInCounter} from '../tools/maps/check-in-definition';
+import {applyEventPresentation,restoreEventPresentation} from '../tools/maps/event-presentation';
 import {buildMap} from '../tools/maps/builder';
 import {loadTileCatalog} from '../tools/art/catalog';
 import {assertCurrentNativeMap} from '../tools/maps/current-native';
@@ -27,7 +28,7 @@ function fixture(map='overworld'){
 describe('Check-in counter',()=>{
  it('creates a clickable local sign only in the plaza and never opens the registration site automatically',async()=>{
   const f=fixture(),dispose=registerCheckInCounter(f.api);f.initial(at);await tick();
-  expect(f.create).toHaveBeenCalledOnce();expect(f.create.mock.calls[0][0]).toMatchObject({allowApi:false,allow:'',origin:'map',position:{x:2240,y:1952,width:160,height:32}});
+  expect(f.create).toHaveBeenCalledOnce();expect(f.create.mock.calls[0][0]).toMatchObject({allowApi:false,allow:'',origin:'map',position:{x:2272,y:1920,width:96,height:64}});
   expect(f.create.mock.calls[0][0].url).not.toContain('register.var.camp');expect(f.actions[0].message).toBe(CHECK_IN_MESSAGE);expect(f.openTab).not.toHaveBeenCalled();dispose();
   const elsewhere=fixture('orbit-maze');registerCheckInCounter(elsewhere.api)();expect(elsewhere.create).not.toHaveBeenCalled();expect(elsewhere.openTab).not.toHaveBeenCalled();
  });
@@ -50,19 +51,21 @@ describe('Check-in counter',()=>{
  });
  it('keeps the click link accessible, isolated from its opener and free from camera permissions',()=>{
   const html=readFileSync('src/check-in/index.html','utf8');
-  expect(html).toContain('target="_blank"');expect(html).toContain('rel="noopener noreferrer"');expect(html).toContain('aria-label="Check In');expect(html).toContain('REGISTER');expect(html).not.toContain('iframe_api');
+  expect(html).toContain('target="_blank"');expect(html).toContain('rel="noopener noreferrer"');expect(html).toContain('aria-label="Check In');expect(html).toContain('background: transparent');expect(html).not.toContain('iframe_api');
  });
  it('adds only the reviewed desk and monitor while keeping controls and saved WAM exact',()=>{
   const layout=read('world/layouts/overworld.json') as MapLayout;
-  expect(restoreCheckInCounter(layout)).toEqual(before['world/layouts/overworld.json']);
-  expect(applyCheckInCounter(restoreCheckInCounter(layout))).toEqual(layout);
+  const prior=restoreEventPresentation(layout);
+  expect(restoreCheckInCounter(prior)).toEqual(before['world/layouts/overworld.json']);
+  expect(applyEventPresentation(applyCheckInCounter(restoreCheckInCounter(prior)))).toEqual(layout);
   expect(read('maps/overworld.wam')).toEqual(before['maps/overworld.wam']);
  });
  it('blocks exactly three desk-front tiles, reuses all native art and leaves the approach and guide paths clear',()=>{
   const layout=read('world/layouts/overworld.json') as MapLayout,map=read('maps/overworld.tmj') as TiledMap,old=before['maps/overworld.tmj'] as TiledMap,catalog=loadTileCatalog();
   const mask=(m:TiledMap)=>{const l=m.layers.find(l=>l.name==='physical-collisions');if(l?.type!=='tilelayer')throw Error('No mask');return l.data.map(Boolean);};
   const a=mask(old),b=mask(map);expect(b.flatMap((v,i)=>v!==a[i]?[i]:[])).toEqual([61*128+71,61*128+72,61*128+73]);
-  expect(mask(buildMap(layout,catalog).tmj)).toEqual(b);expect(map.tilesets).toEqual(old.tilesets);
+  expect(mask(buildMap(layout,catalog).tmj)).toEqual(b);
+  for(const t of old.tilesets.filter(t=>t.name!=='standing-captions'))expect(map.tilesets.find(s=>s.name===t.name)).toEqual(t);
   for(let y=62;y<=64;y++)for(let x=71;x<79;x++)expect(b[y*128+x]).toBe(false);
   for(const [x,y]of read('src/bots/lyra-routes.json').allowedCells)expect(b[y*128+x]).toBe(false);
   expect(()=>assertCurrentNativeMap('overworld',map,layout,read('maps/overworld.wam'),catalog)).not.toThrow();

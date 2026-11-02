@@ -1,0 +1,28 @@
+{
+  "version": 1,
+  "producerSha256": "33b389321cf4059f4bb4f5aaaaa407fde0c445f180fe385b133f5b1cd5922ef8",
+  "pngSha256": "6f8bb2773955da43d9c943698708af0bf24d9d158345391b965869a6b62cb9f2",
+  "labels": [
+    {
+      "text": "COMMUNITY CORNER",
+      "width": 12,
+      "y": 16,
+      "fontSize": 21,
+      "color": "#a7c2ce"
+    },
+    {
+      "text": "SPONSOR EXPO",
+      "width": 12,
+      "y": 80,
+      "fontSize": 21,
+      "color": "#d7b77a"
+    },
+    {
+      "text": "CHECK IN",
+      "width": 3,
+      "y": 128,
+      "fontSize": 14,
+      "color": "#e1ba7a"
+    }
+  ]
+}

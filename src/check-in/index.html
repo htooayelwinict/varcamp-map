@@ -5,17 +5,16 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>VarCamp Check-In Counter</title>
   <style>
+    /* Match WorkAdventure's dark canvas so Chromium keeps the iframe transparent. */
+    :root { color-scheme: dark; }
     * { box-sizing: border-box; }
     html, body { margin: 0; width: 100%; height: 100%; background: transparent; }
-    a { display: flex; align-items: center; justify-content: space-between; gap: 5px; width: 100%; height: 100%; padding: 3px 5px; border: 2px solid #efae60; background: #152332; color: #fff0d0; font: bold 10px/1.2 monospace; text-decoration: none; }
-    strong { padding: 5px 6px; background: #ff650b; color: #111c28; font-size: 10px; white-space: nowrap; }
-    a:hover strong, a:focus-visible strong { background: #ffe6a7; }
-    a:focus-visible { outline: 2px solid #fff; outline-offset: -4px; }
+    a { display: block; width: 100%; height: 100%; background: transparent; cursor: pointer; }
+    a:focus-visible { outline: 1px solid #e1ba7a; outline-offset: -2px; }
   </style>
 </head>
 <body>
   <a id="check-in-link" target="_blank" rel="noopener noreferrer" aria-label="Check In for VarCamp Myanmar 2026 (opens a new tab)" title="Open ticket check-in · လက်မှတ်ဖြင့် ပွဲတက်ရောက်မှု မှတ်တမ်းတင်ရန်">
-    <span>REGISTER</span><strong>CHECK IN ↗</strong>
   </a>
   <script type="module" src="./sign.ts"></script>
 </body>

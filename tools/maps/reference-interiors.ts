@@ -1,4 +1,5 @@
 import {restoreVibeCodeBranding} from './vibecode-branding';
+import {restoreEventPresentation} from './event-presentation';
 import{isDeepStrictEqual}from'node:util';
 import{SIGN_IDS}from'../../src/world/catalog';
 import contractData from'../../world/interior-reference-contract.json';
@@ -26,12 +27,13 @@ export function assertNativeReferenceInterior(map:TiledMap,layout:MapLayout,cata
  if(!IDS.includes(layout.id))return;
  need(contract.version===1&&isDeepStrictEqual(Object.keys(contract.maps).sort(),IDS.slice().sort()),'contract must cover exactly the known fourteen rooms');
  const row=contract.maps[layout.id],functional=ariesPresentationFunctional(layout.id,row.functional);
- const beforeBrand=restoreVibeCodeBranding(layout);
+ const beforeEvent=restoreEventPresentation(layout);
+ const beforeBrand=restoreVibeCodeBranding(beforeEvent);
  assertAriesPresentation(beforeBrand,catalog);
  for(const[key,value]of Object.entries(functional))need(isDeepStrictEqual(layout[key as keyof MapLayout],value),`${layout.id}: protected functional ${key} changed`);
  for(const[key,value]of Object.entries(contract.catalog))need(isDeepStrictEqual(catalog[key],value),`${layout.id}: required catalog/depth contract changed: ${key}`);
  for(const expected of [...row.requiredPlacements,...row.requiredSeats]){
-  const found=layout.placements.filter(p=>p.id===expected.id);need(found.length===1&&Object.entries(expected).every(([key,value])=>isDeepStrictEqual(found[0][key as keyof typeof found[0]],value)),`${layout.id}: required furnishing/crest/seat ${expected.id} missing or changed`);
+  const found=beforeEvent.placements.filter(p=>p.id===expected.id);need(found.length===1&&Object.entries(expected).every(([key,value])=>isDeepStrictEqual(found[0][key as keyof typeof found[0]],value)),`${layout.id}: required furnishing/crest/seat ${expected.id} missing or changed`);
  }
  assertHallPresentation(beforeBrand,catalog);
  const titles=layout.signs?.filter(s=>s.name==='scene-title')??[];need(titles.length===1&&titles[0].text===row.title,`${layout.id}: bold English title source changed`);

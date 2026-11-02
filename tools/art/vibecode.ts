@@ -7,6 +7,8 @@ import sharp from 'sharp';
 import data from '../../world/vibecode-branding.json';
 import {renderCaptionMaster,type CaptionSpec,type CaptionRow} from './standing-captions';
 import type {MapLayout,LayoutSign} from '../maps/types';
+import {isEventPresentation,restoreEventPresentation} from '../maps/event-presentation';
+import {eventCaptionResource,checkEventCaptions} from './event-captions';
 export const VIBECODE_IMAGE=data.image;
 export const VIBECODE_CAPTION_IMAGE='assets/tilesets/original/vibecode-expo-captions.png';
 const original='art/source/sponsors/vibecode-tours-original.svg',panel='art/source/sponsors/vibecode-tours.svg',metaPath='art/source/vibecode-branding.json';
@@ -15,12 +17,14 @@ const need=(ok:unknown,message:string)=>{if(!ok)throw Error('Vibe Code art: '+me
 function branded(l:MapLayout){return l.id==='overworld'&&(l.images?.some(i=>i.image===VIBECODE_IMAGE)||l.signs?.some(s=>s.name===data.maps.overworld.afterSign.name&&s.text===data.maps.overworld.afterSign.text));}
 /** Read the unchanged historical caption reservation before replacing its single approved label. */
 export function beforeVibeCodeCaption(l:MapLayout):MapLayout{
+ if(l.id==='overworld'&&isEventPresentation(l))l=restoreEventPresentation(l);
  if(!branded(l))return l;
  const r=data.maps.overworld,next=structuredClone(l),i=next.signs!.findIndex(s=>s.name===r.afterSign.name);
  need(isDeepStrictEqual(next.signs![i],r.afterSign),'caption semantic source changed');next.signs![i]=structuredClone(r.beforeSign) as LayoutSign;return next;
 }
 type Resource={rows:CaptionRow[];width:number;height:number;image:string;pngSha256:string};
 export function vibeCodeCaptionResource(l:MapLayout,r:Resource):Resource{
+ if(l.id==='overworld'&&isEventPresentation(l))return eventCaptionResource(l);
  if(!branded(l))return r;
  const meta=JSON.parse(readFileSync(metaPath,'utf8')),png=readFileSync(VIBECODE_CAPTION_IMAGE);
  need(meta.captionSha256===sha(png)&&png.readUInt32BE(16)===r.width&&png.readUInt32BE(20)===r.height,'caption artwork changed');
@@ -39,6 +43,7 @@ export async function renderVibeCodeArt(){
  return{svg,png:await sharp(Buffer.from(svg)).png().toBuffer(),captionSvg:captions.svg,caption:await sharp(Buffer.from(captions.svg)).png().toBuffer()};
 }
 export async function checkVibeCodeArt():Promise<void>{
+ await checkEventCaptions();
  const r=await renderVibeCodeArt(),meta=JSON.parse(readFileSync(metaPath,'utf8'));
  need(readFileSync(panel,'utf8')===r.svg&&readFileSync(VIBECODE_IMAGE).equals(r.png),'logo differs from supplied SVG composition');
  need(readFileSync('art/source/vibecode-expo-captions.svg','utf8')===r.captionSvg&&readFileSync(VIBECODE_CAPTION_IMAGE).equals(r.caption),'single booth caption differs from pixel glyph producer');

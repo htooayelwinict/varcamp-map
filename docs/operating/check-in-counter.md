@@ -1,20 +1,20 @@
 # Check-in counter
 
-The computer desk stands to the right of the main arrival logo in the overworld. Its **REGISTER / CHECK IN** sign is clickable. Walking into the clear approach also offers a Check In action. Both open the official [2026 attendee check-in page](https://register.var.camp/2026/attendee/check-in) in a new tab, leaving WorkAdventure open.
+The small native computer desk stands to the right of the main arrival logo in the overworld. Click the computer above its **CHECK IN** floor label, or walk into the clear approach and use the Check In action. Both open the official [2026 attendee check-in page](https://register.var.camp/2026/attendee/check-in) in a new tab, leaving WorkAdventure open.
 
-On 2 November 2026 the registration page returned `X-Frame-Options: SAMEORIGIN`, so the map does not iframe that external page. WorkAdventure documents [opening a new tab](https://docs.workadventu.re/developer/map-scripting/references/api-nav/) for this integration. The small sign itself is a local embedded webpage with scripting API access and media permissions disabled. Ticket scanning, uploads, opening times, validation and attendance records belong to the registration service; the map neither stores tickets nor marks attendance itself.
+On 2 November 2026 the registration page returned `X-Frame-Options: SAMEORIGIN`, so the map does not iframe that external page. WorkAdventure documents [opening a new tab](https://docs.workadventu.re/developer/map-scripting/references/api-nav/) for this integration. A transparent local link over the computer provides click access with scripting API access and media permissions disabled. Ticket scanning, uploads, opening times, validation and attendance records belong to the registration service; the map neither stores tickets nor marks attendance itself.
 
 ## Future event updates
 
-- Change the official URL and reviewed geometry in [world/check-in-counter.json](../../world/check-in-counter.json). The runtime sign and action use that same URL.
-- [The native author](../../tools/maps/check-in-counter.ts) and [bounded transaction](../../tools/maps/check-in-definition.ts) own the pad, glass desk and monitor. Keep them on the 32 px grid, clear of the logo, arrival spawn, guide route and booth entrances. Geometry changes require updating the explicit collision allowance and tests.
+- Change the official URL in [world/check-in-counter.json](../../world/check-in-counter.json). The clickable computer and action use that same URL.
+- The current native desk geometry and click rectangle are in [check-in-counter-style.json](../../world/check-in-counter-style.json), applied through the [event presentation revision](event-presentation.md). The first counter recipe remains as historical data. Keep current furniture on the 32 px grid, clear of the logo, arrival spawn, guide route and booth entrances. Geometry changes require updating the explicit collision allowance and tests.
 - The [runtime interaction](../../src/check-in/counter.ts) creates the clickable [sign](../../src/check-in/index.html) only in the overworld. It offers an action on approach, removes it on exit and cleans up on scene unload. It never opens a tab automatically.
 - Recheck the registration site's frame policy before changing the opening mode. Do not remove security headers or proxy ticket data merely to force embedding.
 - Run the counter and runtime tests, map validation, source qualification and build. Verify the real clickable sign and keyboard action in WorkAdventure, the opened URL, return to the map, desk collision and clear walkway. Test without submitting an attendee's ticket.
 - Regenerate public guide geometry/module receipts after physical map changes; this does not authorize starting the guide services or changing their private release pins.
 
 ```sh
-node tools/run-tool.mjs tools/maps/check-in-counter.ts
+node tools/run-tool.mjs tools/maps/author-event-presentation.ts
 npm run maps:build
 npm run maps:validate
 npm test -- tests/check-in-counter.test.ts tests/runtime-contract.test.ts --maxWorkers=1 --testTimeout=30000

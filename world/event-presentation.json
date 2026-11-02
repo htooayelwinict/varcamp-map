@@ -1,0 +1,6298 @@
+{
+  "version": 1,
+  "baselineCommit": "3d97bda746c885a52c0993ee4053643203b27ba7",
+  "maps": {
+    "overworld": {
+      "beforeLayoutSha256": "a727b608a2e222353eabf6620789f98ed02d4a150890f5ab528df8918e7ee0dc",
+      "afterLayoutSha256": "ab627a39dd0828cccebc7a75f73eafe64fb3a78d1f17e74efde6634265071dc8",
+      "changes": {
+        "placements": {
+          "removed": [
+            {
+              "index": 6215,
+              "value": {
+                "id": "check-in-counter-pad",
+                "sprite": "floor-charcoal",
+                "x": 70,
+                "y": 58,
+                "width": 5,
+                "height": 5,
+                "layer": "terrain"
+              }
+            },
+            {
+              "index": 6216,
+              "value": {
+                "id": "check-in-counter-desk",
+                "sprite": "desk-glass",
+                "x": 71,
+                "y": 59,
+                "width": 3,
+                "height": 3,
+                "layer": "props"
+              }
+            },
+            {
+              "index": 6217,
+              "value": {
+                "id": "check-in-counter-monitor",
+                "sprite": "screen-wide",
+                "x": 71,
+                "y": 58,
+                "width": 3,
+                "height": 2,
+                "layer": "props"
+              }
+            },
+            {
+              "index": 6218,
+              "value": {
+                "id": "check-in-counter-display",
+                "sprite": "screen-content",
+                "x": 71,
+                "y": 58,
+                "width": 3,
+                "height": 2,
+                "layer": "props"
+              }
+            }
+          ],
+          "added": [
+            {
+              "id": "check-in-counter-desk",
+              "sprite": "desk-coding",
+              "x": 71,
+              "y": 60,
+              "width": 3,
+              "height": 2,
+              "layer": "props"
+            },
+            {
+              "id": "check-in-counter-computer",
+              "sprite": "laptop",
+              "x": 72,
+              "y": 60,
+              "width": 1,
+              "height": 1,
+              "layer": "props"
+            },
+            {
+              "id": "community-corner-floor",
+              "sprite": "event-community-floor-label",
+              "x": 44,
+              "y": 76,
+              "width": 12,
+              "height": 2,
+              "layer": "props"
+            },
+            {
+              "id": "sponsor-expo-floor",
+              "sprite": "event-sponsor-floor-label",
+              "x": 72,
+              "y": 76,
+              "width": 12,
+              "height": 2,
+              "layer": "props"
+            },
+            {
+              "id": "check-in-floor-label",
+              "sprite": "event-check-in-floor-label",
+              "x": 71,
+              "y": 62,
+              "width": 3,
+              "height": 1,
+              "layer": "props"
+            }
+          ]
+        },
+        "images": {
+          "before": [
+            {
+              "name": "Sponsors / Demo 01",
+              "image": "assets/sponsors/demo-01.png",
+              "x": 47,
+              "y": 55,
+              "width": 6,
+              "height": 2,
+              "standing": false
+            },
+            {
+              "name": "Sponsors / Demo 02",
+              "image": "assets/sponsors/demo-02.png",
+              "x": 61,
+              "y": 54,
+              "width": 6,
+              "height": 2,
+              "standing": false
+            },
+            {
+              "name": "Sponsors / Demo 03",
+              "image": "assets/sponsors/demo-03.png",
+              "x": 75,
+              "y": 55,
+              "width": 6,
+              "height": 2,
+              "standing": false
+            },
+            {
+              "name": "Expo / Demo Orbit",
+              "image": "assets/sponsors/demo-01.png",
+              "x": 39,
+              "y": 67,
+              "width": 6,
+              "height": 2,
+              "standing": false
+            },
+            {
+              "name": "Expo / Demo Nova Compact",
+              "image": "assets/sponsors/demo-02-compact.png",
+              "x": 48,
+              "y": 67,
+              "width": 4,
+              "height": 2,
+              "standing": false
+            },
+            {
+              "name": "Expo / Demo Atlas",
+              "image": "assets/sponsors/demo-03.png",
+              "x": 55,
+              "y": 67,
+              "width": 6,
+              "height": 2,
+              "standing": false
+            },
+            {
+              "name": "Expo / Demo Vector",
+              "image": "assets/sponsors/demo-04.png",
+              "x": 68,
+              "y": 67,
+              "width": 4,
+              "height": 2,
+              "standing": false
+            },
+            {
+              "name": "Expo / Demo Lumen",
+              "image": "assets/sponsors/demo-05.png",
+              "x": 76,
+              "y": 67,
+              "width": 4,
+              "height": 2,
+              "standing": false
+            },
+            {
+              "name": "Expo / VarCamp",
+              "image": "assets/sponsors/varcamp-horizontal.png",
+              "x": 84,
+              "y": 67,
+              "width": 4,
+              "height": 2,
+              "standing": false
+            },
+            {
+              "name": "Expo / AWS User Group Myanmar",
+              "image": "assets/sponsors/partner-aws-ug-mm.png",
+              "x": 40,
+              "y": 85,
+              "width": 4,
+              "height": 2,
+              "standing": false
+            },
+            {
+              "name": "Expo / BSides Myanmar",
+              "image": "assets/sponsors/partner-bsides-mm.png",
+              "x": 48,
+              "y": 85,
+              "width": 4,
+              "height": 2,
+              "standing": false
+            },
+            {
+              "name": "Expo / OpenInfra User Group Myanmar",
+              "image": "assets/sponsors/partner-openinfra-mm.png",
+              "x": 56,
+              "y": 85,
+              "width": 4,
+              "height": 2,
+              "standing": false
+            },
+            {
+              "name": "Expo / Code Circle",
+              "image": "assets/sponsors/hub-01.png",
+              "x": 68,
+              "y": 85,
+              "width": 4,
+              "height": 2,
+              "standing": false
+            },
+            {
+              "name": "Expo / Design Guild",
+              "image": "assets/sponsors/hub-02.png",
+              "x": 76,
+              "y": 85,
+              "width": 4,
+              "height": 2,
+              "standing": false
+            },
+            {
+              "name": "Arrival / VarCamp NW",
+              "image": "assets/sponsors/varcamp-arrival-nw.png",
+              "x": 58,
+              "y": 60,
+              "width": 6,
+              "height": 2,
+              "standing": false
+            },
+            {
+              "name": "Arrival / VarCamp NE",
+              "image": "assets/sponsors/varcamp-arrival-ne.png",
+              "x": 64,
+              "y": 60,
+              "width": 6,
+              "height": 2,
+              "standing": false
+            },
+            {
+              "name": "Arrival / VarCamp SW",
+              "image": "assets/sponsors/varcamp-arrival-sw.png",
+              "x": 58,
+              "y": 62,
+              "width": 6,
+              "height": 2,
+              "standing": false
+            },
+            {
+              "name": "Arrival / VarCamp SE",
+              "image": "assets/sponsors/varcamp-arrival-se.png",
+              "x": 64,
+              "y": 62,
+              "width": 6,
+              "height": 2,
+              "standing": false
+            },
+            {
+              "name": "Expo / Vibe Code Tours",
+              "image": "assets/sponsors/vibecode-tours.png",
+              "x": 84,
+              "y": 85,
+              "width": 4,
+              "height": 2
+            }
+          ],
+          "after": [
+            {
+              "name": "Expo / VarCamp",
+              "image": "assets/sponsors/varcamp-horizontal.png",
+              "x": 84,
+              "y": 67,
+              "width": 4,
+              "height": 2,
+              "standing": false
+            },
+            {
+              "name": "Expo / BSides Myanmar",
+              "image": "assets/sponsors/partner-bsides-mm.png",
+              "x": 48,
+              "y": 85,
+              "width": 4,
+              "height": 2,
+              "standing": false
+            },
+            {
+              "name": "Arrival / VarCamp NW",
+              "image": "assets/sponsors/varcamp-arrival-nw.png",
+              "x": 58,
+              "y": 60,
+              "width": 6,
+              "height": 2,
+              "standing": false
+            },
+            {
+              "name": "Arrival / VarCamp NE",
+              "image": "assets/sponsors/varcamp-arrival-ne.png",
+              "x": 64,
+              "y": 60,
+              "width": 6,
+              "height": 2,
+              "standing": false
+            },
+            {
+              "name": "Arrival / VarCamp SW",
+              "image": "assets/sponsors/varcamp-arrival-sw.png",
+              "x": 58,
+              "y": 62,
+              "width": 6,
+              "height": 2,
+              "standing": false
+            },
+            {
+              "name": "Arrival / VarCamp SE",
+              "image": "assets/sponsors/varcamp-arrival-se.png",
+              "x": 64,
+              "y": 62,
+              "width": 6,
+              "height": 2,
+              "standing": false
+            },
+            {
+              "name": "Expo / Vibe Code Tours",
+              "image": "assets/sponsors/vibecode-tours.png",
+              "x": 56,
+              "y": 85,
+              "width": 4,
+              "height": 2
+            }
+          ]
+        },
+        "signs": {
+          "before": [
+            {
+              "name": "expo-n1-nameplate",
+              "text": "DEMO ORBIT",
+              "x": 40,
+              "y": 65,
+              "width": 4,
+              "height": 1,
+              "fontSize": 18,
+              "color": "#f1d9a0",
+              "align": "center",
+              "padding": 1
+            },
+            {
+              "name": "expo-n2-nameplate",
+              "text": "DEMO NOVA",
+              "x": 48,
+              "y": 65,
+              "width": 4,
+              "height": 1,
+              "fontSize": 18,
+              "color": "#f1d9a0",
+              "align": "center",
+              "padding": 1
+            },
+            {
+              "name": "expo-n3-nameplate",
+              "text": "DEMO ATLAS",
+              "x": 56,
+              "y": 65,
+              "width": 4,
+              "height": 1,
+              "fontSize": 18,
+              "color": "#f1d9a0",
+              "align": "center",
+              "padding": 1
+            },
+            {
+              "name": "expo-n4-nameplate",
+              "text": "DEMO VECTOR",
+              "x": 68,
+              "y": 65,
+              "width": 4,
+              "height": 1,
+              "fontSize": 18,
+              "color": "#f1d9a0",
+              "align": "center",
+              "padding": 1
+            },
+            {
+              "name": "expo-n5-nameplate",
+              "text": "DEMO LUMEN",
+              "x": 76,
+              "y": 65,
+              "width": 4,
+              "height": 1,
+              "fontSize": 18,
+              "color": "#f1d9a0",
+              "align": "center",
+              "padding": 1
+            },
+            {
+              "name": "expo-n6-nameplate",
+              "text": "INFO DESK",
+              "x": 84,
+              "y": 65,
+              "width": 4,
+              "height": 1,
+              "fontSize": 18,
+              "color": "#f1d9a0",
+              "align": "center",
+              "padding": 1
+            },
+            {
+              "name": "expo-s1-nameplate",
+              "text": "AWS UG MYANMAR",
+              "x": 39,
+              "y": 87,
+              "width": 6,
+              "height": 1,
+              "fontSize": 18,
+              "color": "#f1d9a0",
+              "align": "center",
+              "padding": 1
+            },
+            {
+              "name": "expo-s2-nameplate",
+              "text": "BSIDES MYANMAR",
+              "x": 47,
+              "y": 87,
+              "width": 6,
+              "height": 1,
+              "fontSize": 18,
+              "color": "#f1d9a0",
+              "align": "center",
+              "padding": 1
+            },
+            {
+              "name": "expo-s3-nameplate",
+              "text": "OPENINFRA MM",
+              "x": 56,
+              "y": 87,
+              "width": 4,
+              "height": 1,
+              "fontSize": 18,
+              "color": "#f1d9a0",
+              "align": "center",
+              "padding": 1
+            },
+            {
+              "name": "expo-s4-nameplate",
+              "text": "CODE CIRCLE",
+              "x": 68,
+              "y": 87,
+              "width": 4,
+              "height": 1,
+              "fontSize": 18,
+              "color": "#f1d9a0",
+              "align": "center",
+              "padding": 1
+            },
+            {
+              "name": "expo-s5-nameplate",
+              "text": "DESIGN GUILD",
+              "x": 76,
+              "y": 87,
+              "width": 4,
+              "height": 1,
+              "fontSize": 18,
+              "color": "#f1d9a0",
+              "align": "center",
+              "padding": 1
+            },
+            {
+              "name": "expo-s6-nameplate",
+              "text": "VIBE CODE TOURS",
+              "x": 83,
+              "y": 87,
+              "width": 6,
+              "height": 1,
+              "fontSize": 18,
+              "color": "#f1d9a0",
+              "align": "center",
+              "padding": 1
+            }
+          ],
+          "after": [
+            {
+              "name": "expo-n6-nameplate",
+              "text": "INFO DESK",
+              "x": 84,
+              "y": 65,
+              "width": 4,
+              "height": 1,
+              "fontSize": 18,
+              "color": "#f1d9a0",
+              "align": "center",
+              "padding": 1
+            },
+            {
+              "name": "expo-s2-nameplate",
+              "text": "BSIDES MYANMAR",
+              "x": 47,
+              "y": 87,
+              "width": 6,
+              "height": 1,
+              "fontSize": 18,
+              "color": "#f1d9a0",
+              "align": "center",
+              "padding": 1
+            },
+            {
+              "name": "expo-s3-nameplate",
+              "text": "VIBE CODE TOURS",
+              "x": 56,
+              "y": 87,
+              "width": 4,
+              "height": 1,
+              "fontSize": 12,
+              "color": "#f1d9a0",
+              "align": "center",
+              "padding": 1
+            }
+          ]
+        },
+        "standingSigns": {
+          "before": [
+            {
+              "face": "exterior-road-sign-west",
+              "supports": [
+                "exterior-road-post-west"
+              ]
+            },
+            {
+              "face": "exterior-road-sign-east",
+              "supports": [
+                "exterior-road-post-east"
+              ]
+            },
+            {
+              "face": "gate-plaza-return-maze",
+              "supports": [
+                "gate-plaza-return-maze-support-0"
+              ]
+            },
+            {
+              "face": "gate-plaza-return-festival",
+              "supports": [
+                "gate-plaza-return-festival-support-0"
+              ]
+            },
+            {
+              "face": "gate-plaza-return-shipyard",
+              "supports": [
+                "gate-plaza-return-shipyard-support-0"
+              ]
+            },
+            {
+              "face": "gate-plaza-return-campus",
+              "supports": [
+                "gate-plaza-return-campus-support-0"
+              ]
+            },
+            {
+              "face": "expo-n1-nameplate-fascia",
+              "supports": [
+                "expo-n1-nameplate-fascia-post-0",
+                "expo-n1-nameplate-fascia-post-1",
+                "expo-n1-nameplate-fascia-post-2",
+                "expo-n1-nameplate-fascia-post-3"
+              ],
+              "text": "expo-n1-nameplate"
+            },
+            {
+              "face": "expo-n2-nameplate-fascia",
+              "supports": [
+                "expo-n2-nameplate-fascia-post-0",
+                "expo-n2-nameplate-fascia-post-1",
+                "expo-n2-nameplate-fascia-post-2",
+                "expo-n2-nameplate-fascia-post-3"
+              ],
+              "text": "expo-n2-nameplate"
+            },
+            {
+              "face": "expo-n3-nameplate-fascia",
+              "supports": [
+                "expo-n3-nameplate-fascia-post-0",
+                "expo-n3-nameplate-fascia-post-1",
+                "expo-n3-nameplate-fascia-post-2",
+                "expo-n3-nameplate-fascia-post-3"
+              ],
+              "text": "expo-n3-nameplate"
+            },
+            {
+              "face": "expo-n4-nameplate-fascia",
+              "supports": [
+                "expo-n4-nameplate-fascia-post-0",
+                "expo-n4-nameplate-fascia-post-1",
+                "expo-n4-nameplate-fascia-post-2",
+                "expo-n4-nameplate-fascia-post-3"
+              ],
+              "text": "expo-n4-nameplate"
+            },
+            {
+              "face": "expo-n5-nameplate-fascia",
+              "supports": [
+                "expo-n5-nameplate-fascia-post-0",
+                "expo-n5-nameplate-fascia-post-1",
+                "expo-n5-nameplate-fascia-post-2",
+                "expo-n5-nameplate-fascia-post-3"
+              ],
+              "text": "expo-n5-nameplate"
+            },
+            {
+              "face": "expo-n6-nameplate-fascia",
+              "supports": [
+                "expo-n6-nameplate-fascia-post-0",
+                "expo-n6-nameplate-fascia-post-1",
+                "expo-n6-nameplate-fascia-post-2",
+                "expo-n6-nameplate-fascia-post-3"
+              ],
+              "text": "expo-n6-nameplate"
+            },
+            {
+              "face": "expo-s1-nameplate-fascia",
+              "supports": [
+                "expo-s1-nameplate-fascia-post-0",
+                "expo-s1-nameplate-fascia-post-1",
+                "expo-s1-nameplate-fascia-post-2",
+                "expo-s1-nameplate-fascia-post-3",
+                "expo-s1-nameplate-fascia-post-4",
+                "expo-s1-nameplate-fascia-post-5"
+              ],
+              "text": "expo-s1-nameplate"
+            },
+            {
+              "face": "expo-s2-nameplate-fascia",
+              "supports": [
+                "expo-s2-nameplate-fascia-post-0",
+                "expo-s2-nameplate-fascia-post-1",
+                "expo-s2-nameplate-fascia-post-2",
+                "expo-s2-nameplate-fascia-post-3",
+                "expo-s2-nameplate-fascia-post-4",
+                "expo-s2-nameplate-fascia-post-5"
+              ],
+              "text": "expo-s2-nameplate"
+            },
+            {
+              "face": "expo-s3-nameplate-fascia",
+              "supports": [
+                "expo-s3-nameplate-fascia-post-0",
+                "expo-s3-nameplate-fascia-post-1",
+                "expo-s3-nameplate-fascia-post-2",
+                "expo-s3-nameplate-fascia-post-3"
+              ],
+              "text": "expo-s3-nameplate"
+            },
+            {
+              "face": "expo-s4-nameplate-fascia",
+              "supports": [
+                "expo-s4-nameplate-fascia-post-0",
+                "expo-s4-nameplate-fascia-post-1",
+                "expo-s4-nameplate-fascia-post-2",
+                "expo-s4-nameplate-fascia-post-3"
+              ],
+              "text": "expo-s4-nameplate"
+            },
+            {
+              "face": "expo-s5-nameplate-fascia",
+              "supports": [
+                "expo-s5-nameplate-fascia-post-0",
+                "expo-s5-nameplate-fascia-post-1",
+                "expo-s5-nameplate-fascia-post-2",
+                "expo-s5-nameplate-fascia-post-3"
+              ],
+              "text": "expo-s5-nameplate"
+            },
+            {
+              "face": "expo-s6-nameplate-fascia",
+              "supports": [
+                "expo-s6-nameplate-fascia-post-0",
+                "expo-s6-nameplate-fascia-post-1",
+                "expo-s6-nameplate-fascia-post-2",
+                "expo-s6-nameplate-fascia-post-3",
+                "expo-s6-nameplate-fascia-post-4",
+                "expo-s6-nameplate-fascia-post-5"
+              ],
+              "text": "expo-s6-nameplate"
+            }
+          ],
+          "after": [
+            {
+              "face": "exterior-road-sign-west",
+              "supports": [
+                "exterior-road-post-west"
+              ]
+            },
+            {
+              "face": "exterior-road-sign-east",
+              "supports": [
+                "exterior-road-post-east"
+              ]
+            },
+            {
+              "face": "gate-plaza-return-maze",
+              "supports": [
+                "gate-plaza-return-maze-support-0"
+              ]
+            },
+            {
+              "face": "gate-plaza-return-festival",
+              "supports": [
+                "gate-plaza-return-festival-support-0"
+              ]
+            },
+            {
+              "face": "gate-plaza-return-shipyard",
+              "supports": [
+                "gate-plaza-return-shipyard-support-0"
+              ]
+            },
+            {
+              "face": "gate-plaza-return-campus",
+              "supports": [
+                "gate-plaza-return-campus-support-0"
+              ]
+            },
+            {
+              "face": "expo-n1-nameplate-fascia",
+              "supports": [
+                "expo-n1-nameplate-fascia-post-0",
+                "expo-n1-nameplate-fascia-post-1",
+                "expo-n1-nameplate-fascia-post-2",
+                "expo-n1-nameplate-fascia-post-3"
+              ]
+            },
+            {
+              "face": "expo-n2-nameplate-fascia",
+              "supports": [
+                "expo-n2-nameplate-fascia-post-0",
+                "expo-n2-nameplate-fascia-post-1",
+                "expo-n2-nameplate-fascia-post-2",
+                "expo-n2-nameplate-fascia-post-3"
+              ]
+            },
+            {
+              "face": "expo-n3-nameplate-fascia",
+              "supports": [
+                "expo-n3-nameplate-fascia-post-0",
+                "expo-n3-nameplate-fascia-post-1",
+                "expo-n3-nameplate-fascia-post-2",
+                "expo-n3-nameplate-fascia-post-3"
+              ]
+            },
+            {
+              "face": "expo-n4-nameplate-fascia",
+              "supports": [
+                "expo-n4-nameplate-fascia-post-0",
+                "expo-n4-nameplate-fascia-post-1",
+                "expo-n4-nameplate-fascia-post-2",
+                "expo-n4-nameplate-fascia-post-3"
+              ]
+            },
+            {
+              "face": "expo-n5-nameplate-fascia",
+              "supports": [
+                "expo-n5-nameplate-fascia-post-0",
+                "expo-n5-nameplate-fascia-post-1",
+                "expo-n5-nameplate-fascia-post-2",
+                "expo-n5-nameplate-fascia-post-3"
+              ]
+            },
+            {
+              "face": "expo-n6-nameplate-fascia",
+              "supports": [
+                "expo-n6-nameplate-fascia-post-0",
+                "expo-n6-nameplate-fascia-post-1",
+                "expo-n6-nameplate-fascia-post-2",
+                "expo-n6-nameplate-fascia-post-3"
+              ],
+              "text": "expo-n6-nameplate"
+            },
+            {
+              "face": "expo-s1-nameplate-fascia",
+              "supports": [
+                "expo-s1-nameplate-fascia-post-0",
+                "expo-s1-nameplate-fascia-post-1",
+                "expo-s1-nameplate-fascia-post-2",
+                "expo-s1-nameplate-fascia-post-3",
+                "expo-s1-nameplate-fascia-post-4",
+                "expo-s1-nameplate-fascia-post-5"
+              ]
+            },
+            {
+              "face": "expo-s2-nameplate-fascia",
+              "supports": [
+                "expo-s2-nameplate-fascia-post-0",
+                "expo-s2-nameplate-fascia-post-1",
+                "expo-s2-nameplate-fascia-post-2",
+                "expo-s2-nameplate-fascia-post-3",
+                "expo-s2-nameplate-fascia-post-4",
+                "expo-s2-nameplate-fascia-post-5"
+              ],
+              "text": "expo-s2-nameplate"
+            },
+            {
+              "face": "expo-s3-nameplate-fascia",
+              "supports": [
+                "expo-s3-nameplate-fascia-post-0",
+                "expo-s3-nameplate-fascia-post-1",
+                "expo-s3-nameplate-fascia-post-2",
+                "expo-s3-nameplate-fascia-post-3"
+              ],
+              "text": "expo-s3-nameplate"
+            },
+            {
+              "face": "expo-s4-nameplate-fascia",
+              "supports": [
+                "expo-s4-nameplate-fascia-post-0",
+                "expo-s4-nameplate-fascia-post-1",
+                "expo-s4-nameplate-fascia-post-2",
+                "expo-s4-nameplate-fascia-post-3"
+              ]
+            },
+            {
+              "face": "expo-s5-nameplate-fascia",
+              "supports": [
+                "expo-s5-nameplate-fascia-post-0",
+                "expo-s5-nameplate-fascia-post-1",
+                "expo-s5-nameplate-fascia-post-2",
+                "expo-s5-nameplate-fascia-post-3"
+              ]
+            },
+            {
+              "face": "expo-s6-nameplate-fascia",
+              "supports": [
+                "expo-s6-nameplate-fascia-post-0",
+                "expo-s6-nameplate-fascia-post-1",
+                "expo-s6-nameplate-fascia-post-2",
+                "expo-s6-nameplate-fascia-post-3",
+                "expo-s6-nameplate-fascia-post-4",
+                "expo-s6-nameplate-fascia-post-5"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "solar-hall": {
+      "beforeLayoutSha256": "3bd944ef37040a6cb7ee592ecddab5452cb1900f71fd77f90abb0aaaed7a5627",
+      "afterLayoutSha256": "85921a3f0d849f5454db9bb9eeb8a88dcedebf7cbb671462b2b358159b446cd4",
+      "changes": {
+        "placements": {
+          "removed": [
+            {
+              "index": 150,
+              "value": {
+                "id": "solar-hall-style-partner-card-aws",
+                "sprite": "speaker-style-logo-card",
+                "x": 22,
+                "y": 3,
+                "width": 4,
+                "height": 2,
+                "layer": "props"
+              }
+            },
+            {
+              "index": 151,
+              "value": {
+                "id": "solar-hall-style-partner-card-bsides",
+                "sprite": "speaker-style-logo-card",
+                "x": 30,
+                "y": 3,
+                "width": 4,
+                "height": 2,
+                "layer": "props"
+              }
+            },
+            {
+              "index": 152,
+              "value": {
+                "id": "solar-hall-style-partner-card-openinfra",
+                "sprite": "speaker-style-logo-card",
+                "x": 38,
+                "y": 3,
+                "width": 4,
+                "height": 2,
+                "layer": "props"
+              }
+            }
+          ],
+          "added": []
+        },
+        "images": {
+          "before": [
+            {
+              "name": "Solar / VarCamp",
+              "image": "assets/sponsors/varcamp-2026.png",
+              "x": 29,
+              "y": 0,
+              "width": 6,
+              "height": 2
+            },
+            {
+              "name": "Solar / AWS UG Myanmar",
+              "image": "assets/sponsors/partner-aws-ug-mm.png",
+              "x": 22,
+              "y": 3,
+              "width": 4,
+              "height": 2
+            },
+            {
+              "name": "Solar / BSides Myanmar",
+              "image": "assets/sponsors/partner-bsides-mm.png",
+              "x": 30,
+              "y": 3,
+              "width": 4,
+              "height": 2
+            },
+            {
+              "name": "Solar / OpenInfra Myanmar",
+              "image": "assets/sponsors/partner-openinfra-mm.png",
+              "x": 38,
+              "y": 3,
+              "width": 4,
+              "height": 2
+            },
+            {
+              "name": "Solar / Vibe Code Tours",
+              "image": "assets/sponsors/vibecode-tours.png",
+              "x": 22,
+              "y": 0,
+              "width": 4,
+              "height": 2
+            }
+          ],
+          "after": [
+            {
+              "name": "Solar / VarCamp",
+              "image": "assets/sponsors/varcamp-2026.png",
+              "x": 29,
+              "y": 0,
+              "width": 6,
+              "height": 2
+            },
+            {
+              "name": "Solar / BSides Myanmar",
+              "image": "assets/sponsors/partner-bsides-mm.png",
+              "x": 25,
+              "y": 3,
+              "width": 4,
+              "height": 2
+            },
+            {
+              "name": "Solar / Vibe Code Tours",
+              "image": "assets/sponsors/vibecode-tours.png",
+              "x": 35,
+              "y": 3,
+              "width": 4,
+              "height": 2
+            }
+          ]
+        }
+      }
+    },
+    "lunar-hall": {
+      "beforeLayoutSha256": "1691997d6ab3c073ec3364538ee2b636e6ea2aa3c9a403b9c26d73811775c142",
+      "afterLayoutSha256": "d6bba6f82dd4d18fada6730de05375316c01379a46de62f97e4dcbae7b41f4df",
+      "changes": {
+        "placements": {
+          "removed": [
+            {
+              "index": 150,
+              "value": {
+                "id": "lunar-hall-style-partner-card-aws",
+                "sprite": "speaker-style-logo-card",
+                "x": 22,
+                "y": 3,
+                "width": 4,
+                "height": 2,
+                "layer": "props"
+              }
+            },
+            {
+              "index": 151,
+              "value": {
+                "id": "lunar-hall-style-partner-card-bsides",
+                "sprite": "speaker-style-logo-card",
+                "x": 30,
+                "y": 3,
+                "width": 4,
+                "height": 2,
+                "layer": "props"
+              }
+            },
+            {
+              "index": 152,
+              "value": {
+                "id": "lunar-hall-style-partner-card-openinfra",
+                "sprite": "speaker-style-logo-card",
+                "x": 38,
+                "y": 3,
+                "width": 4,
+                "height": 2,
+                "layer": "props"
+              }
+            }
+          ],
+          "added": []
+        },
+        "images": {
+          "before": [
+            {
+              "name": "Lunar / VarCamp",
+              "image": "assets/sponsors/varcamp-2026.png",
+              "x": 29,
+              "y": 0,
+              "width": 6,
+              "height": 2
+            },
+            {
+              "name": "Lunar / AWS UG Myanmar",
+              "image": "assets/sponsors/partner-aws-ug-mm.png",
+              "x": 22,
+              "y": 3,
+              "width": 4,
+              "height": 2
+            },
+            {
+              "name": "Lunar / BSides Myanmar",
+              "image": "assets/sponsors/partner-bsides-mm.png",
+              "x": 30,
+              "y": 3,
+              "width": 4,
+              "height": 2
+            },
+            {
+              "name": "Lunar / OpenInfra Myanmar",
+              "image": "assets/sponsors/partner-openinfra-mm.png",
+              "x": 38,
+              "y": 3,
+              "width": 4,
+              "height": 2
+            },
+            {
+              "name": "Lunar / Vibe Code Tours",
+              "image": "assets/sponsors/vibecode-tours.png",
+              "x": 22,
+              "y": 0,
+              "width": 4,
+              "height": 2
+            }
+          ],
+          "after": [
+            {
+              "name": "Lunar / VarCamp",
+              "image": "assets/sponsors/varcamp-2026.png",
+              "x": 29,
+              "y": 0,
+              "width": 6,
+              "height": 2
+            },
+            {
+              "name": "Lunar / BSides Myanmar",
+              "image": "assets/sponsors/partner-bsides-mm.png",
+              "x": 25,
+              "y": 3,
+              "width": 4,
+              "height": 2
+            },
+            {
+              "name": "Lunar / Vibe Code Tours",
+              "image": "assets/sponsors/vibecode-tours.png",
+              "x": 35,
+              "y": 3,
+              "width": 4,
+              "height": 2
+            }
+          ]
+        }
+      }
+    },
+    "speaker-aquarius": {
+      "beforeLayoutSha256": "696d96961bc1c52ae9a798e985628bd9db00d49c63cf844998b69e86ab5b3748",
+      "afterLayoutSha256": "8424c4c33968c6838ddf69dad2f802b5c5a612c5f66550b08119f330fc47b849",
+      "changes": {
+        "placements": {
+          "removed": [
+            {
+              "index": 44,
+              "value": {
+                "id": "collab-table-west",
+                "sprite": "table-circular",
+                "x": 6,
+                "y": 19,
+                "width": 4,
+                "height": 3,
+                "layer": "props"
+              }
+            },
+            {
+              "index": 45,
+              "value": {
+                "id": "collab-table-east",
+                "sprite": "table-circular",
+                "x": 25,
+                "y": 19,
+                "width": 4,
+                "height": 3,
+                "layer": "props"
+              }
+            },
+            {
+              "index": 56,
+              "value": {
+                "id": "seat-00",
+                "sprite": "chair-north-slate",
+                "x": 5,
+                "y": 22,
+                "width": 1,
+                "height": 2,
+                "layer": "props"
+              }
+            },
+            {
+              "index": 57,
+              "value": {
+                "id": "seat-01",
+                "sprite": "chair-north-slate",
+                "x": 11,
+                "y": 22,
+                "width": 1,
+                "height": 2,
+                "layer": "props"
+              }
+            },
+            {
+              "index": 58,
+              "value": {
+                "id": "seat-02",
+                "sprite": "chair-north-slate",
+                "x": 24,
+                "y": 22,
+                "width": 1,
+                "height": 2,
+                "layer": "props"
+              }
+            },
+            {
+              "index": 59,
+              "value": {
+                "id": "seat-03",
+                "sprite": "chair-north-slate",
+                "x": 30,
+                "y": 22,
+                "width": 1,
+                "height": 2,
+                "layer": "props"
+              }
+            },
+            {
+              "index": 60,
+              "value": {
+                "id": "seat-04",
+                "sprite": "chair-north-slate",
+                "x": 10,
+                "y": 17,
+                "width": 1,
+                "height": 2,
+                "layer": "props"
+              }
+            },
+            {
+              "index": 61,
+              "value": {
+                "id": "seat-05",
+                "sprite": "chair-north-slate",
+                "x": 25,
+                "y": 17,
+                "width": 1,
+                "height": 2,
+                "layer": "props"
+              }
+            },
+            {
+              "index": 77,
+              "value": {
+                "id": "aquarius-style-partner-card-aws",
+                "sprite": "speaker-style-logo-card",
+                "x": 8,
+                "y": 4,
+                "width": 4,
+                "height": 2,
+                "layer": "props"
+              }
+            },
+            {
+              "index": 78,
+              "value": {
+                "id": "aquarius-style-partner-card-bsides",
+                "sprite": "speaker-style-logo-card",
+                "x": 16,
+                "y": 4,
+                "width": 4,
+                "height": 2,
+                "layer": "props"
+              }
+            },
+            {
+              "index": 79,
+              "value": {
+                "id": "aquarius-style-partner-card-openinfra",
+                "sprite": "speaker-style-logo-card",
+                "x": 24,
+                "y": 4,
+                "width": 4,
+                "height": 2,
+                "layer": "props"
+              }
+            }
+          ],
+          "added": [
+            {
+              "id": "audience-chair-0-0",
+              "sprite": "chair-north-slate",
+              "x": 8,
+              "y": 17,
+              "width": 1,
+              "height": 2,
+              "layer": "props"
+            },
+            {
+              "id": "audience-chair-0-1",
+              "sprite": "chair-north-slate",
+              "x": 10,
+              "y": 17,
+              "width": 1,
+              "height": 2,
+              "layer": "props"
+            },
+            {
+              "id": "audience-chair-0-2",
+              "sprite": "chair-north-slate",
+              "x": 12,
+              "y": 17,
+              "width": 1,
+              "height": 2,
+              "layer": "props"
+            },
+            {
+              "id": "audience-chair-0-3",
+              "sprite": "chair-north-slate",
+              "x": 23,
+              "y": 17,
+              "width": 1,
+              "height": 2,
+              "layer": "props"
+            },
+            {
+              "id": "audience-chair-0-4",
+              "sprite": "chair-north-slate",
+              "x": 25,
+              "y": 17,
+              "width": 1,
+              "height": 2,
+              "layer": "props"
+            },
+            {
+              "id": "audience-chair-0-5",
+              "sprite": "chair-north-slate",
+              "x": 27,
+              "y": 17,
+              "width": 1,
+              "height": 2,
+              "layer": "props"
+            },
+            {
+              "id": "audience-chair-1-0",
+              "sprite": "chair-north-slate",
+              "x": 8,
+              "y": 20,
+              "width": 1,
+              "height": 2,
+              "layer": "props"
+            },
+            {
+              "id": "audience-chair-1-1",
+              "sprite": "chair-north-slate",
+              "x": 10,
+              "y": 20,
+              "width": 1,
+              "height": 2,
+              "layer": "props"
+            },
+            {
+              "id": "audience-chair-1-2",
+              "sprite": "chair-north-slate",
+              "x": 12,
+              "y": 20,
+              "width": 1,
+              "height": 2,
+              "layer": "props"
+            },
+            {
+              "id": "audience-chair-1-3",
+              "sprite": "chair-north-slate",
+              "x": 23,
+              "y": 20,
+              "width": 1,
+              "height": 2,
+              "layer": "props"
+            },
+            {
+              "id": "audience-chair-1-4",
+              "sprite": "chair-north-slate",
+              "x": 25,
+              "y": 20,
+              "width": 1,
+              "height": 2,
+              "layer": "props"
+            },
+            {
+              "id": "audience-chair-1-5",
+              "sprite": "chair-north-slate",
+              "x": 27,
+              "y": 20,
+              "width": 1,
+              "height": 2,
+              "layer": "props"
+            },
+            {
+              "id": "audience-chair-2-0",
+              "sprite": "chair-north-slate",
+              "x": 8,
+              "y": 23,
+              "width": 1,
+              "height": 2,
+              "layer": "props"
+            },
+            {
+              "id": "audience-chair-2-1",
+              "sprite": "chair-north-slate",
+              "x": 10,
+              "y": 23,
+              "width": 1,
+              "height": 2,
+              "layer": "props"
+            },
+            {
+              "id": "audience-chair-2-2",
+              "sprite": "chair-north-slate",
+              "x": 12,
+              "y": 23,
+              "width": 1,
+              "height": 2,
+              "layer": "props"
+            },
+            {
+              "id": "audience-chair-2-3",
+              "sprite": "chair-north-slate",
+              "x": 23,
+              "y": 23,
+              "width": 1,
+              "height": 2,
+              "layer": "props"
+            },
+            {
+              "id": "audience-chair-2-4",
+              "sprite": "chair-north-slate",
+              "x": 25,
+              "y": 23,
+              "width": 1,
+              "height": 2,
+              "layer": "props"
+            },
+            {
+              "id": "audience-chair-2-5",
+              "sprite": "chair-north-slate",
+              "x": 27,
+              "y": 23,
+              "width": 1,
+              "height": 2,
+              "layer": "props"
+            }
+          ]
+        },
+        "images": {
+          "before": [
+            {
+              "name": "Aquarius / VarCamp",
+              "image": "assets/sponsors/varcamp-2026.png",
+              "x": 15,
+              "y": 0,
+              "width": 6,
+              "height": 2
+            },
+            {
+              "name": "Aquarius / AWS UG Myanmar",
+              "image": "assets/sponsors/partner-aws-ug-mm.png",
+              "x": 8,
+              "y": 4,
+              "width": 4,
+              "height": 2
+            },
+            {
+              "name": "Aquarius / BSides Myanmar",
+              "image": "assets/sponsors/partner-bsides-mm.png",
+              "x": 16,
+              "y": 4,
+              "width": 4,
+              "height": 2
+            },
+            {
+              "name": "Aquarius / OpenInfra Myanmar",
+              "image": "assets/sponsors/partner-openinfra-mm.png",
+              "x": 24,
+              "y": 4,
+              "width": 4,
+              "height": 2
+            },
+            {
+              "name": "Aquarius / Vibe Code Tours",
+              "image": "assets/sponsors/vibecode-tours.png",
+              "x": 8,
+              "y": 0,
+              "width": 4,
+              "height": 2
+            }
+          ],
+          "after": [
+            {
+              "name": "Aquarius / VarCamp",
+              "image": "assets/sponsors/varcamp-2026.png",
+              "x": 15,
+              "y": 0,
+              "width": 6,
+              "height": 2
+            },
+            {
+              "name": "Aquarius / BSides Myanmar",
+              "image": "assets/sponsors/partner-bsides-mm.png",
+              "x": 11,
+              "y": 4,
+              "width": 4,
+              "height": 2
+            },
+            {
+              "name": "Aquarius / Vibe Code Tours",
+              "image": "assets/sponsors/vibecode-tours.png",
+              "x": 21,
+              "y": 4,
+              "width": 4,
+              "height": 2
+            }
+          ]
+        }
+      }
+    },
+    "speaker-aries": {
+      "beforeLayoutSha256": "73ff718b746a95ea740e4114186f40a3b4bfe1919b29252621901b7bfe39f6e4",
+      "afterLayoutSha256": "e046d3c083ee4cecc13b7f1fbcafffe770df882604b9163de9bbd00f26df4958",
+      "changes": {
+        "placements": {
+          "removed": [
+            {
+              "index": 62,
+              "value": {
+                "id": "interior-ref-west-0-workbench",
+                "sprite": "desk-coding",
+                "x": 4,
+                "y": 17,
+                "width": 9,
+                "height": 2,
+                "layer": "props"
+              }
+            },
+            {
+              "index": 63,
+              "value": {
+                "id": "interior-ref-west-0-0-laptop",
+                "sprite": "laptop",
+                "x": 5,
+                "y": 17,
+                "width": 1,
+                "height": 1,
+                "layer": "props"
+              }
+            },
+            {
+              "index": 64,
+              "value": {
+                "id": "seat-west-0-0",
+                "sprite": "chair-north-slate",
+                "x": 5,
+                "y": 19,
+                "width": 1,
+                "height": 2,
+                "layer": "props"
+              }
+            },
+            {
+              "index": 65,
+              "value": {
+                "id": "interior-ref-west-0-1-laptop",
+                "sprite": "laptop",
+                "x": 8,
+                "y": 17,
+                "width": 1,
+                "height": 1,
+                "layer": "props"
+              }
+            },
+            {
+              "index": 66,
+              "value": {
+                "id": "seat-west-0-1",
+                "sprite": "chair-north-slate",
+                "x": 8,
+                "y": 19,
+                "width": 1,
+                "height": 2,
+                "layer": "props"
+              }
+            },
+            {
+              "index": 67,
+              "value": {
+                "id": "interior-ref-west-0-2-laptop",
+                "sprite": "laptop",
+                "x": 11,
+                "y": 17,
+                "width": 1,
+                "height": 1,
+                "layer": "props"
+              }
+            },
+            {
+              "index": 68,
+              "value": {
+                "id": "seat-west-0-2",
+                "sprite": "chair-north-slate",
+                "x": 11,
+                "y": 19,
+                "width": 1,
+                "height": 2,
+                "layer": "props"
+              }
+            },
+            {
+              "index": 69,
+              "value": {
+                "id": "interior-ref-west-1-workbench",
+                "sprite": "desk-coding",
+                "x": 4,
+                "y": 21,
+                "width": 9,
+                "height": 2,
+                "layer": "props"
+              }
+            },
+            {
+              "index": 70,
+              "value": {
+                "id": "interior-ref-west-1-0-laptop",
+                "sprite": "laptop",
+                "x": 5,
+                "y": 21,
+                "width": 1,
+                "height": 1,
+                "layer": "props"
+              }
+            },
+            {
+              "index": 71,
+              "value": {
+                "id": "seat-west-1-0",
+                "sprite": "chair-north-slate",
+                "x": 5,
+                "y": 23,
+                "width": 1,
+                "height": 2,
+                "layer": "props"
+              }
+            },
+            {
+              "index": 72,
+              "value": {
+                "id": "interior-ref-west-1-1-laptop",
+                "sprite": "laptop",
+                "x": 8,
+                "y": 21,
+                "width": 1,
+                "height": 1,
+                "layer": "props"
+              }
+            },
+            {
+              "index": 73,
+              "value": {
+                "id": "seat-west-1-1",
+                "sprite": "chair-north-slate",
+                "x": 8,
+                "y": 23,
+                "width": 1,
+                "height": 2,
+                "layer": "props"
+              }
+            },
+            {
+              "index": 74,
+              "value": {
+                "id": "interior-ref-west-1-2-laptop",
+                "sprite": "laptop",
+                "x": 11,
+                "y": 21,
+                "width": 1,
+                "height": 1,
+                "layer": "props"
+              }
+            },
+            {
+              "index": 75,
+              "value": {
+                "id": "seat-west-1-2",
+                "sprite": "chair-north-slate",
+                "x": 11,
+                "y": 23,
+                "width": 1,
+                "height": 2,
+                "layer": "props"
+              }
+            },
+            {
+              "index": 77,
+              "value": {
+                "id": "interior-ref-east-0-workbench",
+                "sprite": "desk-coding",
+                "x": 23,
+                "y": 17,
+                "width": 9,
+                "height": 2,
+                "layer": "props"
+              }
+            },
+            {
+              "index": 78,
+              "value": {
+                "id": "interior-ref-east-0-0-laptop",
+                "sprite": "laptop",
+                "x": 24,
+                "y": 17,
+                "width": 1,
+                "height": 1,
+                "layer": "props"
+              }
+            },
+            {
+              "index": 79,
+              "value": {
+                "id": "seat-east-0-0",
+                "sprite": "chair-north-slate",
+                "x": 24,
+                "y": 19,
+                "width": 1,
+                "height": 2,
+                "layer": "props"
+              }
+            },
+            {
+              "index": 80,
+              "value": {
+                "id": "interior-ref-east-0-1-laptop",
+                "sprite": "laptop",
+                "x": 27,
+                "y": 17,
+                "width": 1,
+                "height": 1,
+                "layer": "props"
+              }
+            },
+            {
+              "index": 81,
+              "value": {
+                "id": "seat-east-0-1",
+                "sprite": "chair-north-slate",
+                "x": 27,
+                "y": 19,
+                "width": 1,
+                "height": 2,
+                "layer": "props"
+              }
+            },
+            {
+              "index": 82,
+              "value": {
+                "id": "interior-ref-east-0-2-laptop",
+                "sprite": "laptop",
+                "x": 30,
+                "y": 17,
+                "width": 1,
+                "height": 1,
+                "layer": "props"
+              }
+            },
+            {
+              "index": 83,
+              "value": {
+                "id": "seat-east-0-2",
+                "sprite": "chair-north-slate",
+                "x": 30,
+                "y": 19,
+                "width": 1,
+                "height": 2,
+                "layer": "props"
+              }
+            },
+            {
+              "index": 84,
+              "value": {
+                "id": "interior-ref-east-1-workbench",
+                "sprite": "desk-coding",
+                "x": 23,
+                "y": 21,
+                "width": 9,
+                "height": 2,
+                "layer": "props"
+              }
+            },
+            {
+              "index": 85,
+              "value": {
+                "id": "interior-ref-east-1-0-laptop",
+                "sprite": "laptop",
+                "x": 24,
+                "y": 21,
+                "width": 1,
+                "height": 1,
+                "layer": "props"
+              }
+            },
+            {
+              "index": 86,
+              "value": {
+                "id": "seat-east-1-0",
+                "sprite": "chair-north-slate",
+                "x": 24,
+                "y": 23,
+                "width": 1,
+                "height": 2,
+                "layer": "props"
+              }
+            },
+            {
+              "index": 87,
+              "value": {
+                "id": "interior-ref-east-1-1-laptop",
+                "sprite": "laptop",
+                "x": 27,
+                "y": 21,
+                "width": 1,
+                "height": 1,
+                "layer": "props"
+              }
+            },
+            {
+              "index": 88,
+              "value": {
+                "id": "seat-east-1-1",
+                "sprite": "chair-north-slate",
+                "x": 27,
+                "y": 23,
+                "width": 1,
+                "height": 2,
+                "layer": "props"
+              }
+            },
+            {
+              "index": 89,
+              "value": {
+                "id": "interior-ref-east-1-2-laptop",
+                "sprite": "laptop",
+                "x": 30,
+                "y": 21,
+                "width": 1,
+                "height": 1,
+                "layer": "props"
+              }
+            },
+            {
+              "index": 90,
+              "value": {
+                "id": "seat-east-1-2",
+                "sprite": "chair-north-slate",
+                "x": 30,
+                "y": 23,
+                "width": 1,
+                "height": 2,
+                "layer": "props"
+              }
+            },
+            {
+              "index": 92,
+              "value": {
+                "id": "aries-style-partner-card-aws",
+                "sprite": "speaker-style-logo-card",
+                "x": 8,
+                "y": 4,
+                "width": 4,
+                "height": 2,
+                "layer": "props"
+              }
+            },
+            {
+              "index": 93,
+              "value": {
+                "id": "aries-style-partner-card-bsides",
+                "sprite": "speaker-style-logo-card",
+                "x": 16,
+                "y": 4,
+                "width": 4,
+                "height": 2,
+                "layer": "props"
+              }
+            },
+            {
+              "index": 94,
+              "value": {
+                "id": "aries-style-partner-card-openinfra",
+                "sprite": "speaker-style-logo-card",
+                "x": 24,
+                "y": 4,
+                "width": 4,
+                "height": 2,
+                "layer": "props"
+              }
+            }
+          ],
+          "added": [
+            {
+              "id": "audience-chair-0-0",
+              "sprite": "chair-north-slate",
+              "x": 8,
+              "y": 17,
+              "width": 1,
+              "height": 2,
+              "layer": "props"
+            },
+            {
+              "id": "audience-chair-0-1",
+              "sprite": "chair-north-slate",
+              "x": 10,
+              "y": 17,
+              "width": 1,
+              "height": 2,
+              "layer": "props"
+            },
+            {
+              "id": "audience-chair-0-2",
+              "sprite": "chair-north-slate",
+              "x": 12,
+              "y": 17,
+              "width": 1,
+              "height": 2,
+              "layer": "props"
+            },
+            {
+              "id": "audience-chair-0-3",
+              "sprite": "chair-north-slate",
+              "x": 23,
+              "y": 17,
+              "width": 1,
+              "height": 2,
+              "layer": "props"
+            },
+            {
+              "id": "audience-chair-0-4",
+              "sprite": "chair-north-slate",
+              "x": 25,
+              "y": 17,
+              "width": 1,
+              "height": 2,
+              "layer": "props"
+            },
+            {
+              "id": "audience-chair-0-5",
+              "sprite": "chair-north-slate",
+              "x": 27,
+              "y": 17,
+              "width": 1,
+              "height": 2,
+              "layer": "props"
+            },
+            {
+              "id": "audience-chair-1-0",
+              "sprite": "chair-north-slate",
+              "x": 8,
+              "y": 20,
+              "width": 1,
+              "height": 2,
+              "layer": "props"
+            },
+            {
+              "id": "audience-chair-1-1",
+              "sprite": "chair-north-slate",
+              "x": 10,
+              "y": 20,
+              "width": 1,
+              "height": 2,
+              "layer": "props"
+            },
+            {
+              "id": "audience-chair-1-2",
+              "sprite": "chair-north-slate",
+              "x": 12,
+              "y": 20,
+              "width": 1,
+              "height": 2,
+              "layer": "props"
+            },
+            {
+              "id": "audience-chair-1-3",
+              "sprite": "chair-north-slate",
+              "x": 23,
+              "y": 20,
+              "width": 1,
+              "height": 2,
+              "layer": "props"
+            },
+            {
+              "id": "audience-chair-1-4",
+              "sprite": "chair-north-slate",
+              "x": 25,
+              "y": 20,
+              "width": 1,
+              "height": 2,
+              "layer": "props"
+            },
+            {
+              "id": "audience-chair-1-5",
+              "sprite": "chair-north-slate",
+              "x": 27,
+              "y": 20,
+              "width": 1,
+              "height": 2,
+              "layer": "props"
+            },
+            {
+              "id": "audience-chair-2-0",
+              "sprite": "chair-north-slate",
+              "x": 8,
+              "y": 23,
+              "width": 1,
+              "height": 2,
+              "layer": "props"
+            },
+            {
+              "id": "audience-chair-2-1",
+              "sprite": "chair-north-slate",
+              "x": 10,
+              "y": 23,
+              "width": 1,
+              "height": 2,
+              "layer": "props"
+            },
+            {
+              "id": "audience-chair-2-2",
+              "sprite": "chair-north-slate",
+              "x": 12,
+              "y": 23,
+              "width": 1,
+              "height": 2,
+              "layer": "props"
+            },
+            {
+              "id": "audience-chair-2-3",
+              "sprite": "chair-north-slate",
+              "x": 23,
+              "y": 23,
+              "width": 1,
+              "height": 2,
+              "layer": "props"
+            },
+            {
+              "id": "audience-chair-2-4",
+              "sprite": "chair-north-slate",
+              "x": 25,
+              "y": 23,
+              "width": 1,
+              "height": 2,
+              "layer": "props"
+            },
+            {
+              "id": "audience-chair-2-5",
+              "sprite": "chair-north-slate",
+              "x": 27,
+              "y": 23,
+              "width": 1,
+              "height": 2,
+              "layer": "props"
+            }
+          ]
+        },
+        "images": {
+          "before": [
+            {
+              "name": "Aries / VarCamp",
+              "image": "assets/sponsors/varcamp-2026.png",
+              "x": 15,
+              "y": 0,
+              "width": 6,
+              "height": 2
+            },
+            {
+              "name": "Aries / AWS UG Myanmar",
+              "image": "assets/sponsors/partner-aws-ug-mm.png",
+              "x": 8,
+              "y": 4,
+              "width": 4,
+              "height": 2
+            },
+            {
+              "name": "Aries / BSides Myanmar",
+              "image": "assets/sponsors/partner-bsides-mm.png",
+              "x": 16,
+              "y": 4,
+              "width": 4,
+              "height": 2
+            },
+            {
+              "name": "Aries / OpenInfra Myanmar",
+              "image": "assets/sponsors/partner-openinfra-mm.png",
+              "x": 24,
+              "y": 4,
+              "width": 4,
+              "height": 2
+            },
+            {
+              "name": "Aries / Vibe Code Tours",
+              "image": "assets/sponsors/vibecode-tours.png",
+              "x": 8,
+              "y": 0,
+              "width": 4,
+              "height": 2
+            }
+          ],
+          "after": [
+            {
+              "name": "Aries / VarCamp",
+              "image": "assets/sponsors/varcamp-2026.png",
+              "x": 15,
+              "y": 0,
+              "width": 6,
+              "height": 2
+            },
+            {
+              "name": "Aries / BSides Myanmar",
+              "image": "assets/sponsors/partner-bsides-mm.png",
+              "x": 11,
+              "y": 4,
+              "width": 4,
+              "height": 2
+            },
+            {
+              "name": "Aries / Vibe Code Tours",
+              "image": "assets/sponsors/vibecode-tours.png",
+              "x": 21,
+              "y": 4,
+              "width": 4,
+              "height": 2
+            }
+          ]
+        }
+      }
+    },
+    "speaker-cancer": {
+      "beforeLayoutSha256": "dce69467c388870b22b223f52527cb9a6d87aaa1f11281faf33a2fc7843f53b1",
+      "afterLayoutSha256": "89d5a4211e7a011425cb56185726902f088fc24168f4875ba6cea648e79f0951",
+      "changes": {
+        "placements": {
+          "removed": [
+            {
+              "index": 44,
+              "value": {
+                "id": "moon-crescent-west",
+                "sprite": "lounge-crescent",
+                "x": 3,
+                "y": 18,
+                "width": 5,
+                "height": 3,
+                "layer": "props"
+              }
+            },
+            {
+              "index": 45,
+              "value": {
+                "id": "moon-crescent-east",
+                "sprite": "lounge-crescent",
+                "x": 28,
+                "y": 18,
+                "width": 5,
+                "height": 3,
+                "layer": "props"
+              }
+            },
+            {
+              "index": 47,
+              "value": {
+                "id": "moon-table-west",
+                "sprite": "table-small-white",
+                "x": 9,
+                "y": 20,
+                "width": 1,
+                "height": 1,
+                "layer": "props"
+              }
+            },
+            {
+              "index": 48,
+              "value": {
+                "id": "moon-table-east",
+                "sprite": "table-small-white",
+                "x": 26,
+                "y": 20,
+                "width": 1,
+                "height": 1,
+                "layer": "props"
+              }
+            },
+            {
+              "index": 53,
+              "value": {
+                "id": "seat-00",
+                "sprite": "chair-north-slate",
+                "x": 7,
+                "y": 22,
+                "width": 1,
+                "height": 2,
+                "layer": "props"
+              }
+            },
+            {
+              "index": 54,
+              "value": {
+                "id": "seat-01",
+                "sprite": "chair-north-slate",
+                "x": 11,
+                "y": 22,
+                "width": 1,
+                "height": 2,
+                "layer": "props"
+              }
+            },
+            {
+              "index": 55,
+              "value": {
+                "id": "seat-02",
+                "sprite": "chair-north-slate",
+                "x": 24,
+                "y": 22,
+                "width": 1,
+                "height": 2,
+                "layer": "props"
+              }
+            },
+            {
+              "index": 56,
+              "value": {
+                "id": "seat-03",
+                "sprite": "chair-north-slate",
+                "x": 28,
+                "y": 22,
+                "width": 1,
+                "height": 2,
+                "layer": "props"
+              }
+            },
+            {
+              "index": 57,
+              "value": {
+                "id": "seat-04",
+                "sprite": "chair-north-slate",
+                "x": 10,
+                "y": 18,
+                "width": 1,
+                "height": 2,
+                "layer": "props"
+              }
+            },
+            {
+              "index": 58,
+              "value": {
+                "id": "seat-05",
+                "sprite": "chair-north-slate",
+                "x": 25,
+                "y": 18,
+                "width": 1,
+                "height": 2,
+                "layer": "props"
+              }
+            },
+            {
+              "index": 74,
+              "value": {
+                "id": "cancer-style-partner-card-aws",
+                "sprite": "speaker-style-logo-card",
+                "x": 8,
+                "y": 4,
+                "width": 4,
+                "height": 2,
+                "layer": "props"
+              }
+            },
+            {
+              "index": 75,
+              "value": {
+                "id": "cancer-style-partner-card-bsides",
+                "sprite": "speaker-style-logo-card",
+                "x": 16,
+                "y": 4,
+                "width": 4,
+                "height": 2,
+                "layer": "props"
+              }
+            },
+            {
+              "index": 76,
+              "value": {
+                "id": "cancer-style-partner-card-openinfra",
+                "sprite": "speaker-style-logo-card",
+                "x": 24,
+                "y": 4,
+                "width": 4,
+                "height": 2,
+                "layer": "props"
+              }
+            }
+          ],
+          "added": [
+            {
+              "id": "audience-chair-0-0",
+              "sprite": "chair-north-slate",
+              "x": 8,
+              "y": 17,
+              "width": 1,
+              "height": 2,
+              "layer": "props"
+            },
+            {
+              "id": "audience-chair-0-1",
+              "sprite": "chair-north-slate",
+              "x": 10,
+              "y": 17,
+              "width": 1,
+              "height": 2,
+              "layer": "props"
+            },
+            {
+              "id": "audience-chair-0-2",
+              "sprite": "chair-north-slate",
+              "x": 12,
+              "y": 17,
+              "width": 1,
+              "height": 2,
+              "layer": "props"
+            },
+            {
+              "id": "audience-chair-0-3",
+              "sprite": "chair-north-slate",
+              "x": 23,
+              "y": 17,
+              "width": 1,
+              "height": 2,
+              "layer": "props"
+            },
+            {
+              "id": "audience-chair-0-4",
+              "sprite": "chair-north-slate",
+              "x": 25,
+              "y": 17,
+              "width": 1,
+              "height": 2,
+              "layer": "props"
+            },
+            {
+              "id": "audience-chair-0-5",
+              "sprite": "chair-north-slate",
+              "x": 27,
+              "y": 17,
+              "width": 1,
+              "height": 2,
+              "layer": "props"
+            },
+            {
+              "id": "audience-chair-1-0",
+              "sprite": "chair-north-slate",
+              "x": 8,
+              "y": 20,
+              "width": 1,
+              "height": 2,
+              "layer": "props"
+            },
+            {
+              "id": "audience-chair-1-1",
+              "sprite": "chair-north-slate",
+              "x": 10,
+              "y": 20,
+              "width": 1,
+              "height": 2,
+              "layer": "props"
+            },
+            {
+              "id": "audience-chair-1-2",
+              "sprite": "chair-north-slate",
+              "x": 12,
+              "y": 20,
+              "width": 1,
+              "height": 2,
+              "layer": "props"
+            },
+            {
+              "id": "audience-chair-1-3",
+              "sprite": "chair-north-slate",
+              "x": 23,
+              "y": 20,
+              "width": 1,
+              "height": 2,
+              "layer": "props"
+            },
+            {
+              "id": "audience-chair-1-4",
+              "sprite": "chair-north-slate",
+              "x": 25,
+              "y": 20,
+              "width": 1,
+              "height": 2,
+              "layer": "props"
+            },
+            {
+              "id": "audience-chair-1-5",
+              "sprite": "chair-north-slate",
+              "x": 27,
+              "y": 20,
+              "width": 1,
+              "height": 2,
+              "layer": "props"
+            },
+            {
+              "id": "audience-chair-2-0",
+              "sprite": "chair-north-slate",
+              "x": 8,
+              "y": 23,
+              "width": 1,
+              "height": 2,
+              "layer": "props"
+            },
+            {
+              "id": "audience-chair-2-1",
+              "sprite": "chair-north-slate",
+              "x": 10,
+              "y": 23,
+              "width": 1,
+              "height": 2,
+              "layer": "props"
+            },
+            {
+              "id": "audience-chair-2-2",
+              "sprite": "chair-north-slate",
+              "x": 12,
+              "y": 23,
+              "width": 1,
+              "height": 2,
+              "layer": "props"
+            },
+            {
+              "id": "audience-chair-2-3",
+              "sprite": "chair-north-slate",
+              "x": 23,
+              "y": 23,
+              "width": 1,
+              "height": 2,
+              "layer": "props"
+            },
+            {
+              "id": "audience-chair-2-4",
+              "sprite": "chair-north-slate",
+              "x": 25,
+              "y": 23,
+              "width": 1,
+              "height": 2,
+              "layer": "props"
+            },
+            {
+              "id": "audience-chair-2-5",
+              "sprite": "chair-north-slate",
+              "x": 27,
+              "y": 23,
+              "width": 1,
+              "height": 2,
+              "layer": "props"
+            }
+          ]
+        },
+        "images": {
+          "before": [
+            {
+              "name": "Cancer / VarCamp",
+              "image": "assets/sponsors/varcamp-2026.png",
+              "x": 15,
+              "y": 0,
+              "width": 6,
+              "height": 2
+            },
+            {
+              "name": "Cancer / AWS UG Myanmar",
+              "image": "assets/sponsors/partner-aws-ug-mm.png",
+              "x": 8,
+              "y": 4,
+              "width": 4,
+              "height": 2
+            },
+            {
+              "name": "Cancer / BSides Myanmar",
+              "image": "assets/sponsors/partner-bsides-mm.png",
+              "x": 16,
+              "y": 4,
+              "width": 4,
+              "height": 2
+            },
+            {
+              "name": "Cancer / OpenInfra Myanmar",
+              "image": "assets/sponsors/partner-openinfra-mm.png",
+              "x": 24,
+              "y": 4,
+              "width": 4,
+              "height": 2
+            },
+            {
+              "name": "Cancer / Vibe Code Tours",
+              "image": "assets/sponsors/vibecode-tours.png",
+              "x": 8,
+              "y": 0,
+              "width": 4,
+              "height": 2
+            }
+          ],
+          "after": [
+            {
+              "name": "Cancer / VarCamp",
+              "image": "assets/sponsors/varcamp-2026.png",
+              "x": 15,
+              "y": 0,
+              "width": 6,
+              "height": 2
+            },
+            {
+              "name": "Cancer / BSides Myanmar",
+              "image": "assets/sponsors/partner-bsides-mm.png",
+              "x": 11,
+              "y": 4,
+              "width": 4,
+              "height": 2
+            },
+            {
+              "name": "Cancer / Vibe Code Tours",
+              "image": "assets/sponsors/vibecode-tours.png",
+              "x": 21,
+              "y": 4,
+              "width": 4,
+              "height": 2
+            }
+          ]
+        }
+      }
+    },
+    "speaker-capricorn": {
+      "beforeLayoutSha256": "d600d955d406cf1f061f730da40cd124fbc428477baf5c7a1cd7f604b196a665",
+      "afterLayoutSha256": "6c3dbe2eef22c8a6cef638bdd7003ac0833b83aec520c34191417a73b2c61d2d",
+      "changes": {
+        "placements": {
+          "removed": [
+            {
+              "index": 44,
+              "value": {
+                "id": "terrace-west",
+                "sprite": "lounge-terraced",
+                "x": 3,
+                "y": 18,
+                "width": 4,
+                "height": 3,
+                "layer": "props"
+              }
+            },
+            {
+              "index": 45,
+              "value": {
+                "id": "terrace-east",
+                "sprite": "lounge-terraced",
+                "x": 29,
+                "y": 18,
+                "width": 4,
+                "height": 3,
+                "layer": "props"
+              }
+            },
+            {
+              "index": 53,
+              "value": {
+                "id": "seat-00",
+                "sprite": "chair-north-slate",
+                "x": 9,
+                "y": 18,
+                "width": 1,
+                "height": 2,
+                "layer": "props"
+              }
+            },
+            {
+              "index": 54,
+              "value": {
+                "id": "seat-01",
+                "sprite": "chair-north-slate",
+                "x": 12,
+                "y": 18,
+                "width": 1,
+                "height": 2,
+                "layer": "props"
+              }
+            },
+            {
+              "index": 55,
+              "value": {
+                "id": "seat-02",
+                "sprite": "chair-north-slate",
+                "x": 23,
+                "y": 18,
+                "width": 1,
+                "height": 2,
+                "layer": "props"
+              }
+            },
+            {
+              "index": 56,
+              "value": {
+                "id": "seat-03",
+                "sprite": "chair-north-slate",
+                "x": 26,
+                "y": 18,
+                "width": 1,
+                "height": 2,
+                "layer": "props"
+              }
+            },
+            {
+              "index": 57,
+              "value": {
+                "id": "seat-04",
+                "sprite": "chair-north-slate",
+                "x": 7,
+                "y": 22,
+                "width": 1,
+                "height": 2,
+                "layer": "props"
+              }
+            },
+            {
+              "index": 58,
+              "value": {
+                "id": "seat-05",
+                "sprite": "chair-north-slate",
+                "x": 11,
+                "y": 22,
+                "width": 1,
+                "height": 2,
+                "layer": "props"
+              }
+            },
+            {
+              "index": 59,
+              "value": {
+                "id": "seat-06",
+                "sprite": "chair-north-slate",
+                "x": 24,
+                "y": 22,
+                "width": 1,
+                "height": 2,
+                "layer": "props"
+              }
+            },
+            {
+              "index": 60,
+              "value": {
+                "id": "seat-07",
+                "sprite": "chair-north-slate",
+                "x": 28,
+                "y": 22,
+                "width": 1,
+                "height": 2,
+                "layer": "props"
+              }
+            },
+            {
+              "index": 76,
+              "value": {
+                "id": "capricorn-style-partner-card-aws",
+                "sprite": "speaker-style-logo-card",
+                "x": 12,
+                "y": 4,
+                "width": 4,
+                "height": 2,
+                "layer": "props"
+              }
+            },
+            {
+              "index": 77,
+              "value": {
+                "id": "capricorn-style-partner-card-bsides",
+                "sprite": "speaker-style-logo-card",
+                "x": 18,
+                "y": 4,
+                "width": 4,
+                "height": 2,
+                "layer": "props"
+              }
+            },
+            {
+              "index": 78,
+              "value": {
+                "id": "capricorn-style-partner-card-openinfra",
+                "sprite": "speaker-style-logo-card",
+                "x": 24,
+                "y": 4,
+                "width": 4,
+                "height": 2,
+                "layer": "props"
+              }
+            }
+          ],
+          "added": [
+            {
+              "id": "audience-chair-0-0",
+              "sprite": "chair-north-slate",
+              "x": 8,
+              "y": 17,
+              "width": 1,
+              "height": 2,
+              "layer": "props"
+            },
+            {
+              "id": "audience-chair-0-1",
+              "sprite": "chair-north-slate",
+              "x": 10,
+              "y": 17,
+              "width": 1,
+              "height": 2,
+              "layer": "props"
+            },
+            {
+              "id": "audience-chair-0-2",
+              "sprite": "chair-north-slate",
+              "x": 12,
+              "y": 17,
+              "width": 1,
+              "height": 2,
+              "layer": "props"
+            },
+            {
+              "id": "audience-chair-0-3",
+              "sprite": "chair-north-slate",
+              "x": 23,
+              "y": 17,
+              "width": 1,
+              "height": 2,
+              "layer": "props"
+            },
+            {
+              "id": "audience-chair-0-4",
+              "sprite": "chair-north-slate",
+              "x": 25,
+              "y": 17,
+              "width": 1,
+              "height": 2,
+              "layer": "props"
+            },
+            {
+              "id": "audience-chair-0-5",
+              "sprite": "chair-north-slate",
+              "x": 27,
+              "y": 17,
+              "width": 1,
+              "height": 2,
+              "layer": "props"
+            },
+            {
+              "id": "audience-chair-1-0",
+              "sprite": "chair-north-slate",
+              "x": 8,
+              "y": 20,
+              "width": 1,
+              "height": 2,
+              "layer": "props"
+            },
+            {
+              "id": "audience-chair-1-1",
+              "sprite": "chair-north-slate",
+              "x": 10,
+              "y": 20,
+              "width": 1,
+              "height": 2,
+              "layer": "props"
+            },
+            {
+              "id": "audience-chair-1-2",
+              "sprite": "chair-north-slate",
+              "x": 12,
+              "y": 20,
+              "width": 1,
+              "height": 2,
+              "layer": "props"
+            },
+            {
+              "id": "audience-chair-1-3",
+              "sprite": "chair-north-slate",
+              "x": 23,
+              "y": 20,
+              "width": 1,
+              "height": 2,
+              "layer": "props"
+            },
+            {
+              "id": "audience-chair-1-4",
+              "sprite": "chair-north-slate",
+              "x": 25,
+              "y": 20,
+              "width": 1,
+              "height": 2,
+              "layer": "props"
+            },
+            {
+              "id": "audience-chair-1-5",
+              "sprite": "chair-north-slate",
+              "x": 27,
+              "y": 20,
+              "width": 1,
+              "height": 2,
+              "layer": "props"
+            },
+            {
+              "id": "audience-chair-2-0",
+              "sprite": "chair-north-slate",
+              "x": 8,
+              "y": 23,
+              "width": 1,
+              "height": 2,
+              "layer": "props"
+            },
+            {
+              "id": "audience-chair-2-1",
+              "sprite": "chair-north-slate",
+              "x": 10,
+              "y": 23,
+              "width": 1,
+              "height": 2,
+              "layer": "props"
+            },
+            {
+              "id": "audience-chair-2-2",
+              "sprite": "chair-north-slate",
+              "x": 12,
+              "y": 23,
+              "width": 1,
+              "height": 2,
+              "layer": "props"
+            },
+            {
+              "id": "audience-chair-2-3",
+              "sprite": "chair-north-slate",
+              "x": 23,
+              "y": 23,
+              "width": 1,
+              "height": 2,
+              "layer": "props"
+            },
+            {
+              "id": "audience-chair-2-4",
+              "sprite": "chair-north-slate",
+              "x": 25,
+              "y": 23,
+              "width": 1,
+              "height": 2,
+              "layer": "props"
+            },
+            {
+              "id": "audience-chair-2-5",
+              "sprite": "chair-north-slate",
+              "x": 27,
+              "y": 23,
+              "width": 1,
+              "height": 2,
+              "layer": "props"
+            }
+          ]
+        },
+        "images": {
+          "before": [
+            {
+              "name": "Capricorn / VarCamp",
+              "image": "assets/sponsors/varcamp-2026.png",
+              "x": 15,
+              "y": 0,
+              "width": 6,
+              "height": 2
+            },
+            {
+              "name": "Capricorn / AWS UG Myanmar",
+              "image": "assets/sponsors/partner-aws-ug-mm.png",
+              "x": 12,
+              "y": 4,
+              "width": 4,
+              "height": 2
+            },
+            {
+              "name": "Capricorn / BSides Myanmar",
+              "image": "assets/sponsors/partner-bsides-mm.png",
+              "x": 18,
+              "y": 4,
+              "width": 4,
+              "height": 2
+            },
+            {
+              "name": "Capricorn / OpenInfra Myanmar",
+              "image": "assets/sponsors/partner-openinfra-mm.png",
+              "x": 24,
+              "y": 4,
+              "width": 4,
+              "height": 2
+            },
+            {
+              "name": "Capricorn / Vibe Code Tours",
+              "image": "assets/sponsors/vibecode-tours.png",
+              "x": 8,
+              "y": 0,
+              "width": 4,
+              "height": 2
+            }
+          ],
+          "after": [
+            {
+              "name": "Capricorn / VarCamp",
+              "image": "assets/sponsors/varcamp-2026.png",
+              "x": 15,
+              "y": 0,
+              "width": 6,
+              "height": 2
+            },
+            {
+              "name": "Capricorn / BSides Myanmar",
+              "image": "assets/sponsors/partner-bsides-mm.png",
+              "x": 11,
+              "y": 4,
+              "width": 4,
+              "height": 2
+            },
+            {
+              "name": "Capricorn / Vibe Code Tours",
+              "image": "assets/sponsors/vibecode-tours.png",
+              "x": 21,
+              "y": 4,
+              "width": 4,
+              "height": 2
+            }
+          ]
+        }
+      }
+    },
+    "speaker-gemini": {
+      "beforeLayoutSha256": "a403b856d6c7abcdb11b906a8e758b44c2ac7cc301ad027d4d622a80a0c518b1",
+      "afterLayoutSha256": "e1e6f7b40701f5ee4b0ac907e6582216d628e670e117bb82473dd935bf2bdabb",
+      "changes": {
+        "placements": {
+          "removed": [
+            {
+              "index": 44,
+              "value": {
+                "id": "west-workstation",
+                "sprite": "desk-coding",
+                "x": 5,
+                "y": 18,
+                "width": 3,
+                "height": 2,
+                "layer": "props"
+              }
+            },
+            {
+              "index": 45,
+              "value": {
+                "id": "west-laptop",
+                "sprite": "laptop",
+                "x": 6,
+                "y": 18,
+                "width": 1,
+                "height": 1,
+                "layer": "props"
+              }
+            },
+            {
+              "index": 46,
+              "value": {
+                "id": "west-second-workstation",
+                "sprite": "desk-coding",
+                "x": 10,
+                "y": 21,
+                "width": 3,
+                "height": 2,
+                "layer": "props"
+              }
+            },
+            {
+              "index": 47,
+              "value": {
+                "id": "west-second-laptop",
+                "sprite": "laptop",
+                "x": 11,
+                "y": 21,
+                "width": 1,
+                "height": 1,
+                "layer": "props"
+              }
+            },
+            {
+              "index": 48,
+              "value": {
+                "id": "east-workstation",
+                "sprite": "desk-coding",
+                "x": 23,
+                "y": 18,
+                "width": 3,
+                "height": 2,
+                "layer": "props"
+              }
+            },
+            {
+              "index": 49,
+              "value": {
+                "id": "east-laptop",
+                "sprite": "laptop",
+                "x": 24,
+                "y": 18,
+                "width": 1,
+                "height": 1,
+                "layer": "props"
+              }
+            },
+            {
+              "index": 50,
+              "value": {
+                "id": "east-second-workstation",
+                "sprite": "desk-coding",
+                "x": 28,
+                "y": 21,
+                "width": 3,
+                "height": 2,
+                "layer": "props"
+              }
+            },
+            {
+              "index": 51,
+              "value": {
+                "id": "east-second-laptop",
+                "sprite": "laptop",
+                "x": 29,
+                "y": 21,
+                "width": 1,
+                "height": 1,
+                "layer": "props"
+              }
+            },
+            {
+              "index": 58,
+              "value": {
+                "id": "seat-00",
+                "sprite": "chair-north-slate",
+                "x": 6,
+                "y": 20,
+                "width": 1,
+                "height": 2,
+                "layer": "props"
+              }
+            },
+            {
+              "index": 59,
+              "value": {
+                "id": "seat-01",
+                "sprite": "chair-north-slate",
+                "x": 11,
+                "y": 23,
+                "width": 1,
+                "height": 2,
+                "layer": "props"
+              }
+            },
+            {
+              "index": 60,
+              "value": {
+                "id": "seat-02",
+                "sprite": "chair-north-slate",
+                "x": 24,
+                "y": 20,
+                "width": 1,
+                "height": 2,
+                "layer": "props"
+              }
+            },
+            {
+              "index": 61,
+              "value": {
+                "id": "seat-03",
+                "sprite": "chair-north-slate",
+                "x": 29,
+                "y": 23,
+                "width": 1,
+                "height": 2,
+                "layer": "props"
+              }
+            },
+            {
+              "index": 62,
+              "value": {
+                "id": "seat-04",
+                "sprite": "chair-north-slate",
+                "x": 8,
+                "y": 17,
+                "width": 1,
+                "height": 2,
+                "layer": "props"
+              }
+            },
+            {
+              "index": 63,
+              "value": {
+                "id": "seat-05",
+                "sprite": "chair-north-slate",
+                "x": 27,
+                "y": 17,
+                "width": 1,
+                "height": 2,
+                "layer": "props"
+              }
+            },
+            {
+              "index": 78,
+              "value": {
+                "id": "gemini-style-partner-card-aws",
+                "sprite": "speaker-style-logo-card",
+                "x": 8,
+                "y": 4,
+                "width": 4,
+                "height": 2,
+                "layer": "props"
+              }
+            },
+            {
+              "index": 79,
+              "value": {
+                "id": "gemini-style-partner-card-bsides",
+                "sprite": "speaker-style-logo-card",
+                "x": 16,
+                "y": 4,
+                "width": 4,
+                "height": 2,
+                "layer": "props"
+              }
+            },
+            {
+              "index": 80,
+              "value": {
+                "id": "gemini-style-partner-card-openinfra",
+                "sprite": "speaker-style-logo-card",
+                "x": 24,
+                "y": 4,
+                "width": 4,
+                "height": 2,
+                "layer": "props"
+              }
+            }
+          ],
+          "added": [
+            {
+              "id": "audience-chair-0-0",
+              "sprite": "chair-north-slate",
+              "x": 8,
+              "y": 17,
+              "width": 1,
+              "height": 2,
+              "layer": "props"
+            },
+            {
+              "id": "audience-chair-0-1",
+              "sprite": "chair-north-slate",
+              "x": 10,
+              "y": 17,
+              "width": 1,
+              "height": 2,
+              "layer": "props"
+            },
+            {
+              "id": "audience-chair-0-2",
+              "sprite": "chair-north-slate",
+              "x": 12,
+              "y": 17,
+              "width": 1,
+              "height": 2,
+              "layer": "props"
+            },
+            {
+              "id": "audience-chair-0-3",
+              "sprite": "chair-north-slate",
+              "x": 23,
+              "y": 17,
+              "width": 1,
+              "height": 2,
+              "layer": "props"
+            },
+            {
+              "id": "audience-chair-0-4",
+              "sprite": "chair-north-slate",
+              "x": 25,
+              "y": 17,
+              "width": 1,
+              "height": 2,
+              "layer": "props"
+            },
+            {
+              "id": "audience-chair-0-5",
+              "sprite": "chair-north-slate",
+              "x": 27,
+              "y": 17,
+              "width": 1,
+              "height": 2,
+              "layer": "props"
+            },
+            {
+              "id": "audience-chair-1-0",
+              "sprite": "chair-north-slate",
+              "x": 8,
+              "y": 20,
+              "width": 1,
+              "height": 2,
+              "layer": "props"
+            },
+            {
+              "id": "audience-chair-1-1",
+              "sprite": "chair-north-slate",
+              "x": 10,
+              "y": 20,
+              "width": 1,
+              "height": 2,
+              "layer": "props"
+            },
+            {
+              "id": "audience-chair-1-2",
+              "sprite": "chair-north-slate",
+              "x": 12,
+              "y": 20,
+              "width": 1,
+              "height": 2,
+              "layer": "props"
+            },
+            {
+              "id": "audience-chair-1-3",
+              "sprite": "chair-north-slate",
+              "x": 23,
+              "y": 20,
+              "width": 1,
+              "height": 2,
+              "layer": "props"
+            },
+            {
+              "id": "audience-chair-1-4",
+              "sprite": "chair-north-slate",
+              "x": 25,
+              "y": 20,
+              "width": 1,
+              "height": 2,
+              "layer": "props"
+            },
+            {
+              "id": "audience-chair-1-5",
+              "sprite": "chair-north-slate",
+              "x": 27,
+              "y": 20,
+              "width": 1,
+              "height": 2,
+              "layer": "props"
+            },
+            {
+              "id": "audience-chair-2-0",
+              "sprite": "chair-north-slate",
+              "x": 8,
+              "y": 23,
+              "width": 1,
+              "height": 2,
+              "layer": "props"
+            },
+            {
+              "id": "audience-chair-2-1",
+              "sprite": "chair-north-slate",
+              "x": 10,
+              "y": 23,
+              "width": 1,
+              "height": 2,
+              "layer": "props"
+            },
+            {
+              "id": "audience-chair-2-2",
+              "sprite": "chair-north-slate",
+              "x": 12,
+              "y": 23,
+              "width": 1,
+              "height": 2,
+              "layer": "props"
+            },
+            {
+              "id": "audience-chair-2-3",
+              "sprite": "chair-north-slate",
+              "x": 23,
+              "y": 23,
+              "width": 1,
+              "height": 2,
+              "layer": "props"
+            },
+            {
+              "id": "audience-chair-2-4",
+              "sprite": "chair-north-slate",
+              "x": 25,
+              "y": 23,
+              "width": 1,
+              "height": 2,
+              "layer": "props"
+            },
+            {
+              "id": "audience-chair-2-5",
+              "sprite": "chair-north-slate",
+              "x": 27,
+              "y": 23,
+              "width": 1,
+              "height": 2,
+              "layer": "props"
+            }
+          ]
+        },
+        "images": {
+          "before": [
+            {
+              "name": "Gemini / VarCamp",
+              "image": "assets/sponsors/varcamp-2026.png",
+              "x": 15,
+              "y": 0,
+              "width": 6,
+              "height": 2
+            },
+            {
+              "name": "Gemini / AWS UG Myanmar",
+              "image": "assets/sponsors/partner-aws-ug-mm.png",
+              "x": 8,
+              "y": 4,
+              "width": 4,
+              "height": 2
+            },
+            {
+              "name": "Gemini / BSides Myanmar",
+              "image": "assets/sponsors/partner-bsides-mm.png",
+              "x": 16,
+              "y": 4,
+              "width": 4,
+              "height": 2
+            },
+            {
+              "name": "Gemini / OpenInfra Myanmar",
+              "image": "assets/sponsors/partner-openinfra-mm.png",
+              "x": 24,
+              "y": 4,
+              "width": 4,
+              "height": 2
+            },
+            {
+              "name": "Gemini / Vibe Code Tours",
+              "image": "assets/sponsors/vibecode-tours.png",
+              "x": 8,
+              "y": 0,
+              "width": 4,
+              "height": 2
+            }
+          ],
+          "after": [
+            {
+              "name": "Gemini / VarCamp",
+              "image": "assets/sponsors/varcamp-2026.png",
+              "x": 15,
+              "y": 0,
+              "width": 6,
+              "height": 2
+            },
+            {
+              "name": "Gemini / BSides Myanmar",
+              "image": "assets/sponsors/partner-bsides-mm.png",
+              "x": 11,
+              "y": 4,
+              "width": 4,
+              "height": 2
+            },
+            {
+              "name": "Gemini / Vibe Code Tours",
+              "image": "assets/sponsors/vibecode-tours.png",
+              "x": 21,
+              "y": 4,
+              "width": 4,
+              "height": 2
+            }
+          ]
+        }
+      }
+    },
+    "speaker-leo": {
+      "beforeLayoutSha256": "962c17996a028a952c68da20bb5c73fe1a729c30443bba7b0657671621b8a330",
+      "afterLayoutSha256": "c36210503731fa4c1611187ac8e125c3c8c16b63eef3e6991396e3bd368d09b6",
+      "changes": {
+        "placements": {
+          "removed": [
+            {
+              "index": 53,
+              "value": {
+                "id": "seat-00",
+                "sprite": "chair-north-cream",
+                "x": 5,
+                "y": 18,
+                "width": 1,
+                "height": 2,
+                "layer": "props"
+              }
+            },
+            {
+              "index": 54,
+              "value": {
+                "id": "seat-01",
+                "sprite": "chair-north-cream",
+                "x": 8,
+                "y": 18,
+                "width": 1,
+                "height": 2,
+                "layer": "props"
+              }
+            },
+            {
+              "index": 55,
+              "value": {
+                "id": "seat-02",
+                "sprite": "chair-north-cream",
+                "x": 11,
+                "y": 18,
+                "width": 1,
+                "height": 2,
+                "layer": "props"
+              }
+            },
+            {
+              "index": 56,
+              "value": {
+                "id": "seat-03",
+                "sprite": "chair-north-cream",
+                "x": 24,
+                "y": 18,
+                "width": 1,
+                "height": 2,
+                "layer": "props"
+              }
+            },
+            {
+              "index": 57,
+              "value": {
+                "id": "seat-04",
+                "sprite": "chair-north-cream",
+                "x": 27,
+                "y": 18,
+                "width": 1,
+                "height": 2,
+                "layer": "props"
+              }
+            },
+            {
+              "index": 58,
+              "value": {
+                "id": "seat-05",
+                "sprite": "chair-north-cream",
+                "x": 30,
+                "y": 18,
+                "width": 1,
+                "height": 2,
+                "layer": "props"
+              }
+            },
+            {
+              "index": 59,
+              "value": {
+                "id": "seat-06",
+                "sprite": "chair-north-cream",
+                "x": 5,
+                "y": 21,
+                "width": 1,
+                "height": 2,
+                "layer": "props"
+              }
+            },
+            {
+              "index": 60,
+              "value": {
+                "id": "seat-07",
+                "sprite": "chair-north-cream",
+                "x": 8,
+                "y": 21,
+                "width": 1,
+                "height": 2,
+                "layer": "props"
+              }
+            },
+            {
+              "index": 61,
+              "value": {
+                "id": "seat-08",
+                "sprite": "chair-north-cream",
+                "x": 11,
+                "y": 21,
+                "width": 1,
+                "height": 2,
+                "layer": "props"
+              }
+            },
+            {
+              "index": 62,
+              "value": {
+                "id": "seat-09",
+                "sprite": "chair-north-cream",
+                "x": 24,
+                "y": 21,
+                "width": 1,
+                "height": 2,
+                "layer": "props"
+              }
+            },
+            {
+              "index": 63,
+              "value": {
+                "id": "seat-10",
+                "sprite": "chair-north-cream",
+                "x": 27,
+                "y": 21,
+                "width": 1,
+                "height": 2,
+                "layer": "props"
+              }
+            },
+            {
+              "index": 64,
+              "value": {
+                "id": "seat-11",
+                "sprite": "chair-north-cream",
+                "x": 30,
+                "y": 21,
+                "width": 1,
+                "height": 2,
+                "layer": "props"
+              }
+            },
+            {
+              "index": 65,
+              "value": {
+                "id": "seat-12",
+                "sprite": "chair-north-cream",
+                "x": 5,
+                "y": 23,
+                "width": 1,
+                "height": 2,
+                "layer": "props"
+              }
+            },
+            {
+              "index": 66,
+              "value": {
+                "id": "seat-13",
+                "sprite": "chair-north-cream",
+                "x": 8,
+                "y": 23,
+                "width": 1,
+                "height": 2,
+                "layer": "props"
+              }
+            },
+            {
+              "index": 67,
+              "value": {
+                "id": "seat-14",
+                "sprite": "chair-north-cream",
+                "x": 11,
+                "y": 23,
+                "width": 1,
+                "height": 2,
+                "layer": "props"
+              }
+            },
+            {
+              "index": 68,
+              "value": {
+                "id": "seat-15",
+                "sprite": "chair-north-cream",
+                "x": 24,
+                "y": 23,
+                "width": 1,
+                "height": 2,
+                "layer": "props"
+              }
+            },
+            {
+              "index": 69,
+              "value": {
+                "id": "seat-16",
+                "sprite": "chair-north-cream",
+                "x": 27,
+                "y": 23,
+                "width": 1,
+                "height": 2,
+                "layer": "props"
+              }
+            },
+            {
+              "index": 70,
+              "value": {
+                "id": "seat-17",
+                "sprite": "chair-north-cream",
+                "x": 30,
+                "y": 23,
+                "width": 1,
+                "height": 2,
+                "layer": "props"
+              }
+            },
+            {
+              "index": 86,
+              "value": {
+                "id": "leo-style-partner-card-aws",
+                "sprite": "speaker-style-logo-card",
+                "x": 8,
+                "y": 4,
+                "width": 4,
+                "height": 2,
+                "layer": "props"
+              }
+            },
+            {
+              "index": 87,
+              "value": {
+                "id": "leo-style-partner-card-bsides",
+                "sprite": "speaker-style-logo-card",
+                "x": 16,
+                "y": 4,
+                "width": 4,
+                "height": 2,
+                "layer": "props"
+              }
+            },
+            {
+              "index": 88,
+              "value": {
+                "id": "leo-style-partner-card-openinfra",
+                "sprite": "speaker-style-logo-card",
+                "x": 24,
+                "y": 4,
+                "width": 4,
+                "height": 2,
+                "layer": "props"
+              }
+            }
+          ],
+          "added": [
+            {
+              "id": "audience-chair-0-0",
+              "sprite": "chair-north-slate",
+              "x": 8,
+              "y": 17,
+              "width": 1,
+              "height": 2,
+              "layer": "props"
+            },
+            {
+              "id": "audience-chair-0-1",
+              "sprite": "chair-north-slate",
+              "x": 10,
+              "y": 17,
+              "width": 1,
+              "height": 2,
+              "layer": "props"
+            },
+            {
+              "id": "audience-chair-0-2",
+              "sprite": "chair-north-slate",
+              "x": 12,
+              "y": 17,
+              "width": 1,
+              "height": 2,
+              "layer": "props"
+            },
+            {
+              "id": "audience-chair-0-3",
+              "sprite": "chair-north-slate",
+              "x": 23,
+              "y": 17,
+              "width": 1,
+              "height": 2,
+              "layer": "props"
+            },
+            {
+              "id": "audience-chair-0-4",
+              "sprite": "chair-north-slate",
+              "x": 25,
+              "y": 17,
+              "width": 1,
+              "height": 2,
+              "layer": "props"
+            },
+            {
+              "id": "audience-chair-0-5",
+              "sprite": "chair-north-slate",
+              "x": 27,
+              "y": 17,
+              "width": 1,
+              "height": 2,
+              "layer": "props"
+            },
+            {
+              "id": "audience-chair-1-0",
+              "sprite": "chair-north-slate",
+              "x": 8,
+              "y": 20,
+              "width": 1,
+              "height": 2,
+              "layer": "props"
+            },
+            {
+              "id": "audience-chair-1-1",
+              "sprite": "chair-north-slate",
+              "x": 10,
+              "y": 20,
+              "width": 1,
+              "height": 2,
+              "layer": "props"
+            },
+            {
+              "id": "audience-chair-1-2",
+              "sprite": "chair-north-slate",
+              "x": 12,
+              "y": 20,
+              "width": 1,
+              "height": 2,
+              "layer": "props"
+            },
+            {
+              "id": "audience-chair-1-3",
+              "sprite": "chair-north-slate",
+              "x": 23,
+              "y": 20,
+              "width": 1,
+              "height": 2,
+              "layer": "props"
+            },
+            {
+              "id": "audience-chair-1-4",
+              "sprite": "chair-north-slate",
+              "x": 25,
+              "y": 20,
+              "width": 1,
+              "height": 2,
+              "layer": "props"
+            },
+            {
+              "id": "audience-chair-1-5",
+              "sprite": "chair-north-slate",
+              "x": 27,
+              "y": 20,
+              "width": 1,
+              "height": 2,
+              "layer": "props"
+            },
+            {
+              "id": "audience-chair-2-0",
+              "sprite": "chair-north-slate",
+              "x": 8,
+              "y": 23,
+              "width": 1,
+              "height": 2,
+              "layer": "props"
+            },
+            {
+              "id": "audience-chair-2-1",
+              "sprite": "chair-north-slate",
+              "x": 10,
+              "y": 23,
+              "width": 1,
+              "height": 2,
+              "layer": "props"
+            },
+            {
+              "id": "audience-chair-2-2",
+              "sprite": "chair-north-slate",
+              "x": 12,
+              "y": 23,
+              "width": 1,
+              "height": 2,
+              "layer": "props"
+            },
+            {
+              "id": "audience-chair-2-3",
+              "sprite": "chair-north-slate",
+              "x": 23,
+              "y": 23,
+              "width": 1,
+              "height": 2,
+              "layer": "props"
+            },
+            {
+              "id": "audience-chair-2-4",
+              "sprite": "chair-north-slate",
+              "x": 25,
+              "y": 23,
+              "width": 1,
+              "height": 2,
+              "layer": "props"
+            },
+            {
+              "id": "audience-chair-2-5",
+              "sprite": "chair-north-slate",
+              "x": 27,
+              "y": 23,
+              "width": 1,
+              "height": 2,
+              "layer": "props"
+            }
+          ]
+        },
+        "images": {
+          "before": [
+            {
+              "name": "Leo / VarCamp",
+              "image": "assets/sponsors/varcamp-2026.png",
+              "x": 15,
+              "y": 0,
+              "width": 6,
+              "height": 2
+            },
+            {
+              "name": "Leo / AWS UG Myanmar",
+              "image": "assets/sponsors/partner-aws-ug-mm.png",
+              "x": 8,
+              "y": 4,
+              "width": 4,
+              "height": 2
+            },
+            {
+              "name": "Leo / BSides Myanmar",
+              "image": "assets/sponsors/partner-bsides-mm.png",
+              "x": 16,
+              "y": 4,
+              "width": 4,
+              "height": 2
+            },
+            {
+              "name": "Leo / OpenInfra Myanmar",
+              "image": "assets/sponsors/partner-openinfra-mm.png",
+              "x": 24,
+              "y": 4,
+              "width": 4,
+              "height": 2
+            },
+            {
+              "name": "Leo / Vibe Code Tours",
+              "image": "assets/sponsors/vibecode-tours.png",
+              "x": 8,
+              "y": 0,
+              "width": 4,
+              "height": 2
+            }
+          ],
+          "after": [
+            {
+              "name": "Leo / VarCamp",
+              "image": "assets/sponsors/varcamp-2026.png",
+              "x": 15,
+              "y": 0,
+              "width": 6,
+              "height": 2
+            },
+            {
+              "name": "Leo / BSides Myanmar",
+              "image": "assets/sponsors/partner-bsides-mm.png",
+              "x": 11,
+              "y": 4,
+              "width": 4,
+              "height": 2
+            },
+            {
+              "name": "Leo / Vibe Code Tours",
+              "image": "assets/sponsors/vibecode-tours.png",
+              "x": 21,
+              "y": 4,
+              "width": 4,
+              "height": 2
+            }
+          ]
+        }
+      }
+    },
+    "speaker-libra": {
+      "beforeLayoutSha256": "a554cdc9ba45b33f3c3a2780d3aab3c7d40c7ce3f3129a20d740334e91a737fa",
+      "afterLayoutSha256": "90ca3121a00b5c41c4ae4bbf8d094ee6f1a0772583841087f4cf5c38ce6053a2",
+      "changes": {
+        "placements": {
+          "removed": [
+            {
+              "index": 46,
+              "value": {
+                "id": "west-forum-table",
+                "sprite": "table-small-white",
+                "x": 7,
+                "y": 22,
+                "width": 1,
+                "height": 1,
+                "layer": "props"
+              }
+            },
+            {
+              "index": 47,
+              "value": {
+                "id": "east-forum-table",
+                "sprite": "table-small-white",
+                "x": 28,
+                "y": 22,
+                "width": 1,
+                "height": 1,
+                "layer": "props"
+              }
+            },
+            {
+              "index": 48,
+              "value": {
+                "id": "forum-bench-west",
+                "sprite": "bench-curved",
+                "x": 3,
+                "y": 21,
+                "width": 4,
+                "height": 2,
+                "layer": "props"
+              }
+            },
+            {
+              "index": 49,
+              "value": {
+                "id": "forum-bench-east",
+                "sprite": "bench-curved",
+                "x": 29,
+                "y": 21,
+                "width": 4,
+                "height": 2,
+                "layer": "props"
+              }
+            },
+            {
+              "index": 54,
+              "value": {
+                "id": "seat-00",
+                "sprite": "chair-north-cream",
+                "x": 5,
+                "y": 18,
+                "width": 1,
+                "height": 2,
+                "layer": "props"
+              }
+            },
+            {
+              "index": 55,
+              "value": {
+                "id": "seat-01",
+                "sprite": "chair-north-cream",
+                "x": 10,
+                "y": 19,
+                "width": 1,
+                "height": 2,
+                "layer": "props"
+              }
+            },
+            {
+              "index": 56,
+              "value": {
+                "id": "seat-02",
+                "sprite": "chair-north-cream",
+                "x": 13,
+                "y": 22,
+                "width": 1,
+                "height": 2,
+                "layer": "props"
+              }
+            },
+            {
+              "index": 57,
+              "value": {
+                "id": "seat-03",
+                "sprite": "chair-north-cream",
+                "x": 22,
+                "y": 22,
+                "width": 1,
+                "height": 2,
+                "layer": "props"
+              }
+            },
+            {
+              "index": 58,
+              "value": {
+                "id": "seat-04",
+                "sprite": "chair-north-cream",
+                "x": 25,
+                "y": 19,
+                "width": 1,
+                "height": 2,
+                "layer": "props"
+              }
+            },
+            {
+              "index": 59,
+              "value": {
+                "id": "seat-05",
+                "sprite": "chair-north-cream",
+                "x": 30,
+                "y": 18,
+                "width": 1,
+                "height": 2,
+                "layer": "props"
+              }
+            },
+            {
+              "index": 75,
+              "value": {
+                "id": "libra-style-partner-card-aws",
+                "sprite": "speaker-style-logo-card",
+                "x": 8,
+                "y": 4,
+                "width": 4,
+                "height": 2,
+                "layer": "props"
+              }
+            },
+            {
+              "index": 76,
+              "value": {
+                "id": "libra-style-partner-card-bsides",
+                "sprite": "speaker-style-logo-card",
+                "x": 16,
+                "y": 4,
+                "width": 4,
+                "height": 2,
+                "layer": "props"
+              }
+            },
+            {
+              "index": 77,
+              "value": {
+                "id": "libra-style-partner-card-openinfra",
+                "sprite": "speaker-style-logo-card",
+                "x": 24,
+                "y": 4,
+                "width": 4,
+                "height": 2,
+                "layer": "props"
+              }
+            }
+          ],
+          "added": [
+            {
+              "id": "audience-chair-0-0",
+              "sprite": "chair-north-slate",
+              "x": 8,
+              "y": 17,
+              "width": 1,
+              "height": 2,
+              "layer": "props"
+            },
+            {
+              "id": "audience-chair-0-1",
+              "sprite": "chair-north-slate",
+              "x": 10,
+              "y": 17,
+              "width": 1,
+              "height": 2,
+              "layer": "props"
+            },
+            {
+              "id": "audience-chair-0-2",
+              "sprite": "chair-north-slate",
+              "x": 12,
+              "y": 17,
+              "width": 1,
+              "height": 2,
+              "layer": "props"
+            },
+            {
+              "id": "audience-chair-0-3",
+              "sprite": "chair-north-slate",
+              "x": 23,
+              "y": 17,
+              "width": 1,
+              "height": 2,
+              "layer": "props"
+            },
+            {
+              "id": "audience-chair-0-4",
+              "sprite": "chair-north-slate",
+              "x": 25,
+              "y": 17,
+              "width": 1,
+              "height": 2,
+              "layer": "props"
+            },
+            {
+              "id": "audience-chair-0-5",
+              "sprite": "chair-north-slate",
+              "x": 27,
+              "y": 17,
+              "width": 1,
+              "height": 2,
+              "layer": "props"
+            },
+            {
+              "id": "audience-chair-1-0",
+              "sprite": "chair-north-slate",
+              "x": 8,
+              "y": 20,
+              "width": 1,
+              "height": 2,
+              "layer": "props"
+            },
+            {
+              "id": "audience-chair-1-1",
+              "sprite": "chair-north-slate",
+              "x": 10,
+              "y": 20,
+              "width": 1,
+              "height": 2,
+              "layer": "props"
+            },
+            {
+              "id": "audience-chair-1-2",
+              "sprite": "chair-north-slate",
+              "x": 12,
+              "y": 20,
+              "width": 1,
+              "height": 2,
+              "layer": "props"
+            },
+            {
+              "id": "audience-chair-1-3",
+              "sprite": "chair-north-slate",
+              "x": 23,
+              "y": 20,
+              "width": 1,
+              "height": 2,
+              "layer": "props"
+            },
+            {
+              "id": "audience-chair-1-4",
+              "sprite": "chair-north-slate",
+              "x": 25,
+              "y": 20,
+              "width": 1,
+              "height": 2,
+              "layer": "props"
+            },
+            {
+              "id": "audience-chair-1-5",
+              "sprite": "chair-north-slate",
+              "x": 27,
+              "y": 20,
+              "width": 1,
+              "height": 2,
+              "layer": "props"
+            },
+            {
+              "id": "audience-chair-2-0",
+              "sprite": "chair-north-slate",
+              "x": 8,
+              "y": 23,
+              "width": 1,
+              "height": 2,
+              "layer": "props"
+            },
+            {
+              "id": "audience-chair-2-1",
+              "sprite": "chair-north-slate",
+              "x": 10,
+              "y": 23,
+              "width": 1,
+              "height": 2,
+              "layer": "props"
+            },
+            {
+              "id": "audience-chair-2-2",
+              "sprite": "chair-north-slate",
+              "x": 12,
+              "y": 23,
+              "width": 1,
+              "height": 2,
+              "layer": "props"
+            },
+            {
+              "id": "audience-chair-2-3",
+              "sprite": "chair-north-slate",
+              "x": 23,
+              "y": 23,
+              "width": 1,
+              "height": 2,
+              "layer": "props"
+            },
+            {
+              "id": "audience-chair-2-4",
+              "sprite": "chair-north-slate",
+              "x": 25,
+              "y": 23,
+              "width": 1,
+              "height": 2,
+              "layer": "props"
+            },
+            {
+              "id": "audience-chair-2-5",
+              "sprite": "chair-north-slate",
+              "x": 27,
+              "y": 23,
+              "width": 1,
+              "height": 2,
+              "layer": "props"
+            }
+          ]
+        },
+        "images": {
+          "before": [
+            {
+              "name": "Libra / VarCamp",
+              "image": "assets/sponsors/varcamp-2026.png",
+              "x": 15,
+              "y": 0,
+              "width": 6,
+              "height": 2
+            },
+            {
+              "name": "Libra / AWS UG Myanmar",
+              "image": "assets/sponsors/partner-aws-ug-mm.png",
+              "x": 8,
+              "y": 4,
+              "width": 4,
+              "height": 2
+            },
+            {
+              "name": "Libra / BSides Myanmar",
+              "image": "assets/sponsors/partner-bsides-mm.png",
+              "x": 16,
+              "y": 4,
+              "width": 4,
+              "height": 2
+            },
+            {
+              "name": "Libra / OpenInfra Myanmar",
+              "image": "assets/sponsors/partner-openinfra-mm.png",
+              "x": 24,
+              "y": 4,
+              "width": 4,
+              "height": 2
+            },
+            {
+              "name": "Libra / Vibe Code Tours",
+              "image": "assets/sponsors/vibecode-tours.png",
+              "x": 8,
+              "y": 0,
+              "width": 4,
+              "height": 2
+            }
+          ],
+          "after": [
+            {
+              "name": "Libra / VarCamp",
+              "image": "assets/sponsors/varcamp-2026.png",
+              "x": 15,
+              "y": 0,
+              "width": 6,
+              "height": 2
+            },
+            {
+              "name": "Libra / BSides Myanmar",
+              "image": "assets/sponsors/partner-bsides-mm.png",
+              "x": 11,
+              "y": 4,
+              "width": 4,
+              "height": 2
+            },
+            {
+              "name": "Libra / Vibe Code Tours",
+              "image": "assets/sponsors/vibecode-tours.png",
+              "x": 21,
+              "y": 4,
+              "width": 4,
+              "height": 2
+            }
+          ]
+        }
+      }
+    },
+    "speaker-pisces": {
+      "beforeLayoutSha256": "2b1eb844e9d5e085bd27a2efe61169b4f3c0721e64074c02f6922c8663d99a88",
+      "afterLayoutSha256": "76f5afee2b35090d08b87295872c91364cdb7054c32649e9baefbb10b44ddd81",
+      "changes": {
+        "placements": {
+          "removed": [
+            {
+              "index": 46,
+              "value": {
+                "id": "tidal-bench-west",
+                "sprite": "bench-curved",
+                "x": 4,
+                "y": 21,
+                "width": 4,
+                "height": 2,
+                "layer": "props"
+              }
+            },
+            {
+              "index": 47,
+              "value": {
+                "id": "tidal-bench-east",
+                "sprite": "bench-curved",
+                "x": 28,
+                "y": 21,
+                "width": 4,
+                "height": 2,
+                "layer": "props"
+              }
+            },
+            {
+              "index": 53,
+              "value": {
+                "id": "seat-00",
+                "sprite": "chair-north-cream",
+                "x": 8,
+                "y": 18,
+                "width": 1,
+                "height": 2,
+                "layer": "props"
+              }
+            },
+            {
+              "index": 54,
+              "value": {
+                "id": "seat-01",
+                "sprite": "chair-north-cream",
+                "x": 11,
+                "y": 21,
+                "width": 1,
+                "height": 2,
+                "layer": "props"
+              }
+            },
+            {
+              "index": 55,
+              "value": {
+                "id": "seat-02",
+                "sprite": "chair-north-cream",
+                "x": 24,
+                "y": 21,
+                "width": 1,
+                "height": 2,
+                "layer": "props"
+              }
+            },
+            {
+              "index": 56,
+              "value": {
+                "id": "seat-03",
+                "sprite": "chair-north-cream",
+                "x": 27,
+                "y": 18,
+                "width": 1,
+                "height": 2,
+                "layer": "props"
+              }
+            },
+            {
+              "index": 57,
+              "value": {
+                "id": "seat-04",
+                "sprite": "chair-north-cream",
+                "x": 7,
+                "y": 24,
+                "width": 1,
+                "height": 2,
+                "layer": "props"
+              }
+            },
+            {
+              "index": 58,
+              "value": {
+                "id": "seat-05",
+                "sprite": "chair-north-cream",
+                "x": 12,
+                "y": 24,
+                "width": 1,
+                "height": 2,
+                "layer": "props"
+              }
+            },
+            {
+              "index": 59,
+              "value": {
+                "id": "seat-06",
+                "sprite": "chair-north-cream",
+                "x": 23,
+                "y": 24,
+                "width": 1,
+                "height": 2,
+                "layer": "props"
+              }
+            },
+            {
+              "index": 60,
+              "value": {
+                "id": "seat-07",
+                "sprite": "chair-north-cream",
+                "x": 28,
+                "y": 24,
+                "width": 1,
+                "height": 2,
+                "layer": "props"
+              }
+            },
+            {
+              "index": 76,
+              "value": {
+                "id": "pisces-style-partner-card-aws",
+                "sprite": "speaker-style-logo-card",
+                "x": 8,
+                "y": 4,
+                "width": 4,
+                "height": 2,
+                "layer": "props"
+              }
+            },
+            {
+              "index": 77,
+              "value": {
+                "id": "pisces-style-partner-card-bsides",
+                "sprite": "speaker-style-logo-card",
+                "x": 16,
+                "y": 4,
+                "width": 4,
+                "height": 2,
+                "layer": "props"
+              }
+            },
+            {
+              "index": 78,
+              "value": {
+                "id": "pisces-style-partner-card-openinfra",
+                "sprite": "speaker-style-logo-card",
+                "x": 24,
+                "y": 4,
+                "width": 4,
+                "height": 2,
+                "layer": "props"
+              }
+            }
+          ],
+          "added": [
+            {
+              "id": "audience-chair-0-0",
+              "sprite": "chair-north-slate",
+              "x": 8,
+              "y": 17,
+              "width": 1,
+              "height": 2,
+              "layer": "props"
+            },
+            {
+              "id": "audience-chair-0-1",
+              "sprite": "chair-north-slate",
+              "x": 10,
+              "y": 17,
+              "width": 1,
+              "height": 2,
+              "layer": "props"
+            },
+            {
+              "id": "audience-chair-0-2",
+              "sprite": "chair-north-slate",
+              "x": 12,
+              "y": 17,
+              "width": 1,
+              "height": 2,
+              "layer": "props"
+            },
+            {
+              "id": "audience-chair-0-3",
+              "sprite": "chair-north-slate",
+              "x": 23,
+              "y": 17,
+              "width": 1,
+              "height": 2,
+              "layer": "props"
+            },
+            {
+              "id": "audience-chair-0-4",
+              "sprite": "chair-north-slate",
+              "x": 25,
+              "y": 17,
+              "width": 1,
+              "height": 2,
+              "layer": "props"
+            },
+            {
+              "id": "audience-chair-0-5",
+              "sprite": "chair-north-slate",
+              "x": 27,
+              "y": 17,
+              "width": 1,
+              "height": 2,
+              "layer": "props"
+            },
+            {
+              "id": "audience-chair-1-0",
+              "sprite": "chair-north-slate",
+              "x": 8,
+              "y": 20,
+              "width": 1,
+              "height": 2,
+              "layer": "props"
+            },
+            {
+              "id": "audience-chair-1-1",
+              "sprite": "chair-north-slate",
+              "x": 10,
+              "y": 20,
+              "width": 1,
+              "height": 2,
+              "layer": "props"
+            },
+            {
+              "id": "audience-chair-1-2",
+              "sprite": "chair-north-slate",
+              "x": 12,
+              "y": 20,
+              "width": 1,
+              "height": 2,
+              "layer": "props"
+            },
+            {
+              "id": "audience-chair-1-3",
+              "sprite": "chair-north-slate",
+              "x": 23,
+              "y": 20,
+              "width": 1,
+              "height": 2,
+              "layer": "props"
+            },
+            {
+              "id": "audience-chair-1-4",
+              "sprite": "chair-north-slate",
+              "x": 25,
+              "y": 20,
+              "width": 1,
+              "height": 2,
+              "layer": "props"
+            },
+            {
+              "id": "audience-chair-1-5",
+              "sprite": "chair-north-slate",
+              "x": 27,
+              "y": 20,
+              "width": 1,
+              "height": 2,
+              "layer": "props"
+            },
+            {
+              "id": "audience-chair-2-0",
+              "sprite": "chair-north-slate",
+              "x": 8,
+              "y": 23,
+              "width": 1,
+              "height": 2,
+              "layer": "props"
+            },
+            {
+              "id": "audience-chair-2-1",
+              "sprite": "chair-north-slate",
+              "x": 10,
+              "y": 23,
+              "width": 1,
+              "height": 2,
+              "layer": "props"
+            },
+            {
+              "id": "audience-chair-2-2",
+              "sprite": "chair-north-slate",
+              "x": 12,
+              "y": 23,
+              "width": 1,
+              "height": 2,
+              "layer": "props"
+            },
+            {
+              "id": "audience-chair-2-3",
+              "sprite": "chair-north-slate",
+              "x": 23,
+              "y": 23,
+              "width": 1,
+              "height": 2,
+              "layer": "props"
+            },
+            {
+              "id": "audience-chair-2-4",
+              "sprite": "chair-north-slate",
+              "x": 25,
+              "y": 23,
+              "width": 1,
+              "height": 2,
+              "layer": "props"
+            },
+            {
+              "id": "audience-chair-2-5",
+              "sprite": "chair-north-slate",
+              "x": 27,
+              "y": 23,
+              "width": 1,
+              "height": 2,
+              "layer": "props"
+            }
+          ]
+        },
+        "images": {
+          "before": [
+            {
+              "name": "Pisces / VarCamp",
+              "image": "assets/sponsors/varcamp-2026.png",
+              "x": 15,
+              "y": 0,
+              "width": 6,
+              "height": 2
+            },
+            {
+              "name": "Pisces / AWS UG Myanmar",
+              "image": "assets/sponsors/partner-aws-ug-mm.png",
+              "x": 8,
+              "y": 4,
+              "width": 4,
+              "height": 2
+            },
+            {
+              "name": "Pisces / BSides Myanmar",
+              "image": "assets/sponsors/partner-bsides-mm.png",
+              "x": 16,
+              "y": 4,
+              "width": 4,
+              "height": 2
+            },
+            {
+              "name": "Pisces / OpenInfra Myanmar",
+              "image": "assets/sponsors/partner-openinfra-mm.png",
+              "x": 24,
+              "y": 4,
+              "width": 4,
+              "height": 2
+            },
+            {
+              "name": "Pisces / Vibe Code Tours",
+              "image": "assets/sponsors/vibecode-tours.png",
+              "x": 8,
+              "y": 0,
+              "width": 4,
+              "height": 2
+            }
+          ],
+          "after": [
+            {
+              "name": "Pisces / VarCamp",
+              "image": "assets/sponsors/varcamp-2026.png",
+              "x": 15,
+              "y": 0,
+              "width": 6,
+              "height": 2
+            },
+            {
+              "name": "Pisces / BSides Myanmar",
+              "image": "assets/sponsors/partner-bsides-mm.png",
+              "x": 11,
+              "y": 4,
+              "width": 4,
+              "height": 2
+            },
+            {
+              "name": "Pisces / Vibe Code Tours",
+              "image": "assets/sponsors/vibecode-tours.png",
+              "x": 21,
+              "y": 4,
+              "width": 4,
+              "height": 2
+            }
+          ]
+        }
+      }
+    },
+    "speaker-sagittarius": {
+      "beforeLayoutSha256": "42dff43d71b356fd6ce41001b60ecbfa214751c5239312d65a4bd7f7aa4ff772",
+      "afterLayoutSha256": "881b89ab7fcde0760c603f28a613bf02c4383eafd03b527be7969d642246e3f5",
+      "changes": {
+        "placements": {
+          "removed": [
+            {
+              "index": 46,
+              "value": {
+                "id": "horizon-bench-west",
+                "sprite": "bench-park",
+                "x": 2,
+                "y": 22,
+                "width": 2,
+                "height": 1,
+                "layer": "props"
+              }
+            },
+            {
+              "index": 47,
+              "value": {
+                "id": "horizon-bench-east",
+                "sprite": "bench-park",
+                "x": 36,
+                "y": 22,
+                "width": 2,
+                "height": 1,
+                "layer": "props"
+              }
+            },
+            {
+              "index": 53,
+              "value": {
+                "id": "seat-00",
+                "sprite": "chair-north-slate",
+                "x": 5,
+                "y": 18,
+                "width": 1,
+                "height": 2,
+                "layer": "props"
+              }
+            },
+            {
+              "index": 54,
+              "value": {
+                "id": "seat-01",
+                "sprite": "chair-north-slate",
+                "x": 8,
+                "y": 18,
+                "width": 1,
+                "height": 2,
+                "layer": "props"
+              }
+            },
+            {
+              "index": 55,
+              "value": {
+                "id": "seat-02",
+                "sprite": "chair-north-slate",
+                "x": 11,
+                "y": 19,
+                "width": 1,
+                "height": 2,
+                "layer": "props"
+              }
+            },
+            {
+              "index": 56,
+              "value": {
+                "id": "seat-03",
+                "sprite": "chair-north-slate",
+                "x": 14,
+                "y": 21,
+                "width": 1,
+                "height": 2,
+                "layer": "props"
+              }
+            },
+            {
+              "index": 57,
+              "value": {
+                "id": "seat-04",
+                "sprite": "chair-north-slate",
+                "x": 25,
+                "y": 21,
+                "width": 1,
+                "height": 2,
+                "layer": "props"
+              }
+            },
+            {
+              "index": 58,
+              "value": {
+                "id": "seat-05",
+                "sprite": "chair-north-slate",
+                "x": 28,
+                "y": 19,
+                "width": 1,
+                "height": 2,
+                "layer": "props"
+              }
+            },
+            {
+              "index": 59,
+              "value": {
+                "id": "seat-06",
+                "sprite": "chair-north-slate",
+                "x": 31,
+                "y": 18,
+                "width": 1,
+                "height": 2,
+                "layer": "props"
+              }
+            },
+            {
+              "index": 60,
+              "value": {
+                "id": "seat-07",
+                "sprite": "chair-north-slate",
+                "x": 34,
+                "y": 18,
+                "width": 1,
+                "height": 2,
+                "layer": "props"
+              }
+            },
+            {
+              "index": 61,
+              "value": {
+                "id": "seat-08",
+                "sprite": "chair-north-slate",
+                "x": 6,
+                "y": 23,
+                "width": 1,
+                "height": 2,
+                "layer": "props"
+              }
+            },
+            {
+              "index": 62,
+              "value": {
+                "id": "seat-09",
+                "sprite": "chair-north-slate",
+                "x": 10,
+                "y": 23,
+                "width": 1,
+                "height": 2,
+                "layer": "props"
+              }
+            },
+            {
+              "index": 63,
+              "value": {
+                "id": "seat-10",
+                "sprite": "chair-north-slate",
+                "x": 29,
+                "y": 23,
+                "width": 1,
+                "height": 2,
+                "layer": "props"
+              }
+            },
+            {
+              "index": 64,
+              "value": {
+                "id": "seat-11",
+                "sprite": "chair-north-slate",
+                "x": 33,
+                "y": 23,
+                "width": 1,
+                "height": 2,
+                "layer": "props"
+              }
+            },
+            {
+              "index": 80,
+              "value": {
+                "id": "sagittarius-style-partner-card-aws",
+                "sprite": "speaker-style-logo-card",
+                "x": 10,
+                "y": 4,
+                "width": 4,
+                "height": 2,
+                "layer": "props"
+              }
+            },
+            {
+              "index": 81,
+              "value": {
+                "id": "sagittarius-style-partner-card-bsides",
+                "sprite": "speaker-style-logo-card",
+                "x": 18,
+                "y": 4,
+                "width": 4,
+                "height": 2,
+                "layer": "props"
+              }
+            },
+            {
+              "index": 82,
+              "value": {
+                "id": "sagittarius-style-partner-card-openinfra",
+                "sprite": "speaker-style-logo-card",
+                "x": 26,
+                "y": 4,
+                "width": 4,
+                "height": 2,
+                "layer": "props"
+              }
+            }
+          ],
+          "added": [
+            {
+              "id": "audience-chair-0-0",
+              "sprite": "chair-north-slate",
+              "x": 10,
+              "y": 17,
+              "width": 1,
+              "height": 2,
+              "layer": "props"
+            },
+            {
+              "id": "audience-chair-0-1",
+              "sprite": "chair-north-slate",
+              "x": 12,
+              "y": 17,
+              "width": 1,
+              "height": 2,
+              "layer": "props"
+            },
+            {
+              "id": "audience-chair-0-2",
+              "sprite": "chair-north-slate",
+              "x": 14,
+              "y": 17,
+              "width": 1,
+              "height": 2,
+              "layer": "props"
+            },
+            {
+              "id": "audience-chair-0-3",
+              "sprite": "chair-north-slate",
+              "x": 25,
+              "y": 17,
+              "width": 1,
+              "height": 2,
+              "layer": "props"
+            },
+            {
+              "id": "audience-chair-0-4",
+              "sprite": "chair-north-slate",
+              "x": 27,
+              "y": 17,
+              "width": 1,
+              "height": 2,
+              "layer": "props"
+            },
+            {
+              "id": "audience-chair-0-5",
+              "sprite": "chair-north-slate",
+              "x": 29,
+              "y": 17,
+              "width": 1,
+              "height": 2,
+              "layer": "props"
+            },
+            {
+              "id": "audience-chair-1-0",
+              "sprite": "chair-north-slate",
+              "x": 10,
+              "y": 20,
+              "width": 1,
+              "height": 2,
+              "layer": "props"
+            },
+            {
+              "id": "audience-chair-1-1",
+              "sprite": "chair-north-slate",
+              "x": 12,
+              "y": 20,
+              "width": 1,
+              "height": 2,
+              "layer": "props"
+            },
+            {
+              "id": "audience-chair-1-2",
+              "sprite": "chair-north-slate",
+              "x": 14,
+              "y": 20,
+              "width": 1,
+              "height": 2,
+              "layer": "props"
+            },
+            {
+              "id": "audience-chair-1-3",
+              "sprite": "chair-north-slate",
+              "x": 25,
+              "y": 20,
+              "width": 1,
+              "height": 2,
+              "layer": "props"
+            },
+            {
+              "id": "audience-chair-1-4",
+              "sprite": "chair-north-slate",
+              "x": 27,
+              "y": 20,
+              "width": 1,
+              "height": 2,
+              "layer": "props"
+            },
+            {
+              "id": "audience-chair-1-5",
+              "sprite": "chair-north-slate",
+              "x": 29,
+              "y": 20,
+              "width": 1,
+              "height": 2,
+              "layer": "props"
+            },
+            {
+              "id": "audience-chair-2-0",
+              "sprite": "chair-north-slate",
+              "x": 10,
+              "y": 23,
+              "width": 1,
+              "height": 2,
+              "layer": "props"
+            },
+            {
+              "id": "audience-chair-2-1",
+              "sprite": "chair-north-slate",
+              "x": 12,
+              "y": 23,
+              "width": 1,
+              "height": 2,
+              "layer": "props"
+            },
+            {
+              "id": "audience-chair-2-2",
+              "sprite": "chair-north-slate",
+              "x": 14,
+              "y": 23,
+              "width": 1,
+              "height": 2,
+              "layer": "props"
+            },
+            {
+              "id": "audience-chair-2-3",
+              "sprite": "chair-north-slate",
+              "x": 25,
+              "y": 23,
+              "width": 1,
+              "height": 2,
+              "layer": "props"
+            },
+            {
+              "id": "audience-chair-2-4",
+              "sprite": "chair-north-slate",
+              "x": 27,
+              "y": 23,
+              "width": 1,
+              "height": 2,
+              "layer": "props"
+            },
+            {
+              "id": "audience-chair-2-5",
+              "sprite": "chair-north-slate",
+              "x": 29,
+              "y": 23,
+              "width": 1,
+              "height": 2,
+              "layer": "props"
+            }
+          ]
+        },
+        "images": {
+          "before": [
+            {
+              "name": "Sagittarius / VarCamp",
+              "image": "assets/sponsors/varcamp-2026.png",
+              "x": 17,
+              "y": 0,
+              "width": 6,
+              "height": 2
+            },
+            {
+              "name": "Sagittarius / AWS UG Myanmar",
+              "image": "assets/sponsors/partner-aws-ug-mm.png",
+              "x": 10,
+              "y": 4,
+              "width": 4,
+              "height": 2
+            },
+            {
+              "name": "Sagittarius / BSides Myanmar",
+              "image": "assets/sponsors/partner-bsides-mm.png",
+              "x": 18,
+              "y": 4,
+              "width": 4,
+              "height": 2
+            },
+            {
+              "name": "Sagittarius / OpenInfra Myanmar",
+              "image": "assets/sponsors/partner-openinfra-mm.png",
+              "x": 26,
+              "y": 4,
+              "width": 4,
+              "height": 2
+            },
+            {
+              "name": "Sagittarius / Vibe Code Tours",
+              "image": "assets/sponsors/vibecode-tours.png",
+              "x": 10,
+              "y": 0,
+              "width": 4,
+              "height": 2
+            }
+          ],
+          "after": [
+            {
+              "name": "Sagittarius / VarCamp",
+              "image": "assets/sponsors/varcamp-2026.png",
+              "x": 17,
+              "y": 0,
+              "width": 6,
+              "height": 2
+            },
+            {
+              "name": "Sagittarius / BSides Myanmar",
+              "image": "assets/sponsors/partner-bsides-mm.png",
+              "x": 13,
+              "y": 4,
+              "width": 4,
+              "height": 2
+            },
+            {
+              "name": "Sagittarius / Vibe Code Tours",
+              "image": "assets/sponsors/vibecode-tours.png",
+              "x": 23,
+              "y": 4,
+              "width": 4,
+              "height": 2
+            }
+          ]
+        }
+      }
+    },
+    "speaker-scorpio": {
+      "beforeLayoutSha256": "bf68a5b7613b1fd31973b563f5b63b19766ca569104ff7ad13782c05492e1583",
+      "afterLayoutSha256": "610638fa99e9d3e15785248ce6960c0ea024f3bd93588f84d655f87aab210b55",
+      "changes": {
+        "placements": {
+          "removed": [
+            {
+              "index": 44,
+              "value": {
+                "id": "idea-pod-west",
+                "sprite": "glass-pod",
+                "x": 3,
+                "y": 18,
+                "width": 4,
+                "height": 4,
+                "layer": "props",
+                "renderRole": "grounded"
+              }
+            },
+            {
+              "index": 45,
+              "value": {
+                "id": "idea-pod-east",
+                "sprite": "glass-pod",
+                "x": 29,
+                "y": 18,
+                "width": 4,
+                "height": 4,
+                "layer": "props",
+                "renderRole": "grounded"
+              }
+            },
+            {
+              "index": 46,
+              "value": {
+                "id": "idea-workstation-west",
+                "sprite": "desk-cream",
+                "x": 4,
+                "y": 19,
+                "width": 2,
+                "height": 2,
+                "layer": "props"
+              }
+            },
+            {
+              "index": 47,
+              "value": {
+                "id": "idea-workstation-east",
+                "sprite": "desk-cream",
+                "x": 30,
+                "y": 19,
+                "width": 2,
+                "height": 2,
+                "layer": "props"
+              }
+            },
+            {
+              "index": 48,
+              "value": {
+                "id": "idea-cyan-west",
+                "sprite": "light-cyan",
+                "x": 8,
+                "y": 19,
+                "width": 1,
+                "height": 2,
+                "layer": "props",
+                "renderRole": "grounded"
+              }
+            },
+            {
+              "index": 49,
+              "value": {
+                "id": "idea-cyan-east",
+                "sprite": "light-cyan",
+                "x": 27,
+                "y": 19,
+                "width": 1,
+                "height": 2,
+                "layer": "props",
+                "renderRole": "grounded"
+              }
+            },
+            {
+              "index": 55,
+              "value": {
+                "id": "seat-00",
+                "sprite": "chair-north-slate",
+                "x": 10,
+                "y": 18,
+                "width": 1,
+                "height": 2,
+                "layer": "props"
+              }
+            },
+            {
+              "index": 56,
+              "value": {
+                "id": "seat-01",
+                "sprite": "chair-north-slate",
+                "x": 12,
+                "y": 22,
+                "width": 1,
+                "height": 2,
+                "layer": "props"
+              }
+            },
+            {
+              "index": 57,
+              "value": {
+                "id": "seat-02",
+                "sprite": "chair-north-slate",
+                "x": 23,
+                "y": 22,
+                "width": 1,
+                "height": 2,
+                "layer": "props"
+              }
+            },
+            {
+              "index": 58,
+              "value": {
+                "id": "seat-03",
+                "sprite": "chair-north-slate",
+                "x": 25,
+                "y": 18,
+                "width": 1,
+                "height": 2,
+                "layer": "props"
+              }
+            },
+            {
+              "index": 74,
+              "value": {
+                "id": "scorpio-style-partner-card-aws",
+                "sprite": "speaker-style-logo-card",
+                "x": 8,
+                "y": 4,
+                "width": 4,
+                "height": 2,
+                "layer": "props"
+              }
+            },
+            {
+              "index": 75,
+              "value": {
+                "id": "scorpio-style-partner-card-bsides",
+                "sprite": "speaker-style-logo-card",
+                "x": 16,
+                "y": 4,
+                "width": 4,
+                "height": 2,
+                "layer": "props"
+              }
+            },
+            {
+              "index": 76,
+              "value": {
+                "id": "scorpio-style-partner-card-openinfra",
+                "sprite": "speaker-style-logo-card",
+                "x": 24,
+                "y": 4,
+                "width": 4,
+                "height": 2,
+                "layer": "props"
+              }
+            }
+          ],
+          "added": [
+            {
+              "id": "idea-cyan-west",
+              "sprite": "light-cyan",
+              "x": 3,
+              "y": 16,
+              "width": 1,
+              "height": 2,
+              "layer": "props",
+              "renderRole": "grounded"
+            },
+            {
+              "id": "idea-cyan-east",
+              "sprite": "light-cyan",
+              "x": 32,
+              "y": 16,
+              "width": 1,
+              "height": 2,
+              "layer": "props",
+              "renderRole": "grounded"
+            },
+            {
+              "id": "audience-chair-0-0",
+              "sprite": "chair-north-slate",
+              "x": 8,
+              "y": 17,
+              "width": 1,
+              "height": 2,
+              "layer": "props"
+            },
+            {
+              "id": "audience-chair-0-1",
+              "sprite": "chair-north-slate",
+              "x": 10,
+              "y": 17,
+              "width": 1,
+              "height": 2,
+              "layer": "props"
+            },
+            {
+              "id": "audience-chair-0-2",
+              "sprite": "chair-north-slate",
+              "x": 12,
+              "y": 17,
+              "width": 1,
+              "height": 2,
+              "layer": "props"
+            },
+            {
+              "id": "audience-chair-0-3",
+              "sprite": "chair-north-slate",
+              "x": 23,
+              "y": 17,
+              "width": 1,
+              "height": 2,
+              "layer": "props"
+            },
+            {
+              "id": "audience-chair-0-4",
+              "sprite": "chair-north-slate",
+              "x": 25,
+              "y": 17,
+              "width": 1,
+              "height": 2,
+              "layer": "props"
+            },
+            {
+              "id": "audience-chair-0-5",
+              "sprite": "chair-north-slate",
+              "x": 27,
+              "y": 17,
+              "width": 1,
+              "height": 2,
+              "layer": "props"
+            },
+            {
+              "id": "audience-chair-1-0",
+              "sprite": "chair-north-slate",
+              "x": 8,
+              "y": 20,
+              "width": 1,
+              "height": 2,
+              "layer": "props"
+            },
+            {
+              "id": "audience-chair-1-1",
+              "sprite": "chair-north-slate",
+              "x": 10,
+              "y": 20,
+              "width": 1,
+              "height": 2,
+              "layer": "props"
+            },
+            {
+              "id": "audience-chair-1-2",
+              "sprite": "chair-north-slate",
+              "x": 12,
+              "y": 20,
+              "width": 1,
+              "height": 2,
+              "layer": "props"
+            },
+            {
+              "id": "audience-chair-1-3",
+              "sprite": "chair-north-slate",
+              "x": 23,
+              "y": 20,
+              "width": 1,
+              "height": 2,
+              "layer": "props"
+            },
+            {
+              "id": "audience-chair-1-4",
+              "sprite": "chair-north-slate",
+              "x": 25,
+              "y": 20,
+              "width": 1,
+              "height": 2,
+              "layer": "props"
+            },
+            {
+              "id": "audience-chair-1-5",
+              "sprite": "chair-north-slate",
+              "x": 27,
+              "y": 20,
+              "width": 1,
+              "height": 2,
+              "layer": "props"
+            },
+            {
+              "id": "audience-chair-2-0",
+              "sprite": "chair-north-slate",
+              "x": 8,
+              "y": 23,
+              "width": 1,
+              "height": 2,
+              "layer": "props"
+            },
+            {
+              "id": "audience-chair-2-1",
+              "sprite": "chair-north-slate",
+              "x": 10,
+              "y": 23,
+              "width": 1,
+              "height": 2,
+              "layer": "props"
+            },
+            {
+              "id": "audience-chair-2-2",
+              "sprite": "chair-north-slate",
+              "x": 12,
+              "y": 23,
+              "width": 1,
+              "height": 2,
+              "layer": "props"
+            },
+            {
+              "id": "audience-chair-2-3",
+              "sprite": "chair-north-slate",
+              "x": 23,
+              "y": 23,
+              "width": 1,
+              "height": 2,
+              "layer": "props"
+            },
+            {
+              "id": "audience-chair-2-4",
+              "sprite": "chair-north-slate",
+              "x": 25,
+              "y": 23,
+              "width": 1,
+              "height": 2,
+              "layer": "props"
+            },
+            {
+              "id": "audience-chair-2-5",
+              "sprite": "chair-north-slate",
+              "x": 27,
+              "y": 23,
+              "width": 1,
+              "height": 2,
+              "layer": "props"
+            }
+          ]
+        },
+        "images": {
+          "before": [
+            {
+              "name": "Scorpio / VarCamp",
+              "image": "assets/sponsors/varcamp-2026.png",
+              "x": 15,
+              "y": 0,
+              "width": 6,
+              "height": 2
+            },
+            {
+              "name": "Scorpio / AWS UG Myanmar",
+              "image": "assets/sponsors/partner-aws-ug-mm.png",
+              "x": 8,
+              "y": 4,
+              "width": 4,
+              "height": 2
+            },
+            {
+              "name": "Scorpio / BSides Myanmar",
+              "image": "assets/sponsors/partner-bsides-mm.png",
+              "x": 16,
+              "y": 4,
+              "width": 4,
+              "height": 2
+            },
+            {
+              "name": "Scorpio / OpenInfra Myanmar",
+              "image": "assets/sponsors/partner-openinfra-mm.png",
+              "x": 24,
+              "y": 4,
+              "width": 4,
+              "height": 2
+            },
+            {
+              "name": "Scorpio / Vibe Code Tours",
+              "image": "assets/sponsors/vibecode-tours.png",
+              "x": 8,
+              "y": 0,
+              "width": 4,
+              "height": 2
+            }
+          ],
+          "after": [
+            {
+              "name": "Scorpio / VarCamp",
+              "image": "assets/sponsors/varcamp-2026.png",
+              "x": 15,
+              "y": 0,
+              "width": 6,
+              "height": 2
+            },
+            {
+              "name": "Scorpio / BSides Myanmar",
+              "image": "assets/sponsors/partner-bsides-mm.png",
+              "x": 11,
+              "y": 4,
+              "width": 4,
+              "height": 2
+            },
+            {
+              "name": "Scorpio / Vibe Code Tours",
+              "image": "assets/sponsors/vibecode-tours.png",
+              "x": 21,
+              "y": 4,
+              "width": 4,
+              "height": 2
+            }
+          ]
+        }
+      }
+    },
+    "speaker-taurus": {
+      "beforeLayoutSha256": "e053bb14475b9b407125ba080326f3923f38b3ddfae1fff52da6de02757a98eb",
+      "afterLayoutSha256": "d0f1302cea8896dc222171d4adfd1fe4ccf7c1cc2787e741e1fe0fe06c9515ba",
+      "changes": {
+        "placements": {
+          "removed": [
+            {
+              "index": 44,
+              "value": {
+                "id": "roundtable-west",
+                "sprite": "table-circular",
+                "x": 6,
+                "y": 19,
+                "width": 4,
+                "height": 3,
+                "layer": "props"
+              }
+            },
+            {
+              "index": 45,
+              "value": {
+                "id": "roundtable-east",
+                "sprite": "table-circular",
+                "x": 25,
+                "y": 19,
+                "width": 4,
+                "height": 3,
+                "layer": "props"
+              }
+            },
+            {
+              "index": 53,
+              "value": {
+                "id": "seat-00",
+                "sprite": "chair-north-cream",
+                "x": 5,
+                "y": 22,
+                "width": 1,
+                "height": 2,
+                "layer": "props"
+              }
+            },
+            {
+              "index": 54,
+              "value": {
+                "id": "seat-01",
+                "sprite": "chair-north-cream",
+                "x": 11,
+                "y": 22,
+                "width": 1,
+                "height": 2,
+                "layer": "props"
+              }
+            },
+            {
+              "index": 55,
+              "value": {
+                "id": "seat-02",
+                "sprite": "chair-north-cream",
+                "x": 24,
+                "y": 22,
+                "width": 1,
+                "height": 2,
+                "layer": "props"
+              }
+            },
+            {
+              "index": 56,
+              "value": {
+                "id": "seat-03",
+                "sprite": "chair-north-cream",
+                "x": 30,
+                "y": 22,
+                "width": 1,
+                "height": 2,
+                "layer": "props"
+              }
+            },
+            {
+              "index": 57,
+              "value": {
+                "id": "seat-04",
+                "sprite": "chair-north-cream",
+                "x": 5,
+                "y": 17,
+                "width": 1,
+                "height": 2,
+                "layer": "props"
+              }
+            },
+            {
+              "index": 58,
+              "value": {
+                "id": "seat-05",
+                "sprite": "chair-north-cream",
+                "x": 11,
+                "y": 17,
+                "width": 1,
+                "height": 2,
+                "layer": "props"
+              }
+            },
+            {
+              "index": 59,
+              "value": {
+                "id": "seat-06",
+                "sprite": "chair-north-cream",
+                "x": 24,
+                "y": 17,
+                "width": 1,
+                "height": 2,
+                "layer": "props"
+              }
+            },
+            {
+              "index": 60,
+              "value": {
+                "id": "seat-07",
+                "sprite": "chair-north-cream",
+                "x": 30,
+                "y": 17,
+                "width": 1,
+                "height": 2,
+                "layer": "props"
+              }
+            },
+            {
+              "index": 76,
+              "value": {
+                "id": "taurus-style-partner-card-aws",
+                "sprite": "speaker-style-logo-card",
+                "x": 8,
+                "y": 4,
+                "width": 4,
+                "height": 2,
+                "layer": "props"
+              }
+            },
+            {
+              "index": 77,
+              "value": {
+                "id": "taurus-style-partner-card-bsides",
+                "sprite": "speaker-style-logo-card",
+                "x": 16,
+                "y": 4,
+                "width": 4,
+                "height": 2,
+                "layer": "props"
+              }
+            },
+            {
+              "index": 78,
+              "value": {
+                "id": "taurus-style-partner-card-openinfra",
+                "sprite": "speaker-style-logo-card",
+                "x": 24,
+                "y": 4,
+                "width": 4,
+                "height": 2,
+                "layer": "props"
+              }
+            }
+          ],
+          "added": [
+            {
+              "id": "audience-chair-0-0",
+              "sprite": "chair-north-slate",
+              "x": 8,
+              "y": 17,
+              "width": 1,
+              "height": 2,
+              "layer": "props"
+            },
+            {
+              "id": "audience-chair-0-1",
+              "sprite": "chair-north-slate",
+              "x": 10,
+              "y": 17,
+              "width": 1,
+              "height": 2,
+              "layer": "props"
+            },
+            {
+              "id": "audience-chair-0-2",
+              "sprite": "chair-north-slate",
+              "x": 12,
+              "y": 17,
+              "width": 1,
+              "height": 2,
+              "layer": "props"
+            },
+            {
+              "id": "audience-chair-0-3",
+              "sprite": "chair-north-slate",
+              "x": 23,
+              "y": 17,
+              "width": 1,
+              "height": 2,
+              "layer": "props"
+            },
+            {
+              "id": "audience-chair-0-4",
+              "sprite": "chair-north-slate",
+              "x": 25,
+              "y": 17,
+              "width": 1,
+              "height": 2,
+              "layer": "props"
+            },
+            {
+              "id": "audience-chair-0-5",
+              "sprite": "chair-north-slate",
+              "x": 27,
+              "y": 17,
+              "width": 1,
+              "height": 2,
+              "layer": "props"
+            },
+            {
+              "id": "audience-chair-1-0",
+              "sprite": "chair-north-slate",
+              "x": 8,
+              "y": 20,
+              "width": 1,
+              "height": 2,
+              "layer": "props"
+            },
+            {
+              "id": "audience-chair-1-1",
+              "sprite": "chair-north-slate",
+              "x": 10,
+              "y": 20,
+              "width": 1,
+              "height": 2,
+              "layer": "props"
+            },
+            {
+              "id": "audience-chair-1-2",
+              "sprite": "chair-north-slate",
+              "x": 12,
+              "y": 20,
+              "width": 1,
+              "height": 2,
+              "layer": "props"
+            },
+            {
+              "id": "audience-chair-1-3",
+              "sprite": "chair-north-slate",
+              "x": 23,
+              "y": 20,
+              "width": 1,
+              "height": 2,
+              "layer": "props"
+            },
+            {
+              "id": "audience-chair-1-4",
+              "sprite": "chair-north-slate",
+              "x": 25,
+              "y": 20,
+              "width": 1,
+              "height": 2,
+              "layer": "props"
+            },
+            {
+              "id": "audience-chair-1-5",
+              "sprite": "chair-north-slate",
+              "x": 27,
+              "y": 20,
+              "width": 1,
+              "height": 2,
+              "layer": "props"
+            },
+            {
+              "id": "audience-chair-2-0",
+              "sprite": "chair-north-slate",
+              "x": 8,
+              "y": 23,
+              "width": 1,
+              "height": 2,
+              "layer": "props"
+            },
+            {
+              "id": "audience-chair-2-1",
+              "sprite": "chair-north-slate",
+              "x": 10,
+              "y": 23,
+              "width": 1,
+              "height": 2,
+              "layer": "props"
+            },
+            {
+              "id": "audience-chair-2-2",
+              "sprite": "chair-north-slate",
+              "x": 12,
+              "y": 23,
+              "width": 1,
+              "height": 2,
+              "layer": "props"
+            },
+            {
+              "id": "audience-chair-2-3",
+              "sprite": "chair-north-slate",
+              "x": 23,
+              "y": 23,
+              "width": 1,
+              "height": 2,
+              "layer": "props"
+            },
+            {
+              "id": "audience-chair-2-4",
+              "sprite": "chair-north-slate",
+              "x": 25,
+              "y": 23,
+              "width": 1,
+              "height": 2,
+              "layer": "props"
+            },
+            {
+              "id": "audience-chair-2-5",
+              "sprite": "chair-north-slate",
+              "x": 27,
+              "y": 23,
+              "width": 1,
+              "height": 2,
+              "layer": "props"
+            }
+          ]
+        },
+        "images": {
+          "before": [
+            {
+              "name": "Taurus / VarCamp",
+              "image": "assets/sponsors/varcamp-2026.png",
+              "x": 15,
+              "y": 0,
+              "width": 6,
+              "height": 2
+            },
+            {
+              "name": "Taurus / AWS UG Myanmar",
+              "image": "assets/sponsors/partner-aws-ug-mm.png",
+              "x": 8,
+              "y": 4,
+              "width": 4,
+              "height": 2
+            },
+            {
+              "name": "Taurus / BSides Myanmar",
+              "image": "assets/sponsors/partner-bsides-mm.png",
+              "x": 16,
+              "y": 4,
+              "width": 4,
+              "height": 2
+            },
+            {
+              "name": "Taurus / OpenInfra Myanmar",
+              "image": "assets/sponsors/partner-openinfra-mm.png",
+              "x": 24,
+              "y": 4,
+              "width": 4,
+              "height": 2
+            },
+            {
+              "name": "Taurus / Vibe Code Tours",
+              "image": "assets/sponsors/vibecode-tours.png",
+              "x": 8,
+              "y": 0,
+              "width": 4,
+              "height": 2
+            }
+          ],
+          "after": [
+            {
+              "name": "Taurus / VarCamp",
+              "image": "assets/sponsors/varcamp-2026.png",
+              "x": 15,
+              "y": 0,
+              "width": 6,
+              "height": 2
+            },
+            {
+              "name": "Taurus / BSides Myanmar",
+              "image": "assets/sponsors/partner-bsides-mm.png",
+              "x": 11,
+              "y": 4,
+              "width": 4,
+              "height": 2
+            },
+            {
+              "name": "Taurus / Vibe Code Tours",
+              "image": "assets/sponsors/vibecode-tours.png",
+              "x": 21,
+              "y": 4,
+              "width": 4,
+              "height": 2
+            }
+          ]
+        }
+      }
+    },
+    "speaker-virgo": {
+      "beforeLayoutSha256": "f164bf49f6cf81fa09c162436c18516d7c4d830f9036391115ba222c1dd47d3b",
+      "afterLayoutSha256": "c2dff6b9fa32612887cf481dc897bd4f7ce9f481dbf949923f213082134bf9ff",
+      "changes": {
+        "placements": {
+          "removed": [
+            {
+              "index": 46,
+              "value": {
+                "id": "research-workstation-west",
+                "sprite": "desk-coding",
+                "x": 7,
+                "y": 18,
+                "width": 3,
+                "height": 2,
+                "layer": "props"
+              }
+            },
+            {
+              "index": 47,
+              "value": {
+                "id": "research-laptop-west",
+                "sprite": "laptop",
+                "x": 8,
+                "y": 18,
+                "width": 1,
+                "height": 1,
+                "layer": "props"
+              }
+            },
+            {
+              "index": 48,
+              "value": {
+                "id": "research-workstation-east",
+                "sprite": "desk-coding",
+                "x": 24,
+                "y": 18,
+                "width": 3,
+                "height": 2,
+                "layer": "props"
+              }
+            },
+            {
+              "index": 49,
+              "value": {
+                "id": "research-laptop-east",
+                "sprite": "laptop",
+                "x": 25,
+                "y": 18,
+                "width": 1,
+                "height": 1,
+                "layer": "props"
+              }
+            },
+            {
+              "index": 50,
+              "value": {
+                "id": "research-side-table-west",
+                "sprite": "table-small-white",
+                "x": 5,
+                "y": 23,
+                "width": 1,
+                "height": 1,
+                "layer": "props"
+              }
+            },
+            {
+              "index": 51,
+              "value": {
+                "id": "research-side-table-east",
+                "sprite": "table-small-white",
+                "x": 28,
+                "y": 23,
+                "width": 1,
+                "height": 1,
+                "layer": "props"
+              }
+            },
+            {
+              "index": 58,
+              "value": {
+                "id": "seat-00",
+                "sprite": "chair-north-slate",
+                "x": 8,
+                "y": 20,
+                "width": 1,
+                "height": 2,
+                "layer": "props"
+              }
+            },
+            {
+              "index": 59,
+              "value": {
+                "id": "seat-01",
+                "sprite": "chair-north-slate",
+                "x": 25,
+                "y": 20,
+                "width": 1,
+                "height": 2,
+                "layer": "props"
+              }
+            },
+            {
+              "index": 60,
+              "value": {
+                "id": "seat-02",
+                "sprite": "chair-north-slate",
+                "x": 8,
+                "y": 23,
+                "width": 1,
+                "height": 2,
+                "layer": "props"
+              }
+            },
+            {
+              "index": 61,
+              "value": {
+                "id": "seat-03",
+                "sprite": "chair-north-slate",
+                "x": 25,
+                "y": 23,
+                "width": 1,
+                "height": 2,
+                "layer": "props"
+              }
+            },
+            {
+              "index": 77,
+              "value": {
+                "id": "virgo-style-partner-card-aws",
+                "sprite": "speaker-style-logo-card",
+                "x": 8,
+                "y": 4,
+                "width": 4,
+                "height": 2,
+                "layer": "props"
+              }
+            },
+            {
+              "index": 78,
+              "value": {
+                "id": "virgo-style-partner-card-bsides",
+                "sprite": "speaker-style-logo-card",
+                "x": 16,
+                "y": 4,
+                "width": 4,
+                "height": 2,
+                "layer": "props"
+              }
+            },
+            {
+              "index": 79,
+              "value": {
+                "id": "virgo-style-partner-card-openinfra",
+                "sprite": "speaker-style-logo-card",
+                "x": 24,
+                "y": 4,
+                "width": 4,
+                "height": 2,
+                "layer": "props"
+              }
+            }
+          ],
+          "added": [
+            {
+              "id": "audience-chair-0-0",
+              "sprite": "chair-north-slate",
+              "x": 8,
+              "y": 17,
+              "width": 1,
+              "height": 2,
+              "layer": "props"
+            },
+            {
+              "id": "audience-chair-0-1",
+              "sprite": "chair-north-slate",
+              "x": 10,
+              "y": 17,
+              "width": 1,
+              "height": 2,
+              "layer": "props"
+            },
+            {
+              "id": "audience-chair-0-2",
+              "sprite": "chair-north-slate",
+              "x": 12,
+              "y": 17,
+              "width": 1,
+              "height": 2,
+              "layer": "props"
+            },
+            {
+              "id": "audience-chair-0-3",
+              "sprite": "chair-north-slate",
+              "x": 23,
+              "y": 17,
+              "width": 1,
+              "height": 2,
+              "layer": "props"
+            },
+            {
+              "id": "audience-chair-0-4",
+              "sprite": "chair-north-slate",
+              "x": 25,
+              "y": 17,
+              "width": 1,
+              "height": 2,
+              "layer": "props"
+            },
+            {
+              "id": "audience-chair-0-5",
+              "sprite": "chair-north-slate",
+              "x": 27,
+              "y": 17,
+              "width": 1,
+              "height": 2,
+              "layer": "props"
+            },
+            {
+              "id": "audience-chair-1-0",
+              "sprite": "chair-north-slate",
+              "x": 8,
+              "y": 20,
+              "width": 1,
+              "height": 2,
+              "layer": "props"
+            },
+            {
+              "id": "audience-chair-1-1",
+              "sprite": "chair-north-slate",
+              "x": 10,
+              "y": 20,
+              "width": 1,
+              "height": 2,
+              "layer": "props"
+            },
+            {
+              "id": "audience-chair-1-2",
+              "sprite": "chair-north-slate",
+              "x": 12,
+              "y": 20,
+              "width": 1,
+              "height": 2,
+              "layer": "props"
+            },
+            {
+              "id": "audience-chair-1-3",
+              "sprite": "chair-north-slate",
+              "x": 23,
+              "y": 20,
+              "width": 1,
+              "height": 2,
+              "layer": "props"
+            },
+            {
+              "id": "audience-chair-1-4",
+              "sprite": "chair-north-slate",
+              "x": 25,
+              "y": 20,
+              "width": 1,
+              "height": 2,
+              "layer": "props"
+            },
+            {
+              "id": "audience-chair-1-5",
+              "sprite": "chair-north-slate",
+              "x": 27,
+              "y": 20,
+              "width": 1,
+              "height": 2,
+              "layer": "props"
+            },
+            {
+              "id": "audience-chair-2-0",
+              "sprite": "chair-north-slate",
+              "x": 8,
+              "y": 23,
+              "width": 1,
+              "height": 2,
+              "layer": "props"
+            },
+            {
+              "id": "audience-chair-2-1",
+              "sprite": "chair-north-slate",
+              "x": 10,
+              "y": 23,
+              "width": 1,
+              "height": 2,
+              "layer": "props"
+            },
+            {
+              "id": "audience-chair-2-2",
+              "sprite": "chair-north-slate",
+              "x": 12,
+              "y": 23,
+              "width": 1,
+              "height": 2,
+              "layer": "props"
+            },
+            {
+              "id": "audience-chair-2-3",
+              "sprite": "chair-north-slate",
+              "x": 23,
+              "y": 23,
+              "width": 1,
+              "height": 2,
+              "layer": "props"
+            },
+            {
+              "id": "audience-chair-2-4",
+              "sprite": "chair-north-slate",
+              "x": 25,
+              "y": 23,
+              "width": 1,
+              "height": 2,
+              "layer": "props"
+            },
+            {
+              "id": "audience-chair-2-5",
+              "sprite": "chair-north-slate",
+              "x": 27,
+              "y": 23,
+              "width": 1,
+              "height": 2,
+              "layer": "props"
+            }
+          ]
+        },
+        "images": {
+          "before": [
+            {
+              "name": "Virgo / VarCamp",
+              "image": "assets/sponsors/varcamp-2026.png",
+              "x": 15,
+              "y": 0,
+              "width": 6,
+              "height": 2
+            },
+            {
+              "name": "Virgo / AWS UG Myanmar",
+              "image": "assets/sponsors/partner-aws-ug-mm.png",
+              "x": 8,
+              "y": 4,
+              "width": 4,
+              "height": 2
+            },
+            {
+              "name": "Virgo / BSides Myanmar",
+              "image": "assets/sponsors/partner-bsides-mm.png",
+              "x": 16,
+              "y": 4,
+              "width": 4,
+              "height": 2
+            },
+            {
+              "name": "Virgo / OpenInfra Myanmar",
+              "image": "assets/sponsors/partner-openinfra-mm.png",
+              "x": 24,
+              "y": 4,
+              "width": 4,
+              "height": 2
+            },
+            {
+              "name": "Virgo / Vibe Code Tours",
+              "image": "assets/sponsors/vibecode-tours.png",
+              "x": 8,
+              "y": 0,
+              "width": 4,
+              "height": 2
+            }
+          ],
+          "after": [
+            {
+              "name": "Virgo / VarCamp",
+              "image": "assets/sponsors/varcamp-2026.png",
+              "x": 15,
+              "y": 0,
+              "width": 6,
+              "height": 2
+            },
+            {
+              "name": "Virgo / BSides Myanmar",
+              "image": "assets/sponsors/partner-bsides-mm.png",
+              "x": 11,
+              "y": 4,
+              "width": 4,
+              "height": 2
+            },
+            {
+              "name": "Virgo / Vibe Code Tours",
+              "image": "assets/sponsors/vibecode-tours.png",
+              "x": 21,
+              "y": 4,
+              "width": 4,
+              "height": 2
+            }
+          ]
+        }
+      }
+    }
+  }
+}
