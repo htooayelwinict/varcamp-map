@@ -26,6 +26,7 @@ const mazeInteriorsPath='publication/revisions/2026-10-30-maze-interiors.json';
 const checkInCounterPath='publication/revisions/2026-11-02-check-in-counter.json';
 const eventPresentationPath='publication/revisions/2026-11-02-event-presentation.json';
 const checkInPhysicsPath='publication/revisions/2026-11-02-check-in-physics.json';
+const naturalVenuesPath='publication/revisions/2026-11-02-natural-venues.json';
 const audienceFootprintsPath='publication/revisions/2026-11-02-audience-footprints.json';
 const speakerCommunityPath='publication/revisions/2026-11-02-speaker-community-banners.json';
 const mapPhysicsPath='publication/revisions/2026-10-29-map-physics.json';
@@ -109,6 +110,7 @@ describe('publication exact reviewed replacements', () => {
   function pinCheckInCounter(value:unknown={schemaVersion:1,revisions:[]}) {const bytes=JSON.stringify(value);write(checkInCounterPath,bytes);manifest.extensionInventory[checkInCounterPath]=createHash("sha256").update(bytes).digest("hex");}
   function pinEventPresentation(value:unknown={schemaVersion:1,revisions:[]}) {const bytes=JSON.stringify(value);write(eventPresentationPath,bytes);manifest.extensionInventory[eventPresentationPath]=createHash("sha256").update(bytes).digest("hex");}
   function pinCheckInPhysics(value:unknown={schemaVersion:1,revisions:[]}) {const bytes=JSON.stringify(value);write(checkInPhysicsPath,bytes);manifest.extensionInventory[checkInPhysicsPath]=createHash("sha256").update(bytes).digest("hex");}
+  function pinNaturalVenues(value:unknown={schemaVersion:1,revisions:[]}) {const bytes=JSON.stringify(value);write(naturalVenuesPath,bytes);manifest.extensionInventory[naturalVenuesPath]=createHash("sha256").update(bytes).digest("hex");}
   function pinAudienceFootprints(value:unknown={schemaVersion:1,revisions:[]}) {const bytes=JSON.stringify(value);write(audienceFootprintsPath,bytes);manifest.extensionInventory[audienceFootprintsPath]=createHash("sha256").update(bytes).digest("hex");}
   function pinSpeakerCommunity(value:unknown={schemaVersion:1,revisions:[]}) {const bytes=JSON.stringify(value);write(speakerCommunityPath,bytes);manifest.extensionInventory[speakerCommunityPath]=createHash("sha256").update(bytes).digest("hex");}
   function pinMapPhysics(value:unknown={schemaVersion:1,revisions:[]}) {const bytes=JSON.stringify(value);write(mapPhysicsPath,bytes);manifest.extensionInventory[mapPhysicsPath]=createHash("sha256").update(bytes).digest("hex");}
@@ -171,7 +173,7 @@ describe('publication exact reviewed replacements', () => {
   it('accepts the speaker rollout only from its exact Aries predecessor',()=>{pinAries({schemaVersion:1,revisions:[reviewed()]});const bytes=replacement+'speaker-rollout',row={...reviewed(),fromSha256:replacementHash,toSha256:createHash('sha256').update(bytes).digest('hex')};pinSpeaker({schemaVersion:1,revisions:[row]});write('src/main.ts',bytes);const positive=verify();expect(positive.status,positive.output).toBe(0);pinSpeaker({schemaVersion:1,revisions:[{...row,fromSha256:baselineHash}]});rejects('prior');});
   it('accepts the Aries receipt only from its exact prior and rejects a wrong predecessor',()=>{pinRetirement({schemaVersion:1,revisions:[reviewed()]});const bytes=replacement+'aries',row={...reviewed(),fromSha256:replacementHash,toSha256:createHash('sha256').update(bytes).digest('hex')};pinAries({schemaVersion:1,revisions:[row]});write('src/main.ts',bytes);const positive=verify();expect(positive.status,positive.output).toBe(0);pinAries({schemaVersion:1,revisions:[{...row,fromSha256:baselineHash}]});rejects('prior');});
   it('accepts the fifteenth welcome-plaza receipt only from the exact fourteenth predecessor',()=>{pinVerificationRelease({schemaVersion:1,revisions:[reviewed()]});const bytes=replacement+'retirement';const row={...reviewed(),fromSha256:replacementHash,toSha256:createHash('sha256').update(bytes).digest('hex')};pinRetirement({schemaVersion:1,revisions:[row]});write('src/main.ts',bytes);const result=verify();expect(result.status,result.output).toBe(0);pinRetirement({schemaVersion:1,revisions:[{...row,fromSha256:baselineHash}]});rejects('prior');});
-  it('requires the fifteenth receipt pin and actual file',()=>{delete manifest.extensionInventory[retirementPath];rejects('Reviewed revision file must be pinned');pinRetirement();pinAries();pinSpeaker();pinCove();pinHalls();pinZodiac();pinFinal();pinHallExteriors();pinHallValidation();pinPhysics();pinPhysicsValidation();pinArrival();pinPatrol();pinSpacing();pinFountain();pinLeo();pinBuildings();pinCrescent();pinLandscape();pinVibeCode();pinCafeArrival();pinMazeGates();pinMapPhysics();pinMazeInteriors();pinCheckInCounter();pinEventPresentation();pinCheckInPhysics();pinSpeakerCommunity();pinAudienceFootprints();remove(retirementPath);rejects('Missing extension source: '+retirementPath);});
+  it('requires the fifteenth receipt pin and actual file',()=>{delete manifest.extensionInventory[retirementPath];rejects('Reviewed revision file must be pinned');pinRetirement();pinAries();pinSpeaker();pinCove();pinHalls();pinZodiac();pinFinal();pinHallExteriors();pinHallValidation();pinPhysics();pinPhysicsValidation();pinArrival();pinPatrol();pinSpacing();pinFountain();pinLeo();pinBuildings();pinCrescent();pinLandscape();pinVibeCode();pinCafeArrival();pinMazeGates();pinMapPhysics();pinMazeInteriors();pinCheckInCounter();pinEventPresentation();pinCheckInPhysics();pinSpeakerCommunity();pinAudienceFootprints();pinNaturalVenues();remove(retirementPath);rejects('Missing extension source: '+retirementPath);});
   beforeAll(() => {
     // One immutable physical baseline; cases mutate and restore only touched files.
     root = mkdtempSync(join(tmpdir(), 'varcamp-revisions-'));
@@ -198,7 +200,7 @@ describe('publication exact reviewed replacements', () => {
     pinCampus();
     pinCurrentRelease();
     pinVerificationRelease();
-    pinRetirement();pinAries();pinSpeaker();pinCove();pinHalls();pinZodiac();pinFinal();pinHallExteriors();pinHallValidation();pinPhysics();pinPhysicsValidation();pinArrival();pinPatrol();pinSpacing();pinFountain();pinLeo();pinBuildings();pinCrescent();pinLandscape();pinVibeCode();pinCafeArrival();pinMazeGates();pinMapPhysics();pinMazeInteriors();pinCheckInCounter();pinEventPresentation();pinCheckInPhysics();pinSpeakerCommunity();pinAudienceFootprints();
+    pinRetirement();pinAries();pinSpeaker();pinCove();pinHalls();pinZodiac();pinFinal();pinHallExteriors();pinHallValidation();pinPhysics();pinPhysicsValidation();pinArrival();pinPatrol();pinSpacing();pinFountain();pinLeo();pinBuildings();pinCrescent();pinLandscape();pinVibeCode();pinCafeArrival();pinMazeGates();pinMapPhysics();pinMazeInteriors();pinCheckInCounter();pinEventPresentation();pinCheckInPhysics();pinSpeakerCommunity();pinAudienceFootprints();pinNaturalVenues();
     baselineManifest=structuredClone(manifest);track=true;
   });
   beforeEach(()=>{expect(touched.size).toBe(0);manifest=structuredClone(baselineManifest);});
@@ -419,7 +421,16 @@ describe('publication exact reviewed replacements', () => {
   it.each(['maps/overworld.tmj','maps/constellation-shore.tmj','maps/shipyard-beach.tmj','world/layouts/overworld.json','world/layouts/constellation-shore.json','world/layouts/shipyard-beach.json'])('actual CLI rejects current physical support/scenery mutation %s after a positive baseline',path=>{
     const raw=readFileSync(path,'utf8');pinProps({schemaVersion:1,revisions:[{path,fromSha256:baselineHash,toSha256:createHash('sha256').update(raw).digest('hex'),reason:'Exact reviewed physical prop artifact'}]});
     write(path,raw);const positive=verify();expect(positive.status,positive.output).toBe(0);
-    const changed=JSON.parse(raw);if(path.endsWith('.tmj')){const l=changed.layers.find((l:any)=>l.name==='physical-collisions'),i=l.data.findIndex((v:number)=>v!==0);l.data[i]=0;}else changed.standingSigns[0].supports=[];
+    const changed=JSON.parse(raw);
+    if(path.endsWith('.tmj')){
+      const l=changed.layers.find((l:any)=>l.name==='physical-collisions'),i=l.data.findIndex((v:number)=>v!==0);l.data[i]=0;
+    }else if(changed.standingSigns.length){
+      changed.standingSigns[0].supports=[];
+    }else{
+      const palm=changed.placements.find((p:any)=>p.id==='grove-palm-0');
+      expect(palm,'Coastal fixture must include a physical palm').toBeDefined();
+      palm.x+=1;
+    }
     write(path,JSON.stringify(changed));rejects('Reviewed source changed: '+path);
   });
 

@@ -14,7 +14,7 @@
     },
     {
       "id": "interior-floor",
-      "sprite": "floor-blue",
+      "sprite": "venue-floor-stone",
       "x": 1,
       "y": 3,
       "width": 38,
@@ -213,7 +213,7 @@
     },
     {
       "id": "stage-deck",
-      "sprite": "floor-charcoal",
+      "sprite": "floor-wood-long",
       "x": 6,
       "y": 7,
       "width": 28,
@@ -222,7 +222,7 @@
     },
     {
       "id": "main-aisle",
-      "sprite": "floor-charcoal",
+      "sprite": "venue-floor-stone",
       "x": 18,
       "y": 14,
       "width": 4,
@@ -231,7 +231,7 @@
     },
     {
       "id": "front-crossing",
-      "sprite": "floor-wood-long",
+      "sprite": "venue-floor-stone",
       "x": 2,
       "y": 14,
       "width": 36,
@@ -240,7 +240,7 @@
     },
     {
       "id": "foyer-floor",
-      "sprite": "floor-cosmic",
+      "sprite": "floor-wood",
       "x": 1,
       "y": 27,
       "width": 38,
@@ -294,7 +294,7 @@
     },
     {
       "id": "audience-boundary-floor",
-      "sprite": "floor-charcoal",
+      "sprite": "venue-carpet-slate",
       "x": 2,
       "y": 14,
       "width": 36,
@@ -303,7 +303,7 @@
     },
     {
       "id": "audience-boundary-rug-west",
-      "sprite": "floor-blue",
+      "sprite": "venue-carpet-slate",
       "x": 3,
       "y": 17,
       "width": 15,
@@ -312,7 +312,7 @@
     },
     {
       "id": "audience-boundary-rug-east",
-      "sprite": "floor-blue",
+      "sprite": "venue-carpet-slate",
       "x": 22,
       "y": 17,
       "width": 15,
@@ -357,7 +357,7 @@
     },
     {
       "id": "sagittarius-style-listener-caption",
-      "sprite": "speaker-style-caption-floor",
+      "sprite": "venue-carpet-slate",
       "x": 8,
       "y": 15,
       "width": 24,
@@ -377,7 +377,7 @@
     {
       "id": "speaker-lectern",
       "sprite": "lectern",
-      "x": 15,
+      "x": 19,
       "y": 11,
       "width": 2,
       "height": 2,
@@ -823,7 +823,7 @@
     },
     {
       "id": "audience-boundary-instruction-floor",
-      "sprite": "speaker-style-caption-floor",
+      "sprite": "floor-wood",
       "x": 8,
       "y": 25,
       "width": 24,
@@ -991,6 +991,42 @@
       "width": 1,
       "height": 2,
       "layer": "props"
+    },
+    {
+      "id": "venue-lounge-table",
+      "sprite": "table-small-wood",
+      "x": 33,
+      "y": 32,
+      "width": 1,
+      "height": 1,
+      "layer": "props"
+    },
+    {
+      "id": "venue-lobby-rug-west",
+      "sprite": "venue-carpet-slate",
+      "x": 2,
+      "y": 28,
+      "width": 15,
+      "height": 5,
+      "layer": "terrain"
+    },
+    {
+      "id": "venue-lobby-rug-east",
+      "sprite": "venue-carpet-slate",
+      "x": 23,
+      "y": 28,
+      "width": 15,
+      "height": 5,
+      "layer": "terrain"
+    },
+    {
+      "id": "venue-audience-aisle",
+      "sprite": "venue-floor-stone",
+      "x": 18,
+      "y": 16,
+      "width": 4,
+      "height": 8,
+      "layer": "terrain"
     }
   ],
   "entries": [
@@ -1143,24 +1179,24 @@
     {
       "name": "sagittarius-style-presenters",
       "text": "PRESENTERS",
-      "x": 19,
-      "y": 12,
-      "width": 4,
+      "x": 14,
+      "y": 13,
+      "width": 12,
       "height": 1,
       "fontSize": 12,
-      "color": "#ffd7bd",
-      "align": "left",
+      "color": "#f4e5c9",
+      "align": "center",
       "padding": 0
     },
     {
       "name": "sagittarius-style-listeners",
       "text": "AUDIENCE · LISTENING AREA",
-      "x": 8,
+      "x": 2,
       "y": 15,
-      "width": 24,
+      "width": 36,
       "height": 1,
       "fontSize": 15,
-      "color": "#ffe6d4",
+      "color": "#f6eee0",
       "align": "center",
       "padding": 6
     },
@@ -1172,19 +1208,19 @@
       "width": 8,
       "height": 1,
       "fontSize": 13,
-      "color": "#ffb586",
+      "color": "#253546",
       "align": "left",
       "padding": 0
     },
     {
       "name": "audience-boundary-instruction",
       "text": "STAY INSIDE TO LISTEN · RAISE HAND TO SPEAK",
-      "x": 8,
+      "x": 2,
       "y": 25,
-      "width": 24,
+      "width": 36,
       "height": 1,
-      "fontSize": 13,
-      "color": "#ffe6d4",
+      "fontSize": 12,
+      "color": "#283747",
       "align": "center",
       "padding": 2
     }

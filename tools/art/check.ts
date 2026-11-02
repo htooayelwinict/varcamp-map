@@ -4,6 +4,7 @@ import {checkLeoLionHeadArt} from './leo-lion-head';
 import {checkHallBuildingsArt} from './hall-buildings';
 import{checkStandingCaptionArt}from'./standing-captions';
 import {checkTropicalCoveArt} from './tropical-cove';
+import {checkNaturalCoastArt} from './natural-coast';
 import{checkWorldAmbientArt}from'./world-ambient-check';
 import {renderPlazaIdentity} from './plaza-generated';
 import {renderPlazaGarden} from './plaza-garden';
@@ -36,6 +37,7 @@ import { SIGN_IDS, ELEMENT_IDS } from '../../src/world/catalog';
 interface SourceRecord { attribution: string; url: string; license: string; licenseFile: string; changes: string; files: { path: string; sha256: string }[]; }
 export async function checkArt(catalog: TileCatalog = loadTileCatalog()): Promise<string[]> {
   const errors: string[]=[];
+  await checkNaturalCoastArt();
   const sources=JSON.parse(readFileSync('art/sources.json','utf8')) as Record<string,SourceRecord>;
   // Reject an incomplete mandatory family before evaluating dependent artwork.
   // This remains unconditional even when all fleet registry rows are removed.

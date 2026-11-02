@@ -2,7 +2,7 @@
   "workadventure": {
     "attribution": "WorkAdventure / The Coding Machine; preserve all authors and terms in LICENSE.assets",
     "url": "https://github.com/workadventure/map-starter-kit/tree/1143646a9c02c3928eac4acbb123642c62a48a85/tilesets",
-    "license": "WorkAdventure assets license \u2014 redistribution only with a WorkAdventure map; not a standalone asset pack",
+    "license": "WorkAdventure assets license — redistribution only with a WorkAdventure map; not a standalone asset pack",
     "licenseFile": "assets/tilesets/workadventure/LICENSE.assets",
     "changes": "None. Six complete source sheets copied byte-for-byte. Catalog only selects tile rectangles.",
     "files": [
@@ -66,7 +66,7 @@
     ]
   },
   "lpc-space": {
-    "attribution": "Ba\u015dto/Basxto, Hyptosis, FunwithPixels and Skorpio",
+    "attribution": "Baŝto/Basxto, Hyptosis, FunwithPixels and Skorpio",
     "url": "https://opengameart.org/content/lpc-goes-to-space",
     "license": "CC-BY-SA 4.0",
     "licenseFile": "assets/tilesets/lpc-space/LICENSE-CC-BY-SA-4.0.txt",
@@ -115,23 +115,23 @@
       },
       {
         "path": "art/source/coast-life-harbor-dolphin.json",
-        "sha256": "61ff22d008c050e5db1e62af623c10237e4617c17976548630edea83a867f7c1"
+        "sha256": "5806fddfaa45caca3301e588edd458e9aa4b80c75e6ff606e9cd8e3c7e6c2d1a"
       },
       {
         "path": "art/source/coast-life-harbor-fish-east.json",
-        "sha256": "3e2a4a71e083ff5c5abcc4af0bbac87a236080720fde0e82adb0b7a112bf343e"
+        "sha256": "a42f1b9fdeaacdf741515dd0aa0b2b1dd666c803f4affdbffd08e22e1010499a"
       },
       {
         "path": "art/source/coast-life-harbor-fish-west.json",
-        "sha256": "e5877adcfc304b3461429dac0339ae2c7dcb75264514b1a148e252aa963b7bdb"
+        "sha256": "6b9613d1eec5722f7b527d4f96a584ba7dfb4984858b3ec4ea2adaec1e8c97af"
       },
       {
         "path": "art/source/coast-life-harbor-gull-north.json",
-        "sha256": "b8a7a3c933a628732b6e9ccbd3a50c526013079c428edde1d804f1bdf71d3782"
+        "sha256": "50cd98ecddd90e82b5fd80adc0697709e0dad08d208c6bdbd4f07636f00fe1be"
       },
       {
         "path": "art/source/coast-life-harbor-gull-south.json",
-        "sha256": "d588172131227a3672a65c512532916613eea0873857ca5c12bc0fca0c75383a"
+        "sha256": "aa88e8082b10a3b1ec9f817fd10af5f284cd8859d581a6d327eacf99bebfdb0a"
       },
       {
         "path": "art/source/coast-life-marine-master.png",
@@ -155,7 +155,7 @@
       },
       {
         "path": "art/source/coast-life-shore-dolphin.json",
-        "sha256": "757156036e397ab731968d947600e7b2919cecced27fcaa34a1ce990c89d94c1"
+        "sha256": "ab27fe3f833bb97928f02b1590e778aeecf3c488972eceba91345639b4258699"
       },
       {
         "path": "art/source/coast-life-shore-fish-bay.json",
@@ -163,19 +163,19 @@
       },
       {
         "path": "art/source/coast-life-shore-fish-west.json",
-        "sha256": "b9155271b01ae93f9fb9feffb1699dca06030e67a86b2ff1f6fdadde4036a8d1"
+        "sha256": "4425e1e4c170012ee644ed0ca206b4aad03574e8832561bf2bb64a8d4c2c1a54"
       },
       {
         "path": "art/source/coast-life-shore-gull-north.json",
-        "sha256": "b4fff42cf221d2dc1d1e56d10a252522459cfaa506ad25fb2266842b029604c9"
+        "sha256": "5e4249d5f5bdb7aeb60792513e0de9a8094bceb30bd029fb8c3ca67421372b07"
       },
       {
         "path": "art/source/coast-life-shore-gull-south.json",
-        "sha256": "fd7d567596587e3dd350825177f2bf1022b240ed59bbaab510cf10770daad08e"
+        "sha256": "9790b3f48c6b6d559334babcbda01a3eba04f6026c7a84095d68fe614e98d565"
       },
       {
         "path": "art/source/coast-life-shore-seal.json",
-        "sha256": "82ec80fd6c7e4c7f5cd8012abc1c8ec12643ff6ba9e163acf273135147668591"
+        "sha256": "19158a19ae698c36a7a601e6dc9eb02d05179c384b41f95270e1007b7b45b5a7"
       },
       {
         "path": "art/source/coast-life-small-props-master.png",
@@ -183,7 +183,7 @@
       },
       {
         "path": "art/source/coast-life-tracks.json",
-        "sha256": "bd0dbb1202ccd1e84a89f0e796ab839371f102ebec1de4cb67053c84a190e7f6"
+        "sha256": "6c70f8c4fb55ce3776a43e5db0404acc50ec294d45097f04d230552e20454bdb"
       },
       {
         "path": "art/source/coastal-flight-plane.png",
@@ -1180,6 +1180,14 @@
       {
         "path": "art/source/tropical-cove-coast.json",
         "sha256": "69a2e25087e73c65e2af9e4f1e8c878324841eeade00867821e695a9a9988b44"
+      },
+      {
+        "path": "assets/tilesets/original/natural-shipyard-beach.png",
+        "sha256": "1c8ae35b88c66cc43d22400be00127ee80bb074f02ce457c7853805bc014c6b9"
+      },
+      {
+        "path": "assets/tilesets/original/natural-constellation-shore.png",
+        "sha256": "a51e738b7a1369be0e9a0db10fda41b3cfa3e2c9f81da1f230ca82b4d6785017"
       }
     ]
   },
@@ -1997,6 +2005,31 @@
       {
         "path": "assets/tilesets/original/hall-exteriors.png",
         "sha256": "2365aedfcaed8d5555d25a14c0eec6c5d5d5093525b3761fe721dd87a4694578"
+      }
+    ]
+  },
+  "natural-coast": {
+    "attribution": "VarCamp native terrain compilation from original sand and WorkAdventure exterior pixels. Layout reference: kokoye2007/wa-beach (92a8045). No upstream reference assets copied.",
+    "url": "https://github.com/kokoye2007/wa-beach",
+    "license": "WorkAdventure-specific assets: permitted only in WorkAdventure maps; original recipe CC0-1.0",
+    "licenseFile": "assets/tilesets/natural-coast/LICENSE.assets",
+    "changes": "Organic planted backshore. Original source files retained unchanged.",
+    "files": [
+      {
+        "path": "assets/tilesets/original/natural-shipyard-beach-dunes.png",
+        "sha256": "77b08934177c205d782e4341038d5effccaf1118fd423b4d0b21d1feddc0593b"
+      },
+      {
+        "path": "art/source/natural-shipyard-beach.json",
+        "sha256": "8e9c51793cdcadefd09ce71c62348c0d1af2238c6fefaa8c440dcc11ff0a91c4"
+      },
+      {
+        "path": "assets/tilesets/original/natural-constellation-shore-dunes.png",
+        "sha256": "e6bac579cc4081d8e1d43c3764c69e9830be32c613511bc7821332490bbf93aa"
+      },
+      {
+        "path": "art/source/natural-constellation-shore.json",
+        "sha256": "f4839e162b605ac4083bb11e401c56faf4a6155f1dba5cf2abf46ed3b200a24d"
       }
     ]
   }

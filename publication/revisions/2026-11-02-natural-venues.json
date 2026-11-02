@@ -1,0 +1,317 @@
+{
+  "schemaVersion": 1,
+  "revisions": [
+    {
+      "path": "art/sources.json",
+      "fromSha256": "1a27139a982422c8cd708fa8417c5e5a195b3ece617d763d4dafd8e6a6568211",
+      "toSha256": "f5697bcb7fad667c085b87aa98e0a1616e527858aaaafe4f9761394a9c520bad",
+      "reason": "Natural continuous harbour and shore with small wayfinding; reference-inspired furnishings for twelve zodiac rooms and two halls; existing entrances, saved WAM controls, seats and prior receipts preserved."
+    },
+    {
+      "path": "art/tile-catalog.json",
+      "fromSha256": "f6c2d7087f1c7435ff7ff58bdc92c706bbfa15551cb931870118f0ca6b294c28",
+      "toSha256": "adb5ec623a6c71960e45ba3ea6fad2d4933f687b5d4afc12864cafd6318d64eb",
+      "reason": "Natural continuous harbour and shore with small wayfinding; reference-inspired furnishings for twelve zodiac rooms and two halls; existing entrances, saved WAM controls, seats and prior receipts preserved."
+    },
+    {
+      "path": "maps/constellation-shore.tmj",
+      "fromSha256": "14c3932b8a27fe5ee9c470cf7dc58e7b7ee7d8c84eed37e71d7a4eb023353f86",
+      "toSha256": "576f304beb5ca5e4ef8ef9c30fc335c79a347796e2c137e986401ce39b9d2486",
+      "reason": "Natural continuous harbour and shore with small wayfinding; reference-inspired furnishings for twelve zodiac rooms and two halls; existing entrances, saved WAM controls, seats and prior receipts preserved."
+    },
+    {
+      "path": "maps/lunar-hall.tmj",
+      "fromSha256": "17940eed18d2d56226efb2fa52bf5e8e23f7c543946f3b9f8ca0989a07858205",
+      "toSha256": "a112994390faede0f8e3623928e588794324d7f7126ab91037b714955105dccc",
+      "reason": "Natural continuous harbour and shore with small wayfinding; reference-inspired furnishings for twelve zodiac rooms and two halls; existing entrances, saved WAM controls, seats and prior receipts preserved."
+    },
+    {
+      "path": "maps/preview/constellation-shore.tmj",
+      "fromSha256": "139a20586d18b89b6ad39539f101c82c01938f75ff1155367b523df2e0438d46",
+      "toSha256": "516f2d865bd87708672ec1e666186e030d7a54669cdc165e708d8a7a4a1ba513",
+      "reason": "Natural continuous harbour and shore with small wayfinding; reference-inspired furnishings for twelve zodiac rooms and two halls; existing entrances, saved WAM controls, seats and prior receipts preserved."
+    },
+    {
+      "path": "maps/preview/lunar-hall.tmj",
+      "fromSha256": "811400d0b7b3a36da34dfb843444ebbacfeb55db4fcf73ba2bc33f8d86b473be",
+      "toSha256": "62d8cdcc8b2d33ef0e49e55a9b0a251dfaf6e4716f8a95950db682d8755bc967",
+      "reason": "Natural continuous harbour and shore with small wayfinding; reference-inspired furnishings for twelve zodiac rooms and two halls; existing entrances, saved WAM controls, seats and prior receipts preserved."
+    },
+    {
+      "path": "maps/preview/shipyard-beach.tmj",
+      "fromSha256": "a8c08f915dc228bc1ce3e88d884947e7cdf62d9b7fb096ee76aad91ce5f84d4f",
+      "toSha256": "9dde372cb4ea479d75bb3c5e4422fc7789b0f343e3f85ee0a379094bef0b40e5",
+      "reason": "Natural continuous harbour and shore with small wayfinding; reference-inspired furnishings for twelve zodiac rooms and two halls; existing entrances, saved WAM controls, seats and prior receipts preserved."
+    },
+    {
+      "path": "maps/preview/solar-hall.tmj",
+      "fromSha256": "7ca14cd2d6f5c9b7a26095ef8e356d4ac6f7f59a5fdd2f3b404fae728b7402a4",
+      "toSha256": "0ba77dfcd3420f52221aa4ea4fd6c418db1407663fcc3a9182bac39581ed5589",
+      "reason": "Natural continuous harbour and shore with small wayfinding; reference-inspired furnishings for twelve zodiac rooms and two halls; existing entrances, saved WAM controls, seats and prior receipts preserved."
+    },
+    {
+      "path": "maps/preview/speaker-aquarius.tmj",
+      "fromSha256": "ce8ba57838b2a2da19ed086d188883b3e7e75a511792a2cd1ede6cc9a92ade12",
+      "toSha256": "3594f3ba4bb97074dcfcaf1dc4c5a9bb7b374d0868a77b21a75c9ef8d0ea16a9",
+      "reason": "Natural continuous harbour and shore with small wayfinding; reference-inspired furnishings for twelve zodiac rooms and two halls; existing entrances, saved WAM controls, seats and prior receipts preserved."
+    },
+    {
+      "path": "maps/preview/speaker-aries.tmj",
+      "fromSha256": "6ff1ce0605ef7eb9f1eb9b9a3162e77e97e27af92b60cb6e28b588d1a0ed3bed",
+      "toSha256": "573fcbcc197fa0d3288700026bb2a94febdb8c15240880348fc86e9e73e07a5b",
+      "reason": "Natural continuous harbour and shore with small wayfinding; reference-inspired furnishings for twelve zodiac rooms and two halls; existing entrances, saved WAM controls, seats and prior receipts preserved."
+    },
+    {
+      "path": "maps/preview/speaker-cancer.tmj",
+      "fromSha256": "cd4ef375c95b7a563d833657f3775beececdfad596b338c092049ac81bae2c91",
+      "toSha256": "cb2eb9d1a98abd4435618d6f0aa38608c153d2ebdf71b27a445500a39c7a5c31",
+      "reason": "Natural continuous harbour and shore with small wayfinding; reference-inspired furnishings for twelve zodiac rooms and two halls; existing entrances, saved WAM controls, seats and prior receipts preserved."
+    },
+    {
+      "path": "maps/preview/speaker-capricorn.tmj",
+      "fromSha256": "e8567238c15597d9519bc73ff9b021736ce97262c3e063306a185b63d8bcc738",
+      "toSha256": "b63dfca29e4bbc3a95fe6a076d10f8c4b5e03791e1843ac6556f24543457a29b",
+      "reason": "Natural continuous harbour and shore with small wayfinding; reference-inspired furnishings for twelve zodiac rooms and two halls; existing entrances, saved WAM controls, seats and prior receipts preserved."
+    },
+    {
+      "path": "maps/preview/speaker-gemini.tmj",
+      "fromSha256": "7f6980772a703dae7ee1bd981d0d4130e72ebad2a7e9424e2d6f79ead2cb2e8b",
+      "toSha256": "483c17554f57f390e3e00d590a44ddb21c75ee57555110a3d80a90965aeafb98",
+      "reason": "Natural continuous harbour and shore with small wayfinding; reference-inspired furnishings for twelve zodiac rooms and two halls; existing entrances, saved WAM controls, seats and prior receipts preserved."
+    },
+    {
+      "path": "maps/preview/speaker-leo.tmj",
+      "fromSha256": "e508e436e6493748e916ed02524464d016357af9b74417d74c2884ebb61f015a",
+      "toSha256": "e23403b4a6d23c55674cc2ad5f9abb294afd66a07a06284d5ccde006fc92f818",
+      "reason": "Natural continuous harbour and shore with small wayfinding; reference-inspired furnishings for twelve zodiac rooms and two halls; existing entrances, saved WAM controls, seats and prior receipts preserved."
+    },
+    {
+      "path": "maps/preview/speaker-libra.tmj",
+      "fromSha256": "9906d30e7cc24bb5a6bc914289e0f0c6f65606a3c1d661eb84fe27834b1a0e8c",
+      "toSha256": "68ab765cb3d1b4a87094de7d23d7d88912b573306c45a5a17371ce56ae9945b4",
+      "reason": "Natural continuous harbour and shore with small wayfinding; reference-inspired furnishings for twelve zodiac rooms and two halls; existing entrances, saved WAM controls, seats and prior receipts preserved."
+    },
+    {
+      "path": "maps/preview/speaker-pisces.tmj",
+      "fromSha256": "bfa96e856722c754e443fadfea03e8c02bc21161fcc26a1b5a97e10a55bb8dcd",
+      "toSha256": "5a20263d22c8ab8ce5ff64c5fea5f265eab9a75c3d8c8e7cddfbf02ad0c05a92",
+      "reason": "Natural continuous harbour and shore with small wayfinding; reference-inspired furnishings for twelve zodiac rooms and two halls; existing entrances, saved WAM controls, seats and prior receipts preserved."
+    },
+    {
+      "path": "maps/preview/speaker-sagittarius.tmj",
+      "fromSha256": "dc777677e4f74677a802484e67e17167c69813e85ccd7981f2a794e43f96807d",
+      "toSha256": "2fb1d9f138fd6003b095b61c216e4de91cb0d9f256cc0de65f9a39e83cbcb2ba",
+      "reason": "Natural continuous harbour and shore with small wayfinding; reference-inspired furnishings for twelve zodiac rooms and two halls; existing entrances, saved WAM controls, seats and prior receipts preserved."
+    },
+    {
+      "path": "maps/preview/speaker-scorpio.tmj",
+      "fromSha256": "f184320fc5677f8d137ab4e857c670002f87f5cbbceb7dac4d6c831954363646",
+      "toSha256": "382db1e9509669e166f4d38133df38b5e90e0c5e94d6512022c2d09586e3bf5d",
+      "reason": "Natural continuous harbour and shore with small wayfinding; reference-inspired furnishings for twelve zodiac rooms and two halls; existing entrances, saved WAM controls, seats and prior receipts preserved."
+    },
+    {
+      "path": "maps/preview/speaker-taurus.tmj",
+      "fromSha256": "73be5effc5322d15e84a06d8676dcebb0d616811b3b3b5c93931ebc00c566880",
+      "toSha256": "14324d371a26e00acf5a69f2684ba5630490734d2803ebf341fd0a00a05579e0",
+      "reason": "Natural continuous harbour and shore with small wayfinding; reference-inspired furnishings for twelve zodiac rooms and two halls; existing entrances, saved WAM controls, seats and prior receipts preserved."
+    },
+    {
+      "path": "maps/preview/speaker-virgo.tmj",
+      "fromSha256": "f1c74ee12eda0a171c3a39269ababe9803c3fc715a9bb09c5935b23f55b7eb1f",
+      "toSha256": "77904323efbd69bb816a1bbde9606deba5452e1133a02c6a17b2894bd492486d",
+      "reason": "Natural continuous harbour and shore with small wayfinding; reference-inspired furnishings for twelve zodiac rooms and two halls; existing entrances, saved WAM controls, seats and prior receipts preserved."
+    },
+    {
+      "path": "maps/shipyard-beach.tmj",
+      "fromSha256": "de5a059ba8bb4bd053111fd2f597e3314aee235d118390d9bfc5d62eb82f4dcb",
+      "toSha256": "505fe258faf2f948a186018b29a087364a1a9a39af3d9058bd743988b93c14d0",
+      "reason": "Natural continuous harbour and shore with small wayfinding; reference-inspired furnishings for twelve zodiac rooms and two halls; existing entrances, saved WAM controls, seats and prior receipts preserved."
+    },
+    {
+      "path": "maps/solar-hall.tmj",
+      "fromSha256": "4f8118506d221cdde1b894177818f17304c359b721424ace596f56b1994c0544",
+      "toSha256": "6f12a0d8ac6bdf60bb6e712e2fa6a8f3247375612b23648d05b5ab37ce275a6e",
+      "reason": "Natural continuous harbour and shore with small wayfinding; reference-inspired furnishings for twelve zodiac rooms and two halls; existing entrances, saved WAM controls, seats and prior receipts preserved."
+    },
+    {
+      "path": "maps/speaker-aquarius.tmj",
+      "fromSha256": "bc70437af6ffcaa0d2cb4af6ffb9d2b00bc052c780174f389bfb3137b37ebae7",
+      "toSha256": "49c8e124a9ba04bdc42f81ac8bde52862ee7be4babf10325dbba8e19b2a196d6",
+      "reason": "Natural continuous harbour and shore with small wayfinding; reference-inspired furnishings for twelve zodiac rooms and two halls; existing entrances, saved WAM controls, seats and prior receipts preserved."
+    },
+    {
+      "path": "maps/speaker-aries.tmj",
+      "fromSha256": "5bdd3e646ee0f4014d9f4bb4ea26b55fbf42f65da89ce9525579acda78977304",
+      "toSha256": "04fb2ccb62bd13b3c9b786eaa22a09196f52c4922e9964477206a7b8d78a7b48",
+      "reason": "Natural continuous harbour and shore with small wayfinding; reference-inspired furnishings for twelve zodiac rooms and two halls; existing entrances, saved WAM controls, seats and prior receipts preserved."
+    },
+    {
+      "path": "maps/speaker-cancer.tmj",
+      "fromSha256": "e204d1250cad2c48843aa5256693c5c2cda6fbd2ff1c5e5c12cbaa7f6e8d4d7e",
+      "toSha256": "8393eb844222ce51b0a30dc097403cfc34144ba10a4a26f3b040aa7e5041d834",
+      "reason": "Natural continuous harbour and shore with small wayfinding; reference-inspired furnishings for twelve zodiac rooms and two halls; existing entrances, saved WAM controls, seats and prior receipts preserved."
+    },
+    {
+      "path": "maps/speaker-capricorn.tmj",
+      "fromSha256": "5405d7059f44eeb7d1303c738d0fe56d159b286626b80cb73eb5f89f62383efd",
+      "toSha256": "33b72c1c8d03a623c1eed1345485ad43360b5d4ce4c698ea0e9d7f4cd7441b57",
+      "reason": "Natural continuous harbour and shore with small wayfinding; reference-inspired furnishings for twelve zodiac rooms and two halls; existing entrances, saved WAM controls, seats and prior receipts preserved."
+    },
+    {
+      "path": "maps/speaker-gemini.tmj",
+      "fromSha256": "946b40ec63eb9caebb72469e024da5eaae5abec5d21d4744ce9649e5e0b9ddc6",
+      "toSha256": "8fee85f63d1ea6d8fe88ba03735a5da84e66b1aa4dba29487191f8c91411aac8",
+      "reason": "Natural continuous harbour and shore with small wayfinding; reference-inspired furnishings for twelve zodiac rooms and two halls; existing entrances, saved WAM controls, seats and prior receipts preserved."
+    },
+    {
+      "path": "maps/speaker-leo.tmj",
+      "fromSha256": "9c1c7cd0e6f62c8dfcda7e79d7bd7a66802d47254ee3a1ba65d9305a3502b00e",
+      "toSha256": "712374adf4feaa1fef1e4750915e9f08232228e7c1a4c7d1bf3b9eeb5f37f5e8",
+      "reason": "Natural continuous harbour and shore with small wayfinding; reference-inspired furnishings for twelve zodiac rooms and two halls; existing entrances, saved WAM controls, seats and prior receipts preserved."
+    },
+    {
+      "path": "maps/speaker-libra.tmj",
+      "fromSha256": "057f5d7a6d634601f59c084b441131db2f1f7568dde7abada4540d6a88afdcef",
+      "toSha256": "dee543800987211df6875770947935665a0a14b4339e15d03f6fd49fe7e161e7",
+      "reason": "Natural continuous harbour and shore with small wayfinding; reference-inspired furnishings for twelve zodiac rooms and two halls; existing entrances, saved WAM controls, seats and prior receipts preserved."
+    },
+    {
+      "path": "maps/speaker-pisces.tmj",
+      "fromSha256": "3a819cccc34ea01888d8a4c0e115c8a4686e8151768a1a322fd217ab2090540f",
+      "toSha256": "609492593dece365a6785f4a8881fda95dc150a9e91489edb9eecc0a1c063572",
+      "reason": "Natural continuous harbour and shore with small wayfinding; reference-inspired furnishings for twelve zodiac rooms and two halls; existing entrances, saved WAM controls, seats and prior receipts preserved."
+    },
+    {
+      "path": "maps/speaker-sagittarius.tmj",
+      "fromSha256": "b4566d31fb04a012dab08f66867dd4ba99529f0532032af56f29be2e65a7a479",
+      "toSha256": "70e47fc6cc30ed38c17cb64d12eed010b770943a715bdf0bf18459d86424af48",
+      "reason": "Natural continuous harbour and shore with small wayfinding; reference-inspired furnishings for twelve zodiac rooms and two halls; existing entrances, saved WAM controls, seats and prior receipts preserved."
+    },
+    {
+      "path": "maps/speaker-scorpio.tmj",
+      "fromSha256": "9e78d57e29c6d458252b9160ca72a3184a6633e556e3bdac83e624cfa3daf137",
+      "toSha256": "8f61004eef63c44a4e8a4658f8c91eae4b00ab35386bd1f008bff55959c748b2",
+      "reason": "Natural continuous harbour and shore with small wayfinding; reference-inspired furnishings for twelve zodiac rooms and two halls; existing entrances, saved WAM controls, seats and prior receipts preserved."
+    },
+    {
+      "path": "maps/speaker-taurus.tmj",
+      "fromSha256": "02de217b9ff8227cee7db325a34390414df16d7cb62932f6f54e9bc3b2b461ea",
+      "toSha256": "54b02973a383dfc9c8ddfc451672ea97a86c2e2f46ec2ef76a4e6c04acb82400",
+      "reason": "Natural continuous harbour and shore with small wayfinding; reference-inspired furnishings for twelve zodiac rooms and two halls; existing entrances, saved WAM controls, seats and prior receipts preserved."
+    },
+    {
+      "path": "maps/speaker-virgo.tmj",
+      "fromSha256": "ee3a6b4de259b2f0173151156b6d187268ed3feb5d469531b05f9949f4d78d57",
+      "toSha256": "0671d9bbe1b51da3d74b675b01147337dc1ba4ab84ddfe0b2f8b071da9959182",
+      "reason": "Natural continuous harbour and shore with small wayfinding; reference-inspired furnishings for twelve zodiac rooms and two halls; existing entrances, saved WAM controls, seats and prior receipts preserved."
+    },
+    {
+      "path": "tools/art/check.ts",
+      "fromSha256": "6e1cc3e7a8a7b6b8e72788773ac1c2ff7038e1250d2fd93785fa00cb0efb284b",
+      "toSha256": "4a280841b765b9a4929a5bd88b4aee63cf0c4c4b81bb185018713c03750762bd",
+      "reason": "Natural continuous harbour and shore with small wayfinding; reference-inspired furnishings for twelve zodiac rooms and two halls; existing entrances, saved WAM controls, seats and prior receipts preserved."
+    },
+    {
+      "path": "tools/release.ts",
+      "fromSha256": "44c3147d6c42db478eea5e4c8fdc2af4e6451ccf83a20ddd87412009a874b80c",
+      "toSha256": "2641ad310c5b6c4dfe037fd782a2c134d83ca6e46a3998168f434461c728d709",
+      "reason": "Natural continuous harbour and shore with small wayfinding; reference-inspired furnishings for twelve zodiac rooms and two halls; existing entrances, saved WAM controls, seats and prior receipts preserved."
+    },
+    {
+      "path": "world/layouts/constellation-shore.json",
+      "fromSha256": "a8d21ddea8b23fb28cf7ebaa5d4399b5dea6535ba565490ed08661bf14cb37dd",
+      "toSha256": "915f0bb1da5ce07a5f6d59473040ff883d7b418ed5f5141930e5ba0b954e7190",
+      "reason": "Natural continuous harbour and shore with small wayfinding; reference-inspired furnishings for twelve zodiac rooms and two halls; existing entrances, saved WAM controls, seats and prior receipts preserved."
+    },
+    {
+      "path": "world/layouts/lunar-hall.json",
+      "fromSha256": "d08aa5174834e43271d2481c733fe18278df9a3544530d4a460ce2140c88dc79",
+      "toSha256": "d55a7b39db58183145681014d7e613c791f160e7c0686c41dd9a21ec9d8bdd45",
+      "reason": "Natural continuous harbour and shore with small wayfinding; reference-inspired furnishings for twelve zodiac rooms and two halls; existing entrances, saved WAM controls, seats and prior receipts preserved."
+    },
+    {
+      "path": "world/layouts/shipyard-beach.json",
+      "fromSha256": "a2ebfe604a7c998d3feea6ae792f6e27489294d30fa891d0e8b1a11bc8e09ef3",
+      "toSha256": "06f0a2a4822ca9ddd71a3c535b434ae37476140e192db17d1c35eadbdc7a70b9",
+      "reason": "Natural continuous harbour and shore with small wayfinding; reference-inspired furnishings for twelve zodiac rooms and two halls; existing entrances, saved WAM controls, seats and prior receipts preserved."
+    },
+    {
+      "path": "world/layouts/solar-hall.json",
+      "fromSha256": "41f62192e61d1b593c82b8ab87607c48cdd08d6de2dc2fc0aa5a083c2fed5323",
+      "toSha256": "6b20a88bfd488e82551548ce6123bc901c414e37f23214be10203562afbf1607",
+      "reason": "Natural continuous harbour and shore with small wayfinding; reference-inspired furnishings for twelve zodiac rooms and two halls; existing entrances, saved WAM controls, seats and prior receipts preserved."
+    },
+    {
+      "path": "world/layouts/speaker-aquarius.json",
+      "fromSha256": "af21f88e6a61cd35203f69f8e7b64b8f80225dfa586cbf1d6fd1f4a3ffa71065",
+      "toSha256": "906092808fcb4839a2f4152599c483f056918838e32a59ec74cf8b67cfa739c0",
+      "reason": "Natural continuous harbour and shore with small wayfinding; reference-inspired furnishings for twelve zodiac rooms and two halls; existing entrances, saved WAM controls, seats and prior receipts preserved."
+    },
+    {
+      "path": "world/layouts/speaker-aries.json",
+      "fromSha256": "3c77c49453795704e75223e1a378c162bf6e8b22788cb059f3e338be7ee2adf2",
+      "toSha256": "955e651bb257830f4e550a1d2c856da03e35a984c55fb9059d3803970a6f9ac5",
+      "reason": "Natural continuous harbour and shore with small wayfinding; reference-inspired furnishings for twelve zodiac rooms and two halls; existing entrances, saved WAM controls, seats and prior receipts preserved."
+    },
+    {
+      "path": "world/layouts/speaker-cancer.json",
+      "fromSha256": "0ca8428cc89ed0f6879e8513140967edb967dbdbfd08c1e76099d0abd91bc3b8",
+      "toSha256": "c9162d9f3a4e9e1eef7c42086a53656758f51f943fc5ba7d2a8f6657cdb1858a",
+      "reason": "Natural continuous harbour and shore with small wayfinding; reference-inspired furnishings for twelve zodiac rooms and two halls; existing entrances, saved WAM controls, seats and prior receipts preserved."
+    },
+    {
+      "path": "world/layouts/speaker-capricorn.json",
+      "fromSha256": "b614dbcd43f4c830852ad0c6956449a9a993b15632465e70cd844b11ccee2636",
+      "toSha256": "cdfa8a01cc8b67658e621dd49a2767e2dd777f7fe68d66b1a3d0a76a2b51c833",
+      "reason": "Natural continuous harbour and shore with small wayfinding; reference-inspired furnishings for twelve zodiac rooms and two halls; existing entrances, saved WAM controls, seats and prior receipts preserved."
+    },
+    {
+      "path": "world/layouts/speaker-gemini.json",
+      "fromSha256": "5038570503fe4b501df9c876494fd69b74cd04b826062d4d8aaea34667a30fcc",
+      "toSha256": "fd5292261867cbf0adf634d6c5f1517cdf9edea066bc76f2e93befdc96d0b790",
+      "reason": "Natural continuous harbour and shore with small wayfinding; reference-inspired furnishings for twelve zodiac rooms and two halls; existing entrances, saved WAM controls, seats and prior receipts preserved."
+    },
+    {
+      "path": "world/layouts/speaker-leo.json",
+      "fromSha256": "be0ab628c7674a19610cf4f738376d8827d6778e490ad79f7bf69b0fe9f9412f",
+      "toSha256": "f84a0d0c0a5770f0b0ab17ddce359fd3806753a54b2746faee2350c6c374966e",
+      "reason": "Natural continuous harbour and shore with small wayfinding; reference-inspired furnishings for twelve zodiac rooms and two halls; existing entrances, saved WAM controls, seats and prior receipts preserved."
+    },
+    {
+      "path": "world/layouts/speaker-libra.json",
+      "fromSha256": "5e30fe248682ee76af318a9186be5e7f9d32d5bad532a266e747667d0fc17d40",
+      "toSha256": "b45944d77a048d10f466fcf5dc18c2dd8b03d3adbddad95c996e50a92476dbf3",
+      "reason": "Natural continuous harbour and shore with small wayfinding; reference-inspired furnishings for twelve zodiac rooms and two halls; existing entrances, saved WAM controls, seats and prior receipts preserved."
+    },
+    {
+      "path": "world/layouts/speaker-pisces.json",
+      "fromSha256": "84e5f7da71156f17677fd2681c8ac4f6de726e87189b1c374f93033a600598b0",
+      "toSha256": "416cc8de27b6c6be0b98f108d912188ac76558eec4ded2afa94ec076adca1e24",
+      "reason": "Natural continuous harbour and shore with small wayfinding; reference-inspired furnishings for twelve zodiac rooms and two halls; existing entrances, saved WAM controls, seats and prior receipts preserved."
+    },
+    {
+      "path": "world/layouts/speaker-sagittarius.json",
+      "fromSha256": "ca33b061cead15fe51ee46dfa32af85003eaeca0a49733bd01a943a03d948670",
+      "toSha256": "eaad8ffd984740b26f47705ce9cf64a57a23f78a98bf1e83525353ff9b13e2d6",
+      "reason": "Natural continuous harbour and shore with small wayfinding; reference-inspired furnishings for twelve zodiac rooms and two halls; existing entrances, saved WAM controls, seats and prior receipts preserved."
+    },
+    {
+      "path": "world/layouts/speaker-scorpio.json",
+      "fromSha256": "e92e64ab5577f3ad1a3bf33c071d0ae0d195210e25f1e814a59941efe4d9d315",
+      "toSha256": "26abecf8d36f41e7a488974d38668af40b232f8f983f049f808249bf82feb27e",
+      "reason": "Natural continuous harbour and shore with small wayfinding; reference-inspired furnishings for twelve zodiac rooms and two halls; existing entrances, saved WAM controls, seats and prior receipts preserved."
+    },
+    {
+      "path": "world/layouts/speaker-taurus.json",
+      "fromSha256": "8054a485f7458a3a8a326586f67cf12059ac20c6b65ec7b1655726c3d91f6e9e",
+      "toSha256": "317a92f5bba7e439886c555e1bfdb6da909909912d123d8c48b1480c496f0c2c",
+      "reason": "Natural continuous harbour and shore with small wayfinding; reference-inspired furnishings for twelve zodiac rooms and two halls; existing entrances, saved WAM controls, seats and prior receipts preserved."
+    },
+    {
+      "path": "world/layouts/speaker-virgo.json",
+      "fromSha256": "7988df1cb6e6127d2e3ff421859364dad194fa443818df97ef8022453740ede1",
+      "toSha256": "26c2ef36681be240e2a24368c5bd2d702f7973eb428605f4e9a77acf55ea2a81",
+      "reason": "Natural continuous harbour and shore with small wayfinding; reference-inspired furnishings for twelve zodiac rooms and two halls; existing entrances, saved WAM controls, seats and prior receipts preserved."
+    }
+  ]
+}

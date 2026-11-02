@@ -8,12 +8,17 @@ import {assertTropicalCove} from './tropical-cove';
 import {assertNativePlaza} from './plaza-native';
 import {assertNativeWorldAmbient} from './world-ambient';
 import{assertNativeAnimationSafety}from'./animated-decoration';
+import {isNaturalCoastId,assertNaturalCoast} from './natural-coast';
 import type {TileCatalog} from '../art/catalog';
 import type {TiledMap,MapLayout,WamFile} from './types';
 /** Build and release share the same unconditional current-source boundary.
  * Filename identity always precedes all domain dispatch. */
 export function assertCurrentNativeMap(id:string,map:TiledMap,layout:MapLayout,wam:WamFile,catalog:TileCatalog):void{
  assertDeclaredMapIdentity(id,map,layout,wam);
+ if(isNaturalCoastId(id)){
+  assertNaturalCoast(map,layout,wam,catalog);
+  return;
+ }
  assertNativeReferenceInterior(map,layout,catalog,wam);
  assertNativeStandingCaptions(map,layout);
  assertNativeOceanMap(map,layout);

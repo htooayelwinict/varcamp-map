@@ -2129,7 +2129,7 @@
       "inputs": [
         {
           "path": "art/source/coast-life-tracks.json",
-          "sha256": "bd0dbb1202ccd1e84a89f0e796ab839371f102ebec1de4cb67053c84a190e7f6"
+          "sha256": "6c70f8c4fb55ce3776a43e5db0404acc50ec294d45097f04d230552e20454bdb"
         },
         {
           "path": "art/source/coast-life-fish-poses.png",

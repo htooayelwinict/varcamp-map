@@ -14,7 +14,7 @@
     },
     {
       "id": "interior-floor",
-      "sprite": "floor-cosmic",
+      "sprite": "venue-floor-stone",
       "x": 1,
       "y": 3,
       "width": 62,
@@ -222,7 +222,7 @@
     },
     {
       "id": "stage-deck",
-      "sprite": "floor-charcoal",
+      "sprite": "floor-blue",
       "x": 17,
       "y": 6,
       "width": 30,
@@ -231,7 +231,7 @@
     },
     {
       "id": "audience-floor",
-      "sprite": "floor-charcoal",
+      "sprite": "venue-carpet-moon",
       "x": 16,
       "y": 22,
       "width": 32,
@@ -249,7 +249,7 @@
     },
     {
       "id": "front-crossing",
-      "sprite": "floor-charcoal",
+      "sprite": "venue-floor-stone",
       "x": 2,
       "y": 18,
       "width": 60,
@@ -258,7 +258,7 @@
     },
     {
       "id": "central-aisle-floor",
-      "sprite": "floor-charcoal",
+      "sprite": "venue-floor-stone",
       "x": 29,
       "y": 21,
       "width": 6,
@@ -267,7 +267,7 @@
     },
     {
       "id": "foyer-floor",
-      "sprite": "floor-wood",
+      "sprite": "floor-blue",
       "x": 2,
       "y": 44,
       "width": 60,
@@ -409,7 +409,7 @@
     {
       "id": "speaker-lectern",
       "sprite": "lectern",
-      "x": 27,
+      "x": 31,
       "y": 12,
       "width": 2,
       "height": 2,
@@ -1327,7 +1327,7 @@
     },
     {
       "id": "lunar-hall-style-listener-caption",
-      "sprite": "speaker-style-caption-floor",
+      "sprite": "venue-floor-stone",
       "x": 16,
       "y": 21,
       "width": 32,
@@ -1378,6 +1378,96 @@
       "width": 60,
       "height": 1,
       "layer": "props"
+    },
+    {
+      "id": "venue-gallery-table-east",
+      "sprite": "table-small-wood",
+      "x": 55,
+      "y": 36,
+      "width": 1,
+      "height": 1,
+      "layer": "props"
+    },
+    {
+      "id": "venue-gallery-seat-east",
+      "sprite": "chair-north-cream",
+      "x": 54,
+      "y": 37,
+      "width": 1,
+      "height": 2,
+      "layer": "props"
+    },
+    {
+      "id": "venue-gallery-seat-east-two",
+      "sprite": "chair-north-cream",
+      "x": 57,
+      "y": 37,
+      "width": 1,
+      "height": 2,
+      "layer": "props"
+    },
+    {
+      "id": "venue-gallery-sofa-west-two",
+      "sprite": "sofa-blue",
+      "x": 5,
+      "y": 35,
+      "width": 3,
+      "height": 2,
+      "layer": "props"
+    },
+    {
+      "id": "venue-stage-wing-sofa",
+      "sprite": "interior-ref-sofa",
+      "x": 4,
+      "y": 10,
+      "width": 4,
+      "height": 2,
+      "layer": "props"
+    },
+    {
+      "id": "venue-stage-wing-table",
+      "sprite": "table-small-white",
+      "x": 9,
+      "y": 12,
+      "width": 1,
+      "height": 1,
+      "layer": "props"
+    },
+    {
+      "id": "venue-stage-wing-books",
+      "sprite": "bookcase",
+      "x": 10,
+      "y": 7,
+      "width": 2,
+      "height": 3,
+      "layer": "props"
+    },
+    {
+      "id": "venue-stage-wing-plant",
+      "sprite": "plant-palm",
+      "x": 4,
+      "y": 5,
+      "width": 3,
+      "height": 3,
+      "layer": "props"
+    },
+    {
+      "id": "venue-lobby-rug-west",
+      "sprite": "venue-carpet-moon",
+      "x": 2,
+      "y": 45,
+      "width": 25,
+      "height": 7,
+      "layer": "terrain"
+    },
+    {
+      "id": "venue-lobby-rug-east",
+      "sprite": "venue-carpet-moon",
+      "x": 35,
+      "y": 45,
+      "width": 25,
+      "height": 7,
+      "layer": "terrain"
     }
   ],
   "entries": [
@@ -1579,7 +1669,7 @@
       "width": 12,
       "height": 1,
       "fontSize": 13,
-      "color": "#f1d9a0",
+      "color": "#253546",
       "align": "left"
     },
     {
@@ -1590,7 +1680,7 @@
       "width": 12,
       "height": 1,
       "fontSize": 12,
-      "color": "#f1d9a0",
+      "color": "#253546",
       "align": "left"
     },
     {
@@ -1601,7 +1691,7 @@
       "width": 14,
       "height": 1,
       "fontSize": 14,
-      "color": "#f1d9a0",
+      "color": "#253546",
       "align": "left"
     },
     {
@@ -1612,7 +1702,7 @@
       "width": 15,
       "height": 1,
       "fontSize": 13,
-      "color": "#f1d9a0",
+      "color": "#253546",
       "align": "left"
     },
     {
@@ -1629,15 +1719,26 @@
     },
     {
       "name": "lunar-hall-style-listeners",
-      "text": "LISTENING AREA  ·  RAISE HAND TO SPEAK",
-      "x": 27,
+      "text": "LISTENING AREA · RAISE HAND TO SPEAK",
+      "x": 16,
       "y": 21,
-      "width": 20,
+      "width": 32,
       "height": 1,
       "fontSize": 14,
-      "color": "#ffe6d4",
-      "align": "left",
+      "color": "#253546",
+      "align": "center",
       "padding": 6
+    },
+    {
+      "name": "venue-audience-footer",
+      "text": "AUDIENCE · STAY WITHIN THE ORANGE BORDER TO LISTEN",
+      "x": 17,
+      "y": 42,
+      "width": 30,
+      "height": 1,
+      "fontSize": 13,
+      "color": "#253546",
+      "align": "center"
     }
   ],
   "animatedOverlays": [

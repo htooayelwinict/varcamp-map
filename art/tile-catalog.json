@@ -44097,5 +44097,5888 @@
     ],
     "level": "belowAvatar",
     "sourceId": "varcamp-organiser"
+  },
+  "venue-floor-stone": {
+    "sheet": "assets/tilesets/workadventure/WA_Room_Builder.png",
+    "sourceId": "workadventure",
+    "rect": {
+      "x": 3,
+      "y": 9,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar"
+  },
+  "venue-carpet-slate": {
+    "sheet": "assets/tilesets/workadventure/WA_Room_Builder.png",
+    "sourceId": "workadventure",
+    "rect": {
+      "x": 10,
+      "y": 14,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar"
+  },
+  "venue-carpet-moon": {
+    "sheet": "assets/tilesets/workadventure/WA_Room_Builder.png",
+    "sourceId": "workadventure",
+    "rect": {
+      "x": 10,
+      "y": 15,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar"
+  },
+  "natural-shipyard-beach-land-0": {
+    "sheet": "assets/tilesets/original/natural-shipyard-beach.png",
+    "sourceId": "lpc-water",
+    "rect": {
+      "x": 0,
+      "y": 0,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar"
+  },
+  "natural-shipyard-beach-land-4": {
+    "sheet": "assets/tilesets/original/natural-shipyard-beach.png",
+    "sourceId": "lpc-water",
+    "rect": {
+      "x": 4,
+      "y": 0,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar"
+  },
+  "natural-shipyard-beach-land-8": {
+    "sheet": "assets/tilesets/original/natural-shipyard-beach.png",
+    "sourceId": "lpc-water",
+    "rect": {
+      "x": 8,
+      "y": 0,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar"
+  },
+  "natural-shipyard-beach-land-12": {
+    "sheet": "assets/tilesets/original/natural-shipyard-beach.png",
+    "sourceId": "lpc-water",
+    "rect": {
+      "x": 12,
+      "y": 0,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar"
+  },
+  "natural-shipyard-beach-land-16": {
+    "sheet": "assets/tilesets/original/natural-shipyard-beach.png",
+    "sourceId": "lpc-water",
+    "rect": {
+      "x": 16,
+      "y": 0,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar"
+  },
+  "natural-shipyard-beach-land-20": {
+    "sheet": "assets/tilesets/original/natural-shipyard-beach.png",
+    "sourceId": "lpc-water",
+    "rect": {
+      "x": 20,
+      "y": 0,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar"
+  },
+  "natural-shipyard-beach-land-24": {
+    "sheet": "assets/tilesets/original/natural-shipyard-beach.png",
+    "sourceId": "lpc-water",
+    "rect": {
+      "x": 24,
+      "y": 0,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar"
+  },
+  "natural-shipyard-beach-land-28": {
+    "sheet": "assets/tilesets/original/natural-shipyard-beach.png",
+    "sourceId": "lpc-water",
+    "rect": {
+      "x": 28,
+      "y": 0,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar"
+  },
+  "natural-shipyard-beach-land-32": {
+    "sheet": "assets/tilesets/original/natural-shipyard-beach.png",
+    "sourceId": "lpc-water",
+    "rect": {
+      "x": 32,
+      "y": 0,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar"
+  },
+  "natural-shipyard-beach-land-36": {
+    "sheet": "assets/tilesets/original/natural-shipyard-beach.png",
+    "sourceId": "lpc-water",
+    "rect": {
+      "x": 36,
+      "y": 0,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar"
+  },
+  "natural-shipyard-beach-land-40": {
+    "sheet": "assets/tilesets/original/natural-shipyard-beach.png",
+    "sourceId": "lpc-water",
+    "rect": {
+      "x": 40,
+      "y": 0,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar"
+  },
+  "natural-shipyard-beach-land-44": {
+    "sheet": "assets/tilesets/original/natural-shipyard-beach.png",
+    "sourceId": "lpc-water",
+    "rect": {
+      "x": 44,
+      "y": 0,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar"
+  },
+  "natural-shipyard-beach-land-48": {
+    "sheet": "assets/tilesets/original/natural-shipyard-beach.png",
+    "sourceId": "lpc-water",
+    "rect": {
+      "x": 48,
+      "y": 0,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar"
+  },
+  "natural-shipyard-beach-land-52": {
+    "sheet": "assets/tilesets/original/natural-shipyard-beach.png",
+    "sourceId": "lpc-water",
+    "rect": {
+      "x": 52,
+      "y": 0,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar"
+  },
+  "natural-shipyard-beach-land-56": {
+    "sheet": "assets/tilesets/original/natural-shipyard-beach.png",
+    "sourceId": "lpc-water",
+    "rect": {
+      "x": 56,
+      "y": 0,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar"
+  },
+  "natural-shipyard-beach-land-60": {
+    "sheet": "assets/tilesets/original/natural-shipyard-beach.png",
+    "sourceId": "lpc-water",
+    "rect": {
+      "x": 60,
+      "y": 0,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar"
+  },
+  "natural-shipyard-beach-land-64": {
+    "sheet": "assets/tilesets/original/natural-shipyard-beach.png",
+    "sourceId": "lpc-water",
+    "rect": {
+      "x": 0,
+      "y": 1,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar"
+  },
+  "natural-shipyard-beach-land-68": {
+    "sheet": "assets/tilesets/original/natural-shipyard-beach.png",
+    "sourceId": "lpc-water",
+    "rect": {
+      "x": 4,
+      "y": 1,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar"
+  },
+  "natural-shipyard-beach-land-72": {
+    "sheet": "assets/tilesets/original/natural-shipyard-beach.png",
+    "sourceId": "lpc-water",
+    "rect": {
+      "x": 8,
+      "y": 1,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar"
+  },
+  "natural-shipyard-beach-land-76": {
+    "sheet": "assets/tilesets/original/natural-shipyard-beach.png",
+    "sourceId": "lpc-water",
+    "rect": {
+      "x": 12,
+      "y": 1,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar"
+  },
+  "natural-shipyard-beach-land-80": {
+    "sheet": "assets/tilesets/original/natural-shipyard-beach.png",
+    "sourceId": "lpc-water",
+    "rect": {
+      "x": 16,
+      "y": 1,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar"
+  },
+  "natural-shipyard-beach-land-84": {
+    "sheet": "assets/tilesets/original/natural-shipyard-beach.png",
+    "sourceId": "lpc-water",
+    "rect": {
+      "x": 20,
+      "y": 1,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar"
+  },
+  "natural-shipyard-beach-land-88": {
+    "sheet": "assets/tilesets/original/natural-shipyard-beach.png",
+    "sourceId": "lpc-water",
+    "rect": {
+      "x": 24,
+      "y": 1,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar"
+  },
+  "natural-shipyard-beach-land-92": {
+    "sheet": "assets/tilesets/original/natural-shipyard-beach.png",
+    "sourceId": "lpc-water",
+    "rect": {
+      "x": 28,
+      "y": 1,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar"
+  },
+  "natural-shipyard-beach-land-96": {
+    "sheet": "assets/tilesets/original/natural-shipyard-beach.png",
+    "sourceId": "lpc-water",
+    "rect": {
+      "x": 32,
+      "y": 1,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar"
+  },
+  "natural-shipyard-beach-land-100": {
+    "sheet": "assets/tilesets/original/natural-shipyard-beach.png",
+    "sourceId": "lpc-water",
+    "rect": {
+      "x": 36,
+      "y": 1,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar"
+  },
+  "natural-shipyard-beach-water-104": {
+    "sheet": "assets/tilesets/original/natural-shipyard-beach.png",
+    "sourceId": "lpc-water",
+    "rect": {
+      "x": 40,
+      "y": 1,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [
+      [
+        0,
+        0
+      ]
+    ],
+    "level": "belowAvatar"
+  },
+  "natural-shipyard-beach-water-108": {
+    "sheet": "assets/tilesets/original/natural-shipyard-beach.png",
+    "sourceId": "lpc-water",
+    "rect": {
+      "x": 44,
+      "y": 1,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [
+      [
+        0,
+        0
+      ]
+    ],
+    "level": "belowAvatar"
+  },
+  "natural-shipyard-beach-water-112": {
+    "sheet": "assets/tilesets/original/natural-shipyard-beach.png",
+    "sourceId": "lpc-water",
+    "rect": {
+      "x": 48,
+      "y": 1,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [
+      [
+        0,
+        0
+      ]
+    ],
+    "level": "belowAvatar"
+  },
+  "natural-shipyard-beach-land-116": {
+    "sheet": "assets/tilesets/original/natural-shipyard-beach.png",
+    "sourceId": "lpc-water",
+    "rect": {
+      "x": 52,
+      "y": 1,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar"
+  },
+  "natural-shipyard-beach-land-120": {
+    "sheet": "assets/tilesets/original/natural-shipyard-beach.png",
+    "sourceId": "lpc-water",
+    "rect": {
+      "x": 56,
+      "y": 1,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar"
+  },
+  "natural-shipyard-beach-land-124": {
+    "sheet": "assets/tilesets/original/natural-shipyard-beach.png",
+    "sourceId": "lpc-water",
+    "rect": {
+      "x": 60,
+      "y": 1,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar"
+  },
+  "natural-shipyard-beach-land-128": {
+    "sheet": "assets/tilesets/original/natural-shipyard-beach.png",
+    "sourceId": "lpc-water",
+    "rect": {
+      "x": 0,
+      "y": 2,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar"
+  },
+  "natural-shipyard-beach-land-132": {
+    "sheet": "assets/tilesets/original/natural-shipyard-beach.png",
+    "sourceId": "lpc-water",
+    "rect": {
+      "x": 4,
+      "y": 2,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar"
+  },
+  "natural-shipyard-beach-land-136": {
+    "sheet": "assets/tilesets/original/natural-shipyard-beach.png",
+    "sourceId": "lpc-water",
+    "rect": {
+      "x": 8,
+      "y": 2,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar"
+  },
+  "natural-shipyard-beach-land-140": {
+    "sheet": "assets/tilesets/original/natural-shipyard-beach.png",
+    "sourceId": "lpc-water",
+    "rect": {
+      "x": 12,
+      "y": 2,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar"
+  },
+  "natural-shipyard-beach-water-144": {
+    "sheet": "assets/tilesets/original/natural-shipyard-beach.png",
+    "sourceId": "lpc-water",
+    "rect": {
+      "x": 16,
+      "y": 2,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [
+      [
+        0,
+        0
+      ]
+    ],
+    "level": "belowAvatar"
+  },
+  "natural-shipyard-beach-water-148": {
+    "sheet": "assets/tilesets/original/natural-shipyard-beach.png",
+    "sourceId": "lpc-water",
+    "rect": {
+      "x": 20,
+      "y": 2,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [
+      [
+        0,
+        0
+      ]
+    ],
+    "level": "belowAvatar"
+  },
+  "natural-shipyard-beach-water-152": {
+    "sheet": "assets/tilesets/original/natural-shipyard-beach.png",
+    "sourceId": "lpc-water",
+    "rect": {
+      "x": 24,
+      "y": 2,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [
+      [
+        0,
+        0
+      ]
+    ],
+    "level": "belowAvatar"
+  },
+  "natural-shipyard-beach-water-156": {
+    "sheet": "assets/tilesets/original/natural-shipyard-beach.png",
+    "sourceId": "lpc-water",
+    "rect": {
+      "x": 28,
+      "y": 2,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [
+      [
+        0,
+        0
+      ]
+    ],
+    "level": "belowAvatar"
+  },
+  "natural-shipyard-beach-land-160": {
+    "sheet": "assets/tilesets/original/natural-shipyard-beach.png",
+    "sourceId": "lpc-water",
+    "rect": {
+      "x": 32,
+      "y": 2,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar"
+  },
+  "natural-shipyard-beach-land-164": {
+    "sheet": "assets/tilesets/original/natural-shipyard-beach.png",
+    "sourceId": "lpc-water",
+    "rect": {
+      "x": 36,
+      "y": 2,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar"
+  },
+  "natural-shipyard-beach-land-168": {
+    "sheet": "assets/tilesets/original/natural-shipyard-beach.png",
+    "sourceId": "lpc-water",
+    "rect": {
+      "x": 40,
+      "y": 2,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar"
+  },
+  "natural-shipyard-beach-land-172": {
+    "sheet": "assets/tilesets/original/natural-shipyard-beach.png",
+    "sourceId": "lpc-water",
+    "rect": {
+      "x": 44,
+      "y": 2,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar"
+  },
+  "natural-shipyard-beach-land-176": {
+    "sheet": "assets/tilesets/original/natural-shipyard-beach.png",
+    "sourceId": "lpc-water",
+    "rect": {
+      "x": 48,
+      "y": 2,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar"
+  },
+  "natural-shipyard-beach-land-180": {
+    "sheet": "assets/tilesets/original/natural-shipyard-beach.png",
+    "sourceId": "lpc-water",
+    "rect": {
+      "x": 52,
+      "y": 2,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar"
+  },
+  "natural-shipyard-beach-land-184": {
+    "sheet": "assets/tilesets/original/natural-shipyard-beach.png",
+    "sourceId": "lpc-water",
+    "rect": {
+      "x": 56,
+      "y": 2,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar"
+  },
+  "natural-shipyard-beach-land-188": {
+    "sheet": "assets/tilesets/original/natural-shipyard-beach.png",
+    "sourceId": "lpc-water",
+    "rect": {
+      "x": 60,
+      "y": 2,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar"
+  },
+  "natural-shipyard-beach-land-192": {
+    "sheet": "assets/tilesets/original/natural-shipyard-beach.png",
+    "sourceId": "lpc-water",
+    "rect": {
+      "x": 0,
+      "y": 3,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar"
+  },
+  "natural-shipyard-beach-water-196": {
+    "sheet": "assets/tilesets/original/natural-shipyard-beach.png",
+    "sourceId": "lpc-water",
+    "rect": {
+      "x": 4,
+      "y": 3,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [
+      [
+        0,
+        0
+      ]
+    ],
+    "level": "belowAvatar"
+  },
+  "natural-shipyard-beach-water-200": {
+    "sheet": "assets/tilesets/original/natural-shipyard-beach.png",
+    "sourceId": "lpc-water",
+    "rect": {
+      "x": 8,
+      "y": 3,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [
+      [
+        0,
+        0
+      ]
+    ],
+    "level": "belowAvatar"
+  },
+  "natural-shipyard-beach-water-204": {
+    "sheet": "assets/tilesets/original/natural-shipyard-beach.png",
+    "sourceId": "lpc-water",
+    "rect": {
+      "x": 12,
+      "y": 3,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [
+      [
+        0,
+        0
+      ]
+    ],
+    "level": "belowAvatar"
+  },
+  "natural-shipyard-beach-water-208": {
+    "sheet": "assets/tilesets/original/natural-shipyard-beach.png",
+    "sourceId": "lpc-water",
+    "rect": {
+      "x": 16,
+      "y": 3,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [
+      [
+        0,
+        0
+      ]
+    ],
+    "level": "belowAvatar"
+  },
+  "natural-shipyard-beach-water-212": {
+    "sheet": "assets/tilesets/original/natural-shipyard-beach.png",
+    "sourceId": "lpc-water",
+    "rect": {
+      "x": 20,
+      "y": 3,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [
+      [
+        0,
+        0
+      ]
+    ],
+    "level": "belowAvatar"
+  },
+  "natural-shipyard-beach-water-216": {
+    "sheet": "assets/tilesets/original/natural-shipyard-beach.png",
+    "sourceId": "lpc-water",
+    "rect": {
+      "x": 24,
+      "y": 3,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [
+      [
+        0,
+        0
+      ]
+    ],
+    "level": "belowAvatar"
+  },
+  "natural-shipyard-beach-water-220": {
+    "sheet": "assets/tilesets/original/natural-shipyard-beach.png",
+    "sourceId": "lpc-water",
+    "rect": {
+      "x": 28,
+      "y": 3,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [
+      [
+        0,
+        0
+      ]
+    ],
+    "level": "belowAvatar"
+  },
+  "natural-shipyard-beach-water-224": {
+    "sheet": "assets/tilesets/original/natural-shipyard-beach.png",
+    "sourceId": "lpc-water",
+    "rect": {
+      "x": 32,
+      "y": 3,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [
+      [
+        0,
+        0
+      ]
+    ],
+    "level": "belowAvatar"
+  },
+  "natural-shipyard-beach-water-228": {
+    "sheet": "assets/tilesets/original/natural-shipyard-beach.png",
+    "sourceId": "lpc-water",
+    "rect": {
+      "x": 36,
+      "y": 3,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [
+      [
+        0,
+        0
+      ]
+    ],
+    "level": "belowAvatar"
+  },
+  "natural-shipyard-beach-water-232": {
+    "sheet": "assets/tilesets/original/natural-shipyard-beach.png",
+    "sourceId": "lpc-water",
+    "rect": {
+      "x": 40,
+      "y": 3,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [
+      [
+        0,
+        0
+      ]
+    ],
+    "level": "belowAvatar"
+  },
+  "natural-shipyard-beach-water-236": {
+    "sheet": "assets/tilesets/original/natural-shipyard-beach.png",
+    "sourceId": "lpc-water",
+    "rect": {
+      "x": 44,
+      "y": 3,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [
+      [
+        0,
+        0
+      ]
+    ],
+    "level": "belowAvatar"
+  },
+  "natural-shipyard-beach-water-240": {
+    "sheet": "assets/tilesets/original/natural-shipyard-beach.png",
+    "sourceId": "lpc-water",
+    "rect": {
+      "x": 48,
+      "y": 3,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [
+      [
+        0,
+        0
+      ]
+    ],
+    "level": "belowAvatar"
+  },
+  "natural-shipyard-beach-water-244": {
+    "sheet": "assets/tilesets/original/natural-shipyard-beach.png",
+    "sourceId": "lpc-water",
+    "rect": {
+      "x": 52,
+      "y": 3,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [
+      [
+        0,
+        0
+      ]
+    ],
+    "level": "belowAvatar"
+  },
+  "natural-shipyard-beach-water-248": {
+    "sheet": "assets/tilesets/original/natural-shipyard-beach.png",
+    "sourceId": "lpc-water",
+    "rect": {
+      "x": 56,
+      "y": 3,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [
+      [
+        0,
+        0
+      ]
+    ],
+    "level": "belowAvatar"
+  },
+  "natural-shipyard-beach-land-252": {
+    "sheet": "assets/tilesets/original/natural-shipyard-beach.png",
+    "sourceId": "lpc-water",
+    "rect": {
+      "x": 60,
+      "y": 3,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar"
+  },
+  "natural-shipyard-beach-land-256": {
+    "sheet": "assets/tilesets/original/natural-shipyard-beach.png",
+    "sourceId": "lpc-water",
+    "rect": {
+      "x": 0,
+      "y": 4,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar"
+  },
+  "natural-shipyard-beach-land-260": {
+    "sheet": "assets/tilesets/original/natural-shipyard-beach.png",
+    "sourceId": "lpc-water",
+    "rect": {
+      "x": 4,
+      "y": 4,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar"
+  },
+  "natural-shipyard-beach-water-264": {
+    "sheet": "assets/tilesets/original/natural-shipyard-beach.png",
+    "sourceId": "lpc-water",
+    "rect": {
+      "x": 8,
+      "y": 4,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [
+      [
+        0,
+        0
+      ]
+    ],
+    "level": "belowAvatar"
+  },
+  "natural-shipyard-beach-water-268": {
+    "sheet": "assets/tilesets/original/natural-shipyard-beach.png",
+    "sourceId": "lpc-water",
+    "rect": {
+      "x": 12,
+      "y": 4,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [
+      [
+        0,
+        0
+      ]
+    ],
+    "level": "belowAvatar"
+  },
+  "natural-shipyard-beach-water-272": {
+    "sheet": "assets/tilesets/original/natural-shipyard-beach.png",
+    "sourceId": "lpc-water",
+    "rect": {
+      "x": 16,
+      "y": 4,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [
+      [
+        0,
+        0
+      ]
+    ],
+    "level": "belowAvatar"
+  },
+  "natural-shipyard-beach-land-276": {
+    "sheet": "assets/tilesets/original/natural-shipyard-beach.png",
+    "sourceId": "lpc-water",
+    "rect": {
+      "x": 20,
+      "y": 4,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar"
+  },
+  "natural-shipyard-beach-land-280": {
+    "sheet": "assets/tilesets/original/natural-shipyard-beach.png",
+    "sourceId": "lpc-water",
+    "rect": {
+      "x": 24,
+      "y": 4,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar"
+  },
+  "natural-shipyard-beach-land-284": {
+    "sheet": "assets/tilesets/original/natural-shipyard-beach.png",
+    "sourceId": "lpc-water",
+    "rect": {
+      "x": 28,
+      "y": 4,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar"
+  },
+  "natural-shipyard-beach-land-288": {
+    "sheet": "assets/tilesets/original/natural-shipyard-beach.png",
+    "sourceId": "lpc-water",
+    "rect": {
+      "x": 32,
+      "y": 4,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar"
+  },
+  "natural-shipyard-beach-land-292": {
+    "sheet": "assets/tilesets/original/natural-shipyard-beach.png",
+    "sourceId": "lpc-water",
+    "rect": {
+      "x": 36,
+      "y": 4,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar"
+  },
+  "natural-shipyard-beach-land-296": {
+    "sheet": "assets/tilesets/original/natural-shipyard-beach.png",
+    "sourceId": "lpc-water",
+    "rect": {
+      "x": 40,
+      "y": 4,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar"
+  },
+  "natural-shipyard-beach-water-300": {
+    "sheet": "assets/tilesets/original/natural-shipyard-beach.png",
+    "sourceId": "lpc-water",
+    "rect": {
+      "x": 44,
+      "y": 4,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [
+      [
+        0,
+        0
+      ]
+    ],
+    "level": "belowAvatar"
+  },
+  "natural-shipyard-beach-water-304": {
+    "sheet": "assets/tilesets/original/natural-shipyard-beach.png",
+    "sourceId": "lpc-water",
+    "rect": {
+      "x": 48,
+      "y": 4,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [
+      [
+        0,
+        0
+      ]
+    ],
+    "level": "belowAvatar"
+  },
+  "natural-shipyard-beach-water-308": {
+    "sheet": "assets/tilesets/original/natural-shipyard-beach.png",
+    "sourceId": "lpc-water",
+    "rect": {
+      "x": 52,
+      "y": 4,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [
+      [
+        0,
+        0
+      ]
+    ],
+    "level": "belowAvatar"
+  },
+  "natural-shipyard-beach-water-312": {
+    "sheet": "assets/tilesets/original/natural-shipyard-beach.png",
+    "sourceId": "lpc-water",
+    "rect": {
+      "x": 56,
+      "y": 4,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [
+      [
+        0,
+        0
+      ]
+    ],
+    "level": "belowAvatar"
+  },
+  "natural-shipyard-beach-water-316": {
+    "sheet": "assets/tilesets/original/natural-shipyard-beach.png",
+    "sourceId": "lpc-water",
+    "rect": {
+      "x": 60,
+      "y": 4,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [
+      [
+        0,
+        0
+      ]
+    ],
+    "level": "belowAvatar"
+  },
+  "natural-shipyard-beach-water-320": {
+    "sheet": "assets/tilesets/original/natural-shipyard-beach.png",
+    "sourceId": "lpc-water",
+    "rect": {
+      "x": 0,
+      "y": 5,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [
+      [
+        0,
+        0
+      ]
+    ],
+    "level": "belowAvatar"
+  },
+  "natural-shipyard-beach-water-324": {
+    "sheet": "assets/tilesets/original/natural-shipyard-beach.png",
+    "sourceId": "lpc-water",
+    "rect": {
+      "x": 4,
+      "y": 5,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [
+      [
+        0,
+        0
+      ]
+    ],
+    "level": "belowAvatar"
+  },
+  "natural-shipyard-beach-water-328": {
+    "sheet": "assets/tilesets/original/natural-shipyard-beach.png",
+    "sourceId": "lpc-water",
+    "rect": {
+      "x": 8,
+      "y": 5,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [
+      [
+        0,
+        0
+      ]
+    ],
+    "level": "belowAvatar"
+  },
+  "natural-shipyard-beach-water-332": {
+    "sheet": "assets/tilesets/original/natural-shipyard-beach.png",
+    "sourceId": "lpc-water",
+    "rect": {
+      "x": 12,
+      "y": 5,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [
+      [
+        0,
+        0
+      ]
+    ],
+    "level": "belowAvatar"
+  },
+  "natural-shipyard-beach-water-336": {
+    "sheet": "assets/tilesets/original/natural-shipyard-beach.png",
+    "sourceId": "lpc-water",
+    "rect": {
+      "x": 16,
+      "y": 5,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [
+      [
+        0,
+        0
+      ]
+    ],
+    "level": "belowAvatar"
+  },
+  "natural-shipyard-beach-water-340": {
+    "sheet": "assets/tilesets/original/natural-shipyard-beach.png",
+    "sourceId": "lpc-water",
+    "rect": {
+      "x": 20,
+      "y": 5,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [
+      [
+        0,
+        0
+      ]
+    ],
+    "level": "belowAvatar"
+  },
+  "natural-shipyard-beach-water-344": {
+    "sheet": "assets/tilesets/original/natural-shipyard-beach.png",
+    "sourceId": "lpc-water",
+    "rect": {
+      "x": 24,
+      "y": 5,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [
+      [
+        0,
+        0
+      ]
+    ],
+    "level": "belowAvatar"
+  },
+  "natural-shipyard-beach-water-348": {
+    "sheet": "assets/tilesets/original/natural-shipyard-beach.png",
+    "sourceId": "lpc-water",
+    "rect": {
+      "x": 28,
+      "y": 5,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [
+      [
+        0,
+        0
+      ]
+    ],
+    "level": "belowAvatar"
+  },
+  "natural-shipyard-beach-land-352": {
+    "sheet": "assets/tilesets/original/natural-shipyard-beach.png",
+    "sourceId": "lpc-water",
+    "rect": {
+      "x": 32,
+      "y": 5,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar"
+  },
+  "natural-shipyard-beach-land-356": {
+    "sheet": "assets/tilesets/original/natural-shipyard-beach.png",
+    "sourceId": "lpc-water",
+    "rect": {
+      "x": 36,
+      "y": 5,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar"
+  },
+  "natural-shipyard-beach-water-360": {
+    "sheet": "assets/tilesets/original/natural-shipyard-beach.png",
+    "sourceId": "lpc-water",
+    "rect": {
+      "x": 40,
+      "y": 5,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [
+      [
+        0,
+        0
+      ]
+    ],
+    "level": "belowAvatar"
+  },
+  "natural-shipyard-beach-water-364": {
+    "sheet": "assets/tilesets/original/natural-shipyard-beach.png",
+    "sourceId": "lpc-water",
+    "rect": {
+      "x": 44,
+      "y": 5,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [
+      [
+        0,
+        0
+      ]
+    ],
+    "level": "belowAvatar"
+  },
+  "natural-shipyard-beach-water-368": {
+    "sheet": "assets/tilesets/original/natural-shipyard-beach.png",
+    "sourceId": "lpc-water",
+    "rect": {
+      "x": 48,
+      "y": 5,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [
+      [
+        0,
+        0
+      ]
+    ],
+    "level": "belowAvatar"
+  },
+  "natural-shipyard-beach-water-372": {
+    "sheet": "assets/tilesets/original/natural-shipyard-beach.png",
+    "sourceId": "lpc-water",
+    "rect": {
+      "x": 52,
+      "y": 5,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [
+      [
+        0,
+        0
+      ]
+    ],
+    "level": "belowAvatar"
+  },
+  "natural-shipyard-beach-water-376": {
+    "sheet": "assets/tilesets/original/natural-shipyard-beach.png",
+    "sourceId": "lpc-water",
+    "rect": {
+      "x": 56,
+      "y": 5,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [
+      [
+        0,
+        0
+      ]
+    ],
+    "level": "belowAvatar"
+  },
+  "natural-shipyard-beach-water-380": {
+    "sheet": "assets/tilesets/original/natural-shipyard-beach.png",
+    "sourceId": "lpc-water",
+    "rect": {
+      "x": 60,
+      "y": 5,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [
+      [
+        0,
+        0
+      ]
+    ],
+    "level": "belowAvatar"
+  },
+  "natural-shipyard-beach-land-384": {
+    "sheet": "assets/tilesets/original/natural-shipyard-beach.png",
+    "sourceId": "lpc-water",
+    "rect": {
+      "x": 0,
+      "y": 6,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar"
+  },
+  "natural-shipyard-beach-land-388": {
+    "sheet": "assets/tilesets/original/natural-shipyard-beach.png",
+    "sourceId": "lpc-water",
+    "rect": {
+      "x": 4,
+      "y": 6,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar"
+  },
+  "natural-shipyard-beach-land-392": {
+    "sheet": "assets/tilesets/original/natural-shipyard-beach.png",
+    "sourceId": "lpc-water",
+    "rect": {
+      "x": 8,
+      "y": 6,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar"
+  },
+  "natural-shipyard-beach-land-396": {
+    "sheet": "assets/tilesets/original/natural-shipyard-beach.png",
+    "sourceId": "lpc-water",
+    "rect": {
+      "x": 12,
+      "y": 6,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar"
+  },
+  "natural-shipyard-beach-land-400": {
+    "sheet": "assets/tilesets/original/natural-shipyard-beach.png",
+    "sourceId": "lpc-water",
+    "rect": {
+      "x": 16,
+      "y": 6,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar"
+  },
+  "natural-shipyard-beach-land-404": {
+    "sheet": "assets/tilesets/original/natural-shipyard-beach.png",
+    "sourceId": "lpc-water",
+    "rect": {
+      "x": 20,
+      "y": 6,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar"
+  },
+  "natural-shipyard-beach-land-408": {
+    "sheet": "assets/tilesets/original/natural-shipyard-beach.png",
+    "sourceId": "lpc-water",
+    "rect": {
+      "x": 24,
+      "y": 6,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar"
+  },
+  "natural-shipyard-beach-water-412": {
+    "sheet": "assets/tilesets/original/natural-shipyard-beach.png",
+    "sourceId": "lpc-water",
+    "rect": {
+      "x": 28,
+      "y": 6,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [
+      [
+        0,
+        0
+      ]
+    ],
+    "level": "belowAvatar"
+  },
+  "natural-shipyard-beach-water-416": {
+    "sheet": "assets/tilesets/original/natural-shipyard-beach.png",
+    "sourceId": "lpc-water",
+    "rect": {
+      "x": 32,
+      "y": 6,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [
+      [
+        0,
+        0
+      ]
+    ],
+    "level": "belowAvatar"
+  },
+  "natural-shipyard-beach-water-420": {
+    "sheet": "assets/tilesets/original/natural-shipyard-beach.png",
+    "sourceId": "lpc-water",
+    "rect": {
+      "x": 36,
+      "y": 6,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [
+      [
+        0,
+        0
+      ]
+    ],
+    "level": "belowAvatar"
+  },
+  "natural-shipyard-beach-water-424": {
+    "sheet": "assets/tilesets/original/natural-shipyard-beach.png",
+    "sourceId": "lpc-water",
+    "rect": {
+      "x": 40,
+      "y": 6,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [
+      [
+        0,
+        0
+      ]
+    ],
+    "level": "belowAvatar"
+  },
+  "natural-shipyard-beach-water-428": {
+    "sheet": "assets/tilesets/original/natural-shipyard-beach.png",
+    "sourceId": "lpc-water",
+    "rect": {
+      "x": 44,
+      "y": 6,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [
+      [
+        0,
+        0
+      ]
+    ],
+    "level": "belowAvatar"
+  },
+  "natural-shipyard-beach-water-432": {
+    "sheet": "assets/tilesets/original/natural-shipyard-beach.png",
+    "sourceId": "lpc-water",
+    "rect": {
+      "x": 48,
+      "y": 6,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [
+      [
+        0,
+        0
+      ]
+    ],
+    "level": "belowAvatar"
+  },
+  "natural-shipyard-beach-water-436": {
+    "sheet": "assets/tilesets/original/natural-shipyard-beach.png",
+    "sourceId": "lpc-water",
+    "rect": {
+      "x": 52,
+      "y": 6,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [
+      [
+        0,
+        0
+      ]
+    ],
+    "level": "belowAvatar"
+  },
+  "natural-shipyard-beach-water-440": {
+    "sheet": "assets/tilesets/original/natural-shipyard-beach.png",
+    "sourceId": "lpc-water",
+    "rect": {
+      "x": 56,
+      "y": 6,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [
+      [
+        0,
+        0
+      ]
+    ],
+    "level": "belowAvatar"
+  },
+  "natural-shipyard-beach-water-444": {
+    "sheet": "assets/tilesets/original/natural-shipyard-beach.png",
+    "sourceId": "lpc-water",
+    "rect": {
+      "x": 60,
+      "y": 6,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [
+      [
+        0,
+        0
+      ]
+    ],
+    "level": "belowAvatar"
+  },
+  "natural-shipyard-beach-water-448": {
+    "sheet": "assets/tilesets/original/natural-shipyard-beach.png",
+    "sourceId": "lpc-water",
+    "rect": {
+      "x": 0,
+      "y": 7,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [
+      [
+        0,
+        0
+      ]
+    ],
+    "level": "belowAvatar"
+  },
+  "natural-shipyard-beach-water-452": {
+    "sheet": "assets/tilesets/original/natural-shipyard-beach.png",
+    "sourceId": "lpc-water",
+    "rect": {
+      "x": 4,
+      "y": 7,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [
+      [
+        0,
+        0
+      ]
+    ],
+    "level": "belowAvatar"
+  },
+  "natural-shipyard-beach-water-456": {
+    "sheet": "assets/tilesets/original/natural-shipyard-beach.png",
+    "sourceId": "lpc-water",
+    "rect": {
+      "x": 8,
+      "y": 7,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [
+      [
+        0,
+        0
+      ]
+    ],
+    "level": "belowAvatar"
+  },
+  "natural-shipyard-beach-water-460": {
+    "sheet": "assets/tilesets/original/natural-shipyard-beach.png",
+    "sourceId": "lpc-water",
+    "rect": {
+      "x": 12,
+      "y": 7,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [
+      [
+        0,
+        0
+      ]
+    ],
+    "level": "belowAvatar"
+  },
+  "natural-shipyard-beach-water-464": {
+    "sheet": "assets/tilesets/original/natural-shipyard-beach.png",
+    "sourceId": "lpc-water",
+    "rect": {
+      "x": 16,
+      "y": 7,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [
+      [
+        0,
+        0
+      ]
+    ],
+    "level": "belowAvatar"
+  },
+  "natural-shipyard-beach-water-468": {
+    "sheet": "assets/tilesets/original/natural-shipyard-beach.png",
+    "sourceId": "lpc-water",
+    "rect": {
+      "x": 20,
+      "y": 7,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [
+      [
+        0,
+        0
+      ]
+    ],
+    "level": "belowAvatar"
+  },
+  "natural-dune-shipyard-beach-0": {
+    "sheet": "assets/tilesets/original/natural-shipyard-beach-dunes.png",
+    "sourceId": "natural-coast",
+    "rect": {
+      "x": 0,
+      "y": 0,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar"
+  },
+  "natural-dune-shipyard-beach-1": {
+    "sheet": "assets/tilesets/original/natural-shipyard-beach-dunes.png",
+    "sourceId": "natural-coast",
+    "rect": {
+      "x": 1,
+      "y": 0,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar"
+  },
+  "natural-dune-shipyard-beach-2": {
+    "sheet": "assets/tilesets/original/natural-shipyard-beach-dunes.png",
+    "sourceId": "natural-coast",
+    "rect": {
+      "x": 2,
+      "y": 0,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar"
+  },
+  "natural-dune-shipyard-beach-3": {
+    "sheet": "assets/tilesets/original/natural-shipyard-beach-dunes.png",
+    "sourceId": "natural-coast",
+    "rect": {
+      "x": 3,
+      "y": 0,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar"
+  },
+  "natural-dune-shipyard-beach-4": {
+    "sheet": "assets/tilesets/original/natural-shipyard-beach-dunes.png",
+    "sourceId": "natural-coast",
+    "rect": {
+      "x": 4,
+      "y": 0,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar"
+  },
+  "natural-dune-shipyard-beach-5": {
+    "sheet": "assets/tilesets/original/natural-shipyard-beach-dunes.png",
+    "sourceId": "natural-coast",
+    "rect": {
+      "x": 5,
+      "y": 0,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar"
+  },
+  "natural-dune-shipyard-beach-6": {
+    "sheet": "assets/tilesets/original/natural-shipyard-beach-dunes.png",
+    "sourceId": "natural-coast",
+    "rect": {
+      "x": 6,
+      "y": 0,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar"
+  },
+  "natural-dune-shipyard-beach-7": {
+    "sheet": "assets/tilesets/original/natural-shipyard-beach-dunes.png",
+    "sourceId": "natural-coast",
+    "rect": {
+      "x": 7,
+      "y": 0,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar"
+  },
+  "natural-dune-shipyard-beach-8": {
+    "sheet": "assets/tilesets/original/natural-shipyard-beach-dunes.png",
+    "sourceId": "natural-coast",
+    "rect": {
+      "x": 8,
+      "y": 0,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar"
+  },
+  "natural-dune-shipyard-beach-9": {
+    "sheet": "assets/tilesets/original/natural-shipyard-beach-dunes.png",
+    "sourceId": "natural-coast",
+    "rect": {
+      "x": 9,
+      "y": 0,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar"
+  },
+  "natural-dune-shipyard-beach-10": {
+    "sheet": "assets/tilesets/original/natural-shipyard-beach-dunes.png",
+    "sourceId": "natural-coast",
+    "rect": {
+      "x": 10,
+      "y": 0,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar"
+  },
+  "natural-dune-shipyard-beach-11": {
+    "sheet": "assets/tilesets/original/natural-shipyard-beach-dunes.png",
+    "sourceId": "natural-coast",
+    "rect": {
+      "x": 11,
+      "y": 0,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar"
+  },
+  "natural-dune-shipyard-beach-12": {
+    "sheet": "assets/tilesets/original/natural-shipyard-beach-dunes.png",
+    "sourceId": "natural-coast",
+    "rect": {
+      "x": 12,
+      "y": 0,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar"
+  },
+  "natural-dune-shipyard-beach-13": {
+    "sheet": "assets/tilesets/original/natural-shipyard-beach-dunes.png",
+    "sourceId": "natural-coast",
+    "rect": {
+      "x": 13,
+      "y": 0,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar"
+  },
+  "natural-dune-shipyard-beach-14": {
+    "sheet": "assets/tilesets/original/natural-shipyard-beach-dunes.png",
+    "sourceId": "natural-coast",
+    "rect": {
+      "x": 14,
+      "y": 0,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar"
+  },
+  "natural-dune-shipyard-beach-15": {
+    "sheet": "assets/tilesets/original/natural-shipyard-beach-dunes.png",
+    "sourceId": "natural-coast",
+    "rect": {
+      "x": 15,
+      "y": 0,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar"
+  },
+  "natural-dune-shipyard-beach-16": {
+    "sheet": "assets/tilesets/original/natural-shipyard-beach-dunes.png",
+    "sourceId": "natural-coast",
+    "rect": {
+      "x": 0,
+      "y": 1,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar"
+  },
+  "natural-dune-shipyard-beach-17": {
+    "sheet": "assets/tilesets/original/natural-shipyard-beach-dunes.png",
+    "sourceId": "natural-coast",
+    "rect": {
+      "x": 1,
+      "y": 1,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar"
+  },
+  "natural-dune-shipyard-beach-18": {
+    "sheet": "assets/tilesets/original/natural-shipyard-beach-dunes.png",
+    "sourceId": "natural-coast",
+    "rect": {
+      "x": 2,
+      "y": 1,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar"
+  },
+  "natural-dune-shipyard-beach-19": {
+    "sheet": "assets/tilesets/original/natural-shipyard-beach-dunes.png",
+    "sourceId": "natural-coast",
+    "rect": {
+      "x": 3,
+      "y": 1,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar"
+  },
+  "natural-dune-shipyard-beach-20": {
+    "sheet": "assets/tilesets/original/natural-shipyard-beach-dunes.png",
+    "sourceId": "natural-coast",
+    "rect": {
+      "x": 4,
+      "y": 1,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar"
+  },
+  "natural-dune-shipyard-beach-21": {
+    "sheet": "assets/tilesets/original/natural-shipyard-beach-dunes.png",
+    "sourceId": "natural-coast",
+    "rect": {
+      "x": 5,
+      "y": 1,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar"
+  },
+  "natural-dune-shipyard-beach-22": {
+    "sheet": "assets/tilesets/original/natural-shipyard-beach-dunes.png",
+    "sourceId": "natural-coast",
+    "rect": {
+      "x": 6,
+      "y": 1,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar"
+  },
+  "natural-dune-shipyard-beach-23": {
+    "sheet": "assets/tilesets/original/natural-shipyard-beach-dunes.png",
+    "sourceId": "natural-coast",
+    "rect": {
+      "x": 7,
+      "y": 1,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar"
+  },
+  "natural-dune-shipyard-beach-24": {
+    "sheet": "assets/tilesets/original/natural-shipyard-beach-dunes.png",
+    "sourceId": "natural-coast",
+    "rect": {
+      "x": 8,
+      "y": 1,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar"
+  },
+  "natural-dune-shipyard-beach-25": {
+    "sheet": "assets/tilesets/original/natural-shipyard-beach-dunes.png",
+    "sourceId": "natural-coast",
+    "rect": {
+      "x": 9,
+      "y": 1,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar"
+  },
+  "natural-dune-shipyard-beach-26": {
+    "sheet": "assets/tilesets/original/natural-shipyard-beach-dunes.png",
+    "sourceId": "natural-coast",
+    "rect": {
+      "x": 10,
+      "y": 1,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar"
+  },
+  "natural-dune-shipyard-beach-27": {
+    "sheet": "assets/tilesets/original/natural-shipyard-beach-dunes.png",
+    "sourceId": "natural-coast",
+    "rect": {
+      "x": 11,
+      "y": 1,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar"
+  },
+  "natural-dune-shipyard-beach-28": {
+    "sheet": "assets/tilesets/original/natural-shipyard-beach-dunes.png",
+    "sourceId": "natural-coast",
+    "rect": {
+      "x": 12,
+      "y": 1,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar"
+  },
+  "natural-dune-shipyard-beach-29": {
+    "sheet": "assets/tilesets/original/natural-shipyard-beach-dunes.png",
+    "sourceId": "natural-coast",
+    "rect": {
+      "x": 13,
+      "y": 1,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar"
+  },
+  "natural-dune-shipyard-beach-30": {
+    "sheet": "assets/tilesets/original/natural-shipyard-beach-dunes.png",
+    "sourceId": "natural-coast",
+    "rect": {
+      "x": 14,
+      "y": 1,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar"
+  },
+  "natural-dune-shipyard-beach-31": {
+    "sheet": "assets/tilesets/original/natural-shipyard-beach-dunes.png",
+    "sourceId": "natural-coast",
+    "rect": {
+      "x": 15,
+      "y": 1,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar"
+  },
+  "natural-dune-shipyard-beach-32": {
+    "sheet": "assets/tilesets/original/natural-shipyard-beach-dunes.png",
+    "sourceId": "natural-coast",
+    "rect": {
+      "x": 0,
+      "y": 2,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar"
+  },
+  "natural-dune-shipyard-beach-33": {
+    "sheet": "assets/tilesets/original/natural-shipyard-beach-dunes.png",
+    "sourceId": "natural-coast",
+    "rect": {
+      "x": 1,
+      "y": 2,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar"
+  },
+  "natural-dune-shipyard-beach-34": {
+    "sheet": "assets/tilesets/original/natural-shipyard-beach-dunes.png",
+    "sourceId": "natural-coast",
+    "rect": {
+      "x": 2,
+      "y": 2,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar"
+  },
+  "natural-dune-shipyard-beach-35": {
+    "sheet": "assets/tilesets/original/natural-shipyard-beach-dunes.png",
+    "sourceId": "natural-coast",
+    "rect": {
+      "x": 3,
+      "y": 2,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar"
+  },
+  "natural-dune-shipyard-beach-36": {
+    "sheet": "assets/tilesets/original/natural-shipyard-beach-dunes.png",
+    "sourceId": "natural-coast",
+    "rect": {
+      "x": 4,
+      "y": 2,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar"
+  },
+  "natural-dune-shipyard-beach-37": {
+    "sheet": "assets/tilesets/original/natural-shipyard-beach-dunes.png",
+    "sourceId": "natural-coast",
+    "rect": {
+      "x": 5,
+      "y": 2,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar"
+  },
+  "natural-dune-shipyard-beach-38": {
+    "sheet": "assets/tilesets/original/natural-shipyard-beach-dunes.png",
+    "sourceId": "natural-coast",
+    "rect": {
+      "x": 6,
+      "y": 2,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar"
+  },
+  "natural-dune-shipyard-beach-39": {
+    "sheet": "assets/tilesets/original/natural-shipyard-beach-dunes.png",
+    "sourceId": "natural-coast",
+    "rect": {
+      "x": 7,
+      "y": 2,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar"
+  },
+  "natural-dune-shipyard-beach-40": {
+    "sheet": "assets/tilesets/original/natural-shipyard-beach-dunes.png",
+    "sourceId": "natural-coast",
+    "rect": {
+      "x": 8,
+      "y": 2,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar"
+  },
+  "natural-dune-shipyard-beach-41": {
+    "sheet": "assets/tilesets/original/natural-shipyard-beach-dunes.png",
+    "sourceId": "natural-coast",
+    "rect": {
+      "x": 9,
+      "y": 2,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar"
+  },
+  "natural-dune-shipyard-beach-42": {
+    "sheet": "assets/tilesets/original/natural-shipyard-beach-dunes.png",
+    "sourceId": "natural-coast",
+    "rect": {
+      "x": 10,
+      "y": 2,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar"
+  },
+  "natural-dune-shipyard-beach-43": {
+    "sheet": "assets/tilesets/original/natural-shipyard-beach-dunes.png",
+    "sourceId": "natural-coast",
+    "rect": {
+      "x": 11,
+      "y": 2,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar"
+  },
+  "natural-dune-shipyard-beach-44": {
+    "sheet": "assets/tilesets/original/natural-shipyard-beach-dunes.png",
+    "sourceId": "natural-coast",
+    "rect": {
+      "x": 12,
+      "y": 2,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar"
+  },
+  "natural-dune-shipyard-beach-45": {
+    "sheet": "assets/tilesets/original/natural-shipyard-beach-dunes.png",
+    "sourceId": "natural-coast",
+    "rect": {
+      "x": 13,
+      "y": 2,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar"
+  },
+  "natural-dune-shipyard-beach-46": {
+    "sheet": "assets/tilesets/original/natural-shipyard-beach-dunes.png",
+    "sourceId": "natural-coast",
+    "rect": {
+      "x": 14,
+      "y": 2,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar"
+  },
+  "natural-dune-shipyard-beach-47": {
+    "sheet": "assets/tilesets/original/natural-shipyard-beach-dunes.png",
+    "sourceId": "natural-coast",
+    "rect": {
+      "x": 15,
+      "y": 2,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar"
+  },
+  "natural-dune-shipyard-beach-48": {
+    "sheet": "assets/tilesets/original/natural-shipyard-beach-dunes.png",
+    "sourceId": "natural-coast",
+    "rect": {
+      "x": 0,
+      "y": 3,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar"
+  },
+  "natural-dune-shipyard-beach-49": {
+    "sheet": "assets/tilesets/original/natural-shipyard-beach-dunes.png",
+    "sourceId": "natural-coast",
+    "rect": {
+      "x": 1,
+      "y": 3,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar"
+  },
+  "natural-dune-shipyard-beach-50": {
+    "sheet": "assets/tilesets/original/natural-shipyard-beach-dunes.png",
+    "sourceId": "natural-coast",
+    "rect": {
+      "x": 2,
+      "y": 3,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar"
+  },
+  "natural-dune-shipyard-beach-51": {
+    "sheet": "assets/tilesets/original/natural-shipyard-beach-dunes.png",
+    "sourceId": "natural-coast",
+    "rect": {
+      "x": 3,
+      "y": 3,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar"
+  },
+  "natural-dune-shipyard-beach-52": {
+    "sheet": "assets/tilesets/original/natural-shipyard-beach-dunes.png",
+    "sourceId": "natural-coast",
+    "rect": {
+      "x": 4,
+      "y": 3,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar"
+  },
+  "natural-dune-shipyard-beach-53": {
+    "sheet": "assets/tilesets/original/natural-shipyard-beach-dunes.png",
+    "sourceId": "natural-coast",
+    "rect": {
+      "x": 5,
+      "y": 3,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar"
+  },
+  "natural-dune-shipyard-beach-54": {
+    "sheet": "assets/tilesets/original/natural-shipyard-beach-dunes.png",
+    "sourceId": "natural-coast",
+    "rect": {
+      "x": 6,
+      "y": 3,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar"
+  },
+  "natural-dune-shipyard-beach-55": {
+    "sheet": "assets/tilesets/original/natural-shipyard-beach-dunes.png",
+    "sourceId": "natural-coast",
+    "rect": {
+      "x": 7,
+      "y": 3,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar"
+  },
+  "natural-dune-shipyard-beach-56": {
+    "sheet": "assets/tilesets/original/natural-shipyard-beach-dunes.png",
+    "sourceId": "natural-coast",
+    "rect": {
+      "x": 8,
+      "y": 3,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar"
+  },
+  "natural-dune-shipyard-beach-57": {
+    "sheet": "assets/tilesets/original/natural-shipyard-beach-dunes.png",
+    "sourceId": "natural-coast",
+    "rect": {
+      "x": 9,
+      "y": 3,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar"
+  },
+  "natural-dune-shipyard-beach-58": {
+    "sheet": "assets/tilesets/original/natural-shipyard-beach-dunes.png",
+    "sourceId": "natural-coast",
+    "rect": {
+      "x": 10,
+      "y": 3,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar"
+  },
+  "natural-dune-shipyard-beach-59": {
+    "sheet": "assets/tilesets/original/natural-shipyard-beach-dunes.png",
+    "sourceId": "natural-coast",
+    "rect": {
+      "x": 11,
+      "y": 3,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar"
+  },
+  "natural-dune-shipyard-beach-60": {
+    "sheet": "assets/tilesets/original/natural-shipyard-beach-dunes.png",
+    "sourceId": "natural-coast",
+    "rect": {
+      "x": 12,
+      "y": 3,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar"
+  },
+  "natural-dune-shipyard-beach-61": {
+    "sheet": "assets/tilesets/original/natural-shipyard-beach-dunes.png",
+    "sourceId": "natural-coast",
+    "rect": {
+      "x": 13,
+      "y": 3,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar"
+  },
+  "natural-dune-shipyard-beach-62": {
+    "sheet": "assets/tilesets/original/natural-shipyard-beach-dunes.png",
+    "sourceId": "natural-coast",
+    "rect": {
+      "x": 14,
+      "y": 3,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar"
+  },
+  "natural-dune-shipyard-beach-63": {
+    "sheet": "assets/tilesets/original/natural-shipyard-beach-dunes.png",
+    "sourceId": "natural-coast",
+    "rect": {
+      "x": 15,
+      "y": 3,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar"
+  },
+  "natural-dune-shipyard-beach-64": {
+    "sheet": "assets/tilesets/original/natural-shipyard-beach-dunes.png",
+    "sourceId": "natural-coast",
+    "rect": {
+      "x": 0,
+      "y": 4,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar"
+  },
+  "natural-dune-shipyard-beach-65": {
+    "sheet": "assets/tilesets/original/natural-shipyard-beach-dunes.png",
+    "sourceId": "natural-coast",
+    "rect": {
+      "x": 1,
+      "y": 4,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar"
+  },
+  "natural-dune-shipyard-beach-66": {
+    "sheet": "assets/tilesets/original/natural-shipyard-beach-dunes.png",
+    "sourceId": "natural-coast",
+    "rect": {
+      "x": 2,
+      "y": 4,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar"
+  },
+  "natural-dune-shipyard-beach-67": {
+    "sheet": "assets/tilesets/original/natural-shipyard-beach-dunes.png",
+    "sourceId": "natural-coast",
+    "rect": {
+      "x": 3,
+      "y": 4,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar"
+  },
+  "natural-dune-shipyard-beach-68": {
+    "sheet": "assets/tilesets/original/natural-shipyard-beach-dunes.png",
+    "sourceId": "natural-coast",
+    "rect": {
+      "x": 4,
+      "y": 4,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar"
+  },
+  "natural-dune-shipyard-beach-69": {
+    "sheet": "assets/tilesets/original/natural-shipyard-beach-dunes.png",
+    "sourceId": "natural-coast",
+    "rect": {
+      "x": 5,
+      "y": 4,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar"
+  },
+  "natural-dune-shipyard-beach-70": {
+    "sheet": "assets/tilesets/original/natural-shipyard-beach-dunes.png",
+    "sourceId": "natural-coast",
+    "rect": {
+      "x": 6,
+      "y": 4,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar"
+  },
+  "natural-dune-shipyard-beach-71": {
+    "sheet": "assets/tilesets/original/natural-shipyard-beach-dunes.png",
+    "sourceId": "natural-coast",
+    "rect": {
+      "x": 7,
+      "y": 4,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar"
+  },
+  "natural-dune-shipyard-beach-72": {
+    "sheet": "assets/tilesets/original/natural-shipyard-beach-dunes.png",
+    "sourceId": "natural-coast",
+    "rect": {
+      "x": 8,
+      "y": 4,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar"
+  },
+  "natural-dune-shipyard-beach-73": {
+    "sheet": "assets/tilesets/original/natural-shipyard-beach-dunes.png",
+    "sourceId": "natural-coast",
+    "rect": {
+      "x": 9,
+      "y": 4,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar"
+  },
+  "natural-dune-shipyard-beach-74": {
+    "sheet": "assets/tilesets/original/natural-shipyard-beach-dunes.png",
+    "sourceId": "natural-coast",
+    "rect": {
+      "x": 10,
+      "y": 4,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar"
+  },
+  "natural-dune-shipyard-beach-75": {
+    "sheet": "assets/tilesets/original/natural-shipyard-beach-dunes.png",
+    "sourceId": "natural-coast",
+    "rect": {
+      "x": 11,
+      "y": 4,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar"
+  },
+  "natural-dune-shipyard-beach-76": {
+    "sheet": "assets/tilesets/original/natural-shipyard-beach-dunes.png",
+    "sourceId": "natural-coast",
+    "rect": {
+      "x": 12,
+      "y": 4,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar"
+  },
+  "natural-dune-shipyard-beach-77": {
+    "sheet": "assets/tilesets/original/natural-shipyard-beach-dunes.png",
+    "sourceId": "natural-coast",
+    "rect": {
+      "x": 13,
+      "y": 4,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar"
+  },
+  "natural-dune-shipyard-beach-78": {
+    "sheet": "assets/tilesets/original/natural-shipyard-beach-dunes.png",
+    "sourceId": "natural-coast",
+    "rect": {
+      "x": 14,
+      "y": 4,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar"
+  },
+  "natural-dune-shipyard-beach-79": {
+    "sheet": "assets/tilesets/original/natural-shipyard-beach-dunes.png",
+    "sourceId": "natural-coast",
+    "rect": {
+      "x": 15,
+      "y": 4,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar"
+  },
+  "natural-dune-shipyard-beach-80": {
+    "sheet": "assets/tilesets/original/natural-shipyard-beach-dunes.png",
+    "sourceId": "natural-coast",
+    "rect": {
+      "x": 0,
+      "y": 5,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar"
+  },
+  "natural-dune-shipyard-beach-81": {
+    "sheet": "assets/tilesets/original/natural-shipyard-beach-dunes.png",
+    "sourceId": "natural-coast",
+    "rect": {
+      "x": 1,
+      "y": 5,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar"
+  },
+  "natural-dune-shipyard-beach-82": {
+    "sheet": "assets/tilesets/original/natural-shipyard-beach-dunes.png",
+    "sourceId": "natural-coast",
+    "rect": {
+      "x": 2,
+      "y": 5,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar"
+  },
+  "natural-dune-shipyard-beach-83": {
+    "sheet": "assets/tilesets/original/natural-shipyard-beach-dunes.png",
+    "sourceId": "natural-coast",
+    "rect": {
+      "x": 3,
+      "y": 5,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar"
+  },
+  "natural-dune-shipyard-beach-84": {
+    "sheet": "assets/tilesets/original/natural-shipyard-beach-dunes.png",
+    "sourceId": "natural-coast",
+    "rect": {
+      "x": 4,
+      "y": 5,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar"
+  },
+  "natural-dune-shipyard-beach-85": {
+    "sheet": "assets/tilesets/original/natural-shipyard-beach-dunes.png",
+    "sourceId": "natural-coast",
+    "rect": {
+      "x": 5,
+      "y": 5,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar"
+  },
+  "natural-dune-shipyard-beach-86": {
+    "sheet": "assets/tilesets/original/natural-shipyard-beach-dunes.png",
+    "sourceId": "natural-coast",
+    "rect": {
+      "x": 6,
+      "y": 5,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar"
+  },
+  "natural-dune-shipyard-beach-87": {
+    "sheet": "assets/tilesets/original/natural-shipyard-beach-dunes.png",
+    "sourceId": "natural-coast",
+    "rect": {
+      "x": 7,
+      "y": 5,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar"
+  },
+  "natural-dune-shipyard-beach-88": {
+    "sheet": "assets/tilesets/original/natural-shipyard-beach-dunes.png",
+    "sourceId": "natural-coast",
+    "rect": {
+      "x": 8,
+      "y": 5,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar"
+  },
+  "natural-dune-shipyard-beach-89": {
+    "sheet": "assets/tilesets/original/natural-shipyard-beach-dunes.png",
+    "sourceId": "natural-coast",
+    "rect": {
+      "x": 9,
+      "y": 5,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar"
+  },
+  "natural-dune-shipyard-beach-90": {
+    "sheet": "assets/tilesets/original/natural-shipyard-beach-dunes.png",
+    "sourceId": "natural-coast",
+    "rect": {
+      "x": 10,
+      "y": 5,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar"
+  },
+  "natural-dune-shipyard-beach-91": {
+    "sheet": "assets/tilesets/original/natural-shipyard-beach-dunes.png",
+    "sourceId": "natural-coast",
+    "rect": {
+      "x": 11,
+      "y": 5,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar"
+  },
+  "natural-dune-shipyard-beach-92": {
+    "sheet": "assets/tilesets/original/natural-shipyard-beach-dunes.png",
+    "sourceId": "natural-coast",
+    "rect": {
+      "x": 12,
+      "y": 5,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar"
+  },
+  "natural-dune-shipyard-beach-93": {
+    "sheet": "assets/tilesets/original/natural-shipyard-beach-dunes.png",
+    "sourceId": "natural-coast",
+    "rect": {
+      "x": 13,
+      "y": 5,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar"
+  },
+  "natural-dune-shipyard-beach-94": {
+    "sheet": "assets/tilesets/original/natural-shipyard-beach-dunes.png",
+    "sourceId": "natural-coast",
+    "rect": {
+      "x": 14,
+      "y": 5,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar"
+  },
+  "natural-dune-shipyard-beach-95": {
+    "sheet": "assets/tilesets/original/natural-shipyard-beach-dunes.png",
+    "sourceId": "natural-coast",
+    "rect": {
+      "x": 15,
+      "y": 5,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar"
+  },
+  "natural-dune-shipyard-beach-96": {
+    "sheet": "assets/tilesets/original/natural-shipyard-beach-dunes.png",
+    "sourceId": "natural-coast",
+    "rect": {
+      "x": 0,
+      "y": 6,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar"
+  },
+  "natural-dune-shipyard-beach-97": {
+    "sheet": "assets/tilesets/original/natural-shipyard-beach-dunes.png",
+    "sourceId": "natural-coast",
+    "rect": {
+      "x": 1,
+      "y": 6,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar"
+  },
+  "natural-dune-shipyard-beach-98": {
+    "sheet": "assets/tilesets/original/natural-shipyard-beach-dunes.png",
+    "sourceId": "natural-coast",
+    "rect": {
+      "x": 2,
+      "y": 6,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar"
+  },
+  "natural-dune-shipyard-beach-99": {
+    "sheet": "assets/tilesets/original/natural-shipyard-beach-dunes.png",
+    "sourceId": "natural-coast",
+    "rect": {
+      "x": 3,
+      "y": 6,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar"
+  },
+  "natural-dune-shipyard-beach-100": {
+    "sheet": "assets/tilesets/original/natural-shipyard-beach-dunes.png",
+    "sourceId": "natural-coast",
+    "rect": {
+      "x": 4,
+      "y": 6,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar"
+  },
+  "natural-dune-shipyard-beach-101": {
+    "sheet": "assets/tilesets/original/natural-shipyard-beach-dunes.png",
+    "sourceId": "natural-coast",
+    "rect": {
+      "x": 5,
+      "y": 6,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar"
+  },
+  "natural-dune-shipyard-beach-102": {
+    "sheet": "assets/tilesets/original/natural-shipyard-beach-dunes.png",
+    "sourceId": "natural-coast",
+    "rect": {
+      "x": 6,
+      "y": 6,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar"
+  },
+  "natural-dune-shipyard-beach-103": {
+    "sheet": "assets/tilesets/original/natural-shipyard-beach-dunes.png",
+    "sourceId": "natural-coast",
+    "rect": {
+      "x": 7,
+      "y": 6,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar"
+  },
+  "natural-dune-shipyard-beach-104": {
+    "sheet": "assets/tilesets/original/natural-shipyard-beach-dunes.png",
+    "sourceId": "natural-coast",
+    "rect": {
+      "x": 8,
+      "y": 6,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar"
+  },
+  "natural-dune-shipyard-beach-105": {
+    "sheet": "assets/tilesets/original/natural-shipyard-beach-dunes.png",
+    "sourceId": "natural-coast",
+    "rect": {
+      "x": 9,
+      "y": 6,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar"
+  },
+  "natural-dune-shipyard-beach-106": {
+    "sheet": "assets/tilesets/original/natural-shipyard-beach-dunes.png",
+    "sourceId": "natural-coast",
+    "rect": {
+      "x": 10,
+      "y": 6,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar"
+  },
+  "natural-dune-shipyard-beach-107": {
+    "sheet": "assets/tilesets/original/natural-shipyard-beach-dunes.png",
+    "sourceId": "natural-coast",
+    "rect": {
+      "x": 11,
+      "y": 6,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar"
+  },
+  "natural-dune-shipyard-beach-108": {
+    "sheet": "assets/tilesets/original/natural-shipyard-beach-dunes.png",
+    "sourceId": "natural-coast",
+    "rect": {
+      "x": 12,
+      "y": 6,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar"
+  },
+  "natural-dune-shipyard-beach-109": {
+    "sheet": "assets/tilesets/original/natural-shipyard-beach-dunes.png",
+    "sourceId": "natural-coast",
+    "rect": {
+      "x": 13,
+      "y": 6,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar"
+  },
+  "natural-dune-shipyard-beach-110": {
+    "sheet": "assets/tilesets/original/natural-shipyard-beach-dunes.png",
+    "sourceId": "natural-coast",
+    "rect": {
+      "x": 14,
+      "y": 6,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar"
+  },
+  "natural-dune-shipyard-beach-111": {
+    "sheet": "assets/tilesets/original/natural-shipyard-beach-dunes.png",
+    "sourceId": "natural-coast",
+    "rect": {
+      "x": 15,
+      "y": 6,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar"
+  },
+  "natural-dune-shipyard-beach-112": {
+    "sheet": "assets/tilesets/original/natural-shipyard-beach-dunes.png",
+    "sourceId": "natural-coast",
+    "rect": {
+      "x": 0,
+      "y": 7,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar"
+  },
+  "natural-dune-shipyard-beach-113": {
+    "sheet": "assets/tilesets/original/natural-shipyard-beach-dunes.png",
+    "sourceId": "natural-coast",
+    "rect": {
+      "x": 1,
+      "y": 7,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar"
+  },
+  "natural-dune-shipyard-beach-114": {
+    "sheet": "assets/tilesets/original/natural-shipyard-beach-dunes.png",
+    "sourceId": "natural-coast",
+    "rect": {
+      "x": 2,
+      "y": 7,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar"
+  },
+  "natural-dune-shipyard-beach-115": {
+    "sheet": "assets/tilesets/original/natural-shipyard-beach-dunes.png",
+    "sourceId": "natural-coast",
+    "rect": {
+      "x": 3,
+      "y": 7,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar"
+  },
+  "natural-dune-shipyard-beach-116": {
+    "sheet": "assets/tilesets/original/natural-shipyard-beach-dunes.png",
+    "sourceId": "natural-coast",
+    "rect": {
+      "x": 4,
+      "y": 7,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar"
+  },
+  "natural-constellation-shore-land-0": {
+    "sheet": "assets/tilesets/original/natural-constellation-shore.png",
+    "sourceId": "lpc-water",
+    "rect": {
+      "x": 0,
+      "y": 0,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar"
+  },
+  "natural-constellation-shore-land-4": {
+    "sheet": "assets/tilesets/original/natural-constellation-shore.png",
+    "sourceId": "lpc-water",
+    "rect": {
+      "x": 4,
+      "y": 0,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar"
+  },
+  "natural-constellation-shore-land-8": {
+    "sheet": "assets/tilesets/original/natural-constellation-shore.png",
+    "sourceId": "lpc-water",
+    "rect": {
+      "x": 8,
+      "y": 0,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar"
+  },
+  "natural-constellation-shore-land-12": {
+    "sheet": "assets/tilesets/original/natural-constellation-shore.png",
+    "sourceId": "lpc-water",
+    "rect": {
+      "x": 12,
+      "y": 0,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar"
+  },
+  "natural-constellation-shore-land-16": {
+    "sheet": "assets/tilesets/original/natural-constellation-shore.png",
+    "sourceId": "lpc-water",
+    "rect": {
+      "x": 16,
+      "y": 0,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar"
+  },
+  "natural-constellation-shore-water-20": {
+    "sheet": "assets/tilesets/original/natural-constellation-shore.png",
+    "sourceId": "lpc-water",
+    "rect": {
+      "x": 20,
+      "y": 0,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [
+      [
+        0,
+        0
+      ]
+    ],
+    "level": "belowAvatar"
+  },
+  "natural-constellation-shore-land-24": {
+    "sheet": "assets/tilesets/original/natural-constellation-shore.png",
+    "sourceId": "lpc-water",
+    "rect": {
+      "x": 24,
+      "y": 0,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar"
+  },
+  "natural-constellation-shore-land-28": {
+    "sheet": "assets/tilesets/original/natural-constellation-shore.png",
+    "sourceId": "lpc-water",
+    "rect": {
+      "x": 28,
+      "y": 0,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar"
+  },
+  "natural-constellation-shore-land-32": {
+    "sheet": "assets/tilesets/original/natural-constellation-shore.png",
+    "sourceId": "lpc-water",
+    "rect": {
+      "x": 32,
+      "y": 0,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar"
+  },
+  "natural-constellation-shore-land-36": {
+    "sheet": "assets/tilesets/original/natural-constellation-shore.png",
+    "sourceId": "lpc-water",
+    "rect": {
+      "x": 36,
+      "y": 0,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar"
+  },
+  "natural-constellation-shore-land-40": {
+    "sheet": "assets/tilesets/original/natural-constellation-shore.png",
+    "sourceId": "lpc-water",
+    "rect": {
+      "x": 40,
+      "y": 0,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar"
+  },
+  "natural-constellation-shore-land-44": {
+    "sheet": "assets/tilesets/original/natural-constellation-shore.png",
+    "sourceId": "lpc-water",
+    "rect": {
+      "x": 44,
+      "y": 0,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar"
+  },
+  "natural-constellation-shore-water-48": {
+    "sheet": "assets/tilesets/original/natural-constellation-shore.png",
+    "sourceId": "lpc-water",
+    "rect": {
+      "x": 48,
+      "y": 0,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [
+      [
+        0,
+        0
+      ]
+    ],
+    "level": "belowAvatar"
+  },
+  "natural-constellation-shore-water-52": {
+    "sheet": "assets/tilesets/original/natural-constellation-shore.png",
+    "sourceId": "lpc-water",
+    "rect": {
+      "x": 52,
+      "y": 0,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [
+      [
+        0,
+        0
+      ]
+    ],
+    "level": "belowAvatar"
+  },
+  "natural-constellation-shore-water-56": {
+    "sheet": "assets/tilesets/original/natural-constellation-shore.png",
+    "sourceId": "lpc-water",
+    "rect": {
+      "x": 56,
+      "y": 0,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [
+      [
+        0,
+        0
+      ]
+    ],
+    "level": "belowAvatar"
+  },
+  "natural-constellation-shore-water-60": {
+    "sheet": "assets/tilesets/original/natural-constellation-shore.png",
+    "sourceId": "lpc-water",
+    "rect": {
+      "x": 60,
+      "y": 0,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [
+      [
+        0,
+        0
+      ]
+    ],
+    "level": "belowAvatar"
+  },
+  "natural-constellation-shore-water-64": {
+    "sheet": "assets/tilesets/original/natural-constellation-shore.png",
+    "sourceId": "lpc-water",
+    "rect": {
+      "x": 0,
+      "y": 1,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [
+      [
+        0,
+        0
+      ]
+    ],
+    "level": "belowAvatar"
+  },
+  "natural-constellation-shore-land-68": {
+    "sheet": "assets/tilesets/original/natural-constellation-shore.png",
+    "sourceId": "lpc-water",
+    "rect": {
+      "x": 4,
+      "y": 1,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar"
+  },
+  "natural-constellation-shore-land-72": {
+    "sheet": "assets/tilesets/original/natural-constellation-shore.png",
+    "sourceId": "lpc-water",
+    "rect": {
+      "x": 8,
+      "y": 1,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar"
+  },
+  "natural-constellation-shore-land-76": {
+    "sheet": "assets/tilesets/original/natural-constellation-shore.png",
+    "sourceId": "lpc-water",
+    "rect": {
+      "x": 12,
+      "y": 1,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar"
+  },
+  "natural-constellation-shore-land-80": {
+    "sheet": "assets/tilesets/original/natural-constellation-shore.png",
+    "sourceId": "lpc-water",
+    "rect": {
+      "x": 16,
+      "y": 1,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar"
+  },
+  "natural-constellation-shore-land-84": {
+    "sheet": "assets/tilesets/original/natural-constellation-shore.png",
+    "sourceId": "lpc-water",
+    "rect": {
+      "x": 20,
+      "y": 1,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar"
+  },
+  "natural-constellation-shore-land-88": {
+    "sheet": "assets/tilesets/original/natural-constellation-shore.png",
+    "sourceId": "lpc-water",
+    "rect": {
+      "x": 24,
+      "y": 1,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar"
+  },
+  "natural-constellation-shore-water-92": {
+    "sheet": "assets/tilesets/original/natural-constellation-shore.png",
+    "sourceId": "lpc-water",
+    "rect": {
+      "x": 28,
+      "y": 1,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [
+      [
+        0,
+        0
+      ]
+    ],
+    "level": "belowAvatar"
+  },
+  "natural-constellation-shore-land-96": {
+    "sheet": "assets/tilesets/original/natural-constellation-shore.png",
+    "sourceId": "lpc-water",
+    "rect": {
+      "x": 32,
+      "y": 1,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar"
+  },
+  "natural-constellation-shore-water-100": {
+    "sheet": "assets/tilesets/original/natural-constellation-shore.png",
+    "sourceId": "lpc-water",
+    "rect": {
+      "x": 36,
+      "y": 1,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [
+      [
+        0,
+        0
+      ]
+    ],
+    "level": "belowAvatar"
+  },
+  "natural-constellation-shore-water-104": {
+    "sheet": "assets/tilesets/original/natural-constellation-shore.png",
+    "sourceId": "lpc-water",
+    "rect": {
+      "x": 40,
+      "y": 1,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [
+      [
+        0,
+        0
+      ]
+    ],
+    "level": "belowAvatar"
+  },
+  "natural-constellation-shore-water-108": {
+    "sheet": "assets/tilesets/original/natural-constellation-shore.png",
+    "sourceId": "lpc-water",
+    "rect": {
+      "x": 44,
+      "y": 1,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [
+      [
+        0,
+        0
+      ]
+    ],
+    "level": "belowAvatar"
+  },
+  "natural-constellation-shore-land-112": {
+    "sheet": "assets/tilesets/original/natural-constellation-shore.png",
+    "sourceId": "lpc-water",
+    "rect": {
+      "x": 48,
+      "y": 1,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar"
+  },
+  "natural-constellation-shore-land-116": {
+    "sheet": "assets/tilesets/original/natural-constellation-shore.png",
+    "sourceId": "lpc-water",
+    "rect": {
+      "x": 52,
+      "y": 1,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar"
+  },
+  "natural-constellation-shore-land-120": {
+    "sheet": "assets/tilesets/original/natural-constellation-shore.png",
+    "sourceId": "lpc-water",
+    "rect": {
+      "x": 56,
+      "y": 1,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar"
+  },
+  "natural-constellation-shore-land-124": {
+    "sheet": "assets/tilesets/original/natural-constellation-shore.png",
+    "sourceId": "lpc-water",
+    "rect": {
+      "x": 60,
+      "y": 1,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar"
+  },
+  "natural-constellation-shore-land-128": {
+    "sheet": "assets/tilesets/original/natural-constellation-shore.png",
+    "sourceId": "lpc-water",
+    "rect": {
+      "x": 0,
+      "y": 2,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar"
+  },
+  "natural-constellation-shore-land-132": {
+    "sheet": "assets/tilesets/original/natural-constellation-shore.png",
+    "sourceId": "lpc-water",
+    "rect": {
+      "x": 4,
+      "y": 2,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar"
+  },
+  "natural-constellation-shore-land-136": {
+    "sheet": "assets/tilesets/original/natural-constellation-shore.png",
+    "sourceId": "lpc-water",
+    "rect": {
+      "x": 8,
+      "y": 2,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar"
+  },
+  "natural-constellation-shore-land-140": {
+    "sheet": "assets/tilesets/original/natural-constellation-shore.png",
+    "sourceId": "lpc-water",
+    "rect": {
+      "x": 12,
+      "y": 2,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar"
+  },
+  "natural-constellation-shore-land-144": {
+    "sheet": "assets/tilesets/original/natural-constellation-shore.png",
+    "sourceId": "lpc-water",
+    "rect": {
+      "x": 16,
+      "y": 2,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar"
+  },
+  "natural-constellation-shore-land-148": {
+    "sheet": "assets/tilesets/original/natural-constellation-shore.png",
+    "sourceId": "lpc-water",
+    "rect": {
+      "x": 20,
+      "y": 2,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar"
+  },
+  "natural-constellation-shore-land-152": {
+    "sheet": "assets/tilesets/original/natural-constellation-shore.png",
+    "sourceId": "lpc-water",
+    "rect": {
+      "x": 24,
+      "y": 2,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar"
+  },
+  "natural-constellation-shore-land-156": {
+    "sheet": "assets/tilesets/original/natural-constellation-shore.png",
+    "sourceId": "lpc-water",
+    "rect": {
+      "x": 28,
+      "y": 2,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar"
+  },
+  "natural-constellation-shore-land-160": {
+    "sheet": "assets/tilesets/original/natural-constellation-shore.png",
+    "sourceId": "lpc-water",
+    "rect": {
+      "x": 32,
+      "y": 2,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar"
+  },
+  "natural-constellation-shore-land-164": {
+    "sheet": "assets/tilesets/original/natural-constellation-shore.png",
+    "sourceId": "lpc-water",
+    "rect": {
+      "x": 36,
+      "y": 2,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar"
+  },
+  "natural-constellation-shore-land-168": {
+    "sheet": "assets/tilesets/original/natural-constellation-shore.png",
+    "sourceId": "lpc-water",
+    "rect": {
+      "x": 40,
+      "y": 2,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar"
+  },
+  "natural-constellation-shore-land-172": {
+    "sheet": "assets/tilesets/original/natural-constellation-shore.png",
+    "sourceId": "lpc-water",
+    "rect": {
+      "x": 44,
+      "y": 2,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar"
+  },
+  "natural-constellation-shore-water-176": {
+    "sheet": "assets/tilesets/original/natural-constellation-shore.png",
+    "sourceId": "lpc-water",
+    "rect": {
+      "x": 48,
+      "y": 2,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [
+      [
+        0,
+        0
+      ]
+    ],
+    "level": "belowAvatar"
+  },
+  "natural-constellation-shore-water-180": {
+    "sheet": "assets/tilesets/original/natural-constellation-shore.png",
+    "sourceId": "lpc-water",
+    "rect": {
+      "x": 52,
+      "y": 2,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [
+      [
+        0,
+        0
+      ]
+    ],
+    "level": "belowAvatar"
+  },
+  "natural-constellation-shore-water-184": {
+    "sheet": "assets/tilesets/original/natural-constellation-shore.png",
+    "sourceId": "lpc-water",
+    "rect": {
+      "x": 56,
+      "y": 2,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [
+      [
+        0,
+        0
+      ]
+    ],
+    "level": "belowAvatar"
+  },
+  "natural-constellation-shore-water-188": {
+    "sheet": "assets/tilesets/original/natural-constellation-shore.png",
+    "sourceId": "lpc-water",
+    "rect": {
+      "x": 60,
+      "y": 2,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [
+      [
+        0,
+        0
+      ]
+    ],
+    "level": "belowAvatar"
+  },
+  "natural-constellation-shore-water-192": {
+    "sheet": "assets/tilesets/original/natural-constellation-shore.png",
+    "sourceId": "lpc-water",
+    "rect": {
+      "x": 0,
+      "y": 3,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [
+      [
+        0,
+        0
+      ]
+    ],
+    "level": "belowAvatar"
+  },
+  "natural-constellation-shore-water-196": {
+    "sheet": "assets/tilesets/original/natural-constellation-shore.png",
+    "sourceId": "lpc-water",
+    "rect": {
+      "x": 4,
+      "y": 3,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [
+      [
+        0,
+        0
+      ]
+    ],
+    "level": "belowAvatar"
+  },
+  "natural-constellation-shore-water-200": {
+    "sheet": "assets/tilesets/original/natural-constellation-shore.png",
+    "sourceId": "lpc-water",
+    "rect": {
+      "x": 8,
+      "y": 3,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [
+      [
+        0,
+        0
+      ]
+    ],
+    "level": "belowAvatar"
+  },
+  "natural-constellation-shore-water-204": {
+    "sheet": "assets/tilesets/original/natural-constellation-shore.png",
+    "sourceId": "lpc-water",
+    "rect": {
+      "x": 12,
+      "y": 3,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [
+      [
+        0,
+        0
+      ]
+    ],
+    "level": "belowAvatar"
+  },
+  "natural-constellation-shore-land-208": {
+    "sheet": "assets/tilesets/original/natural-constellation-shore.png",
+    "sourceId": "lpc-water",
+    "rect": {
+      "x": 16,
+      "y": 3,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar"
+  },
+  "natural-constellation-shore-land-212": {
+    "sheet": "assets/tilesets/original/natural-constellation-shore.png",
+    "sourceId": "lpc-water",
+    "rect": {
+      "x": 20,
+      "y": 3,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar"
+  },
+  "natural-constellation-shore-land-216": {
+    "sheet": "assets/tilesets/original/natural-constellation-shore.png",
+    "sourceId": "lpc-water",
+    "rect": {
+      "x": 24,
+      "y": 3,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar"
+  },
+  "natural-constellation-shore-land-220": {
+    "sheet": "assets/tilesets/original/natural-constellation-shore.png",
+    "sourceId": "lpc-water",
+    "rect": {
+      "x": 28,
+      "y": 3,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar"
+  },
+  "natural-constellation-shore-land-224": {
+    "sheet": "assets/tilesets/original/natural-constellation-shore.png",
+    "sourceId": "lpc-water",
+    "rect": {
+      "x": 32,
+      "y": 3,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar"
+  },
+  "natural-constellation-shore-water-228": {
+    "sheet": "assets/tilesets/original/natural-constellation-shore.png",
+    "sourceId": "lpc-water",
+    "rect": {
+      "x": 36,
+      "y": 3,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [
+      [
+        0,
+        0
+      ]
+    ],
+    "level": "belowAvatar"
+  },
+  "natural-constellation-shore-water-232": {
+    "sheet": "assets/tilesets/original/natural-constellation-shore.png",
+    "sourceId": "lpc-water",
+    "rect": {
+      "x": 40,
+      "y": 3,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [
+      [
+        0,
+        0
+      ]
+    ],
+    "level": "belowAvatar"
+  },
+  "natural-constellation-shore-land-236": {
+    "sheet": "assets/tilesets/original/natural-constellation-shore.png",
+    "sourceId": "lpc-water",
+    "rect": {
+      "x": 44,
+      "y": 3,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar"
+  },
+  "natural-constellation-shore-land-240": {
+    "sheet": "assets/tilesets/original/natural-constellation-shore.png",
+    "sourceId": "lpc-water",
+    "rect": {
+      "x": 48,
+      "y": 3,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar"
+  },
+  "natural-constellation-shore-land-244": {
+    "sheet": "assets/tilesets/original/natural-constellation-shore.png",
+    "sourceId": "lpc-water",
+    "rect": {
+      "x": 52,
+      "y": 3,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar"
+  },
+  "natural-constellation-shore-land-248": {
+    "sheet": "assets/tilesets/original/natural-constellation-shore.png",
+    "sourceId": "lpc-water",
+    "rect": {
+      "x": 56,
+      "y": 3,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar"
+  },
+  "natural-constellation-shore-land-252": {
+    "sheet": "assets/tilesets/original/natural-constellation-shore.png",
+    "sourceId": "lpc-water",
+    "rect": {
+      "x": 60,
+      "y": 3,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar"
+  },
+  "natural-constellation-shore-land-256": {
+    "sheet": "assets/tilesets/original/natural-constellation-shore.png",
+    "sourceId": "lpc-water",
+    "rect": {
+      "x": 0,
+      "y": 4,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar"
+  },
+  "natural-constellation-shore-land-260": {
+    "sheet": "assets/tilesets/original/natural-constellation-shore.png",
+    "sourceId": "lpc-water",
+    "rect": {
+      "x": 4,
+      "y": 4,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar"
+  },
+  "natural-constellation-shore-water-264": {
+    "sheet": "assets/tilesets/original/natural-constellation-shore.png",
+    "sourceId": "lpc-water",
+    "rect": {
+      "x": 8,
+      "y": 4,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [
+      [
+        0,
+        0
+      ]
+    ],
+    "level": "belowAvatar"
+  },
+  "natural-constellation-shore-water-268": {
+    "sheet": "assets/tilesets/original/natural-constellation-shore.png",
+    "sourceId": "lpc-water",
+    "rect": {
+      "x": 12,
+      "y": 4,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [
+      [
+        0,
+        0
+      ]
+    ],
+    "level": "belowAvatar"
+  },
+  "natural-constellation-shore-water-272": {
+    "sheet": "assets/tilesets/original/natural-constellation-shore.png",
+    "sourceId": "lpc-water",
+    "rect": {
+      "x": 16,
+      "y": 4,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [
+      [
+        0,
+        0
+      ]
+    ],
+    "level": "belowAvatar"
+  },
+  "natural-constellation-shore-land-276": {
+    "sheet": "assets/tilesets/original/natural-constellation-shore.png",
+    "sourceId": "lpc-water",
+    "rect": {
+      "x": 20,
+      "y": 4,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar"
+  },
+  "natural-constellation-shore-land-280": {
+    "sheet": "assets/tilesets/original/natural-constellation-shore.png",
+    "sourceId": "lpc-water",
+    "rect": {
+      "x": 24,
+      "y": 4,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar"
+  },
+  "natural-constellation-shore-land-284": {
+    "sheet": "assets/tilesets/original/natural-constellation-shore.png",
+    "sourceId": "lpc-water",
+    "rect": {
+      "x": 28,
+      "y": 4,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar"
+  },
+  "natural-constellation-shore-land-288": {
+    "sheet": "assets/tilesets/original/natural-constellation-shore.png",
+    "sourceId": "lpc-water",
+    "rect": {
+      "x": 32,
+      "y": 4,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar"
+  },
+  "natural-constellation-shore-land-292": {
+    "sheet": "assets/tilesets/original/natural-constellation-shore.png",
+    "sourceId": "lpc-water",
+    "rect": {
+      "x": 36,
+      "y": 4,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar"
+  },
+  "natural-constellation-shore-land-296": {
+    "sheet": "assets/tilesets/original/natural-constellation-shore.png",
+    "sourceId": "lpc-water",
+    "rect": {
+      "x": 40,
+      "y": 4,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar"
+  },
+  "natural-constellation-shore-water-300": {
+    "sheet": "assets/tilesets/original/natural-constellation-shore.png",
+    "sourceId": "lpc-water",
+    "rect": {
+      "x": 44,
+      "y": 4,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [
+      [
+        0,
+        0
+      ]
+    ],
+    "level": "belowAvatar"
+  },
+  "natural-constellation-shore-water-304": {
+    "sheet": "assets/tilesets/original/natural-constellation-shore.png",
+    "sourceId": "lpc-water",
+    "rect": {
+      "x": 48,
+      "y": 4,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [
+      [
+        0,
+        0
+      ]
+    ],
+    "level": "belowAvatar"
+  },
+  "natural-constellation-shore-water-308": {
+    "sheet": "assets/tilesets/original/natural-constellation-shore.png",
+    "sourceId": "lpc-water",
+    "rect": {
+      "x": 52,
+      "y": 4,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [
+      [
+        0,
+        0
+      ]
+    ],
+    "level": "belowAvatar"
+  },
+  "natural-constellation-shore-water-312": {
+    "sheet": "assets/tilesets/original/natural-constellation-shore.png",
+    "sourceId": "lpc-water",
+    "rect": {
+      "x": 56,
+      "y": 4,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [
+      [
+        0,
+        0
+      ]
+    ],
+    "level": "belowAvatar"
+  },
+  "natural-constellation-shore-water-316": {
+    "sheet": "assets/tilesets/original/natural-constellation-shore.png",
+    "sourceId": "lpc-water",
+    "rect": {
+      "x": 60,
+      "y": 4,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [
+      [
+        0,
+        0
+      ]
+    ],
+    "level": "belowAvatar"
+  },
+  "natural-constellation-shore-water-320": {
+    "sheet": "assets/tilesets/original/natural-constellation-shore.png",
+    "sourceId": "lpc-water",
+    "rect": {
+      "x": 0,
+      "y": 5,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [
+      [
+        0,
+        0
+      ]
+    ],
+    "level": "belowAvatar"
+  },
+  "natural-constellation-shore-water-324": {
+    "sheet": "assets/tilesets/original/natural-constellation-shore.png",
+    "sourceId": "lpc-water",
+    "rect": {
+      "x": 4,
+      "y": 5,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [
+      [
+        0,
+        0
+      ]
+    ],
+    "level": "belowAvatar"
+  },
+  "natural-constellation-shore-water-328": {
+    "sheet": "assets/tilesets/original/natural-constellation-shore.png",
+    "sourceId": "lpc-water",
+    "rect": {
+      "x": 8,
+      "y": 5,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [
+      [
+        0,
+        0
+      ]
+    ],
+    "level": "belowAvatar"
+  },
+  "natural-constellation-shore-water-332": {
+    "sheet": "assets/tilesets/original/natural-constellation-shore.png",
+    "sourceId": "lpc-water",
+    "rect": {
+      "x": 12,
+      "y": 5,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [
+      [
+        0,
+        0
+      ]
+    ],
+    "level": "belowAvatar"
+  },
+  "natural-constellation-shore-water-336": {
+    "sheet": "assets/tilesets/original/natural-constellation-shore.png",
+    "sourceId": "lpc-water",
+    "rect": {
+      "x": 16,
+      "y": 5,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [
+      [
+        0,
+        0
+      ]
+    ],
+    "level": "belowAvatar"
+  },
+  "natural-constellation-shore-water-340": {
+    "sheet": "assets/tilesets/original/natural-constellation-shore.png",
+    "sourceId": "lpc-water",
+    "rect": {
+      "x": 20,
+      "y": 5,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [
+      [
+        0,
+        0
+      ]
+    ],
+    "level": "belowAvatar"
+  },
+  "natural-constellation-shore-water-344": {
+    "sheet": "assets/tilesets/original/natural-constellation-shore.png",
+    "sourceId": "lpc-water",
+    "rect": {
+      "x": 24,
+      "y": 5,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [
+      [
+        0,
+        0
+      ]
+    ],
+    "level": "belowAvatar"
+  },
+  "natural-constellation-shore-water-348": {
+    "sheet": "assets/tilesets/original/natural-constellation-shore.png",
+    "sourceId": "lpc-water",
+    "rect": {
+      "x": 28,
+      "y": 5,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [
+      [
+        0,
+        0
+      ]
+    ],
+    "level": "belowAvatar"
+  },
+  "natural-constellation-shore-water-352": {
+    "sheet": "assets/tilesets/original/natural-constellation-shore.png",
+    "sourceId": "lpc-water",
+    "rect": {
+      "x": 32,
+      "y": 5,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [
+      [
+        0,
+        0
+      ]
+    ],
+    "level": "belowAvatar"
+  },
+  "natural-constellation-shore-water-356": {
+    "sheet": "assets/tilesets/original/natural-constellation-shore.png",
+    "sourceId": "lpc-water",
+    "rect": {
+      "x": 36,
+      "y": 5,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [
+      [
+        0,
+        0
+      ]
+    ],
+    "level": "belowAvatar"
+  },
+  "natural-constellation-shore-land-360": {
+    "sheet": "assets/tilesets/original/natural-constellation-shore.png",
+    "sourceId": "lpc-water",
+    "rect": {
+      "x": 40,
+      "y": 5,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar"
+  },
+  "natural-constellation-shore-land-364": {
+    "sheet": "assets/tilesets/original/natural-constellation-shore.png",
+    "sourceId": "lpc-water",
+    "rect": {
+      "x": 44,
+      "y": 5,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar"
+  },
+  "natural-constellation-shore-water-368": {
+    "sheet": "assets/tilesets/original/natural-constellation-shore.png",
+    "sourceId": "lpc-water",
+    "rect": {
+      "x": 48,
+      "y": 5,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [
+      [
+        0,
+        0
+      ]
+    ],
+    "level": "belowAvatar"
+  },
+  "natural-constellation-shore-water-372": {
+    "sheet": "assets/tilesets/original/natural-constellation-shore.png",
+    "sourceId": "lpc-water",
+    "rect": {
+      "x": 52,
+      "y": 5,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [
+      [
+        0,
+        0
+      ]
+    ],
+    "level": "belowAvatar"
+  },
+  "natural-constellation-shore-water-376": {
+    "sheet": "assets/tilesets/original/natural-constellation-shore.png",
+    "sourceId": "lpc-water",
+    "rect": {
+      "x": 56,
+      "y": 5,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [
+      [
+        0,
+        0
+      ]
+    ],
+    "level": "belowAvatar"
+  },
+  "natural-constellation-shore-water-380": {
+    "sheet": "assets/tilesets/original/natural-constellation-shore.png",
+    "sourceId": "lpc-water",
+    "rect": {
+      "x": 60,
+      "y": 5,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [
+      [
+        0,
+        0
+      ]
+    ],
+    "level": "belowAvatar"
+  },
+  "natural-constellation-shore-water-384": {
+    "sheet": "assets/tilesets/original/natural-constellation-shore.png",
+    "sourceId": "lpc-water",
+    "rect": {
+      "x": 0,
+      "y": 6,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [
+      [
+        0,
+        0
+      ]
+    ],
+    "level": "belowAvatar"
+  },
+  "natural-constellation-shore-water-388": {
+    "sheet": "assets/tilesets/original/natural-constellation-shore.png",
+    "sourceId": "lpc-water",
+    "rect": {
+      "x": 4,
+      "y": 6,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [
+      [
+        0,
+        0
+      ]
+    ],
+    "level": "belowAvatar"
+  },
+  "natural-constellation-shore-water-392": {
+    "sheet": "assets/tilesets/original/natural-constellation-shore.png",
+    "sourceId": "lpc-water",
+    "rect": {
+      "x": 8,
+      "y": 6,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [
+      [
+        0,
+        0
+      ]
+    ],
+    "level": "belowAvatar"
+  },
+  "natural-constellation-shore-water-396": {
+    "sheet": "assets/tilesets/original/natural-constellation-shore.png",
+    "sourceId": "lpc-water",
+    "rect": {
+      "x": 12,
+      "y": 6,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [
+      [
+        0,
+        0
+      ]
+    ],
+    "level": "belowAvatar"
+  },
+  "natural-constellation-shore-water-400": {
+    "sheet": "assets/tilesets/original/natural-constellation-shore.png",
+    "sourceId": "lpc-water",
+    "rect": {
+      "x": 16,
+      "y": 6,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [
+      [
+        0,
+        0
+      ]
+    ],
+    "level": "belowAvatar"
+  },
+  "natural-constellation-shore-water-404": {
+    "sheet": "assets/tilesets/original/natural-constellation-shore.png",
+    "sourceId": "lpc-water",
+    "rect": {
+      "x": 20,
+      "y": 6,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [
+      [
+        0,
+        0
+      ]
+    ],
+    "level": "belowAvatar"
+  },
+  "natural-constellation-shore-water-408": {
+    "sheet": "assets/tilesets/original/natural-constellation-shore.png",
+    "sourceId": "lpc-water",
+    "rect": {
+      "x": 24,
+      "y": 6,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [
+      [
+        0,
+        0
+      ]
+    ],
+    "level": "belowAvatar"
+  },
+  "natural-constellation-shore-water-412": {
+    "sheet": "assets/tilesets/original/natural-constellation-shore.png",
+    "sourceId": "lpc-water",
+    "rect": {
+      "x": 28,
+      "y": 6,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [
+      [
+        0,
+        0
+      ]
+    ],
+    "level": "belowAvatar"
+  },
+  "natural-constellation-shore-water-416": {
+    "sheet": "assets/tilesets/original/natural-constellation-shore.png",
+    "sourceId": "lpc-water",
+    "rect": {
+      "x": 32,
+      "y": 6,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [
+      [
+        0,
+        0
+      ]
+    ],
+    "level": "belowAvatar"
+  },
+  "natural-constellation-shore-water-420": {
+    "sheet": "assets/tilesets/original/natural-constellation-shore.png",
+    "sourceId": "lpc-water",
+    "rect": {
+      "x": 36,
+      "y": 6,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [
+      [
+        0,
+        0
+      ]
+    ],
+    "level": "belowAvatar"
+  },
+  "natural-constellation-shore-water-424": {
+    "sheet": "assets/tilesets/original/natural-constellation-shore.png",
+    "sourceId": "lpc-water",
+    "rect": {
+      "x": 40,
+      "y": 6,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [
+      [
+        0,
+        0
+      ]
+    ],
+    "level": "belowAvatar"
+  },
+  "natural-dune-constellation-shore-0": {
+    "sheet": "assets/tilesets/original/natural-constellation-shore-dunes.png",
+    "sourceId": "natural-coast",
+    "rect": {
+      "x": 0,
+      "y": 0,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar"
+  },
+  "natural-dune-constellation-shore-1": {
+    "sheet": "assets/tilesets/original/natural-constellation-shore-dunes.png",
+    "sourceId": "natural-coast",
+    "rect": {
+      "x": 1,
+      "y": 0,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar"
+  },
+  "natural-dune-constellation-shore-2": {
+    "sheet": "assets/tilesets/original/natural-constellation-shore-dunes.png",
+    "sourceId": "natural-coast",
+    "rect": {
+      "x": 2,
+      "y": 0,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar"
+  },
+  "natural-dune-constellation-shore-3": {
+    "sheet": "assets/tilesets/original/natural-constellation-shore-dunes.png",
+    "sourceId": "natural-coast",
+    "rect": {
+      "x": 3,
+      "y": 0,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar"
+  },
+  "natural-dune-constellation-shore-4": {
+    "sheet": "assets/tilesets/original/natural-constellation-shore-dunes.png",
+    "sourceId": "natural-coast",
+    "rect": {
+      "x": 4,
+      "y": 0,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar"
+  },
+  "natural-dune-constellation-shore-5": {
+    "sheet": "assets/tilesets/original/natural-constellation-shore-dunes.png",
+    "sourceId": "natural-coast",
+    "rect": {
+      "x": 5,
+      "y": 0,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar"
+  },
+  "natural-dune-constellation-shore-6": {
+    "sheet": "assets/tilesets/original/natural-constellation-shore-dunes.png",
+    "sourceId": "natural-coast",
+    "rect": {
+      "x": 6,
+      "y": 0,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar"
+  },
+  "natural-dune-constellation-shore-7": {
+    "sheet": "assets/tilesets/original/natural-constellation-shore-dunes.png",
+    "sourceId": "natural-coast",
+    "rect": {
+      "x": 7,
+      "y": 0,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar"
+  },
+  "natural-dune-constellation-shore-8": {
+    "sheet": "assets/tilesets/original/natural-constellation-shore-dunes.png",
+    "sourceId": "natural-coast",
+    "rect": {
+      "x": 8,
+      "y": 0,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar"
+  },
+  "natural-dune-constellation-shore-9": {
+    "sheet": "assets/tilesets/original/natural-constellation-shore-dunes.png",
+    "sourceId": "natural-coast",
+    "rect": {
+      "x": 9,
+      "y": 0,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar"
+  },
+  "natural-dune-constellation-shore-10": {
+    "sheet": "assets/tilesets/original/natural-constellation-shore-dunes.png",
+    "sourceId": "natural-coast",
+    "rect": {
+      "x": 10,
+      "y": 0,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar"
+  },
+  "natural-dune-constellation-shore-11": {
+    "sheet": "assets/tilesets/original/natural-constellation-shore-dunes.png",
+    "sourceId": "natural-coast",
+    "rect": {
+      "x": 11,
+      "y": 0,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar"
+  },
+  "natural-dune-constellation-shore-12": {
+    "sheet": "assets/tilesets/original/natural-constellation-shore-dunes.png",
+    "sourceId": "natural-coast",
+    "rect": {
+      "x": 12,
+      "y": 0,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar"
+  },
+  "natural-dune-constellation-shore-13": {
+    "sheet": "assets/tilesets/original/natural-constellation-shore-dunes.png",
+    "sourceId": "natural-coast",
+    "rect": {
+      "x": 13,
+      "y": 0,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar"
+  },
+  "natural-dune-constellation-shore-14": {
+    "sheet": "assets/tilesets/original/natural-constellation-shore-dunes.png",
+    "sourceId": "natural-coast",
+    "rect": {
+      "x": 14,
+      "y": 0,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar"
+  },
+  "natural-dune-constellation-shore-15": {
+    "sheet": "assets/tilesets/original/natural-constellation-shore-dunes.png",
+    "sourceId": "natural-coast",
+    "rect": {
+      "x": 15,
+      "y": 0,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar"
+  },
+  "natural-dune-constellation-shore-16": {
+    "sheet": "assets/tilesets/original/natural-constellation-shore-dunes.png",
+    "sourceId": "natural-coast",
+    "rect": {
+      "x": 0,
+      "y": 1,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar"
+  },
+  "natural-dune-constellation-shore-17": {
+    "sheet": "assets/tilesets/original/natural-constellation-shore-dunes.png",
+    "sourceId": "natural-coast",
+    "rect": {
+      "x": 1,
+      "y": 1,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar"
+  },
+  "natural-dune-constellation-shore-18": {
+    "sheet": "assets/tilesets/original/natural-constellation-shore-dunes.png",
+    "sourceId": "natural-coast",
+    "rect": {
+      "x": 2,
+      "y": 1,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar"
+  },
+  "natural-dune-constellation-shore-19": {
+    "sheet": "assets/tilesets/original/natural-constellation-shore-dunes.png",
+    "sourceId": "natural-coast",
+    "rect": {
+      "x": 3,
+      "y": 1,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar"
+  },
+  "natural-dune-constellation-shore-20": {
+    "sheet": "assets/tilesets/original/natural-constellation-shore-dunes.png",
+    "sourceId": "natural-coast",
+    "rect": {
+      "x": 4,
+      "y": 1,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar"
+  },
+  "natural-dune-constellation-shore-21": {
+    "sheet": "assets/tilesets/original/natural-constellation-shore-dunes.png",
+    "sourceId": "natural-coast",
+    "rect": {
+      "x": 5,
+      "y": 1,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar"
+  },
+  "natural-dune-constellation-shore-22": {
+    "sheet": "assets/tilesets/original/natural-constellation-shore-dunes.png",
+    "sourceId": "natural-coast",
+    "rect": {
+      "x": 6,
+      "y": 1,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar"
+  },
+  "natural-dune-constellation-shore-23": {
+    "sheet": "assets/tilesets/original/natural-constellation-shore-dunes.png",
+    "sourceId": "natural-coast",
+    "rect": {
+      "x": 7,
+      "y": 1,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar"
+  },
+  "natural-dune-constellation-shore-24": {
+    "sheet": "assets/tilesets/original/natural-constellation-shore-dunes.png",
+    "sourceId": "natural-coast",
+    "rect": {
+      "x": 8,
+      "y": 1,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar"
+  },
+  "natural-dune-constellation-shore-25": {
+    "sheet": "assets/tilesets/original/natural-constellation-shore-dunes.png",
+    "sourceId": "natural-coast",
+    "rect": {
+      "x": 9,
+      "y": 1,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar"
+  },
+  "natural-dune-constellation-shore-26": {
+    "sheet": "assets/tilesets/original/natural-constellation-shore-dunes.png",
+    "sourceId": "natural-coast",
+    "rect": {
+      "x": 10,
+      "y": 1,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar"
+  },
+  "natural-dune-constellation-shore-27": {
+    "sheet": "assets/tilesets/original/natural-constellation-shore-dunes.png",
+    "sourceId": "natural-coast",
+    "rect": {
+      "x": 11,
+      "y": 1,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar"
+  },
+  "natural-dune-constellation-shore-28": {
+    "sheet": "assets/tilesets/original/natural-constellation-shore-dunes.png",
+    "sourceId": "natural-coast",
+    "rect": {
+      "x": 12,
+      "y": 1,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar"
+  },
+  "natural-dune-constellation-shore-29": {
+    "sheet": "assets/tilesets/original/natural-constellation-shore-dunes.png",
+    "sourceId": "natural-coast",
+    "rect": {
+      "x": 13,
+      "y": 1,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar"
+  },
+  "natural-dune-constellation-shore-30": {
+    "sheet": "assets/tilesets/original/natural-constellation-shore-dunes.png",
+    "sourceId": "natural-coast",
+    "rect": {
+      "x": 14,
+      "y": 1,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar"
+  },
+  "natural-dune-constellation-shore-31": {
+    "sheet": "assets/tilesets/original/natural-constellation-shore-dunes.png",
+    "sourceId": "natural-coast",
+    "rect": {
+      "x": 15,
+      "y": 1,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar"
+  },
+  "natural-dune-constellation-shore-32": {
+    "sheet": "assets/tilesets/original/natural-constellation-shore-dunes.png",
+    "sourceId": "natural-coast",
+    "rect": {
+      "x": 0,
+      "y": 2,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar"
+  },
+  "natural-dune-constellation-shore-33": {
+    "sheet": "assets/tilesets/original/natural-constellation-shore-dunes.png",
+    "sourceId": "natural-coast",
+    "rect": {
+      "x": 1,
+      "y": 2,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar"
+  },
+  "natural-dune-constellation-shore-34": {
+    "sheet": "assets/tilesets/original/natural-constellation-shore-dunes.png",
+    "sourceId": "natural-coast",
+    "rect": {
+      "x": 2,
+      "y": 2,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar"
+  },
+  "natural-dune-constellation-shore-35": {
+    "sheet": "assets/tilesets/original/natural-constellation-shore-dunes.png",
+    "sourceId": "natural-coast",
+    "rect": {
+      "x": 3,
+      "y": 2,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar"
+  },
+  "natural-dune-constellation-shore-36": {
+    "sheet": "assets/tilesets/original/natural-constellation-shore-dunes.png",
+    "sourceId": "natural-coast",
+    "rect": {
+      "x": 4,
+      "y": 2,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar"
+  },
+  "natural-dune-constellation-shore-37": {
+    "sheet": "assets/tilesets/original/natural-constellation-shore-dunes.png",
+    "sourceId": "natural-coast",
+    "rect": {
+      "x": 5,
+      "y": 2,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar"
+  },
+  "natural-dune-constellation-shore-38": {
+    "sheet": "assets/tilesets/original/natural-constellation-shore-dunes.png",
+    "sourceId": "natural-coast",
+    "rect": {
+      "x": 6,
+      "y": 2,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar"
+  },
+  "natural-dune-constellation-shore-39": {
+    "sheet": "assets/tilesets/original/natural-constellation-shore-dunes.png",
+    "sourceId": "natural-coast",
+    "rect": {
+      "x": 7,
+      "y": 2,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar"
+  },
+  "natural-dune-constellation-shore-40": {
+    "sheet": "assets/tilesets/original/natural-constellation-shore-dunes.png",
+    "sourceId": "natural-coast",
+    "rect": {
+      "x": 8,
+      "y": 2,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar"
+  },
+  "natural-dune-constellation-shore-41": {
+    "sheet": "assets/tilesets/original/natural-constellation-shore-dunes.png",
+    "sourceId": "natural-coast",
+    "rect": {
+      "x": 9,
+      "y": 2,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar"
+  },
+  "natural-dune-constellation-shore-42": {
+    "sheet": "assets/tilesets/original/natural-constellation-shore-dunes.png",
+    "sourceId": "natural-coast",
+    "rect": {
+      "x": 10,
+      "y": 2,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar"
+  },
+  "natural-dune-constellation-shore-43": {
+    "sheet": "assets/tilesets/original/natural-constellation-shore-dunes.png",
+    "sourceId": "natural-coast",
+    "rect": {
+      "x": 11,
+      "y": 2,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar"
+  },
+  "natural-dune-constellation-shore-44": {
+    "sheet": "assets/tilesets/original/natural-constellation-shore-dunes.png",
+    "sourceId": "natural-coast",
+    "rect": {
+      "x": 12,
+      "y": 2,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar"
+  },
+  "natural-dune-constellation-shore-45": {
+    "sheet": "assets/tilesets/original/natural-constellation-shore-dunes.png",
+    "sourceId": "natural-coast",
+    "rect": {
+      "x": 13,
+      "y": 2,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar"
+  },
+  "natural-dune-constellation-shore-46": {
+    "sheet": "assets/tilesets/original/natural-constellation-shore-dunes.png",
+    "sourceId": "natural-coast",
+    "rect": {
+      "x": 14,
+      "y": 2,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar"
+  },
+  "natural-dune-constellation-shore-47": {
+    "sheet": "assets/tilesets/original/natural-constellation-shore-dunes.png",
+    "sourceId": "natural-coast",
+    "rect": {
+      "x": 15,
+      "y": 2,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar"
+  },
+  "natural-dune-constellation-shore-48": {
+    "sheet": "assets/tilesets/original/natural-constellation-shore-dunes.png",
+    "sourceId": "natural-coast",
+    "rect": {
+      "x": 0,
+      "y": 3,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar"
+  },
+  "natural-dune-constellation-shore-49": {
+    "sheet": "assets/tilesets/original/natural-constellation-shore-dunes.png",
+    "sourceId": "natural-coast",
+    "rect": {
+      "x": 1,
+      "y": 3,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar"
+  },
+  "natural-dune-constellation-shore-50": {
+    "sheet": "assets/tilesets/original/natural-constellation-shore-dunes.png",
+    "sourceId": "natural-coast",
+    "rect": {
+      "x": 2,
+      "y": 3,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar"
+  },
+  "natural-dune-constellation-shore-51": {
+    "sheet": "assets/tilesets/original/natural-constellation-shore-dunes.png",
+    "sourceId": "natural-coast",
+    "rect": {
+      "x": 3,
+      "y": 3,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar"
+  },
+  "natural-dune-constellation-shore-52": {
+    "sheet": "assets/tilesets/original/natural-constellation-shore-dunes.png",
+    "sourceId": "natural-coast",
+    "rect": {
+      "x": 4,
+      "y": 3,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar"
+  },
+  "natural-dune-constellation-shore-53": {
+    "sheet": "assets/tilesets/original/natural-constellation-shore-dunes.png",
+    "sourceId": "natural-coast",
+    "rect": {
+      "x": 5,
+      "y": 3,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar"
+  },
+  "natural-dune-constellation-shore-54": {
+    "sheet": "assets/tilesets/original/natural-constellation-shore-dunes.png",
+    "sourceId": "natural-coast",
+    "rect": {
+      "x": 6,
+      "y": 3,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar"
+  },
+  "natural-dune-constellation-shore-55": {
+    "sheet": "assets/tilesets/original/natural-constellation-shore-dunes.png",
+    "sourceId": "natural-coast",
+    "rect": {
+      "x": 7,
+      "y": 3,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar"
+  },
+  "natural-dune-constellation-shore-56": {
+    "sheet": "assets/tilesets/original/natural-constellation-shore-dunes.png",
+    "sourceId": "natural-coast",
+    "rect": {
+      "x": 8,
+      "y": 3,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar"
+  },
+  "natural-dune-constellation-shore-57": {
+    "sheet": "assets/tilesets/original/natural-constellation-shore-dunes.png",
+    "sourceId": "natural-coast",
+    "rect": {
+      "x": 9,
+      "y": 3,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar"
+  },
+  "natural-dune-constellation-shore-58": {
+    "sheet": "assets/tilesets/original/natural-constellation-shore-dunes.png",
+    "sourceId": "natural-coast",
+    "rect": {
+      "x": 10,
+      "y": 3,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar"
+  },
+  "natural-dune-constellation-shore-59": {
+    "sheet": "assets/tilesets/original/natural-constellation-shore-dunes.png",
+    "sourceId": "natural-coast",
+    "rect": {
+      "x": 11,
+      "y": 3,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar"
+  },
+  "natural-dune-constellation-shore-60": {
+    "sheet": "assets/tilesets/original/natural-constellation-shore-dunes.png",
+    "sourceId": "natural-coast",
+    "rect": {
+      "x": 12,
+      "y": 3,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar"
+  },
+  "natural-dune-constellation-shore-61": {
+    "sheet": "assets/tilesets/original/natural-constellation-shore-dunes.png",
+    "sourceId": "natural-coast",
+    "rect": {
+      "x": 13,
+      "y": 3,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar"
+  },
+  "natural-dune-constellation-shore-62": {
+    "sheet": "assets/tilesets/original/natural-constellation-shore-dunes.png",
+    "sourceId": "natural-coast",
+    "rect": {
+      "x": 14,
+      "y": 3,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar"
+  },
+  "natural-dune-constellation-shore-63": {
+    "sheet": "assets/tilesets/original/natural-constellation-shore-dunes.png",
+    "sourceId": "natural-coast",
+    "rect": {
+      "x": 15,
+      "y": 3,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar"
+  },
+  "natural-dune-constellation-shore-64": {
+    "sheet": "assets/tilesets/original/natural-constellation-shore-dunes.png",
+    "sourceId": "natural-coast",
+    "rect": {
+      "x": 0,
+      "y": 4,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar"
+  },
+  "natural-dune-constellation-shore-65": {
+    "sheet": "assets/tilesets/original/natural-constellation-shore-dunes.png",
+    "sourceId": "natural-coast",
+    "rect": {
+      "x": 1,
+      "y": 4,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar"
+  },
+  "natural-dune-constellation-shore-66": {
+    "sheet": "assets/tilesets/original/natural-constellation-shore-dunes.png",
+    "sourceId": "natural-coast",
+    "rect": {
+      "x": 2,
+      "y": 4,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar"
+  },
+  "natural-dune-constellation-shore-67": {
+    "sheet": "assets/tilesets/original/natural-constellation-shore-dunes.png",
+    "sourceId": "natural-coast",
+    "rect": {
+      "x": 3,
+      "y": 4,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar"
+  },
+  "natural-dune-constellation-shore-68": {
+    "sheet": "assets/tilesets/original/natural-constellation-shore-dunes.png",
+    "sourceId": "natural-coast",
+    "rect": {
+      "x": 4,
+      "y": 4,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar"
+  },
+  "natural-dune-constellation-shore-69": {
+    "sheet": "assets/tilesets/original/natural-constellation-shore-dunes.png",
+    "sourceId": "natural-coast",
+    "rect": {
+      "x": 5,
+      "y": 4,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar"
+  },
+  "natural-dune-constellation-shore-70": {
+    "sheet": "assets/tilesets/original/natural-constellation-shore-dunes.png",
+    "sourceId": "natural-coast",
+    "rect": {
+      "x": 6,
+      "y": 4,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar"
+  },
+  "natural-dune-constellation-shore-71": {
+    "sheet": "assets/tilesets/original/natural-constellation-shore-dunes.png",
+    "sourceId": "natural-coast",
+    "rect": {
+      "x": 7,
+      "y": 4,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar"
+  },
+  "natural-dune-constellation-shore-72": {
+    "sheet": "assets/tilesets/original/natural-constellation-shore-dunes.png",
+    "sourceId": "natural-coast",
+    "rect": {
+      "x": 8,
+      "y": 4,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar"
+  },
+  "natural-dune-constellation-shore-73": {
+    "sheet": "assets/tilesets/original/natural-constellation-shore-dunes.png",
+    "sourceId": "natural-coast",
+    "rect": {
+      "x": 9,
+      "y": 4,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar"
+  },
+  "natural-dune-constellation-shore-74": {
+    "sheet": "assets/tilesets/original/natural-constellation-shore-dunes.png",
+    "sourceId": "natural-coast",
+    "rect": {
+      "x": 10,
+      "y": 4,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar"
+  },
+  "natural-dune-constellation-shore-75": {
+    "sheet": "assets/tilesets/original/natural-constellation-shore-dunes.png",
+    "sourceId": "natural-coast",
+    "rect": {
+      "x": 11,
+      "y": 4,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar"
+  },
+  "natural-dune-constellation-shore-76": {
+    "sheet": "assets/tilesets/original/natural-constellation-shore-dunes.png",
+    "sourceId": "natural-coast",
+    "rect": {
+      "x": 12,
+      "y": 4,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar"
+  },
+  "natural-dune-constellation-shore-77": {
+    "sheet": "assets/tilesets/original/natural-constellation-shore-dunes.png",
+    "sourceId": "natural-coast",
+    "rect": {
+      "x": 13,
+      "y": 4,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar"
+  },
+  "natural-dune-constellation-shore-78": {
+    "sheet": "assets/tilesets/original/natural-constellation-shore-dunes.png",
+    "sourceId": "natural-coast",
+    "rect": {
+      "x": 14,
+      "y": 4,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar"
+  },
+  "natural-dune-constellation-shore-79": {
+    "sheet": "assets/tilesets/original/natural-constellation-shore-dunes.png",
+    "sourceId": "natural-coast",
+    "rect": {
+      "x": 15,
+      "y": 4,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar"
+  },
+  "natural-dune-constellation-shore-80": {
+    "sheet": "assets/tilesets/original/natural-constellation-shore-dunes.png",
+    "sourceId": "natural-coast",
+    "rect": {
+      "x": 0,
+      "y": 5,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar"
+  },
+  "natural-dune-constellation-shore-81": {
+    "sheet": "assets/tilesets/original/natural-constellation-shore-dunes.png",
+    "sourceId": "natural-coast",
+    "rect": {
+      "x": 1,
+      "y": 5,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar"
+  },
+  "natural-dune-constellation-shore-82": {
+    "sheet": "assets/tilesets/original/natural-constellation-shore-dunes.png",
+    "sourceId": "natural-coast",
+    "rect": {
+      "x": 2,
+      "y": 5,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar"
+  },
+  "natural-dune-constellation-shore-83": {
+    "sheet": "assets/tilesets/original/natural-constellation-shore-dunes.png",
+    "sourceId": "natural-coast",
+    "rect": {
+      "x": 3,
+      "y": 5,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar"
+  },
+  "natural-dune-constellation-shore-84": {
+    "sheet": "assets/tilesets/original/natural-constellation-shore-dunes.png",
+    "sourceId": "natural-coast",
+    "rect": {
+      "x": 4,
+      "y": 5,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar"
+  },
+  "natural-dune-constellation-shore-85": {
+    "sheet": "assets/tilesets/original/natural-constellation-shore-dunes.png",
+    "sourceId": "natural-coast",
+    "rect": {
+      "x": 5,
+      "y": 5,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar"
+  },
+  "natural-dune-constellation-shore-86": {
+    "sheet": "assets/tilesets/original/natural-constellation-shore-dunes.png",
+    "sourceId": "natural-coast",
+    "rect": {
+      "x": 6,
+      "y": 5,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar"
+  },
+  "natural-dune-constellation-shore-87": {
+    "sheet": "assets/tilesets/original/natural-constellation-shore-dunes.png",
+    "sourceId": "natural-coast",
+    "rect": {
+      "x": 7,
+      "y": 5,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar"
+  },
+  "natural-dune-constellation-shore-88": {
+    "sheet": "assets/tilesets/original/natural-constellation-shore-dunes.png",
+    "sourceId": "natural-coast",
+    "rect": {
+      "x": 8,
+      "y": 5,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar"
+  },
+  "natural-dune-constellation-shore-89": {
+    "sheet": "assets/tilesets/original/natural-constellation-shore-dunes.png",
+    "sourceId": "natural-coast",
+    "rect": {
+      "x": 9,
+      "y": 5,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar"
+  },
+  "natural-dune-constellation-shore-90": {
+    "sheet": "assets/tilesets/original/natural-constellation-shore-dunes.png",
+    "sourceId": "natural-coast",
+    "rect": {
+      "x": 10,
+      "y": 5,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar"
+  },
+  "natural-dune-constellation-shore-91": {
+    "sheet": "assets/tilesets/original/natural-constellation-shore-dunes.png",
+    "sourceId": "natural-coast",
+    "rect": {
+      "x": 11,
+      "y": 5,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar"
+  },
+  "natural-dune-constellation-shore-92": {
+    "sheet": "assets/tilesets/original/natural-constellation-shore-dunes.png",
+    "sourceId": "natural-coast",
+    "rect": {
+      "x": 12,
+      "y": 5,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar"
+  },
+  "natural-dune-constellation-shore-93": {
+    "sheet": "assets/tilesets/original/natural-constellation-shore-dunes.png",
+    "sourceId": "natural-coast",
+    "rect": {
+      "x": 13,
+      "y": 5,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar"
+  },
+  "natural-dune-constellation-shore-94": {
+    "sheet": "assets/tilesets/original/natural-constellation-shore-dunes.png",
+    "sourceId": "natural-coast",
+    "rect": {
+      "x": 14,
+      "y": 5,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar"
+  },
+  "natural-dune-constellation-shore-95": {
+    "sheet": "assets/tilesets/original/natural-constellation-shore-dunes.png",
+    "sourceId": "natural-coast",
+    "rect": {
+      "x": 15,
+      "y": 5,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar"
+  },
+  "natural-dune-constellation-shore-96": {
+    "sheet": "assets/tilesets/original/natural-constellation-shore-dunes.png",
+    "sourceId": "natural-coast",
+    "rect": {
+      "x": 0,
+      "y": 6,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar"
+  },
+  "natural-dune-constellation-shore-97": {
+    "sheet": "assets/tilesets/original/natural-constellation-shore-dunes.png",
+    "sourceId": "natural-coast",
+    "rect": {
+      "x": 1,
+      "y": 6,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar"
+  },
+  "natural-dune-constellation-shore-98": {
+    "sheet": "assets/tilesets/original/natural-constellation-shore-dunes.png",
+    "sourceId": "natural-coast",
+    "rect": {
+      "x": 2,
+      "y": 6,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar"
   }
 }
