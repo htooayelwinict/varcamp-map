@@ -55946,7 +55946,7 @@
     },
     {
       "id": "check-in-counter-desk",
-      "sprite": "desk-coding",
+      "sprite": "check-in-desk-solid",
       "x": 71,
       "y": 60,
       "width": 3,

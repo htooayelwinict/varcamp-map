@@ -14,7 +14,7 @@ describe('Event branding and audience presentation',()=>{
   expect(l.placements.filter(p=>['community-corner-floor','sponsor-expo-floor'].includes(p.id)).map(p=>p.sprite)).toEqual(['event-community-floor-label','event-sponsor-floor-label']);
  });
  it('uses a small native desk and computer with a floor label, without an HTML banner',()=>{
-  const l=current('overworld');expect(l.placements.filter(p=>p.id.startsWith('check-in-counter-')).map(p=>p.sprite)).toEqual(['desk-coding','laptop']);
+  const l=current('overworld');expect(l.placements.filter(p=>p.id.startsWith('check-in-counter-')).map(p=>p.sprite)).toEqual(['check-in-desk-solid','laptop']);
   expect(l.placements.find(s=>s.id==='check-in-floor-label')).toMatchObject({sprite:'event-check-in-floor-label',width:3,height:1});
   const html=readFileSync('src/check-in/index.html','utf8');expect(html).not.toContain('<strong>');expect(html).toContain('background: transparent');expect(html).toContain('color-scheme: dark');expect(html).toContain('target="_blank"');
  });

@@ -2,8 +2,8 @@
   "provenance": {
     "proposalSha256": "a071e0c81c18ad4b1d759f8c246384fc50032e6e3b7c395413246b9858958282",
     "sourceSha256": {
-      "world/layouts/overworld.json": "9a78dcbd6b842e268af320b967b6129ebc32a5d2ba89f6d83c9d44c4f483425c",
-      "maps/overworld.tmj": "ac8641eea1730f1cd14c72f66cbdd8d24459724695ad9fe1599270777910c6e8",
+      "world/layouts/overworld.json": "7a9a331c3a607e7e41c91bd153075ef0aed0bd4785171fc73ace73a1c90137d6",
+      "maps/overworld.tmj": "c63f96d02e38617d75abd5071242d3f03879297124467e84a5dc654c0f0f182f",
       "maps/overworld.wam": "34912c410e77b9ce32c356275f585a5b8f444187b8f447d346f7542bbe159eff",
       "tests/exterior-gates.test.ts": "eeaf05f4e7311d7bf8053609a7221d63dbc60d6b0493cfa513278a77339f84da",
       "tests/npc-maps.test.ts": "9e0951890a877421e27e13127a1d2243b057c1e89559276d4e5d43d321c8ea57",
@@ -11,9 +11,9 @@
       "tests/helpers/editor-catalog-history.ts": "b6668f1d84d6c028c1cba99d2ff3e936c241a030edbddb061a222168711eb7ee",
       "world/editor-collections.json": "024e7de19bc32d573b6bb79b77e013e153584ebbfb413436b9991fd467452fc0",
       "tests/helpers/physical-prop-contracts.ts": "9ac76984fe6fe3e32514aeb755b1317dda180ffac4efa656c51f513eadf57972",
-      "art/tile-catalog.json": "68f8d81e6783e30248d42dc48e79c1701c5857232abc69085e68151d5afc1cb4",
+      "art/tile-catalog.json": "7d0f0c08512a071971f33c7fdc60eee06617969e6ed8eee1486fe8d297c828e0",
       "tools/bots/route-audit.ts": "47671835b82b951cde24acfd95478be8d5b770f080e7e4b8726208cb28a67cf0",
-      "tests/guide-route-audit.test.ts": "57f23af2a98abb2074e437276c5343e90aa07443221d8336c2f38d92a867e99f",
+      "tests/guide-route-audit.test.ts": "50dad0e45170f51835370ecf6dbb5d29f20cfc27711f0e865d54c2c84c4fbc2f",
       "src/bots/map-guard.ts": "9ee1397f8886e7f11e723f3ee3b7e011692b6352481dd83503739455f7055c15",
       "tools/maps/expo-spacing.ts": "4330f38db5c0803df656a952819fd528be46e99b00f7a1186e727165692f3852",
       "world/expo-spacing.json": "7a89b2714d8073fed691cbd1c4d61cf1600a239d23581c2d84d427beb3f83a92",
@@ -57,17 +57,19 @@
       "tools/maps/maze-gate-context.ts": "c037c2de5058365087839c3208244360e4d80bffae0aec98e2263974807fc350",
       "art/source/maze-gate-refresh.json": "44a807922c89b3bf6c46ade6d4578ed3a304c9dbfac0e2215fdbe24434ad1b19",
       "tools/maps/expo-chair-physics.ts": "ee0fed3318613b75d9565a413c1e725ba3849994a147854a442b6a09701607e9",
-      "tools/maps/plaza-native.ts": "4a3a7618134e6b7ad91fe5c5cc3200ec3091859e17655d27f7455caf48d4ebd5",
+      "tools/maps/plaza-native.ts": "c70c55f8f369529e26b6b3082d52a39c182d035946772dbf419acbef621f50b2",
       "tools/maps/check-in-definition.ts": "269d398c6a4f8c8f2760361dd67a107e34d9d4c064ea511b7bbce979c7a6123f",
       "world/check-in-counter.json": "866948b4bb574d6484d33fd672b1f6888a052fa1e2b0d84b70be71833d671a32",
-      "tools/maps/event-presentation.ts": "6ad399bd100a7c71effff86520f7100c3ab4662516d6fa7b5bb8a62098f63016",
+      "tools/maps/event-presentation.ts": "0eec212d35e1bec0e31706618772dd6a1f9d7127cd586099a8136aafb22d9495",
       "tools/maps/event-native-context.ts": "3f1e3ace564feb1e2056a8e7ac924686d944b5f0f02ae7a48d8e7c422e460fd8",
       "world/event-presentation.json": "36bfa30e29be41bcef6fccb0606ce6bc14b9d182f22cc5f2e3e9b97e6d7aa400",
       "world/event-native-reservations.json": "44e6801550887db382e3157499728c3649ac617d890bafa49e1631b11331ff63",
-      "world/check-in-counter-style.json": "e4b3a61a9adf95d7c5712e33a91e4dc26a86f84f1ed7727a47fa7f689088f014"
+      "world/check-in-counter-style.json": "e4b3a61a9adf95d7c5712e33a91e4dc26a86f84f1ed7727a47fa7f689088f014",
+      "tools/maps/check-in-physics.ts": "cbb7817ba7b7bcde248f1a06f87e5fddef3ae09f8aa463ca756053929e2c67ff",
+      "world/check-in-physics.json": "d4d65a520a56b0e0bbcdded6d00f587748ed697a75274b0586e378095f0fa470"
     },
     "allowedCellsSha256": "34d4a7f34610d0b669b9f059086557e03aec0f379cf28c832797a279cc07061d",
-    "geometrySha256": "a68e6b1273c5b1ca3de7b07ebbb4a3eef84360df6d13ef0dc570147f3168a1a1",
+    "geometrySha256": "bc50d3859f93d85ae9000e0105341b007998baf957849fa823dcbb55eff2ee56",
     "geometryEncoding": "Sorted-key JSON of width,height,tilewidth,tileheight,layers with objectgroup class omitted only when identical to nonempty object type,tilesets excluding image,properties excluding script; UTF-8 SHA-256."
   },
   "home": [

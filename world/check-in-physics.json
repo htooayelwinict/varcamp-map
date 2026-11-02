@@ -1,0 +1,63 @@
+{
+  "version": 1,
+  "mapId": "overworld",
+  "baselineCommit": "ddf414129e783765ce5e8355897cb2a4e7836e29",
+  "beforeLayoutSha256": "ab627a39dd0828cccebc7a75f73eafe64fb3a78d1f17e74efde6634265071dc8",
+  "afterLayoutSha256": "6bfb10951825ca2825cc27a13ac3be54a68800ee95295a771f474ef753e7bc81",
+  "beforePlacement": {
+    "id": "check-in-counter-desk",
+    "sprite": "desk-coding",
+    "x": 71,
+    "y": 60,
+    "width": 3,
+    "height": 2,
+    "layer": "props"
+  },
+  "afterPlacement": {
+    "id": "check-in-counter-desk",
+    "sprite": "check-in-desk-solid",
+    "x": 71,
+    "y": 60,
+    "width": 3,
+    "height": 2,
+    "layer": "props"
+  },
+  "spriteId": "check-in-desk-solid",
+  "sprite": {
+    "sheet": "assets/tilesets/lpc-office/Card Table.png",
+    "rect": {
+      "x": 0,
+      "y": 2,
+      "width": 3,
+      "height": 2
+    },
+    "blockingCells": [
+      [
+        0,
+        0
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        2,
+        0
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        2,
+        1
+      ]
+    ],
+    "level": "belowAvatar",
+    "sourceId": "lpc-office"
+  }
+}

@@ -1,6 +1,7 @@
 import {applyVibeCodeBranding,restoreVibeCodeBranding} from './vibecode-branding';
 import {applyCheckInCounter,restoreCheckInCounter} from './check-in-definition';
 import {applyEventPresentation,restoreEventPresentation} from './event-presentation';
+import {assertCheckInPhysicsCatalog} from './check-in-physics';
 import {applyPlazaLandscape,restorePlazaLandscape} from './plaza-landscape';
 import {applyPlazaPatrol,restorePlazaPatrol} from './plaza-patrol';
 import {applyExpoSpacing,restoreExpoSpacing} from './expo-spacing';
@@ -62,6 +63,7 @@ export function assertNativePlaza(map:TiledMap,layout:MapLayout,catalog:TileCata
  if(layout.id!=='overworld'&&!identity.some(p=>p.value==='overworld')&&!map.tilesets.some(t=>t.image?.endsWith('/plaza-buildings.png')||t.name?.startsWith('plaza-drone-')))return;
  const need=(ok:unknown,message:string)=>{if(!ok)throw Error('Plaza '+message);};
  need(layout.id==='overworld'&&identity.length===1&&identity[0].type==='string'&&identity[0].value==='overworld'&&map.width===128&&map.height===128,'current map/layout identity changed');
+ assertCheckInPhysicsCatalog(catalog);
  const beforeEvent=restoreEventPresentation(layout);
  const priorCrescent=restorePlazaCrescent(restorePlazaLandscape(restoreVibeCodeBranding(restoreCheckInCounter(beforeEvent))));
  assertHallBuildings(priorCrescent,catalog);

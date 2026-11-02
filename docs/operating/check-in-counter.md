@@ -8,6 +8,7 @@ On 2 November 2026 the registration page returned `X-Frame-Options: SAMEORIGIN`,
 
 - Change the official URL in [world/check-in-counter.json](../../world/check-in-counter.json). The clickable computer and action use that same URL.
 - The current native desk geometry and click rectangle are in [check-in-counter-style.json](../../world/check-in-counter-style.json), applied through the [event presentation revision](event-presentation.md). The first counter recipe remains as historical data. Keep current furniture on the 32 px grid, clear of the logo, arrival spawn, guide route and booth entrances. Geometry changes require updating the explicit collision allowance and tests.
+- The [desk physics successor](../../world/check-in-physics.json) gives only this desk a solid 3 × 2 footprint through the `check-in-desk-solid` catalog entry. Its artwork is identical to `desk-coding`, whose shared bottom-row collision remains unchanged elsewhere. The three added desktop cells prevent entry from the back and sides; the whole perimeter stays open. Test entry with movement keys from north, south, east and west, including both side rows, as pathfinding alone can hide a collision gap.
 - The [runtime interaction](../../src/check-in/counter.ts) creates the clickable [sign](../../src/check-in/index.html) only in the overworld. It offers an action on approach, removes it on exit and cleans up on scene unload. It never opens a tab automatically.
 - Recheck the registration site's frame policy before changing the opening mode. Do not remove security headers or proxy ticket data merely to force embedding.
 - Run the counter and runtime tests, map validation, source qualification and build. Verify the real clickable sign and keyboard action in WorkAdventure, the opened URL, return to the map, desk collision and clear walkway. Test without submitting an attendee's ticket.
@@ -26,5 +27,7 @@ Use the [devbox deployment workflow](devbox-deployment.md) after qualification. 
 ## မြန်မာဘာသာ လွှဲပြောင်းမှတ်စု
 
 နောက်နှစ်ပွဲအတွက် URL ပြောင်းရန် အထက်ပါ `world/check-in-counter.json` ကို ပြင်ပါ။ ကောင်တာစာတန်းနှင့် အနီးကပ်လုပ်ဆောင်ရန်ခလုတ်တို့သည် ထို URL တစ်ခုတည်းကို အသုံးပြုပါသည်။ ကောင်တာ၊ ကွန်ပျူတာနှင့် လူသွားလမ်းနေရာကို ပြောင်းပါက tile collision နှင့် guide လမ်းကြောင်းကိုပါ ပြန်စစ်ပါ။
+
+Check-in စားပွဲ၏ tile ခြောက်ကွက်လုံးကို ပိတ်ထားရပါမည်။ ရှေ့ဘက်တစ်ဖက်တည်းမဟုတ်ဘဲ နောက်ဘက်နှင့် ဘေးနှစ်ဖက်မှလည်း လမ်းလျှောက်ဝင်၍ မရကြောင်း ဦးတည်ရာခလုတ်များဖြင့် စမ်းသပ်ပါ။ စားပွဲပတ်လည် လူသွားလမ်းကို မပိတ်ပါနှင့်။
 
 လက်ရှိ check-in စာမျက်နှာက အခြား website အတွင်း ထည့်သွင်းဖွင့်ခြင်းကို ခွင့်မပြုသောကြောင့် tab အသစ်ဖြင့် ဖွင့်ထားပါသည်။ လက်မှတ်ဖတ်ခြင်း၊ ပုံတင်ခြင်း၊ ဖွင့်ချိန်နှင့် attendance မှတ်တမ်းကို registration စနစ်ကသာ တာဝန်ယူပါသည်။ မြေပုံသည် လက်မှတ်အချက်အလက်ကို မသိမ်းဆည်းပါ။ စမ်းသပ်ရာတွင် အမှန်တကယ်တက်ရောက်သူ၏ လက်မှတ်ကို မတင်ဘဲ link ဖွင့်နိုင်ခြင်း၊ မြေပုံသို့ ပြန်လာနိုင်ခြင်းနှင့် စားပွဲကို ဖြတ်မလျှောက်နိုင်ခြင်းတို့ကို စစ်ဆေးပါ။

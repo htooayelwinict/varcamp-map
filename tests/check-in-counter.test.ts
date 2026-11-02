@@ -60,11 +60,13 @@ describe('Check-in counter',()=>{
   expect(applyEventPresentation(applyCheckInCounter(restoreCheckInCounter(prior)))).toEqual(layout);
   expect(read('maps/overworld.wam')).toEqual(before['maps/overworld.wam']);
  });
- it('blocks exactly three desk-front tiles, reuses all native art and leaves the approach and guide paths clear',()=>{
+ it('blocks all six desk tiles from every side, reuses native art and keeps the perimeter clear',()=>{
   const layout=read('world/layouts/overworld.json') as MapLayout,map=read('maps/overworld.tmj') as TiledMap,old=before['maps/overworld.tmj'] as TiledMap,catalog=loadTileCatalog();
   const mask=(m:TiledMap)=>{const l=m.layers.find(l=>l.name==='physical-collisions');if(l?.type!=='tilelayer')throw Error('No mask');return l.data.map(Boolean);};
-  const a=mask(old),b=mask(map);expect(b.flatMap((v,i)=>v!==a[i]?[i]:[])).toEqual([61*128+71,61*128+72,61*128+73]);
+  const a=mask(old),b=mask(map);expect(b.flatMap((v,i)=>v!==a[i]?[i]:[])).toEqual([60*128+71,60*128+72,60*128+73,61*128+71,61*128+72,61*128+73]);
   expect(mask(buildMap(layout,catalog).tmj)).toEqual(b);
+  const desk=layout.placements.find(p=>p.id==='check-in-counter-desk')!;expect(catalog[desk.sprite].blockingCells).toEqual([[0,0],[1,0],[2,0],[0,1],[1,1],[2,1]]);
+  for(const [x,y]of [[71,59],[72,59],[73,59],[70,60],[70,61],[74,60],[74,61],[71,62],[72,62],[73,62]])expect(b[y*128+x]).toBe(false);
   for(const t of old.tilesets.filter(t=>t.name!=='standing-captions'))expect(map.tilesets.find(s=>s.name===t.name)).toEqual(t);
   for(let y=62;y<=64;y++)for(let x=71;x<79;x++)expect(b[y*128+x]).toBe(false);
   for(const [x,y]of read('src/bots/lyra-routes.json').allowedCells)expect(b[y*128+x]).toBe(false);

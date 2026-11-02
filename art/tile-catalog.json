@@ -41483,5 +41483,42 @@
     "blockingCells": [],
     "level": "belowAvatar",
     "sourceId": "original"
+  },
+  "check-in-desk-solid": {
+    "sheet": "assets/tilesets/lpc-office/Card Table.png",
+    "rect": {
+      "x": 0,
+      "y": 2,
+      "width": 3,
+      "height": 2
+    },
+    "blockingCells": [
+      [
+        0,
+        0
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        2,
+        0
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        2,
+        1
+      ]
+    ],
+    "level": "belowAvatar",
+    "sourceId": "lpc-office"
   }
 }

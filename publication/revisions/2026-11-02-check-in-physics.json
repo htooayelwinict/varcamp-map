@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "revisions": [
+    {
+      "path": "art/tile-catalog.json",
+      "fromSha256": "68f8d81e6783e30248d42dc48e79c1701c5857232abc69085e68151d5afc1cb4",
+      "toSha256": "7d0f0c08512a071971f33c7fdc60eee06617969e6ed8eee1486fe8d297c828e0",
+      "reason": "Make all six tiles of the existing check-in desk solid. Add exactly three desktop collision cells while preserving all artwork, positions, interaction controls, saved WAMs and public guide routes."
+    },
+    {
+      "path": "maps/overworld.tmj",
+      "fromSha256": "ac8641eea1730f1cd14c72f66cbdd8d24459724695ad9fe1599270777910c6e8",
+      "toSha256": "c63f96d02e38617d75abd5071242d3f03879297124467e84a5dc654c0f0f182f",
+      "reason": "Make all six tiles of the existing check-in desk solid. Add exactly three desktop collision cells while preserving all artwork, positions, interaction controls, saved WAMs and public guide routes."
+    },
+    {
+      "path": "maps/preview/overworld.tmj",
+      "fromSha256": "fc64958396fd1502827f68d971de22729e4ed020c32017c1717d28a02aa96ff9",
+      "toSha256": "4530504e798e0f47a4fc8582e977f0dff05e400348f7a4c9e0c7dc8b9a850034",
+      "reason": "Make all six tiles of the existing check-in desk solid. Add exactly three desktop collision cells while preserving all artwork, positions, interaction controls, saved WAMs and public guide routes."
+    },
+    {
+      "path": "world/layouts/overworld.json",
+      "fromSha256": "9a78dcbd6b842e268af320b967b6129ebc32a5d2ba89f6d83c9d44c4f483425c",
+      "toSha256": "7a9a331c3a607e7e41c91bd153075ef0aed0bd4785171fc73ace73a1c90137d6",
+      "reason": "Make all six tiles of the existing check-in desk solid. Add exactly three desktop collision cells while preserving all artwork, positions, interaction controls, saved WAMs and public guide routes."
+    }
+  ]
+}
