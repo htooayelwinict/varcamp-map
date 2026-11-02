@@ -6236,7 +6236,7 @@
     },
     "speaker-aquarius": {
       "beforeLayoutSha256": "c586ab4a7ea4a63153e7d6b5963f586a79d47bb8ef003586f81caadacd3609bc",
-      "afterLayoutSha256": "1120992bfecafb4ddb4b47d175895bf6dcf369f842e0121783e0d4be5381eed7",
+      "afterLayoutSha256": "df492d0eb2c7d912fe5d0bafa8b521610a2265a7652211449bc78e39686ed022",
       "fields": {
         "placements": {
           "before": [
@@ -8442,7 +8442,7 @@
               "width": 13,
               "height": 1,
               "fontSize": 13,
-              "color": "#f1d9a0",
+              "color": "#253546",
               "align": "left"
             },
             {
@@ -10692,7 +10692,7 @@
     },
     "speaker-cancer": {
       "beforeLayoutSha256": "d78c88cf4e5b6e509dd9282cfafb9e3c1aa926a7b5b0c592656b2a9a5482366e",
-      "afterLayoutSha256": "6dfdb2c26e0d75f187bccd9c2ae7a8bdf1e7de9d322680cba2321b44bb9d8846",
+      "afterLayoutSha256": "dddc21e436462a8f02e16e2f59f4f387544b05fdf132a61d15cb6ae168020f5f",
       "fields": {
         "placements": {
           "before": [
@@ -12808,7 +12808,7 @@
               "width": 13,
               "height": 1,
               "fontSize": 13,
-              "color": "#f1d9a0",
+              "color": "#253546",
               "align": "left"
             },
             {
@@ -12876,7 +12876,7 @@
     },
     "speaker-capricorn": {
       "beforeLayoutSha256": "691568310ea7a29afca9fd235a0f59a5a2018d594c92d89c7f301a7d7efe4cc3",
-      "afterLayoutSha256": "c1c357efb36d2b324f259a8fdd969405d493fa11d4e5e658d3589e540c272082",
+      "afterLayoutSha256": "c1803b3fe9b802c3bc20d4536e53062d1826258c80e0ea57079474fd9e2994c1",
       "fields": {
         "placements": {
           "before": [
@@ -15024,7 +15024,7 @@
               "width": 13,
               "height": 1,
               "fontSize": 13,
-              "color": "#f1d9a0",
+              "color": "#253546",
               "align": "left"
             },
             {
@@ -15092,7 +15092,7 @@
     },
     "speaker-gemini": {
       "beforeLayoutSha256": "56508d0adb6b2d037abca336f3e0a0b417f99f38973eb0bb0b7901ac1fdafe23",
-      "afterLayoutSha256": "2dace3cacf36dffa15058ca21cd72f2212eb90de07f2812236ef5c32603712f6",
+      "afterLayoutSha256": "12d85c069b75c1623f0278b4ced288820e10c745d1f1880fb9bafd2064de8349",
       "fields": {
         "placements": {
           "before": [
@@ -17206,7 +17206,7 @@
               "width": 13,
               "height": 1,
               "fontSize": 13,
-              "color": "#f1d9a0",
+              "color": "#253546",
               "align": "left"
             },
             {
@@ -17274,7 +17274,7 @@
     },
     "speaker-leo": {
       "beforeLayoutSha256": "9ffdcd5125b55102a8b515cc995eea90e7f07fddc1a24f17e093923773cd36a2",
-      "afterLayoutSha256": "b4bacb1a8002cdf529b90ddcb0fc37842aa1f4ec3165412b6c0d8a95d067c93f",
+      "afterLayoutSha256": "abd348b101d6b3b3bea40a0ff5703b31c269b60f5d3f3b60e026a1f5516cf1ce",
       "fields": {
         "placements": {
           "before": [
@@ -19466,7 +19466,7 @@
               "width": 13,
               "height": 1,
               "fontSize": 13,
-              "color": "#f1d9a0",
+              "color": "#253546",
               "align": "left"
             },
             {
@@ -19534,7 +19534,7 @@
     },
     "speaker-libra": {
       "beforeLayoutSha256": "37282f3daedf9ddbae07707d9575e97024019dd661616d3b85c14cc1240d3f99",
-      "afterLayoutSha256": "1b52238f05a5f4577a48d1a8c6a899c11393faae244868fbde88eb0dcb07ed84",
+      "afterLayoutSha256": "a09a0b5172fa281099ed02d7c79457fa4623c5b51a136f3f136301ddf9307125",
       "fields": {
         "placements": {
           "before": [
@@ -21666,7 +21666,7 @@
               "width": 13,
               "height": 1,
               "fontSize": 13,
-              "color": "#f1d9a0",
+              "color": "#253546",
               "align": "left"
             },
             {
@@ -21734,7 +21734,7 @@
     },
     "speaker-pisces": {
       "beforeLayoutSha256": "27e6ccc814a9a5068d6e54b513b3d3d0d9e8f728e9183d1f509ed75ba9b63db8",
-      "afterLayoutSha256": "da0eefb863fe37f1355b8c2eda6e7467c5aee54f251da3e8e70e5d93865dfb8e",
+      "afterLayoutSha256": "033e72ea9958540376b00137f83ac61e3ec1946eb62e9692bb45d3d625569e44",
       "fields": {
         "placements": {
           "before": [
@@ -23888,7 +23888,7 @@
               "width": 13,
               "height": 1,
               "fontSize": 13,
-              "color": "#f1d9a0",
+              "color": "#253546",
               "align": "left"
             },
             {
@@ -23946,7 +23946,7 @@
               "width": 32,
               "height": 1,
               "fontSize": 12,
-              "color": "#283747",
+              "color": "#f6eee0",
               "align": "center",
               "padding": 2
             }
@@ -23956,7 +23956,7 @@
     },
     "speaker-sagittarius": {
       "beforeLayoutSha256": "b1904053f1caac6b828656e6afe07ecd4f1e4d404d94d0ae6730bcfbc95a9b8e",
-      "afterLayoutSha256": "3da7f488b2afaf7a8be545bd2611ccff74bfc1331a28c752ca33aacb2e492eb4",
+      "afterLayoutSha256": "2fd66de053298ce0610ce33889702e2b03ca747cc2e89a7d2e838320fc6b81ab",
       "fields": {
         "placements": {
           "before": [
@@ -26106,7 +26106,7 @@
               "width": 15,
               "height": 1,
               "fontSize": 13,
-              "color": "#f1d9a0",
+              "color": "#253546",
               "align": "left"
             },
             {
@@ -26174,7 +26174,7 @@
     },
     "speaker-scorpio": {
       "beforeLayoutSha256": "07b44fb6d391bc5283516358ae56e993344000254f4719c85e178ef2eae0c006",
-      "afterLayoutSha256": "69119d45d33ddaa6dcb30922afa151606c8fdd2e2c5694449af54b59fbba85f8",
+      "afterLayoutSha256": "8ef5f28193d649042443a26f847dfaf4f85a3e7c31c55bb5686c091ed7fc8e70",
       "fields": {
         "placements": {
           "before": [
@@ -28328,7 +28328,7 @@
               "width": 13,
               "height": 1,
               "fontSize": 13,
-              "color": "#f1d9a0",
+              "color": "#253546",
               "align": "left"
             },
             {
@@ -28396,7 +28396,7 @@
     },
     "speaker-taurus": {
       "beforeLayoutSha256": "85ea0cb9fb4f45ffeecb9b35ea7eeee933f8a4fef8f2370b871c60adaeba02c7",
-      "afterLayoutSha256": "cb59d094514f95ec6f4ebdb0fe6c5e174ecb8fd8179f8c09228b66f0b3390122",
+      "afterLayoutSha256": "e1618220415cb4296485089c073d29967f35460b32e8d95cb7c6fdc279f41eb0",
       "fields": {
         "placements": {
           "before": [
@@ -30544,7 +30544,7 @@
               "width": 13,
               "height": 1,
               "fontSize": 13,
-              "color": "#f1d9a0",
+              "color": "#253546",
               "align": "left"
             },
             {
@@ -30612,7 +30612,7 @@
     },
     "speaker-virgo": {
       "beforeLayoutSha256": "1cefd610aa712aa39f126b8301357dba8b0a8009ec9074661ebabe9b74e0e001",
-      "afterLayoutSha256": "842dacb454e9b8fb4c41141909b4ece5c30f7a1414040ce58357fd79e1278bc6",
+      "afterLayoutSha256": "9f75a3f6d48a59fe5560f765bbcba34be9e893bd36dc83a87bbe2db14f8149b3",
       "fields": {
         "placements": {
           "before": [
@@ -32780,7 +32780,7 @@
               "width": 13,
               "height": 1,
               "fontSize": 13,
-              "color": "#f1d9a0",
+              "color": "#253546",
               "align": "left"
             },
             {

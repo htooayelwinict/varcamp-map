@@ -1,0 +1,203 @@
+{
+  "schemaVersion": 1,
+  "revisions": [
+    {
+      "path": "maps/preview/speaker-aquarius.tmj",
+      "fromSha256": "3594f3ba4bb97074dcfcaf1dc4c5a9bb7b374d0868a77b21a75c9ef8d0ea16a9",
+      "toSha256": "e4f62e3b53193dd5ee63ce1adf3653ed6b9cecbc332c6aebe51f19c5e180d8ed",
+      "reason": "Increase contrast of foyer captions on light floors and the Pisces instruction on its dark listener border. No furniture, collision, control or artwork changes."
+    },
+    {
+      "path": "maps/preview/speaker-cancer.tmj",
+      "fromSha256": "cb2eb9d1a98abd4435618d6f0aa38608c153d2ebdf71b27a445500a39c7a5c31",
+      "toSha256": "1538fbd9f983291a2b7d5bae91d2c477e9467e5bc2ea63a60b481dc0ffd976de",
+      "reason": "Increase contrast of foyer captions on light floors and the Pisces instruction on its dark listener border. No furniture, collision, control or artwork changes."
+    },
+    {
+      "path": "maps/preview/speaker-capricorn.tmj",
+      "fromSha256": "b63dfca29e4bbc3a95fe6a076d10f8c4b5e03791e1843ac6556f24543457a29b",
+      "toSha256": "2d23d68c6a7b208b4237dce577d77759bc9db8fb4f911bcbcb112ed2502f7b5c",
+      "reason": "Increase contrast of foyer captions on light floors and the Pisces instruction on its dark listener border. No furniture, collision, control or artwork changes."
+    },
+    {
+      "path": "maps/preview/speaker-gemini.tmj",
+      "fromSha256": "483c17554f57f390e3e00d590a44ddb21c75ee57555110a3d80a90965aeafb98",
+      "toSha256": "8ab63e6425324d7f47e6278c2ee7ac4064e89ae55b80b18b44a53a8f2bc3e7c1",
+      "reason": "Increase contrast of foyer captions on light floors and the Pisces instruction on its dark listener border. No furniture, collision, control or artwork changes."
+    },
+    {
+      "path": "maps/preview/speaker-leo.tmj",
+      "fromSha256": "e23403b4a6d23c55674cc2ad5f9abb294afd66a07a06284d5ccde006fc92f818",
+      "toSha256": "f1f95892afdfc5d787b0dfb598eb61412dff337267cb9c793b56301c9d7ed502",
+      "reason": "Increase contrast of foyer captions on light floors and the Pisces instruction on its dark listener border. No furniture, collision, control or artwork changes."
+    },
+    {
+      "path": "maps/preview/speaker-libra.tmj",
+      "fromSha256": "68ab765cb3d1b4a87094de7d23d7d88912b573306c45a5a17371ce56ae9945b4",
+      "toSha256": "b108a75c2a1410f72a185e8fb7386f034fc9cc41ae2180f715613758c40fc9f0",
+      "reason": "Increase contrast of foyer captions on light floors and the Pisces instruction on its dark listener border. No furniture, collision, control or artwork changes."
+    },
+    {
+      "path": "maps/preview/speaker-pisces.tmj",
+      "fromSha256": "5a20263d22c8ab8ce5ff64c5fea5f265eab9a75c3d8c8e7cddfbf02ad0c05a92",
+      "toSha256": "009eb4ebb0801fdad39a9d6c0a0b96ab198324981ebcb5e0436e581cec1663bd",
+      "reason": "Increase contrast of foyer captions on light floors and the Pisces instruction on its dark listener border. No furniture, collision, control or artwork changes."
+    },
+    {
+      "path": "maps/preview/speaker-sagittarius.tmj",
+      "fromSha256": "2fb1d9f138fd6003b095b61c216e4de91cb0d9f256cc0de65f9a39e83cbcb2ba",
+      "toSha256": "322c7629e100b0a2ec44b3b09c85c02e872a7d2661ab355dcb7b508591bff36b",
+      "reason": "Increase contrast of foyer captions on light floors and the Pisces instruction on its dark listener border. No furniture, collision, control or artwork changes."
+    },
+    {
+      "path": "maps/preview/speaker-scorpio.tmj",
+      "fromSha256": "382db1e9509669e166f4d38133df38b5e90e0c5e94d6512022c2d09586e3bf5d",
+      "toSha256": "9e9ca828333fd989b7d12e0c387602dc48707ba4b921a350744f10021c6a610e",
+      "reason": "Increase contrast of foyer captions on light floors and the Pisces instruction on its dark listener border. No furniture, collision, control or artwork changes."
+    },
+    {
+      "path": "maps/preview/speaker-taurus.tmj",
+      "fromSha256": "14324d371a26e00acf5a69f2684ba5630490734d2803ebf341fd0a00a05579e0",
+      "toSha256": "84872cf96cb6f9c3752fd48b56a321be9cfaafb21be51b40083e01848223445d",
+      "reason": "Increase contrast of foyer captions on light floors and the Pisces instruction on its dark listener border. No furniture, collision, control or artwork changes."
+    },
+    {
+      "path": "maps/preview/speaker-virgo.tmj",
+      "fromSha256": "77904323efbd69bb816a1bbde9606deba5452e1133a02c6a17b2894bd492486d",
+      "toSha256": "adb699e6301aa261574c2843dd9a8a13f6098ef33aea7a23e12ac3ceec6987c7",
+      "reason": "Increase contrast of foyer captions on light floors and the Pisces instruction on its dark listener border. No furniture, collision, control or artwork changes."
+    },
+    {
+      "path": "maps/speaker-aquarius.tmj",
+      "fromSha256": "49c8e124a9ba04bdc42f81ac8bde52862ee7be4babf10325dbba8e19b2a196d6",
+      "toSha256": "d7f8f1d4bf82048e80a1bcd32eae35aeaa40b1833e9e690adccdee59c03f6293",
+      "reason": "Increase contrast of foyer captions on light floors and the Pisces instruction on its dark listener border. No furniture, collision, control or artwork changes."
+    },
+    {
+      "path": "maps/speaker-cancer.tmj",
+      "fromSha256": "8393eb844222ce51b0a30dc097403cfc34144ba10a4a26f3b040aa7e5041d834",
+      "toSha256": "e42329e986989b8101aea1ce334205544a62f19fcb69c983ee176610797596d4",
+      "reason": "Increase contrast of foyer captions on light floors and the Pisces instruction on its dark listener border. No furniture, collision, control or artwork changes."
+    },
+    {
+      "path": "maps/speaker-capricorn.tmj",
+      "fromSha256": "33b72c1c8d03a623c1eed1345485ad43360b5d4ce4c698ea0e9d7f4cd7441b57",
+      "toSha256": "e5d64ce830925f221f5f1a2a32378a6e2ab6da9dd123787e24e8619892552789",
+      "reason": "Increase contrast of foyer captions on light floors and the Pisces instruction on its dark listener border. No furniture, collision, control or artwork changes."
+    },
+    {
+      "path": "maps/speaker-gemini.tmj",
+      "fromSha256": "8fee85f63d1ea6d8fe88ba03735a5da84e66b1aa4dba29487191f8c91411aac8",
+      "toSha256": "ca822555918731f6a91fe4eaad7aa6dd932b3973a7cadf82e6a135ed7287bc4e",
+      "reason": "Increase contrast of foyer captions on light floors and the Pisces instruction on its dark listener border. No furniture, collision, control or artwork changes."
+    },
+    {
+      "path": "maps/speaker-leo.tmj",
+      "fromSha256": "712374adf4feaa1fef1e4750915e9f08232228e7c1a4c7d1bf3b9eeb5f37f5e8",
+      "toSha256": "ed58143bd81abeb2e072c3e7aaba5b9d9d8ec1ca6155cce5582f2fe665972cf1",
+      "reason": "Increase contrast of foyer captions on light floors and the Pisces instruction on its dark listener border. No furniture, collision, control or artwork changes."
+    },
+    {
+      "path": "maps/speaker-libra.tmj",
+      "fromSha256": "dee543800987211df6875770947935665a0a14b4339e15d03f6fd49fe7e161e7",
+      "toSha256": "89ebe6f914ae9382b1a34afac8cc46e3b477f90d43ad805aa8974d3337f1e657",
+      "reason": "Increase contrast of foyer captions on light floors and the Pisces instruction on its dark listener border. No furniture, collision, control or artwork changes."
+    },
+    {
+      "path": "maps/speaker-pisces.tmj",
+      "fromSha256": "609492593dece365a6785f4a8881fda95dc150a9e91489edb9eecc0a1c063572",
+      "toSha256": "9913b8d6b3733d98d033b1cecd257d34572f28c0a9048a893192a0d7a2c5b74f",
+      "reason": "Increase contrast of foyer captions on light floors and the Pisces instruction on its dark listener border. No furniture, collision, control or artwork changes."
+    },
+    {
+      "path": "maps/speaker-sagittarius.tmj",
+      "fromSha256": "70e47fc6cc30ed38c17cb64d12eed010b770943a715bdf0bf18459d86424af48",
+      "toSha256": "ac32a2b7caafbfa213890d6f8f2e16c818a0724fa7ee28e625083bbb10445a49",
+      "reason": "Increase contrast of foyer captions on light floors and the Pisces instruction on its dark listener border. No furniture, collision, control or artwork changes."
+    },
+    {
+      "path": "maps/speaker-scorpio.tmj",
+      "fromSha256": "8f61004eef63c44a4e8a4658f8c91eae4b00ab35386bd1f008bff55959c748b2",
+      "toSha256": "8a40d5ecd489a0c2963951ad6b2460d9a4aa12d28fc04b05787500557d3390fb",
+      "reason": "Increase contrast of foyer captions on light floors and the Pisces instruction on its dark listener border. No furniture, collision, control or artwork changes."
+    },
+    {
+      "path": "maps/speaker-taurus.tmj",
+      "fromSha256": "54b02973a383dfc9c8ddfc451672ea97a86c2e2f46ec2ef76a4e6c04acb82400",
+      "toSha256": "cfa54c7c50de7221e035f250e506e853dcbcab97715080ea48b2c2271c4e3f86",
+      "reason": "Increase contrast of foyer captions on light floors and the Pisces instruction on its dark listener border. No furniture, collision, control or artwork changes."
+    },
+    {
+      "path": "maps/speaker-virgo.tmj",
+      "fromSha256": "0671d9bbe1b51da3d74b675b01147337dc1ba4ab84ddfe0b2f8b071da9959182",
+      "toSha256": "6235f11f276258846a8cb4ed9c08abcec950b33159e68e853ff1ccb2a681437b",
+      "reason": "Increase contrast of foyer captions on light floors and the Pisces instruction on its dark listener border. No furniture, collision, control or artwork changes."
+    },
+    {
+      "path": "world/layouts/speaker-aquarius.json",
+      "fromSha256": "906092808fcb4839a2f4152599c483f056918838e32a59ec74cf8b67cfa739c0",
+      "toSha256": "6cb22661984498d1f5b7eb23b57edaf8566101d06bd62ec096eca7fba034935b",
+      "reason": "Increase contrast of foyer captions on light floors and the Pisces instruction on its dark listener border. No furniture, collision, control or artwork changes."
+    },
+    {
+      "path": "world/layouts/speaker-cancer.json",
+      "fromSha256": "c9162d9f3a4e9e1eef7c42086a53656758f51f943fc5ba7d2a8f6657cdb1858a",
+      "toSha256": "d48b7063e52aa0de7bb8d23146c923e84244325557c0d1f58e4b8a4de98d8516",
+      "reason": "Increase contrast of foyer captions on light floors and the Pisces instruction on its dark listener border. No furniture, collision, control or artwork changes."
+    },
+    {
+      "path": "world/layouts/speaker-capricorn.json",
+      "fromSha256": "cdfa8a01cc8b67658e621dd49a2767e2dd777f7fe68d66b1a3d0a76a2b51c833",
+      "toSha256": "e6909631648110d459f935c0fac881dd0b8e86c9ad93a81b5c84a08704005fd0",
+      "reason": "Increase contrast of foyer captions on light floors and the Pisces instruction on its dark listener border. No furniture, collision, control or artwork changes."
+    },
+    {
+      "path": "world/layouts/speaker-gemini.json",
+      "fromSha256": "fd5292261867cbf0adf634d6c5f1517cdf9edea066bc76f2e93befdc96d0b790",
+      "toSha256": "cabd25182317943cbe6c2c58cb4d319bb35ccbfe3c774ab877d3070279099abb",
+      "reason": "Increase contrast of foyer captions on light floors and the Pisces instruction on its dark listener border. No furniture, collision, control or artwork changes."
+    },
+    {
+      "path": "world/layouts/speaker-leo.json",
+      "fromSha256": "f84a0d0c0a5770f0b0ab17ddce359fd3806753a54b2746faee2350c6c374966e",
+      "toSha256": "1abfef8988aba5c7f47e5f3f07331ba8cb0594445914f40b7232fc2d73bd5057",
+      "reason": "Increase contrast of foyer captions on light floors and the Pisces instruction on its dark listener border. No furniture, collision, control or artwork changes."
+    },
+    {
+      "path": "world/layouts/speaker-libra.json",
+      "fromSha256": "b45944d77a048d10f466fcf5dc18c2dd8b03d3adbddad95c996e50a92476dbf3",
+      "toSha256": "09a7b24c2548d41777156fa7f5fd17cb30a060b3502b3fdf09249d09bc5b2fcb",
+      "reason": "Increase contrast of foyer captions on light floors and the Pisces instruction on its dark listener border. No furniture, collision, control or artwork changes."
+    },
+    {
+      "path": "world/layouts/speaker-pisces.json",
+      "fromSha256": "416cc8de27b6c6be0b98f108d912188ac76558eec4ded2afa94ec076adca1e24",
+      "toSha256": "6da67e67f3ca67c525e68183beaf24d19186f7c186f770294d72a83727c75dec",
+      "reason": "Increase contrast of foyer captions on light floors and the Pisces instruction on its dark listener border. No furniture, collision, control or artwork changes."
+    },
+    {
+      "path": "world/layouts/speaker-sagittarius.json",
+      "fromSha256": "eaad8ffd984740b26f47705ce9cf64a57a23f78a98bf1e83525353ff9b13e2d6",
+      "toSha256": "1ef1c819e2b3726c53a7656ad7d7b5024d8162bb60af8141de0e319f204ef896",
+      "reason": "Increase contrast of foyer captions on light floors and the Pisces instruction on its dark listener border. No furniture, collision, control or artwork changes."
+    },
+    {
+      "path": "world/layouts/speaker-scorpio.json",
+      "fromSha256": "26abecf8d36f41e7a488974d38668af40b232f8f983f049f808249bf82feb27e",
+      "toSha256": "4bae3dd93d2b03054e2a8a8acb70691471ea4f20cda070a9ade3f5603d5c5920",
+      "reason": "Increase contrast of foyer captions on light floors and the Pisces instruction on its dark listener border. No furniture, collision, control or artwork changes."
+    },
+    {
+      "path": "world/layouts/speaker-taurus.json",
+      "fromSha256": "317a92f5bba7e439886c555e1bfdb6da909909912d123d8c48b1480c496f0c2c",
+      "toSha256": "c571bbed47dff7b212ffc57059614635b275cc05a675b71ce56e9d8726ffa78b",
+      "reason": "Increase contrast of foyer captions on light floors and the Pisces instruction on its dark listener border. No furniture, collision, control or artwork changes."
+    },
+    {
+      "path": "world/layouts/speaker-virgo.json",
+      "fromSha256": "26c2ef36681be240e2a24368c5bd2d702f7973eb428605f4e9a77acf55ea2a81",
+      "toSha256": "5daac2a215c693cc8d931898c2e7b971989ad12aa86acfe6f349d26f3880aad0",
+      "reason": "Increase contrast of foyer captions on light floors and the Pisces instruction on its dark listener border. No furniture, collision, control or artwork changes."
+    }
+  ]
+}
