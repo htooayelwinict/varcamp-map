@@ -1609,191 +1609,191 @@
     "files": [
       {
         "path": "art/source/interior-motion-lunar-hall-plant.json",
-        "sha256": "9e36c777b73e28034021c270637a6a8f6991054f50bb39d20525ccf7dd687867"
+        "sha256": "bb583ae04226430978a2f90f7bd04352d6f91283c105ac9cfda120f30213d1d5"
       },
       {
         "path": "art/source/interior-motion-lunar-hall-server.json",
-        "sha256": "9de57b23d026cd487fa912939f0f46c6c9ecc1b80c216b3e2f1980691af398c4"
+        "sha256": "c745b75d895f7ab6fc0307afc0505c4999ff26fe6ed18e88791ec3c2e3a82249"
       },
       {
         "path": "art/source/interior-motion-lunar-hall-steam.json",
-        "sha256": "c52c95cb3ef5c6223af224e2156a472d8e62604d291f135016a0615337f6ce4e"
+        "sha256": "3afa6328a77ae13e9d651fc334cdabb59d2598110fd1427a83f4bdb2bb8bb70c"
       },
       {
         "path": "art/source/interior-motion-lunar-hall-water.json",
-        "sha256": "8dad56259487d5ca2e5723da10a23492ac15edff1792bb020c85c29dd77e34b6"
+        "sha256": "32805141b7deb66f10588bbbef39ce3983821f7f8a086f2405d53c75c15950bc"
       },
       {
         "path": "art/source/interior-motion-solar-hall-plant.json",
-        "sha256": "cf071b3d65dc894bc4fdeaf200918ddfa85ecec4f70fa57952a093ada8169803"
+        "sha256": "e3c38f5d34429adc6e318229df264c6dcb428bb20dcdde151417e9a2915a7ec7"
       },
       {
         "path": "art/source/interior-motion-solar-hall-server.json",
-        "sha256": "cb02bd12817873e6e0863cf93975c5172b85905ce3941d7f01e9a82f238d1867"
+        "sha256": "acd4684792a9ae1364bc8c249f061a4efffdecedf1d6c3ccf77ea12953b2769c"
       },
       {
         "path": "art/source/interior-motion-solar-hall-steam.json",
-        "sha256": "87851352536493d84df3e285e62fbe215b79adea1143753f9df70750065e0678"
+        "sha256": "a968ae719b772f406410a9e3b014b24fca24b02f1861400451fd6fbeb90993d6"
       },
       {
         "path": "art/source/interior-motion-solar-hall-water.json",
-        "sha256": "d179f5d7cefbd6aa2d2d2769547d0cc68b00ae8627c94549c3d6c6cb28ce05f6"
+        "sha256": "f445a73d53b676ef02ded316557ef9e4f60ef88282a72195e0873bd4e7eb52f6"
       },
       {
         "path": "art/source/interior-motion-speaker-aquarius-plant.json",
-        "sha256": "21e2b1210df78021bf74a44e2a75b72ab74f28bfe1637070d12ba8341da29c0f"
+        "sha256": "dcc8a344f989c022960ea6e602f8f29475a262181e71fcd71afdf6f7f1885dd4"
       },
       {
         "path": "art/source/interior-motion-speaker-aquarius-server.json",
-        "sha256": "e404b5b2227ab9e12a5b1217abbdf129a3ad362fcc6ae428b94d0d7e3f1f2a17"
+        "sha256": "7c3cbf5282c3425afd5b54a98691a88efad65f9dfd9f7ea600906ee7a4129189"
       },
       {
         "path": "art/source/interior-motion-speaker-aquarius-steam.json",
-        "sha256": "38108afff5d9c9a0048e5fde49913ed360893c3a8ac71d01cb509b1e6299bee6"
+        "sha256": "15a5d7523e347b5fd81c7fa556183bc482aea6e0a149667c0cc9b92d972d99ca"
       },
       {
         "path": "art/source/interior-motion-speaker-aries-plant.json",
-        "sha256": "ad43d40408012fa591488f8bb40b5e61892b712f284958a2148a895ee205dbf5"
+        "sha256": "cf3d4dd4179c5780eed292b8256dda1cf99f3211cbb6479ffc67c7e4c14706b5"
       },
       {
         "path": "art/source/interior-motion-speaker-aries-server.json",
-        "sha256": "2b73860118269ee0b040b81fd096e50f62cb574498b70487da7e5f7644121d93"
+        "sha256": "6875e8c6218cfc7662ade8d7804e261a2d21ba07df5123bd4cd310e64910705f"
       },
       {
         "path": "art/source/interior-motion-speaker-aries-steam.json",
-        "sha256": "56291100467122bb297713d8254ab94f5bc882709fe5e9de926fabdd7b902849"
+        "sha256": "dd72e3ef6914afe4316c14b96e53d724a67f3614f0149377829f25aa75cf3015"
       },
       {
         "path": "art/source/interior-motion-speaker-cancer-plant.json",
-        "sha256": "66953134d1c838a5fbec6f0a23b95f0a17a319b481196d90865c35d3163bd379"
+        "sha256": "fff2013cc9e2955cb356285af0e5663c1b7e335cf6fdfb63851e58d1adbeecf4"
       },
       {
         "path": "art/source/interior-motion-speaker-cancer-server.json",
-        "sha256": "e2e5ab9aef3ddbebe6d74e291da7ec34a66d217f694085977ad55af59d73ea33"
+        "sha256": "072f45cf1d2cfead20ffb5ee6574d73b3c491815e4a0a1a0c8d261be81f88bef"
       },
       {
         "path": "art/source/interior-motion-speaker-cancer-steam.json",
-        "sha256": "ee66ff231793689011cd95f6e772f9e34866783552b23b3f391d4ac871d70f08"
+        "sha256": "7f93f1a8e79a2565eb9f623e231aae854acc7d6b6ab91896aabe677e11625afa"
       },
       {
         "path": "art/source/interior-motion-speaker-cancer-water.json",
-        "sha256": "9d9590b41a91181b1f98ff18c8775e342bed759d853a44a6516745efaebbda3d"
+        "sha256": "1d767e7e17b46eeafa99759877f436def8a9a990322675e4dc23a314aafcbc8d"
       },
       {
         "path": "art/source/interior-motion-speaker-capricorn-plant.json",
-        "sha256": "c35141965c251c2e4fc3ef45b0c76e4ad7591dbd062783218bdb772fd9c41b35"
+        "sha256": "77c69dfdb0af63fed6d26fe76397818323370bd95d88bcc9a6cb3e0a588f23ee"
       },
       {
         "path": "art/source/interior-motion-speaker-capricorn-server.json",
-        "sha256": "7c29a944a8d299ed59e4c145a7a86163554352e1dbac957424f8b5ccb39dbb65"
+        "sha256": "56e03026f00bb091247e4e4b8893da9c3898ba6472222be427828b062009174c"
       },
       {
         "path": "art/source/interior-motion-speaker-capricorn-steam.json",
-        "sha256": "01e9e24b364d15ce16364f1875815e0e5ad082f0feb6d0e56a83def6e24221c7"
+        "sha256": "b2f90c105428a73dd1107bb20d430c3abf18902e13bbd316c3db95b5542a5d19"
       },
       {
         "path": "art/source/interior-motion-speaker-gemini-plant.json",
-        "sha256": "d0145677cef6a5f466115fe37442aafbe0b016631995b1505da14d9688f1ae6d"
+        "sha256": "1cb582d0d6fd18745e54c00ad3ff40350e42deffd3276457a48d92d7a1f6f08b"
       },
       {
         "path": "art/source/interior-motion-speaker-gemini-server.json",
-        "sha256": "d335ae12a30cd72518a43a20451516327142f22703079d063f69564ebbc262b9"
+        "sha256": "7e1b94663344418900d57f9ddc8e98bd0eb76ab0757164266fb4ff783fab2fb3"
       },
       {
         "path": "art/source/interior-motion-speaker-gemini-steam.json",
-        "sha256": "ac35b0f5dcb1fcf7243d9ff220587f3307280572c603b1ca85c4d5ac42bd9d9d"
+        "sha256": "783049bb4953643abfed8b981f1c64f8f9f7fa372d336bcd7aa9abc811688988"
       },
       {
         "path": "art/source/interior-motion-speaker-leo-plant.json",
-        "sha256": "6ba3ef226181493b57ae01685be10c526f1880c37e99d2a86e2c1295a9ebf33d"
+        "sha256": "c05628c4bfa33dde3329039bcb6b1e5492a87a29af46faae560038e67bf6e5a0"
       },
       {
         "path": "art/source/interior-motion-speaker-leo-server.json",
-        "sha256": "a1dae644596ed8a634a995aa3d23540c33f79ad37c94294bc8cb6ca4091b25c3"
+        "sha256": "9e0eb2ae16f7916641dc3035887046ce4b190e5edb910af635b58dca7de36e3e"
       },
       {
         "path": "art/source/interior-motion-speaker-leo-steam.json",
-        "sha256": "d1061baef19cf23bf3e0d93c263a73b92540b18ccb3e0d7ec92b213b0c6957e5"
+        "sha256": "6671e5791ccc7ed75ae78a10ba69f96ebdffa20b797606f68ef627b5603ef80a"
       },
       {
         "path": "art/source/interior-motion-speaker-libra-plant.json",
-        "sha256": "d9d345f55fab85af5b7da8ff63251168a647bb4fb16f212c5c2be7fe36995e08"
+        "sha256": "ff8084dfda3fd7d0da3b56d1863774ee5daa9430f13451ec7304e8abf255d48a"
       },
       {
         "path": "art/source/interior-motion-speaker-libra-server.json",
-        "sha256": "257a20171f427977fa409d5835e47266e065a394569085e4f0b22d11cde87009"
+        "sha256": "ccc572cf4d3da619563fd853f92b31adb62abbbbb1a33eed5665e46db62576e8"
       },
       {
         "path": "art/source/interior-motion-speaker-libra-steam.json",
-        "sha256": "2f41f4c7309622c504f86597a66802952b5d6f5f50ba0cb18a011afdb5c8f2b1"
+        "sha256": "4e0662116ee3eefe5e0f46adfe3d19b5aac9864e067bd43d2757eac786d544e5"
       },
       {
         "path": "art/source/interior-motion-speaker-pisces-plant.json",
-        "sha256": "26191efd6a987eaef2d7e340cea0fe316456c404a0fd8428af5efc30828da6c2"
+        "sha256": "3fbbe4ad4dd83a66a94c79fd0166ee982764e34ec2c701b566fabc76e69206df"
       },
       {
         "path": "art/source/interior-motion-speaker-pisces-server.json",
-        "sha256": "f7017ce30f154d2946921801b9ebf51c788b4ece52d18c59b5b9c54054296b47"
+        "sha256": "81c93e7c3271fc5df35a78c64fde02c6f77370b1e9c65e5222aaff6e9a0add30"
       },
       {
         "path": "art/source/interior-motion-speaker-pisces-steam.json",
-        "sha256": "8134251da52b6981e3bc6c15d54319369d75ff9149b10f09861c2d5896096dba"
+        "sha256": "382783e41efc47f055ebabefca3f723e8af01836b3009d9cfc52dab64b1ed51b"
       },
       {
         "path": "art/source/interior-motion-speaker-pisces-water.json",
-        "sha256": "3ba3e3997cc6d0091caab9e67ea526970912ad82c860828338aab045d6c70a7a"
+        "sha256": "4f717e2cb2b1488b0b47392bd84a75cfe2967e3391ad34ffc027d358557bb8cf"
       },
       {
         "path": "art/source/interior-motion-speaker-sagittarius-plant.json",
-        "sha256": "8782295a129d5c9eb6af6f5fd589c849335af53badb977933220ade8012ec462"
+        "sha256": "18cc759a786241a9939bb7fadd548efacf6da8714d4692b38279a173dd8a976c"
       },
       {
         "path": "art/source/interior-motion-speaker-sagittarius-server.json",
-        "sha256": "ec65b789249da4602fb29f402ef14e86fc182be66a58c6e5a8c410015d3d7517"
+        "sha256": "d99dc43e2b5e21b71d2083d098ca53b2e5b74338050120c293fbf672443d8fe2"
       },
       {
         "path": "art/source/interior-motion-speaker-sagittarius-steam.json",
-        "sha256": "938d01053206c9361204a5048a899df6596f559a2a6784ea2c4ec65b889093b8"
+        "sha256": "d5111fbfa207b255a3249019762fc67722000e3e42a412034e7596d029df1941"
       },
       {
         "path": "art/source/interior-motion-speaker-scorpio-plant.json",
-        "sha256": "9525b6e2cbca5e1ee748f123e947aa704718f6e32ad01b730aa53c6626ef2e12"
+        "sha256": "70802fbb5a38dafd8394db7b87e8b35afe3526b9a969d6c78184750dc133a018"
       },
       {
         "path": "art/source/interior-motion-speaker-scorpio-server.json",
-        "sha256": "adc1919733a64cf7140f381dce6f12e1541b458bf596bfa008c5d8a31455ecbb"
+        "sha256": "0ae283327066817ae229122a106602fc15de71e8882caedbad41a763e0076d6f"
       },
       {
         "path": "art/source/interior-motion-speaker-scorpio-steam.json",
-        "sha256": "31f7cf254fdc692aebe832594df131abaa4b3c1e6dd6cd97cea5271e367687a3"
+        "sha256": "4bfdbc32d0d81b71d6089b11485c16f589585024d948ee4bbf4e300fd5c7b4e8"
       },
       {
         "path": "art/source/interior-motion-speaker-taurus-plant.json",
-        "sha256": "969455aa22916b1c0da367cd33cd6040bb5a49bbfa054ae2f29e443bbcae2e08"
+        "sha256": "e60c7ab646bfc11dfd959a1e7525e20b41e418cd081bf50f60fed9764fc69f15"
       },
       {
         "path": "art/source/interior-motion-speaker-taurus-server.json",
-        "sha256": "11affd6f52247b725022db39b22395c1410232d933a843abec8fc7f517950bc7"
+        "sha256": "06420fa37ef23ddce6585a262b6aab9d025a1d4bc52be4949fc246c7ec7d18dd"
       },
       {
         "path": "art/source/interior-motion-speaker-taurus-steam.json",
-        "sha256": "65dbbc7cbe773640d7e1991bac656342f4ae92c10e67d39a1fa90c213daf17e8"
+        "sha256": "f4dc186f6752fcc0fb2c3ce0b18e7701d3c34ccf3eb43d7aac4014b2956149f2"
       },
       {
         "path": "art/source/interior-motion-speaker-virgo-plant.json",
-        "sha256": "83e90d08c0e027e4f89899ed22a734b97beeeb5e8c3258bedff7f902a584e6f5"
+        "sha256": "2d06ca44100d6db0ed1b1d2b6c1dec36502919ca728972f1ac99fd5e154a171c"
       },
       {
         "path": "art/source/interior-motion-speaker-virgo-server.json",
-        "sha256": "c097f6fbea94b97b4910f170936d2cdc44ff9fe538ad9024f744071da9b29b17"
+        "sha256": "d7cafbea3b9dd2083b81a99c460b398e325c52c6f09a0ea8850e34c687965fd3"
       },
       {
         "path": "art/source/interior-motion-speaker-virgo-steam.json",
-        "sha256": "7f9d8ef0e3e79147067037424c53f6ba3207916a9022d681168548095bc575f6"
+        "sha256": "295d329ac795c77b61358280eee4b83ec52d5c34bb16c3dcef335d2a5ffaf760"
       },
       {
         "path": "art/source/interior-motion.json",
-        "sha256": "c43c1cafa425e1d0f30682b100df4a4164a4069d706c7ed32305a3e17fdf572d"
+        "sha256": "9f40d04c17305f34af2552d9312051dcaefa10a956b99e75f87dfe3d0f555517"
       },
       {
         "path": "art/source/interior-reference-native.png",
@@ -1853,7 +1853,7 @@
       },
       {
         "path": "tools/art/interior-reference-motion.ts",
-        "sha256": "7e3a076865d3e52177585f6eac406b508e7f98d595104bb0ce4a04e76a83c4ec"
+        "sha256": "afb6b6a4772bdd6358e188d8af06fd6dc0bdd15ed3b4d84668bd013136b25170"
       }
     ]
   },

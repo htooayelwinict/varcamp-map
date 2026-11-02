@@ -10,6 +10,7 @@ import type {Sprite} from './catalog';
 import {pathToFileURL} from 'node:url';
 import {resolve} from 'node:path';
 import {ariesPresentationFunctional} from '../maps/aries-presentation';
+import {auditoriumFunctional} from '../maps/auditorium-spacing';
 
 export async function renderInteriorReferenceMotion(){
 const artifacts=new Map<string,Buffer>(),layouts=new Map<string,MapLayout>();
@@ -77,7 +78,7 @@ for(const name of Object.keys(baseline)){
   artifacts.set(metadataPath,Buffer.from(JSON.stringify({scope:'ORIGINAL_PNG_INTERIOR_NATIVE_MOTION',overlay,diagnostics:result.diagnostics},null,2)+'\n'));generated.add(metadataPath);
   records.push({map:name,effect:effect.kind,diagnostics:result.diagnostics,atlasSha256:hash(result.png)});
  }
- const functional=ariesPresentationFunctional(name,baseline[name]);
+ const functional=auditoriumFunctional(name,ariesPresentationFunctional(name,baseline[name]));
  for(const key of ['width','height','entries','exits','areas','inspectionZones'])if(JSON.stringify(layout[key as keyof MapLayout])!==JSON.stringify(functional[key as keyof typeof functional]))throw Error(`${name}: functional baseline changed`);
  layouts.set(path,layout);
 }

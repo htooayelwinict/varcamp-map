@@ -1,4 +1,6 @@
 import {readFileSync} from 'node:fs';
+import {isDeepStrictEqual} from 'node:util';
+import {restoreAuditoriumSpacing} from '../tools/maps/auditorium-spacing';
 import {describe,it,expect} from 'vitest';
 import {EVENT_MAP_IDS,applyEventPresentation,restoreEventPresentation} from '../tools/maps/event-presentation';
 import {loadTileCatalog} from '../tools/art/catalog';
@@ -22,15 +24,15 @@ describe('Event branding and audience presentation',()=>{
   const l=current(id),before=restoreEventPresentation(l);
   expect(l.images!.map(i=>i.image.split('/').at(-1))).toEqual(id.startsWith('speaker-')?['varcamp-2026.png']:['varcamp-2026.png','partner-bsides-mm.png','vibecode-tours.png']);
   expect(l.placements.some(p=>p.sprite==='speaker-style-logo-card')).toBe(false);
-  for(const key of ['entries','exits','areas','inspectionZones','animatedOverlays']as const)expect(l[key]).toEqual(before[key]);
+  for(const key of ['entries','exits','areas','inspectionZones','animatedOverlays']as const)expect(isDeepStrictEqual(restoreAuditoriumSpacing(l)[key],before[key])).toBe(true);
   if(id.startsWith('speaker-')){
-   expect(l.placements.filter(p=>p.id.startsWith('audience-chair-'))).toHaveLength(36);
+   expect(l.placements.filter(p=>p.id.startsWith('audience-chair-'))).toHaveLength(48);
    expect(l.placements.some(p=>p.id.endsWith('-style-partner-wallpaper')||p.id.endsWith('-style-partner-rule'))).toBe(false);
    expect(l.signs!.some(s=>s.text==='COMMUNITY PARTNERS')).toBe(false);
   }
  });
  it.each(EVENT_MAP_IDS)('%s admits only the exact reviewed successor and validates its native map',id=>{
-  const l=current(id);expect(applyEventPresentation(restoreEventPresentation(l))).toEqual(l);
+  const l=current(id);expect(isDeepStrictEqual(applyEventPresentation(restoreEventPresentation(l)),l)).toBe(true);
   const bad=structuredClone(l);bad.placements.pop();expect(()=>restoreEventPresentation(bad)).toThrow();
   expect(()=>assertCurrentNativeMap(id,read(`maps/${id}.tmj`),l,read(`maps/${id}.wam`),loadTileCatalog())).not.toThrow();
  },30000);

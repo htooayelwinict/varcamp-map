@@ -7,10 +7,10 @@ const read=(p:string)=>JSON.parse(readFileSync(p,'utf8'));
 const catalog=loadTileCatalog();
 const ids=['aries','taurus','gemini','cancer','leo','virgo','libra','scorpio','sagittarius','capricorn','aquarius','pisces'];
 describe('Audience seating and grounded scenery',()=>{
- it.each(ids)('%s seats 36 within the actual listening boundary, with reachable row aisles',sign=>{
+ it.each(ids)('%s seats 48 within the actual listening boundary, with reachable row aisles',sign=>{
   const l=read(`world/layouts/speaker-${sign}.json`) as MapLayout;
   const area=l.areas!.find(a=>a.id===sign+'-audience')!,chairs=l.placements.filter(p=>p.id.startsWith('audience-chair-'));
-  expect(chairs).toHaveLength(36);
+  expect(chairs).toHaveLength(48);
   const fill=l.placements.find(p=>p.id==='audience-boundary-floor');
   expect(fill).toMatchObject({x:area.x,y:area.y,width:area.width,height:area.height});
   expect(l.placements.filter(p=>p.id.startsWith('audience-boundary-edge-'))).toHaveLength(4);

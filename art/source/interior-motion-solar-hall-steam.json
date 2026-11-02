@@ -65,7 +65,7 @@
         },
         {
           "path": "tools/art/interior-reference-motion.ts",
-          "sha256": "7e3a076865d3e52177585f6eac406b508e7f98d595104bb0ce4a04e76a83c4ec"
+          "sha256": "afb6b6a4772bdd6358e188d8af06fd6dc0bdd15ed3b4d84668bd013136b25170"
         },
         {
           "path": "tools/maps/builder.ts",

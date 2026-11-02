@@ -192,7 +192,7 @@ export const WORLD_CATALOG = {
   },
   "speaker-aquarius": {
     "width": 36,
-    "height": 36,
+    "height": 46,
     "defaultEntry": "speaker-entry",
     "entries": [
       "speaker-entry"
@@ -200,7 +200,7 @@ export const WORLD_CATALOG = {
   },
   "speaker-aries": {
     "width": 36,
-    "height": 36,
+    "height": 46,
     "defaultEntry": "speaker-entry",
     "entries": [
       "speaker-entry"
@@ -208,7 +208,7 @@ export const WORLD_CATALOG = {
   },
   "speaker-cancer": {
     "width": 36,
-    "height": 36,
+    "height": 46,
     "defaultEntry": "speaker-entry",
     "entries": [
       "speaker-entry"
@@ -216,7 +216,7 @@ export const WORLD_CATALOG = {
   },
   "speaker-capricorn": {
     "width": 36,
-    "height": 36,
+    "height": 46,
     "defaultEntry": "speaker-entry",
     "entries": [
       "speaker-entry"
@@ -224,7 +224,7 @@ export const WORLD_CATALOG = {
   },
   "speaker-gemini": {
     "width": 36,
-    "height": 36,
+    "height": 46,
     "defaultEntry": "speaker-entry",
     "entries": [
       "speaker-entry"
@@ -232,7 +232,7 @@ export const WORLD_CATALOG = {
   },
   "speaker-leo": {
     "width": 36,
-    "height": 36,
+    "height": 46,
     "defaultEntry": "speaker-entry",
     "entries": [
       "speaker-entry"
@@ -240,7 +240,7 @@ export const WORLD_CATALOG = {
   },
   "speaker-libra": {
     "width": 36,
-    "height": 36,
+    "height": 46,
     "defaultEntry": "speaker-entry",
     "entries": [
       "speaker-entry"
@@ -248,7 +248,7 @@ export const WORLD_CATALOG = {
   },
   "speaker-pisces": {
     "width": 36,
-    "height": 38,
+    "height": 48,
     "defaultEntry": "speaker-entry",
     "entries": [
       "speaker-entry"
@@ -256,7 +256,7 @@ export const WORLD_CATALOG = {
   },
   "speaker-sagittarius": {
     "width": 40,
-    "height": 36,
+    "height": 46,
     "defaultEntry": "speaker-entry",
     "entries": [
       "speaker-entry"
@@ -264,7 +264,7 @@ export const WORLD_CATALOG = {
   },
   "speaker-scorpio": {
     "width": 36,
-    "height": 36,
+    "height": 46,
     "defaultEntry": "speaker-entry",
     "entries": [
       "speaker-entry"
@@ -272,7 +272,7 @@ export const WORLD_CATALOG = {
   },
   "speaker-taurus": {
     "width": 36,
-    "height": 36,
+    "height": 46,
     "defaultEntry": "speaker-entry",
     "entries": [
       "speaker-entry"
@@ -280,7 +280,7 @@ export const WORLD_CATALOG = {
   },
   "speaker-virgo": {
     "width": 36,
-    "height": 36,
+    "height": 46,
     "defaultEntry": "speaker-entry",
     "entries": [
       "speaker-entry"

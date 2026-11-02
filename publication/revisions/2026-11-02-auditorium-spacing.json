@@ -1,0 +1,323 @@
+{
+  "schemaVersion": 1,
+  "revisions": [
+    {
+      "path": "art/sources.json",
+      "fromSha256": "f5697bcb7fad667c085b87aa98e0a1616e527858aaaafe4f9761394a9c520bad",
+      "toSha256": "22ce32fd793b03e7eea17d7c91623b40027d3076e881e7a7eaf8066948217d7d",
+      "reason": "Enlarge the twelve zodiac auditoriums with 48 seats, an 18-row listening floor, raised north stage and separate crossing. Move three owned saved zones and south portals while preserving their identities and controls. Hall animation provenance only."
+    },
+    {
+      "path": "art/tile-catalog.json",
+      "fromSha256": "adb5ec623a6c71960e45ba3ea6fad2d4933f687b5d4afc12864cafd6318d64eb",
+      "toSha256": "123246b6c964d3e5d0941bd7b948f1e49713672152126994e26159047367f52e",
+      "reason": "Enlarge the twelve zodiac auditoriums with 48 seats, an 18-row listening floor, raised north stage and separate crossing. Move three owned saved zones and south portals while preserving their identities and controls. Hall animation provenance only."
+    },
+    {
+      "path": "maps/preview/speaker-aquarius.tmj",
+      "fromSha256": "e4f62e3b53193dd5ee63ce1adf3653ed6b9cecbc332c6aebe51f19c5e180d8ed",
+      "toSha256": "33aadc207e398fe516c0a13e75c15511b7bf6b2e8290e1bebc88e3281c980a68",
+      "reason": "Enlarge the twelve zodiac auditoriums with 48 seats, an 18-row listening floor, raised north stage and separate crossing. Move three owned saved zones and south portals while preserving their identities and controls. Hall animation provenance only."
+    },
+    {
+      "path": "maps/preview/speaker-aries.tmj",
+      "fromSha256": "573fcbcc197fa0d3288700026bb2a94febdb8c15240880348fc86e9e73e07a5b",
+      "toSha256": "52219e36d6c9f7a46883144c711bd258b22a6cf771ff5def2fef95ff20a42f7a",
+      "reason": "Enlarge the twelve zodiac auditoriums with 48 seats, an 18-row listening floor, raised north stage and separate crossing. Move three owned saved zones and south portals while preserving their identities and controls. Hall animation provenance only."
+    },
+    {
+      "path": "maps/preview/speaker-cancer.tmj",
+      "fromSha256": "1538fbd9f983291a2b7d5bae91d2c477e9467e5bc2ea63a60b481dc0ffd976de",
+      "toSha256": "a662564c4b05a72c6c545bf566d6007881d1874c1767670134397582384007c6",
+      "reason": "Enlarge the twelve zodiac auditoriums with 48 seats, an 18-row listening floor, raised north stage and separate crossing. Move three owned saved zones and south portals while preserving their identities and controls. Hall animation provenance only."
+    },
+    {
+      "path": "maps/preview/speaker-capricorn.tmj",
+      "fromSha256": "2d23d68c6a7b208b4237dce577d77759bc9db8fb4f911bcbcb112ed2502f7b5c",
+      "toSha256": "4570fd24f733b4d73a3027909ddedd15e97a75f8af4c6b98ce3c3b52ca0b49fc",
+      "reason": "Enlarge the twelve zodiac auditoriums with 48 seats, an 18-row listening floor, raised north stage and separate crossing. Move three owned saved zones and south portals while preserving their identities and controls. Hall animation provenance only."
+    },
+    {
+      "path": "maps/preview/speaker-gemini.tmj",
+      "fromSha256": "8ab63e6425324d7f47e6278c2ee7ac4064e89ae55b80b18b44a53a8f2bc3e7c1",
+      "toSha256": "efe7b801ae56579ddaeef98e2fe256dea88552b9ec73282441bcbbe5248275b8",
+      "reason": "Enlarge the twelve zodiac auditoriums with 48 seats, an 18-row listening floor, raised north stage and separate crossing. Move three owned saved zones and south portals while preserving their identities and controls. Hall animation provenance only."
+    },
+    {
+      "path": "maps/preview/speaker-leo.tmj",
+      "fromSha256": "f1f95892afdfc5d787b0dfb598eb61412dff337267cb9c793b56301c9d7ed502",
+      "toSha256": "db93aa4830427323d3a6f4c8e2b38eb9d06bb46def2eee791ed85a7d4b4f1ca1",
+      "reason": "Enlarge the twelve zodiac auditoriums with 48 seats, an 18-row listening floor, raised north stage and separate crossing. Move three owned saved zones and south portals while preserving their identities and controls. Hall animation provenance only."
+    },
+    {
+      "path": "maps/preview/speaker-libra.tmj",
+      "fromSha256": "b108a75c2a1410f72a185e8fb7386f034fc9cc41ae2180f715613758c40fc9f0",
+      "toSha256": "c3d81c8b4efe1c785d541bde7011f7a517d4ea0633dd453a6020bba858a45330",
+      "reason": "Enlarge the twelve zodiac auditoriums with 48 seats, an 18-row listening floor, raised north stage and separate crossing. Move three owned saved zones and south portals while preserving their identities and controls. Hall animation provenance only."
+    },
+    {
+      "path": "maps/preview/speaker-pisces.tmj",
+      "fromSha256": "009eb4ebb0801fdad39a9d6c0a0b96ab198324981ebcb5e0436e581cec1663bd",
+      "toSha256": "6c780835cc67f5e32c4cbc5be9e16d9f05bc0446f20429ca2e617bb07e2ad633",
+      "reason": "Enlarge the twelve zodiac auditoriums with 48 seats, an 18-row listening floor, raised north stage and separate crossing. Move three owned saved zones and south portals while preserving their identities and controls. Hall animation provenance only."
+    },
+    {
+      "path": "maps/preview/speaker-sagittarius.tmj",
+      "fromSha256": "322c7629e100b0a2ec44b3b09c85c02e872a7d2661ab355dcb7b508591bff36b",
+      "toSha256": "46f5cb4c3ec9194417b45d6ee2c3be72c90a2ad60cba71da84a1564e551ec0ef",
+      "reason": "Enlarge the twelve zodiac auditoriums with 48 seats, an 18-row listening floor, raised north stage and separate crossing. Move three owned saved zones and south portals while preserving their identities and controls. Hall animation provenance only."
+    },
+    {
+      "path": "maps/preview/speaker-scorpio.tmj",
+      "fromSha256": "9e9ca828333fd989b7d12e0c387602dc48707ba4b921a350744f10021c6a610e",
+      "toSha256": "c358f7d26a5ab91e90349a3e20dc090f2b301e4333354c27141e5007b3eb8bdb",
+      "reason": "Enlarge the twelve zodiac auditoriums with 48 seats, an 18-row listening floor, raised north stage and separate crossing. Move three owned saved zones and south portals while preserving their identities and controls. Hall animation provenance only."
+    },
+    {
+      "path": "maps/preview/speaker-taurus.tmj",
+      "fromSha256": "84872cf96cb6f9c3752fd48b56a321be9cfaafb21be51b40083e01848223445d",
+      "toSha256": "aafd5de6f10b66ec80b333ea55956ddc0fe3b70753c5d2126e4ca390b7528371",
+      "reason": "Enlarge the twelve zodiac auditoriums with 48 seats, an 18-row listening floor, raised north stage and separate crossing. Move three owned saved zones and south portals while preserving their identities and controls. Hall animation provenance only."
+    },
+    {
+      "path": "maps/preview/speaker-virgo.tmj",
+      "fromSha256": "adb699e6301aa261574c2843dd9a8a13f6098ef33aea7a23e12ac3ceec6987c7",
+      "toSha256": "4f31ec08e017a9c64e0d1dc5a7e677a5f98c680a2ba93134b91e842f6c0c3c3f",
+      "reason": "Enlarge the twelve zodiac auditoriums with 48 seats, an 18-row listening floor, raised north stage and separate crossing. Move three owned saved zones and south portals while preserving their identities and controls. Hall animation provenance only."
+    },
+    {
+      "path": "maps/speaker-aquarius.tmj",
+      "fromSha256": "d7f8f1d4bf82048e80a1bcd32eae35aeaa40b1833e9e690adccdee59c03f6293",
+      "toSha256": "6805782ef27925616cd241ba54013932daccf2f330ad398fe335fbe08004a7a4",
+      "reason": "Enlarge the twelve zodiac auditoriums with 48 seats, an 18-row listening floor, raised north stage and separate crossing. Move three owned saved zones and south portals while preserving their identities and controls. Hall animation provenance only."
+    },
+    {
+      "path": "maps/speaker-aquarius.wam",
+      "fromSha256": "8dc36be90411d29e4448cd7ed70dc7db688f3b776df77deebb38daa6e4e81115",
+      "toSha256": "c82452ffe5aedb4d5c0752fcfdc2a15b36ebf06c6eb6a07f3556ef7a147258e6",
+      "reason": "Enlarge the twelve zodiac auditoriums with 48 seats, an 18-row listening floor, raised north stage and separate crossing. Move three owned saved zones and south portals while preserving their identities and controls. Hall animation provenance only."
+    },
+    {
+      "path": "maps/speaker-aries.tmj",
+      "fromSha256": "04fb2ccb62bd13b3c9b786eaa22a09196f52c4922e9964477206a7b8d78a7b48",
+      "toSha256": "1608d35c780e03d0b67618498f83fefb4462317267024de2d5f89b65a8171cd7",
+      "reason": "Enlarge the twelve zodiac auditoriums with 48 seats, an 18-row listening floor, raised north stage and separate crossing. Move three owned saved zones and south portals while preserving their identities and controls. Hall animation provenance only."
+    },
+    {
+      "path": "maps/speaker-aries.wam",
+      "fromSha256": "cd7545b67ab28a062d0102dfd439a86fcfb7989e06660ea1621dcf84617a5edf",
+      "toSha256": "475ea309d7f55c296086596522956b4fd2a959801191e2879aaa190274bb9daf",
+      "reason": "Enlarge the twelve zodiac auditoriums with 48 seats, an 18-row listening floor, raised north stage and separate crossing. Move three owned saved zones and south portals while preserving their identities and controls. Hall animation provenance only."
+    },
+    {
+      "path": "maps/speaker-cancer.tmj",
+      "fromSha256": "e42329e986989b8101aea1ce334205544a62f19fcb69c983ee176610797596d4",
+      "toSha256": "c53c57d771616841e3464e2330d08257667e50e6ceb70955aa639f17cb8c4fc3",
+      "reason": "Enlarge the twelve zodiac auditoriums with 48 seats, an 18-row listening floor, raised north stage and separate crossing. Move three owned saved zones and south portals while preserving their identities and controls. Hall animation provenance only."
+    },
+    {
+      "path": "maps/speaker-cancer.wam",
+      "fromSha256": "feb177e06db96077c19328f5f7cf8d8dd069a8e87b105a3096a3e5cea4be3a84",
+      "toSha256": "b461db4bb4ad0cbb2b4ed01c644f94e681fc889a31b466d5379b49e4a206e706",
+      "reason": "Enlarge the twelve zodiac auditoriums with 48 seats, an 18-row listening floor, raised north stage and separate crossing. Move three owned saved zones and south portals while preserving their identities and controls. Hall animation provenance only."
+    },
+    {
+      "path": "maps/speaker-capricorn.tmj",
+      "fromSha256": "e5d64ce830925f221f5f1a2a32378a6e2ab6da9dd123787e24e8619892552789",
+      "toSha256": "7175b3c8f45c6a2c65021b1a04b82c32e1835053f64e35ff851742c661341dd8",
+      "reason": "Enlarge the twelve zodiac auditoriums with 48 seats, an 18-row listening floor, raised north stage and separate crossing. Move three owned saved zones and south portals while preserving their identities and controls. Hall animation provenance only."
+    },
+    {
+      "path": "maps/speaker-capricorn.wam",
+      "fromSha256": "55b687f24e00f5d573746187552f33e70f946b1e250d12b7c2e47e231087f978",
+      "toSha256": "bd0ead46ec77e219f85fda291a5558d24ef14e2856920d156909474948ec1806",
+      "reason": "Enlarge the twelve zodiac auditoriums with 48 seats, an 18-row listening floor, raised north stage and separate crossing. Move three owned saved zones and south portals while preserving their identities and controls. Hall animation provenance only."
+    },
+    {
+      "path": "maps/speaker-gemini.tmj",
+      "fromSha256": "ca822555918731f6a91fe4eaad7aa6dd932b3973a7cadf82e6a135ed7287bc4e",
+      "toSha256": "a3b71ac54f978996ab1a95212e19da0efa7e9e18abb980a055a7689c1d0a38b4",
+      "reason": "Enlarge the twelve zodiac auditoriums with 48 seats, an 18-row listening floor, raised north stage and separate crossing. Move three owned saved zones and south portals while preserving their identities and controls. Hall animation provenance only."
+    },
+    {
+      "path": "maps/speaker-gemini.wam",
+      "fromSha256": "d1a1424440fbd80f5d0cca9f31a9f0818a35e8739bc11d81daf7c4a4425f46b0",
+      "toSha256": "45100caeccd1d5c040667abbe64c826d3df6acaca701d1d98204bdc2a8e7eacc",
+      "reason": "Enlarge the twelve zodiac auditoriums with 48 seats, an 18-row listening floor, raised north stage and separate crossing. Move three owned saved zones and south portals while preserving their identities and controls. Hall animation provenance only."
+    },
+    {
+      "path": "maps/speaker-leo.tmj",
+      "fromSha256": "ed58143bd81abeb2e072c3e7aaba5b9d9d8ec1ca6155cce5582f2fe665972cf1",
+      "toSha256": "a1d98424ec1f55f3fe284cee03d73cebf89ebb61eb5840b819961acf1bde82c3",
+      "reason": "Enlarge the twelve zodiac auditoriums with 48 seats, an 18-row listening floor, raised north stage and separate crossing. Move three owned saved zones and south portals while preserving their identities and controls. Hall animation provenance only."
+    },
+    {
+      "path": "maps/speaker-leo.wam",
+      "fromSha256": "f061eb2524adf746a1a1391c7a744aa7fc72fca195df189d9be7744e5e5a5172",
+      "toSha256": "7bfd9382cb29cfa12767b406eb01b200346cc127aadc3a7c627fd79b34b38bfa",
+      "reason": "Enlarge the twelve zodiac auditoriums with 48 seats, an 18-row listening floor, raised north stage and separate crossing. Move three owned saved zones and south portals while preserving their identities and controls. Hall animation provenance only."
+    },
+    {
+      "path": "maps/speaker-libra.tmj",
+      "fromSha256": "89ebe6f914ae9382b1a34afac8cc46e3b477f90d43ad805aa8974d3337f1e657",
+      "toSha256": "672c16a461c313fbb3c082136fcb55afc2d2d121e139c787d64a7a01af5242a9",
+      "reason": "Enlarge the twelve zodiac auditoriums with 48 seats, an 18-row listening floor, raised north stage and separate crossing. Move three owned saved zones and south portals while preserving their identities and controls. Hall animation provenance only."
+    },
+    {
+      "path": "maps/speaker-libra.wam",
+      "fromSha256": "0b3fb8c157ae1cb8578d5f425331ef46d7f28faf162332bd8cb7a439622ce9c4",
+      "toSha256": "fec4237e750cf3b598a0da1239c2505a8287e24df2fbc829b87567236276a89b",
+      "reason": "Enlarge the twelve zodiac auditoriums with 48 seats, an 18-row listening floor, raised north stage and separate crossing. Move three owned saved zones and south portals while preserving their identities and controls. Hall animation provenance only."
+    },
+    {
+      "path": "maps/speaker-pisces.tmj",
+      "fromSha256": "9913b8d6b3733d98d033b1cecd257d34572f28c0a9048a893192a0d7a2c5b74f",
+      "toSha256": "f2e4ee037b009062f4bc4496f77c1fe2e3a303f2b4345104754ca1411777bcf0",
+      "reason": "Enlarge the twelve zodiac auditoriums with 48 seats, an 18-row listening floor, raised north stage and separate crossing. Move three owned saved zones and south portals while preserving their identities and controls. Hall animation provenance only."
+    },
+    {
+      "path": "maps/speaker-pisces.wam",
+      "fromSha256": "9d39856956235e8cc6cc5bbc257c64ce2790546db2233f84a0676ff188342f53",
+      "toSha256": "f707ccbd7de05afa7923769708746e21acb6ff24742df5f491ea8eb1563ffb7f",
+      "reason": "Enlarge the twelve zodiac auditoriums with 48 seats, an 18-row listening floor, raised north stage and separate crossing. Move three owned saved zones and south portals while preserving their identities and controls. Hall animation provenance only."
+    },
+    {
+      "path": "maps/speaker-sagittarius.tmj",
+      "fromSha256": "ac32a2b7caafbfa213890d6f8f2e16c818a0724fa7ee28e625083bbb10445a49",
+      "toSha256": "541a6ef973e3850f74c30ec17a38e2c7dab8e4b6334ff5d22e79f632ae409b83",
+      "reason": "Enlarge the twelve zodiac auditoriums with 48 seats, an 18-row listening floor, raised north stage and separate crossing. Move three owned saved zones and south portals while preserving their identities and controls. Hall animation provenance only."
+    },
+    {
+      "path": "maps/speaker-sagittarius.wam",
+      "fromSha256": "4f9a89ef546e7dd41706be642c35e2f321b14ffe7bcd421e269401908dc6471c",
+      "toSha256": "d10be40ddf55ea96fa9444fefc6dfb44880ee03cdf51e798a3c4bdbfeb3eef8d",
+      "reason": "Enlarge the twelve zodiac auditoriums with 48 seats, an 18-row listening floor, raised north stage and separate crossing. Move three owned saved zones and south portals while preserving their identities and controls. Hall animation provenance only."
+    },
+    {
+      "path": "maps/speaker-scorpio.tmj",
+      "fromSha256": "8a40d5ecd489a0c2963951ad6b2460d9a4aa12d28fc04b05787500557d3390fb",
+      "toSha256": "c20ba102172efc61918b1f0e66b672a0ad17d8bc2dba4e7169ccc8cff7b831df",
+      "reason": "Enlarge the twelve zodiac auditoriums with 48 seats, an 18-row listening floor, raised north stage and separate crossing. Move three owned saved zones and south portals while preserving their identities and controls. Hall animation provenance only."
+    },
+    {
+      "path": "maps/speaker-scorpio.wam",
+      "fromSha256": "f2715a64f10cf69497e9c2e9c750b5d3be30cf04e8097e30d9c772b6d8f7e003",
+      "toSha256": "8e6843bc9198c2655b0d619b7abbec8c392f15598bc02d21eab6f2a32dcc5187",
+      "reason": "Enlarge the twelve zodiac auditoriums with 48 seats, an 18-row listening floor, raised north stage and separate crossing. Move three owned saved zones and south portals while preserving their identities and controls. Hall animation provenance only."
+    },
+    {
+      "path": "maps/speaker-taurus.tmj",
+      "fromSha256": "cfa54c7c50de7221e035f250e506e853dcbcab97715080ea48b2c2271c4e3f86",
+      "toSha256": "7213453d36180074c88dc958b72e2baf88d3b72ed71b4b631e8ffa26bc0e27f9",
+      "reason": "Enlarge the twelve zodiac auditoriums with 48 seats, an 18-row listening floor, raised north stage and separate crossing. Move three owned saved zones and south portals while preserving their identities and controls. Hall animation provenance only."
+    },
+    {
+      "path": "maps/speaker-taurus.wam",
+      "fromSha256": "94df2cddb792b66340477387b56374b7db64c503d264a8f372b447ce8095ada9",
+      "toSha256": "d5225d6a8b84c201868563893764c86bdfeb57f74ca1af1dc58523ea1a95173f",
+      "reason": "Enlarge the twelve zodiac auditoriums with 48 seats, an 18-row listening floor, raised north stage and separate crossing. Move three owned saved zones and south portals while preserving their identities and controls. Hall animation provenance only."
+    },
+    {
+      "path": "maps/speaker-virgo.tmj",
+      "fromSha256": "6235f11f276258846a8cb4ed9c08abcec950b33159e68e853ff1ccb2a681437b",
+      "toSha256": "83c4668b786c12e1aea580cd0de5112b6b31e772a7f3bd7333631cf8b0e923aa",
+      "reason": "Enlarge the twelve zodiac auditoriums with 48 seats, an 18-row listening floor, raised north stage and separate crossing. Move three owned saved zones and south portals while preserving their identities and controls. Hall animation provenance only."
+    },
+    {
+      "path": "maps/speaker-virgo.wam",
+      "fromSha256": "3c502513db172f30c5811f42ffb3671af7f2efbbd315e7ce587008b3172e7a7b",
+      "toSha256": "cb2a05e89ee33c9a79b99362145f2f3280ddf011ff878fd1b5de7804fb0467ed",
+      "reason": "Enlarge the twelve zodiac auditoriums with 48 seats, an 18-row listening floor, raised north stage and separate crossing. Move three owned saved zones and south portals while preserving their identities and controls. Hall animation provenance only."
+    },
+    {
+      "path": "src/world/catalog.ts",
+      "fromSha256": "58337bf70c132472a452458304a435527fb2158d6d31222fd4a9445901b2ea10",
+      "toSha256": "fa922f0a29da30520726648a856c2ba8600d0daea4c73e1868bf8444de5a2b91",
+      "reason": "Enlarge the twelve zodiac auditoriums with 48 seats, an 18-row listening floor, raised north stage and separate crossing. Move three owned saved zones and south portals while preserving their identities and controls. Hall animation provenance only."
+    },
+    {
+      "path": "world/layouts/lunar-hall.json",
+      "fromSha256": "d55a7b39db58183145681014d7e613c791f160e7c0686c41dd9a21ec9d8bdd45",
+      "toSha256": "e4f85f082211b0d8412629f83fc4873fc89911b5d1b16128835278c29779bafd",
+      "reason": "Enlarge the twelve zodiac auditoriums with 48 seats, an 18-row listening floor, raised north stage and separate crossing. Move three owned saved zones and south portals while preserving their identities and controls. Hall animation provenance only."
+    },
+    {
+      "path": "world/layouts/solar-hall.json",
+      "fromSha256": "6b20a88bfd488e82551548ce6123bc901c414e37f23214be10203562afbf1607",
+      "toSha256": "83a174c2acb303546b69b7f38c4e63f099dde4974a34ad76ba31e7e4786a0ecb",
+      "reason": "Enlarge the twelve zodiac auditoriums with 48 seats, an 18-row listening floor, raised north stage and separate crossing. Move three owned saved zones and south portals while preserving their identities and controls. Hall animation provenance only."
+    },
+    {
+      "path": "world/layouts/speaker-aquarius.json",
+      "fromSha256": "6cb22661984498d1f5b7eb23b57edaf8566101d06bd62ec096eca7fba034935b",
+      "toSha256": "8ed3c2f38e6f856b5c5cb9257615566da0118ffa56c3f6e2d9313eaf0283b1b9",
+      "reason": "Enlarge the twelve zodiac auditoriums with 48 seats, an 18-row listening floor, raised north stage and separate crossing. Move three owned saved zones and south portals while preserving their identities and controls. Hall animation provenance only."
+    },
+    {
+      "path": "world/layouts/speaker-aries.json",
+      "fromSha256": "955e651bb257830f4e550a1d2c856da03e35a984c55fb9059d3803970a6f9ac5",
+      "toSha256": "d37a3ac73f5718c8210534e1d346688eb2b77c8b90a6f26224cfefdd30c750f5",
+      "reason": "Enlarge the twelve zodiac auditoriums with 48 seats, an 18-row listening floor, raised north stage and separate crossing. Move three owned saved zones and south portals while preserving their identities and controls. Hall animation provenance only."
+    },
+    {
+      "path": "world/layouts/speaker-cancer.json",
+      "fromSha256": "d48b7063e52aa0de7bb8d23146c923e84244325557c0d1f58e4b8a4de98d8516",
+      "toSha256": "c55ccc2c14689c7de918c7740b50b835bae1877b50749237a6c199c71887a53b",
+      "reason": "Enlarge the twelve zodiac auditoriums with 48 seats, an 18-row listening floor, raised north stage and separate crossing. Move three owned saved zones and south portals while preserving their identities and controls. Hall animation provenance only."
+    },
+    {
+      "path": "world/layouts/speaker-capricorn.json",
+      "fromSha256": "e6909631648110d459f935c0fac881dd0b8e86c9ad93a81b5c84a08704005fd0",
+      "toSha256": "b336b63ccb76d169c481e88b7b052259e6fbc637100f09a90c3e7c48e3519f37",
+      "reason": "Enlarge the twelve zodiac auditoriums with 48 seats, an 18-row listening floor, raised north stage and separate crossing. Move three owned saved zones and south portals while preserving their identities and controls. Hall animation provenance only."
+    },
+    {
+      "path": "world/layouts/speaker-gemini.json",
+      "fromSha256": "cabd25182317943cbe6c2c58cb4d319bb35ccbfe3c774ab877d3070279099abb",
+      "toSha256": "5fd707b27f8bf60b7fe4792c55ef94f8afb963a6ff21fa87d78a8de91e42a87d",
+      "reason": "Enlarge the twelve zodiac auditoriums with 48 seats, an 18-row listening floor, raised north stage and separate crossing. Move three owned saved zones and south portals while preserving their identities and controls. Hall animation provenance only."
+    },
+    {
+      "path": "world/layouts/speaker-leo.json",
+      "fromSha256": "1abfef8988aba5c7f47e5f3f07331ba8cb0594445914f40b7232fc2d73bd5057",
+      "toSha256": "7b8c7eb976a144a45ce4945b048b1fba4ff39a805e8c7adeabe6dc0de52a5d66",
+      "reason": "Enlarge the twelve zodiac auditoriums with 48 seats, an 18-row listening floor, raised north stage and separate crossing. Move three owned saved zones and south portals while preserving their identities and controls. Hall animation provenance only."
+    },
+    {
+      "path": "world/layouts/speaker-libra.json",
+      "fromSha256": "09a7b24c2548d41777156fa7f5fd17cb30a060b3502b3fdf09249d09bc5b2fcb",
+      "toSha256": "1bb3c5be2b1e279271f3d0879beda2f462f11b4d7dbb066b65ddc545db79ef92",
+      "reason": "Enlarge the twelve zodiac auditoriums with 48 seats, an 18-row listening floor, raised north stage and separate crossing. Move three owned saved zones and south portals while preserving their identities and controls. Hall animation provenance only."
+    },
+    {
+      "path": "world/layouts/speaker-pisces.json",
+      "fromSha256": "6da67e67f3ca67c525e68183beaf24d19186f7c186f770294d72a83727c75dec",
+      "toSha256": "994fff5814892d8e73d8f7195bb3af0b5bebf2cef3cbf320151438360086e774",
+      "reason": "Enlarge the twelve zodiac auditoriums with 48 seats, an 18-row listening floor, raised north stage and separate crossing. Move three owned saved zones and south portals while preserving their identities and controls. Hall animation provenance only."
+    },
+    {
+      "path": "world/layouts/speaker-sagittarius.json",
+      "fromSha256": "1ef1c819e2b3726c53a7656ad7d7b5024d8162bb60af8141de0e319f204ef896",
+      "toSha256": "ba29258071e468741dcab651f9dbe7d0634269c50713faa47a3417adc2fdf314",
+      "reason": "Enlarge the twelve zodiac auditoriums with 48 seats, an 18-row listening floor, raised north stage and separate crossing. Move three owned saved zones and south portals while preserving their identities and controls. Hall animation provenance only."
+    },
+    {
+      "path": "world/layouts/speaker-scorpio.json",
+      "fromSha256": "4bae3dd93d2b03054e2a8a8acb70691471ea4f20cda070a9ade3f5603d5c5920",
+      "toSha256": "b6132428c8815faf0e49d2cf8152eab8efe5e95fdc61120a1fab9c6dfdaa9e8b",
+      "reason": "Enlarge the twelve zodiac auditoriums with 48 seats, an 18-row listening floor, raised north stage and separate crossing. Move three owned saved zones and south portals while preserving their identities and controls. Hall animation provenance only."
+    },
+    {
+      "path": "world/layouts/speaker-taurus.json",
+      "fromSha256": "c571bbed47dff7b212ffc57059614635b275cc05a675b71ce56e9d8726ffa78b",
+      "toSha256": "dbbcffd2ba9000a1e05fb832aa4e4f634399fcd519d369b2df7e33e3fc3a249c",
+      "reason": "Enlarge the twelve zodiac auditoriums with 48 seats, an 18-row listening floor, raised north stage and separate crossing. Move three owned saved zones and south portals while preserving their identities and controls. Hall animation provenance only."
+    },
+    {
+      "path": "world/layouts/speaker-virgo.json",
+      "fromSha256": "5daac2a215c693cc8d931898c2e7b971989ad12aa86acfe6f349d26f3880aad0",
+      "toSha256": "0f942722a5d682aa79391e5d565408d73181a003759ee3256990a87d9a41cde6",
+      "reason": "Enlarge the twelve zodiac auditoriums with 48 seats, an 18-row listening floor, raised north stage and separate crossing. Move three owned saved zones and south portals while preserving their identities and controls. Hall animation provenance only."
+    }
+  ]
+}

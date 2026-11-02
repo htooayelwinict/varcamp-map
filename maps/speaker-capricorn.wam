@@ -8,9 +8,9 @@
       "name": "meeting-capricorn",
       "visible": true,
       "x": 160,
-      "y": 192,
+      "y": 160,
       "width": 832,
-      "height": 256,
+      "height": 224,
       "properties": [
         {
           "id": "capricorn-stage-broadcast",
@@ -26,7 +26,7 @@
       "name": "beacon-capricorn",
       "visible": true,
       "x": 864,
-      "y": 928,
+      "y": 1248,
       "width": 96,
       "height": 64,
       "properties": []
@@ -36,9 +36,9 @@
       "name": "Capricorn listening area",
       "visible": true,
       "x": 64,
-      "y": 448,
+      "y": 512,
       "width": 1024,
-      "height": 352,
+      "height": 576,
       "properties": [
         {
           "id": "capricorn-listener",

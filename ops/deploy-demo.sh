@@ -22,6 +22,7 @@ Options:
   --with-tests           Run `npm run test:node` and then
                          `npm test -- --maxWorkers=1 --testTimeout=30000` before building.
                          Any failure aborts the deploy.
+  --auditorium-spacing   Move the three owned zones in each zodiac room to the expanded layout.
   --apply                After prepare: upload the plan (--quiet-editor-window) and run
                          `npm run acceptance:smoke`. Without it the script stops after
                          prepare and prints how to inspect and apply the plan.
@@ -37,6 +38,7 @@ environment='/srv/varcamp/private/environment'
 plan=".qa/release-$(date -u +%Y%m%d-%H%M)"
 with_tests=0
 apply=0
+wam_options=()
 
 while [ $# -gt 0 ]; do
   case "$1" in
@@ -45,6 +47,7 @@ while [ $# -gt 0 ]; do
     --plan) [ $# -ge 2 ] || { echo "--plan needs a value" >&2; exit 2; }; plan="$2"; shift 2 ;;
     --with-tests) with_tests=1; shift ;;
     --apply) apply=1; shift ;;
+    --auditorium-spacing) wam_options+=(--auditorium-spacing); shift ;;
     -h|--help) usage; exit 0 ;;
     *) echo "Unknown argument: $1" >&2; usage >&2; exit 2 ;;
   esac
@@ -87,13 +90,13 @@ npm run buildmap
 step "Verify the frozen source snapshot"
 node publication/verify-source.mjs .
 
-step "Prepare token-only WAM migrations for live maps"
+step "Prepare reviewed WAM migrations for live maps"
 # release_upload.py creates the plan directory itself and refuses an existing one,
 # so the reviewed archive is staged in a private temp directory and moved into the
 # plan once prepare has created it.
 staging="$(mktemp -d)"
 trap 'rm -rf "$staging"' EXIT
-python3 ops/migrate_wam_tokens.py --target "$target" --environment "$environment" --out "$staging/reviewed-wams.zip"
+python3 ops/migrate_wam_tokens.py --target "$target" --environment "$environment" --out "$staging/reviewed-wams.zip" "${wam_options[@]}"
 
 step "Prepare the live-preserving release plan"
 mkdir -p "$(dirname "$plan")"

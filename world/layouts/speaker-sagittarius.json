@@ -1,7 +1,7 @@
 {
   "id": "speaker-sagittarius",
   "width": 40,
-  "height": 36,
+  "height": 46,
   "placements": [
     {
       "id": "navy-foundation",
@@ -9,7 +9,7 @@
       "x": 0,
       "y": 0,
       "width": 40,
-      "height": 36,
+      "height": 46,
       "layer": "terrain"
     },
     {
@@ -18,14 +18,14 @@
       "x": 1,
       "y": 3,
       "width": 38,
-      "height": 31,
+      "height": 41,
       "layer": "terrain"
     },
     {
       "id": "entry-gold-border",
       "sprite": "floor-inlay",
       "x": 17,
-      "y": 27,
+      "y": 37,
       "width": 6,
       "height": 7,
       "layer": "terrain"
@@ -34,7 +34,7 @@
       "id": "entry-runner",
       "sprite": "floor-charcoal",
       "x": 18,
-      "y": 27,
+      "y": 37,
       "width": 4,
       "height": 7,
       "layer": "terrain"
@@ -45,7 +45,7 @@
       "x": 0,
       "y": 2,
       "width": 1,
-      "height": 34,
+      "height": 44,
       "layer": "props"
     },
     {
@@ -54,14 +54,14 @@
       "x": 39,
       "y": 2,
       "width": 1,
-      "height": 34,
+      "height": 44,
       "layer": "props"
     },
     {
       "id": "south-west-core",
       "sprite": "wall-charcoal",
       "x": 0,
-      "y": 34,
+      "y": 44,
       "width": 18,
       "height": 2,
       "layer": "props"
@@ -70,7 +70,7 @@
       "id": "south-east-core",
       "sprite": "wall-charcoal",
       "x": 22,
-      "y": 34,
+      "y": 44,
       "width": 18,
       "height": 2,
       "layer": "props"
@@ -109,7 +109,7 @@
       "x": 0,
       "y": 2,
       "width": 1,
-      "height": 34,
+      "height": 44,
       "layer": "props",
       "renderRole": "grounded"
     },
@@ -119,7 +119,7 @@
       "x": 39,
       "y": 2,
       "width": 1,
-      "height": 34,
+      "height": 44,
       "layer": "props",
       "renderRole": "grounded"
     },
@@ -127,7 +127,7 @@
       "id": "south-west-wall",
       "sprite": "wall-navy",
       "x": 0,
-      "y": 34,
+      "y": 44,
       "width": 18,
       "height": 2,
       "layer": "props",
@@ -137,7 +137,7 @@
       "id": "south-east-wall",
       "sprite": "wall-navy",
       "x": 22,
-      "y": 34,
+      "y": 44,
       "width": 18,
       "height": 2,
       "layer": "props",
@@ -147,7 +147,7 @@
       "id": "south-door",
       "sprite": "door-open",
       "x": 18,
-      "y": 34,
+      "y": 44,
       "width": 4,
       "height": 2,
       "layer": "props",
@@ -157,7 +157,7 @@
       "id": "door-sigil",
       "sprite": "rune-threshold",
       "x": 18,
-      "y": 33,
+      "y": 43,
       "width": 4,
       "height": 1,
       "layer": "props"
@@ -205,19 +205,19 @@
     {
       "id": "stage-gold-edge",
       "sprite": "floor-wood-long",
-      "x": 5,
-      "y": 6,
-      "width": 30,
+      "x": 4,
+      "y": 4,
+      "width": 32,
       "height": 8,
       "layer": "terrain"
     },
     {
       "id": "stage-deck",
       "sprite": "floor-wood-long",
-      "x": 6,
-      "y": 7,
-      "width": 28,
-      "height": 6,
+      "x": 5,
+      "y": 5,
+      "width": 30,
+      "height": 7,
       "layer": "terrain"
     },
     {
@@ -226,7 +226,7 @@
       "x": 18,
       "y": 14,
       "width": 4,
-      "height": 20,
+      "height": 30,
       "layer": "terrain"
     },
     {
@@ -235,14 +235,14 @@
       "x": 2,
       "y": 14,
       "width": 36,
-      "height": 3,
+      "height": 2,
       "layer": "terrain"
     },
     {
       "id": "foyer-floor",
       "sprite": "floor-wood",
       "x": 1,
-      "y": 27,
+      "y": 37,
       "width": 38,
       "height": 7,
       "layer": "terrain"
@@ -251,54 +251,54 @@
       "id": "foyer-route",
       "sprite": "floor-charcoal",
       "x": 18,
-      "y": 27,
+      "y": 37,
       "width": 4,
       "height": 7,
       "layer": "terrain"
     },
     {
       "id": "sagittarius-style-stage-top",
-      "sprite": "speaker-style-edge-top",
-      "x": 5,
-      "y": 6,
-      "width": 30,
+      "sprite": "auditorium-stage-top",
+      "x": 4,
+      "y": 4,
+      "width": 32,
       "height": 1,
       "layer": "props"
     },
     {
       "id": "sagittarius-style-stage-front",
       "sprite": "speaker-style-edge-bottom",
-      "x": 5,
-      "y": 13,
-      "width": 30,
+      "x": 4,
+      "y": 11,
+      "width": 32,
       "height": 1,
       "layer": "props"
     },
     {
       "id": "sagittarius-style-stage-west",
-      "sprite": "speaker-style-edge-left",
-      "x": 5,
-      "y": 7,
+      "sprite": "auditorium-stage-left",
+      "x": 4,
+      "y": 5,
       "width": 1,
-      "height": 6,
+      "height": 7,
       "layer": "props"
     },
     {
       "id": "sagittarius-style-stage-east",
-      "sprite": "speaker-style-edge-right",
-      "x": 34,
-      "y": 7,
+      "sprite": "auditorium-stage-right",
+      "x": 35,
+      "y": 5,
       "width": 1,
-      "height": 6,
+      "height": 7,
       "layer": "props"
     },
     {
       "id": "audience-boundary-floor",
       "sprite": "venue-carpet-slate",
       "x": 2,
-      "y": 14,
+      "y": 16,
       "width": 36,
-      "height": 11,
+      "height": 18,
       "layer": "terrain"
     },
     {
@@ -307,7 +307,7 @@
       "x": 3,
       "y": 17,
       "width": 15,
-      "height": 8,
+      "height": 16,
       "layer": "terrain"
     },
     {
@@ -316,14 +316,14 @@
       "x": 22,
       "y": 17,
       "width": 15,
-      "height": 8,
+      "height": 16,
       "layer": "terrain"
     },
     {
       "id": "audience-boundary-edge-north",
       "sprite": "speaker-style-edge-top",
       "x": 2,
-      "y": 14,
+      "y": 16,
       "width": 36,
       "height": 1,
       "layer": "props"
@@ -332,7 +332,7 @@
       "id": "audience-boundary-edge-south",
       "sprite": "speaker-style-edge-bottom",
       "x": 2,
-      "y": 24,
+      "y": 33,
       "width": 36,
       "height": 1,
       "layer": "props"
@@ -341,26 +341,26 @@
       "id": "audience-boundary-edge-west",
       "sprite": "speaker-style-edge-left",
       "x": 2,
-      "y": 15,
+      "y": 17,
       "width": 1,
-      "height": 9,
+      "height": 16,
       "layer": "props"
     },
     {
       "id": "audience-boundary-edge-east",
       "sprite": "speaker-style-edge-right",
       "x": 37,
-      "y": 15,
+      "y": 17,
       "width": 1,
-      "height": 9,
+      "height": 16,
       "layer": "props"
     },
     {
       "id": "sagittarius-style-listener-caption",
-      "sprite": "venue-carpet-slate",
-      "x": 8,
-      "y": 15,
-      "width": 24,
+      "sprite": "speaker-style-edge-top",
+      "x": 3,
+      "y": 16,
+      "width": 34,
       "height": 1,
       "layer": "terrain"
     },
@@ -368,7 +368,7 @@
       "id": "primary-screen",
       "sprite": "screen-presentation",
       "x": 17,
-      "y": 7,
+      "y": 5,
       "width": 6,
       "height": 3,
       "layer": "props",
@@ -378,7 +378,7 @@
       "id": "speaker-lectern",
       "sprite": "lectern",
       "x": 19,
-      "y": 11,
+      "y": 9,
       "width": 2,
       "height": 2,
       "layer": "props"
@@ -387,7 +387,7 @@
       "id": "zodiac-constellation",
       "sprite": "constellation-sagittarius",
       "x": 5,
-      "y": 7,
+      "y": 5,
       "width": 3,
       "height": 2,
       "layer": "props",
@@ -397,7 +397,7 @@
       "id": "zodiac-glyph",
       "sprite": "glyph-sagittarius",
       "x": 33,
-      "y": 7,
+      "y": 5,
       "width": 1,
       "height": 1,
       "layer": "props"
@@ -405,8 +405,8 @@
     {
       "id": "stage-light-left",
       "sprite": "light-amber",
-      "x": 6,
-      "y": 10,
+      "x": 4,
+      "y": 7,
       "width": 1,
       "height": 2,
       "layer": "props",
@@ -415,8 +415,8 @@
     {
       "id": "stage-light-right",
       "sprite": "light-amber",
-      "x": 33,
-      "y": 10,
+      "x": 35,
+      "y": 7,
       "width": 1,
       "height": 2,
       "layer": "props",
@@ -426,7 +426,7 @@
       "id": "foyer-glass-west",
       "sprite": "glass-partition",
       "x": 1,
-      "y": 25,
+      "y": 35,
       "width": 12,
       "height": 2,
       "layer": "props",
@@ -436,7 +436,7 @@
       "id": "foyer-glass-east",
       "sprite": "glass-partition",
       "x": 27,
-      "y": 25,
+      "y": 35,
       "width": 12,
       "height": 2,
       "layer": "props",
@@ -446,7 +446,7 @@
       "id": "discovery-beacon",
       "sprite": "beacon",
       "x": 30,
-      "y": 28,
+      "y": 38,
       "width": 1,
       "height": 3,
       "layer": "props"
@@ -455,7 +455,7 @@
       "id": "foyer-water",
       "sprite": "water-cooler",
       "x": 37,
-      "y": 28,
+      "y": 38,
       "width": 1,
       "height": 2,
       "layer": "props"
@@ -464,7 +464,7 @@
       "id": "horizon-comet",
       "sprite": "comet-statue",
       "x": 30,
-      "y": 10,
+      "y": 8,
       "width": 3,
       "height": 3,
       "layer": "props"
@@ -472,8 +472,8 @@
     {
       "id": "horizon-map-west",
       "sprite": "screen-content",
-      "x": 3,
-      "y": 10,
+      "x": 5,
+      "y": 8,
       "width": 3,
       "height": 2,
       "layer": "props",
@@ -483,7 +483,7 @@
       "id": "social-telescope",
       "sprite": "telescope",
       "x": 3,
-      "y": 29,
+      "y": 39,
       "width": 3,
       "height": 3,
       "layer": "props"
@@ -492,7 +492,7 @@
       "id": "social-chart-workstation",
       "sprite": "desk-coding",
       "x": 8,
-      "y": 29,
+      "y": 39,
       "width": 3,
       "height": 2,
       "layer": "props"
@@ -501,7 +501,7 @@
       "id": "social-laptop",
       "sprite": "laptop",
       "x": 9,
-      "y": 29,
+      "y": 39,
       "width": 1,
       "height": 1,
       "layer": "props"
@@ -510,7 +510,7 @@
       "id": "social-seat",
       "sprite": "chair-north-slate",
       "x": 9,
-      "y": 32,
+      "y": 42,
       "width": 1,
       "height": 2,
       "layer": "props"
@@ -519,7 +519,7 @@
       "id": "social-sofa",
       "sprite": "sofa-blue",
       "x": 13,
-      "y": 30,
+      "y": 40,
       "width": 3,
       "height": 2,
       "layer": "props"
@@ -528,7 +528,7 @@
       "id": "wayfinding-wallboard-plaza-wayfinding-face",
       "sprite": "sign-board-face",
       "x": 15,
-      "y": 33,
+      "y": 43,
       "width": 10,
       "height": 1,
       "layer": "architecture"
@@ -537,7 +537,7 @@
       "id": "wayfinding-wallboard-plaza-wayfinding-north",
       "sprite": "sign-board-north",
       "x": 15,
-      "y": 33,
+      "y": 43,
       "width": 10,
       "height": 1,
       "layer": "architecture"
@@ -546,7 +546,7 @@
       "id": "wayfinding-wallboard-plaza-wayfinding-south",
       "sprite": "sign-board-south",
       "x": 15,
-      "y": 33,
+      "y": 43,
       "width": 10,
       "height": 1,
       "layer": "architecture"
@@ -555,7 +555,7 @@
       "id": "wayfinding-wallboard-plaza-wayfinding-west",
       "sprite": "sign-board-west",
       "x": 15,
-      "y": 33,
+      "y": 43,
       "width": 1,
       "height": 1,
       "layer": "architecture"
@@ -564,7 +564,7 @@
       "id": "wayfinding-wallboard-plaza-wayfinding-east",
       "sprite": "sign-board-east",
       "x": 24,
-      "y": 33,
+      "y": 43,
       "width": 1,
       "height": 1,
       "layer": "architecture"
@@ -573,7 +573,7 @@
       "id": "wayfinding-wall-arrow-1",
       "sprite": "arrow-south",
       "x": 19,
-      "y": 32,
+      "y": 42,
       "width": 1,
       "height": 1,
       "layer": "architecture"
@@ -600,7 +600,7 @@
       "id": "interior-ref-resources",
       "sprite": "interior-ref-cabinet",
       "x": 27,
-      "y": 28,
+      "y": 38,
       "width": 2,
       "height": 3,
       "layer": "props"
@@ -609,7 +609,7 @@
       "id": "interior-ref-tea-console",
       "sprite": "interior-ref-refreshment",
       "x": 34,
-      "y": 28,
+      "y": 38,
       "width": 3,
       "height": 2,
       "layer": "props"
@@ -618,7 +618,7 @@
       "id": "interior-ref-east-conversation",
       "sprite": "interior-ref-sofa",
       "x": 34,
-      "y": 30,
+      "y": 40,
       "width": 4,
       "height": 2,
       "layer": "props"
@@ -654,349 +654,25 @@
       "id": "interior-ref-zodiac-floor-crest",
       "sprite": "zodiac-emblem-sagittarius",
       "x": 18,
-      "y": 28,
+      "y": 38,
       "width": 4,
       "height": 4,
       "layer": "props"
     },
     {
-      "id": "audience-chair-0-0",
-      "sprite": "chair-north-slate",
-      "x": 10,
-      "y": 17,
-      "width": 1,
-      "height": 2,
-      "layer": "props"
-    },
-    {
-      "id": "audience-chair-0-1",
-      "sprite": "chair-north-slate",
-      "x": 12,
-      "y": 17,
-      "width": 1,
-      "height": 2,
-      "layer": "props"
-    },
-    {
-      "id": "audience-chair-0-2",
-      "sprite": "chair-north-slate",
-      "x": 14,
-      "y": 17,
-      "width": 1,
-      "height": 2,
-      "layer": "props"
-    },
-    {
-      "id": "audience-chair-0-3",
-      "sprite": "chair-north-slate",
-      "x": 25,
-      "y": 17,
-      "width": 1,
-      "height": 2,
-      "layer": "props"
-    },
-    {
-      "id": "audience-chair-0-4",
-      "sprite": "chair-north-slate",
-      "x": 27,
-      "y": 17,
-      "width": 1,
-      "height": 2,
-      "layer": "props"
-    },
-    {
-      "id": "audience-chair-0-5",
-      "sprite": "chair-north-slate",
-      "x": 29,
-      "y": 17,
-      "width": 1,
-      "height": 2,
-      "layer": "props"
-    },
-    {
-      "id": "audience-chair-1-0",
-      "sprite": "chair-north-slate",
-      "x": 10,
-      "y": 20,
-      "width": 1,
-      "height": 2,
-      "layer": "props"
-    },
-    {
-      "id": "audience-chair-1-1",
-      "sprite": "chair-north-slate",
-      "x": 12,
-      "y": 20,
-      "width": 1,
-      "height": 2,
-      "layer": "props"
-    },
-    {
-      "id": "audience-chair-1-2",
-      "sprite": "chair-north-slate",
-      "x": 14,
-      "y": 20,
-      "width": 1,
-      "height": 2,
-      "layer": "props"
-    },
-    {
-      "id": "audience-chair-1-3",
-      "sprite": "chair-north-slate",
-      "x": 25,
-      "y": 20,
-      "width": 1,
-      "height": 2,
-      "layer": "props"
-    },
-    {
-      "id": "audience-chair-1-4",
-      "sprite": "chair-north-slate",
-      "x": 27,
-      "y": 20,
-      "width": 1,
-      "height": 2,
-      "layer": "props"
-    },
-    {
-      "id": "audience-chair-1-5",
-      "sprite": "chair-north-slate",
-      "x": 29,
-      "y": 20,
-      "width": 1,
-      "height": 2,
-      "layer": "props"
-    },
-    {
-      "id": "audience-chair-2-0",
-      "sprite": "chair-north-slate",
-      "x": 10,
-      "y": 23,
-      "width": 1,
-      "height": 2,
-      "layer": "props"
-    },
-    {
-      "id": "audience-chair-2-1",
-      "sprite": "chair-north-slate",
-      "x": 12,
-      "y": 23,
-      "width": 1,
-      "height": 2,
-      "layer": "props"
-    },
-    {
-      "id": "audience-chair-2-2",
-      "sprite": "chair-north-slate",
-      "x": 14,
-      "y": 23,
-      "width": 1,
-      "height": 2,
-      "layer": "props"
-    },
-    {
-      "id": "audience-chair-2-3",
-      "sprite": "chair-north-slate",
-      "x": 25,
-      "y": 23,
-      "width": 1,
-      "height": 2,
-      "layer": "props"
-    },
-    {
-      "id": "audience-chair-2-4",
-      "sprite": "chair-north-slate",
-      "x": 27,
-      "y": 23,
-      "width": 1,
-      "height": 2,
-      "layer": "props"
-    },
-    {
-      "id": "audience-chair-2-5",
-      "sprite": "chair-north-slate",
-      "x": 29,
-      "y": 23,
-      "width": 1,
-      "height": 2,
-      "layer": "props"
-    },
-    {
       "id": "audience-boundary-instruction-floor",
-      "sprite": "floor-wood",
-      "x": 8,
-      "y": 25,
-      "width": 24,
+      "sprite": "venue-floor-stone",
+      "x": 2,
+      "y": 34,
+      "width": 36,
       "height": 1,
       "layer": "terrain"
-    },
-    {
-      "id": "audience-chair-extra-0-0",
-      "sprite": "chair-north-slate",
-      "x": 6,
-      "y": 17,
-      "width": 1,
-      "height": 2,
-      "layer": "props"
-    },
-    {
-      "id": "audience-chair-extra-0-1",
-      "sprite": "chair-north-slate",
-      "x": 8,
-      "y": 17,
-      "width": 1,
-      "height": 2,
-      "layer": "props"
-    },
-    {
-      "id": "audience-chair-extra-0-2",
-      "sprite": "chair-north-slate",
-      "x": 16,
-      "y": 17,
-      "width": 1,
-      "height": 2,
-      "layer": "props"
-    },
-    {
-      "id": "audience-chair-extra-0-3",
-      "sprite": "chair-north-slate",
-      "x": 23,
-      "y": 17,
-      "width": 1,
-      "height": 2,
-      "layer": "props"
-    },
-    {
-      "id": "audience-chair-extra-0-4",
-      "sprite": "chair-north-slate",
-      "x": 31,
-      "y": 17,
-      "width": 1,
-      "height": 2,
-      "layer": "props"
-    },
-    {
-      "id": "audience-chair-extra-0-5",
-      "sprite": "chair-north-slate",
-      "x": 33,
-      "y": 17,
-      "width": 1,
-      "height": 2,
-      "layer": "props"
-    },
-    {
-      "id": "audience-chair-extra-1-0",
-      "sprite": "chair-north-slate",
-      "x": 6,
-      "y": 20,
-      "width": 1,
-      "height": 2,
-      "layer": "props"
-    },
-    {
-      "id": "audience-chair-extra-1-1",
-      "sprite": "chair-north-slate",
-      "x": 8,
-      "y": 20,
-      "width": 1,
-      "height": 2,
-      "layer": "props"
-    },
-    {
-      "id": "audience-chair-extra-1-2",
-      "sprite": "chair-north-slate",
-      "x": 16,
-      "y": 20,
-      "width": 1,
-      "height": 2,
-      "layer": "props"
-    },
-    {
-      "id": "audience-chair-extra-1-3",
-      "sprite": "chair-north-slate",
-      "x": 23,
-      "y": 20,
-      "width": 1,
-      "height": 2,
-      "layer": "props"
-    },
-    {
-      "id": "audience-chair-extra-1-4",
-      "sprite": "chair-north-slate",
-      "x": 31,
-      "y": 20,
-      "width": 1,
-      "height": 2,
-      "layer": "props"
-    },
-    {
-      "id": "audience-chair-extra-1-5",
-      "sprite": "chair-north-slate",
-      "x": 33,
-      "y": 20,
-      "width": 1,
-      "height": 2,
-      "layer": "props"
-    },
-    {
-      "id": "audience-chair-extra-2-0",
-      "sprite": "chair-north-slate",
-      "x": 6,
-      "y": 23,
-      "width": 1,
-      "height": 2,
-      "layer": "props"
-    },
-    {
-      "id": "audience-chair-extra-2-1",
-      "sprite": "chair-north-slate",
-      "x": 8,
-      "y": 23,
-      "width": 1,
-      "height": 2,
-      "layer": "props"
-    },
-    {
-      "id": "audience-chair-extra-2-2",
-      "sprite": "chair-north-slate",
-      "x": 16,
-      "y": 23,
-      "width": 1,
-      "height": 2,
-      "layer": "props"
-    },
-    {
-      "id": "audience-chair-extra-2-3",
-      "sprite": "chair-north-slate",
-      "x": 23,
-      "y": 23,
-      "width": 1,
-      "height": 2,
-      "layer": "props"
-    },
-    {
-      "id": "audience-chair-extra-2-4",
-      "sprite": "chair-north-slate",
-      "x": 31,
-      "y": 23,
-      "width": 1,
-      "height": 2,
-      "layer": "props"
-    },
-    {
-      "id": "audience-chair-extra-2-5",
-      "sprite": "chair-north-slate",
-      "x": 33,
-      "y": 23,
-      "width": 1,
-      "height": 2,
-      "layer": "props"
     },
     {
       "id": "venue-lounge-table",
       "sprite": "table-small-wood",
       "x": 33,
-      "y": 32,
+      "y": 42,
       "width": 1,
       "height": 1,
       "layer": "props"
@@ -1005,7 +681,7 @@
       "id": "venue-lobby-rug-west",
       "sprite": "venue-carpet-slate",
       "x": 2,
-      "y": 28,
+      "y": 38,
       "width": 15,
       "height": 5,
       "layer": "terrain"
@@ -1014,7 +690,7 @@
       "id": "venue-lobby-rug-east",
       "sprite": "venue-carpet-slate",
       "x": 23,
-      "y": 28,
+      "y": 38,
       "width": 15,
       "height": 5,
       "layer": "terrain"
@@ -1023,10 +699,469 @@
       "id": "venue-audience-aisle",
       "sprite": "venue-floor-stone",
       "x": 18,
-      "y": 16,
+      "y": 17,
       "width": 4,
-      "height": 8,
+      "height": 16,
       "layer": "terrain"
+    },
+    {
+      "id": "audience-chair-0-0",
+      "sprite": "chair-north-slate",
+      "x": 6,
+      "y": 18,
+      "width": 1,
+      "height": 2,
+      "layer": "props"
+    },
+    {
+      "id": "audience-chair-0-1",
+      "sprite": "chair-north-slate",
+      "x": 8,
+      "y": 18,
+      "width": 1,
+      "height": 2,
+      "layer": "props"
+    },
+    {
+      "id": "audience-chair-0-2",
+      "sprite": "chair-north-slate",
+      "x": 10,
+      "y": 18,
+      "width": 1,
+      "height": 2,
+      "layer": "props"
+    },
+    {
+      "id": "audience-chair-0-3",
+      "sprite": "chair-north-slate",
+      "x": 12,
+      "y": 18,
+      "width": 1,
+      "height": 2,
+      "layer": "props"
+    },
+    {
+      "id": "audience-chair-0-4",
+      "sprite": "chair-north-slate",
+      "x": 14,
+      "y": 18,
+      "width": 1,
+      "height": 2,
+      "layer": "props"
+    },
+    {
+      "id": "audience-chair-0-5",
+      "sprite": "chair-north-slate",
+      "x": 16,
+      "y": 18,
+      "width": 1,
+      "height": 2,
+      "layer": "props"
+    },
+    {
+      "id": "audience-chair-0-6",
+      "sprite": "chair-north-slate",
+      "x": 23,
+      "y": 18,
+      "width": 1,
+      "height": 2,
+      "layer": "props"
+    },
+    {
+      "id": "audience-chair-0-7",
+      "sprite": "chair-north-slate",
+      "x": 25,
+      "y": 18,
+      "width": 1,
+      "height": 2,
+      "layer": "props"
+    },
+    {
+      "id": "audience-chair-0-8",
+      "sprite": "chair-north-slate",
+      "x": 27,
+      "y": 18,
+      "width": 1,
+      "height": 2,
+      "layer": "props"
+    },
+    {
+      "id": "audience-chair-0-9",
+      "sprite": "chair-north-slate",
+      "x": 29,
+      "y": 18,
+      "width": 1,
+      "height": 2,
+      "layer": "props"
+    },
+    {
+      "id": "audience-chair-0-10",
+      "sprite": "chair-north-slate",
+      "x": 31,
+      "y": 18,
+      "width": 1,
+      "height": 2,
+      "layer": "props"
+    },
+    {
+      "id": "audience-chair-0-11",
+      "sprite": "chair-north-slate",
+      "x": 33,
+      "y": 18,
+      "width": 1,
+      "height": 2,
+      "layer": "props"
+    },
+    {
+      "id": "audience-chair-1-0",
+      "sprite": "chair-north-slate",
+      "x": 6,
+      "y": 22,
+      "width": 1,
+      "height": 2,
+      "layer": "props"
+    },
+    {
+      "id": "audience-chair-1-1",
+      "sprite": "chair-north-slate",
+      "x": 8,
+      "y": 22,
+      "width": 1,
+      "height": 2,
+      "layer": "props"
+    },
+    {
+      "id": "audience-chair-1-2",
+      "sprite": "chair-north-slate",
+      "x": 10,
+      "y": 22,
+      "width": 1,
+      "height": 2,
+      "layer": "props"
+    },
+    {
+      "id": "audience-chair-1-3",
+      "sprite": "chair-north-slate",
+      "x": 12,
+      "y": 22,
+      "width": 1,
+      "height": 2,
+      "layer": "props"
+    },
+    {
+      "id": "audience-chair-1-4",
+      "sprite": "chair-north-slate",
+      "x": 14,
+      "y": 22,
+      "width": 1,
+      "height": 2,
+      "layer": "props"
+    },
+    {
+      "id": "audience-chair-1-5",
+      "sprite": "chair-north-slate",
+      "x": 16,
+      "y": 22,
+      "width": 1,
+      "height": 2,
+      "layer": "props"
+    },
+    {
+      "id": "audience-chair-1-6",
+      "sprite": "chair-north-slate",
+      "x": 23,
+      "y": 22,
+      "width": 1,
+      "height": 2,
+      "layer": "props"
+    },
+    {
+      "id": "audience-chair-1-7",
+      "sprite": "chair-north-slate",
+      "x": 25,
+      "y": 22,
+      "width": 1,
+      "height": 2,
+      "layer": "props"
+    },
+    {
+      "id": "audience-chair-1-8",
+      "sprite": "chair-north-slate",
+      "x": 27,
+      "y": 22,
+      "width": 1,
+      "height": 2,
+      "layer": "props"
+    },
+    {
+      "id": "audience-chair-1-9",
+      "sprite": "chair-north-slate",
+      "x": 29,
+      "y": 22,
+      "width": 1,
+      "height": 2,
+      "layer": "props"
+    },
+    {
+      "id": "audience-chair-1-10",
+      "sprite": "chair-north-slate",
+      "x": 31,
+      "y": 22,
+      "width": 1,
+      "height": 2,
+      "layer": "props"
+    },
+    {
+      "id": "audience-chair-1-11",
+      "sprite": "chair-north-slate",
+      "x": 33,
+      "y": 22,
+      "width": 1,
+      "height": 2,
+      "layer": "props"
+    },
+    {
+      "id": "audience-chair-2-0",
+      "sprite": "chair-north-slate",
+      "x": 6,
+      "y": 26,
+      "width": 1,
+      "height": 2,
+      "layer": "props"
+    },
+    {
+      "id": "audience-chair-2-1",
+      "sprite": "chair-north-slate",
+      "x": 8,
+      "y": 26,
+      "width": 1,
+      "height": 2,
+      "layer": "props"
+    },
+    {
+      "id": "audience-chair-2-2",
+      "sprite": "chair-north-slate",
+      "x": 10,
+      "y": 26,
+      "width": 1,
+      "height": 2,
+      "layer": "props"
+    },
+    {
+      "id": "audience-chair-2-3",
+      "sprite": "chair-north-slate",
+      "x": 12,
+      "y": 26,
+      "width": 1,
+      "height": 2,
+      "layer": "props"
+    },
+    {
+      "id": "audience-chair-2-4",
+      "sprite": "chair-north-slate",
+      "x": 14,
+      "y": 26,
+      "width": 1,
+      "height": 2,
+      "layer": "props"
+    },
+    {
+      "id": "audience-chair-2-5",
+      "sprite": "chair-north-slate",
+      "x": 16,
+      "y": 26,
+      "width": 1,
+      "height": 2,
+      "layer": "props"
+    },
+    {
+      "id": "audience-chair-2-6",
+      "sprite": "chair-north-slate",
+      "x": 23,
+      "y": 26,
+      "width": 1,
+      "height": 2,
+      "layer": "props"
+    },
+    {
+      "id": "audience-chair-2-7",
+      "sprite": "chair-north-slate",
+      "x": 25,
+      "y": 26,
+      "width": 1,
+      "height": 2,
+      "layer": "props"
+    },
+    {
+      "id": "audience-chair-2-8",
+      "sprite": "chair-north-slate",
+      "x": 27,
+      "y": 26,
+      "width": 1,
+      "height": 2,
+      "layer": "props"
+    },
+    {
+      "id": "audience-chair-2-9",
+      "sprite": "chair-north-slate",
+      "x": 29,
+      "y": 26,
+      "width": 1,
+      "height": 2,
+      "layer": "props"
+    },
+    {
+      "id": "audience-chair-2-10",
+      "sprite": "chair-north-slate",
+      "x": 31,
+      "y": 26,
+      "width": 1,
+      "height": 2,
+      "layer": "props"
+    },
+    {
+      "id": "audience-chair-2-11",
+      "sprite": "chair-north-slate",
+      "x": 33,
+      "y": 26,
+      "width": 1,
+      "height": 2,
+      "layer": "props"
+    },
+    {
+      "id": "audience-chair-3-0",
+      "sprite": "chair-north-slate",
+      "x": 6,
+      "y": 30,
+      "width": 1,
+      "height": 2,
+      "layer": "props"
+    },
+    {
+      "id": "audience-chair-3-1",
+      "sprite": "chair-north-slate",
+      "x": 8,
+      "y": 30,
+      "width": 1,
+      "height": 2,
+      "layer": "props"
+    },
+    {
+      "id": "audience-chair-3-2",
+      "sprite": "chair-north-slate",
+      "x": 10,
+      "y": 30,
+      "width": 1,
+      "height": 2,
+      "layer": "props"
+    },
+    {
+      "id": "audience-chair-3-3",
+      "sprite": "chair-north-slate",
+      "x": 12,
+      "y": 30,
+      "width": 1,
+      "height": 2,
+      "layer": "props"
+    },
+    {
+      "id": "audience-chair-3-4",
+      "sprite": "chair-north-slate",
+      "x": 14,
+      "y": 30,
+      "width": 1,
+      "height": 2,
+      "layer": "props"
+    },
+    {
+      "id": "audience-chair-3-5",
+      "sprite": "chair-north-slate",
+      "x": 16,
+      "y": 30,
+      "width": 1,
+      "height": 2,
+      "layer": "props"
+    },
+    {
+      "id": "audience-chair-3-6",
+      "sprite": "chair-north-slate",
+      "x": 23,
+      "y": 30,
+      "width": 1,
+      "height": 2,
+      "layer": "props"
+    },
+    {
+      "id": "audience-chair-3-7",
+      "sprite": "chair-north-slate",
+      "x": 25,
+      "y": 30,
+      "width": 1,
+      "height": 2,
+      "layer": "props"
+    },
+    {
+      "id": "audience-chair-3-8",
+      "sprite": "chair-north-slate",
+      "x": 27,
+      "y": 30,
+      "width": 1,
+      "height": 2,
+      "layer": "props"
+    },
+    {
+      "id": "audience-chair-3-9",
+      "sprite": "chair-north-slate",
+      "x": 29,
+      "y": 30,
+      "width": 1,
+      "height": 2,
+      "layer": "props"
+    },
+    {
+      "id": "audience-chair-3-10",
+      "sprite": "chair-north-slate",
+      "x": 31,
+      "y": 30,
+      "width": 1,
+      "height": 2,
+      "layer": "props"
+    },
+    {
+      "id": "audience-chair-3-11",
+      "sprite": "chair-north-slate",
+      "x": 33,
+      "y": 30,
+      "width": 1,
+      "height": 2,
+      "layer": "props"
+    },
+    {
+      "id": "auditorium-stage-face-west",
+      "sprite": "auditorium-stage-fascia",
+      "x": 4,
+      "y": 12,
+      "width": 14,
+      "height": 1,
+      "layer": "props"
+    },
+    {
+      "id": "auditorium-stage-face-east",
+      "sprite": "auditorium-stage-fascia",
+      "x": 22,
+      "y": 12,
+      "width": 14,
+      "height": 1,
+      "layer": "props"
+    },
+    {
+      "id": "auditorium-stage-steps",
+      "sprite": "auditorium-stage-steps",
+      "x": 18,
+      "y": 12,
+      "width": 4,
+      "height": 2,
+      "layer": "props"
     }
   ],
   "entries": [
@@ -1034,7 +1169,7 @@
       "name": "speaker-entry",
       "isDefault": true,
       "x": 19,
-      "y": 30,
+      "y": 40,
       "width": 2,
       "height": 2
     }
@@ -1045,7 +1180,7 @@
       "destination": "overworld",
       "entry": "from-speaker-sagittarius",
       "x": 19,
-      "y": 35,
+      "y": 45,
       "width": 2,
       "height": 1
     }
@@ -1055,9 +1190,9 @@
       "id": "meeting-sagittarius",
       "name": "meeting-sagittarius",
       "x": 5,
-      "y": 6,
+      "y": 5,
       "width": 30,
-      "height": 8,
+      "height": 7,
       "properties": [
         {
           "id": "sagittarius-stage-broadcast",
@@ -1072,7 +1207,7 @@
       "id": "beacon-sagittarius",
       "name": "beacon-sagittarius",
       "x": 31,
-      "y": 29,
+      "y": 39,
       "width": 3,
       "height": 2,
       "properties": []
@@ -1081,9 +1216,9 @@
       "id": "sagittarius-audience",
       "name": "Sagittarius listening area",
       "x": 2,
-      "y": 14,
+      "y": 16,
       "width": 36,
-      "height": 11,
+      "height": 18,
       "properties": [
         {
           "id": "sagittarius-listener",
@@ -1101,9 +1236,9 @@
       "name": "meeting-room",
       "kind": "room",
       "x": 1,
-      "y": 4,
+      "y": 3,
       "width": 38,
-      "height": 22
+      "height": 32
     },
     {
       "name": "central-aisle",
@@ -1111,7 +1246,7 @@
       "x": 19,
       "y": 14,
       "width": 2,
-      "height": 20
+      "height": 30
     },
     {
       "name": "front-route",
@@ -1119,13 +1254,13 @@
       "x": 2,
       "y": 14,
       "width": 36,
-      "height": 3
+      "height": 2
     },
     {
       "name": "social-pocket",
       "kind": "auxiliary",
       "x": 2,
-      "y": 27,
+      "y": 37,
       "width": 15,
       "height": 7
     }
@@ -1147,7 +1282,7 @@
       "name": "plaza-wayfinding",
       "text": "↓ PLAZA · SOUTH DOOR",
       "x": 15,
-      "y": 33,
+      "y": 43,
       "width": 10,
       "height": 1,
       "fontSize": 16,
@@ -1158,7 +1293,7 @@
       "name": "social-title",
       "text": "NAVIGATION STUDIO",
       "x": 2,
-      "y": 27,
+      "y": 37,
       "width": 15,
       "height": 1,
       "fontSize": 13,
@@ -1169,7 +1304,7 @@
       "name": "beacon-instructions",
       "text": "SAGITTARIUS BEACON\nSTEP CLOSE + ACTIVATE",
       "x": 27,
-      "y": 32,
+      "y": 42,
       "width": 11,
       "height": 2,
       "fontSize": 11,
@@ -1178,33 +1313,33 @@
     },
     {
       "name": "sagittarius-style-presenters",
-      "text": "PRESENTERS",
-      "x": 14,
-      "y": 13,
+      "text": "SPEAKER STAGE",
+      "x": 5,
+      "y": 12,
       "width": 12,
       "height": 1,
-      "fontSize": 12,
-      "color": "#f4e5c9",
+      "fontSize": 11,
+      "color": "#fff0d2",
       "align": "center",
-      "padding": 0
+      "padding": 3
     },
     {
       "name": "sagittarius-style-listeners",
       "text": "AUDIENCE · LISTENING AREA",
-      "x": 2,
-      "y": 15,
-      "width": 36,
+      "x": 3,
+      "y": 16,
+      "width": 34,
       "height": 1,
-      "fontSize": 15,
+      "fontSize": 14,
       "color": "#f6eee0",
       "align": "center",
-      "padding": 6
+      "padding": 5
     },
     {
       "name": "sagittarius-style-social",
       "text": "SOCIAL LOUNGE",
       "x": 28,
-      "y": 27,
+      "y": 37,
       "width": 8,
       "height": 1,
       "fontSize": 13,
@@ -1216,7 +1351,7 @@
       "name": "audience-boundary-instruction",
       "text": "STAY INSIDE TO LISTEN · RAISE HAND TO SPEAK",
       "x": 2,
-      "y": 25,
+      "y": 34,
       "width": 36,
       "height": 1,
       "fontSize": 12,
@@ -1397,7 +1532,7 @@
           },
           {
             "path": "tools/art/interior-reference-motion.ts",
-            "sha256": "7e3a076865d3e52177585f6eac406b508e7f98d595104bb0ce4a04e76a83c4ec"
+            "sha256": "afb6b6a4772bdd6358e188d8af06fd6dc0bdd15ed3b4d84668bd013136b25170"
           },
           {
             "path": "tools/maps/builder.ts",
@@ -1412,7 +1547,7 @@
       "sourceId": "interior-reference",
       "level": "belowAvatar",
       "x": 34,
-      "y": 28,
+      "y": 38,
       "width": 1,
       "height": 1,
       "carrierTileIds": [
@@ -1471,7 +1606,7 @@
           },
           {
             "path": "tools/art/interior-reference-motion.ts",
-            "sha256": "7e3a076865d3e52177585f6eac406b508e7f98d595104bb0ce4a04e76a83c4ec"
+            "sha256": "afb6b6a4772bdd6358e188d8af06fd6dc0bdd15ed3b4d84668bd013136b25170"
           },
           {
             "path": "tools/maps/builder.ts",
@@ -1627,7 +1762,7 @@
           },
           {
             "path": "tools/art/interior-reference-motion.ts",
-            "sha256": "7e3a076865d3e52177585f6eac406b508e7f98d595104bb0ce4a04e76a83c4ec"
+            "sha256": "afb6b6a4772bdd6358e188d8af06fd6dc0bdd15ed3b4d84668bd013136b25170"
           },
           {
             "path": "tools/maps/builder.ts",

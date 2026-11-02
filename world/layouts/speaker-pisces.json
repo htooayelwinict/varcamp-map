@@ -1,7 +1,7 @@
 {
   "id": "speaker-pisces",
   "width": 36,
-  "height": 38,
+  "height": 48,
   "placements": [
     {
       "id": "navy-foundation",
@@ -9,7 +9,7 @@
       "x": 0,
       "y": 0,
       "width": 36,
-      "height": 38,
+      "height": 48,
       "layer": "terrain"
     },
     {
@@ -18,14 +18,14 @@
       "x": 1,
       "y": 3,
       "width": 34,
-      "height": 33,
+      "height": 43,
       "layer": "terrain"
     },
     {
       "id": "entry-gold-border",
       "sprite": "floor-inlay",
       "x": 15,
-      "y": 29,
+      "y": 39,
       "width": 6,
       "height": 7,
       "layer": "terrain"
@@ -34,7 +34,7 @@
       "id": "entry-runner",
       "sprite": "floor-charcoal",
       "x": 16,
-      "y": 29,
+      "y": 39,
       "width": 4,
       "height": 7,
       "layer": "terrain"
@@ -45,7 +45,7 @@
       "x": 0,
       "y": 2,
       "width": 1,
-      "height": 36,
+      "height": 46,
       "layer": "props"
     },
     {
@@ -54,14 +54,14 @@
       "x": 35,
       "y": 2,
       "width": 1,
-      "height": 36,
+      "height": 46,
       "layer": "props"
     },
     {
       "id": "south-west-core",
       "sprite": "wall-charcoal",
       "x": 0,
-      "y": 36,
+      "y": 46,
       "width": 16,
       "height": 2,
       "layer": "props"
@@ -70,7 +70,7 @@
       "id": "south-east-core",
       "sprite": "wall-charcoal",
       "x": 20,
-      "y": 36,
+      "y": 46,
       "width": 16,
       "height": 2,
       "layer": "props"
@@ -109,7 +109,7 @@
       "x": 0,
       "y": 2,
       "width": 1,
-      "height": 36,
+      "height": 46,
       "layer": "props",
       "renderRole": "grounded"
     },
@@ -119,7 +119,7 @@
       "x": 35,
       "y": 2,
       "width": 1,
-      "height": 36,
+      "height": 46,
       "layer": "props",
       "renderRole": "grounded"
     },
@@ -127,7 +127,7 @@
       "id": "south-west-wall",
       "sprite": "wall-navy",
       "x": 0,
-      "y": 36,
+      "y": 46,
       "width": 16,
       "height": 2,
       "layer": "props",
@@ -137,7 +137,7 @@
       "id": "south-east-wall",
       "sprite": "wall-navy",
       "x": 20,
-      "y": 36,
+      "y": 46,
       "width": 16,
       "height": 2,
       "layer": "props",
@@ -147,7 +147,7 @@
       "id": "south-door",
       "sprite": "door-open",
       "x": 16,
-      "y": 36,
+      "y": 46,
       "width": 4,
       "height": 2,
       "layer": "props",
@@ -157,7 +157,7 @@
       "id": "door-sigil",
       "sprite": "rune-threshold",
       "x": 16,
-      "y": 35,
+      "y": 45,
       "width": 4,
       "height": 1,
       "layer": "props"
@@ -206,7 +206,7 @@
       "id": "stage-gold-edge",
       "sprite": "floor-wood-long",
       "x": 4,
-      "y": 6,
+      "y": 4,
       "width": 28,
       "height": 8,
       "layer": "terrain"
@@ -215,9 +215,9 @@
       "id": "stage-deck",
       "sprite": "floor-wood-long",
       "x": 5,
-      "y": 7,
+      "y": 5,
       "width": 26,
-      "height": 6,
+      "height": 7,
       "layer": "terrain"
     },
     {
@@ -226,7 +226,7 @@
       "x": 16,
       "y": 14,
       "width": 4,
-      "height": 22,
+      "height": 32,
       "layer": "terrain"
     },
     {
@@ -235,14 +235,14 @@
       "x": 2,
       "y": 14,
       "width": 32,
-      "height": 3,
+      "height": 2,
       "layer": "terrain"
     },
     {
       "id": "foyer-floor",
       "sprite": "floor-wood",
       "x": 1,
-      "y": 27,
+      "y": 37,
       "width": 34,
       "height": 9,
       "layer": "terrain"
@@ -251,16 +251,16 @@
       "id": "foyer-route",
       "sprite": "floor-charcoal",
       "x": 16,
-      "y": 27,
+      "y": 37,
       "width": 4,
       "height": 9,
       "layer": "terrain"
     },
     {
       "id": "pisces-style-stage-top",
-      "sprite": "speaker-style-edge-top",
+      "sprite": "auditorium-stage-top",
       "x": 4,
-      "y": 6,
+      "y": 4,
       "width": 28,
       "height": 1,
       "layer": "props"
@@ -269,36 +269,36 @@
       "id": "pisces-style-stage-front",
       "sprite": "speaker-style-edge-bottom",
       "x": 4,
-      "y": 13,
+      "y": 11,
       "width": 28,
       "height": 1,
       "layer": "props"
     },
     {
       "id": "pisces-style-stage-west",
-      "sprite": "speaker-style-edge-left",
+      "sprite": "auditorium-stage-left",
       "x": 4,
-      "y": 7,
+      "y": 5,
       "width": 1,
-      "height": 6,
+      "height": 7,
       "layer": "props"
     },
     {
       "id": "pisces-style-stage-east",
-      "sprite": "speaker-style-edge-right",
+      "sprite": "auditorium-stage-right",
       "x": 31,
-      "y": 7,
+      "y": 5,
       "width": 1,
-      "height": 6,
+      "height": 7,
       "layer": "props"
     },
     {
       "id": "audience-boundary-floor",
       "sprite": "venue-carpet-slate",
       "x": 2,
-      "y": 14,
+      "y": 16,
       "width": 32,
-      "height": 12,
+      "height": 18,
       "layer": "terrain"
     },
     {
@@ -307,7 +307,7 @@
       "x": 3,
       "y": 17,
       "width": 13,
-      "height": 9,
+      "height": 16,
       "layer": "terrain"
     },
     {
@@ -316,14 +316,14 @@
       "x": 20,
       "y": 17,
       "width": 13,
-      "height": 9,
+      "height": 16,
       "layer": "terrain"
     },
     {
       "id": "audience-boundary-edge-north",
       "sprite": "speaker-style-edge-top",
       "x": 2,
-      "y": 14,
+      "y": 16,
       "width": 32,
       "height": 1,
       "layer": "props"
@@ -332,7 +332,7 @@
       "id": "audience-boundary-edge-south",
       "sprite": "speaker-style-edge-bottom",
       "x": 2,
-      "y": 25,
+      "y": 33,
       "width": 32,
       "height": 1,
       "layer": "props"
@@ -341,26 +341,26 @@
       "id": "audience-boundary-edge-west",
       "sprite": "speaker-style-edge-left",
       "x": 2,
-      "y": 15,
+      "y": 17,
       "width": 1,
-      "height": 10,
+      "height": 16,
       "layer": "props"
     },
     {
       "id": "audience-boundary-edge-east",
       "sprite": "speaker-style-edge-right",
       "x": 33,
-      "y": 15,
+      "y": 17,
       "width": 1,
-      "height": 10,
+      "height": 16,
       "layer": "props"
     },
     {
       "id": "pisces-style-listener-caption",
-      "sprite": "venue-carpet-slate",
-      "x": 6,
-      "y": 15,
-      "width": 24,
+      "sprite": "speaker-style-edge-top",
+      "x": 3,
+      "y": 16,
+      "width": 30,
       "height": 1,
       "layer": "terrain"
     },
@@ -368,7 +368,7 @@
       "id": "primary-screen",
       "sprite": "screen-presentation",
       "x": 15,
-      "y": 7,
+      "y": 5,
       "width": 6,
       "height": 3,
       "layer": "props",
@@ -378,7 +378,7 @@
       "id": "speaker-lectern",
       "sprite": "lectern",
       "x": 17,
-      "y": 11,
+      "y": 9,
       "width": 2,
       "height": 2,
       "layer": "props"
@@ -387,7 +387,7 @@
       "id": "zodiac-constellation",
       "sprite": "constellation-pisces",
       "x": 5,
-      "y": 7,
+      "y": 5,
       "width": 3,
       "height": 2,
       "layer": "props",
@@ -397,7 +397,7 @@
       "id": "zodiac-glyph",
       "sprite": "glyph-pisces",
       "x": 29,
-      "y": 7,
+      "y": 5,
       "width": 1,
       "height": 1,
       "layer": "props"
@@ -405,8 +405,8 @@
     {
       "id": "stage-light-left",
       "sprite": "light-amber",
-      "x": 5,
-      "y": 10,
+      "x": 4,
+      "y": 7,
       "width": 1,
       "height": 2,
       "layer": "props",
@@ -415,8 +415,8 @@
     {
       "id": "stage-light-right",
       "sprite": "light-amber",
-      "x": 30,
-      "y": 10,
+      "x": 31,
+      "y": 7,
       "width": 1,
       "height": 2,
       "layer": "props",
@@ -426,7 +426,7 @@
       "id": "foyer-glass-west",
       "sprite": "glass-partition",
       "x": 1,
-      "y": 25,
+      "y": 35,
       "width": 12,
       "height": 2,
       "layer": "props",
@@ -436,7 +436,7 @@
       "id": "foyer-glass-east",
       "sprite": "glass-partition",
       "x": 23,
-      "y": 25,
+      "y": 35,
       "width": 12,
       "height": 2,
       "layer": "props",
@@ -446,7 +446,7 @@
       "id": "discovery-beacon",
       "sprite": "beacon",
       "x": 26,
-      "y": 28,
+      "y": 38,
       "width": 1,
       "height": 3,
       "layer": "props"
@@ -455,7 +455,7 @@
       "id": "foyer-water",
       "sprite": "water-cooler",
       "x": 33,
-      "y": 28,
+      "y": 38,
       "width": 1,
       "height": 2,
       "layer": "props"
@@ -484,7 +484,7 @@
       "id": "tidal-water-wall",
       "sprite": "water-wall",
       "x": 26,
-      "y": 10,
+      "y": 8,
       "width": 4,
       "height": 3,
       "layer": "props",
@@ -494,7 +494,7 @@
       "id": "social-crescent",
       "sprite": "lounge-crescent",
       "x": 3,
-      "y": 30,
+      "y": 40,
       "width": 5,
       "height": 3,
       "layer": "props"
@@ -503,7 +503,7 @@
       "id": "social-books",
       "sprite": "bookcase",
       "x": 10,
-      "y": 30,
+      "y": 40,
       "width": 2,
       "height": 3,
       "layer": "props"
@@ -512,7 +512,7 @@
       "id": "social-tea",
       "sprite": "table-small-white",
       "x": 8,
-      "y": 33,
+      "y": 43,
       "width": 1,
       "height": 1,
       "layer": "props"
@@ -521,7 +521,7 @@
       "id": "social-lounge",
       "sprite": "chair-lounge",
       "x": 13,
-      "y": 31,
+      "y": 41,
       "width": 2,
       "height": 2,
       "layer": "props"
@@ -530,7 +530,7 @@
       "id": "wayfinding-wallboard-plaza-wayfinding-face",
       "sprite": "sign-board-face",
       "x": 13,
-      "y": 35,
+      "y": 45,
       "width": 10,
       "height": 1,
       "layer": "architecture"
@@ -539,7 +539,7 @@
       "id": "wayfinding-wallboard-plaza-wayfinding-north",
       "sprite": "sign-board-north",
       "x": 13,
-      "y": 35,
+      "y": 45,
       "width": 10,
       "height": 1,
       "layer": "architecture"
@@ -548,7 +548,7 @@
       "id": "wayfinding-wallboard-plaza-wayfinding-south",
       "sprite": "sign-board-south",
       "x": 13,
-      "y": 35,
+      "y": 45,
       "width": 10,
       "height": 1,
       "layer": "architecture"
@@ -557,7 +557,7 @@
       "id": "wayfinding-wallboard-plaza-wayfinding-west",
       "sprite": "sign-board-west",
       "x": 13,
-      "y": 35,
+      "y": 45,
       "width": 1,
       "height": 1,
       "layer": "architecture"
@@ -566,7 +566,7 @@
       "id": "wayfinding-wallboard-plaza-wayfinding-east",
       "sprite": "sign-board-east",
       "x": 22,
-      "y": 35,
+      "y": 45,
       "width": 1,
       "height": 1,
       "layer": "architecture"
@@ -575,7 +575,7 @@
       "id": "wayfinding-wall-arrow-1",
       "sprite": "arrow-south",
       "x": 17,
-      "y": 34,
+      "y": 44,
       "width": 1,
       "height": 1,
       "layer": "architecture"
@@ -602,7 +602,7 @@
       "id": "interior-ref-resources",
       "sprite": "interior-ref-cabinet",
       "x": 23,
-      "y": 28,
+      "y": 38,
       "width": 2,
       "height": 3,
       "layer": "props"
@@ -611,7 +611,7 @@
       "id": "interior-ref-tea-console",
       "sprite": "interior-ref-refreshment",
       "x": 30,
-      "y": 28,
+      "y": 38,
       "width": 3,
       "height": 2,
       "layer": "props"
@@ -620,7 +620,7 @@
       "id": "interior-ref-east-conversation",
       "sprite": "interior-ref-sofa",
       "x": 30,
-      "y": 30,
+      "y": 40,
       "width": 4,
       "height": 2,
       "layer": "props"
@@ -646,8 +646,8 @@
     {
       "id": "interior-ref-water-gallery",
       "sprite": "interior-ref-aquarium",
-      "x": 30,
-      "y": 11,
+      "x": 6,
+      "y": 8,
       "width": 4,
       "height": 3,
       "layer": "props"
@@ -656,349 +656,25 @@
       "id": "interior-ref-zodiac-floor-crest",
       "sprite": "zodiac-emblem-pisces",
       "x": 16,
-      "y": 30,
+      "y": 40,
       "width": 4,
       "height": 4,
       "layer": "props"
     },
     {
-      "id": "audience-chair-0-0",
-      "sprite": "chair-north-slate",
-      "x": 8,
-      "y": 17,
-      "width": 1,
-      "height": 2,
-      "layer": "props"
-    },
-    {
-      "id": "audience-chair-0-1",
-      "sprite": "chair-north-slate",
-      "x": 10,
-      "y": 17,
-      "width": 1,
-      "height": 2,
-      "layer": "props"
-    },
-    {
-      "id": "audience-chair-0-2",
-      "sprite": "chair-north-slate",
-      "x": 12,
-      "y": 17,
-      "width": 1,
-      "height": 2,
-      "layer": "props"
-    },
-    {
-      "id": "audience-chair-0-3",
-      "sprite": "chair-north-slate",
-      "x": 23,
-      "y": 17,
-      "width": 1,
-      "height": 2,
-      "layer": "props"
-    },
-    {
-      "id": "audience-chair-0-4",
-      "sprite": "chair-north-slate",
-      "x": 25,
-      "y": 17,
-      "width": 1,
-      "height": 2,
-      "layer": "props"
-    },
-    {
-      "id": "audience-chair-0-5",
-      "sprite": "chair-north-slate",
-      "x": 27,
-      "y": 17,
-      "width": 1,
-      "height": 2,
-      "layer": "props"
-    },
-    {
-      "id": "audience-chair-1-0",
-      "sprite": "chair-north-slate",
-      "x": 8,
-      "y": 20,
-      "width": 1,
-      "height": 2,
-      "layer": "props"
-    },
-    {
-      "id": "audience-chair-1-1",
-      "sprite": "chair-north-slate",
-      "x": 10,
-      "y": 20,
-      "width": 1,
-      "height": 2,
-      "layer": "props"
-    },
-    {
-      "id": "audience-chair-1-2",
-      "sprite": "chair-north-slate",
-      "x": 12,
-      "y": 20,
-      "width": 1,
-      "height": 2,
-      "layer": "props"
-    },
-    {
-      "id": "audience-chair-1-3",
-      "sprite": "chair-north-slate",
-      "x": 23,
-      "y": 20,
-      "width": 1,
-      "height": 2,
-      "layer": "props"
-    },
-    {
-      "id": "audience-chair-1-4",
-      "sprite": "chair-north-slate",
-      "x": 25,
-      "y": 20,
-      "width": 1,
-      "height": 2,
-      "layer": "props"
-    },
-    {
-      "id": "audience-chair-1-5",
-      "sprite": "chair-north-slate",
-      "x": 27,
-      "y": 20,
-      "width": 1,
-      "height": 2,
-      "layer": "props"
-    },
-    {
-      "id": "audience-chair-2-0",
-      "sprite": "chair-north-slate",
-      "x": 8,
-      "y": 23,
-      "width": 1,
-      "height": 2,
-      "layer": "props"
-    },
-    {
-      "id": "audience-chair-2-1",
-      "sprite": "chair-north-slate",
-      "x": 10,
-      "y": 23,
-      "width": 1,
-      "height": 2,
-      "layer": "props"
-    },
-    {
-      "id": "audience-chair-2-2",
-      "sprite": "chair-north-slate",
-      "x": 12,
-      "y": 23,
-      "width": 1,
-      "height": 2,
-      "layer": "props"
-    },
-    {
-      "id": "audience-chair-2-3",
-      "sprite": "chair-north-slate",
-      "x": 23,
-      "y": 23,
-      "width": 1,
-      "height": 2,
-      "layer": "props"
-    },
-    {
-      "id": "audience-chair-2-4",
-      "sprite": "chair-north-slate",
-      "x": 25,
-      "y": 23,
-      "width": 1,
-      "height": 2,
-      "layer": "props"
-    },
-    {
-      "id": "audience-chair-2-5",
-      "sprite": "chair-north-slate",
-      "x": 27,
-      "y": 23,
-      "width": 1,
-      "height": 2,
-      "layer": "props"
-    },
-    {
       "id": "audience-boundary-instruction-floor",
-      "sprite": "floor-wood",
-      "x": 6,
-      "y": 26,
-      "width": 24,
+      "sprite": "venue-floor-stone",
+      "x": 2,
+      "y": 34,
+      "width": 32,
       "height": 1,
       "layer": "terrain"
-    },
-    {
-      "id": "audience-chair-extra-0-0",
-      "sprite": "chair-north-slate",
-      "x": 4,
-      "y": 17,
-      "width": 1,
-      "height": 2,
-      "layer": "props"
-    },
-    {
-      "id": "audience-chair-extra-0-1",
-      "sprite": "chair-north-slate",
-      "x": 6,
-      "y": 17,
-      "width": 1,
-      "height": 2,
-      "layer": "props"
-    },
-    {
-      "id": "audience-chair-extra-0-2",
-      "sprite": "chair-north-slate",
-      "x": 14,
-      "y": 17,
-      "width": 1,
-      "height": 2,
-      "layer": "props"
-    },
-    {
-      "id": "audience-chair-extra-0-3",
-      "sprite": "chair-north-slate",
-      "x": 21,
-      "y": 17,
-      "width": 1,
-      "height": 2,
-      "layer": "props"
-    },
-    {
-      "id": "audience-chair-extra-0-4",
-      "sprite": "chair-north-slate",
-      "x": 29,
-      "y": 17,
-      "width": 1,
-      "height": 2,
-      "layer": "props"
-    },
-    {
-      "id": "audience-chair-extra-0-5",
-      "sprite": "chair-north-slate",
-      "x": 31,
-      "y": 17,
-      "width": 1,
-      "height": 2,
-      "layer": "props"
-    },
-    {
-      "id": "audience-chair-extra-1-0",
-      "sprite": "chair-north-slate",
-      "x": 4,
-      "y": 20,
-      "width": 1,
-      "height": 2,
-      "layer": "props"
-    },
-    {
-      "id": "audience-chair-extra-1-1",
-      "sprite": "chair-north-slate",
-      "x": 6,
-      "y": 20,
-      "width": 1,
-      "height": 2,
-      "layer": "props"
-    },
-    {
-      "id": "audience-chair-extra-1-2",
-      "sprite": "chair-north-slate",
-      "x": 14,
-      "y": 20,
-      "width": 1,
-      "height": 2,
-      "layer": "props"
-    },
-    {
-      "id": "audience-chair-extra-1-3",
-      "sprite": "chair-north-slate",
-      "x": 21,
-      "y": 20,
-      "width": 1,
-      "height": 2,
-      "layer": "props"
-    },
-    {
-      "id": "audience-chair-extra-1-4",
-      "sprite": "chair-north-slate",
-      "x": 29,
-      "y": 20,
-      "width": 1,
-      "height": 2,
-      "layer": "props"
-    },
-    {
-      "id": "audience-chair-extra-1-5",
-      "sprite": "chair-north-slate",
-      "x": 31,
-      "y": 20,
-      "width": 1,
-      "height": 2,
-      "layer": "props"
-    },
-    {
-      "id": "audience-chair-extra-2-0",
-      "sprite": "chair-north-slate",
-      "x": 4,
-      "y": 23,
-      "width": 1,
-      "height": 2,
-      "layer": "props"
-    },
-    {
-      "id": "audience-chair-extra-2-1",
-      "sprite": "chair-north-slate",
-      "x": 6,
-      "y": 23,
-      "width": 1,
-      "height": 2,
-      "layer": "props"
-    },
-    {
-      "id": "audience-chair-extra-2-2",
-      "sprite": "chair-north-slate",
-      "x": 14,
-      "y": 23,
-      "width": 1,
-      "height": 2,
-      "layer": "props"
-    },
-    {
-      "id": "audience-chair-extra-2-3",
-      "sprite": "chair-north-slate",
-      "x": 21,
-      "y": 23,
-      "width": 1,
-      "height": 2,
-      "layer": "props"
-    },
-    {
-      "id": "audience-chair-extra-2-4",
-      "sprite": "chair-north-slate",
-      "x": 29,
-      "y": 23,
-      "width": 1,
-      "height": 2,
-      "layer": "props"
-    },
-    {
-      "id": "audience-chair-extra-2-5",
-      "sprite": "chair-north-slate",
-      "x": 31,
-      "y": 23,
-      "width": 1,
-      "height": 2,
-      "layer": "props"
     },
     {
       "id": "venue-lounge-table",
       "sprite": "table-small-wood",
       "x": 29,
-      "y": 32,
+      "y": 42,
       "width": 1,
       "height": 1,
       "layer": "props"
@@ -1007,7 +683,7 @@
       "id": "venue-lobby-rug-west",
       "sprite": "venue-carpet-slate",
       "x": 2,
-      "y": 28,
+      "y": 38,
       "width": 13,
       "height": 5,
       "layer": "terrain"
@@ -1016,7 +692,7 @@
       "id": "venue-lobby-rug-east",
       "sprite": "venue-carpet-slate",
       "x": 21,
-      "y": 28,
+      "y": 38,
       "width": 13,
       "height": 5,
       "layer": "terrain"
@@ -1025,10 +701,469 @@
       "id": "venue-audience-aisle",
       "sprite": "venue-floor-stone",
       "x": 16,
-      "y": 16,
+      "y": 17,
       "width": 4,
-      "height": 8,
+      "height": 16,
       "layer": "terrain"
+    },
+    {
+      "id": "audience-chair-0-0",
+      "sprite": "chair-north-slate",
+      "x": 4,
+      "y": 18,
+      "width": 1,
+      "height": 2,
+      "layer": "props"
+    },
+    {
+      "id": "audience-chair-0-1",
+      "sprite": "chair-north-slate",
+      "x": 6,
+      "y": 18,
+      "width": 1,
+      "height": 2,
+      "layer": "props"
+    },
+    {
+      "id": "audience-chair-0-2",
+      "sprite": "chair-north-slate",
+      "x": 8,
+      "y": 18,
+      "width": 1,
+      "height": 2,
+      "layer": "props"
+    },
+    {
+      "id": "audience-chair-0-3",
+      "sprite": "chair-north-slate",
+      "x": 10,
+      "y": 18,
+      "width": 1,
+      "height": 2,
+      "layer": "props"
+    },
+    {
+      "id": "audience-chair-0-4",
+      "sprite": "chair-north-slate",
+      "x": 12,
+      "y": 18,
+      "width": 1,
+      "height": 2,
+      "layer": "props"
+    },
+    {
+      "id": "audience-chair-0-5",
+      "sprite": "chair-north-slate",
+      "x": 14,
+      "y": 18,
+      "width": 1,
+      "height": 2,
+      "layer": "props"
+    },
+    {
+      "id": "audience-chair-0-6",
+      "sprite": "chair-north-slate",
+      "x": 21,
+      "y": 18,
+      "width": 1,
+      "height": 2,
+      "layer": "props"
+    },
+    {
+      "id": "audience-chair-0-7",
+      "sprite": "chair-north-slate",
+      "x": 23,
+      "y": 18,
+      "width": 1,
+      "height": 2,
+      "layer": "props"
+    },
+    {
+      "id": "audience-chair-0-8",
+      "sprite": "chair-north-slate",
+      "x": 25,
+      "y": 18,
+      "width": 1,
+      "height": 2,
+      "layer": "props"
+    },
+    {
+      "id": "audience-chair-0-9",
+      "sprite": "chair-north-slate",
+      "x": 27,
+      "y": 18,
+      "width": 1,
+      "height": 2,
+      "layer": "props"
+    },
+    {
+      "id": "audience-chair-0-10",
+      "sprite": "chair-north-slate",
+      "x": 29,
+      "y": 18,
+      "width": 1,
+      "height": 2,
+      "layer": "props"
+    },
+    {
+      "id": "audience-chair-0-11",
+      "sprite": "chair-north-slate",
+      "x": 31,
+      "y": 18,
+      "width": 1,
+      "height": 2,
+      "layer": "props"
+    },
+    {
+      "id": "audience-chair-1-0",
+      "sprite": "chair-north-slate",
+      "x": 4,
+      "y": 22,
+      "width": 1,
+      "height": 2,
+      "layer": "props"
+    },
+    {
+      "id": "audience-chair-1-1",
+      "sprite": "chair-north-slate",
+      "x": 6,
+      "y": 22,
+      "width": 1,
+      "height": 2,
+      "layer": "props"
+    },
+    {
+      "id": "audience-chair-1-2",
+      "sprite": "chair-north-slate",
+      "x": 8,
+      "y": 22,
+      "width": 1,
+      "height": 2,
+      "layer": "props"
+    },
+    {
+      "id": "audience-chair-1-3",
+      "sprite": "chair-north-slate",
+      "x": 10,
+      "y": 22,
+      "width": 1,
+      "height": 2,
+      "layer": "props"
+    },
+    {
+      "id": "audience-chair-1-4",
+      "sprite": "chair-north-slate",
+      "x": 12,
+      "y": 22,
+      "width": 1,
+      "height": 2,
+      "layer": "props"
+    },
+    {
+      "id": "audience-chair-1-5",
+      "sprite": "chair-north-slate",
+      "x": 14,
+      "y": 22,
+      "width": 1,
+      "height": 2,
+      "layer": "props"
+    },
+    {
+      "id": "audience-chair-1-6",
+      "sprite": "chair-north-slate",
+      "x": 21,
+      "y": 22,
+      "width": 1,
+      "height": 2,
+      "layer": "props"
+    },
+    {
+      "id": "audience-chair-1-7",
+      "sprite": "chair-north-slate",
+      "x": 23,
+      "y": 22,
+      "width": 1,
+      "height": 2,
+      "layer": "props"
+    },
+    {
+      "id": "audience-chair-1-8",
+      "sprite": "chair-north-slate",
+      "x": 25,
+      "y": 22,
+      "width": 1,
+      "height": 2,
+      "layer": "props"
+    },
+    {
+      "id": "audience-chair-1-9",
+      "sprite": "chair-north-slate",
+      "x": 27,
+      "y": 22,
+      "width": 1,
+      "height": 2,
+      "layer": "props"
+    },
+    {
+      "id": "audience-chair-1-10",
+      "sprite": "chair-north-slate",
+      "x": 29,
+      "y": 22,
+      "width": 1,
+      "height": 2,
+      "layer": "props"
+    },
+    {
+      "id": "audience-chair-1-11",
+      "sprite": "chair-north-slate",
+      "x": 31,
+      "y": 22,
+      "width": 1,
+      "height": 2,
+      "layer": "props"
+    },
+    {
+      "id": "audience-chair-2-0",
+      "sprite": "chair-north-slate",
+      "x": 4,
+      "y": 26,
+      "width": 1,
+      "height": 2,
+      "layer": "props"
+    },
+    {
+      "id": "audience-chair-2-1",
+      "sprite": "chair-north-slate",
+      "x": 6,
+      "y": 26,
+      "width": 1,
+      "height": 2,
+      "layer": "props"
+    },
+    {
+      "id": "audience-chair-2-2",
+      "sprite": "chair-north-slate",
+      "x": 8,
+      "y": 26,
+      "width": 1,
+      "height": 2,
+      "layer": "props"
+    },
+    {
+      "id": "audience-chair-2-3",
+      "sprite": "chair-north-slate",
+      "x": 10,
+      "y": 26,
+      "width": 1,
+      "height": 2,
+      "layer": "props"
+    },
+    {
+      "id": "audience-chair-2-4",
+      "sprite": "chair-north-slate",
+      "x": 12,
+      "y": 26,
+      "width": 1,
+      "height": 2,
+      "layer": "props"
+    },
+    {
+      "id": "audience-chair-2-5",
+      "sprite": "chair-north-slate",
+      "x": 14,
+      "y": 26,
+      "width": 1,
+      "height": 2,
+      "layer": "props"
+    },
+    {
+      "id": "audience-chair-2-6",
+      "sprite": "chair-north-slate",
+      "x": 21,
+      "y": 26,
+      "width": 1,
+      "height": 2,
+      "layer": "props"
+    },
+    {
+      "id": "audience-chair-2-7",
+      "sprite": "chair-north-slate",
+      "x": 23,
+      "y": 26,
+      "width": 1,
+      "height": 2,
+      "layer": "props"
+    },
+    {
+      "id": "audience-chair-2-8",
+      "sprite": "chair-north-slate",
+      "x": 25,
+      "y": 26,
+      "width": 1,
+      "height": 2,
+      "layer": "props"
+    },
+    {
+      "id": "audience-chair-2-9",
+      "sprite": "chair-north-slate",
+      "x": 27,
+      "y": 26,
+      "width": 1,
+      "height": 2,
+      "layer": "props"
+    },
+    {
+      "id": "audience-chair-2-10",
+      "sprite": "chair-north-slate",
+      "x": 29,
+      "y": 26,
+      "width": 1,
+      "height": 2,
+      "layer": "props"
+    },
+    {
+      "id": "audience-chair-2-11",
+      "sprite": "chair-north-slate",
+      "x": 31,
+      "y": 26,
+      "width": 1,
+      "height": 2,
+      "layer": "props"
+    },
+    {
+      "id": "audience-chair-3-0",
+      "sprite": "chair-north-slate",
+      "x": 4,
+      "y": 30,
+      "width": 1,
+      "height": 2,
+      "layer": "props"
+    },
+    {
+      "id": "audience-chair-3-1",
+      "sprite": "chair-north-slate",
+      "x": 6,
+      "y": 30,
+      "width": 1,
+      "height": 2,
+      "layer": "props"
+    },
+    {
+      "id": "audience-chair-3-2",
+      "sprite": "chair-north-slate",
+      "x": 8,
+      "y": 30,
+      "width": 1,
+      "height": 2,
+      "layer": "props"
+    },
+    {
+      "id": "audience-chair-3-3",
+      "sprite": "chair-north-slate",
+      "x": 10,
+      "y": 30,
+      "width": 1,
+      "height": 2,
+      "layer": "props"
+    },
+    {
+      "id": "audience-chair-3-4",
+      "sprite": "chair-north-slate",
+      "x": 12,
+      "y": 30,
+      "width": 1,
+      "height": 2,
+      "layer": "props"
+    },
+    {
+      "id": "audience-chair-3-5",
+      "sprite": "chair-north-slate",
+      "x": 14,
+      "y": 30,
+      "width": 1,
+      "height": 2,
+      "layer": "props"
+    },
+    {
+      "id": "audience-chair-3-6",
+      "sprite": "chair-north-slate",
+      "x": 21,
+      "y": 30,
+      "width": 1,
+      "height": 2,
+      "layer": "props"
+    },
+    {
+      "id": "audience-chair-3-7",
+      "sprite": "chair-north-slate",
+      "x": 23,
+      "y": 30,
+      "width": 1,
+      "height": 2,
+      "layer": "props"
+    },
+    {
+      "id": "audience-chair-3-8",
+      "sprite": "chair-north-slate",
+      "x": 25,
+      "y": 30,
+      "width": 1,
+      "height": 2,
+      "layer": "props"
+    },
+    {
+      "id": "audience-chair-3-9",
+      "sprite": "chair-north-slate",
+      "x": 27,
+      "y": 30,
+      "width": 1,
+      "height": 2,
+      "layer": "props"
+    },
+    {
+      "id": "audience-chair-3-10",
+      "sprite": "chair-north-slate",
+      "x": 29,
+      "y": 30,
+      "width": 1,
+      "height": 2,
+      "layer": "props"
+    },
+    {
+      "id": "audience-chair-3-11",
+      "sprite": "chair-north-slate",
+      "x": 31,
+      "y": 30,
+      "width": 1,
+      "height": 2,
+      "layer": "props"
+    },
+    {
+      "id": "auditorium-stage-face-west",
+      "sprite": "auditorium-stage-fascia",
+      "x": 4,
+      "y": 12,
+      "width": 12,
+      "height": 1,
+      "layer": "props"
+    },
+    {
+      "id": "auditorium-stage-face-east",
+      "sprite": "auditorium-stage-fascia",
+      "x": 20,
+      "y": 12,
+      "width": 12,
+      "height": 1,
+      "layer": "props"
+    },
+    {
+      "id": "auditorium-stage-steps",
+      "sprite": "auditorium-stage-steps",
+      "x": 16,
+      "y": 12,
+      "width": 4,
+      "height": 2,
+      "layer": "props"
     }
   ],
   "entries": [
@@ -1036,7 +1171,7 @@
       "name": "speaker-entry",
       "isDefault": true,
       "x": 17,
-      "y": 32,
+      "y": 42,
       "width": 2,
       "height": 2
     }
@@ -1047,7 +1182,7 @@
       "destination": "overworld",
       "entry": "from-speaker-pisces",
       "x": 17,
-      "y": 37,
+      "y": 47,
       "width": 2,
       "height": 1
     }
@@ -1056,10 +1191,10 @@
     {
       "id": "meeting-pisces",
       "name": "meeting-pisces",
-      "x": 4,
-      "y": 6,
-      "width": 28,
-      "height": 8,
+      "x": 5,
+      "y": 5,
+      "width": 26,
+      "height": 7,
       "properties": [
         {
           "id": "pisces-stage-broadcast",
@@ -1074,7 +1209,7 @@
       "id": "beacon-pisces",
       "name": "beacon-pisces",
       "x": 27,
-      "y": 29,
+      "y": 39,
       "width": 3,
       "height": 2,
       "properties": []
@@ -1083,9 +1218,9 @@
       "id": "pisces-audience",
       "name": "Pisces listening area",
       "x": 2,
-      "y": 14,
+      "y": 16,
       "width": 32,
-      "height": 12,
+      "height": 18,
       "properties": [
         {
           "id": "pisces-listener",
@@ -1103,9 +1238,9 @@
       "name": "meeting-room",
       "kind": "room",
       "x": 1,
-      "y": 4,
+      "y": 3,
       "width": 34,
-      "height": 22
+      "height": 32
     },
     {
       "name": "central-aisle",
@@ -1113,7 +1248,7 @@
       "x": 17,
       "y": 14,
       "width": 2,
-      "height": 22
+      "height": 32
     },
     {
       "name": "front-route",
@@ -1121,13 +1256,13 @@
       "x": 2,
       "y": 14,
       "width": 32,
-      "height": 3
+      "height": 2
     },
     {
       "name": "social-pocket",
       "kind": "auxiliary",
       "x": 2,
-      "y": 27,
+      "y": 37,
       "width": 13,
       "height": 9
     }
@@ -1149,7 +1284,7 @@
       "name": "plaza-wayfinding",
       "text": "↓ PLAZA · SOUTH DOOR",
       "x": 13,
-      "y": 35,
+      "y": 45,
       "width": 10,
       "height": 1,
       "fontSize": 16,
@@ -1160,7 +1295,7 @@
       "name": "social-title",
       "text": "TIDAL READING NOOK",
       "x": 2,
-      "y": 27,
+      "y": 37,
       "width": 13,
       "height": 1,
       "fontSize": 13,
@@ -1171,7 +1306,7 @@
       "name": "beacon-instructions",
       "text": "PISCES BEACON\nSTEP CLOSE + ACTIVATE",
       "x": 23,
-      "y": 32,
+      "y": 42,
       "width": 11,
       "height": 2,
       "fontSize": 11,
@@ -1180,33 +1315,33 @@
     },
     {
       "name": "pisces-style-presenters",
-      "text": "PRESENTERS",
-      "x": 12,
-      "y": 13,
-      "width": 12,
+      "text": "SPEAKER STAGE",
+      "x": 5,
+      "y": 12,
+      "width": 10,
       "height": 1,
-      "fontSize": 12,
-      "color": "#f4e5c9",
+      "fontSize": 11,
+      "color": "#fff0d2",
       "align": "center",
-      "padding": 0
+      "padding": 3
     },
     {
       "name": "pisces-style-listeners",
       "text": "AUDIENCE · LISTENING AREA",
-      "x": 2,
-      "y": 15,
-      "width": 32,
+      "x": 3,
+      "y": 16,
+      "width": 30,
       "height": 1,
-      "fontSize": 15,
+      "fontSize": 14,
       "color": "#f6eee0",
       "align": "center",
-      "padding": 6
+      "padding": 5
     },
     {
       "name": "pisces-style-social",
       "text": "SOCIAL LOUNGE",
       "x": 26,
-      "y": 27,
+      "y": 37,
       "width": 8,
       "height": 1,
       "fontSize": 13,
@@ -1218,11 +1353,11 @@
       "name": "audience-boundary-instruction",
       "text": "STAY INSIDE TO LISTEN · RAISE HAND TO SPEAK",
       "x": 2,
-      "y": 25,
+      "y": 34,
       "width": 32,
       "height": 1,
       "fontSize": 12,
-      "color": "#f6eee0",
+      "color": "#283747",
       "align": "center",
       "padding": 2
     }
@@ -1399,7 +1534,7 @@
           },
           {
             "path": "tools/art/interior-reference-motion.ts",
-            "sha256": "7e3a076865d3e52177585f6eac406b508e7f98d595104bb0ce4a04e76a83c4ec"
+            "sha256": "afb6b6a4772bdd6358e188d8af06fd6dc0bdd15ed3b4d84668bd013136b25170"
           },
           {
             "path": "tools/maps/builder.ts",
@@ -1414,7 +1549,7 @@
       "sourceId": "interior-reference",
       "level": "belowAvatar",
       "x": 30,
-      "y": 28,
+      "y": 38,
       "width": 1,
       "height": 1,
       "carrierTileIds": [
@@ -1473,7 +1608,7 @@
           },
           {
             "path": "tools/art/interior-reference-motion.ts",
-            "sha256": "7e3a076865d3e52177585f6eac406b508e7f98d595104bb0ce4a04e76a83c4ec"
+            "sha256": "afb6b6a4772bdd6358e188d8af06fd6dc0bdd15ed3b4d84668bd013136b25170"
           },
           {
             "path": "tools/maps/builder.ts",
@@ -1629,7 +1764,7 @@
           },
           {
             "path": "tools/art/interior-reference-motion.ts",
-            "sha256": "7e3a076865d3e52177585f6eac406b508e7f98d595104bb0ce4a04e76a83c4ec"
+            "sha256": "afb6b6a4772bdd6358e188d8af06fd6dc0bdd15ed3b4d84668bd013136b25170"
           },
           {
             "path": "tools/maps/builder.ts",
@@ -1643,8 +1778,8 @@
       "image": "assets/tilesets/original/interior-motion-water.png",
       "sourceId": "interior-reference",
       "level": "belowAvatar",
-      "x": 30,
-      "y": 11,
+      "x": 6,
+      "y": 8,
       "width": 4,
       "height": 3,
       "carrierTileIds": [
@@ -1893,7 +2028,7 @@
           },
           {
             "path": "tools/art/interior-reference-motion.ts",
-            "sha256": "7e3a076865d3e52177585f6eac406b508e7f98d595104bb0ce4a04e76a83c4ec"
+            "sha256": "afb6b6a4772bdd6358e188d8af06fd6dc0bdd15ed3b4d84668bd013136b25170"
           },
           {
             "path": "tools/maps/builder.ts",

@@ -1,10 +1,11 @@
-"""Token-only live WAM migration: re-pin each live maps/<id>.wam to its final dist TMJ digest.
+"""Re-pin live WAMs; optionally apply the reviewed auditorium geometry successor.
 
 Downloads the live target through the same storage/transport as release_upload.py,
-rewrites ONLY the 64-hex ``?v=`` token inside the root ``"mapUrl"`` string, and
+by default rewrites only the 64-hex ``?v=`` token inside the root ``"mapUrl"`` string, and
 writes the migrated WAMs into a reviewed ZIP that ``release_upload.py prepare
 --reviewed-wams`` accepts. Credentials come from the environment file and are
-never printed.
+never printed. ``--auditorium-spacing`` additionally moves the three owned
+areas in each zodiac room, keeping all controls and independent editor data.
 """
 import argparse
 import hashlib
@@ -14,6 +15,7 @@ import re
 import sys
 
 from release_upload import Storage, read_zip, wam_reference, zip_bytes
+from auditorium_spacing import ROOMS, auditorium_candidate
 
 PLACEHOLDER = b'<VERSION>'
 TOKEN_LENGTH = 64
@@ -46,8 +48,8 @@ def rewrite_token(path, data, new_pin):
     return output
 
 
-def migrate(live, dist):
-    """Plan token migrations for every live WAM whose final TMJ exists under ``dist``."""
+def migrate(live, dist, *, auditorium_spacing=False):
+    """Plan paired references and, only when requested, the closed area migration."""
     dist = pathlib.Path(dist)
     reviewed = {}
     summary = {'migrated': [], 'unchanged': [], 'missing': []}
@@ -58,25 +60,34 @@ def migrate(live, dist):
             continue
         expected_pin = hashlib.sha256(tmj.read_bytes()).hexdigest()
         current_pin, _ = wam_reference(path, live[path])
-        if current_pin == expected_pin:
+        body = live[path]
+        if auditorium_spacing and path in {'maps/' + room + '.wam' for room in ROOMS}:
+            parsed = json.loads(body)
+            updated = auditorium_candidate(path, parsed)
+            if updated is not None:
+                body = (json.dumps(updated, indent=2, ensure_ascii=False) + '\n').encode('utf-8')
+            elif auditorium_candidate(path, parsed, already_current=True) is None:
+                raise ValueError(f'{path}: owned saved areas differ from the reviewed auditorium predecessor/current geometry or controls')
+        if current_pin == expected_pin and body == live[path]:
             summary['unchanged'].append(path)
             continue
-        reviewed[path] = rewrite_token(path, live[path], expected_pin)
+        reviewed[path] = rewrite_token(path, body, expected_pin)
         summary['migrated'].append(path)
     return reviewed, summary
 
 
 def main(argv=None):
-    parser = argparse.ArgumentParser(description='Rewrite only the mapUrl version token of live WAMs to the final dist TMJ digests')
+    parser = argparse.ArgumentParser(description='Re-pin live WAMs to final dist TMJ digests; optional reviewed auditorium geometry migration')
     parser.add_argument('--target', default='varcamp-demo')
     parser.add_argument('--environment', type=pathlib.Path, default=pathlib.Path(__file__).parent / 'private/environment')
     parser.add_argument('--dist', type=pathlib.Path, default=pathlib.Path('dist'))
     parser.add_argument('--out', required=True, type=pathlib.Path, help='reviewed WAM ZIP for release_upload.py prepare --reviewed-wams')
+    parser.add_argument('--auditorium-spacing', action='store_true', help='Apply the reviewed twelve-room area geometry migration, preserving saved controls and editor data')
     args = parser.parse_args(argv)
     if not args.dist.is_dir():
         parser.error('Build the release first; dist/ is missing')
     live = read_zip(Storage(args.environment).download(args.target))
-    reviewed, summary = migrate(live, args.dist)
+    reviewed, summary = migrate(live, args.dist, auditorium_spacing=args.auditorium_spacing)
     args.out.parent.mkdir(parents=True, exist_ok=True)
     args.out.write_bytes(zip_bytes(reviewed))
     print(json.dumps({'target': args.target, 'out': str(args.out), 'liveWams': sum(p.endswith('.wam') for p in live),

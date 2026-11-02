@@ -1,6 +1,7 @@
 import {restoreVibeCodeBranding} from './vibecode-branding';
 import {restoreEventPresentation} from './event-presentation';
 import {assertRoomMaterials} from './room-refinement';
+import {auditoriumFunctional,assertAuditoriumSpacing} from './auditorium-spacing';
 import{isDeepStrictEqual}from'node:util';
 import{SIGN_IDS}from'../../src/world/catalog';
 import contractData from'../../world/interior-reference-contract.json';
@@ -27,8 +28,9 @@ export function renderReferenceInterior(layout:MapLayout,catalog:TileCatalog){
 export function assertNativeReferenceInterior(map:TiledMap,layout:MapLayout,catalog:TileCatalog,sourceWam:WamFile):void{
  if(!IDS.includes(layout.id))return;
  assertRoomMaterials(catalog);
+ assertAuditoriumSpacing(layout,catalog);
  need(contract.version===1&&isDeepStrictEqual(Object.keys(contract.maps).sort(),IDS.slice().sort()),'contract must cover exactly the known fourteen rooms');
- const row=contract.maps[layout.id],functional=ariesPresentationFunctional(layout.id,row.functional);
+ const row=contract.maps[layout.id],functional=auditoriumFunctional(layout.id,ariesPresentationFunctional(layout.id,row.functional));
  const beforeEvent=restoreEventPresentation(layout);
  const beforeBrand=restoreVibeCodeBranding(beforeEvent);
  assertAriesPresentation(beforeBrand,catalog);

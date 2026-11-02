@@ -49980,5 +49980,85 @@
     },
     "blockingCells": [],
     "level": "belowAvatar"
+  },
+  "auditorium-stage-top": {
+    "sheet": "assets/tilesets/original/speaker-room-style.png",
+    "rect": {
+      "x": 0,
+      "y": 2,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [
+      [
+        0,
+        0
+      ]
+    ],
+    "level": "belowAvatar",
+    "sourceId": "original"
+  },
+  "auditorium-stage-left": {
+    "sheet": "assets/tilesets/original/speaker-room-style.png",
+    "rect": {
+      "x": 0,
+      "y": 3,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [
+      [
+        0,
+        0
+      ]
+    ],
+    "level": "belowAvatar",
+    "sourceId": "original"
+  },
+  "auditorium-stage-right": {
+    "sheet": "assets/tilesets/original/speaker-room-style.png",
+    "rect": {
+      "x": 0,
+      "y": 4,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [
+      [
+        0,
+        0
+      ]
+    ],
+    "level": "belowAvatar",
+    "sourceId": "original"
+  },
+  "auditorium-stage-fascia": {
+    "sheet": "assets/tilesets/original/ship-interior.png",
+    "rect": {
+      "x": 1,
+      "y": 1,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [
+      [
+        0,
+        0
+      ]
+    ],
+    "level": "belowAvatar",
+    "sourceId": "original"
+  },
+  "auditorium-stage-steps": {
+    "sheet": "assets/tilesets/original/ship-interior.png",
+    "rect": {
+      "x": 13,
+      "y": 0,
+      "width": 2,
+      "height": 2
+    },
+    "blockingCells": [],
+    "level": "belowAvatar",
+    "sourceId": "original"
   }
 }
