@@ -1,3 +1,4 @@
+import {SECURITY_IDS} from './outer-security-roles';
 import {PATROL_IDS} from './patrol-roles';
 import{readFileSync,statSync}from'node:fs';
 import{createHash}from'node:crypto';
@@ -22,6 +23,7 @@ export const PLAZA_DRONES=[
  ...Array.from({length:40},(_,i)=>({map:'overworld',name:'plaza-drone-'+String(i).padStart(2,'0')})),
  {map:'overworld',name:'plaza-fleet-camera'},{map:'overworld',name:'plaza-fleet-delivery'},{map:'overworld',name:'plaza-fleet-survey'},
  ...PATROL_IDS.map(name=>({map:'overworld' as const,name})),
+ ...SECURITY_IDS.map(name=>({map:'overworld' as const,name})),
 ]as readonly{map:'overworld';name:string}[];
 /** The sponsor aircraft role (2026-10-24 owner decision) and the overworld
  * drones above: each draws above every tile, object and attendee as a purely

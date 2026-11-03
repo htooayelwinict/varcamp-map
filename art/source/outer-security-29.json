@@ -1,0 +1,162 @@
+{
+  "version": 1,
+  "overlay": {
+    "name": "outer-security-29",
+    "image": "assets/tilesets/original/outer-security-29.png",
+    "sourceId": "outer-security",
+    "level": "aboveScenery",
+    "x": 12,
+    "y": 83,
+    "width": 1,
+    "height": 1,
+    "carrierTileIds": [
+      2
+    ],
+    "animations": [
+      {
+        "id": 2,
+        "frames": [
+          {
+            "tileid": 0,
+            "duration": 13000
+          },
+          {
+            "tileid": 1,
+            "duration": 200
+          },
+          {
+            "tileid": 0,
+            "duration": 19800
+          },
+          {
+            "tileid": 1,
+            "duration": 200
+          },
+          {
+            "tileid": 0,
+            "duration": 19800
+          },
+          {
+            "tileid": 1,
+            "duration": 200
+          },
+          {
+            "tileid": 0,
+            "duration": 19800
+          },
+          {
+            "tileid": 1,
+            "duration": 200
+          },
+          {
+            "tileid": 0,
+            "duration": 19800
+          },
+          {
+            "tileid": 1,
+            "duration": 200
+          },
+          {
+            "tileid": 0,
+            "duration": 19800
+          },
+          {
+            "tileid": 1,
+            "duration": 200
+          },
+          {
+            "tileid": 0,
+            "duration": 6800
+          }
+        ]
+      }
+    ],
+    "provenance": {
+      "metadataPath": "art/source/outer-security-29.json",
+      "atlasSha256": "2844ddd1197f4768554464795737a3baf11b72e23b5765095602e1c55b391512",
+      "inputs": [
+        {
+          "path": "art/source/outer-security-flight.json",
+          "sha256": "7229cc76531f33b7577f68745447d76b2d263bf246ede00c52efb8d1168cf16e"
+        },
+        {
+          "path": "tools/art/outer-security.ts",
+          "sha256": "247de6726704caa9649abb4a8fca2fc82f551bd2bf6367cae9b9c45648e22986"
+        },
+        {
+          "path": "tools/art/native-motion.ts",
+          "sha256": "4e6f0d41813fefc8a40dd5bf211866e5cd51eed882182bd97b93b220e13acf1a"
+        },
+        {
+          "path": "tools/maps/outer-security-roles.ts",
+          "sha256": "16d4936590f55ca1af71b5f36f7c149ed8928fb575fcd9959efd0529c9ff89f2"
+        },
+        {
+          "path": "art/source/outer-security-helicopter-master.png",
+          "sha256": "36f6f86ed87b7410eaa4eded1e942402f434451311506c96d1bbec7a1337aa8e"
+        },
+        {
+          "path": "art/source/plaza-fleet-camera-poses.png",
+          "sha256": "10387384eeb012a8a9f3ba00b12ca1bece07827f22205e3f91d61fe9baec44a0"
+        }
+      ]
+    }
+  },
+  "diagnostics": {
+    "phaseCount": 600,
+    "periodMs": 120000,
+    "stepMs": 200,
+    "sharedFrameTiles": 2,
+    "decodedRgbaBytes": 65536,
+    "atlas": {
+      "width": 512,
+      "height": 32,
+      "columns": 16,
+      "tilecount": 16
+    },
+    "tracks": [
+      {
+        "id": "security-drone-1",
+        "visiblePhases": 1,
+        "positionCount": 1,
+        "poseCount": 1
+      },
+      {
+        "id": "security-drone-2",
+        "visiblePhases": 1,
+        "positionCount": 1,
+        "poseCount": 1
+      },
+      {
+        "id": "security-drone-3",
+        "visiblePhases": 1,
+        "positionCount": 1,
+        "poseCount": 1
+      },
+      {
+        "id": "security-drone-4",
+        "visiblePhases": 1,
+        "positionCount": 1,
+        "poseCount": 1
+      },
+      {
+        "id": "security-drone-5",
+        "visiblePhases": 1,
+        "positionCount": 1,
+        "poseCount": 1
+      },
+      {
+        "id": "security-drone-6",
+        "visiblePhases": 1,
+        "positionCount": 1,
+        "poseCount": 1
+      },
+      {
+        "id": "security-helicopter",
+        "visiblePhases": 0,
+        "positionCount": 0,
+        "poseCount": 0
+      }
+    ]
+  }
+}

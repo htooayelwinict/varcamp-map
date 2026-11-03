@@ -1,0 +1,4 @@
+{
+  "prompt": "Correct this transparent helicopter sprite sheet for production animation. Preserve its exact 4 by 4 evenly spaced grid, all sixteen complete separate helicopters, same sizes/cell centers, blue-white H135 style, transparency, camera and art. IMPORTANT change only FIRST COLUMN, ROW 1 and FIRST COLUMN, ROW 3: those two should be viewed from the REAR with the NOSE at TOP of the cell, cockpit at far TOP and tail boom coming toward BOTTOM, heading NORTH. The first column rows2 and4 remain current south-heading front views. All other 12 sprites unchanged. Rotor angle for row1 and row3 should differ as existing animation phases. No text, no grid lines, no ground. The north-facing sprites must clearly show the tail at the BOTTOM and body/nose at the TOP.",
+  "generatedWith": "OpenAI built-in image_gen"
+}

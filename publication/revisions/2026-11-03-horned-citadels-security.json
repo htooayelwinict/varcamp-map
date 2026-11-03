@@ -1,0 +1,161 @@
+{
+  "schemaVersion": 1,
+  "revisions": [
+    {
+      "path": "art/source/coastal-flight.json",
+      "fromSha256": "9a61b2617def2165b54e9f124171b5e8545d850b0dbc3ac8a5247607e79f9744",
+      "toSha256": "877ed55d7a886ba660af5b063ffae6d2ad0fccb3964e9be9aa26164191827f7a",
+      "reason": "Redesign Aries and Capricorn as unique complete structures; restore only Taurus to its original building; add six outer-ring drones and an unarmed animated helicopter above all scenery. Preserve all grounded physics, controls, other architecture and prior atlases. Refresh shared producer and public route receipts."
+    },
+    {
+      "path": "art/sources.json",
+      "fromSha256": "bc80b8e853de8aeff65420db776a704b399d27e869c2526022138144c1dad84b",
+      "toSha256": "b9b9994ce6d6ac9fd457cc5b4bc7bfb8d6eedb7180f5a02845abecb7fb3b0813",
+      "reason": "Redesign Aries and Capricorn as unique complete structures; restore only Taurus to its original building; add six outer-ring drones and an unarmed animated helicopter above all scenery. Preserve all grounded physics, controls, other architecture and prior atlases. Refresh shared producer and public route receipts."
+    },
+    {
+      "path": "art/tile-catalog.json",
+      "fromSha256": "ad5f3d1d8fb656c6c34db585cf81601fe88cc84b33b6e982b209d4bbb6eba529",
+      "toSha256": "2e05fa0603185e812f460de4895f78d101495d5c8b06410576bd04d1a79ea5a6",
+      "reason": "Redesign Aries and Capricorn as unique complete structures; restore only Taurus to its original building; add six outer-ring drones and an unarmed animated helicopter above all scenery. Preserve all grounded physics, controls, other architecture and prior atlases. Refresh shared producer and public route receipts."
+    },
+    {
+      "path": "maps/overworld.tmj",
+      "fromSha256": "4d52d5ebdc02ed7b1761a3ed2a3bf6d2d8d8e6d011d2afa786b933c5187d9685",
+      "toSha256": "7bf3a2529029f221d11161a7562c15d6c6c6b0bfb1d5090b8b18dc3103339c90",
+      "reason": "Redesign Aries and Capricorn as unique complete structures; restore only Taurus to its original building; add six outer-ring drones and an unarmed animated helicopter above all scenery. Preserve all grounded physics, controls, other architecture and prior atlases. Refresh shared producer and public route receipts."
+    },
+    {
+      "path": "maps/preview/overworld.tmj",
+      "fromSha256": "158caf2bc44bc2befb29db2ca4e74da0db979a7daaed92004521ca88459efab2",
+      "toSha256": "9c47c3174a942704a9060b175bcef295ff419f41ca21d86116f6d8b690fdebd3",
+      "reason": "Redesign Aries and Capricorn as unique complete structures; restore only Taurus to its original building; add six outer-ring drones and an unarmed animated helicopter above all scenery. Preserve all grounded physics, controls, other architecture and prior atlases. Refresh shared producer and public route receipts."
+    },
+    {
+      "path": "tools/art/check.ts",
+      "fromSha256": "773086c82cf3c810a5d975068bc06b5ae68a42724ba72389c373e9fdb1119053",
+      "toSha256": "8b121b20f22c70143f12c084a88318e9505492d6dbb81fd1737c2c84631c0c9c",
+      "reason": "Redesign Aries and Capricorn as unique complete structures; restore only Taurus to its original building; add six outer-ring drones and an unarmed animated helicopter above all scenery. Preserve all grounded physics, controls, other architecture and prior atlases. Refresh shared producer and public route receipts."
+    },
+    {
+      "path": "tools/release.ts",
+      "fromSha256": "3779b894caebbd45c60085fbac29b323bb2c6dbf81102f6d9acb64175d17c96f",
+      "toSha256": "773bb7d16516be8f23a59f93d14af0aab1a7e171fdb1fb6e92449f579645f726",
+      "reason": "Redesign Aries and Capricorn as unique complete structures; restore only Taurus to its original building; add six outer-ring drones and an unarmed animated helicopter above all scenery. Preserve all grounded physics, controls, other architecture and prior atlases. Refresh shared producer and public route receipts."
+    },
+    {
+      "path": "world/layouts/air-district.json",
+      "fromSha256": "53e893164ad463c0f0b629839a986266145e7c28777d85fe210b6dbdb81f66cb",
+      "toSha256": "063a61dab8920169609188621a77c44e8271a51e086df1d4609dcc442bee1874",
+      "reason": "Redesign Aries and Capricorn as unique complete structures; restore only Taurus to its original building; add six outer-ring drones and an unarmed animated helicopter above all scenery. Preserve all grounded physics, controls, other architecture and prior atlases. Refresh shared producer and public route receipts."
+    },
+    {
+      "path": "world/layouts/campus-exploration.json",
+      "fromSha256": "ed4d34c2e47cc806565f5fa15dd27d0ed62820fcf750247f3cacb0102523ed7e",
+      "toSha256": "d7958ce1b7520159a6fad9bba963c74e546120b87ba852743eeff727c176b3cc",
+      "reason": "Redesign Aries and Capricorn as unique complete structures; restore only Taurus to its original building; add six outer-ring drones and an unarmed animated helicopter above all scenery. Preserve all grounded physics, controls, other architecture and prior atlases. Refresh shared producer and public route receipts."
+    },
+    {
+      "path": "world/layouts/comet-maze.json",
+      "fromSha256": "f3127ee5a2ee9b236136243e5edbaeaae17fc74b322fbfbf3deca1dff01009b6",
+      "toSha256": "43d152a3b8ac84591c2e09b1f4dde485afa323320209227a9c4540ab37ceef65",
+      "reason": "Redesign Aries and Capricorn as unique complete structures; restore only Taurus to its original building; add six outer-ring drones and an unarmed animated helicopter above all scenery. Preserve all grounded physics, controls, other architecture and prior atlases. Refresh shared producer and public route receipts."
+    },
+    {
+      "path": "world/layouts/constellation-shore.json",
+      "fromSha256": "04cd39f7bf1c9106fd82bff422e69141434d9ec67377a2059fa39cb3cd579688",
+      "toSha256": "1410372b15128bf6e9345a1f11e04ce5bc6d7052b57a6eea3aa8f4b9eb181ee0",
+      "reason": "Redesign Aries and Capricorn as unique complete structures; restore only Taurus to its original building; add six outer-ring drones and an unarmed animated helicopter above all scenery. Preserve all grounded physics, controls, other architecture and prior atlases. Refresh shared producer and public route receipts."
+    },
+    {
+      "path": "world/layouts/earth-district.json",
+      "fromSha256": "8f97241e5cfb8265d3b59f8aa6504342975484e0653069b9ba3583381a56dc0d",
+      "toSha256": "9cf3f148f79bf132a7f2682b12f63d64505ce0a6bb621ecdf71064ec89973597",
+      "reason": "Redesign Aries and Capricorn as unique complete structures; restore only Taurus to its original building; add six outer-ring drones and an unarmed animated helicopter above all scenery. Preserve all grounded physics, controls, other architecture and prior atlases. Refresh shared producer and public route receipts."
+    },
+    {
+      "path": "world/layouts/fa-ship.json",
+      "fromSha256": "98de6f2ee4e5d55cc23dba2c40e674e71763cc74b642ba075f1e7b99adbb037c",
+      "toSha256": "60d31163e89ca99373f4d660636ae41450346bce891ed0c584a18217bf3c1675",
+      "reason": "Redesign Aries and Capricorn as unique complete structures; restore only Taurus to its original building; add six outer-ring drones and an unarmed animated helicopter above all scenery. Preserve all grounded physics, controls, other architecture and prior atlases. Refresh shared producer and public route receipts."
+    },
+    {
+      "path": "world/layouts/fire-district.json",
+      "fromSha256": "c768762effc8be7b87ffb1ef8a613f585c2e898b38fc7db4ea5302f15013f744",
+      "toSha256": "b18e83c52e43ec8c720fc1b45b9757f3c03be3f75b11797314f5972b2f3b5afb",
+      "reason": "Redesign Aries and Capricorn as unique complete structures; restore only Taurus to its original building; add six outer-ring drones and an unarmed animated helicopter above all scenery. Preserve all grounded physics, controls, other architecture and prior atlases. Refresh shared producer and public route receipts."
+    },
+    {
+      "path": "world/layouts/hidden-observatory.json",
+      "fromSha256": "0761263888cdca4d43cbc605f7c227810ba3dac18fc8bf6de94e7f415162979e",
+      "toSha256": "3669ac07cb236ca58aa181c409f365bf51ba6a41f436a61f4ed614e25f4b92c6",
+      "reason": "Redesign Aries and Capricorn as unique complete structures; restore only Taurus to its original building; add six outer-ring drones and an unarmed animated helicopter above all scenery. Preserve all grounded physics, controls, other architecture and prior atlases. Refresh shared producer and public route receipts."
+    },
+    {
+      "path": "world/layouts/moon-cafe.json",
+      "fromSha256": "a3883f1b944d115857491d9c83b59183ffa245302d855eca39a0e35bbdde12d3",
+      "toSha256": "7b4bae43a8df8d413ef96db646ac9a22ecef77d430bdc3ae4ea6981ab8ab6b4f",
+      "reason": "Redesign Aries and Capricorn as unique complete structures; restore only Taurus to its original building; add six outer-ring drones and an unarmed animated helicopter above all scenery. Preserve all grounded physics, controls, other architecture and prior atlases. Refresh shared producer and public route receipts."
+    },
+    {
+      "path": "world/layouts/moon-grotto.json",
+      "fromSha256": "c6d070b5dacf128b05ca70a5134158b5a5d7216823d21afcf87f64d4aa2477f9",
+      "toSha256": "07d33c90428ca3cf886cf5303abf5c425b42970f36f882792b6c3bc97ea9a4ee",
+      "reason": "Redesign Aries and Capricorn as unique complete structures; restore only Taurus to its original building; add six outer-ring drones and an unarmed animated helicopter above all scenery. Preserve all grounded physics, controls, other architecture and prior atlases. Refresh shared producer and public route receipts."
+    },
+    {
+      "path": "world/layouts/nebula-arcade.json",
+      "fromSha256": "8715a521c59593e730184ae01ef493c948caa79cfb1120d297118967181264c9",
+      "toSha256": "a9c690f292ff983ec69ef4061b0bd5490bb76021544d9a3f8c6619fffe24924e",
+      "reason": "Redesign Aries and Capricorn as unique complete structures; restore only Taurus to its original building; add six outer-ring drones and an unarmed animated helicopter above all scenery. Preserve all grounded physics, controls, other architecture and prior atlases. Refresh shared producer and public route receipts."
+    },
+    {
+      "path": "world/layouts/orbit-maze.json",
+      "fromSha256": "687964070cb1cb5271df7aed9628d55f90b4d609968f241224ef549afd5804bb",
+      "toSha256": "97863d5e9ce1808d7a9ee6638c31b99bc371043e1948e5024757ea9d8dd452ce",
+      "reason": "Redesign Aries and Capricorn as unique complete structures; restore only Taurus to its original building; add six outer-ring drones and an unarmed animated helicopter above all scenery. Preserve all grounded physics, controls, other architecture and prior atlases. Refresh shared producer and public route receipts."
+    },
+    {
+      "path": "world/layouts/orbit-playground.json",
+      "fromSha256": "3cb5f70a45578bc2ff6069eaaeac3c1644a1c9a9a20195357c53a749ad3d02be",
+      "toSha256": "21988b53eabc443ff3e00e1aafc50852d7d2679f1b58cccc7754f99b7b201bb2",
+      "reason": "Redesign Aries and Capricorn as unique complete structures; restore only Taurus to its original building; add six outer-ring drones and an unarmed animated helicopter above all scenery. Preserve all grounded physics, controls, other architecture and prior atlases. Refresh shared producer and public route receipts."
+    },
+    {
+      "path": "world/layouts/overworld.json",
+      "fromSha256": "8999e7d8605f970ae4e7b4738d594f7152cf4ed627e60823b820c129dd2b8cf4",
+      "toSha256": "685cb2b35ab44c54fc35abffdf09b746e519b0c0bcaf7ca486fa0f7a89a9a0a6",
+      "reason": "Redesign Aries and Capricorn as unique complete structures; restore only Taurus to its original building; add six outer-ring drones and an unarmed animated helicopter above all scenery. Preserve all grounded physics, controls, other architecture and prior atlases. Refresh shared producer and public route receipts."
+    },
+    {
+      "path": "world/layouts/shipyard-beach.json",
+      "fromSha256": "06d65388db62047f9f9931b345d2421f390ffba31f9178891223c33428d1d6c7",
+      "toSha256": "ebf96c00078185e304e0614a6f02eccff8aacc15c708ab80e4fd702235c32e0d",
+      "reason": "Redesign Aries and Capricorn as unique complete structures; restore only Taurus to its original building; add six outer-ring drones and an unarmed animated helicopter above all scenery. Preserve all grounded physics, controls, other architecture and prior atlases. Refresh shared producer and public route receipts."
+    },
+    {
+      "path": "world/layouts/star-garden.json",
+      "fromSha256": "bf2da45ff1144f45b7a44849601172679763b5cea4b6a63dea212b51c9050fb7",
+      "toSha256": "4b2d2c0793c12ab63a9daa528e77cd848811cd5130596253c19a30fd8ba7b4fb",
+      "reason": "Redesign Aries and Capricorn as unique complete structures; restore only Taurus to its original building; add six outer-ring drones and an unarmed animated helicopter above all scenery. Preserve all grounded physics, controls, other architecture and prior atlases. Refresh shared producer and public route receipts."
+    },
+    {
+      "path": "world/layouts/stargazer-terrace.json",
+      "fromSha256": "3b59286ea88a57f3fc9f5eab3ebb6e66d9a814920c06450898c754aaf4fb20ed",
+      "toSha256": "35b7129915d9c646e0833ccfe3b2648fe5a9a050dd475773e4f74cb72da77bc0",
+      "reason": "Redesign Aries and Capricorn as unique complete structures; restore only Taurus to its original building; add six outer-ring drones and an unarmed animated helicopter above all scenery. Preserve all grounded physics, controls, other architecture and prior atlases. Refresh shared producer and public route receipts."
+    },
+    {
+      "path": "world/layouts/water-district.json",
+      "fromSha256": "cac9954f6e8503378651d2855f9b73ddf62c6563732f8472de37ccdbfe05341f",
+      "toSha256": "5d92b3d5beedc5a75e2fbfbc075d123de9cdb7b23c3f39d5c010e55628db632e",
+      "reason": "Redesign Aries and Capricorn as unique complete structures; restore only Taurus to its original building; add six outer-ring drones and an unarmed animated helicopter above all scenery. Preserve all grounded physics, controls, other architecture and prior atlases. Refresh shared producer and public route receipts."
+    },
+    {
+      "path": "world/layouts/zodiac-festival-park.json",
+      "fromSha256": "d745863a56c3aecf15a51b3638e010620081cb8f914a7aec33119e4af612e64b",
+      "toSha256": "3b92389274f700df5a437e6c22effd8ccc7035ca960615cd430004ae16025d59",
+      "reason": "Redesign Aries and Capricorn as unique complete structures; restore only Taurus to its original building; add six outer-ring drones and an unarmed animated helicopter above all scenery. Preserve all grounded physics, controls, other architecture and prior atlases. Refresh shared producer and public route receipts."
+    }
+  ]
+}

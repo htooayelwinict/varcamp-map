@@ -1,11 +1,11 @@
 # Zodiac building and hall review
 
-The November 2026 exterior review keeps the campus circle and the existing entrances. Cancer receives a new coastal crab citadel because its preceding scallop roof read as a shell rather than its zodiac animal. The other buildings already have distinct silhouettes and retain their artwork.
+The November 2026 exterior review keeps the campus circle and the existing entrances. Cancer receives a new coastal crab citadel because its preceding scallop roof read as a shell rather than its zodiac animal. A later owner review replaces Aries and Capricorn with complete architectural forms; their badges-on-house previews were rejected. Lewis restored only Taurus to its original building. The remaining buildings keep their distinct silhouettes.
 
 | Building | Architectural identity | Decision |
 | --- | --- | --- |
-| Aries | Copper ram horns and angular roof | Keep |
-| Taurus | Broad bull horns and green stonework | Keep |
+| Aries | Copper spiral galleries forming the entire side wings | Redesign whole architecture |
+| Taurus | Original broad bull horns and green stonework | Restored original at owner request |
 | Gemini | Two towers joined by a bridge | Keep |
 | Cancer | Limestone claw towers, segmented copper roof and crab relief | Replace shell pavilion |
 | Leo | Stepped stone citadel and integrated bronze lion | Keep the preceding redesign |
@@ -13,7 +13,7 @@ The November 2026 exterior review keeps the campus circle and the existing entra
 | Libra | Balanced domes and scales | Keep |
 | Scorpio | Dark armored roof and raised scorpion tail | Keep |
 | Sagittarius | Bow and arrow roof structure | Keep |
-| Capricorn | Steep mountain roof and curling horns | Keep |
+| Capricorn | Asymmetric mountain tower, stepped roofs and curling coastal gallery | Redesign whole architecture |
 | Aquarius | Paired amphora spillways | Keep |
 | Pisces | Paired fish around the central entrance | Keep |
 | Solar | Gold sun palace | Keep |
@@ -34,3 +34,5 @@ Recompile with `node --import tsx tools/art/cancer-citadel.ts` inside the devbox
 `tests/citadel-review.test.ts` checks Cancer's footprint and bounded walkable connectivity from the arrival floor to all 14 entrances and return pads. Run each affected test file alone with `systemd-run --user --scope -p MemoryMax=6G -p MemorySwapMax=0 npm test -- <file> --maxWorkers=1`.
 
 Before releasing a later change, inspect the building at game scale, walk behind its roof, verify that the lower walls block movement, and enter and leave through the existing portal. For a whole-campus review, exercise all twelve speaker entrances and both hall entrances in both directions. Follow the devbox deployment workflow and preserve live editor data with a token-only WAM migration.
+
+See [the exterior source guide](horned-citadels.md) and [outer-ring aerial patrols](outer-security.md) for the current additions.

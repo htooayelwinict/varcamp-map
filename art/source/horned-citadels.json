@@ -1,0 +1,414 @@
+{
+  "version": 1,
+  "operation": "Uniform nearest fit, centered at south edge, preserve complete silhouette, alpha below192 cleared",
+  "buildings": [
+    {
+      "sign": "aries",
+      "master": {
+        "path": "art/source/horned-citadels/aries-generated-master.png",
+        "sha256": "e451b19ec2bc4b1c58f6a2106935f9543cc9dba176bf99cd2074df70614ccf92"
+      },
+      "crop": {
+        "left": 13,
+        "top": 144,
+        "width": 1229,
+        "height": 1047
+      },
+      "target": {
+        "x": 0,
+        "y": 57,
+        "width": 384,
+        "height": 327
+      },
+      "image": {
+        "path": "assets/tilesets/original/aries-citadel.png",
+        "sha256": "e78ed73677558488e2ef8a5db3488c40869cf12b72dbe37b8be044c0f52048af"
+      },
+      "sprite": {
+        "sheet": "assets/tilesets/original/aries-citadel.png",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 12,
+          "height": 12
+        },
+        "blockingCells": [
+          [
+            0,
+            8
+          ],
+          [
+            1,
+            8
+          ],
+          [
+            2,
+            8
+          ],
+          [
+            3,
+            8
+          ],
+          [
+            4,
+            8
+          ],
+          [
+            5,
+            8
+          ],
+          [
+            6,
+            8
+          ],
+          [
+            7,
+            8
+          ],
+          [
+            8,
+            8
+          ],
+          [
+            9,
+            8
+          ],
+          [
+            10,
+            8
+          ],
+          [
+            11,
+            8
+          ],
+          [
+            0,
+            9
+          ],
+          [
+            1,
+            9
+          ],
+          [
+            2,
+            9
+          ],
+          [
+            3,
+            9
+          ],
+          [
+            4,
+            9
+          ],
+          [
+            7,
+            9
+          ],
+          [
+            8,
+            9
+          ],
+          [
+            9,
+            9
+          ],
+          [
+            10,
+            9
+          ],
+          [
+            11,
+            9
+          ],
+          [
+            0,
+            10
+          ],
+          [
+            1,
+            10
+          ],
+          [
+            2,
+            10
+          ],
+          [
+            3,
+            10
+          ],
+          [
+            4,
+            10
+          ],
+          [
+            7,
+            10
+          ],
+          [
+            8,
+            10
+          ],
+          [
+            9,
+            10
+          ],
+          [
+            10,
+            10
+          ],
+          [
+            11,
+            10
+          ],
+          [
+            0,
+            11
+          ],
+          [
+            1,
+            11
+          ],
+          [
+            2,
+            11
+          ],
+          [
+            3,
+            11
+          ],
+          [
+            4,
+            11
+          ],
+          [
+            7,
+            11
+          ],
+          [
+            8,
+            11
+          ],
+          [
+            9,
+            11
+          ],
+          [
+            10,
+            11
+          ],
+          [
+            11,
+            11
+          ]
+        ],
+        "level": "aboveAvatar",
+        "sourceId": "horned-citadels"
+      }
+    },
+    {
+      "sign": "capricorn",
+      "master": {
+        "path": "art/source/horned-citadels/capricorn-generated-master.png",
+        "sha256": "412c99f2d67b9974f8aa38bc2d7dcb126073930045c14afc6992ee6b8eb2c021"
+      },
+      "crop": {
+        "left": 5,
+        "top": 8,
+        "width": 1244,
+        "height": 1239
+      },
+      "target": {
+        "x": 0,
+        "y": 2,
+        "width": 384,
+        "height": 382
+      },
+      "image": {
+        "path": "assets/tilesets/original/capricorn-citadel.png",
+        "sha256": "9dd649b6d50c78f118381d1101ccae86b574f51104a5cb75135e55e23c3bc797"
+      },
+      "sprite": {
+        "sheet": "assets/tilesets/original/capricorn-citadel.png",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 12,
+          "height": 12
+        },
+        "blockingCells": [
+          [
+            0,
+            8
+          ],
+          [
+            1,
+            8
+          ],
+          [
+            2,
+            8
+          ],
+          [
+            3,
+            8
+          ],
+          [
+            4,
+            8
+          ],
+          [
+            5,
+            8
+          ],
+          [
+            6,
+            8
+          ],
+          [
+            7,
+            8
+          ],
+          [
+            8,
+            8
+          ],
+          [
+            9,
+            8
+          ],
+          [
+            10,
+            8
+          ],
+          [
+            11,
+            8
+          ],
+          [
+            0,
+            9
+          ],
+          [
+            1,
+            9
+          ],
+          [
+            2,
+            9
+          ],
+          [
+            3,
+            9
+          ],
+          [
+            4,
+            9
+          ],
+          [
+            7,
+            9
+          ],
+          [
+            8,
+            9
+          ],
+          [
+            9,
+            9
+          ],
+          [
+            10,
+            9
+          ],
+          [
+            11,
+            9
+          ],
+          [
+            0,
+            10
+          ],
+          [
+            1,
+            10
+          ],
+          [
+            2,
+            10
+          ],
+          [
+            3,
+            10
+          ],
+          [
+            4,
+            10
+          ],
+          [
+            7,
+            10
+          ],
+          [
+            8,
+            10
+          ],
+          [
+            9,
+            10
+          ],
+          [
+            10,
+            10
+          ],
+          [
+            11,
+            10
+          ],
+          [
+            0,
+            11
+          ],
+          [
+            1,
+            11
+          ],
+          [
+            2,
+            11
+          ],
+          [
+            3,
+            11
+          ],
+          [
+            4,
+            11
+          ],
+          [
+            7,
+            11
+          ],
+          [
+            8,
+            11
+          ],
+          [
+            9,
+            11
+          ],
+          [
+            10,
+            11
+          ],
+          [
+            11,
+            11
+          ]
+        ],
+        "level": "aboveAvatar",
+        "sourceId": "horned-citadels"
+      }
+    }
+  ]
+}

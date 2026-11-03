@@ -62115,7 +62115,7 @@
   "signs": [
     {
       "name": "harbour-plaza-way",
-      "text": "↑ PLAZA",
+      "text": "\u2191 PLAZA",
       "x": 22,
       "y": 2,
       "width": 4,
@@ -62126,7 +62126,7 @@
     },
     {
       "name": "harbour-boarding-way",
-      "text": "↓ BOARDING",
+      "text": "\u2193 BOARDING",
       "x": 18,
       "y": 35,
       "width": 4,
@@ -62137,7 +62137,7 @@
     },
     {
       "name": "harbour-shore-way",
-      "text": "↓ SHORE",
+      "text": "\u2193 SHORE",
       "x": 44,
       "y": 31,
       "width": 3,
@@ -64305,11 +64305,11 @@
           },
           {
             "path": "tools/maps/animated-decoration.ts",
-            "sha256": "c81193d65ce286903ac2d436e94ab717f2219b14a9fe3155f548034e030de7b7"
+            "sha256": "4c76b3a06dbdcc00e4914b72c04481535ef54159aaa33d2e4cd7a593dc5705c5"
           },
           {
             "path": "tools/maps/animated-decoration-contract.json",
-            "sha256": "5088480bcf4c6b9feac41dca63de7b1f2ffd3ae7969cbbb81641a10130534db9"
+            "sha256": "6b741277650d6a842801a80b25cbcdc74384d906d0fed1f6be52b9a9a351a251"
           },
           {
             "path": "tools/art/native-motion.ts",
@@ -65893,11 +65893,11 @@
           },
           {
             "path": "tools/maps/animated-decoration.ts",
-            "sha256": "c81193d65ce286903ac2d436e94ab717f2219b14a9fe3155f548034e030de7b7"
+            "sha256": "4c76b3a06dbdcc00e4914b72c04481535ef54159aaa33d2e4cd7a593dc5705c5"
           },
           {
             "path": "tools/maps/animated-decoration-contract.json",
-            "sha256": "5088480bcf4c6b9feac41dca63de7b1f2ffd3ae7969cbbb81641a10130534db9"
+            "sha256": "6b741277650d6a842801a80b25cbcdc74384d906d0fed1f6be52b9a9a351a251"
           },
           {
             "path": "tools/art/native-motion.ts",
@@ -67117,11 +67117,11 @@
           },
           {
             "path": "tools/maps/animated-decoration.ts",
-            "sha256": "c81193d65ce286903ac2d436e94ab717f2219b14a9fe3155f548034e030de7b7"
+            "sha256": "4c76b3a06dbdcc00e4914b72c04481535ef54159aaa33d2e4cd7a593dc5705c5"
           },
           {
             "path": "tools/maps/animated-decoration-contract.json",
-            "sha256": "5088480bcf4c6b9feac41dca63de7b1f2ffd3ae7969cbbb81641a10130534db9"
+            "sha256": "6b741277650d6a842801a80b25cbcdc74384d906d0fed1f6be52b9a9a351a251"
           },
           {
             "path": "tools/art/native-motion.ts",
@@ -72625,11 +72625,11 @@
           },
           {
             "path": "tools/maps/animated-decoration.ts",
-            "sha256": "c81193d65ce286903ac2d436e94ab717f2219b14a9fe3155f548034e030de7b7"
+            "sha256": "4c76b3a06dbdcc00e4914b72c04481535ef54159aaa33d2e4cd7a593dc5705c5"
           },
           {
             "path": "tools/maps/animated-decoration-contract.json",
-            "sha256": "5088480bcf4c6b9feac41dca63de7b1f2ffd3ae7969cbbb81641a10130534db9"
+            "sha256": "6b741277650d6a842801a80b25cbcdc74384d906d0fed1f6be52b9a9a351a251"
           },
           {
             "path": "tools/art/native-motion.ts",
@@ -78133,11 +78133,11 @@
           },
           {
             "path": "tools/maps/animated-decoration.ts",
-            "sha256": "c81193d65ce286903ac2d436e94ab717f2219b14a9fe3155f548034e030de7b7"
+            "sha256": "4c76b3a06dbdcc00e4914b72c04481535ef54159aaa33d2e4cd7a593dc5705c5"
           },
           {
             "path": "tools/maps/animated-decoration-contract.json",
-            "sha256": "5088480bcf4c6b9feac41dca63de7b1f2ffd3ae7969cbbb81641a10130534db9"
+            "sha256": "6b741277650d6a842801a80b25cbcdc74384d906d0fed1f6be52b9a9a351a251"
           },
           {
             "path": "tools/art/native-motion.ts",

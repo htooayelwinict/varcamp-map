@@ -3,6 +3,8 @@ import {parkArcadeProtectedLayers,parkArcadeAtlases,isParkLampSource} from './pa
 import {playgroundProtectedLayers} from './playground-context';
 import {leoCitadelAtlases,leoCitadelContextSource} from './leo-citadel';
 import {cancerCitadelAtlases} from './cancer-citadel';
+import {hornedCitadelAtlases} from './horned-citadels';
+import {securityAtlases} from './outer-security';
 import {VIBECODE_IMAGE,VIBECODE_CAPTION_IMAGE} from '../art/vibecode';
 import{isDeepStrictEqual}from'node:util';
 import registered from'../../art/source/native-ownership-context.json';
@@ -289,6 +291,8 @@ function currentAtlases(row:ContextRow,source:TiledMap,epoch:Epoch=CURRENT,inclu
  expected.push(...parkArcadeAtlases(identities(source)[0]));
  expected.push(...leoCitadelAtlases(source,Math.max(...expected.map(t=>t.firstgid+t.tilecount!))));
  expected.push(...cancerCitadelAtlases(source,Math.max(...expected.map(t=>t.firstgid+t.tilecount!))));
+ expected.push(...hornedCitadelAtlases(source,Math.max(...expected.map(t=>t.firstgid+t.tilecount!))));
+ expected.push(...securityAtlases(source,Math.max(...expected.map(t=>t.firstgid+t.tilecount!))));
  return expected;
 }
 /** Mandatory final current context: complete atlas roster/order/bodies/ranges,
@@ -309,8 +313,13 @@ export function assertNativeAuthoringContext(actual:TiledMap,source:TiledMap):vo
  const expected=currentAtlases(row,source);
  if(isDeepStrictEqual(actual.tilesets,row.atlases))return;
  if(isDeepStrictEqual(actual.tilesets,expected))return;
- if(cancerCitadelAtlases(source,0).length===1&&isDeepStrictEqual(actual.tilesets,expected.slice(0,-1)))return;
- if(leoCitadelAtlases(source,0).length===1&&isDeepStrictEqual(actual.tilesets,expected.slice(0,-1)))return;
+ const securityCount=securityAtlases(source,0).length;
+ if(securityCount&&isDeepStrictEqual(actual.tilesets,expected.slice(0,-securityCount)))return;
+ // Atomic release from the exact pre-redesign campus: two buildings plus the patrol family.
+ if(securityCount&&hornedCitadelAtlases(source,0).length===2&&isDeepStrictEqual(actual.tilesets,expected.slice(0,-securityCount-2)))return;
+ if(!securityCount&&hornedCitadelAtlases(source,0).length===2&&isDeepStrictEqual(actual.tilesets,expected.slice(0,-2)))return;
+ if(!hornedCitadelAtlases(source,0).length&&cancerCitadelAtlases(source,0).length===1&&isDeepStrictEqual(actual.tilesets,expected.slice(0,-1)))return;
+ if(!hornedCitadelAtlases(source,0).length&&leoCitadelAtlases(source,0).length===1&&isDeepStrictEqual(actual.tilesets,expected.slice(0,-1)))return;
  const parkCount=parkArcadeAtlases(identities(source)[0]).length;
  if(parkCount&&isDeepStrictEqual(actual.tilesets,expected.slice(0,-parkCount)))return;
  const navigationCount=navigationAtlases(identities(source)[0]).length;

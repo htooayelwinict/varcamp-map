@@ -115,23 +115,23 @@
       },
       {
         "path": "art/source/coast-life-harbor-dolphin.json",
-        "sha256": "972e6beb8b2bd8dc718166c7c2a7ae0380730d44d4ad95e83fed0e380ba380a6"
+        "sha256": "b25102e287f643a9b3230c6103138dfb5700688a4a19f838d3d3c0a20ec20eb6"
       },
       {
         "path": "art/source/coast-life-harbor-fish-east.json",
-        "sha256": "32588a169ebeeb52d1a5a15200c154b6f03a59af33a1212e2bfa45db7fac2dcb"
+        "sha256": "5c8df0a343ba715ecbd9a93008e573e16ed52d8e3572603e82c71bc0906710a1"
       },
       {
         "path": "art/source/coast-life-harbor-fish-west.json",
-        "sha256": "e469d529aea9b127ee6131dd6acb4d0ccefc73975f38a34ff19d317b5097f4c0"
+        "sha256": "6dea2bf781029b3cc763c82d51bf6db222c92c64ff3320c0c28fd2115c110812"
       },
       {
         "path": "art/source/coast-life-harbor-gull-north.json",
-        "sha256": "8a131e3891604d8d6f28a0b5b79fa5bcb5b17c15a753ce32a6b927897d4e7596"
+        "sha256": "202100d8a03ae0007ad474b1bd64c4bbb86e4765fe4652ca3fe6e602d5ece9e9"
       },
       {
         "path": "art/source/coast-life-harbor-gull-south.json",
-        "sha256": "bd0a85a4d05ff41c36f031fdfc5bc468bc82f6941dbddf91a0f8391e26d0f65b"
+        "sha256": "507464368a7761926add76cd838bab7946ce7d07eff881c40d64e5052a5a23f1"
       },
       {
         "path": "art/source/coast-life-marine-master.png",
@@ -155,7 +155,7 @@
       },
       {
         "path": "art/source/coast-life-shore-dolphin.json",
-        "sha256": "8d2a3c0ae2b080365e22b7032a2dd4b401d8467335c8f57819e3b4612cd9cfcd"
+        "sha256": "bba8680ed6e4bdb620e20f960a52c434aea91f66a7d09b3febb666a95cfb65a1"
       },
       {
         "path": "art/source/coast-life-shore-fish-bay.json",
@@ -163,19 +163,19 @@
       },
       {
         "path": "art/source/coast-life-shore-fish-west.json",
-        "sha256": "3dcd85be8f45d26ab5651323b775edd8c79de89fd0b8e54abf88d6e6f005389b"
+        "sha256": "0de579cb57d712966d63d2b45d437d476489ef660a4383f19168aac1e0fb57e4"
       },
       {
         "path": "art/source/coast-life-shore-gull-north.json",
-        "sha256": "b1bb94cc304bd3c0adffa2797a3f60d2374e4aea7b1cf444fabfa199528d37ce"
+        "sha256": "ca685e63a2e7f87cf64529ff8cfb43b93809a08302c400fa527bfb6ac8597c22"
       },
       {
         "path": "art/source/coast-life-shore-gull-south.json",
-        "sha256": "56a4ab5ae606d119159375969ad719680346538b773584ac88dd4d95e5504045"
+        "sha256": "e414d6d14f57e897edca5d60dcb486a3de316fcaa2956a540b18caa9488f47da"
       },
       {
         "path": "art/source/coast-life-shore-seal.json",
-        "sha256": "f51f9b4264eb9ace5566704af38f752ba61670a4675a31b3ed0357190d3b6f94"
+        "sha256": "dfcbe68228ab8fc107c1577aae8b432dd801dcb9a7c47e5a9d74339d1c2f4e6c"
       },
       {
         "path": "art/source/coast-life-small-props-master.png",
@@ -195,7 +195,7 @@
       },
       {
         "path": "art/source/coastal-flight.json",
-        "sha256": "9a61b2617def2165b54e9f124171b5e8545d850b0dbc3ac8a5247607e79f9744"
+        "sha256": "877ed55d7a886ba660af5b063ffae6d2ad0fccb3964e9be9aa26164191827f7a"
       },
       {
         "path": "art/source/expo-captions.json",
@@ -391,7 +391,7 @@
       },
       {
         "path": "art/source/world-ambient-air-district-device-1.json",
-        "sha256": "251bfa8a197b64e2779ad1c4e0601c06553d1806e024f9c9f8c09cd0167cd44d"
+        "sha256": "a0ce7cc9511eb239c6bae57656fe73ad4d4382e45dc74c5739ca445c09bc4511"
       },
       {
         "path": "art/source/world-ambient-air-district-lamp-2-poses.png",
@@ -399,7 +399,7 @@
       },
       {
         "path": "art/source/world-ambient-air-district-lamp-2.json",
-        "sha256": "f1c596c42717e0b57b2f322a1b629ff2a490fea222d6e85d64e189a02a8db820"
+        "sha256": "015e0893fa0c3c254ec7cf24f30447e1bebb0145ca4d9f49849420da4deb75c3"
       },
       {
         "path": "art/source/world-ambient-approved-fish-strip.png",
@@ -419,7 +419,7 @@
       },
       {
         "path": "art/source/world-ambient-campus-exploration-device-1.json",
-        "sha256": "a4eb1afb528ef6a10daa6bb8d7ff7ca70c00d34cb2cc0cffb7a37773a85253a1"
+        "sha256": "b9fa15cc30469531b279f3f875d0ba90b823e741ee64b08381c0585b18e0843a"
       },
       {
         "path": "art/source/world-ambient-campus-exploration-leaves-2-poses.png",
@@ -427,7 +427,7 @@
       },
       {
         "path": "art/source/world-ambient-campus-exploration-leaves-2.json",
-        "sha256": "126cd4770e19d90d4d5683f108249221e2fe8995093f5a6de2a34baa387e7c52"
+        "sha256": "6573526a6754049314ed172531b2c87084cd6196720b1c98d15961cf916d442b"
       },
       {
         "path": "art/source/world-ambient-cascade-poses.png",
@@ -439,7 +439,7 @@
       },
       {
         "path": "art/source/world-ambient-comet-maze-lamp-1.json",
-        "sha256": "2aeb71997e0d2adaea5de4e72b2844659d14bd88cbe152e9898ca4fb6fe08d14"
+        "sha256": "33f75f33d439c12968efdae675ba330c47d8a1fa6fafd15e9e4132e3269308c6"
       },
       {
         "path": "art/source/world-ambient-comet-maze-lamp-2-poses.png",
@@ -447,7 +447,7 @@
       },
       {
         "path": "art/source/world-ambient-comet-maze-lamp-2.json",
-        "sha256": "42eabe93e69c8f969ae674f43c66ac191bd1d5200f0419d8924fb616b48660bd"
+        "sha256": "e3424555992939636784da57c28fcc2bb8f350e9475be89acadbf54ccaebaa0a"
       },
       {
         "path": "art/source/world-ambient-device-poses.png",
@@ -459,7 +459,7 @@
       },
       {
         "path": "art/source/world-ambient-earth-district-device-1.json",
-        "sha256": "53ac52a2906a9ea47aa910c8931bfb8d4a27b6e6c62e9a575aa7124fcbb2a7c7"
+        "sha256": "9acb896da463adfc5c17ca850b80e973d7a38162c570f3059739644dd856e4cd"
       },
       {
         "path": "art/source/world-ambient-earth-district-lamp-2-poses.png",
@@ -467,7 +467,7 @@
       },
       {
         "path": "art/source/world-ambient-earth-district-lamp-2.json",
-        "sha256": "a5b286049689c801feb314aaf255172a24af55413bd024cebcac0e6a905fc959"
+        "sha256": "d8a6024a48fe4f2c57356796293ce5e73b0d7a899dc21f874982db507ce7ddfc"
       },
       {
         "path": "art/source/world-ambient-fa-ship-fish-2-poses.png",
@@ -475,7 +475,7 @@
       },
       {
         "path": "art/source/world-ambient-fa-ship-fish-2.json",
-        "sha256": "9186bad185f2837af59b03cc5d025a8e72db38c9b03addd99ac85a2d2a60dc95"
+        "sha256": "4c64913df9ae658e6dcd522651f0bd61cc5403cafede5cdb2e884ec0e4f005b5"
       },
       {
         "path": "art/source/world-ambient-fa-ship-gull-1-poses.png",
@@ -483,7 +483,7 @@
       },
       {
         "path": "art/source/world-ambient-fa-ship-gull-1.json",
-        "sha256": "35aa091afa939f1352812b7e476ab1d94daf771ac7eb88e7f34d194228f92961"
+        "sha256": "a22dee3db2171be7de600ecaad4f7485f6bd701eae7d3d79b35c59d82fb77d4c"
       },
       {
         "path": "art/source/world-ambient-fa-ship-interior-lamp-2-poses.png",
@@ -491,7 +491,7 @@
       },
       {
         "path": "art/source/world-ambient-fa-ship-interior-lamp-2.json",
-        "sha256": "cdec3ce12fd7c6c0cc05487f98981d0d9e1236e7aa1cae3946addff8c40c7d03"
+        "sha256": "bae9a52c9813b37e2d8a1248626492db2a18383ba9df936f00a2708d6b9b4c5f"
       },
       {
         "path": "art/source/world-ambient-fa-ship-interior-steam-1-lower-poses.png",
@@ -507,11 +507,11 @@
       },
       {
         "path": "art/source/world-ambient-fa-ship-interior-steam-1-upper.json",
-        "sha256": "f52d291977cfcf087ffe0c3b599074e5a8b6d987fd6eadc133967745b9e8211e"
+        "sha256": "dea264e9e7b6e8594bd1d9f3ab5f84cbd4b402df677f8b114e3774a05962d0df"
       },
       {
         "path": "art/source/world-ambient-fa-ship-interior-steam-1.json",
-        "sha256": "e909af04aacf549d5539927f778868d22659b513e18d39bd77c0fefa512b3c68"
+        "sha256": "cbef41768a5904fd396806f6ceaf1237e04dc27aeb507e8d8dbee14ac79a025b"
       },
       {
         "path": "art/source/world-ambient-fire-district-heat-1-poses.png",
@@ -519,7 +519,7 @@
       },
       {
         "path": "art/source/world-ambient-fire-district-heat-1.json",
-        "sha256": "85f590d4239b5faaf3b1ef6983fac92ec4909e8166db513cfb6ff0d2f97eabbf"
+        "sha256": "7fbdc31798327fc273f9ee0305fc96ba475ba9a10a13712b8757fdf37642c40d"
       },
       {
         "path": "art/source/world-ambient-fire-district-steam-2-poses.png",
@@ -527,7 +527,7 @@
       },
       {
         "path": "art/source/world-ambient-fire-district-steam-2.json",
-        "sha256": "ab153a123c62e26a30689f2b198a7b45b726277747da6f0016171029e8fb3a58"
+        "sha256": "f498ec557943f79fcd49b71c7dcc254958553f30b36a8d56714f8ed031973122"
       },
       {
         "path": "art/source/world-ambient-fish-poses.png",
@@ -555,7 +555,7 @@
       },
       {
         "path": "art/source/world-ambient-hidden-observatory-device-2.json",
-        "sha256": "7f1ae90ad2b6cffa49df2875d2b173ee548ac6e9ac1f8904c8e339e2b43e2c1d"
+        "sha256": "381910e4a7a91a467d5571b8cfcdf0ec7572df95ffc0b047ae2d67bc210e2347"
       },
       {
         "path": "art/source/world-ambient-hidden-observatory-instrument-1-poses.png",
@@ -563,7 +563,7 @@
       },
       {
         "path": "art/source/world-ambient-hidden-observatory-instrument-1.json",
-        "sha256": "1b2297b2f75e8949e74849acd2affbb7d1d1a74bb97746785851aa81e4ea0183"
+        "sha256": "f1f452ce828df7f2fcd2f09f40ac002a7258920173bb18cf11cac304464dc665"
       },
       {
         "path": "art/source/world-ambient-lamp-poses.png",
@@ -579,7 +579,7 @@
       },
       {
         "path": "art/source/world-ambient-moon-cafe-bubbles-2.json",
-        "sha256": "89bcedf83d759f9e07b650a301e871da17d3d216de52a70fccc3d7c7f2137809"
+        "sha256": "83afc20f4dfb2847707f2271f7dc58a4dfbad872d43e52c24475c200c66345c8"
       },
       {
         "path": "art/source/world-ambient-moon-cafe-steam-1-poses.png",
@@ -587,7 +587,7 @@
       },
       {
         "path": "art/source/world-ambient-moon-cafe-steam-1.json",
-        "sha256": "30806b98261d45b45e73ef87c0666e3fcea53cf538ed8077e2c0e604d4cde427"
+        "sha256": "678e0ec5b3c806078c1da5da7a0371d36192d60002a4acd36b63e43915e3b555"
       },
       {
         "path": "art/source/world-ambient-moon-grotto-crystal-2-poses.png",
@@ -595,7 +595,7 @@
       },
       {
         "path": "art/source/world-ambient-moon-grotto-crystal-2.json",
-        "sha256": "98c506bc9be51e73b3e6580642e94afa8746f8d9c5eb2536972483b30ebfe0fb"
+        "sha256": "ef8a4f9a924d93fae9fdfbfedcfebb8b30be88d9f8e85ce2ef05c97800968fbc"
       },
       {
         "path": "art/source/world-ambient-moon-grotto-ripples-1-poses.png",
@@ -603,7 +603,7 @@
       },
       {
         "path": "art/source/world-ambient-moon-grotto-ripples-1.json",
-        "sha256": "4cf17b2a78c0df26ad05735f5e3d472cd8427701541af5bf7d0ea44fbd54ab59"
+        "sha256": "f3e2132945c2bc6c6ab75261c0321f556dcb4a6f7e9f842c4ba69b835bff4abe"
       },
       {
         "path": "art/source/world-ambient-nebula-arcade-device-1-poses.png",
@@ -611,7 +611,7 @@
       },
       {
         "path": "art/source/world-ambient-nebula-arcade-device-1.json",
-        "sha256": "4f4680d85f66fbafc056e035e7ce50b601def43166f7f33ecbd0723728d49f90"
+        "sha256": "499524b2b02eaaca733a1cd376728157c525ce9a62e2e7d85f55db3c24fc53c3"
       },
       {
         "path": "art/source/world-ambient-nebula-arcade-device-2-poses.png",
@@ -619,7 +619,7 @@
       },
       {
         "path": "art/source/world-ambient-nebula-arcade-device-2.json",
-        "sha256": "f9b87ca8491c8893cc1cc8cfd1075fe6f2fd76348e317071e1cacaf676339403"
+        "sha256": "239a23fac862b095513a9b4c5f273e169a1e3c857d30e2eaed8e32de1bca4814"
       },
       {
         "path": "art/source/world-ambient-nebula-arcade-device-3-poses.png",
@@ -627,7 +627,7 @@
       },
       {
         "path": "art/source/world-ambient-nebula-arcade-device-3.json",
-        "sha256": "3e524597229ff60741cf3d51efe6afa57dd702413035032bd3f3a22f84f98195"
+        "sha256": "b9666a53fd395c112f977932ca18c013ab858fed3f1c1aafb2df791e000edb85"
       },
       {
         "path": "art/source/world-ambient-orbit-maze-lamp-1-poses.png",
@@ -635,7 +635,7 @@
       },
       {
         "path": "art/source/world-ambient-orbit-maze-lamp-1.json",
-        "sha256": "9e68c5fc8b5739a7cdbce8a6a9ea7d84164085d970a71db640e2c8774b3d5405"
+        "sha256": "68328f392f1f4f4ef33be995d459bdc7c0c3dddfff82cfd4aec4ceee66ebc86c"
       },
       {
         "path": "art/source/world-ambient-orbit-maze-lamp-2-poses.png",
@@ -643,7 +643,7 @@
       },
       {
         "path": "art/source/world-ambient-orbit-maze-lamp-2.json",
-        "sha256": "d5209167d418c43b94df726446c8f0f9c342a55cc4a4641bf1fdfcb35b23d90e"
+        "sha256": "2febf37e55a8eb1fa13f2826782c3ae869a1100be9d1b1d54d9865983aaff3af"
       },
       {
         "path": "art/source/world-ambient-orbit-playground-device-1-poses.png",
@@ -651,7 +651,7 @@
       },
       {
         "path": "art/source/world-ambient-orbit-playground-device-1.json",
-        "sha256": "5ffdbdba3c0c350f1aa98e768a823618b9880f6c9421747e3973440cc7d25e23"
+        "sha256": "24852dd94494fb22c07bd7bf10546bdec459c8fbf70c1d848bf754dfca14ff20"
       },
       {
         "path": "art/source/world-ambient-orbit-playground-leaves-2-poses.png",
@@ -659,7 +659,7 @@
       },
       {
         "path": "art/source/world-ambient-orbit-playground-leaves-2.json",
-        "sha256": "3290f10929c52008108298d5f56ca23eccaf3e0d7d004d2e896f95d939f47b86"
+        "sha256": "185da4178c09dba1ccfa5e7cd71d1a89c196cc43ba71f2afcdb39af615859727"
       },
       {
         "path": "art/source/world-ambient-planter-approved-atlas.png",
@@ -675,7 +675,7 @@
       },
       {
         "path": "art/source/world-ambient-star-garden-leaves-2.json",
-        "sha256": "0cc5cd0ea09680d17d890da51b40adf9a2d8c72a9f7878d68f1e67035d1ea6e5"
+        "sha256": "dfcf96bda9a72bb8db9012d14567ab675bcbd1e918400b446dd338820acb8da7"
       },
       {
         "path": "art/source/world-ambient-star-garden-ripples-1-poses.png",
@@ -683,7 +683,7 @@
       },
       {
         "path": "art/source/world-ambient-star-garden-ripples-1.json",
-        "sha256": "a82a71337297b13b214ebf42c1a3a065ab186dc1b97a673fb992e09661e05b4b"
+        "sha256": "116fcb93f1d7712273be98660258f97910b23d750e986c6d3cf6051d8bce791a"
       },
       {
         "path": "art/source/world-ambient-stargazer-terrace-instrument-1-poses.png",
@@ -691,7 +691,7 @@
       },
       {
         "path": "art/source/world-ambient-stargazer-terrace-instrument-1.json",
-        "sha256": "72c57898022e64c9ad5892d50937df3333f3d5663925ca7604d6a185c4dc158e"
+        "sha256": "95f9b0877b43b3c9aa6de70ff262e86bb565cee167a1a68d5144811aec737dc9"
       },
       {
         "path": "art/source/world-ambient-stargazer-terrace-leaves-2-poses.png",
@@ -699,7 +699,7 @@
       },
       {
         "path": "art/source/world-ambient-stargazer-terrace-leaves-2.json",
-        "sha256": "11a953521df51b4628cd0a58ff9a32b931fc3909955d97235b2762cb0a5cedeb"
+        "sha256": "b81868f9d1805cc5652b07bea825440bfe93d684a261131bb698622c9bd48cbb"
       },
       {
         "path": "art/source/world-ambient-steam-poses.png",
@@ -711,7 +711,7 @@
       },
       {
         "path": "art/source/world-ambient-water-district-cascade-2.json",
-        "sha256": "62ff38ec966561739ea928c8e3a75d51099f0ef4fecc62535459dd9b6bf637fa"
+        "sha256": "e4ed8c16ad46638afd01799222890dba2ee96e9d349da6b999234b0094af7afe"
       },
       {
         "path": "art/source/world-ambient-water-district-ripples-1-poses.png",
@@ -719,7 +719,7 @@
       },
       {
         "path": "art/source/world-ambient-water-district-ripples-1.json",
-        "sha256": "da82dd2b832f0c700f9c594b46b259818ca2cbe5aabfc709342cf6d4c61fb0b6"
+        "sha256": "1e02fd0b6c70000e19976537ff60b814ea158b66a5d5572354796c3acd583480"
       },
       {
         "path": "art/source/world-ambient-zodiac-festival-park-leaves-2-poses.png",
@@ -727,7 +727,7 @@
       },
       {
         "path": "art/source/world-ambient-zodiac-festival-park-leaves-2.json",
-        "sha256": "06359d3224aed01caa0b44d25b635c73de88d98695a832d0962815055801a4b4"
+        "sha256": "debab27de8230b148283d374e3287d93f3c97cf5a126225c0d02653ceca15e05"
       },
       {
         "path": "art/source/world-ambient-zodiac-festival-park-ripples-1-poses.png",
@@ -735,7 +735,7 @@
       },
       {
         "path": "art/source/world-ambient-zodiac-festival-park-ripples-1.json",
-        "sha256": "a949cef63d6e534f47712eb66bf53f15d5177b5d3601fe753fb9f6a1de438d9f"
+        "sha256": "87f8f90e136ba6a6f5a6a3ce39a6d370f252d06144b474fa79e74059c5412406"
       },
       {
         "path": "art/source/world-ambient.json",
@@ -2041,7 +2041,7 @@
       },
       {
         "path": "art/source/natural-shipyard-beach.json",
-        "sha256": "9bcf1491b18cd49398ed80533d71759ea0fcc36cc48d45868ffeb5f6d9f2b5a9"
+        "sha256": "23a5c4906c1786bdd8b19588e75a7fbec583d25361525a2e01bc90051c44c3c0"
       },
       {
         "path": "assets/tilesets/original/natural-constellation-shore-dunes.png",
@@ -2049,7 +2049,7 @@
       },
       {
         "path": "art/source/natural-constellation-shore.json",
-        "sha256": "0ac6e8594f3e69c3cbb596e3dbdca12117e263157960c4a691e0d0a36799f572"
+        "sha256": "9bbb48008c69666997c091d8a65558c55d122af5a60bfceeaa6575151114d403"
       }
     ]
   },
@@ -2163,6 +2163,520 @@
       {
         "path": "assets/tilesets/original/cancer-citadel.png",
         "sha256": "074f474759586d1974cfce43b31e5a088e3f1853363700bce995c2e8e54d1ee1"
+      }
+    ]
+  },
+  "horned-citadels": {
+    "attribution": "Original VarCamp architecture generated with OpenAI image generation, 2026-11-03; native integration by the VarCamp map team",
+    "url": "art/source/horned-citadels/prompts.json",
+    "license": "Original project artwork; permitted project distribution",
+    "licenseFile": "assets/tilesets/horned-citadels/LICENSE.txt",
+    "changes": "Whole-building Aries and Capricorn architecture derived from approved Leo and Cancer style; Taurus stays original at owner request.",
+    "files": [
+      {
+        "path": "world/horned-citadels.json",
+        "sha256": "1a9420e1f04b7becd8fa3af834f2e6e4732a1c45b6f2fb1b6201805c9f0c76ba"
+      },
+      {
+        "path": "tools/art/horned-citadels.ts",
+        "sha256": "5a9bba169bd1ea69af88ed1de1ed499201d431b95af2947d84c0a373954eeeb6"
+      },
+      {
+        "path": "tools/maps/horned-citadels.ts",
+        "sha256": "421066c4800c8cd9ef97f6b7468de41b756da62b690d306d63fe45dcf6ebaaca"
+      },
+      {
+        "path": "art/source/horned-citadels/prompts.json",
+        "sha256": "3452d54d4b67d43cd35f0605dd6b1861fb451c3fc937d009f76c8292c1aa2076"
+      },
+      {
+        "path": "art/source/horned-citadels/aries-generated-master.png",
+        "sha256": "e451b19ec2bc4b1c58f6a2106935f9543cc9dba176bf99cd2074df70614ccf92"
+      },
+      {
+        "path": "art/source/horned-citadels/capricorn-generated-master.png",
+        "sha256": "412c99f2d67b9974f8aa38bc2d7dcb126073930045c14afc6992ee6b8eb2c021"
+      },
+      {
+        "path": "art/source/horned-citadels.json",
+        "sha256": "ab23fd1e0918c2cf474fe802ab6ce2d994b7b8a573dd2a0ce9ebd7bbb629c411"
+      },
+      {
+        "path": "assets/tilesets/original/aries-citadel.png",
+        "sha256": "e78ed73677558488e2ef8a5db3488c40869cf12b72dbe37b8be044c0f52048af"
+      },
+      {
+        "path": "assets/tilesets/original/capricorn-citadel.png",
+        "sha256": "9dd649b6d50c78f118381d1101ccae86b574f51104a5cb75135e55e23c3bc797"
+      }
+    ]
+  },
+  "outer-security": {
+    "attribution": "Original VarCamp helicopter artwork generated with OpenAI image generation, 2026-11-03; route animation by the VarCamp map team; existing original camera drone poses reused",
+    "url": "https://www.airbus.com/en/products-services/helicopters/civil-helicopters/h135/h135-technical-information",
+    "license": "Original project artwork; permitted project distribution",
+    "licenseFile": "assets/tilesets/outer-security/LICENSE.txt",
+    "changes": "Six extra realistic quadcopters and one H135-style unarmed patrol helicopter on separate outer-ring flight lanes. 53 synchronized native clips, no ground colliders.",
+    "files": [
+      {
+        "path": "tools/art/outer-security.ts",
+        "sha256": "247de6726704caa9649abb4a8fca2fc82f551bd2bf6367cae9b9c45648e22986"
+      },
+      {
+        "path": "tools/maps/outer-security.ts",
+        "sha256": "25f20e9607c56c4af863366c327ee05cbd78182725fc6ca2b432050b5de72f9c"
+      },
+      {
+        "path": "tools/maps/outer-security-roles.ts",
+        "sha256": "16d4936590f55ca1af71b5f36f7c149ed8928fb575fcd9959efd0529c9ff89f2"
+      },
+      {
+        "path": "world/outer-security.json",
+        "sha256": "5dc642fa6c63cb0f91bf64e81872ddff648d7b2376a6287aa8bc17cf3ddd008b"
+      },
+      {
+        "path": "art/source/outer-security-flight.json",
+        "sha256": "7229cc76531f33b7577f68745447d76b2d263bf246ede00c52efb8d1168cf16e"
+      },
+      {
+        "path": "art/source/outer-security-helicopter-master.png",
+        "sha256": "36f6f86ed87b7410eaa4eded1e942402f434451311506c96d1bbec7a1337aa8e"
+      },
+      {
+        "path": "art/source/outer-security/prompt.json",
+        "sha256": "d4427854352b34f9bec7d8f1d92dcfb3a402923445f50c2017ee9ce3b67fafa6"
+      },
+      {
+        "path": "art/source/outer-security/correction.json",
+        "sha256": "7ece038cc68b1b67ed0b5f2179d58776828551ead16dafb91f0f68a6599dbdc2"
+      },
+      {
+        "path": "art/source/outer-security.json",
+        "sha256": "691233b5715017bf4dc5ed7add17e70d691868488b95a8eadae6bf2e4dd30b09"
+      },
+      {
+        "path": "assets/tilesets/original/outer-security-00.png",
+        "sha256": "1e030030939bb0eea238c714546e028eb8a616a9d1131bf2147d7c74a36eec02"
+      },
+      {
+        "path": "art/source/outer-security-00.json",
+        "sha256": "abb1259df551d3b7eca91a90dfa329778ff8569f2b053e090353c4aa337bd027"
+      },
+      {
+        "path": "assets/tilesets/original/outer-security-01.png",
+        "sha256": "f83e369a97d33b9b9370632ceddcea7c89be245be451ae721c6dfe4dba807b93"
+      },
+      {
+        "path": "art/source/outer-security-01.json",
+        "sha256": "b8d9c7fec9cbc37d91d8bafaf0824fe30039f5d9e4fcede85b89829a5d83cd93"
+      },
+      {
+        "path": "assets/tilesets/original/outer-security-02.png",
+        "sha256": "79dd6c7ab36d67bc09521b8aec382fc9b6b6683469f2122f0fc404fa189c8930"
+      },
+      {
+        "path": "art/source/outer-security-02.json",
+        "sha256": "5dc8fdc8e9304c767817ef6d3350931940c6a5227501464fd67fb8e39a9f6010"
+      },
+      {
+        "path": "assets/tilesets/original/outer-security-03.png",
+        "sha256": "b82faf04db20486b03a533ff240ca0a4b1fbfa65577cf3561dc237ba0fd990d7"
+      },
+      {
+        "path": "art/source/outer-security-03.json",
+        "sha256": "59ae50306b7ad3926cb86becf1cf774a2b6ad452a711db597b6411d4c1de6dd4"
+      },
+      {
+        "path": "assets/tilesets/original/outer-security-04.png",
+        "sha256": "8fcafc5404731f75faf4609ae214e446b79736e8d849510c34434e14ea998d01"
+      },
+      {
+        "path": "art/source/outer-security-04.json",
+        "sha256": "34fc72f24c2b969d158105ee334ccd2ff6a50025d89010dbc206aeff8d3603ae"
+      },
+      {
+        "path": "assets/tilesets/original/outer-security-05.png",
+        "sha256": "f62d343702ae8767a1663b8398d8d1e2f5861378273df1691d2ceca299b8e54d"
+      },
+      {
+        "path": "art/source/outer-security-05.json",
+        "sha256": "d696430cf901b04ec304c2d3c378e85e292fce352c378e241686c572bd1dd310"
+      },
+      {
+        "path": "assets/tilesets/original/outer-security-06.png",
+        "sha256": "25851566a7bfa38264a501aa1aa7583eb9b2b559d17909c137339e414dfeb11c"
+      },
+      {
+        "path": "art/source/outer-security-06.json",
+        "sha256": "18091cbb85841e88bd582a491953870ef421d4327da21994881b1d269be0321d"
+      },
+      {
+        "path": "assets/tilesets/original/outer-security-07.png",
+        "sha256": "2fb3dfc26be1c83500932c064c32500defadf2d5dc3e5f51b9872023491caa87"
+      },
+      {
+        "path": "art/source/outer-security-07.json",
+        "sha256": "2e491375445446ac6a27898db967f4601de493c323c52576fa55515351fd0ed8"
+      },
+      {
+        "path": "assets/tilesets/original/outer-security-08.png",
+        "sha256": "108e11b7fb04154dc4301701de920892cc417ac6daaeb561338b701b58e9fc9e"
+      },
+      {
+        "path": "art/source/outer-security-08.json",
+        "sha256": "ef178bf88ac682d4045a8c0e25dc2b8e459d8da41e7cf90b30fcb6dad36ad9d1"
+      },
+      {
+        "path": "assets/tilesets/original/outer-security-09.png",
+        "sha256": "b998da1fea35fe2b18a2b77ccc56441adfd80905e55578bbdee9e78e5cadc633"
+      },
+      {
+        "path": "art/source/outer-security-09.json",
+        "sha256": "f93a22b09bfa9a7701bb1fd4f6d8326b77da431659b8abfbe0fed6d0f607cc90"
+      },
+      {
+        "path": "assets/tilesets/original/outer-security-10.png",
+        "sha256": "8fa99aa03b03df125adca27bfe37fa15b3de1f5e4f799d69f93fad19810d72fe"
+      },
+      {
+        "path": "art/source/outer-security-10.json",
+        "sha256": "dd5d44304c2be119597be8d583a4f7df0b3646d9dd1dac5369494969687563f0"
+      },
+      {
+        "path": "assets/tilesets/original/outer-security-11.png",
+        "sha256": "2a02dc14bfde0000bc407f675ab9c3971eae6bd77725a698921ea06d91027c38"
+      },
+      {
+        "path": "art/source/outer-security-11.json",
+        "sha256": "64debcb7b56806a1f07356181310018de22f30bd7e874791ae74e28af173d71f"
+      },
+      {
+        "path": "assets/tilesets/original/outer-security-12.png",
+        "sha256": "11f2575fc0034f5733b4a069140e9b2b57e8d563af04ddd5941d4a4bfeb2385c"
+      },
+      {
+        "path": "art/source/outer-security-12.json",
+        "sha256": "4801b6348a542fea04d4dd3459f3a63d6b2dcad08d67b24f290f1d68e0374e9a"
+      },
+      {
+        "path": "assets/tilesets/original/outer-security-13.png",
+        "sha256": "81d5138444b8a64240bc78b4ee66e30d3ce6602cbae2b7d16d1966a03b405dc9"
+      },
+      {
+        "path": "art/source/outer-security-13.json",
+        "sha256": "7679a3047b74d2dbb7044b2e19b387146e7f68386035c4818aa772f532f23d16"
+      },
+      {
+        "path": "assets/tilesets/original/outer-security-14.png",
+        "sha256": "cb44a417db337bf988d77f60ebd4cc7379c9e96949743325b1363760c0f01821"
+      },
+      {
+        "path": "art/source/outer-security-14.json",
+        "sha256": "2f6471d0d1b8001a2f7c69d351233e5898cf8921f3e061575d33638b03cb5d7f"
+      },
+      {
+        "path": "assets/tilesets/original/outer-security-15.png",
+        "sha256": "ac4579ab346d11639225fc77c99e227915ad34919583f4220d6e65698d008455"
+      },
+      {
+        "path": "art/source/outer-security-15.json",
+        "sha256": "14a54e758de177e690de4d0fa8f6bef7c1d3a67fbb99ee99b5c3c430999447cc"
+      },
+      {
+        "path": "assets/tilesets/original/outer-security-16.png",
+        "sha256": "7a41ea39a20cdc20ae3652c174d575d457440769d1b40f0fd1148759dfa60da1"
+      },
+      {
+        "path": "art/source/outer-security-16.json",
+        "sha256": "a0bf5b9fdb0f5fb786d9cd8b8120c670fda22b318a9329157a73ecea54dc3ab2"
+      },
+      {
+        "path": "assets/tilesets/original/outer-security-17.png",
+        "sha256": "237c29eb00c1d13cb6f87fa9ad0fd81e27296c548212b67372ce2401704e07a9"
+      },
+      {
+        "path": "art/source/outer-security-17.json",
+        "sha256": "e9407c670dd18699cfa22f890f6528a00001f7a2842ff3e7ce2185d400ef61ee"
+      },
+      {
+        "path": "assets/tilesets/original/outer-security-18.png",
+        "sha256": "7b114a2a5c0a58f1ecc25b2dd04e611e1a21ccf3e71224aa4d53ebda3115e566"
+      },
+      {
+        "path": "art/source/outer-security-18.json",
+        "sha256": "857a8907dc6acb6916da4a4a41b0d9e0100b9db8eb595ea5f2669514a883ccd7"
+      },
+      {
+        "path": "assets/tilesets/original/outer-security-19.png",
+        "sha256": "e8d65c86f7641b488e52654cfcae0c01088f5dfa8af11941c77820a696e7cc82"
+      },
+      {
+        "path": "art/source/outer-security-19.json",
+        "sha256": "07104a40a83e856ea25a9c68016326a244485415707ab221f151d147303e9500"
+      },
+      {
+        "path": "assets/tilesets/original/outer-security-20.png",
+        "sha256": "807eced7347f37b86c83268462c645b88a4d5bf71eea1f8ef71bb33a079aeff1"
+      },
+      {
+        "path": "art/source/outer-security-20.json",
+        "sha256": "73e6a7024db91b9fbc0cf5a0aca8b726322377d8dfa5209a886f4e2051c8c412"
+      },
+      {
+        "path": "assets/tilesets/original/outer-security-21.png",
+        "sha256": "03a92ff08ab657eaddcd19498bf8fd44735e4bc5686e7a069a6cc7207befcb02"
+      },
+      {
+        "path": "art/source/outer-security-21.json",
+        "sha256": "2f8b733de1719f8015b63b3d4ace9375a4e8ebeb52bf9f09f1ccf60f15d04152"
+      },
+      {
+        "path": "assets/tilesets/original/outer-security-22.png",
+        "sha256": "a6ae2e7773c47ea3a3c3aec821c8b7ada92590d434776188a72092251c0c9a30"
+      },
+      {
+        "path": "art/source/outer-security-22.json",
+        "sha256": "3b143a7c9dba194d6bbb5e20a6fe4d3f51e6dbc0a3b3feb1c9bca9ac6754fd55"
+      },
+      {
+        "path": "assets/tilesets/original/outer-security-23.png",
+        "sha256": "4807415aedb51dbea6990525a3a154da100dfe16ed239f5928185f1950461ce5"
+      },
+      {
+        "path": "art/source/outer-security-23.json",
+        "sha256": "3d675021e3afd528dada2b75b0939d5db972f84e994b888734a4330290ea473a"
+      },
+      {
+        "path": "assets/tilesets/original/outer-security-24.png",
+        "sha256": "6cdb3903af0c5f1522a907bff5bccde9750ac2de7d11cf1a549e9364606a5473"
+      },
+      {
+        "path": "art/source/outer-security-24.json",
+        "sha256": "17ed53481d0743c2515585f6f9aa59387989a95f9f72f07792afd4e697f321d2"
+      },
+      {
+        "path": "assets/tilesets/original/outer-security-25.png",
+        "sha256": "f1326720d3fbe40b6422de9acef83467ddafade3b760277e9cac4eb94bf58b86"
+      },
+      {
+        "path": "art/source/outer-security-25.json",
+        "sha256": "45052b8d493605d570bc8075b6f6b0bd72db72d78771a940478702e51b1fce3c"
+      },
+      {
+        "path": "assets/tilesets/original/outer-security-26.png",
+        "sha256": "15dded1f2123d4817c387c91b1869c1f8edccd389a3a3eaf50f1afd8201f9228"
+      },
+      {
+        "path": "art/source/outer-security-26.json",
+        "sha256": "25ddd1610d831cd0dc441b1dea8fc15d7230e15d4b58e82e8a60847511e85838"
+      },
+      {
+        "path": "assets/tilesets/original/outer-security-27.png",
+        "sha256": "af1d73dec17831aabae63097abd096f6fdedd45860f875bacbe2e6adc0ffca84"
+      },
+      {
+        "path": "art/source/outer-security-27.json",
+        "sha256": "832991e6b9e406a67a55ed972cb0fd052a5aa76858b6b4be0b7c05e4f7b228e1"
+      },
+      {
+        "path": "assets/tilesets/original/outer-security-28.png",
+        "sha256": "808edc8d336a944f23e97491f8e6b680ccf0b3ec44f389fc0369796cf350c105"
+      },
+      {
+        "path": "art/source/outer-security-28.json",
+        "sha256": "f70dd6e38e9521b3a8181f67bce77fd39ed678fcfbe3e051770f7011a9c6975d"
+      },
+      {
+        "path": "assets/tilesets/original/outer-security-29.png",
+        "sha256": "2844ddd1197f4768554464795737a3baf11b72e23b5765095602e1c55b391512"
+      },
+      {
+        "path": "art/source/outer-security-29.json",
+        "sha256": "f5ada1d5fa514dd91ab7d584d181857b1a9ba07dd87b507d74fb725443e7196c"
+      },
+      {
+        "path": "assets/tilesets/original/outer-security-30.png",
+        "sha256": "6620bef0ee013129b5a5fddde79e1c6b81dbd1980a68f438c55de98b43ec95be"
+      },
+      {
+        "path": "art/source/outer-security-30.json",
+        "sha256": "719f5806fb5fed85464afee7d22036affc68c9f1bc1a626e618c39647b34c218"
+      },
+      {
+        "path": "assets/tilesets/original/outer-security-31.png",
+        "sha256": "cca39539a21e135b2d16b89bbb65562a4c5408386cbb1dbc593b617787bf1f12"
+      },
+      {
+        "path": "art/source/outer-security-31.json",
+        "sha256": "788edd9b7b224e9d1d430e2a28ae9c2b38dae695524b7cc1469851504dac463d"
+      },
+      {
+        "path": "assets/tilesets/original/outer-security-32.png",
+        "sha256": "417ed96da1176ac0167edf75fab540dfa90cce6fdb080153bb606ed2dc6bb901"
+      },
+      {
+        "path": "art/source/outer-security-32.json",
+        "sha256": "93a737640189203fa8afee8919310f21d011fd17b3c99f7197f302c6ae7ad580"
+      },
+      {
+        "path": "assets/tilesets/original/outer-security-33.png",
+        "sha256": "633af0ee791aef0f301f6c58fb978e04a74c018c761e708a3ce91b1ce5b39cc7"
+      },
+      {
+        "path": "art/source/outer-security-33.json",
+        "sha256": "d9a593202fb388a8bcba1d128da80972f3ba83f7bb356e78d99385090d96093f"
+      },
+      {
+        "path": "assets/tilesets/original/outer-security-34.png",
+        "sha256": "5f55eb9dd085d941466c52f65412bb931e15ca1c61e9a7ee2f99a907e4ce9245"
+      },
+      {
+        "path": "art/source/outer-security-34.json",
+        "sha256": "e80d37f7685e42f71f076159977721b04940b55b38758e5a92267b895f8139bc"
+      },
+      {
+        "path": "assets/tilesets/original/outer-security-35.png",
+        "sha256": "9f6a96be5c7286b952c56175a62f133e06bd0bd553d34d901717ff11e9efc137"
+      },
+      {
+        "path": "art/source/outer-security-35.json",
+        "sha256": "bcdfbe1b89d5b5d20b71ade4c6b0518285279b7eec680cdc363c3ec2c7e2e181"
+      },
+      {
+        "path": "assets/tilesets/original/outer-security-36.png",
+        "sha256": "518b1fe19197bc87b3fa47e4f5e0140876f0efe68e044dc8a3833f7c144e8224"
+      },
+      {
+        "path": "art/source/outer-security-36.json",
+        "sha256": "256a775fac86118976ddbe8bcc58d4060ba97309cb8f7608a20a8fbdb045669b"
+      },
+      {
+        "path": "assets/tilesets/original/outer-security-37.png",
+        "sha256": "db52c5160b6798792a29f4c4b736c9fd2c2ddbdf6785b30054ebe46627b57c00"
+      },
+      {
+        "path": "art/source/outer-security-37.json",
+        "sha256": "693901ea2ff9107eeccf092874206e017382be6e71e462e104ebd0dd26a3efde"
+      },
+      {
+        "path": "assets/tilesets/original/outer-security-38.png",
+        "sha256": "89929a0d57ca30d93690f34fcf59b6323dea6a4817591f36defe8c236cfbc901"
+      },
+      {
+        "path": "art/source/outer-security-38.json",
+        "sha256": "c5c62b0789717871f6ef2dfe697892034efef39ccdb985b0e36d65ff1944d94b"
+      },
+      {
+        "path": "assets/tilesets/original/outer-security-39.png",
+        "sha256": "880d0164bc82c2c9be85842a99f8178822499435254566f4c6194aa2eb6957ad"
+      },
+      {
+        "path": "art/source/outer-security-39.json",
+        "sha256": "3725bd8eebbe5d8c145dbc13a46111d669b94a60fbe242bcc394c92e11cd95e5"
+      },
+      {
+        "path": "assets/tilesets/original/outer-security-40.png",
+        "sha256": "9f6a96be5c7286b952c56175a62f133e06bd0bd553d34d901717ff11e9efc137"
+      },
+      {
+        "path": "art/source/outer-security-40.json",
+        "sha256": "cb72a67519118d5e390129e79c5eeb36df7cc49358e29d7d99576a260ab5b950"
+      },
+      {
+        "path": "assets/tilesets/original/outer-security-41.png",
+        "sha256": "24ccef3d3834e2d081c0880edf701e9c011bc2d73bb50a0cb156f8de9a2d1a02"
+      },
+      {
+        "path": "art/source/outer-security-41.json",
+        "sha256": "a058ca2e3cc8986a67326284652e2e60acce498717919aa8a6cbc3c342682fec"
+      },
+      {
+        "path": "assets/tilesets/original/outer-security-42.png",
+        "sha256": "f32aa540face26e348b966f145644301029dd92cc98949a58e33d4b5e717a32a"
+      },
+      {
+        "path": "art/source/outer-security-42.json",
+        "sha256": "86bd7d251a3e60451cd837f5535bec81768de569c9aa9cb18543af08745e0d7f"
+      },
+      {
+        "path": "assets/tilesets/original/outer-security-43.png",
+        "sha256": "c81cd5612c3a9db026c7c4b671ec1fe906f65baeb72ba5c9dde830f1cca26306"
+      },
+      {
+        "path": "art/source/outer-security-43.json",
+        "sha256": "e6683cf3955e115008507e1bc73e5780282dd26ce0e3f12d7754e53d36ce9591"
+      },
+      {
+        "path": "assets/tilesets/original/outer-security-44.png",
+        "sha256": "ff10816b913ed2afe4b9cc383a7ef897cd2252d542aaf23fdd29c3e3ac73b6e5"
+      },
+      {
+        "path": "art/source/outer-security-44.json",
+        "sha256": "10a3e76bb00de4a56d5f46b3e9acd7b07516c9e852d90a910b3fd98d308ed86c"
+      },
+      {
+        "path": "assets/tilesets/original/outer-security-45.png",
+        "sha256": "91b7ed2a624ab970648ae8f7b826da7f389839002d16acfec09f3aa20390d70f"
+      },
+      {
+        "path": "art/source/outer-security-45.json",
+        "sha256": "8e0597dcc4dcfbcb3d425fe7d5c4f0f5a8ea0edc175a133a37dd7ee931341fb1"
+      },
+      {
+        "path": "assets/tilesets/original/outer-security-46.png",
+        "sha256": "2fb983b956c7bedfc9491ac86e59f54481e4adb40f2c6d89e886a4ade59ba131"
+      },
+      {
+        "path": "art/source/outer-security-46.json",
+        "sha256": "fdbc9a87bf8437f7cf429883d3e2bbfcd5dc930c762f73ea1b2bfdf8ec0f5c5a"
+      },
+      {
+        "path": "assets/tilesets/original/outer-security-47.png",
+        "sha256": "e458373de7ffa718cc0f94025638fe73621a02f7071c3e77c2a726128e3d2ada"
+      },
+      {
+        "path": "art/source/outer-security-47.json",
+        "sha256": "27cf5e7ca43009452fcd0d07e1be4b491a8a0afd6a6d9b05497507a3b0139f29"
+      },
+      {
+        "path": "assets/tilesets/original/outer-security-48.png",
+        "sha256": "7a00d9e1ad43394b3586a0b20d383c3a480d0153ee54c6d934bde0640fee2bd2"
+      },
+      {
+        "path": "art/source/outer-security-48.json",
+        "sha256": "6c77200b6c591abc02524cffe476e6dbbb590347eba5091393e630c3cd2e7bd0"
+      },
+      {
+        "path": "assets/tilesets/original/outer-security-49.png",
+        "sha256": "d796d68074574a63ec9257e15ab033b438b587991d0a669dfe33bf698b9e9a88"
+      },
+      {
+        "path": "art/source/outer-security-49.json",
+        "sha256": "5ad97509817b530af7cbf39fff7c45063b38682c58263efebbfda1a79bc35db3"
+      },
+      {
+        "path": "assets/tilesets/original/outer-security-50.png",
+        "sha256": "c355c0f044502ffd6478de5467253261e12a6d94f00313e1bf5ebbd38a8e4868"
+      },
+      {
+        "path": "art/source/outer-security-50.json",
+        "sha256": "7a7dff93edc5fcc3f6811c40507ebf5b1b2323c2811a3de03571d47461cb2729"
+      },
+      {
+        "path": "assets/tilesets/original/outer-security-51.png",
+        "sha256": "bfc389e5c391905dcb5cfca5a0caa5af37ae941cb81e4357c31780cc1154bc19"
+      },
+      {
+        "path": "art/source/outer-security-51.json",
+        "sha256": "88b70b260320ff739ed43f8df9a68f2219bea9f233852b1d7e591e2837ee02ec"
+      },
+      {
+        "path": "assets/tilesets/original/outer-security-52.png",
+        "sha256": "783abe14413ecf09b8b68d3bc14a752d51c59bbd5acf1d90f0aed0d4d4360af4"
+      },
+      {
+        "path": "art/source/outer-security-52.json",
+        "sha256": "a78cec5a22e96dc121380700dfda6eaf8518b86613e1530d95e267dcae7bd805"
       }
     ]
   }

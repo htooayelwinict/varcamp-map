@@ -1,3 +1,4 @@
+import {SECURITY_IDS} from './outer-security-roles';
 import {PATROL_IDS} from './patrol-roles';
 import {FOUNTAIN_MOTION_IDS,FOUNTAIN_OWNER,FOUNTAIN_SOURCE_SHA} from './fountain-motion-roles';
 import arcadeRefresh from '../../art/source/park-arcade-refresh.json';
@@ -25,7 +26,7 @@ export function currentDecorationRoles():Record<string,Role[]>{
  let count=0,upper=0,airborne=0,aircraft=0;
  for(const id of ids){
   const rows=contract.maps[id];need(Array.isArray(rows)&&rows.every((r:any)=>r&&typeof r.name==='string')&&new Set(rows.map((r:Role)=>r.name)).size===rows.length,'role rows missing/duplicate: '+id);let names:string[];
-  if(id==='overworld')names=['roadster',...Array.from({length:40},(_,i)=>'plaza-drone-'+String(i).padStart(2,'0')),'plaza-fleet-camera','plaza-fleet-delivery','plaza-fleet-survey',...PATROL_IDS,...FOUNTAIN_MOTION_IDS];
+  if(id==='overworld')names=['roadster',...Array.from({length:40},(_,i)=>'plaza-drone-'+String(i).padStart(2,'0')),'plaza-fleet-camera','plaza-fleet-delivery','plaza-fleet-survey',...PATROL_IDS,...FOUNTAIN_MOTION_IDS,...SECURITY_IDS];
   else if(id==='shipyard-beach')names=['coastal-flight','rolling-breaker-west','rolling-breaker-east',...['fish-west','fish-east','gull-north','gull-south','dolphin'].map(k=>'coast-life-harbor-'+k)];
   else if(id==='constellation-shore')names=['fish-west','fish-bay','gull-north','gull-south','dolphin','seal'].map(k=>'coast-life-shore-'+k);
   else if(interiors.includes(id))names=['plant','steam','server',...(interior.maps[id].water?['water']:[])].map(k=>'interior-ambient-'+k);
@@ -36,7 +37,7 @@ export function currentDecorationRoles():Record<string,Role[]>{
   need(isDeepStrictEqual(rows.map((r:Role)=>r.name),sorted(names)),'required role roster/order changed: '+id);
   for(const r of rows){const isUpper=r.role==='opaqueOwnerUpper';need(r&&isDeepStrictEqual(Object.keys(r).sort(),isUpper?['name','owner','role']:['name','role'])&&typeof r.name==='string'&&['avatarForeground','opaqueOwnerUpper','airborne','aircraft'].includes(r.role),'role schema changed');if(isUpper){upper++;need((id==='fa-ship-interior'||id==='nebula-arcade'&&isDeepStrictEqual(r,(arcadeRefresh as any).arcadeUpperRoles?.find((a:Role)=>a.name===r.name))||id==='overworld'&&r.name===FOUNTAIN_MOTION_IDS[1]&&isDeepStrictEqual(r.owner,{...FOUNTAIN_OWNER,sheetSha256:FOUNTAIN_SOURCE_SHA}))&&r.owner&&/^[a-f0-9]{64}$/.test(r.owner.sheetSha256),'owning upper family/registration changed');}need((r.role==='airborne')===isCurrentAirborne(id,r.name),'closed airborne role changed');if(r.role==='airborne')airborne++;need((r.role==='aircraft')===isCurrentAircraft(id,r.name),'closed aircraft role changed');if(r.role==='aircraft')aircraft++;count++;}
  }
- need(count===148&&upper===6&&airborne===5&&aircraft===50,'closed148-role/six-upper/50-aircraft ownership count changed');return contract.maps;
+ need(count===201&&upper===6&&airborne===5&&aircraft===103,'closed201-role/six-upper/103-aircraft ownership count changed');return contract.maps;
 }
 /** Shared current author/current acceptance source policy; historical generic
  * builders never call this and retain their independently tested behavior. */

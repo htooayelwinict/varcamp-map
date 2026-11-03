@@ -1,3 +1,5 @@
+import {restoreOuterSecurity} from './outer-security';
+import {restoreHornedCitadels} from './horned-citadels';
 import {applyVibeCodeBranding,restoreVibeCodeBranding} from './vibecode-branding';
 import {applyCheckInCounter,restoreCheckInCounter} from './check-in-definition';
 import {applyEventPresentation,restoreEventPresentation} from './event-presentation';
@@ -68,7 +70,7 @@ export function assertNativePlaza(map:TiledMap,layout:MapLayout,catalog:TileCata
  need(layout.id==='overworld'&&identity.length===1&&identity[0].type==='string'&&identity[0].value==='overworld'&&map.width===128&&map.height===128,'current map/layout identity changed');
  assertCheckInPhysicsCatalog(catalog);
  assertAudienceFootprintCatalog(catalog);
- restoreLeoCitadel(restoreCancerCitadel(layout,catalog),catalog);
+ restoreLeoCitadel(restoreCancerCitadel(restoreHornedCitadels(restoreOuterSecurity(layout),catalog),catalog),catalog);
  const beforeEvent=restoreEventPresentation(layout);
  const priorCrescent=restorePlazaCrescent(restorePlazaLandscape(restoreVibeCodeBranding(restoreCheckInCounter(beforeEvent))));
  assertHallBuildings(priorCrescent,catalog);

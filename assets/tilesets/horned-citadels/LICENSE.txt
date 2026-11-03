@@ -1,0 +1,3 @@
+Original Aries and Capricorn architecture generated for VarCamp using OpenAI image generation on 2026-11-03. Native compilation and integration by the VarCamp map team.
+
+Original project artwork; permitted project distribution with this WorkAdventure map. Retain this notice, generated masters and prompt provenance. Other assets retain their own licenses.

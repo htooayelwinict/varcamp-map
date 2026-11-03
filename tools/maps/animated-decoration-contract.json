@@ -405,6 +405,218 @@
     ],
     "overworld": [
       {
+        "name": "outer-security-00",
+        "role": "aircraft"
+      },
+      {
+        "name": "outer-security-01",
+        "role": "aircraft"
+      },
+      {
+        "name": "outer-security-02",
+        "role": "aircraft"
+      },
+      {
+        "name": "outer-security-03",
+        "role": "aircraft"
+      },
+      {
+        "name": "outer-security-04",
+        "role": "aircraft"
+      },
+      {
+        "name": "outer-security-05",
+        "role": "aircraft"
+      },
+      {
+        "name": "outer-security-06",
+        "role": "aircraft"
+      },
+      {
+        "name": "outer-security-07",
+        "role": "aircraft"
+      },
+      {
+        "name": "outer-security-08",
+        "role": "aircraft"
+      },
+      {
+        "name": "outer-security-09",
+        "role": "aircraft"
+      },
+      {
+        "name": "outer-security-10",
+        "role": "aircraft"
+      },
+      {
+        "name": "outer-security-11",
+        "role": "aircraft"
+      },
+      {
+        "name": "outer-security-12",
+        "role": "aircraft"
+      },
+      {
+        "name": "outer-security-13",
+        "role": "aircraft"
+      },
+      {
+        "name": "outer-security-14",
+        "role": "aircraft"
+      },
+      {
+        "name": "outer-security-15",
+        "role": "aircraft"
+      },
+      {
+        "name": "outer-security-16",
+        "role": "aircraft"
+      },
+      {
+        "name": "outer-security-17",
+        "role": "aircraft"
+      },
+      {
+        "name": "outer-security-18",
+        "role": "aircraft"
+      },
+      {
+        "name": "outer-security-19",
+        "role": "aircraft"
+      },
+      {
+        "name": "outer-security-20",
+        "role": "aircraft"
+      },
+      {
+        "name": "outer-security-21",
+        "role": "aircraft"
+      },
+      {
+        "name": "outer-security-22",
+        "role": "aircraft"
+      },
+      {
+        "name": "outer-security-23",
+        "role": "aircraft"
+      },
+      {
+        "name": "outer-security-24",
+        "role": "aircraft"
+      },
+      {
+        "name": "outer-security-25",
+        "role": "aircraft"
+      },
+      {
+        "name": "outer-security-26",
+        "role": "aircraft"
+      },
+      {
+        "name": "outer-security-27",
+        "role": "aircraft"
+      },
+      {
+        "name": "outer-security-28",
+        "role": "aircraft"
+      },
+      {
+        "name": "outer-security-29",
+        "role": "aircraft"
+      },
+      {
+        "name": "outer-security-30",
+        "role": "aircraft"
+      },
+      {
+        "name": "outer-security-31",
+        "role": "aircraft"
+      },
+      {
+        "name": "outer-security-32",
+        "role": "aircraft"
+      },
+      {
+        "name": "outer-security-33",
+        "role": "aircraft"
+      },
+      {
+        "name": "outer-security-34",
+        "role": "aircraft"
+      },
+      {
+        "name": "outer-security-35",
+        "role": "aircraft"
+      },
+      {
+        "name": "outer-security-36",
+        "role": "aircraft"
+      },
+      {
+        "name": "outer-security-37",
+        "role": "aircraft"
+      },
+      {
+        "name": "outer-security-38",
+        "role": "aircraft"
+      },
+      {
+        "name": "outer-security-39",
+        "role": "aircraft"
+      },
+      {
+        "name": "outer-security-40",
+        "role": "aircraft"
+      },
+      {
+        "name": "outer-security-41",
+        "role": "aircraft"
+      },
+      {
+        "name": "outer-security-42",
+        "role": "aircraft"
+      },
+      {
+        "name": "outer-security-43",
+        "role": "aircraft"
+      },
+      {
+        "name": "outer-security-44",
+        "role": "aircraft"
+      },
+      {
+        "name": "outer-security-45",
+        "role": "aircraft"
+      },
+      {
+        "name": "outer-security-46",
+        "role": "aircraft"
+      },
+      {
+        "name": "outer-security-47",
+        "role": "aircraft"
+      },
+      {
+        "name": "outer-security-48",
+        "role": "aircraft"
+      },
+      {
+        "name": "outer-security-49",
+        "role": "aircraft"
+      },
+      {
+        "name": "outer-security-50",
+        "role": "aircraft"
+      },
+      {
+        "name": "outer-security-51",
+        "role": "aircraft"
+      },
+      {
+        "name": "outer-security-52",
+        "role": "aircraft"
+      },
+      {
         "name": "plaza-drone-00",
         "role": "aircraft"
       },
