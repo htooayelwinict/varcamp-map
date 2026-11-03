@@ -44134,6 +44134,130 @@
     "blockingCells": [],
     "level": "belowAvatar"
   },
+  "auditorium-stage-top": {
+    "sheet": "assets/tilesets/original/speaker-room-style.png",
+    "rect": {
+      "x": 0,
+      "y": 2,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [
+      [
+        0,
+        0
+      ]
+    ],
+    "level": "belowAvatar",
+    "sourceId": "original"
+  },
+  "auditorium-stage-left": {
+    "sheet": "assets/tilesets/original/speaker-room-style.png",
+    "rect": {
+      "x": 0,
+      "y": 3,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [
+      [
+        0,
+        0
+      ]
+    ],
+    "level": "belowAvatar",
+    "sourceId": "original"
+  },
+  "auditorium-stage-right": {
+    "sheet": "assets/tilesets/original/speaker-room-style.png",
+    "rect": {
+      "x": 0,
+      "y": 4,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [
+      [
+        0,
+        0
+      ]
+    ],
+    "level": "belowAvatar",
+    "sourceId": "original"
+  },
+  "auditorium-stage-fascia": {
+    "sheet": "assets/tilesets/original/ship-interior.png",
+    "rect": {
+      "x": 1,
+      "y": 1,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [
+      [
+        0,
+        0
+      ]
+    ],
+    "level": "belowAvatar",
+    "sourceId": "original"
+  },
+  "auditorium-stage-steps": {
+    "sheet": "assets/tilesets/original/ship-interior.png",
+    "rect": {
+      "x": 13,
+      "y": 0,
+      "width": 2,
+      "height": 2
+    },
+    "blockingCells": [],
+    "level": "belowAvatar",
+    "sourceId": "original"
+  },
+  "harbour-native-ladder": {
+    "sheet": "assets/tilesets/lpc-ship/lpc-ship-accessories.png",
+    "rect": {
+      "x": 2,
+      "y": 1,
+      "width": 1,
+      "height": 2
+    },
+    "blockingCells": [],
+    "upperCells": [],
+    "level": "belowAvatar",
+    "sourceId": "lpc-ship"
+  },
+  "harbour-timber-helm": {
+    "sheet": "assets/tilesets/original/harbour-helm.png",
+    "rect": {
+      "x": 0,
+      "y": 0,
+      "width": 2,
+      "height": 2
+    },
+    "blockingCells": [
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "upperCells": [
+      [
+        0,
+        0
+      ],
+      [
+        1,
+        0
+      ]
+    ],
+    "level": "belowAvatar",
+    "sourceId": "original"
+  },
   "natural-shipyard-beach-land-0": {
     "sheet": "assets/tilesets/original/natural-shipyard-beach.png",
     "sourceId": "lpc-water",
@@ -49980,85 +50104,5 @@
     },
     "blockingCells": [],
     "level": "belowAvatar"
-  },
-  "auditorium-stage-top": {
-    "sheet": "assets/tilesets/original/speaker-room-style.png",
-    "rect": {
-      "x": 0,
-      "y": 2,
-      "width": 1,
-      "height": 1
-    },
-    "blockingCells": [
-      [
-        0,
-        0
-      ]
-    ],
-    "level": "belowAvatar",
-    "sourceId": "original"
-  },
-  "auditorium-stage-left": {
-    "sheet": "assets/tilesets/original/speaker-room-style.png",
-    "rect": {
-      "x": 0,
-      "y": 3,
-      "width": 1,
-      "height": 1
-    },
-    "blockingCells": [
-      [
-        0,
-        0
-      ]
-    ],
-    "level": "belowAvatar",
-    "sourceId": "original"
-  },
-  "auditorium-stage-right": {
-    "sheet": "assets/tilesets/original/speaker-room-style.png",
-    "rect": {
-      "x": 0,
-      "y": 4,
-      "width": 1,
-      "height": 1
-    },
-    "blockingCells": [
-      [
-        0,
-        0
-      ]
-    ],
-    "level": "belowAvatar",
-    "sourceId": "original"
-  },
-  "auditorium-stage-fascia": {
-    "sheet": "assets/tilesets/original/ship-interior.png",
-    "rect": {
-      "x": 1,
-      "y": 1,
-      "width": 1,
-      "height": 1
-    },
-    "blockingCells": [
-      [
-        0,
-        0
-      ]
-    ],
-    "level": "belowAvatar",
-    "sourceId": "original"
-  },
-  "auditorium-stage-steps": {
-    "sheet": "assets/tilesets/original/ship-interior.png",
-    "rect": {
-      "x": 13,
-      "y": 0,
-      "width": 2,
-      "height": 2
-    },
-    "blockingCells": [],
-    "level": "belowAvatar",
-    "sourceId": "original"
   }
 }

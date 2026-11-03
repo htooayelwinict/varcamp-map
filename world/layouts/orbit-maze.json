@@ -1499,51 +1499,6 @@
       "layer": "architecture"
     },
     {
-      "id": "wayfinding-wallboard-restart-label-face",
-      "sprite": "sign-board-face",
-      "x": 69,
-      "y": 13,
-      "width": 9,
-      "height": 1,
-      "layer": "architecture"
-    },
-    {
-      "id": "wayfinding-wallboard-restart-label-north",
-      "sprite": "sign-board-north",
-      "x": 69,
-      "y": 13,
-      "width": 9,
-      "height": 1,
-      "layer": "architecture"
-    },
-    {
-      "id": "wayfinding-wallboard-restart-label-south",
-      "sprite": "sign-board-south",
-      "x": 69,
-      "y": 13,
-      "width": 9,
-      "height": 1,
-      "layer": "architecture"
-    },
-    {
-      "id": "wayfinding-wallboard-restart-label-west",
-      "sprite": "sign-board-west",
-      "x": 69,
-      "y": 13,
-      "width": 1,
-      "height": 1,
-      "layer": "architecture"
-    },
-    {
-      "id": "wayfinding-wallboard-restart-label-east",
-      "sprite": "sign-board-east",
-      "x": 77,
-      "y": 13,
-      "width": 1,
-      "height": 1,
-      "layer": "architecture"
-    },
-    {
       "id": "wayfinding-wallboard-maze-instructions-face",
       "sprite": "sign-board-face",
       "x": 17,
@@ -1586,96 +1541,6 @@
       "y": 65,
       "width": 1,
       "height": 3,
-      "layer": "architecture"
-    },
-    {
-      "id": "wayfinding-wallboard-campus-return-label-face",
-      "sprite": "sign-board-face",
-      "x": 35,
-      "y": 76,
-      "width": 11,
-      "height": 1,
-      "layer": "architecture"
-    },
-    {
-      "id": "wayfinding-wallboard-campus-return-label-north",
-      "sprite": "sign-board-north",
-      "x": 35,
-      "y": 76,
-      "width": 11,
-      "height": 1,
-      "layer": "architecture"
-    },
-    {
-      "id": "wayfinding-wallboard-campus-return-label-south",
-      "sprite": "sign-board-south",
-      "x": 35,
-      "y": 76,
-      "width": 11,
-      "height": 1,
-      "layer": "architecture"
-    },
-    {
-      "id": "wayfinding-wallboard-campus-return-label-west",
-      "sprite": "sign-board-west",
-      "x": 35,
-      "y": 76,
-      "width": 1,
-      "height": 1,
-      "layer": "architecture"
-    },
-    {
-      "id": "wayfinding-wallboard-campus-return-label-east",
-      "sprite": "sign-board-east",
-      "x": 45,
-      "y": 76,
-      "width": 1,
-      "height": 1,
-      "layer": "architecture"
-    },
-    {
-      "id": "wayfinding-wallboard-comet-gate-label-face",
-      "sprite": "sign-board-face",
-      "x": 68,
-      "y": 72,
-      "width": 9,
-      "height": 1,
-      "layer": "architecture"
-    },
-    {
-      "id": "wayfinding-wallboard-comet-gate-label-north",
-      "sprite": "sign-board-north",
-      "x": 68,
-      "y": 72,
-      "width": 9,
-      "height": 1,
-      "layer": "architecture"
-    },
-    {
-      "id": "wayfinding-wallboard-comet-gate-label-south",
-      "sprite": "sign-board-south",
-      "x": 68,
-      "y": 72,
-      "width": 9,
-      "height": 1,
-      "layer": "architecture"
-    },
-    {
-      "id": "wayfinding-wallboard-comet-gate-label-west",
-      "sprite": "sign-board-west",
-      "x": 68,
-      "y": 72,
-      "width": 1,
-      "height": 1,
-      "layer": "architecture"
-    },
-    {
-      "id": "wayfinding-wallboard-comet-gate-label-east",
-      "sprite": "sign-board-east",
-      "x": 76,
-      "y": 72,
-      "width": 1,
-      "height": 1,
       "layer": "architecture"
     },
     {
@@ -14362,12 +14227,12 @@
     },
     {
       "name": "restart-label",
-      "text": "↑ RESTART ORBIT",
-      "x": 69,
-      "y": 13,
-      "width": 9,
+      "text": "↑ RESTART",
+      "x": 71,
+      "y": 15,
+      "width": 5,
       "height": 1,
-      "fontSize": 14,
+      "fontSize": 13,
       "color": "#fff0b0",
       "align": "left"
     },
@@ -14395,12 +14260,12 @@
     },
     {
       "name": "campus-return-label",
-      "text": "↓ ZODIAC PLAZA",
-      "x": 35,
+      "text": "↓ PLAZA",
+      "x": 37,
       "y": 76,
-      "width": 11,
+      "width": 6,
       "height": 1,
-      "fontSize": 16,
+      "fontSize": 14,
       "color": "#fff0b0",
       "align": "left"
     },
@@ -14440,11 +14305,11 @@
     {
       "name": "comet-gate-label",
       "text": "↑ COMET MAZE",
-      "x": 68,
-      "y": 72,
-      "width": 9,
+      "x": 71,
+      "y": 71,
+      "width": 6,
       "height": 1,
-      "fontSize": 15,
+      "fontSize": 14,
       "color": "#fff0b0",
       "align": "left"
     }
@@ -14630,8 +14495,8 @@
     },
     {
       "name": "from-comet",
-      "x": 70,
-      "y": 70,
+      "x": 72,
+      "y": 72,
       "width": 2,
       "height": 2
     }
@@ -14641,9 +14506,9 @@
       "name": "maze-restart",
       "destination": "orbit-maze",
       "entry": "maze-entry",
-      "x": 73,
+      "x": 71,
       "y": 14,
-      "width": 2,
+      "width": 4,
       "height": 1
     },
     {
@@ -14659,10 +14524,10 @@
       "name": "comet-gate",
       "destination": "comet-maze",
       "entry": "comet-entry",
-      "x": 73,
+      "x": 72,
       "y": 70,
-      "width": 2,
-      "height": 2
+      "width": 4,
+      "height": 1
     }
   ],
   "animatedOverlays": [
@@ -14813,7 +14678,7 @@
           },
           {
             "path": "tools/maps/world-ambient-ownership.ts",
-            "sha256": "b24e06546f32a42368b10f3cc5ab789f34bb05abeb82b5738367e377be574b8f"
+            "sha256": "f72479846ede44e8d27134c343232ad0ea662caaee09fa3c197acdddcb2e98bc"
           },
           {
             "path": "tools/maps/cafe-arrival-context.ts",
@@ -14833,11 +14698,11 @@
           },
           {
             "path": "tools/maps/native-projection.ts",
-            "sha256": "21658f5283bb19f4aa9141fce7be4d38dd2f38e6a5c454d80a9c9fa9fd3cb647"
+            "sha256": "2831234b9addd3ca8b2e4bdc964e9f9d4ad079f8f7d8b7c9204794519a474a3b"
           },
           {
             "path": "tools/maps/native-ownership-context.ts",
-            "sha256": "192b7ad772bc974ffa719d13e1bad28ff1fe4ff2698d067aaba2e77e7d8fc675"
+            "sha256": "0dc2bfdb601d2e48b31513b8e95a1a9c8d0deaa8a129933f26bda37d626e4812"
           },
           {
             "path": "art/source/native-ownership-context.json",
@@ -15005,7 +14870,7 @@
           },
           {
             "path": "tools/maps/world-ambient-ownership.ts",
-            "sha256": "b24e06546f32a42368b10f3cc5ab789f34bb05abeb82b5738367e377be574b8f"
+            "sha256": "f72479846ede44e8d27134c343232ad0ea662caaee09fa3c197acdddcb2e98bc"
           },
           {
             "path": "tools/maps/cafe-arrival-context.ts",
@@ -15025,11 +14890,11 @@
           },
           {
             "path": "tools/maps/native-projection.ts",
-            "sha256": "21658f5283bb19f4aa9141fce7be4d38dd2f38e6a5c454d80a9c9fa9fd3cb647"
+            "sha256": "2831234b9addd3ca8b2e4bdc964e9f9d4ad079f8f7d8b7c9204794519a474a3b"
           },
           {
             "path": "tools/maps/native-ownership-context.ts",
-            "sha256": "192b7ad772bc974ffa719d13e1bad28ff1fe4ff2698d067aaba2e77e7d8fc675"
+            "sha256": "0dc2bfdb601d2e48b31513b8e95a1a9c8d0deaa8a129933f26bda37d626e4812"
           },
           {
             "path": "art/source/native-ownership-context.json",

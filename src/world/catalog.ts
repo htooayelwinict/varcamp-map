@@ -55,7 +55,8 @@ export const WORLD_CATALOG = {
     "height": 40,
     "defaultEntry": "arrival",
     "entries": [
-      "arrival"
+      "arrival",
+      "from-harbor"
     ]
   },
   "earth-district": {

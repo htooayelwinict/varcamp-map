@@ -40,8 +40,16 @@ export function assertNaturalCoast(map:TiledMap,layout:MapLayout,wam:WamFile,cat
  for(const a of layout.areas){const saved=wam.areas.find(v=>v.id===a.id);need(saved&&saved.name===a.name&&saved.x===a.x*32&&saved.y===a.y*32&&saved.width===a.width*32&&saved.height===a.height*32&&isDeepStrictEqual(saved.properties,a.properties),'saved area changed '+a.id);}
  const tracks=read('art/source/coast-life-tracks.json').maps[id];
  const families=id==='shipyard-beach'?['fish-west','fish-east','dolphin','gull-north','gull-south'].map(n=>'coast-life-harbor-'+n):['fish-west','dolphin','seal','gull-north','gull-south'].map(n=>'coast-life-shore-'+n);
- need(isDeepStrictEqual(layout.animatedOverlays?.map(o=>o.name),families),'closed wildlife roster changed');
+ const roster=id==='shipyard-beach'?[...families,'coastal-flight']:families;
+ need(isDeepStrictEqual(layout.animatedOverlays?.map(o=>o.name),roster),'closed wildlife and aircraft roster changed');
  for(const o of layout.animatedOverlays??[]) {
+  if(o.name==='coastal-flight'){
+   const meta=read('art/source/harbour-plane.json');
+   need(id==='shipyard-beach'&&o.image==='assets/tilesets/original/harbour-plane.png'&&o.level==='aboveScenery'&&isDeepStrictEqual(o,meta.overlay),'restored aircraft source changed');
+   for(const input of meta.inputs)need(sha(input.path)===input.sha256,'aircraft input changed');
+   need(sha(o.image)===o.provenance?.atlasSha256,'aircraft pixels changed');
+   continue;
+  }
   const row=tracks.find((t:{name:string})=>t.name===o.name);need(row,'unknown wildlife');assertCoastLifeHabitat(layout,row);
   need(o.level===(o.name.includes('gull-')?'aboveScenery':'belowAvatar'),'wildlife depth changed');
   need(isDeepStrictEqual(read(o.provenance!.metadataPath).overlay,o),'wildlife descriptor changed');

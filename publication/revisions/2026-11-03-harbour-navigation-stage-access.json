@@ -1,0 +1,335 @@
+{
+  "schemaVersion": 1,
+  "revisions": [
+    {
+      "path": "art/sources.json",
+      "fromSha256": "22ce32fd793b03e7eea17d7c91623b40027d3076e881e7a7eaf8066948217d7d",
+      "toSha256": "8452a9bb48f5e07229d6cc23f98b3586a2ff7f662999f752a527477131ddb84d",
+      "reason": "Restore the harbour ship and unbranded native plane; align coastal, ship and maze portals and labels; replace the ship helm and reduce ladder size; move stage access to the right in twelve rooms and both halls. Saved WAM areas and controls remain unchanged. Other ambient source metadata only."
+    },
+    {
+      "path": "art/tile-catalog.json",
+      "fromSha256": "123246b6c964d3e5d0941bd7b948f1e49713672152126994e26159047367f52e",
+      "toSha256": "dc445bef29946a4fadc8e662b4baf03dbbf2b425ebdcb8c9d4330b28af019b5c",
+      "reason": "Restore the harbour ship and unbranded native plane; align coastal, ship and maze portals and labels; replace the ship helm and reduce ladder size; move stage access to the right in twelve rooms and both halls. Saved WAM areas and controls remain unchanged. Other ambient source metadata only."
+    },
+    {
+      "path": "maps/comet-maze.tmj",
+      "fromSha256": "151911265fa69db47a750cdc58ee10e95fb6d96dad02593490d4f385f8491e75",
+      "toSha256": "3a806054f548e831ee18a5af275818238eda8a3ca59cbe4165e8b66990e81e04",
+      "reason": "Restore the harbour ship and unbranded native plane; align coastal, ship and maze portals and labels; replace the ship helm and reduce ladder size; move stage access to the right in twelve rooms and both halls. Saved WAM areas and controls remain unchanged. Other ambient source metadata only."
+    },
+    {
+      "path": "maps/constellation-shore.tmj",
+      "fromSha256": "576f304beb5ca5e4ef8ef9c30fc335c79a347796e2c137e986401ce39b9d2486",
+      "toSha256": "86eaaad00a1c73d60302ba7e76cba77875de83f28e372b0bef51def7ac3e11be",
+      "reason": "Restore the harbour ship and unbranded native plane; align coastal, ship and maze portals and labels; replace the ship helm and reduce ladder size; move stage access to the right in twelve rooms and both halls. Saved WAM areas and controls remain unchanged. Other ambient source metadata only."
+    },
+    {
+      "path": "maps/fa-ship.tmj",
+      "fromSha256": "5e7da2f8b12916d22f41df50f1f170cc9fcf6c865c813ec166a64e69727a7090",
+      "toSha256": "04d1c228766c0ebc227a6923c432f4b4ef2931225bd902c90e7c9f9f09542bf0",
+      "reason": "Restore the harbour ship and unbranded native plane; align coastal, ship and maze portals and labels; replace the ship helm and reduce ladder size; move stage access to the right in twelve rooms and both halls. Saved WAM areas and controls remain unchanged. Other ambient source metadata only."
+    },
+    {
+      "path": "maps/lunar-hall.tmj",
+      "fromSha256": "a112994390faede0f8e3623928e588794324d7f7126ab91037b714955105dccc",
+      "toSha256": "b96e2f0c81660c17c70bdf0ca6ee4ab983738f4c5db7e58d4afb3e8ae2ba5a9e",
+      "reason": "Restore the harbour ship and unbranded native plane; align coastal, ship and maze portals and labels; replace the ship helm and reduce ladder size; move stage access to the right in twelve rooms and both halls. Saved WAM areas and controls remain unchanged. Other ambient source metadata only."
+    },
+    {
+      "path": "maps/orbit-maze.tmj",
+      "fromSha256": "d4bd9fbad77143457b19903cdbbd9da5d0a1582c6b47de06a9b2496d650c3a43",
+      "toSha256": "680b833c67faede8443a70711da91ef60435f45455a52fa340def10861d2d204",
+      "reason": "Restore the harbour ship and unbranded native plane; align coastal, ship and maze portals and labels; replace the ship helm and reduce ladder size; move stage access to the right in twelve rooms and both halls. Saved WAM areas and controls remain unchanged. Other ambient source metadata only."
+    },
+    {
+      "path": "maps/shipyard-beach.tmj",
+      "fromSha256": "505fe258faf2f948a186018b29a087364a1a9a39af3d9058bd743988b93c14d0",
+      "toSha256": "f6d78e422ea69844c9cd02951ae5fb403d3fee52f30a99d9a1e1246a34dfe985",
+      "reason": "Restore the harbour ship and unbranded native plane; align coastal, ship and maze portals and labels; replace the ship helm and reduce ladder size; move stage access to the right in twelve rooms and both halls. Saved WAM areas and controls remain unchanged. Other ambient source metadata only."
+    },
+    {
+      "path": "maps/solar-hall.tmj",
+      "fromSha256": "6f12a0d8ac6bdf60bb6e712e2fa6a8f3247375612b23648d05b5ab37ce275a6e",
+      "toSha256": "346d45d3a95a0045ccb73eb3f5ee592facea0426010ec0e493a3474198666ce4",
+      "reason": "Restore the harbour ship and unbranded native plane; align coastal, ship and maze portals and labels; replace the ship helm and reduce ladder size; move stage access to the right in twelve rooms and both halls. Saved WAM areas and controls remain unchanged. Other ambient source metadata only."
+    },
+    {
+      "path": "maps/speaker-aquarius.tmj",
+      "fromSha256": "6805782ef27925616cd241ba54013932daccf2f330ad398fe335fbe08004a7a4",
+      "toSha256": "40d67e5ef6cfe570eeb10f8cfe44c7826ba185fb8ce57acefb26a3a2f9d60ccd",
+      "reason": "Restore the harbour ship and unbranded native plane; align coastal, ship and maze portals and labels; replace the ship helm and reduce ladder size; move stage access to the right in twelve rooms and both halls. Saved WAM areas and controls remain unchanged. Other ambient source metadata only."
+    },
+    {
+      "path": "maps/speaker-aries.tmj",
+      "fromSha256": "1608d35c780e03d0b67618498f83fefb4462317267024de2d5f89b65a8171cd7",
+      "toSha256": "81854f4d922f94c780400d6327f7e4b6ae5d0c4f27e4763f9d653a3d87f1af43",
+      "reason": "Restore the harbour ship and unbranded native plane; align coastal, ship and maze portals and labels; replace the ship helm and reduce ladder size; move stage access to the right in twelve rooms and both halls. Saved WAM areas and controls remain unchanged. Other ambient source metadata only."
+    },
+    {
+      "path": "maps/speaker-cancer.tmj",
+      "fromSha256": "c53c57d771616841e3464e2330d08257667e50e6ceb70955aa639f17cb8c4fc3",
+      "toSha256": "422091a2700119f5a501578f61eada15a06e672768214c1369ffc7989bef7615",
+      "reason": "Restore the harbour ship and unbranded native plane; align coastal, ship and maze portals and labels; replace the ship helm and reduce ladder size; move stage access to the right in twelve rooms and both halls. Saved WAM areas and controls remain unchanged. Other ambient source metadata only."
+    },
+    {
+      "path": "maps/speaker-capricorn.tmj",
+      "fromSha256": "7175b3c8f45c6a2c65021b1a04b82c32e1835053f64e35ff851742c661341dd8",
+      "toSha256": "dfbc73465d5cbc11664c56d27ac0b18313db04409ad3b22b2836982f6a0333ef",
+      "reason": "Restore the harbour ship and unbranded native plane; align coastal, ship and maze portals and labels; replace the ship helm and reduce ladder size; move stage access to the right in twelve rooms and both halls. Saved WAM areas and controls remain unchanged. Other ambient source metadata only."
+    },
+    {
+      "path": "maps/speaker-gemini.tmj",
+      "fromSha256": "a3b71ac54f978996ab1a95212e19da0efa7e9e18abb980a055a7689c1d0a38b4",
+      "toSha256": "591b3c4a9239267eb884bbace4d77c27bb2bedd403b4778f57ca823b570ddd55",
+      "reason": "Restore the harbour ship and unbranded native plane; align coastal, ship and maze portals and labels; replace the ship helm and reduce ladder size; move stage access to the right in twelve rooms and both halls. Saved WAM areas and controls remain unchanged. Other ambient source metadata only."
+    },
+    {
+      "path": "maps/speaker-leo.tmj",
+      "fromSha256": "a1d98424ec1f55f3fe284cee03d73cebf89ebb61eb5840b819961acf1bde82c3",
+      "toSha256": "cae6d6709e10d3dee978e7ef6fc70eeac25c868c99c4811d8c7f037602b5e2ca",
+      "reason": "Restore the harbour ship and unbranded native plane; align coastal, ship and maze portals and labels; replace the ship helm and reduce ladder size; move stage access to the right in twelve rooms and both halls. Saved WAM areas and controls remain unchanged. Other ambient source metadata only."
+    },
+    {
+      "path": "maps/speaker-libra.tmj",
+      "fromSha256": "672c16a461c313fbb3c082136fcb55afc2d2d121e139c787d64a7a01af5242a9",
+      "toSha256": "20e26dc216c4e6ecf3b6ab4ef65fa4a42b0212372a66120503126553ea73e1c6",
+      "reason": "Restore the harbour ship and unbranded native plane; align coastal, ship and maze portals and labels; replace the ship helm and reduce ladder size; move stage access to the right in twelve rooms and both halls. Saved WAM areas and controls remain unchanged. Other ambient source metadata only."
+    },
+    {
+      "path": "maps/speaker-pisces.tmj",
+      "fromSha256": "f2e4ee037b009062f4bc4496f77c1fe2e3a303f2b4345104754ca1411777bcf0",
+      "toSha256": "6f680890b8ec7ddcea6cebd1ea645cfc68206acaef137489c605b440fe62479a",
+      "reason": "Restore the harbour ship and unbranded native plane; align coastal, ship and maze portals and labels; replace the ship helm and reduce ladder size; move stage access to the right in twelve rooms and both halls. Saved WAM areas and controls remain unchanged. Other ambient source metadata only."
+    },
+    {
+      "path": "maps/speaker-sagittarius.tmj",
+      "fromSha256": "541a6ef973e3850f74c30ec17a38e2c7dab8e4b6334ff5d22e79f632ae409b83",
+      "toSha256": "7e31f64657365d9a08d7bb284ce55755e3e375c8f52b1b19eed19282e9fabf6f",
+      "reason": "Restore the harbour ship and unbranded native plane; align coastal, ship and maze portals and labels; replace the ship helm and reduce ladder size; move stage access to the right in twelve rooms and both halls. Saved WAM areas and controls remain unchanged. Other ambient source metadata only."
+    },
+    {
+      "path": "maps/speaker-scorpio.tmj",
+      "fromSha256": "c20ba102172efc61918b1f0e66b672a0ad17d8bc2dba4e7169ccc8cff7b831df",
+      "toSha256": "0c7421bc89081054377b893709fff2ba2c7e5cd4a81f45d8a9cedb43e350f25c",
+      "reason": "Restore the harbour ship and unbranded native plane; align coastal, ship and maze portals and labels; replace the ship helm and reduce ladder size; move stage access to the right in twelve rooms and both halls. Saved WAM areas and controls remain unchanged. Other ambient source metadata only."
+    },
+    {
+      "path": "maps/speaker-taurus.tmj",
+      "fromSha256": "7213453d36180074c88dc958b72e2baf88d3b72ed71b4b631e8ffa26bc0e27f9",
+      "toSha256": "2208ab39785e978e7fe0c9f7c57fca7c72401109e69cfb180367d76f133637bd",
+      "reason": "Restore the harbour ship and unbranded native plane; align coastal, ship and maze portals and labels; replace the ship helm and reduce ladder size; move stage access to the right in twelve rooms and both halls. Saved WAM areas and controls remain unchanged. Other ambient source metadata only."
+    },
+    {
+      "path": "maps/speaker-virgo.tmj",
+      "fromSha256": "83c4668b786c12e1aea580cd0de5112b6b31e772a7f3bd7333631cf8b0e923aa",
+      "toSha256": "f7fb934269236459e45023b717779f7994251bcd6a08b814173efbeb76416348",
+      "reason": "Restore the harbour ship and unbranded native plane; align coastal, ship and maze portals and labels; replace the ship helm and reduce ladder size; move stage access to the right in twelve rooms and both halls. Saved WAM areas and controls remain unchanged. Other ambient source metadata only."
+    },
+    {
+      "path": "src/world/catalog.ts",
+      "fromSha256": "fa922f0a29da30520726648a856c2ba8600d0daea4c73e1868bf8444de5a2b91",
+      "toSha256": "e39116af6e7233e69b61657680e9dc0b09962ca03eab88aec651be36e66d1b5b",
+      "reason": "Restore the harbour ship and unbranded native plane; align coastal, ship and maze portals and labels; replace the ship helm and reduce ladder size; move stage access to the right in twelve rooms and both halls. Saved WAM areas and controls remain unchanged. Other ambient source metadata only."
+    },
+    {
+      "path": "tools/art/check.ts",
+      "fromSha256": "4a280841b765b9a4929a5bd88b4aee63cf0c4c4b81bb185018713c03750762bd",
+      "toSha256": "b3fdf1b710935bfe77a886a2f2b22b5ca0036815856b78ab107818bf87190a37",
+      "reason": "Restore the harbour ship and unbranded native plane; align coastal, ship and maze portals and labels; replace the ship helm and reduce ladder size; move stage access to the right in twelve rooms and both halls. Saved WAM areas and controls remain unchanged. Other ambient source metadata only."
+    },
+    {
+      "path": "world/layouts/air-district.json",
+      "fromSha256": "d6c3f59287d411e5511bcde399c5a08080c3fb8ef4d9272822b4b03d34f81d56",
+      "toSha256": "deb14be07ffab2bd8bbe942a593030d960ed33bf6c3723cfb46f5b3edc7f37da",
+      "reason": "Restore the harbour ship and unbranded native plane; align coastal, ship and maze portals and labels; replace the ship helm and reduce ladder size; move stage access to the right in twelve rooms and both halls. Saved WAM areas and controls remain unchanged. Other ambient source metadata only."
+    },
+    {
+      "path": "world/layouts/campus-exploration.json",
+      "fromSha256": "d73c7153e973deefa55194a25a9c68fd8b3aa2c21989c59df4352d69e8689963",
+      "toSha256": "09f4e6473ac476006df1698f3d5a26a0c0948fb89ca9a2a4a9e1806cb81c75dc",
+      "reason": "Restore the harbour ship and unbranded native plane; align coastal, ship and maze portals and labels; replace the ship helm and reduce ladder size; move stage access to the right in twelve rooms and both halls. Saved WAM areas and controls remain unchanged. Other ambient source metadata only."
+    },
+    {
+      "path": "world/layouts/comet-maze.json",
+      "fromSha256": "474bbdce49cfea15cec88c5f580dd4f595193c256c6ae6f67ebde676be8c51a3",
+      "toSha256": "66080eaaadd12c4fe3496871f7714e741c2a68c3bd2058499ca50b5d3b729d38",
+      "reason": "Restore the harbour ship and unbranded native plane; align coastal, ship and maze portals and labels; replace the ship helm and reduce ladder size; move stage access to the right in twelve rooms and both halls. Saved WAM areas and controls remain unchanged. Other ambient source metadata only."
+    },
+    {
+      "path": "world/layouts/constellation-shore.json",
+      "fromSha256": "915f0bb1da5ce07a5f6d59473040ff883d7b418ed5f5141930e5ba0b954e7190",
+      "toSha256": "378966b845c1b2983a5cd3b15a7152e454a702b98d45696d624f0f353fe7d280",
+      "reason": "Restore the harbour ship and unbranded native plane; align coastal, ship and maze portals and labels; replace the ship helm and reduce ladder size; move stage access to the right in twelve rooms and both halls. Saved WAM areas and controls remain unchanged. Other ambient source metadata only."
+    },
+    {
+      "path": "world/layouts/earth-district.json",
+      "fromSha256": "59c29f9113985fa3a2798cafd95390b0e194db189c3e211f384a43b2ea96acb6",
+      "toSha256": "875644361373e8be22fe132c4585609572195932484b7b964675e34a96bacbf1",
+      "reason": "Restore the harbour ship and unbranded native plane; align coastal, ship and maze portals and labels; replace the ship helm and reduce ladder size; move stage access to the right in twelve rooms and both halls. Saved WAM areas and controls remain unchanged. Other ambient source metadata only."
+    },
+    {
+      "path": "world/layouts/fa-ship.json",
+      "fromSha256": "a0201daba443f74835827e6471a8200231d54f47dfd7538702fa11bc07f9f076",
+      "toSha256": "63df2188485c9f43a9bfc1fa6889f2541b902b797aada91875ded91dcaa1b65c",
+      "reason": "Restore the harbour ship and unbranded native plane; align coastal, ship and maze portals and labels; replace the ship helm and reduce ladder size; move stage access to the right in twelve rooms and both halls. Saved WAM areas and controls remain unchanged. Other ambient source metadata only."
+    },
+    {
+      "path": "world/layouts/fire-district.json",
+      "fromSha256": "5839f3f47b44685be9ffb061fb0e0769fc4c60148833087c9980929c4f2acc87",
+      "toSha256": "d30c24ce3c2d72cd92b24e01a80ab5908ea5409ebf64ce79e07167d6c9f058f3",
+      "reason": "Restore the harbour ship and unbranded native plane; align coastal, ship and maze portals and labels; replace the ship helm and reduce ladder size; move stage access to the right in twelve rooms and both halls. Saved WAM areas and controls remain unchanged. Other ambient source metadata only."
+    },
+    {
+      "path": "world/layouts/hidden-observatory.json",
+      "fromSha256": "220277bbe813723067c029c674810d907dde59806c24b67ca9f6b4e7352a6e94",
+      "toSha256": "5eb8c5c8b35540547496e6983b6bb49a8c0b572b8bd6ead5877d413b9ce66b85",
+      "reason": "Restore the harbour ship and unbranded native plane; align coastal, ship and maze portals and labels; replace the ship helm and reduce ladder size; move stage access to the right in twelve rooms and both halls. Saved WAM areas and controls remain unchanged. Other ambient source metadata only."
+    },
+    {
+      "path": "world/layouts/lunar-hall.json",
+      "fromSha256": "e4f85f082211b0d8412629f83fc4873fc89911b5d1b16128835278c29779bafd",
+      "toSha256": "57ad1288b7b8e4079e9b3f6667c8df8482e232890f409a3231286bd7302112e7",
+      "reason": "Restore the harbour ship and unbranded native plane; align coastal, ship and maze portals and labels; replace the ship helm and reduce ladder size; move stage access to the right in twelve rooms and both halls. Saved WAM areas and controls remain unchanged. Other ambient source metadata only."
+    },
+    {
+      "path": "world/layouts/moon-cafe.json",
+      "fromSha256": "8dc5a625111df668bd8b7dbc67567a1880457207ef9377d4da2d46b5a0115174",
+      "toSha256": "34c9bef289b79b3335aa9722d31d9741a6d194a77562399d12a0cdd81597e9f2",
+      "reason": "Restore the harbour ship and unbranded native plane; align coastal, ship and maze portals and labels; replace the ship helm and reduce ladder size; move stage access to the right in twelve rooms and both halls. Saved WAM areas and controls remain unchanged. Other ambient source metadata only."
+    },
+    {
+      "path": "world/layouts/moon-grotto.json",
+      "fromSha256": "5b6db4c946384181796bdb0c4d1b2e202174c4ecee5515259ae976bb61757cda",
+      "toSha256": "9aad9520ef98c623fc1af54211567423fc4658964584c4fcbe42f76bb7d649de",
+      "reason": "Restore the harbour ship and unbranded native plane; align coastal, ship and maze portals and labels; replace the ship helm and reduce ladder size; move stage access to the right in twelve rooms and both halls. Saved WAM areas and controls remain unchanged. Other ambient source metadata only."
+    },
+    {
+      "path": "world/layouts/nebula-arcade.json",
+      "fromSha256": "1025d62d15376fa98608edbfbdf0d5ad9170a68ec161fdffa8a18b4a9594b48e",
+      "toSha256": "ba3050c847bca77dad25dd469573ac5fd1fa5124e490ae1262e10bbc502e9870",
+      "reason": "Restore the harbour ship and unbranded native plane; align coastal, ship and maze portals and labels; replace the ship helm and reduce ladder size; move stage access to the right in twelve rooms and both halls. Saved WAM areas and controls remain unchanged. Other ambient source metadata only."
+    },
+    {
+      "path": "world/layouts/orbit-maze.json",
+      "fromSha256": "9ddfdaff4a7abb4f1031abbdc5173d90692a7b7bc679f746ed8b52b1117d463f",
+      "toSha256": "e3cc90fc0abb1f40feda6c8589844774effe7d271a513259d187fdac7d3ff10a",
+      "reason": "Restore the harbour ship and unbranded native plane; align coastal, ship and maze portals and labels; replace the ship helm and reduce ladder size; move stage access to the right in twelve rooms and both halls. Saved WAM areas and controls remain unchanged. Other ambient source metadata only."
+    },
+    {
+      "path": "world/layouts/orbit-playground.json",
+      "fromSha256": "cf2d3689d17f58cba9fd81b256cc4a01cb046233208ab5d48d1ee1bd9d0fea79",
+      "toSha256": "712446ad9576629b3cf7541fba8dd9f7bf82ca5f97c9ec80737c753d10f9f34d",
+      "reason": "Restore the harbour ship and unbranded native plane; align coastal, ship and maze portals and labels; replace the ship helm and reduce ladder size; move stage access to the right in twelve rooms and both halls. Saved WAM areas and controls remain unchanged. Other ambient source metadata only."
+    },
+    {
+      "path": "world/layouts/shipyard-beach.json",
+      "fromSha256": "06f0a2a4822ca9ddd71a3c535b434ae37476140e192db17d1c35eadbdc7a70b9",
+      "toSha256": "4b6122172497e2f4a7737d4d2855261ef69ead851ce779566e7704a2bd190e2f",
+      "reason": "Restore the harbour ship and unbranded native plane; align coastal, ship and maze portals and labels; replace the ship helm and reduce ladder size; move stage access to the right in twelve rooms and both halls. Saved WAM areas and controls remain unchanged. Other ambient source metadata only."
+    },
+    {
+      "path": "world/layouts/solar-hall.json",
+      "fromSha256": "83a174c2acb303546b69b7f38c4e63f099dde4974a34ad76ba31e7e4786a0ecb",
+      "toSha256": "9f62f29465f59aab0cce001246ad22f3f31929a35ce29b482d2eaa826b3d5c86",
+      "reason": "Restore the harbour ship and unbranded native plane; align coastal, ship and maze portals and labels; replace the ship helm and reduce ladder size; move stage access to the right in twelve rooms and both halls. Saved WAM areas and controls remain unchanged. Other ambient source metadata only."
+    },
+    {
+      "path": "world/layouts/speaker-aquarius.json",
+      "fromSha256": "8ed3c2f38e6f856b5c5cb9257615566da0118ffa56c3f6e2d9313eaf0283b1b9",
+      "toSha256": "aa30e817796a259d19e0a2adafafda9cb7bbf893f51413b3e388db286a5626a5",
+      "reason": "Restore the harbour ship and unbranded native plane; align coastal, ship and maze portals and labels; replace the ship helm and reduce ladder size; move stage access to the right in twelve rooms and both halls. Saved WAM areas and controls remain unchanged. Other ambient source metadata only."
+    },
+    {
+      "path": "world/layouts/speaker-aries.json",
+      "fromSha256": "d37a3ac73f5718c8210534e1d346688eb2b77c8b90a6f26224cfefdd30c750f5",
+      "toSha256": "70aaec6684b6bc61b856b3676cb414bbd729e67dfd7e4130cc8ea4742fc717b2",
+      "reason": "Restore the harbour ship and unbranded native plane; align coastal, ship and maze portals and labels; replace the ship helm and reduce ladder size; move stage access to the right in twelve rooms and both halls. Saved WAM areas and controls remain unchanged. Other ambient source metadata only."
+    },
+    {
+      "path": "world/layouts/speaker-cancer.json",
+      "fromSha256": "c55ccc2c14689c7de918c7740b50b835bae1877b50749237a6c199c71887a53b",
+      "toSha256": "7482041a854cc8b59b506c8d083a7d327f64988c8d422f4dfdaf208830bc64c7",
+      "reason": "Restore the harbour ship and unbranded native plane; align coastal, ship and maze portals and labels; replace the ship helm and reduce ladder size; move stage access to the right in twelve rooms and both halls. Saved WAM areas and controls remain unchanged. Other ambient source metadata only."
+    },
+    {
+      "path": "world/layouts/speaker-capricorn.json",
+      "fromSha256": "b336b63ccb76d169c481e88b7b052259e6fbc637100f09a90c3e7c48e3519f37",
+      "toSha256": "60fea5b6b683cfa65a5fec6046fc1f8345f5a41fe44091e096f479a21fdc451f",
+      "reason": "Restore the harbour ship and unbranded native plane; align coastal, ship and maze portals and labels; replace the ship helm and reduce ladder size; move stage access to the right in twelve rooms and both halls. Saved WAM areas and controls remain unchanged. Other ambient source metadata only."
+    },
+    {
+      "path": "world/layouts/speaker-gemini.json",
+      "fromSha256": "5fd707b27f8bf60b7fe4792c55ef94f8afb963a6ff21fa87d78a8de91e42a87d",
+      "toSha256": "2e9d4494022e12af55a2c8607dc2289394349e7d8eb317e1ce35606ca72e4fe1",
+      "reason": "Restore the harbour ship and unbranded native plane; align coastal, ship and maze portals and labels; replace the ship helm and reduce ladder size; move stage access to the right in twelve rooms and both halls. Saved WAM areas and controls remain unchanged. Other ambient source metadata only."
+    },
+    {
+      "path": "world/layouts/speaker-leo.json",
+      "fromSha256": "7b8c7eb976a144a45ce4945b048b1fba4ff39a805e8c7adeabe6dc0de52a5d66",
+      "toSha256": "88fc219fbfb5fe97006ae2a399ce70ec5239342b69062e79157a1082819d633b",
+      "reason": "Restore the harbour ship and unbranded native plane; align coastal, ship and maze portals and labels; replace the ship helm and reduce ladder size; move stage access to the right in twelve rooms and both halls. Saved WAM areas and controls remain unchanged. Other ambient source metadata only."
+    },
+    {
+      "path": "world/layouts/speaker-libra.json",
+      "fromSha256": "1bb3c5be2b1e279271f3d0879beda2f462f11b4d7dbb066b65ddc545db79ef92",
+      "toSha256": "a1aa3f475d1b06b0a0acfafe7d0cd17945a865272ceef9214997aff7968242d0",
+      "reason": "Restore the harbour ship and unbranded native plane; align coastal, ship and maze portals and labels; replace the ship helm and reduce ladder size; move stage access to the right in twelve rooms and both halls. Saved WAM areas and controls remain unchanged. Other ambient source metadata only."
+    },
+    {
+      "path": "world/layouts/speaker-pisces.json",
+      "fromSha256": "994fff5814892d8e73d8f7195bb3af0b5bebf2cef3cbf320151438360086e774",
+      "toSha256": "65fce0c5bc3485c11529c5412a390407f38049883509313c4948b08ef6fae29c",
+      "reason": "Restore the harbour ship and unbranded native plane; align coastal, ship and maze portals and labels; replace the ship helm and reduce ladder size; move stage access to the right in twelve rooms and both halls. Saved WAM areas and controls remain unchanged. Other ambient source metadata only."
+    },
+    {
+      "path": "world/layouts/speaker-sagittarius.json",
+      "fromSha256": "ba29258071e468741dcab651f9dbe7d0634269c50713faa47a3417adc2fdf314",
+      "toSha256": "a8bad5918d6e3b54829329e0aedfdb4052244ad3027c15fc70d31771a31c94ed",
+      "reason": "Restore the harbour ship and unbranded native plane; align coastal, ship and maze portals and labels; replace the ship helm and reduce ladder size; move stage access to the right in twelve rooms and both halls. Saved WAM areas and controls remain unchanged. Other ambient source metadata only."
+    },
+    {
+      "path": "world/layouts/speaker-scorpio.json",
+      "fromSha256": "b6132428c8815faf0e49d2cf8152eab8efe5e95fdc61120a1fab9c6dfdaa9e8b",
+      "toSha256": "d65c6f4b3df16ac3d0c0b6c5f5a1338b59157b6b7f046d0037b5b3b1dd3ecf41",
+      "reason": "Restore the harbour ship and unbranded native plane; align coastal, ship and maze portals and labels; replace the ship helm and reduce ladder size; move stage access to the right in twelve rooms and both halls. Saved WAM areas and controls remain unchanged. Other ambient source metadata only."
+    },
+    {
+      "path": "world/layouts/speaker-taurus.json",
+      "fromSha256": "dbbcffd2ba9000a1e05fb832aa4e4f634399fcd519d369b2df7e33e3fc3a249c",
+      "toSha256": "9acc051e971826dc3c0c9b210c5ac2920cfb2a297161c8b41c929d2dff464575",
+      "reason": "Restore the harbour ship and unbranded native plane; align coastal, ship and maze portals and labels; replace the ship helm and reduce ladder size; move stage access to the right in twelve rooms and both halls. Saved WAM areas and controls remain unchanged. Other ambient source metadata only."
+    },
+    {
+      "path": "world/layouts/speaker-virgo.json",
+      "fromSha256": "0f942722a5d682aa79391e5d565408d73181a003759ee3256990a87d9a41cde6",
+      "toSha256": "2f12811800090e03de3a9ec21d66c493745ecec10780cbb9624514515162161d",
+      "reason": "Restore the harbour ship and unbranded native plane; align coastal, ship and maze portals and labels; replace the ship helm and reduce ladder size; move stage access to the right in twelve rooms and both halls. Saved WAM areas and controls remain unchanged. Other ambient source metadata only."
+    },
+    {
+      "path": "world/layouts/star-garden.json",
+      "fromSha256": "97426561d94dcecd51c3ac822f7a26013e1c69d694fff17d709974e8aee2e584",
+      "toSha256": "d73ab7b49e5dcf54282428b21655b08a081fab4ffd6636de5c50a2289c61f299",
+      "reason": "Restore the harbour ship and unbranded native plane; align coastal, ship and maze portals and labels; replace the ship helm and reduce ladder size; move stage access to the right in twelve rooms and both halls. Saved WAM areas and controls remain unchanged. Other ambient source metadata only."
+    },
+    {
+      "path": "world/layouts/stargazer-terrace.json",
+      "fromSha256": "14cff50f00a90da024c81c3c2116319a61c66c2facfbe9d44860c461f9376858",
+      "toSha256": "0197970a020003bea978d2360a148e220134a28d43d0234ac2857fa24cc8a637",
+      "reason": "Restore the harbour ship and unbranded native plane; align coastal, ship and maze portals and labels; replace the ship helm and reduce ladder size; move stage access to the right in twelve rooms and both halls. Saved WAM areas and controls remain unchanged. Other ambient source metadata only."
+    },
+    {
+      "path": "world/layouts/water-district.json",
+      "fromSha256": "9300ff614d0afc96bdc4c0ff279c0ae4ab4f84b3d0bf557b76a8d904ca8dcf8f",
+      "toSha256": "f77b02d9d8729475fa0b3076f1e238116a2527c00cfdcfb1cf5822477a4722b2",
+      "reason": "Restore the harbour ship and unbranded native plane; align coastal, ship and maze portals and labels; replace the ship helm and reduce ladder size; move stage access to the right in twelve rooms and both halls. Saved WAM areas and controls remain unchanged. Other ambient source metadata only."
+    },
+    {
+      "path": "world/layouts/zodiac-festival-park.json",
+      "fromSha256": "19f692af8b190e79f48bd3133147e86b89b15dd443cc81346ad5d40623a08a7c",
+      "toSha256": "f013efd0addf23efdc527a587a5cbf9b3a80379e1ba1473b136c8dbff7a34287",
+      "reason": "Restore the harbour ship and unbranded native plane; align coastal, ship and maze portals and labels; replace the ship helm and reduce ladder size; move stage access to the right in twelve rooms and both halls. Saved WAM areas and controls remain unchanged. Other ambient source metadata only."
+    }
+  ]
+}

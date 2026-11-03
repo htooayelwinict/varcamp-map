@@ -1,3 +1,4 @@
+import {navigationProtectedLayers,navigationAtlases} from './harbour-navigation-context';
 import {VIBECODE_IMAGE,VIBECODE_CAPTION_IMAGE} from '../art/vibecode';
 import{isDeepStrictEqual}from'node:util';
 import registered from'../../art/source/native-ownership-context.json';
@@ -209,8 +210,9 @@ function context(actual:TiledMap,source:TiledMap):ContextRow|undefined{
 function protectedContext(actual:TiledMap,row:ContextRow,author=false):void{
  const layers=actual.layers.filter(l=>l.type!=='tilelayer'&&l.name!=='floorLayer');
  const preceding=cafeArrivalProtectedLayers(identities(actual)[0],row.protectedLayers);
- const current=mazeGateProtectedLayers(identities(actual)[0],preceding);
- need(isDeepStrictEqual(layers,current)||(author&&[preceding,row.protectedLayers].some(prior=>isDeepStrictEqual(layers,prior))),'protected nonfloor layer bodies/roster changed');
+ const maze=mazeGateProtectedLayers(identities(actual)[0],preceding);
+ const current=navigationProtectedLayers(identities(actual)[0],maze);
+ need(isDeepStrictEqual(layers,current)||(author&&[maze,preceding,row.protectedLayers].some(prior=>isDeepStrictEqual(layers,prior))),'protected nonfloor layer bodies/roster changed');
  need(isDeepStrictEqual(actual.layers.filter(l=>l.type!=='tilelayer').map(l=>l.name),row.protectedNonfloorOrder),'protected nonfloor order changed');
 }
 /** Reviewed epochs on the overworld, each admitted only after every earlier one: the fleet is
@@ -278,6 +280,7 @@ function currentAtlases(row:ContextRow,source:TiledMap,epoch:Epoch=CURRENT,inclu
  const cove=tropicalCoveAtlas(source,next);if(cove&&includeCove)expected.push(cove);
  expected.push(...cafeArrivalAtlases(identities(source)[0]),...mazeGateAtlases(identities(source)[0]));
  expected.push(...eventCounterAtlases(source,Math.max(...expected.map(t=>t.firstgid+t.tilecount!))));
+ expected.push(...navigationAtlases(identities(source)[0]));
  return expected;
 }
 /** Mandatory final current context: complete atlas roster/order/bodies/ranges,
@@ -298,6 +301,8 @@ export function assertNativeAuthoringContext(actual:TiledMap,source:TiledMap):vo
  const expected=currentAtlases(row,source);
  if(isDeepStrictEqual(actual.tilesets,row.atlases))return;
  if(isDeepStrictEqual(actual.tilesets,expected))return;
+ const navigationCount=navigationAtlases(identities(source)[0]).length;
+ if(navigationCount&&isDeepStrictEqual(actual.tilesets,expected.slice(0,-navigationCount)))return;
  // Exact predecessor to the two native check-in furniture sheets.
  const counterCount=eventCounterAtlases(source,0).length;
  if(counterCount===3&&isDeepStrictEqual(actual.tilesets,expected.slice(0,-counterCount)))return;
