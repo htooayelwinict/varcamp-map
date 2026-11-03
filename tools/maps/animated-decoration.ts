@@ -1,5 +1,6 @@
 import {PATROL_IDS} from './patrol-roles';
 import {FOUNTAIN_MOTION_IDS,FOUNTAIN_OWNER,FOUNTAIN_SOURCE_SHA} from './fountain-motion-roles';
+import arcadeRefresh from '../../art/source/park-arcade-refresh.json';
 import{readFileSync,statSync}from'node:fs';
 import{createHash}from'node:crypto';
 import{isDeepStrictEqual}from'node:util';
@@ -33,9 +34,9 @@ export function currentDecorationRoles():Record<string,Role[]>{
    need(names.length===(id==='fa-ship-interior'||id==='nebula-arcade'?3:2),'independent ambient component count changed: '+id);
   }
   need(isDeepStrictEqual(rows.map((r:Role)=>r.name),sorted(names)),'required role roster/order changed: '+id);
-  for(const r of rows){const isUpper=r.role==='opaqueOwnerUpper';need(r&&isDeepStrictEqual(Object.keys(r).sort(),isUpper?['name','owner','role']:['name','role'])&&typeof r.name==='string'&&['avatarForeground','opaqueOwnerUpper','airborne','aircraft'].includes(r.role),'role schema changed');if(isUpper){upper++;need((id==='fa-ship-interior'||id==='overworld'&&r.name===FOUNTAIN_MOTION_IDS[1]&&isDeepStrictEqual(r.owner,{...FOUNTAIN_OWNER,sheetSha256:FOUNTAIN_SOURCE_SHA}))&&r.owner&&/^[a-f0-9]{64}$/.test(r.owner.sheetSha256),'owning upper family/registration changed');}need((r.role==='airborne')===isCurrentAirborne(id,r.name),'closed airborne role changed');if(r.role==='airborne')airborne++;need((r.role==='aircraft')===isCurrentAircraft(id,r.name),'closed aircraft role changed');if(r.role==='aircraft')aircraft++;count++;}
+  for(const r of rows){const isUpper=r.role==='opaqueOwnerUpper';need(r&&isDeepStrictEqual(Object.keys(r).sort(),isUpper?['name','owner','role']:['name','role'])&&typeof r.name==='string'&&['avatarForeground','opaqueOwnerUpper','airborne','aircraft'].includes(r.role),'role schema changed');if(isUpper){upper++;need((id==='fa-ship-interior'||id==='nebula-arcade'&&isDeepStrictEqual(r,(arcadeRefresh as any).arcadeUpperRoles?.find((a:Role)=>a.name===r.name))||id==='overworld'&&r.name===FOUNTAIN_MOTION_IDS[1]&&isDeepStrictEqual(r.owner,{...FOUNTAIN_OWNER,sheetSha256:FOUNTAIN_SOURCE_SHA}))&&r.owner&&/^[a-f0-9]{64}$/.test(r.owner.sheetSha256),'owning upper family/registration changed');}need((r.role==='airborne')===isCurrentAirborne(id,r.name),'closed airborne role changed');if(r.role==='airborne')airborne++;need((r.role==='aircraft')===isCurrentAircraft(id,r.name),'closed aircraft role changed');if(r.role==='aircraft')aircraft++;count++;}
  }
- need(count===148&&upper===3&&airborne===5&&aircraft===50,'closed148-role/three-upper/50-aircraft ownership count changed');return contract.maps;
+ need(count===148&&upper===6&&airborne===5&&aircraft===50,'closed148-role/six-upper/50-aircraft ownership count changed');return contract.maps;
 }
 /** Shared current author/current acceptance source policy; historical generic
  * builders never call this and retain their independently tested behavior. */
@@ -54,7 +55,9 @@ export function assertOwnedUpperAnimation(map:TiledMap,layout:MapLayout,o:Layout
  const e=effects[0],owner=ambientDepthOwner(layout,e,catalog);need(owner,'upper pixels have no owning fixture');if(!owner)return;
  need(registered.role==='opaqueOwnerUpper'&&registered.owner,'physical owner registration missing');if(!registered.owner)return;const{sheetSha256,...registeredOwner}=registered.owner;need(isDeepStrictEqual(owner,registeredOwner),'registered owner identity/partition changed before image read');
  need(isDeepStrictEqual(meta.depthReceipt?.owner,owner)&&meta.depthReceipt?.policy==='opaque-owner-upper-v1','upper owner identity changed');
- const owners=map.tilesets.filter(s=>s.image==='../'+owner.visual.sheet);need(owners.length===1,'owning atlas reservation changed');const os=owners[0],ownerBytes=pngBytes(owner.visual.sheet);need(sha(ownerBytes)===meta.depthReceipt.sheetSha256&&sha(ownerBytes)===sheetSha256,'registered owning PNG bytes changed');
+ // The navigation mask reserves the same magic.png as ordinary scenery, but
+ // is an invisible control atlas and cannot own a fixture's painted pixels.
+ const owners=map.tilesets.filter(s=>s.name!=='navigation-mask'&&s.image==='../'+owner.visual.sheet);need(owners.length===1,'owning atlas reservation changed');const os=owners[0],ownerBytes=pngBytes(owner.visual.sheet);need(sha(ownerBytes)===meta.depthReceipt.sheetSha256&&sha(ownerBytes)===sheetSha256,'registered owning PNG bytes changed');
  const support=opaqueAmbientOwnerSupport(owner,o.width*32,o.height*32,decodeArtRgbaPng(ownerBytes,os.imagewidth!,os.imageheight!));need(support.includes(1)&&support.equals(Buffer.from(meta.depthReceipt.opaqueUpperSupport,'base64')),'actual opaque owner support changed');
  const sets=map.tilesets.filter(s=>s.name===o.name&&s.image==='../'+o.image);need(sets.length===1,'upper native atlas role changed');const set=sets[0],imageBytes=pngBytes(o.image);need(sha(imageBytes)===o.provenance!.atlasSha256,'upper native PNG bytes changed');const image=decodeArtRgbaPng(imageBytes,set.imagewidth!,set.imageheight!);need(set.columns===image.width/32&&set.tilecount===image.width*image.height/1024,'upper native atlas geometry changed');
  const layers=map.layers.filter(l=>l.name===o.name);need(layers.length===1&&layers[0].type==='tilelayer','upper native layer missing');const layer=layers[0];if(layer.type!=='tilelayer')return;

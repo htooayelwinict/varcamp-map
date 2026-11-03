@@ -35,7 +35,7 @@ The world contains **34 connected maps**, authored on a **32 × 32 pixel tile gr
 | Zodiac campus | Twelve distinct building exteriors arranged around the circular campus, with floor labels, gardens, flowers and an outer road. |
 | Speaker rooms | Individually themed interiors with stages, seating, presenter/listener areas, VarCamp branding and partner panels. |
 | Solar and Lunar halls | Two larger venues with separate sun and moon architecture and presentation spaces. |
-| Festival and games | A festival park, social arcade and playground, plus Orbit Maze and the checkpoint-based Comet Maze. |
+| Festival and games | A landscaped park, six playable FPS/PvP arcade cabinets and a social playground, plus Orbit Maze and the checkpoint-based Comet Maze. |
 | Coast and ship | A tropical cove, Constellation Shore, the FA SHIP upper deck and its furnished interior. |
 | Exploration | Four elemental districts, Star Garden, Moon Café, Moon Grotto, Stargazer Terrace and a hidden observatory. |
 | Ambient motion | Fountain water, aerial patrol drones, a hovering Roadster and environmental animations. Vehicles are scenery; attendees cannot drive or ride them. |
@@ -54,7 +54,7 @@ The twelve zodiac rooms have stage-facing audience chairs and clear aisles, with
 4. Use the welcome directory or the **Quest Journal** menu for destinations and exploration progress. When standing near an interactive object, follow its displayed activation prompt.
 5. For a session, enter the named zodiac room or Solar/Lunar hall and use the audience area. Follow the organizer's programme for timings and the host's instructions for media and presenting.
 
-Physical doors and exits remain available if the optional quest interface fails to initialize. Arcade cabinets and playground props are social scenery; this repository does not provide an external arcade game service.
+Physical doors and exits remain available if the optional quest interface fails to initialize. At Nebula Arcade, stand in front of a cabinet and press **Space** to launch **War Brokers**, **DEADSHOT** or **HaxBall** on its official site in a new tab. The six cabinets do not download games until you choose to play. Use each game’s own party or room controls to play together; return to the VarCamp tab afterward. The playground remains a social space. See the [park and arcade guide](docs/operating/park-arcade.md).
 
 For event attendance, find the small computer desk with the **CHECK IN** floor label beside the main VarCamp logo, to the right of arrival. Click the computer, or approach the desk and activate its prompt. The [official ticket check-in page](https://register.var.camp/2026/attendee/check-in) opens in a new tab; follow its instructions to scan your ticket QR code or upload the ticket image. The registration service controls opening times and attendance records. [Counter maintenance guide](docs/operating/check-in-counter.md).
 
@@ -105,7 +105,7 @@ Every map below has a native `.tmj` file and a matching `.wam` file under [`maps
 | Arrival | [Overworld](maps/overworld.tmj) | A 128 × 128 tile campus containing the expo, gardens and entrances to the surrounding venues. |
 | Main halls | [Solar Hall](maps/solar-hall.tmj), [Lunar Hall](maps/lunar-hall.tmj) | Two 64 × 56 tile presentation venues. |
 | Mazes | [Orbit Maze](maps/orbit-maze.tmj), [Comet Maze](maps/comet-maze.tmj) | Orbit's planted garden labyrinth and Comet's constellation gallery, with illuminated paths, landmark courts and rest areas. Comet has three collectible checkpoints. [Interior authoring guide](docs/operating/maze-interiors.md). |
-| Festival | [Zodiac Festival Park](maps/zodiac-festival-park.tmj), [Nebula Arcade](maps/nebula-arcade.tmj), [Orbit Playground](maps/orbit-playground.tmj) | Informal gathering and social play spaces. |
+| Festival | [Zodiac Festival Park](maps/zodiac-festival-park.tmj), [Nebula Arcade](maps/nebula-arcade.tmj), [Orbit Playground](maps/orbit-playground.tmj) | Tree-lined gardens, a pond walk, picnic seating and six cabinets launching real browser FPS/PvP games. [Guide and resources](docs/operating/park-arcade.md). |
 | Coast | [Shipyard Beach](maps/shipyard-beach.tmj), [Constellation Shore](maps/constellation-shore.tmj), [FA SHIP](maps/fa-ship.tmj), [Ship Interior](maps/fa-ship-interior.tmj) | Tropical cove, waterfront walks and a two-level ship destination. |
 | Exploration hub | [Campus Exploration](maps/campus-exploration.tmj) | Routes to the elemental districts and retreats. |
 | Elements | [Fire](maps/fire-district.tmj), [Earth](maps/earth-district.tmj), [Air](maps/air-district.tmj), [Water](maps/water-district.tmj) | Four themed districts with elemental sigils. |

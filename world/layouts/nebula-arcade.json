@@ -6,65 +6,47 @@
     {
       "id": "foundation",
       "sprite": "floor-charcoal",
-      "layer": "terrain",
       "x": 0,
       "y": 0,
       "width": 40,
-      "height": 40
+      "height": 40,
+      "layer": "terrain"
     },
     {
-      "id": "authored-twilight",
+      "id": "arcade-room",
+      "sprite": "floor-wood-long",
+      "x": 2,
+      "y": 3,
+      "width": 36,
+      "height": 34,
+      "layer": "terrain"
+    },
+    {
+      "id": "centre-carpet",
+      "sprite": "floor-blue",
+      "x": 14,
+      "y": 5,
+      "width": 12,
+      "height": 29,
+      "layer": "terrain"
+    },
+    {
+      "id": "arcade-header",
+      "sprite": "floor-charcoal",
+      "x": 2,
+      "y": 2,
+      "width": 36,
+      "height": 3,
+      "layer": "terrain"
+    },
+    {
+      "id": "arcade-evening",
       "sprite": "night-wash",
       "x": 0,
       "y": 0,
       "width": 40,
       "height": 40,
-      "layer": "atmosphere"
-    },
-    {
-      "id": "court",
-      "sprite": "path-stone",
-      "layer": "terrain",
-      "x": 3,
-      "y": 7,
-      "width": 34,
-      "height": 30
-    },
-    {
-      "id": "boundary-north",
-      "sprite": "wall-charcoal",
-      "layer": "terrain",
-      "x": 0,
-      "y": 0,
-      "width": 40,
-      "height": 2
-    },
-    {
-      "id": "boundary-south",
-      "sprite": "wall-charcoal",
-      "layer": "terrain",
-      "x": 0,
-      "y": 38,
-      "width": 40,
-      "height": 2
-    },
-    {
-      "id": "boundary-west",
-      "sprite": "wall-charcoal",
-      "layer": "terrain",
-      "x": 0,
-      "y": 2,
-      "width": 2,
-      "height": 36
-    },
-    {
-      "id": "boundary-east",
-      "sprite": "wall-charcoal",
-      "layer": "terrain",
-      "x": 38,
-      "y": 2,
-      "width": 2,
-      "height": 36
+      "layer": "decor"
     },
     {
       "id": "north-navy",
@@ -76,90 +58,17 @@
       "height": 2
     },
     {
-      "id": "arrival-way",
-      "sprite": "path-stone",
-      "layer": "terrain",
-      "x": 16,
-      "y": 30,
-      "width": 8,
-      "height": 8
-    },
-    {
-      "id": "plaza-threshold",
-      "sprite": "rune-threshold",
-      "layer": "props",
-      "x": 18,
-      "y": 36,
-      "width": 4,
-      "height": 1
-    },
-    {
-      "id": "branch-way",
-      "sprite": "path-stone",
-      "layer": "terrain",
-      "x": 5,
-      "y": 30,
-      "width": 8,
-      "height": 8
-    },
-    {
-      "id": "branch-threshold",
-      "sprite": "rune-threshold",
-      "layer": "props",
-      "x": 6,
-      "y": 36,
-      "width": 4,
-      "height": 1
-    },
-    {
-      "id": "arcade-room",
-      "sprite": "floor-cosmic",
-      "layer": "terrain",
-      "x": 3,
-      "y": 5,
-      "width": 34,
-      "height": 28
-    },
-    {
-      "id": "arcade-aisle",
-      "sprite": "floor-blue",
-      "layer": "terrain",
-      "x": 15,
-      "y": 12,
-      "width": 10,
-      "height": 20
-    },
-    {
-      "id": "stage-floor",
-      "sprite": "floor-inlay",
-      "layer": "terrain",
-      "x": 12,
-      "y": 7,
-      "width": 16,
-      "height": 5
-    },
-    {
       "id": "tournament-screen",
-      "sprite": "screen-presentation",
+      "sprite": "arcade-mounted-screen",
       "layer": "props",
       "x": 17,
       "y": 7,
       "width": 6,
-      "height": 3,
-      "renderRole": "grounded"
-    },
-    {
-      "id": "stage-console",
-      "sprite": "desk-coding",
-      "layer": "props",
-      "x": 18,
-      "y": 11,
-      "width": 3,
-      "height": 2
+      "height": 3
     },
     {
       "id": "cabinet-west0",
-      "sprite": "arcade-cabinet",
+      "sprite": "arcade-grounded-cabinet",
       "layer": "props",
       "x": 5,
       "y": 10,
@@ -178,7 +87,7 @@
     },
     {
       "id": "cabinet-west1",
-      "sprite": "arcade-cabinet",
+      "sprite": "arcade-grounded-cabinet",
       "layer": "props",
       "x": 5,
       "y": 17,
@@ -197,7 +106,7 @@
     },
     {
       "id": "cabinet-west2",
-      "sprite": "arcade-cabinet",
+      "sprite": "arcade-grounded-cabinet",
       "layer": "props",
       "x": 5,
       "y": 24,
@@ -216,7 +125,7 @@
     },
     {
       "id": "cabinet-east0",
-      "sprite": "arcade-cabinet",
+      "sprite": "arcade-grounded-cabinet",
       "layer": "props",
       "x": 31,
       "y": 10,
@@ -235,7 +144,7 @@
     },
     {
       "id": "cabinet-east1",
-      "sprite": "arcade-cabinet",
+      "sprite": "arcade-grounded-cabinet",
       "layer": "props",
       "x": 31,
       "y": 17,
@@ -254,7 +163,7 @@
     },
     {
       "id": "cabinet-east2",
-      "sprite": "arcade-cabinet",
+      "sprite": "arcade-grounded-cabinet",
       "layer": "props",
       "x": 31,
       "y": 24,
@@ -272,148 +181,436 @@
       "renderRole": "grounded"
     },
     {
-      "id": "arcade-lounge-west",
-      "sprite": "sofa-blue",
-      "layer": "props",
-      "x": 12,
-      "y": 25,
-      "width": 3,
-      "height": 2
-    },
-    {
-      "id": "arcade-lounge-east",
-      "sprite": "sofa-blue",
-      "layer": "props",
-      "x": 25,
-      "y": 25,
-      "width": 3,
-      "height": 2
-    },
-    {
-      "id": "social-table-west",
-      "sprite": "table-small-white",
-      "layer": "props",
-      "x": 13,
-      "y": 29,
-      "width": 1,
-      "height": 1
-    },
-    {
-      "id": "social-table-east",
-      "sprite": "table-small-white",
-      "layer": "props",
-      "x": 26,
-      "y": 29,
-      "width": 1,
-      "height": 1
-    },
-    {
-      "id": "wayfinding-wallboard-plaza-return-label-face",
-      "sprite": "sign-board-face",
-      "x": 15,
-      "y": 37,
-      "width": 12,
-      "height": 1,
-      "layer": "architecture"
-    },
-    {
-      "id": "wayfinding-wallboard-plaza-return-label-north",
-      "sprite": "sign-board-north",
-      "x": 15,
-      "y": 37,
-      "width": 12,
-      "height": 1,
-      "layer": "architecture"
-    },
-    {
-      "id": "wayfinding-wallboard-plaza-return-label-south",
-      "sprite": "sign-board-south",
-      "x": 15,
-      "y": 37,
-      "width": 12,
-      "height": 1,
-      "layer": "architecture"
-    },
-    {
-      "id": "wayfinding-wallboard-plaza-return-label-west",
-      "sprite": "sign-board-west",
-      "x": 15,
-      "y": 37,
-      "width": 1,
-      "height": 1,
-      "layer": "architecture"
-    },
-    {
-      "id": "wayfinding-wallboard-plaza-return-label-east",
-      "sprite": "sign-board-east",
-      "x": 26,
-      "y": 37,
-      "width": 1,
-      "height": 1,
-      "layer": "architecture"
-    },
-    {
-      "id": "wayfinding-wallboard-branch-return-label-face",
-      "sprite": "sign-board-face",
-      "x": 4,
-      "y": 37,
-      "width": 11,
-      "height": 1,
-      "layer": "architecture"
-    },
-    {
-      "id": "wayfinding-wallboard-branch-return-label-north",
-      "sprite": "sign-board-north",
-      "x": 4,
-      "y": 37,
-      "width": 11,
-      "height": 1,
-      "layer": "architecture"
-    },
-    {
-      "id": "wayfinding-wallboard-branch-return-label-south",
-      "sprite": "sign-board-south",
-      "x": 4,
-      "y": 37,
-      "width": 11,
-      "height": 1,
-      "layer": "architecture"
-    },
-    {
-      "id": "wayfinding-wallboard-branch-return-label-west",
-      "sprite": "sign-board-west",
-      "x": 4,
-      "y": 37,
-      "width": 1,
-      "height": 1,
-      "layer": "architecture"
-    },
-    {
-      "id": "wayfinding-wallboard-branch-return-label-east",
-      "sprite": "sign-board-east",
+      "id": "screen-wall",
+      "sprite": "wall-navy",
       "x": 14,
-      "y": 37,
-      "width": 1,
-      "height": 1,
-      "layer": "architecture"
+      "y": 5,
+      "width": 12,
+      "height": 2,
+      "layer": "decor"
     },
     {
-      "id": "wayfinding-wall-arrow-1",
-      "sprite": "arrow-south",
-      "x": 19,
-      "y": 34,
-      "width": 1,
-      "height": 1,
-      "layer": "architecture"
+      "id": "stage-floor",
+      "sprite": "floor-charcoal",
+      "x": 15,
+      "y": 7,
+      "width": 10,
+      "height": 5,
+      "layer": "terrain"
     },
     {
-      "id": "wayfinding-wall-arrow-2",
-      "sprite": "arrow-south",
-      "x": 7,
-      "y": 34,
+      "id": "stage-console",
+      "sprite": "desk-coding",
+      "x": 18,
+      "y": 11,
+      "width": 3,
+      "height": 2,
+      "layer": "decor"
+    },
+    {
+      "id": "bay-west-0",
+      "sprite": "floor-charcoal",
+      "x": 3,
+      "y": 8,
+      "width": 9,
+      "height": 7,
+      "layer": "terrain"
+    },
+    {
+      "id": "bay-wall-west-0",
+      "sprite": "wall-navy",
+      "x": 3,
+      "y": 7,
+      "width": 9,
+      "height": 2,
+      "layer": "decor"
+    },
+    {
+      "id": "bay-light-west-0",
+      "sprite": "light-cyan",
+      "x": 3,
+      "y": 10,
+      "width": 1,
+      "height": 2,
+      "layer": "decor"
+    },
+    {
+      "id": "bay-seat-west-0",
+      "sprite": "arcade-seat",
+      "x": 10,
+      "y": 11,
+      "width": 1,
+      "height": 2,
+      "layer": "decor"
+    },
+    {
+      "id": "play-mat-west-0",
+      "sprite": "floor-blue",
+      "x": 4,
+      "y": 13,
+      "width": 4,
+      "height": 2,
+      "layer": "terrain"
+    },
+    {
+      "id": "bay-east-0",
+      "sprite": "floor-charcoal",
+      "x": 28,
+      "y": 8,
+      "width": 9,
+      "height": 7,
+      "layer": "terrain"
+    },
+    {
+      "id": "bay-wall-east-0",
+      "sprite": "wall-navy",
+      "x": 28,
+      "y": 7,
+      "width": 9,
+      "height": 2,
+      "layer": "decor"
+    },
+    {
+      "id": "bay-light-east-0",
+      "sprite": "light-cyan",
+      "x": 35,
+      "y": 10,
+      "width": 1,
+      "height": 2,
+      "layer": "decor"
+    },
+    {
+      "id": "bay-seat-east-0",
+      "sprite": "arcade-seat",
+      "x": 36,
+      "y": 11,
+      "width": 1,
+      "height": 2,
+      "layer": "decor"
+    },
+    {
+      "id": "play-mat-east-0",
+      "sprite": "floor-blue",
+      "x": 30,
+      "y": 13,
+      "width": 4,
+      "height": 2,
+      "layer": "terrain"
+    },
+    {
+      "id": "bay-west-1",
+      "sprite": "floor-charcoal",
+      "x": 3,
+      "y": 15,
+      "width": 9,
+      "height": 7,
+      "layer": "terrain"
+    },
+    {
+      "id": "bay-wall-west-1",
+      "sprite": "wall-navy",
+      "x": 3,
+      "y": 14,
+      "width": 9,
+      "height": 2,
+      "layer": "decor"
+    },
+    {
+      "id": "bay-light-west-1",
+      "sprite": "light-cyan",
+      "x": 3,
+      "y": 17,
+      "width": 1,
+      "height": 2,
+      "layer": "decor"
+    },
+    {
+      "id": "bay-seat-west-1",
+      "sprite": "arcade-seat",
+      "x": 10,
+      "y": 18,
+      "width": 1,
+      "height": 2,
+      "layer": "decor"
+    },
+    {
+      "id": "play-mat-west-1",
+      "sprite": "floor-blue",
+      "x": 4,
+      "y": 20,
+      "width": 4,
+      "height": 2,
+      "layer": "terrain"
+    },
+    {
+      "id": "bay-east-1",
+      "sprite": "floor-charcoal",
+      "x": 28,
+      "y": 15,
+      "width": 9,
+      "height": 7,
+      "layer": "terrain"
+    },
+    {
+      "id": "bay-wall-east-1",
+      "sprite": "wall-navy",
+      "x": 28,
+      "y": 14,
+      "width": 9,
+      "height": 2,
+      "layer": "decor"
+    },
+    {
+      "id": "bay-light-east-1",
+      "sprite": "light-cyan",
+      "x": 35,
+      "y": 17,
+      "width": 1,
+      "height": 2,
+      "layer": "decor"
+    },
+    {
+      "id": "bay-seat-east-1",
+      "sprite": "arcade-seat",
+      "x": 36,
+      "y": 18,
+      "width": 1,
+      "height": 2,
+      "layer": "decor"
+    },
+    {
+      "id": "play-mat-east-1",
+      "sprite": "floor-blue",
+      "x": 30,
+      "y": 20,
+      "width": 4,
+      "height": 2,
+      "layer": "terrain"
+    },
+    {
+      "id": "bay-west-2",
+      "sprite": "floor-charcoal",
+      "x": 3,
+      "y": 22,
+      "width": 9,
+      "height": 7,
+      "layer": "terrain"
+    },
+    {
+      "id": "bay-wall-west-2",
+      "sprite": "wall-navy",
+      "x": 3,
+      "y": 21,
+      "width": 9,
+      "height": 2,
+      "layer": "decor"
+    },
+    {
+      "id": "bay-light-west-2",
+      "sprite": "light-cyan",
+      "x": 3,
+      "y": 24,
+      "width": 1,
+      "height": 2,
+      "layer": "decor"
+    },
+    {
+      "id": "bay-seat-west-2",
+      "sprite": "arcade-seat",
+      "x": 10,
+      "y": 25,
+      "width": 1,
+      "height": 2,
+      "layer": "decor"
+    },
+    {
+      "id": "play-mat-west-2",
+      "sprite": "floor-blue",
+      "x": 4,
+      "y": 27,
+      "width": 4,
+      "height": 2,
+      "layer": "terrain"
+    },
+    {
+      "id": "bay-east-2",
+      "sprite": "floor-charcoal",
+      "x": 28,
+      "y": 22,
+      "width": 9,
+      "height": 7,
+      "layer": "terrain"
+    },
+    {
+      "id": "bay-wall-east-2",
+      "sprite": "wall-navy",
+      "x": 28,
+      "y": 21,
+      "width": 9,
+      "height": 2,
+      "layer": "decor"
+    },
+    {
+      "id": "bay-light-east-2",
+      "sprite": "light-cyan",
+      "x": 35,
+      "y": 24,
+      "width": 1,
+      "height": 2,
+      "layer": "decor"
+    },
+    {
+      "id": "bay-seat-east-2",
+      "sprite": "arcade-seat",
+      "x": 36,
+      "y": 25,
+      "width": 1,
+      "height": 2,
+      "layer": "decor"
+    },
+    {
+      "id": "play-mat-east-2",
+      "sprite": "floor-blue",
+      "x": 30,
+      "y": 27,
+      "width": 4,
+      "height": 2,
+      "layer": "terrain"
+    },
+    {
+      "id": "lounge-west",
+      "sprite": "sofa-blue",
+      "x": 14,
+      "y": 26,
+      "width": 3,
+      "height": 2,
+      "layer": "decor"
+    },
+    {
+      "id": "lounge-east",
+      "sprite": "sofa-blue",
+      "x": 23,
+      "y": 26,
+      "width": 3,
+      "height": 2,
+      "layer": "decor"
+    },
+    {
+      "id": "lounge-table-west",
+      "sprite": "table-small-wood",
+      "x": 15,
+      "y": 29,
       "width": 1,
       "height": 1,
-      "layer": "architecture"
+      "layer": "decor"
+    },
+    {
+      "id": "lounge-table-east",
+      "sprite": "table-small-wood",
+      "x": 24,
+      "y": 29,
+      "width": 1,
+      "height": 1,
+      "layer": "decor"
+    },
+    {
+      "id": "watch-seat-16-15",
+      "sprite": "arcade-seat",
+      "x": 16,
+      "y": 15,
+      "width": 1,
+      "height": 2,
+      "layer": "decor"
+    },
+    {
+      "id": "watch-seat-22-15",
+      "sprite": "arcade-seat",
+      "x": 22,
+      "y": 15,
+      "width": 1,
+      "height": 2,
+      "layer": "decor"
+    },
+    {
+      "id": "watch-seat-16-18",
+      "sprite": "arcade-seat",
+      "x": 16,
+      "y": 18,
+      "width": 1,
+      "height": 2,
+      "layer": "decor"
+    },
+    {
+      "id": "watch-seat-22-18",
+      "sprite": "arcade-seat",
+      "x": 22,
+      "y": 18,
+      "width": 1,
+      "height": 2,
+      "layer": "decor"
+    },
+    {
+      "id": "arcade-fern-12-5",
+      "sprite": "plaza-potted-fern",
+      "x": 12,
+      "y": 5,
+      "width": 1,
+      "height": 2,
+      "layer": "decor"
+    },
+    {
+      "id": "arcade-fern-26-5",
+      "sprite": "plaza-potted-fern",
+      "x": 26,
+      "y": 5,
+      "width": 1,
+      "height": 2,
+      "layer": "decor"
+    },
+    {
+      "id": "arcade-fern-3-31",
+      "sprite": "plaza-potted-fern",
+      "x": 3,
+      "y": 31,
+      "width": 1,
+      "height": 2,
+      "layer": "decor"
+    },
+    {
+      "id": "arcade-fern-35-31",
+      "sprite": "plaza-potted-fern",
+      "x": 35,
+      "y": 31,
+      "width": 1,
+      "height": 2,
+      "layer": "decor"
+    },
+    {
+      "id": "exit-hall",
+      "sprite": "floor-charcoal",
+      "x": 2,
+      "y": 34,
+      "width": 36,
+      "height": 4,
+      "layer": "terrain"
+    },
+    {
+      "id": "plaza-threshold",
+      "sprite": "floor-inlay",
+      "x": 18,
+      "y": 36,
+      "width": 4,
+      "height": 1,
+      "layer": "decor"
+    },
+    {
+      "id": "park-threshold",
+      "sprite": "floor-inlay",
+      "x": 6,
+      "y": 36,
+      "width": 4,
+      "height": 1,
+      "layer": "decor"
     }
   ],
   "entries": [
@@ -431,18 +628,18 @@
       "name": "plaza-return",
       "destination": "overworld",
       "entry": "from-festival",
-      "x": 19,
+      "x": 18,
       "y": 36,
-      "width": 2,
+      "width": 4,
       "height": 1
     },
     {
       "name": "branch-return",
       "destination": "zodiac-festival-park",
       "entry": "from-arcade",
-      "x": 7,
+      "x": 6,
       "y": 36,
-      "width": 2,
+      "width": 4,
       "height": 1
     }
   ],
@@ -521,47 +718,212 @@
   ],
   "signs": [
     {
-      "name": "plaza-return-label",
-      "text": "↓ ZODIAC PLAZA",
-      "fontSize": 16,
-      "color": "#fff0b0",
-      "x": 15,
-      "y": 37,
+      "name": "arcade-title",
+      "text": "NEBULA ARCADE",
+      "x": 17,
+      "y": 3,
       "width": 12,
       "height": 1,
+      "fontSize": 23,
+      "color": "#f6b263",
+      "align": "left"
+    },
+    {
+      "name": "game-west-0",
+      "text": "WAR BROKERS",
+      "x": 6,
+      "y": 9,
+      "width": 6,
+      "height": 1,
+      "fontSize": 15,
+      "color": "#a7e6ed",
+      "align": "left"
+    },
+    {
+      "name": "kind-west-0",
+      "text": "TEAM FPS",
+      "x": 5,
+      "y": 13,
+      "width": 5,
+      "height": 1,
+      "fontSize": 10,
+      "color": "#efd8a4",
+      "align": "left"
+    },
+    {
+      "name": "game-east-0",
+      "text": "WAR BROKERS",
+      "x": 31,
+      "y": 9,
+      "width": 6,
+      "height": 1,
+      "fontSize": 15,
+      "color": "#a7e6ed",
+      "align": "left"
+    },
+    {
+      "name": "kind-east-0",
+      "text": "TEAM FPS",
+      "x": 31,
+      "y": 13,
+      "width": 5,
+      "height": 1,
+      "fontSize": 10,
+      "color": "#efd8a4",
+      "align": "left"
+    },
+    {
+      "name": "game-west-1",
+      "text": "DEADSHOT",
+      "x": 6,
+      "y": 16,
+      "width": 6,
+      "height": 1,
+      "fontSize": 15,
+      "color": "#a7e6ed",
+      "align": "left"
+    },
+    {
+      "name": "kind-west-1",
+      "text": "ARENA FPS",
+      "x": 5,
+      "y": 20,
+      "width": 5,
+      "height": 1,
+      "fontSize": 10,
+      "color": "#efd8a4",
+      "align": "left"
+    },
+    {
+      "name": "game-east-1",
+      "text": "DEADSHOT",
+      "x": 31,
+      "y": 16,
+      "width": 6,
+      "height": 1,
+      "fontSize": 15,
+      "color": "#a7e6ed",
+      "align": "left"
+    },
+    {
+      "name": "kind-east-1",
+      "text": "ARENA FPS",
+      "x": 31,
+      "y": 20,
+      "width": 5,
+      "height": 1,
+      "fontSize": 10,
+      "color": "#efd8a4",
+      "align": "left"
+    },
+    {
+      "name": "game-west-2",
+      "text": "HAXBALL",
+      "x": 6,
+      "y": 23,
+      "width": 6,
+      "height": 1,
+      "fontSize": 15,
+      "color": "#a7e6ed",
+      "align": "left"
+    },
+    {
+      "name": "kind-west-2",
+      "text": "TEAM PVP",
+      "x": 5,
+      "y": 27,
+      "width": 5,
+      "height": 1,
+      "fontSize": 10,
+      "color": "#efd8a4",
+      "align": "left"
+    },
+    {
+      "name": "game-east-2",
+      "text": "HAXBALL",
+      "x": 31,
+      "y": 23,
+      "width": 6,
+      "height": 1,
+      "fontSize": 15,
+      "color": "#a7e6ed",
+      "align": "left"
+    },
+    {
+      "name": "kind-east-2",
+      "text": "TEAM PVP",
+      "x": 31,
+      "y": 27,
+      "width": 5,
+      "height": 1,
+      "fontSize": 10,
+      "color": "#efd8a4",
+      "align": "left"
+    },
+    {
+      "name": "screen-lounge",
+      "text": "GAMING LOUNGE",
+      "x": 18,
+      "y": 13,
+      "width": 10,
+      "height": 1,
+      "fontSize": 13,
+      "color": "#eedebc",
+      "align": "left"
+    },
+    {
+      "name": "launch-help",
+      "text": "STEP TO A CABINET · PRESS SPACE",
+      "x": 17,
+      "y": 22,
+      "width": 12,
+      "height": 1,
+      "fontSize": 11,
+      "color": "#eedebc",
+      "align": "left"
+    },
+    {
+      "name": "launch-detail",
+      "text": "GAME OPENS IN A NEW TAB",
+      "x": 18,
+      "y": 23,
+      "width": 10,
+      "height": 1,
+      "fontSize": 10,
+      "color": "#a9c3ce",
+      "align": "left"
+    },
+    {
+      "name": "lounge-label",
+      "text": "MEET · PLAY · TAKE A BREAK",
+      "x": 18,
+      "y": 31,
+      "width": 12,
+      "height": 1,
+      "fontSize": 11,
+      "color": "#b9cbd6",
+      "align": "left"
+    },
+    {
+      "name": "plaza-return-label",
+      "text": "↓ ZODIAC PLAZA",
+      "x": 18,
+      "y": 37,
+      "width": 8,
+      "height": 1,
+      "fontSize": 13,
+      "color": "#eedebc",
       "align": "left"
     },
     {
       "name": "branch-return-label",
       "text": "↓ FESTIVAL PARK",
-      "fontSize": 16,
-      "color": "#fff0b0",
-      "x": 4,
+      "x": 6,
       "y": 37,
-      "width": 11,
+      "width": 8,
       "height": 1,
-      "align": "left"
-    },
-    {
-      "name": "arcade-title",
-      "text": "NEBULA ARCADE",
-      "fontSize": 26,
-      "color": "#f4d77b",
-      "x": 10,
-      "y": 3,
-      "width": 20,
-      "height": 2,
-      "align": "left"
-    },
-    {
-      "name": "tournament-label",
-      "text": "PLAY · WATCH · MEET",
-      "fontSize": 16,
-      "color": "#f4d77b",
-      "x": 14,
-      "y": 19,
-      "width": 13,
-      "height": 1,
+      "fontSize": 13,
+      "color": "#eedebc",
       "align": "left"
     }
   ],
@@ -570,7 +932,7 @@
       "name": "world-ambient-nebula-arcade-device-1",
       "image": "assets/tilesets/original/world-ambient-nebula-arcade-device-1.png",
       "sourceId": "original",
-      "level": "belowAvatar",
+      "level": "aboveAvatar",
       "x": 17,
       "y": 7,
       "width": 6,
@@ -1029,11 +1391,11 @@
           },
           {
             "path": "tools/maps/animated-decoration-contract.json",
-            "sha256": "995b3766bba1268d9e56a9c6b78c530b6515179a3779f73d81757f9c92b8d065"
+            "sha256": "5088480bcf4c6b9feac41dca63de7b1f2ffd3ae7969cbbb81641a10130534db9"
           },
           {
             "path": "tools/art/world-ambient.ts",
-            "sha256": "0d03a2f373000413cc6218b017de7358792cc45d77311b4a9d53b641700d676c"
+            "sha256": "5b33e4b567645f3417fc5492d9472f96266f4f604454d30eb52fa4dedca3a85b"
           },
           {
             "path": "tools/art/world-ambient-assets.ts",
@@ -1041,7 +1403,7 @@
           },
           {
             "path": "tools/maps/animated-decoration.ts",
-            "sha256": "162cdc94cdbfd3464fa690c0008fbfa66167fa7b14292154439c1e2afc7bb168"
+            "sha256": "c81193d65ce286903ac2d436e94ab717f2219b14a9fe3155f548034e030de7b7"
           },
           {
             "path": "tools/maps/world-ambient.ts",
@@ -1053,7 +1415,15 @@
           },
           {
             "path": "tools/maps/world-ambient-ownership.ts",
-            "sha256": "f72479846ede44e8d27134c343232ad0ea662caaee09fa3c197acdddcb2e98bc"
+            "sha256": "ff37b6dc1ec3994ca1e532351231667d7351d260eade5d7e7cd26752b0feda4d"
+          },
+          {
+            "path": "tools/maps/park-arcade-context.ts",
+            "sha256": "ec9ce0262f850ca205327e7dd206175e82fc668b84f99a4dcf4c13488e28d32f"
+          },
+          {
+            "path": "art/source/park-arcade-refresh.json",
+            "sha256": "4facd2068f4c15d23e03a96e103e284a4ac12bb632b4b4f3165bafcdbe8adc50"
           },
           {
             "path": "tools/maps/cafe-arrival-context.ts",
@@ -1073,11 +1443,11 @@
           },
           {
             "path": "tools/maps/native-projection.ts",
-            "sha256": "2831234b9addd3ca8b2e4bdc964e9f9d4ad079f8f7d8b7c9204794519a474a3b"
+            "sha256": "767f545f0e7ec2d8494ad2aa3a17913ed41da0cfbe1478d35fa83ea709041965"
           },
           {
             "path": "tools/maps/native-ownership-context.ts",
-            "sha256": "0dc2bfdb601d2e48b31513b8e95a1a9c8d0deaa8a129933f26bda37d626e4812"
+            "sha256": "dec843145ca77cc39af9a00e8ae09c56dcfe8b1609b9d550e5098bf678213280"
           },
           {
             "path": "art/source/native-ownership-context.json",
@@ -1102,7 +1472,7 @@
       "name": "world-ambient-nebula-arcade-device-2",
       "image": "assets/tilesets/original/world-ambient-nebula-arcade-device-2.png",
       "sourceId": "original",
-      "level": "belowAvatar",
+      "level": "aboveAvatar",
       "x": 5,
       "y": 10,
       "width": 2,
@@ -1441,11 +1811,11 @@
           },
           {
             "path": "tools/maps/animated-decoration-contract.json",
-            "sha256": "995b3766bba1268d9e56a9c6b78c530b6515179a3779f73d81757f9c92b8d065"
+            "sha256": "5088480bcf4c6b9feac41dca63de7b1f2ffd3ae7969cbbb81641a10130534db9"
           },
           {
             "path": "tools/art/world-ambient.ts",
-            "sha256": "0d03a2f373000413cc6218b017de7358792cc45d77311b4a9d53b641700d676c"
+            "sha256": "5b33e4b567645f3417fc5492d9472f96266f4f604454d30eb52fa4dedca3a85b"
           },
           {
             "path": "tools/art/world-ambient-assets.ts",
@@ -1453,7 +1823,7 @@
           },
           {
             "path": "tools/maps/animated-decoration.ts",
-            "sha256": "162cdc94cdbfd3464fa690c0008fbfa66167fa7b14292154439c1e2afc7bb168"
+            "sha256": "c81193d65ce286903ac2d436e94ab717f2219b14a9fe3155f548034e030de7b7"
           },
           {
             "path": "tools/maps/world-ambient.ts",
@@ -1465,7 +1835,15 @@
           },
           {
             "path": "tools/maps/world-ambient-ownership.ts",
-            "sha256": "f72479846ede44e8d27134c343232ad0ea662caaee09fa3c197acdddcb2e98bc"
+            "sha256": "ff37b6dc1ec3994ca1e532351231667d7351d260eade5d7e7cd26752b0feda4d"
+          },
+          {
+            "path": "tools/maps/park-arcade-context.ts",
+            "sha256": "ec9ce0262f850ca205327e7dd206175e82fc668b84f99a4dcf4c13488e28d32f"
+          },
+          {
+            "path": "art/source/park-arcade-refresh.json",
+            "sha256": "4facd2068f4c15d23e03a96e103e284a4ac12bb632b4b4f3165bafcdbe8adc50"
           },
           {
             "path": "tools/maps/cafe-arrival-context.ts",
@@ -1485,11 +1863,11 @@
           },
           {
             "path": "tools/maps/native-projection.ts",
-            "sha256": "2831234b9addd3ca8b2e4bdc964e9f9d4ad079f8f7d8b7c9204794519a474a3b"
+            "sha256": "767f545f0e7ec2d8494ad2aa3a17913ed41da0cfbe1478d35fa83ea709041965"
           },
           {
             "path": "tools/maps/native-ownership-context.ts",
-            "sha256": "0dc2bfdb601d2e48b31513b8e95a1a9c8d0deaa8a129933f26bda37d626e4812"
+            "sha256": "dec843145ca77cc39af9a00e8ae09c56dcfe8b1609b9d550e5098bf678213280"
           },
           {
             "path": "art/source/native-ownership-context.json",
@@ -1514,7 +1892,7 @@
       "name": "world-ambient-nebula-arcade-device-3",
       "image": "assets/tilesets/original/world-ambient-nebula-arcade-device-3.png",
       "sourceId": "original",
-      "level": "belowAvatar",
+      "level": "aboveAvatar",
       "x": 31,
       "y": 17,
       "width": 2,
@@ -1853,11 +2231,11 @@
           },
           {
             "path": "tools/maps/animated-decoration-contract.json",
-            "sha256": "995b3766bba1268d9e56a9c6b78c530b6515179a3779f73d81757f9c92b8d065"
+            "sha256": "5088480bcf4c6b9feac41dca63de7b1f2ffd3ae7969cbbb81641a10130534db9"
           },
           {
             "path": "tools/art/world-ambient.ts",
-            "sha256": "0d03a2f373000413cc6218b017de7358792cc45d77311b4a9d53b641700d676c"
+            "sha256": "5b33e4b567645f3417fc5492d9472f96266f4f604454d30eb52fa4dedca3a85b"
           },
           {
             "path": "tools/art/world-ambient-assets.ts",
@@ -1865,7 +2243,7 @@
           },
           {
             "path": "tools/maps/animated-decoration.ts",
-            "sha256": "162cdc94cdbfd3464fa690c0008fbfa66167fa7b14292154439c1e2afc7bb168"
+            "sha256": "c81193d65ce286903ac2d436e94ab717f2219b14a9fe3155f548034e030de7b7"
           },
           {
             "path": "tools/maps/world-ambient.ts",
@@ -1877,7 +2255,15 @@
           },
           {
             "path": "tools/maps/world-ambient-ownership.ts",
-            "sha256": "f72479846ede44e8d27134c343232ad0ea662caaee09fa3c197acdddcb2e98bc"
+            "sha256": "ff37b6dc1ec3994ca1e532351231667d7351d260eade5d7e7cd26752b0feda4d"
+          },
+          {
+            "path": "tools/maps/park-arcade-context.ts",
+            "sha256": "ec9ce0262f850ca205327e7dd206175e82fc668b84f99a4dcf4c13488e28d32f"
+          },
+          {
+            "path": "art/source/park-arcade-refresh.json",
+            "sha256": "4facd2068f4c15d23e03a96e103e284a4ac12bb632b4b4f3165bafcdbe8adc50"
           },
           {
             "path": "tools/maps/cafe-arrival-context.ts",
@@ -1897,11 +2283,11 @@
           },
           {
             "path": "tools/maps/native-projection.ts",
-            "sha256": "2831234b9addd3ca8b2e4bdc964e9f9d4ad079f8f7d8b7c9204794519a474a3b"
+            "sha256": "767f545f0e7ec2d8494ad2aa3a17913ed41da0cfbe1478d35fa83ea709041965"
           },
           {
             "path": "tools/maps/native-ownership-context.ts",
-            "sha256": "0dc2bfdb601d2e48b31513b8e95a1a9c8d0deaa8a129933f26bda37d626e4812"
+            "sha256": "dec843145ca77cc39af9a00e8ae09c56dcfe8b1609b9d550e5098bf678213280"
           },
           {
             "path": "art/source/native-ownership-context.json",

@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "mapId": "nebula-arcade",
+  "games": [
+    {"id": "warbrokers", "name": "War Brokers", "label": "WAR BROKERS", "kind": "TEAM FPS", "url": "https://warbrokers.io/"},
+    {"id": "deadshot", "name": "DEADSHOT", "label": "DEADSHOT", "kind": "ARENA FPS", "url": "https://deadshot.io/"},
+    {"id": "haxball", "name": "HaxBall", "label": "HAXBALL", "kind": "TEAM PVP", "url": "https://www.haxball.com/play"}
+  ],
+  "cabinets": [
+    {"placementId": "cabinet-west0", "gameId": "warbrokers", "interaction": {"x": 4, "y": 13, "width": 4, "height": 2}},
+    {"placementId": "cabinet-east0", "gameId": "warbrokers", "interaction": {"x": 30, "y": 13, "width": 4, "height": 2}},
+    {"placementId": "cabinet-west1", "gameId": "deadshot", "interaction": {"x": 4, "y": 20, "width": 4, "height": 2}},
+    {"placementId": "cabinet-east1", "gameId": "deadshot", "interaction": {"x": 30, "y": 20, "width": 4, "height": 2}},
+    {"placementId": "cabinet-west2", "gameId": "haxball", "interaction": {"x": 4, "y": 27, "width": 4, "height": 2}},
+    {"placementId": "cabinet-east2", "gameId": "haxball", "interaction": {"x": 30, "y": 27, "width": 4, "height": 2}}
+  ]
+}

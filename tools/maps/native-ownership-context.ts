@@ -1,4 +1,5 @@
 import {navigationProtectedLayers,navigationAtlases} from './harbour-navigation-context';
+import {parkArcadeProtectedLayers,parkArcadeAtlases,isParkLampSource} from './park-arcade-context';
 import {VIBECODE_IMAGE,VIBECODE_CAPTION_IMAGE} from '../art/vibecode';
 import{isDeepStrictEqual}from'node:util';
 import registered from'../../art/source/native-ownership-context.json';
@@ -211,8 +212,9 @@ function protectedContext(actual:TiledMap,row:ContextRow,author=false):void{
  const layers=actual.layers.filter(l=>l.type!=='tilelayer'&&l.name!=='floorLayer');
  const preceding=cafeArrivalProtectedLayers(identities(actual)[0],row.protectedLayers);
  const maze=mazeGateProtectedLayers(identities(actual)[0],preceding);
- const current=navigationProtectedLayers(identities(actual)[0],maze);
- need(isDeepStrictEqual(layers,current)||(author&&[maze,preceding,row.protectedLayers].some(prior=>isDeepStrictEqual(layers,prior))),'protected nonfloor layer bodies/roster changed');
+ const navigation=navigationProtectedLayers(identities(actual)[0],maze);
+ const current=parkArcadeProtectedLayers(identities(actual)[0],navigation);
+ need(isDeepStrictEqual(layers,current)||(author&&[navigation,maze,preceding,row.protectedLayers].some(prior=>isDeepStrictEqual(layers,prior))),'protected nonfloor layer bodies/roster changed');
  need(isDeepStrictEqual(actual.layers.filter(l=>l.type!=='tilelayer').map(l=>l.name),row.protectedNonfloorOrder),'protected nonfloor order changed');
 }
 /** Reviewed epochs on the overworld, each admitted only after every earlier one: the fleet is
@@ -276,11 +278,12 @@ function currentAtlases(row:ContextRow,source:TiledMap,epoch:Epoch=CURRENT,inclu
   if(vibe.length){const t=vibe[0];need(buildings.length===2&&t.name==='Expo / Vibe Code Tours'&&t.image==='../'+VIBECODE_IMAGE&&!t.source&&t.tilewidth===32&&t.tileheight===32&&t.columns===4&&t.tilecount===8&&t.imagewidth===128&&t.imageheight===64&&!t.tiles&&(t.margin??0)===0&&(t.spacing??0)===0&&t.properties?.some(p=>p.name==='sponsorPanel'&&p.value===true),'Vibe Code sponsor identity/geometry changed');
    if(includeBuildings&&includeLeo&&includeFountain&&includePatrol&&includeArrival&&includeHall&&includeZodiac&&epoch.roadsterV2)expected.push({...structuredClone(t),firstgid:Math.max(...expected.map(t=>t.firstgid+t.tilecount!))});
   }
- }else{need(fleet.length===0,'plaza fleet source atlas requires overworld identity');need(!source.tilesets.some(set=>expoMember(set,row,false)),'expo source atlas requires overworld identity');need(!source.tilesets.some(brandMember),'brand asset source atlas requires overworld identity');need(!source.tilesets.some(isRoadsterV2),'roadster-v2 source atlas requires overworld identity');}
+ }else{need(fleet.length===0,'plaza fleet source atlas requires overworld identity');need(!source.tilesets.some(set=>expoMember(set,row,false)),'expo source atlas requires overworld identity');need(!source.tilesets.some(t=>brandMember(t)&&!isParkLampSource(identities(source)[0],t)),'brand asset source atlas requires overworld identity');need(!source.tilesets.some(isRoadsterV2),'roadster-v2 source atlas requires overworld identity');}
  const cove=tropicalCoveAtlas(source,next);if(cove&&includeCove)expected.push(cove);
  expected.push(...cafeArrivalAtlases(identities(source)[0]),...mazeGateAtlases(identities(source)[0]));
  expected.push(...eventCounterAtlases(source,Math.max(...expected.map(t=>t.firstgid+t.tilecount!))));
  expected.push(...navigationAtlases(identities(source)[0]));
+ expected.push(...parkArcadeAtlases(identities(source)[0]));
  return expected;
 }
 /** Mandatory final current context: complete atlas roster/order/bodies/ranges,
@@ -301,6 +304,8 @@ export function assertNativeAuthoringContext(actual:TiledMap,source:TiledMap):vo
  const expected=currentAtlases(row,source);
  if(isDeepStrictEqual(actual.tilesets,row.atlases))return;
  if(isDeepStrictEqual(actual.tilesets,expected))return;
+ const parkCount=parkArcadeAtlases(identities(source)[0]).length;
+ if(parkCount&&isDeepStrictEqual(actual.tilesets,expected.slice(0,-parkCount)))return;
  const navigationCount=navigationAtlases(identities(source)[0]).length;
  if(navigationCount&&isDeepStrictEqual(actual.tilesets,expected.slice(0,-navigationCount)))return;
  // Exact predecessor to the two native check-in furniture sheets.

@@ -1205,11 +1205,11 @@
         },
         {
           "path": "tools/maps/animated-decoration.ts",
-          "sha256": "162cdc94cdbfd3464fa690c0008fbfa66167fa7b14292154439c1e2afc7bb168"
+          "sha256": "c81193d65ce286903ac2d436e94ab717f2219b14a9fe3155f548034e030de7b7"
         },
         {
           "path": "tools/maps/animated-decoration-contract.json",
-          "sha256": "995b3766bba1268d9e56a9c6b78c530b6515179a3779f73d81757f9c92b8d065"
+          "sha256": "5088480bcf4c6b9feac41dca63de7b1f2ffd3ae7969cbbb81641a10130534db9"
         },
         {
           "path": "tools/art/native-motion.ts",

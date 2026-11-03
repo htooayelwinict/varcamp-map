@@ -856,11 +856,11 @@
           },
           {
             "path": "tools/maps/animated-decoration-contract.json",
-            "sha256": "995b3766bba1268d9e56a9c6b78c530b6515179a3779f73d81757f9c92b8d065"
+            "sha256": "5088480bcf4c6b9feac41dca63de7b1f2ffd3ae7969cbbb81641a10130534db9"
           },
           {
             "path": "tools/art/world-ambient.ts",
-            "sha256": "0d03a2f373000413cc6218b017de7358792cc45d77311b4a9d53b641700d676c"
+            "sha256": "5b33e4b567645f3417fc5492d9472f96266f4f604454d30eb52fa4dedca3a85b"
           },
           {
             "path": "tools/art/world-ambient-assets.ts",
@@ -868,7 +868,7 @@
           },
           {
             "path": "tools/maps/animated-decoration.ts",
-            "sha256": "162cdc94cdbfd3464fa690c0008fbfa66167fa7b14292154439c1e2afc7bb168"
+            "sha256": "c81193d65ce286903ac2d436e94ab717f2219b14a9fe3155f548034e030de7b7"
           },
           {
             "path": "tools/maps/world-ambient.ts",
@@ -880,7 +880,15 @@
           },
           {
             "path": "tools/maps/world-ambient-ownership.ts",
-            "sha256": "f72479846ede44e8d27134c343232ad0ea662caaee09fa3c197acdddcb2e98bc"
+            "sha256": "ff37b6dc1ec3994ca1e532351231667d7351d260eade5d7e7cd26752b0feda4d"
+          },
+          {
+            "path": "tools/maps/park-arcade-context.ts",
+            "sha256": "ec9ce0262f850ca205327e7dd206175e82fc668b84f99a4dcf4c13488e28d32f"
+          },
+          {
+            "path": "art/source/park-arcade-refresh.json",
+            "sha256": "4facd2068f4c15d23e03a96e103e284a4ac12bb632b4b4f3165bafcdbe8adc50"
           },
           {
             "path": "tools/maps/cafe-arrival-context.ts",
@@ -900,11 +908,11 @@
           },
           {
             "path": "tools/maps/native-projection.ts",
-            "sha256": "2831234b9addd3ca8b2e4bdc964e9f9d4ad079f8f7d8b7c9204794519a474a3b"
+            "sha256": "767f545f0e7ec2d8494ad2aa3a17913ed41da0cfbe1478d35fa83ea709041965"
           },
           {
             "path": "tools/maps/native-ownership-context.ts",
-            "sha256": "0dc2bfdb601d2e48b31513b8e95a1a9c8d0deaa8a129933f26bda37d626e4812"
+            "sha256": "dec843145ca77cc39af9a00e8ae09c56dcfe8b1609b9d550e5098bf678213280"
           },
           {
             "path": "art/source/native-ownership-context.json",
@@ -1048,11 +1056,11 @@
           },
           {
             "path": "tools/maps/animated-decoration-contract.json",
-            "sha256": "995b3766bba1268d9e56a9c6b78c530b6515179a3779f73d81757f9c92b8d065"
+            "sha256": "5088480bcf4c6b9feac41dca63de7b1f2ffd3ae7969cbbb81641a10130534db9"
           },
           {
             "path": "tools/art/world-ambient.ts",
-            "sha256": "0d03a2f373000413cc6218b017de7358792cc45d77311b4a9d53b641700d676c"
+            "sha256": "5b33e4b567645f3417fc5492d9472f96266f4f604454d30eb52fa4dedca3a85b"
           },
           {
             "path": "tools/art/world-ambient-assets.ts",
@@ -1060,7 +1068,7 @@
           },
           {
             "path": "tools/maps/animated-decoration.ts",
-            "sha256": "162cdc94cdbfd3464fa690c0008fbfa66167fa7b14292154439c1e2afc7bb168"
+            "sha256": "c81193d65ce286903ac2d436e94ab717f2219b14a9fe3155f548034e030de7b7"
           },
           {
             "path": "tools/maps/world-ambient.ts",
@@ -1072,7 +1080,15 @@
           },
           {
             "path": "tools/maps/world-ambient-ownership.ts",
-            "sha256": "f72479846ede44e8d27134c343232ad0ea662caaee09fa3c197acdddcb2e98bc"
+            "sha256": "ff37b6dc1ec3994ca1e532351231667d7351d260eade5d7e7cd26752b0feda4d"
+          },
+          {
+            "path": "tools/maps/park-arcade-context.ts",
+            "sha256": "ec9ce0262f850ca205327e7dd206175e82fc668b84f99a4dcf4c13488e28d32f"
+          },
+          {
+            "path": "art/source/park-arcade-refresh.json",
+            "sha256": "4facd2068f4c15d23e03a96e103e284a4ac12bb632b4b4f3165bafcdbe8adc50"
           },
           {
             "path": "tools/maps/cafe-arrival-context.ts",
@@ -1092,11 +1108,11 @@
           },
           {
             "path": "tools/maps/native-projection.ts",
-            "sha256": "2831234b9addd3ca8b2e4bdc964e9f9d4ad079f8f7d8b7c9204794519a474a3b"
+            "sha256": "767f545f0e7ec2d8494ad2aa3a17913ed41da0cfbe1478d35fa83ea709041965"
           },
           {
             "path": "tools/maps/native-ownership-context.ts",
-            "sha256": "0dc2bfdb601d2e48b31513b8e95a1a9c8d0deaa8a129933f26bda37d626e4812"
+            "sha256": "dec843145ca77cc39af9a00e8ae09c56dcfe8b1609b9d550e5098bf678213280"
           },
           {
             "path": "art/source/native-ownership-context.json",

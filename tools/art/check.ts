@@ -6,6 +6,7 @@ import{checkStandingCaptionArt}from'./standing-captions';
 import {checkTropicalCoveArt} from './tropical-cove';
 import {checkNaturalCoastArt} from './natural-coast';
 import {checkHarbourPlane} from './harbour-plane';
+import {checkArcadeScreenArt} from './arcade-screen';
 import{checkWorldAmbientArt}from'./world-ambient-check';
 import {renderPlazaIdentity} from './plaza-generated';
 import {renderPlazaGarden} from './plaza-garden';
@@ -40,6 +41,7 @@ export async function checkArt(catalog: TileCatalog = loadTileCatalog()): Promis
   const errors: string[]=[];
   await checkNaturalCoastArt();
   await checkHarbourPlane();
+  await checkArcadeScreenArt();
   const sources=JSON.parse(readFileSync('art/sources.json','utf8')) as Record<string,SourceRecord>;
   // Reject an incomplete mandatory family before evaluating dependent artwork.
   // This remains unconditional even when all fleet registry rows are removed.

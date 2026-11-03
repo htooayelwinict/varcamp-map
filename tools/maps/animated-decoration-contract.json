@@ -220,15 +220,167 @@
     "nebula-arcade": [
       {
         "name": "world-ambient-nebula-arcade-device-1",
-        "role": "avatarForeground"
+        "role": "opaqueOwnerUpper",
+        "owner": {
+          "placement": {
+            "id": "tournament-screen",
+            "sprite": "arcade-mounted-screen",
+            "x": 17,
+            "y": 7,
+            "width": 6,
+            "height": 3,
+            "layer": "props",
+            "renderRole": null
+          },
+          "visual": {
+            "sheet": "assets/tilesets/original/arcade-screen.png",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "width": 6,
+              "height": 3
+            }
+          },
+          "upperCells": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              2,
+              0
+            ],
+            [
+              3,
+              0
+            ],
+            [
+              4,
+              0
+            ],
+            [
+              5,
+              0
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              2,
+              1
+            ],
+            [
+              3,
+              1
+            ],
+            [
+              4,
+              1
+            ],
+            [
+              5,
+              1
+            ]
+          ],
+          "sheetSha256": "3ebea85415b088e6a1924cac15fa251ac28f192b94ff432a17cfa82e05cfbeda"
+        }
       },
       {
         "name": "world-ambient-nebula-arcade-device-2",
-        "role": "avatarForeground"
+        "role": "opaqueOwnerUpper",
+        "owner": {
+          "placement": {
+            "id": "cabinet-west0",
+            "sprite": "arcade-grounded-cabinet",
+            "x": 5,
+            "y": 10,
+            "width": 2,
+            "height": 3,
+            "layer": "props",
+            "renderRole": null
+          },
+          "visual": {
+            "sheet": "assets/tilesets/original/amenities.png",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "width": 2,
+              "height": 3
+            }
+          },
+          "upperCells": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              1
+            ]
+          ],
+          "sheetSha256": "bde5e063d7f5ca86d1269f37bcbeb521dd5fd5ea5029d3441c713717032d7098"
+        }
       },
       {
         "name": "world-ambient-nebula-arcade-device-3",
-        "role": "avatarForeground"
+        "role": "opaqueOwnerUpper",
+        "owner": {
+          "placement": {
+            "id": "cabinet-east1",
+            "sprite": "arcade-grounded-cabinet",
+            "x": 31,
+            "y": 17,
+            "width": 2,
+            "height": 3,
+            "layer": "props",
+            "renderRole": null
+          },
+          "visual": {
+            "sheet": "assets/tilesets/original/amenities.png",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "width": 2,
+              "height": 3
+            }
+          },
+          "upperCells": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              1
+            ]
+          ],
+          "sheetSha256": "bde5e063d7f5ca86d1269f37bcbeb521dd5fd5ea5029d3441c713717032d7098"
+        }
       }
     ],
     "orbit-maze": [

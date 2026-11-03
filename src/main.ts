@@ -1,8 +1,13 @@
 import { initializeWorld } from './runtime';
 import { registerGuideMenu } from './guides/menu';
 import { registerCheckInCounter } from './check-in/counter';
+import { registerArcadeCabinets } from './arcade/cabinets';
 void initializeWorld(WA).then(() => registerGuideMenu(WA)).catch(() => { console.warn('VarCamp scripting unavailable. Physical venue exits remain available.'); });
 void WA.onInit().then(() => {
  const dispose=registerCheckInCounter(WA);
  window.addEventListener('pagehide',dispose,{once:true});
 }).catch(() => { console.warn('VarCamp check-in counter unavailable.'); });
+void WA.onInit().then(() => {
+ const dispose=registerArcadeCabinets(WA);
+ window.addEventListener('pagehide',dispose,{once:true});
+}).catch(() => { console.warn('VarCamp arcade cabinets unavailable.'); });
