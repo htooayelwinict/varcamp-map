@@ -49,6 +49,51 @@
           "raiseHandEnabled": true
         }
       ]
+    },
+    {
+      "id": "aries-office-organizers",
+      "name": "aries / Organizer Team",
+      "x": 1184,
+      "y": 160,
+      "width": 384,
+      "height": 480,
+      "properties": [],
+      "visible": true
+    },
+    {
+      "id": "aries-office-silent",
+      "name": "aries / Silent Room",
+      "x": 1760,
+      "y": 160,
+      "width": 320,
+      "height": 480,
+      "properties": [
+        {
+          "id": "aries-office-quiet",
+          "type": "silent"
+        }
+      ],
+      "visible": true
+    },
+    {
+      "id": "aries-office-briefing",
+      "name": "aries / Launch / Briefing",
+      "x": 1184,
+      "y": 672,
+      "width": 384,
+      "height": 416,
+      "properties": [],
+      "visible": true
+    },
+    {
+      "id": "aries-office-lounge",
+      "name": "aries / Lounge / Break",
+      "x": 1760,
+      "y": 672,
+      "width": 320,
+      "height": 416,
+      "properties": [],
+      "visible": true
     }
   ],
   "entityCollections": [

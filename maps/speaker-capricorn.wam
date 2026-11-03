@@ -49,6 +49,51 @@
           "raiseHandEnabled": true
         }
       ]
+    },
+    {
+      "id": "capricorn-office-organizers",
+      "name": "capricorn / Organizer Team",
+      "x": 1184,
+      "y": 160,
+      "width": 384,
+      "height": 480,
+      "properties": [],
+      "visible": true
+    },
+    {
+      "id": "capricorn-office-silent",
+      "name": "capricorn / Silent Room",
+      "x": 1760,
+      "y": 160,
+      "width": 320,
+      "height": 480,
+      "properties": [
+        {
+          "id": "capricorn-office-quiet",
+          "type": "silent"
+        }
+      ],
+      "visible": true
+    },
+    {
+      "id": "capricorn-office-briefing",
+      "name": "capricorn / Launch / Briefing",
+      "x": 1184,
+      "y": 672,
+      "width": 384,
+      "height": 416,
+      "properties": [],
+      "visible": true
+    },
+    {
+      "id": "capricorn-office-lounge",
+      "name": "capricorn / Lounge / Break",
+      "x": 1760,
+      "y": 672,
+      "width": 320,
+      "height": 416,
+      "properties": [],
+      "visible": true
     }
   ],
   "entityCollections": [

@@ -23,6 +23,7 @@ Options:
                          `npm test -- --maxWorkers=1 --testTimeout=30000` before building.
                          Any failure aborts the deploy.
   --auditorium-spacing   Move the three owned zones in each zodiac room to the expanded layout.
+  --office-wings        Append four side-wing areas to each zodiac room; retain saved editor data.
   --apply                After prepare: upload the plan (--quiet-editor-window) and run
                          `npm run acceptance:smoke`. Without it the script stops after
                          prepare and prints how to inspect and apply the plan.
@@ -48,6 +49,7 @@ while [ $# -gt 0 ]; do
     --with-tests) with_tests=1; shift ;;
     --apply) apply=1; shift ;;
     --auditorium-spacing) wam_options+=(--auditorium-spacing); shift ;;
+    --office-wings) wam_options+=(--office-wings); shift ;;
     -h|--help) usage; exit 0 ;;
     *) echo "Unknown argument: $1" >&2; usage >&2; exit 2 ;;
   esac

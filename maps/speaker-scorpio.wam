@@ -49,6 +49,51 @@
           "raiseHandEnabled": true
         }
       ]
+    },
+    {
+      "id": "scorpio-office-organizers",
+      "name": "scorpio / Organizer Team",
+      "x": 1184,
+      "y": 160,
+      "width": 384,
+      "height": 480,
+      "properties": [],
+      "visible": true
+    },
+    {
+      "id": "scorpio-office-silent",
+      "name": "scorpio / Silent Room",
+      "x": 1760,
+      "y": 160,
+      "width": 320,
+      "height": 480,
+      "properties": [
+        {
+          "id": "scorpio-office-quiet",
+          "type": "silent"
+        }
+      ],
+      "visible": true
+    },
+    {
+      "id": "scorpio-office-briefing",
+      "name": "scorpio / Launch / Briefing",
+      "x": 1184,
+      "y": 672,
+      "width": 384,
+      "height": 416,
+      "properties": [],
+      "visible": true
+    },
+    {
+      "id": "scorpio-office-lounge",
+      "name": "scorpio / Lounge / Break",
+      "x": 1760,
+      "y": 672,
+      "width": 320,
+      "height": 416,
+      "properties": [],
+      "visible": true
     }
   ],
   "entityCollections": [

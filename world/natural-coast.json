@@ -10,7 +10,7 @@
       "beforeLayoutSha256": "82623ffaf38ac0fba2a9635d2bf511ad9d7f3f719ff607e1784ccb32d36e7491",
       "functional": {
         "id": "shipyard-beach",
-        "width": 48,
+        "width": 96,
         "height": 48,
         "entries": [
           {
@@ -127,8 +127,36 @@
             -128
           ],
           [
-            1664,
+            3200,
             -128
+          ],
+          [
+            3200,
+            720
+          ],
+          [
+            2990,
+            670
+          ],
+          [
+            2760,
+            740
+          ],
+          [
+            2510,
+            720
+          ],
+          [
+            2290,
+            660
+          ],
+          [
+            2060,
+            710
+          ],
+          [
+            1850,
+            680
           ],
           [
             1664,
@@ -10922,12 +10950,390 @@
           "width": 1,
           "height": 1,
           "layer": "architecture"
+        },
+        {
+          "id": "extension-palm-0-0",
+          "sprite": "coast-life-beach-palm",
+          "x": 48,
+          "y": 1,
+          "width": 3,
+          "height": 4,
+          "layer": "props"
+        },
+        {
+          "id": "extension-palm-0-1",
+          "sprite": "coast-life-coast-palm",
+          "x": 49,
+          "y": 6,
+          "width": 3,
+          "height": 4,
+          "layer": "props"
+        },
+        {
+          "id": "extension-palm-0-2",
+          "sprite": "coast-life-beach-palm",
+          "x": 50,
+          "y": 13,
+          "width": 3,
+          "height": 4,
+          "layer": "props"
+        },
+        {
+          "id": "extension-palm-1-0",
+          "sprite": "coast-life-coast-palm",
+          "x": 54,
+          "y": 1,
+          "width": 3,
+          "height": 4,
+          "layer": "props"
+        },
+        {
+          "id": "extension-palm-1-1",
+          "sprite": "coast-life-beach-palm",
+          "x": 52,
+          "y": 7,
+          "width": 3,
+          "height": 4,
+          "layer": "props"
+        },
+        {
+          "id": "extension-palm-1-2",
+          "sprite": "coast-life-coast-palm",
+          "x": 54,
+          "y": 12,
+          "width": 3,
+          "height": 4,
+          "layer": "props"
+        },
+        {
+          "id": "extension-palm-2-0",
+          "sprite": "coast-life-beach-palm",
+          "x": 58,
+          "y": 0,
+          "width": 3,
+          "height": 4,
+          "layer": "props"
+        },
+        {
+          "id": "extension-palm-2-1",
+          "sprite": "coast-life-coast-palm",
+          "x": 58,
+          "y": 7,
+          "width": 3,
+          "height": 4,
+          "layer": "props"
+        },
+        {
+          "id": "extension-palm-2-2",
+          "sprite": "coast-life-beach-palm",
+          "x": 56,
+          "y": 13,
+          "width": 3,
+          "height": 4,
+          "layer": "props"
+        },
+        {
+          "id": "extension-palm-3-0",
+          "sprite": "coast-life-coast-palm",
+          "x": 61,
+          "y": 0,
+          "width": 3,
+          "height": 4,
+          "layer": "props"
+        },
+        {
+          "id": "extension-palm-3-1",
+          "sprite": "coast-life-beach-palm",
+          "x": 60,
+          "y": 6,
+          "width": 3,
+          "height": 4,
+          "layer": "props"
+        },
+        {
+          "id": "extension-palm-3-2",
+          "sprite": "coast-life-coast-palm",
+          "x": 61,
+          "y": 11,
+          "width": 3,
+          "height": 4,
+          "layer": "props"
+        },
+        {
+          "id": "extension-palm-4-0",
+          "sprite": "coast-life-beach-palm",
+          "x": 66,
+          "y": 0,
+          "width": 3,
+          "height": 4,
+          "layer": "props"
+        },
+        {
+          "id": "extension-palm-4-1",
+          "sprite": "coast-life-coast-palm",
+          "x": 66,
+          "y": 6,
+          "width": 3,
+          "height": 4,
+          "layer": "props"
+        },
+        {
+          "id": "extension-palm-4-2",
+          "sprite": "coast-life-beach-palm",
+          "x": 66,
+          "y": 12,
+          "width": 3,
+          "height": 4,
+          "layer": "props"
+        },
+        {
+          "id": "extension-palm-5-0",
+          "sprite": "coast-life-coast-palm",
+          "x": 68,
+          "y": 3,
+          "width": 3,
+          "height": 4,
+          "layer": "props"
+        },
+        {
+          "id": "extension-palm-5-1",
+          "sprite": "coast-life-beach-palm",
+          "x": 70,
+          "y": 8,
+          "width": 3,
+          "height": 4,
+          "layer": "props"
+        },
+        {
+          "id": "extension-palm-5-2",
+          "sprite": "coast-life-coast-palm",
+          "x": 69,
+          "y": 11,
+          "width": 3,
+          "height": 4,
+          "layer": "props"
+        },
+        {
+          "id": "extension-palm-6-0",
+          "sprite": "coast-life-beach-palm",
+          "x": 73,
+          "y": 3,
+          "width": 3,
+          "height": 4,
+          "layer": "props"
+        },
+        {
+          "id": "extension-palm-6-1",
+          "sprite": "coast-life-coast-palm",
+          "x": 72,
+          "y": 6,
+          "width": 3,
+          "height": 4,
+          "layer": "props"
+        },
+        {
+          "id": "extension-palm-6-2",
+          "sprite": "coast-life-beach-palm",
+          "x": 73,
+          "y": 12,
+          "width": 3,
+          "height": 4,
+          "layer": "props"
+        },
+        {
+          "id": "extension-palm-7-0",
+          "sprite": "coast-life-coast-palm",
+          "x": 78,
+          "y": 0,
+          "width": 3,
+          "height": 4,
+          "layer": "props"
+        },
+        {
+          "id": "extension-palm-7-1",
+          "sprite": "coast-life-beach-palm",
+          "x": 78,
+          "y": 8,
+          "width": 3,
+          "height": 4,
+          "layer": "props"
+        },
+        {
+          "id": "extension-palm-7-2",
+          "sprite": "coast-life-coast-palm",
+          "x": 76,
+          "y": 13,
+          "width": 3,
+          "height": 4,
+          "layer": "props"
+        },
+        {
+          "id": "extension-palm-8-0",
+          "sprite": "coast-life-beach-palm",
+          "x": 82,
+          "y": 2,
+          "width": 3,
+          "height": 4,
+          "layer": "props"
+        },
+        {
+          "id": "extension-palm-8-1",
+          "sprite": "coast-life-coast-palm",
+          "x": 80,
+          "y": 6,
+          "width": 3,
+          "height": 4,
+          "layer": "props"
+        },
+        {
+          "id": "extension-palm-8-2",
+          "sprite": "coast-life-beach-palm",
+          "x": 80,
+          "y": 12,
+          "width": 3,
+          "height": 4,
+          "layer": "props"
+        },
+        {
+          "id": "extension-palm-9-0",
+          "sprite": "coast-life-coast-palm",
+          "x": 86,
+          "y": 1,
+          "width": 3,
+          "height": 4,
+          "layer": "props"
+        },
+        {
+          "id": "extension-palm-9-1",
+          "sprite": "coast-life-beach-palm",
+          "x": 86,
+          "y": 6,
+          "width": 3,
+          "height": 4,
+          "layer": "props"
+        },
+        {
+          "id": "extension-palm-9-2",
+          "sprite": "coast-life-coast-palm",
+          "x": 86,
+          "y": 13,
+          "width": 3,
+          "height": 4,
+          "layer": "props"
+        },
+        {
+          "id": "extension-palm-10-0",
+          "sprite": "coast-life-beach-palm",
+          "x": 90,
+          "y": 2,
+          "width": 3,
+          "height": 4,
+          "layer": "props"
+        },
+        {
+          "id": "extension-palm-10-1",
+          "sprite": "coast-life-coast-palm",
+          "x": 90,
+          "y": 7,
+          "width": 3,
+          "height": 4,
+          "layer": "props"
+        },
+        {
+          "id": "extension-palm-10-2",
+          "sprite": "coast-life-beach-palm",
+          "x": 88,
+          "y": 11,
+          "width": 3,
+          "height": 4,
+          "layer": "props"
+        },
+        {
+          "id": "extension-palm-11-0",
+          "sprite": "coast-life-coast-palm",
+          "x": 92,
+          "y": 1,
+          "width": 3,
+          "height": 4,
+          "layer": "props"
+        },
+        {
+          "id": "extension-palm-11-1",
+          "sprite": "coast-life-beach-palm",
+          "x": 93,
+          "y": 8,
+          "width": 3,
+          "height": 4,
+          "layer": "props"
+        },
+        {
+          "id": "extension-palm-11-2",
+          "sprite": "coast-life-coast-palm",
+          "x": 93,
+          "y": 11,
+          "width": 3,
+          "height": 4,
+          "layer": "props"
+        },
+        {
+          "id": "extension-parasol-0-0",
+          "sprite": "coast-life-beach-parasol-teal",
+          "x": 58,
+          "y": 17,
+          "width": 3,
+          "height": 4,
+          "layer": "props"
+        },
+        {
+          "id": "extension-chair-0--3",
+          "sprite": "coast-life-solid-coast-deck-chair",
+          "x": 55,
+          "y": 19,
+          "width": 2,
+          "height": 3,
+          "layer": "props"
+        },
+        {
+          "id": "extension-chair-0-3",
+          "sprite": "coast-life-solid-coast-deck-chair",
+          "x": 61,
+          "y": 19,
+          "width": 2,
+          "height": 3,
+          "layer": "props"
+        },
+        {
+          "id": "extension-parasol-1-0",
+          "sprite": "coast-life-beach-parasol-teal",
+          "x": 82,
+          "y": 17,
+          "width": 3,
+          "height": 4,
+          "layer": "props"
+        },
+        {
+          "id": "extension-chair-1--3",
+          "sprite": "coast-life-solid-coast-deck-chair",
+          "x": 79,
+          "y": 19,
+          "width": 2,
+          "height": 3,
+          "layer": "props"
+        },
+        {
+          "id": "extension-chair-1-3",
+          "sprite": "coast-life-solid-coast-deck-chair",
+          "x": 85,
+          "y": 19,
+          "width": 2,
+          "height": 3,
+          "layer": "props"
         }
       ],
       "signs": [
         {
           "name": "harbour-plaza-way",
-          "text": "\u2191 PLAZA",
+          "text": "↑ PLAZA",
           "x": 22,
           "y": 2,
           "width": 4,
@@ -10938,7 +11344,7 @@
         },
         {
           "name": "harbour-boarding-way",
-          "text": "\u2193 BOARDING",
+          "text": "↓ BOARDING",
           "x": 18,
           "y": 35,
           "width": 4,
@@ -10949,7 +11355,7 @@
         },
         {
           "name": "harbour-shore-way",
-          "text": "\u2193 SHORE",
+          "text": "↓ SHORE",
           "x": 44,
           "y": 31,
           "width": 3,
@@ -40858,8 +41264,8 @@
       "beforeLayoutSha256": "80d65de4c62956adabf28c22de220493b48ffc749d5dd506cfdcec07cf27915a",
       "functional": {
         "id": "constellation-shore",
-        "width": 40,
-        "height": 40,
+        "width": 96,
+        "height": 48,
         "entries": [
           {
             "name": "arrival",
@@ -40984,8 +41390,36 @@
             -128
           ],
           [
-            1408,
+            3200,
             -128
+          ],
+          [
+            3200,
+            935
+          ],
+          [
+            2990,
+            885
+          ],
+          [
+            2760,
+            955
+          ],
+          [
+            2510,
+            935
+          ],
+          [
+            2290,
+            875
+          ],
+          [
+            2060,
+            925
+          ],
+          [
+            1850,
+            895
           ],
           [
             1408,
@@ -41555,12 +41989,444 @@
           "width": 1,
           "height": 1,
           "layer": "props"
+        },
+        {
+          "id": "extension-palm-0-0",
+          "sprite": "coast-life-beach-palm",
+          "x": 40,
+          "y": 1,
+          "width": 3,
+          "height": 4,
+          "layer": "props"
+        },
+        {
+          "id": "extension-palm-0-1",
+          "sprite": "coast-life-coast-palm",
+          "x": 40,
+          "y": 7,
+          "width": 3,
+          "height": 4,
+          "layer": "props"
+        },
+        {
+          "id": "extension-palm-0-2",
+          "sprite": "coast-life-beach-palm",
+          "x": 40,
+          "y": 11,
+          "width": 3,
+          "height": 4,
+          "layer": "props"
+        },
+        {
+          "id": "extension-palm-1-0",
+          "sprite": "coast-life-coast-palm",
+          "x": 45,
+          "y": 1,
+          "width": 3,
+          "height": 4,
+          "layer": "props"
+        },
+        {
+          "id": "extension-palm-1-1",
+          "sprite": "coast-life-beach-palm",
+          "x": 44,
+          "y": 8,
+          "width": 3,
+          "height": 4,
+          "layer": "props"
+        },
+        {
+          "id": "extension-palm-1-2",
+          "sprite": "coast-life-coast-palm",
+          "x": 44,
+          "y": 13,
+          "width": 3,
+          "height": 4,
+          "layer": "props"
+        },
+        {
+          "id": "extension-palm-2-0",
+          "sprite": "coast-life-beach-palm",
+          "x": 50,
+          "y": 0,
+          "width": 3,
+          "height": 4,
+          "layer": "props"
+        },
+        {
+          "id": "extension-palm-2-1",
+          "sprite": "coast-life-coast-palm",
+          "x": 50,
+          "y": 7,
+          "width": 3,
+          "height": 4,
+          "layer": "props"
+        },
+        {
+          "id": "extension-palm-2-2",
+          "sprite": "coast-life-beach-palm",
+          "x": 49,
+          "y": 11,
+          "width": 3,
+          "height": 4,
+          "layer": "props"
+        },
+        {
+          "id": "extension-palm-3-0",
+          "sprite": "coast-life-coast-palm",
+          "x": 53,
+          "y": 3,
+          "width": 3,
+          "height": 4,
+          "layer": "props"
+        },
+        {
+          "id": "extension-palm-3-1",
+          "sprite": "coast-life-beach-palm",
+          "x": 53,
+          "y": 6,
+          "width": 3,
+          "height": 4,
+          "layer": "props"
+        },
+        {
+          "id": "extension-palm-3-2",
+          "sprite": "coast-life-coast-palm",
+          "x": 54,
+          "y": 12,
+          "width": 3,
+          "height": 4,
+          "layer": "props"
+        },
+        {
+          "id": "extension-palm-4-0",
+          "sprite": "coast-life-beach-palm",
+          "x": 57,
+          "y": 0,
+          "width": 3,
+          "height": 4,
+          "layer": "props"
+        },
+        {
+          "id": "extension-palm-4-1",
+          "sprite": "coast-life-coast-palm",
+          "x": 57,
+          "y": 6,
+          "width": 3,
+          "height": 4,
+          "layer": "props"
+        },
+        {
+          "id": "extension-palm-4-2",
+          "sprite": "coast-life-beach-palm",
+          "x": 57,
+          "y": 10,
+          "width": 3,
+          "height": 4,
+          "layer": "props"
+        },
+        {
+          "id": "extension-palm-5-0",
+          "sprite": "coast-life-coast-palm",
+          "x": 60,
+          "y": 0,
+          "width": 3,
+          "height": 4,
+          "layer": "props"
+        },
+        {
+          "id": "extension-palm-5-1",
+          "sprite": "coast-life-beach-palm",
+          "x": 61,
+          "y": 7,
+          "width": 3,
+          "height": 4,
+          "layer": "props"
+        },
+        {
+          "id": "extension-palm-5-2",
+          "sprite": "coast-life-coast-palm",
+          "x": 62,
+          "y": 11,
+          "width": 3,
+          "height": 4,
+          "layer": "props"
+        },
+        {
+          "id": "extension-palm-6-0",
+          "sprite": "coast-life-beach-palm",
+          "x": 65,
+          "y": 1,
+          "width": 3,
+          "height": 4,
+          "layer": "props"
+        },
+        {
+          "id": "extension-palm-6-1",
+          "sprite": "coast-life-coast-palm",
+          "x": 65,
+          "y": 6,
+          "width": 3,
+          "height": 4,
+          "layer": "props"
+        },
+        {
+          "id": "extension-palm-6-2",
+          "sprite": "coast-life-beach-palm",
+          "x": 65,
+          "y": 11,
+          "width": 3,
+          "height": 4,
+          "layer": "props"
+        },
+        {
+          "id": "extension-palm-7-0",
+          "sprite": "coast-life-coast-palm",
+          "x": 69,
+          "y": 2,
+          "width": 3,
+          "height": 4,
+          "layer": "props"
+        },
+        {
+          "id": "extension-palm-7-1",
+          "sprite": "coast-life-beach-palm",
+          "x": 68,
+          "y": 6,
+          "width": 3,
+          "height": 4,
+          "layer": "props"
+        },
+        {
+          "id": "extension-palm-7-2",
+          "sprite": "coast-life-coast-palm",
+          "x": 70,
+          "y": 13,
+          "width": 3,
+          "height": 4,
+          "layer": "props"
+        },
+        {
+          "id": "extension-palm-8-0",
+          "sprite": "coast-life-beach-palm",
+          "x": 72,
+          "y": 0,
+          "width": 3,
+          "height": 4,
+          "layer": "props"
+        },
+        {
+          "id": "extension-palm-8-1",
+          "sprite": "coast-life-coast-palm",
+          "x": 73,
+          "y": 7,
+          "width": 3,
+          "height": 4,
+          "layer": "props"
+        },
+        {
+          "id": "extension-palm-8-2",
+          "sprite": "coast-life-beach-palm",
+          "x": 74,
+          "y": 12,
+          "width": 3,
+          "height": 4,
+          "layer": "props"
+        },
+        {
+          "id": "extension-palm-9-0",
+          "sprite": "coast-life-coast-palm",
+          "x": 76,
+          "y": 3,
+          "width": 3,
+          "height": 4,
+          "layer": "props"
+        },
+        {
+          "id": "extension-palm-9-1",
+          "sprite": "coast-life-beach-palm",
+          "x": 76,
+          "y": 5,
+          "width": 3,
+          "height": 4,
+          "layer": "props"
+        },
+        {
+          "id": "extension-palm-9-2",
+          "sprite": "coast-life-coast-palm",
+          "x": 77,
+          "y": 11,
+          "width": 3,
+          "height": 4,
+          "layer": "props"
+        },
+        {
+          "id": "extension-palm-10-0",
+          "sprite": "coast-life-beach-palm",
+          "x": 81,
+          "y": 2,
+          "width": 3,
+          "height": 4,
+          "layer": "props"
+        },
+        {
+          "id": "extension-palm-10-1",
+          "sprite": "coast-life-coast-palm",
+          "x": 82,
+          "y": 7,
+          "width": 3,
+          "height": 4,
+          "layer": "props"
+        },
+        {
+          "id": "extension-palm-10-2",
+          "sprite": "coast-life-beach-palm",
+          "x": 82,
+          "y": 10,
+          "width": 3,
+          "height": 4,
+          "layer": "props"
+        },
+        {
+          "id": "extension-palm-11-0",
+          "sprite": "coast-life-coast-palm",
+          "x": 84,
+          "y": 1,
+          "width": 3,
+          "height": 4,
+          "layer": "props"
+        },
+        {
+          "id": "extension-palm-11-1",
+          "sprite": "coast-life-beach-palm",
+          "x": 84,
+          "y": 7,
+          "width": 3,
+          "height": 4,
+          "layer": "props"
+        },
+        {
+          "id": "extension-palm-11-2",
+          "sprite": "coast-life-coast-palm",
+          "x": 84,
+          "y": 10,
+          "width": 3,
+          "height": 4,
+          "layer": "props"
+        },
+        {
+          "id": "extension-palm-12-0",
+          "sprite": "coast-life-beach-palm",
+          "x": 90,
+          "y": 2,
+          "width": 3,
+          "height": 4,
+          "layer": "props"
+        },
+        {
+          "id": "extension-palm-12-1",
+          "sprite": "coast-life-coast-palm",
+          "x": 88,
+          "y": 6,
+          "width": 3,
+          "height": 4,
+          "layer": "props"
+        },
+        {
+          "id": "extension-palm-12-2",
+          "sprite": "coast-life-beach-palm",
+          "x": 88,
+          "y": 11,
+          "width": 3,
+          "height": 4,
+          "layer": "props"
+        },
+        {
+          "id": "extension-palm-13-0",
+          "sprite": "coast-life-coast-palm",
+          "x": 93,
+          "y": 0,
+          "width": 3,
+          "height": 4,
+          "layer": "props"
+        },
+        {
+          "id": "extension-palm-13-1",
+          "sprite": "coast-life-beach-palm",
+          "x": 93,
+          "y": 6,
+          "width": 3,
+          "height": 4,
+          "layer": "props"
+        },
+        {
+          "id": "extension-palm-13-2",
+          "sprite": "coast-life-coast-palm",
+          "x": 93,
+          "y": 12,
+          "width": 3,
+          "height": 4,
+          "layer": "props"
+        },
+        {
+          "id": "extension-parasol-0-0",
+          "sprite": "coast-life-beach-parasol-teal",
+          "x": 50,
+          "y": 17,
+          "width": 3,
+          "height": 4,
+          "layer": "props"
+        },
+        {
+          "id": "extension-chair-0--3",
+          "sprite": "coast-life-solid-coast-deck-chair",
+          "x": 47,
+          "y": 24,
+          "width": 2,
+          "height": 3,
+          "layer": "props"
+        },
+        {
+          "id": "extension-chair-0-3",
+          "sprite": "coast-life-solid-coast-deck-chair",
+          "x": 53,
+          "y": 24,
+          "width": 2,
+          "height": 3,
+          "layer": "props"
+        },
+        {
+          "id": "extension-parasol-1-0",
+          "sprite": "coast-life-beach-parasol-teal",
+          "x": 82,
+          "y": 17,
+          "width": 3,
+          "height": 4,
+          "layer": "props"
+        },
+        {
+          "id": "extension-chair-1--3",
+          "sprite": "coast-life-solid-coast-deck-chair",
+          "x": 79,
+          "y": 24,
+          "width": 2,
+          "height": 3,
+          "layer": "props"
+        },
+        {
+          "id": "extension-chair-1-3",
+          "sprite": "coast-life-solid-coast-deck-chair",
+          "x": 85,
+          "y": 24,
+          "width": 2,
+          "height": 3,
+          "layer": "props"
         }
       ],
       "signs": [
         {
           "name": "shore-plaza-way",
-          "text": "\u2191 PLAZA",
+          "text": "↑ PLAZA",
           "x": 18,
           "y": 5,
           "width": 4,
@@ -41571,7 +42437,7 @@
         },
         {
           "name": "shore-harbour-way",
-          "text": "\u2190 HARBOUR",
+          "text": "← HARBOUR",
           "x": 2,
           "y": 11,
           "width": 5,

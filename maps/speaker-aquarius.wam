@@ -49,6 +49,51 @@
           "raiseHandEnabled": true
         }
       ]
+    },
+    {
+      "id": "aquarius-office-organizers",
+      "name": "aquarius / Organizer Team",
+      "x": 1184,
+      "y": 160,
+      "width": 384,
+      "height": 480,
+      "properties": [],
+      "visible": true
+    },
+    {
+      "id": "aquarius-office-silent",
+      "name": "aquarius / Silent Room",
+      "x": 1760,
+      "y": 160,
+      "width": 320,
+      "height": 480,
+      "properties": [
+        {
+          "id": "aquarius-office-quiet",
+          "type": "silent"
+        }
+      ],
+      "visible": true
+    },
+    {
+      "id": "aquarius-office-briefing",
+      "name": "aquarius / Launch / Briefing",
+      "x": 1184,
+      "y": 672,
+      "width": 384,
+      "height": 416,
+      "properties": [],
+      "visible": true
+    },
+    {
+      "id": "aquarius-office-lounge",
+      "name": "aquarius / Lounge / Break",
+      "x": 1760,
+      "y": 672,
+      "width": 320,
+      "height": 416,
+      "properties": [],
+      "visible": true
     }
   ],
   "entityCollections": [

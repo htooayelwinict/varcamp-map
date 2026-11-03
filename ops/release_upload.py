@@ -14,6 +14,7 @@ import zipfile
 from verified_transport import create_opener
 from map_roster import MAP_IDS
 from auditorium_spacing import is_auditorium_spacing_wam_change
+from office_wings import is_office_wings_wam_change
 
 
 def wam_reference(path, data):
@@ -192,6 +193,8 @@ def wam_dependencies(release, baseline, reviewed_wams=None):
                     named_migration = 'speaker-presentation-v1'
                 elif is_auditorium_spacing_wam_change(path, baseline[path], candidate):
                     named_migration = 'auditorium-spacing-v1'
+                elif is_office_wings_wam_change(path, baseline[path], candidate):
+                    named_migration = 'speaker-office-wings-v1'
             if protected != original_protected and not named_migration:
                 raise ValueError(f'{path}: reviewed migration must preserve every byte outside the mapUrl version token')
         dependencies[path] = {

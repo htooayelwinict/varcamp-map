@@ -49,6 +49,51 @@
           "raiseHandEnabled": true
         }
       ]
+    },
+    {
+      "id": "sagittarius-office-organizers",
+      "name": "sagittarius / Organizer Team",
+      "x": 1312,
+      "y": 160,
+      "width": 384,
+      "height": 480,
+      "properties": [],
+      "visible": true
+    },
+    {
+      "id": "sagittarius-office-silent",
+      "name": "sagittarius / Silent Room",
+      "x": 1888,
+      "y": 160,
+      "width": 320,
+      "height": 480,
+      "properties": [
+        {
+          "id": "sagittarius-office-quiet",
+          "type": "silent"
+        }
+      ],
+      "visible": true
+    },
+    {
+      "id": "sagittarius-office-briefing",
+      "name": "sagittarius / Launch / Briefing",
+      "x": 1312,
+      "y": 672,
+      "width": 384,
+      "height": 416,
+      "properties": [],
+      "visible": true
+    },
+    {
+      "id": "sagittarius-office-lounge",
+      "name": "sagittarius / Lounge / Break",
+      "x": 1888,
+      "y": 672,
+      "width": 320,
+      "height": 416,
+      "properties": [],
+      "visible": true
     }
   ],
   "entityCollections": [

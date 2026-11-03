@@ -1,6 +1,6 @@
 {
   "id": "speaker-virgo",
-  "width": 36,
+  "width": 66,
   "height": 46,
   "placements": [
     {
@@ -54,7 +54,7 @@
       "x": 35,
       "y": 2,
       "width": 1,
-      "height": 44,
+      "height": 33,
       "layer": "props"
     },
     {
@@ -119,7 +119,7 @@
       "x": 35,
       "y": 2,
       "width": 1,
-      "height": 44,
+      "height": 32,
       "layer": "props",
       "renderRole": "grounded"
     },
@@ -1180,6 +1180,655 @@
       "width": 2,
       "height": 2,
       "layer": "props"
+    },
+    {
+      "id": "office-link-east-wall-core-south",
+      "sprite": "wall-charcoal",
+      "x": 35,
+      "y": 38,
+      "width": 1,
+      "height": 8,
+      "layer": "props"
+    },
+    {
+      "id": "office-link-east-wall-south",
+      "sprite": "wall-navy",
+      "x": 35,
+      "y": 38,
+      "width": 1,
+      "height": 8,
+      "layer": "props",
+      "renderRole": "grounded"
+    },
+    {
+      "id": "office-link-wall-cap",
+      "sprite": "office-link-wall-cap",
+      "x": 35,
+      "y": 34,
+      "width": 1,
+      "height": 1,
+      "layer": "props"
+    },
+    {
+      "id": "office-foundation",
+      "sprite": "venue-floor-stone",
+      "x": 36,
+      "y": 0,
+      "width": 30,
+      "height": 46,
+      "layer": "terrain"
+    },
+    {
+      "id": "office-north-core",
+      "sprite": "wall-charcoal",
+      "x": 36,
+      "y": 0,
+      "width": 30,
+      "height": 2,
+      "layer": "props"
+    },
+    {
+      "id": "office-north-trim",
+      "sprite": "speaker-style-edge-top",
+      "x": 36,
+      "y": 2,
+      "width": 30,
+      "height": 1,
+      "layer": "props"
+    },
+    {
+      "id": "office-south-core",
+      "sprite": "wall-charcoal",
+      "x": 36,
+      "y": 44,
+      "width": 30,
+      "height": 2,
+      "layer": "props"
+    },
+    {
+      "id": "office-east-core",
+      "sprite": "wall-charcoal",
+      "x": 65,
+      "y": 2,
+      "width": 1,
+      "height": 42,
+      "layer": "props"
+    },
+    {
+      "id": "office-left-core",
+      "sprite": "office-wall",
+      "x": 36,
+      "y": 2,
+      "width": 1,
+      "height": 33,
+      "layer": "props"
+    },
+    {
+      "id": "office-left-foot",
+      "sprite": "office-wall",
+      "x": 36,
+      "y": 38,
+      "width": 1,
+      "height": 6,
+      "layer": "props"
+    },
+    {
+      "id": "office-partition-37-4",
+      "sprite": "office-wall",
+      "x": 37,
+      "y": 4,
+      "width": 13,
+      "height": 1,
+      "layer": "props"
+    },
+    {
+      "id": "office-partition-37-20",
+      "sprite": "office-wall",
+      "x": 37,
+      "y": 20,
+      "width": 13,
+      "height": 1,
+      "layer": "props"
+    },
+    {
+      "id": "office-partition-37-34",
+      "sprite": "office-wall",
+      "x": 37,
+      "y": 34,
+      "width": 13,
+      "height": 1,
+      "layer": "props"
+    },
+    {
+      "id": "office-partition-54-4",
+      "sprite": "office-wall",
+      "x": 54,
+      "y": 4,
+      "width": 11,
+      "height": 1,
+      "layer": "props"
+    },
+    {
+      "id": "office-partition-54-20",
+      "sprite": "office-wall",
+      "x": 54,
+      "y": 20,
+      "width": 11,
+      "height": 1,
+      "layer": "props"
+    },
+    {
+      "id": "office-partition-54-34",
+      "sprite": "office-wall",
+      "x": 54,
+      "y": 34,
+      "width": 11,
+      "height": 1,
+      "layer": "props"
+    },
+    {
+      "id": "office-wall-49-5",
+      "sprite": "office-wall",
+      "x": 49,
+      "y": 5,
+      "width": 1,
+      "height": 7,
+      "layer": "props"
+    },
+    {
+      "id": "office-wall-49-15",
+      "sprite": "office-wall",
+      "x": 49,
+      "y": 15,
+      "width": 1,
+      "height": 5,
+      "layer": "props"
+    },
+    {
+      "id": "office-wall-49-21",
+      "sprite": "office-wall",
+      "x": 49,
+      "y": 21,
+      "width": 1,
+      "height": 6,
+      "layer": "props"
+    },
+    {
+      "id": "office-wall-49-30",
+      "sprite": "office-wall",
+      "x": 49,
+      "y": 30,
+      "width": 1,
+      "height": 4,
+      "layer": "props"
+    },
+    {
+      "id": "office-wall-54-5",
+      "sprite": "office-wall",
+      "x": 54,
+      "y": 5,
+      "width": 1,
+      "height": 7,
+      "layer": "props"
+    },
+    {
+      "id": "office-wall-54-15",
+      "sprite": "office-wall",
+      "x": 54,
+      "y": 15,
+      "width": 1,
+      "height": 5,
+      "layer": "props"
+    },
+    {
+      "id": "office-wall-54-21",
+      "sprite": "office-wall",
+      "x": 54,
+      "y": 21,
+      "width": 1,
+      "height": 6,
+      "layer": "props"
+    },
+    {
+      "id": "office-wall-54-30",
+      "sprite": "office-wall",
+      "x": 54,
+      "y": 30,
+      "width": 1,
+      "height": 4,
+      "layer": "props"
+    },
+    {
+      "id": "office-organizers-floor",
+      "sprite": "venue-carpet-slate",
+      "x": 37,
+      "y": 5,
+      "width": 12,
+      "height": 15,
+      "layer": "terrain"
+    },
+    {
+      "id": "office-silent-floor",
+      "sprite": "venue-carpet-moon",
+      "x": 55,
+      "y": 5,
+      "width": 10,
+      "height": 15,
+      "layer": "terrain"
+    },
+    {
+      "id": "office-briefing-floor",
+      "sprite": "floor-wood",
+      "x": 37,
+      "y": 21,
+      "width": 12,
+      "height": 13,
+      "layer": "terrain"
+    },
+    {
+      "id": "office-lounge-floor",
+      "sprite": "floor-wood",
+      "x": 55,
+      "y": 21,
+      "width": 10,
+      "height": 13,
+      "layer": "terrain"
+    },
+    {
+      "id": "office-desk-0",
+      "sprite": "check-in-desk-solid",
+      "x": 38,
+      "y": 9,
+      "width": 3,
+      "height": 2,
+      "layer": "props"
+    },
+    {
+      "id": "office-laptop-0",
+      "sprite": "laptop",
+      "x": 39,
+      "y": 9,
+      "width": 1,
+      "height": 1,
+      "layer": "props"
+    },
+    {
+      "id": "office-chair-0",
+      "sprite": "office-chair",
+      "x": 39,
+      "y": 12,
+      "width": 1,
+      "height": 2,
+      "layer": "props"
+    },
+    {
+      "id": "office-desk-1",
+      "sprite": "check-in-desk-solid",
+      "x": 44,
+      "y": 9,
+      "width": 3,
+      "height": 2,
+      "layer": "props"
+    },
+    {
+      "id": "office-laptop-1",
+      "sprite": "laptop",
+      "x": 45,
+      "y": 9,
+      "width": 1,
+      "height": 1,
+      "layer": "props"
+    },
+    {
+      "id": "office-chair-1",
+      "sprite": "office-chair",
+      "x": 45,
+      "y": 12,
+      "width": 1,
+      "height": 2,
+      "layer": "props"
+    },
+    {
+      "id": "office-desk-2",
+      "sprite": "check-in-desk-solid",
+      "x": 38,
+      "y": 15,
+      "width": 3,
+      "height": 2,
+      "layer": "props"
+    },
+    {
+      "id": "office-laptop-2",
+      "sprite": "laptop",
+      "x": 39,
+      "y": 15,
+      "width": 1,
+      "height": 1,
+      "layer": "props"
+    },
+    {
+      "id": "office-chair-2",
+      "sprite": "office-chair",
+      "x": 39,
+      "y": 18,
+      "width": 1,
+      "height": 2,
+      "layer": "props"
+    },
+    {
+      "id": "office-desk-3",
+      "sprite": "check-in-desk-solid",
+      "x": 44,
+      "y": 15,
+      "width": 3,
+      "height": 2,
+      "layer": "props"
+    },
+    {
+      "id": "office-laptop-3",
+      "sprite": "laptop",
+      "x": 45,
+      "y": 15,
+      "width": 1,
+      "height": 1,
+      "layer": "props"
+    },
+    {
+      "id": "office-chair-3",
+      "sprite": "office-chair",
+      "x": 45,
+      "y": 18,
+      "width": 1,
+      "height": 2,
+      "layer": "props"
+    },
+    {
+      "id": "office-desk-4",
+      "sprite": "check-in-desk-solid",
+      "x": 56,
+      "y": 10,
+      "width": 3,
+      "height": 2,
+      "layer": "props"
+    },
+    {
+      "id": "office-laptop-4",
+      "sprite": "laptop",
+      "x": 57,
+      "y": 10,
+      "width": 1,
+      "height": 1,
+      "layer": "props"
+    },
+    {
+      "id": "office-chair-4",
+      "sprite": "office-chair",
+      "x": 57,
+      "y": 13,
+      "width": 1,
+      "height": 2,
+      "layer": "props"
+    },
+    {
+      "id": "office-desk-5",
+      "sprite": "check-in-desk-solid",
+      "x": 61,
+      "y": 10,
+      "width": 3,
+      "height": 2,
+      "layer": "props"
+    },
+    {
+      "id": "office-laptop-5",
+      "sprite": "laptop",
+      "x": 62,
+      "y": 10,
+      "width": 1,
+      "height": 1,
+      "layer": "props"
+    },
+    {
+      "id": "office-chair-5",
+      "sprite": "office-chair",
+      "x": 62,
+      "y": 13,
+      "width": 1,
+      "height": 2,
+      "layer": "props"
+    },
+    {
+      "id": "office-quiet-books",
+      "sprite": "office-bookcase",
+      "x": 56,
+      "y": 16,
+      "width": 2,
+      "height": 3,
+      "layer": "props"
+    },
+    {
+      "id": "office-quiet-sofa",
+      "sprite": "office-sofa",
+      "x": 60,
+      "y": 17,
+      "width": 3,
+      "height": 2,
+      "layer": "props"
+    },
+    {
+      "id": "office-briefing-monitor",
+      "sprite": "screen-wide",
+      "x": 41,
+      "y": 23,
+      "width": 3,
+      "height": 2,
+      "layer": "props"
+    },
+    {
+      "id": "office-briefing-table",
+      "sprite": "table-circular",
+      "x": 41,
+      "y": 27,
+      "width": 4,
+      "height": 3,
+      "layer": "props"
+    },
+    {
+      "id": "office-briefing-seat-0",
+      "sprite": "office-chair",
+      "x": 39,
+      "y": 26,
+      "width": 1,
+      "height": 2,
+      "layer": "props"
+    },
+    {
+      "id": "office-briefing-seat-1",
+      "sprite": "office-chair",
+      "x": 46,
+      "y": 26,
+      "width": 1,
+      "height": 2,
+      "layer": "props"
+    },
+    {
+      "id": "office-briefing-seat-2",
+      "sprite": "office-chair",
+      "x": 40,
+      "y": 31,
+      "width": 1,
+      "height": 2,
+      "layer": "props"
+    },
+    {
+      "id": "office-briefing-seat-3",
+      "sprite": "office-chair",
+      "x": 45,
+      "y": 31,
+      "width": 1,
+      "height": 2,
+      "layer": "props"
+    },
+    {
+      "id": "office-briefing-books",
+      "sprite": "office-bookcase",
+      "x": 37,
+      "y": 30,
+      "width": 2,
+      "height": 3,
+      "layer": "props"
+    },
+    {
+      "id": "office-lounge-sofa-a",
+      "sprite": "office-sofa",
+      "x": 56,
+      "y": 24,
+      "width": 3,
+      "height": 2,
+      "layer": "props"
+    },
+    {
+      "id": "office-lounge-sofa-b",
+      "sprite": "office-sofa",
+      "x": 61,
+      "y": 24,
+      "width": 3,
+      "height": 2,
+      "layer": "props"
+    },
+    {
+      "id": "office-lounge-table",
+      "sprite": "table-circular",
+      "x": 58,
+      "y": 28,
+      "width": 4,
+      "height": 3,
+      "layer": "props"
+    },
+    {
+      "id": "office-lounge-water",
+      "sprite": "office-water",
+      "x": 63,
+      "y": 31,
+      "width": 1,
+      "height": 2,
+      "layer": "props"
+    },
+    {
+      "id": "office-foyer-desk",
+      "sprite": "check-in-desk-solid",
+      "x": 56,
+      "y": 40,
+      "width": 3,
+      "height": 2,
+      "layer": "props"
+    },
+    {
+      "id": "office-foyer-coffee",
+      "sprite": "coffee-maker",
+      "x": 57,
+      "y": 40,
+      "width": 1,
+      "height": 1,
+      "layer": "props"
+    },
+    {
+      "id": "office-foyer-seat",
+      "sprite": "office-sofa",
+      "x": 40,
+      "y": 40,
+      "width": 3,
+      "height": 2,
+      "layer": "props"
+    },
+    {
+      "id": "office-plant-0",
+      "sprite": "plaza-potted-fern",
+      "x": 37,
+      "y": 7,
+      "width": 1,
+      "height": 2,
+      "layer": "props"
+    },
+    {
+      "id": "office-plant-1",
+      "sprite": "plaza-potted-fern",
+      "x": 47,
+      "y": 17,
+      "width": 1,
+      "height": 2,
+      "layer": "props"
+    },
+    {
+      "id": "office-plant-2",
+      "sprite": "plaza-potted-fern",
+      "x": 63,
+      "y": 7,
+      "width": 1,
+      "height": 2,
+      "layer": "props"
+    },
+    {
+      "id": "office-plant-3",
+      "sprite": "plaza-potted-fern",
+      "x": 55,
+      "y": 31,
+      "width": 1,
+      "height": 2,
+      "layer": "props"
+    },
+    {
+      "id": "office-plant-4",
+      "sprite": "plaza-potted-fern",
+      "x": 37,
+      "y": 41,
+      "width": 1,
+      "height": 2,
+      "layer": "props"
+    },
+    {
+      "id": "office-plant-5",
+      "sprite": "plaza-potted-fern",
+      "x": 63,
+      "y": 41,
+      "width": 1,
+      "height": 2,
+      "layer": "props"
+    },
+    {
+      "id": "office-window-0",
+      "sprite": "window-white",
+      "x": 40,
+      "y": 0,
+      "width": 2,
+      "height": 2,
+      "layer": "props"
+    },
+    {
+      "id": "office-window-1",
+      "sprite": "window-white",
+      "x": 46,
+      "y": 0,
+      "width": 2,
+      "height": 2,
+      "layer": "props"
+    },
+    {
+      "id": "office-window-2",
+      "sprite": "window-white",
+      "x": 57,
+      "y": 0,
+      "width": 2,
+      "height": 2,
+      "layer": "props"
+    },
+    {
+      "id": "office-window-3",
+      "sprite": "window-white",
+      "x": 62,
+      "y": 0,
+      "width": 2,
+      "height": 2,
+      "layer": "props"
     }
   ],
   "entries": [
@@ -1247,6 +1896,47 @@
           "raiseHandEnabled": true
         }
       ]
+    },
+    {
+      "id": "virgo-office-organizers",
+      "name": "virgo / Organizer Team",
+      "x": 37,
+      "y": 5,
+      "width": 12,
+      "height": 15,
+      "properties": []
+    },
+    {
+      "id": "virgo-office-silent",
+      "name": "virgo / Silent Room",
+      "x": 55,
+      "y": 5,
+      "width": 10,
+      "height": 15,
+      "properties": [
+        {
+          "id": "virgo-office-quiet",
+          "type": "silent"
+        }
+      ]
+    },
+    {
+      "id": "virgo-office-briefing",
+      "name": "virgo / Launch / Briefing",
+      "x": 37,
+      "y": 21,
+      "width": 12,
+      "height": 13,
+      "properties": []
+    },
+    {
+      "id": "virgo-office-lounge",
+      "name": "virgo / Lounge / Break",
+      "x": 55,
+      "y": 21,
+      "width": 10,
+      "height": 13,
+      "properties": []
     }
   ],
   "inspectionZones": [
@@ -1281,6 +1971,46 @@
       "y": 37,
       "width": 13,
       "height": 7
+    },
+    {
+      "name": "office-organizers",
+      "kind": "room",
+      "x": 37,
+      "y": 5,
+      "width": 12,
+      "height": 15
+    },
+    {
+      "name": "office-silent",
+      "kind": "room",
+      "x": 55,
+      "y": 5,
+      "width": 10,
+      "height": 15
+    },
+    {
+      "name": "office-briefing",
+      "kind": "room",
+      "x": 37,
+      "y": 21,
+      "width": 12,
+      "height": 13
+    },
+    {
+      "name": "office-lounge",
+      "kind": "room",
+      "x": 55,
+      "y": 21,
+      "width": 10,
+      "height": 13
+    },
+    {
+      "name": "office-access-route",
+      "kind": "landmark",
+      "x": 35,
+      "y": 35,
+      "width": 19,
+      "height": 3
     }
   ],
   "signs": [
@@ -1387,6 +2117,94 @@
       "fontSize": 11,
       "color": "#283c45",
       "align": "center"
+    },
+    {
+      "name": "office-organizers",
+      "text": "ORGANIZER TEAM",
+      "x": 38,
+      "y": 6,
+      "width": 10,
+      "height": 1,
+      "fontSize": 15,
+      "color": "#f9f2d8",
+      "align": "left"
+    },
+    {
+      "name": "office-silent",
+      "text": "SILENT ROOM",
+      "x": 56,
+      "y": 6,
+      "width": 8,
+      "height": 1,
+      "fontSize": 15,
+      "color": "#f9f2d8",
+      "align": "left"
+    },
+    {
+      "name": "office-briefing",
+      "text": "LAUNCH / BRIEFING",
+      "x": 38,
+      "y": 22,
+      "width": 10,
+      "height": 1,
+      "fontSize": 15,
+      "color": "#233748",
+      "align": "left"
+    },
+    {
+      "name": "office-lounge",
+      "text": "LOUNGE / BREAK",
+      "x": 56,
+      "y": 22,
+      "width": 8,
+      "height": 1,
+      "fontSize": 15,
+      "color": "#233748",
+      "align": "left"
+    },
+    {
+      "name": "office-quiet-note",
+      "text": "QUIET · NO AUDIO",
+      "x": 56,
+      "y": 8,
+      "width": 8,
+      "height": 1,
+      "fontSize": 12,
+      "color": "#f4ead2",
+      "align": "left"
+    },
+    {
+      "name": "office-wing-title",
+      "text": "TEAM & BREAKOUT WING",
+      "x": 40,
+      "y": 3,
+      "width": 23,
+      "height": 1,
+      "fontSize": 17,
+      "color": "#2e4250",
+      "align": "left"
+    },
+    {
+      "name": "office-entrance",
+      "text": "← AUDITORIUM     OFFICES ↑",
+      "x": 38,
+      "y": 36,
+      "width": 24,
+      "height": 1,
+      "fontSize": 15,
+      "color": "#334552",
+      "align": "left"
+    },
+    {
+      "name": "office-refreshments",
+      "text": "COFFEE / BREAK",
+      "x": 55,
+      "y": 43,
+      "width": 9,
+      "height": 1,
+      "fontSize": 12,
+      "color": "#334552",
+      "align": "left"
     }
   ],
   "animatedOverlays": [
@@ -1561,11 +2379,15 @@
           },
           {
             "path": "tools/art/interior-reference-motion.ts",
-            "sha256": "afb6b6a4772bdd6358e188d8af06fd6dc0bdd15ed3b4d84668bd013136b25170"
+            "sha256": "307aefee27562dac029c0947ab49dfea3d253b8ca887a1764751d1829bcdde6c"
           },
           {
             "path": "tools/maps/builder.ts",
             "sha256": "d5825e67c9a3ab86dd1b9c3f922e6f8fb126e652ee9ff149e8d2ead8d249ce3d"
+          },
+          {
+            "path": "tools/maps/speaker-office-wings.ts",
+            "sha256": "138f2b9fc8cf4d05d01eb28bdfb3f8665b7f9ab7d0a0843c64275cfd0b65d93b"
           }
         ]
       }
@@ -1635,11 +2457,15 @@
           },
           {
             "path": "tools/art/interior-reference-motion.ts",
-            "sha256": "afb6b6a4772bdd6358e188d8af06fd6dc0bdd15ed3b4d84668bd013136b25170"
+            "sha256": "307aefee27562dac029c0947ab49dfea3d253b8ca887a1764751d1829bcdde6c"
           },
           {
             "path": "tools/maps/builder.ts",
             "sha256": "d5825e67c9a3ab86dd1b9c3f922e6f8fb126e652ee9ff149e8d2ead8d249ce3d"
+          },
+          {
+            "path": "tools/maps/speaker-office-wings.ts",
+            "sha256": "138f2b9fc8cf4d05d01eb28bdfb3f8665b7f9ab7d0a0843c64275cfd0b65d93b"
           }
         ]
       }
@@ -1791,11 +2617,15 @@
           },
           {
             "path": "tools/art/interior-reference-motion.ts",
-            "sha256": "afb6b6a4772bdd6358e188d8af06fd6dc0bdd15ed3b4d84668bd013136b25170"
+            "sha256": "307aefee27562dac029c0947ab49dfea3d253b8ca887a1764751d1829bcdde6c"
           },
           {
             "path": "tools/maps/builder.ts",
             "sha256": "d5825e67c9a3ab86dd1b9c3f922e6f8fb126e652ee9ff149e8d2ead8d249ce3d"
+          },
+          {
+            "path": "tools/maps/speaker-office-wings.ts",
+            "sha256": "138f2b9fc8cf4d05d01eb28bdfb3f8665b7f9ab7d0a0843c64275cfd0b65d93b"
           }
         ]
       }

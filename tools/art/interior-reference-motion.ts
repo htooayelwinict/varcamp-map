@@ -11,6 +11,7 @@ import {pathToFileURL} from 'node:url';
 import {resolve} from 'node:path';
 import {ariesPresentationFunctional} from '../maps/aries-presentation';
 import {auditoriumFunctional} from '../maps/auditorium-spacing';
+import {officeWingFunctional} from '../maps/speaker-office-wings';
 
 export async function renderInteriorReferenceMotion(){
 const artifacts=new Map<string,Buffer>(),layouts=new Map<string,MapLayout>();
@@ -49,7 +50,7 @@ const steamPoses=[.6,.5,.35,.2].map(scale=>{
  const rgba=Buffer.from(steamImage.data);for(let i=3;i<rgba.length;i+=4)rgba[i]=Math.round(rgba[i]*scale);
  return{width:steamImage.info.width,height:steamImage.info.height,rgba};
 });
-const inputs=['art/source/interior-reference-original.png','art/source/interior-steam-original.png','art/source/interior-steam-pose.png',atlas,'tools/art/native-motion.ts','tools/art/interior-reference-motion.ts','tools/maps/builder.ts'].map(path=>({path,sha256:hash(readFileSync(path))}));
+const inputs=['art/source/interior-reference-original.png','art/source/interior-steam-original.png','art/source/interior-steam-pose.png',atlas,'tools/art/native-motion.ts','tools/art/interior-reference-motion.ts','tools/maps/builder.ts','tools/maps/speaker-office-wings.ts'].map(path=>({path,sha256:hash(readFileSync(path))}));
 const records:any[]=[];
 const generated=new Set<string>([plantBasePath]);
 for(const name of Object.keys(baseline)){
@@ -78,7 +79,7 @@ for(const name of Object.keys(baseline)){
   artifacts.set(metadataPath,Buffer.from(JSON.stringify({scope:'ORIGINAL_PNG_INTERIOR_NATIVE_MOTION',overlay,diagnostics:result.diagnostics},null,2)+'\n'));generated.add(metadataPath);
   records.push({map:name,effect:effect.kind,diagnostics:result.diagnostics,atlasSha256:hash(result.png)});
  }
- const functional=auditoriumFunctional(name,ariesPresentationFunctional(name,baseline[name]));
+ const functional=officeWingFunctional(name,auditoriumFunctional(name,ariesPresentationFunctional(name,baseline[name])));
  for(const key of ['width','height','entries','exits','areas','inspectionZones'])if(JSON.stringify(layout[key as keyof MapLayout])!==JSON.stringify(functional[key as keyof typeof functional]))throw Error(`${name}: functional baseline changed`);
  layouts.set(path,layout);
 }

@@ -255,11 +255,15 @@
         },
         {
           "path": "tools/art/interior-reference-motion.ts",
-          "sha256": "afb6b6a4772bdd6358e188d8af06fd6dc0bdd15ed3b4d84668bd013136b25170"
+          "sha256": "307aefee27562dac029c0947ab49dfea3d253b8ca887a1764751d1829bcdde6c"
         },
         {
           "path": "tools/maps/builder.ts",
           "sha256": "d5825e67c9a3ab86dd1b9c3f922e6f8fb126e652ee9ff149e8d2ead8d249ce3d"
+        },
+        {
+          "path": "tools/maps/speaker-office-wings.ts",
+          "sha256": "138f2b9fc8cf4d05d01eb28bdfb3f8665b7f9ab7d0a0843c64275cfd0b65d93b"
         }
       ]
     }

@@ -3,6 +3,7 @@ import {restoreEventPresentation} from './event-presentation';
 import {assertRoomMaterials} from './room-refinement';
 import {auditoriumFunctional,assertAuditoriumSpacing} from './auditorium-spacing';
 import {restoreStageSideAccess} from './stage-side-access';
+import {restoreSpeakerOfficeWings,officeWingFunctional,assertOfficeMaterials} from './speaker-office-wings';
 import{isDeepStrictEqual}from'node:util';
 import{SIGN_IDS}from'../../src/world/catalog';
 import contractData from'../../world/interior-reference-contract.json';
@@ -29,9 +30,11 @@ export function renderReferenceInterior(layout:MapLayout,catalog:TileCatalog){
 export function assertNativeReferenceInterior(map:TiledMap,layout:MapLayout,catalog:TileCatalog,sourceWam:WamFile):void{
  if(!IDS.includes(layout.id))return;
  assertRoomMaterials(catalog);
- assertAuditoriumSpacing(restoreStageSideAccess(layout),catalog);
+ assertOfficeMaterials(catalog);
+ const prior=restoreSpeakerOfficeWings(layout);
+ assertAuditoriumSpacing(restoreStageSideAccess(prior),catalog);
  need(contract.version===1&&isDeepStrictEqual(Object.keys(contract.maps).sort(),IDS.slice().sort()),'contract must cover exactly the known fourteen rooms');
- const row=contract.maps[layout.id],functional=auditoriumFunctional(layout.id,ariesPresentationFunctional(layout.id,row.functional));
+ const row=contract.maps[layout.id],functional=officeWingFunctional(layout.id,auditoriumFunctional(layout.id,ariesPresentationFunctional(layout.id,row.functional)));
  const beforeEvent=restoreEventPresentation(layout);
  const beforeBrand=restoreVibeCodeBranding(beforeEvent);
  assertAriesPresentation(beforeBrand,catalog);

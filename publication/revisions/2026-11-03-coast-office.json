@@ -1,0 +1,473 @@
+{
+  "schemaVersion": 1,
+  "revisions": [
+    {
+      "path": "art/sources.json",
+      "fromSha256": "7d23e6f37deb89fe6f5d87621021e8a2f25efd279a5420b40990f06f0a3fe317",
+      "toSha256": "82664b023bb164c313559bb7234b6cc62541e616ea9577a08d911a78fa9bf702",
+      "reason": "Append four office and breakout spaces beside each zodiac auditorium, widen both natural coasts at native scale, and make Orbit Playground a playable walking course. Preserve original stages, listener zones, entrances, ship and plane. Add only the four reviewed WAM areas per speaker room; refresh shared source provenance."
+    },
+    {
+      "path": "art/tile-catalog.json",
+      "fromSha256": "3f416cded53179414c5ac670983c3181b583344262c8576e4c860892de90620a",
+      "toSha256": "1175660e20dc7cad8b002b623853c21cc9feefedbd83dcc245d1c4b7fde78ae4",
+      "reason": "Append four office and breakout spaces beside each zodiac auditorium, widen both natural coasts at native scale, and make Orbit Playground a playable walking course. Preserve original stages, listener zones, entrances, ship and plane. Add only the four reviewed WAM areas per speaker room; refresh shared source provenance."
+    },
+    {
+      "path": "maps/constellation-shore.tmj",
+      "fromSha256": "86eaaad00a1c73d60302ba7e76cba77875de83f28e372b0bef51def7ac3e11be",
+      "toSha256": "e80f047648349d5dead9c79a8f0b693fa6e64843e015f3461ae12c2800b36531",
+      "reason": "Append four office and breakout spaces beside each zodiac auditorium, widen both natural coasts at native scale, and make Orbit Playground a playable walking course. Preserve original stages, listener zones, entrances, ship and plane. Add only the four reviewed WAM areas per speaker room; refresh shared source provenance."
+    },
+    {
+      "path": "maps/orbit-playground.tmj",
+      "fromSha256": "3f9031ba9d4475deec50a5527e39d667c0d9e9186b8b6889c5bcdc9c02341bd7",
+      "toSha256": "14b4ec30956eb0cc3f47433d9f30fd307b8473bfdd9cb42ee955c7f3e2f9f8e8",
+      "reason": "Append four office and breakout spaces beside each zodiac auditorium, widen both natural coasts at native scale, and make Orbit Playground a playable walking course. Preserve original stages, listener zones, entrances, ship and plane. Add only the four reviewed WAM areas per speaker room; refresh shared source provenance."
+    },
+    {
+      "path": "maps/preview/constellation-shore.tmj",
+      "fromSha256": "ca936be374b08a608799cb8fb38bd72705a739a0ea353db46b130b86b8e870a7",
+      "toSha256": "8217f6052ff04b78715994ba97eca34d18e232148627d8ad441336357b06925e",
+      "reason": "Append four office and breakout spaces beside each zodiac auditorium, widen both natural coasts at native scale, and make Orbit Playground a playable walking course. Preserve original stages, listener zones, entrances, ship and plane. Add only the four reviewed WAM areas per speaker room; refresh shared source provenance."
+    },
+    {
+      "path": "maps/preview/orbit-playground.tmj",
+      "fromSha256": "2cd35ab41c13058f96e8175f5b1138eb920f213b91a9585f07bcd906489c0597",
+      "toSha256": "e52dc9e4151310897b3fa602853be15358ae3df3e0d00717d9c95a99db589892",
+      "reason": "Append four office and breakout spaces beside each zodiac auditorium, widen both natural coasts at native scale, and make Orbit Playground a playable walking course. Preserve original stages, listener zones, entrances, ship and plane. Add only the four reviewed WAM areas per speaker room; refresh shared source provenance."
+    },
+    {
+      "path": "maps/preview/shipyard-beach.tmj",
+      "fromSha256": "a374a496ddf5edde6d2b47a01aa25abb0ce31d36b7bbb8d746f1f68c0ffa02f3",
+      "toSha256": "30de6153c2c698c28bb1cf141cc8b7b8362980f7c9e7c5b0005be45f7aa66bc8",
+      "reason": "Append four office and breakout spaces beside each zodiac auditorium, widen both natural coasts at native scale, and make Orbit Playground a playable walking course. Preserve original stages, listener zones, entrances, ship and plane. Add only the four reviewed WAM areas per speaker room; refresh shared source provenance."
+    },
+    {
+      "path": "maps/preview/speaker-aquarius.tmj",
+      "fromSha256": "8d97a63941e305188bb4e250f242d6727877f2313e5218738026bbce98b04904",
+      "toSha256": "9cdbfec26e594f060539771a9052e8d55d4d8cef54bdaacf60534e5a896f0662",
+      "reason": "Append four office and breakout spaces beside each zodiac auditorium, widen both natural coasts at native scale, and make Orbit Playground a playable walking course. Preserve original stages, listener zones, entrances, ship and plane. Add only the four reviewed WAM areas per speaker room; refresh shared source provenance."
+    },
+    {
+      "path": "maps/preview/speaker-aries.tmj",
+      "fromSha256": "edf4eb5a0e5af9299663a4e889908a6a58f7d0639945062d572f7422c04ef34c",
+      "toSha256": "461e54373ad37dfc2d894b2782490ec2538790b4c4d2356885ae823142fc5f64",
+      "reason": "Append four office and breakout spaces beside each zodiac auditorium, widen both natural coasts at native scale, and make Orbit Playground a playable walking course. Preserve original stages, listener zones, entrances, ship and plane. Add only the four reviewed WAM areas per speaker room; refresh shared source provenance."
+    },
+    {
+      "path": "maps/preview/speaker-cancer.tmj",
+      "fromSha256": "fd19c74b3efeee3775b73c7a60835f2ad4abb019ba70935b264d1608eaa3310e",
+      "toSha256": "bf8d203ecc1ae787553e31c47a2d5f2de5e78df041dfcf274e74ebf6de32c286",
+      "reason": "Append four office and breakout spaces beside each zodiac auditorium, widen both natural coasts at native scale, and make Orbit Playground a playable walking course. Preserve original stages, listener zones, entrances, ship and plane. Add only the four reviewed WAM areas per speaker room; refresh shared source provenance."
+    },
+    {
+      "path": "maps/preview/speaker-capricorn.tmj",
+      "fromSha256": "75516a26c7e78e828ffcb73c17ce5a004a8fdc2a407a49ca60c7636cd16feae9",
+      "toSha256": "02defe58fc57954bf868e2bd7246bd3760bd613421d70abdc1b05859007a4d93",
+      "reason": "Append four office and breakout spaces beside each zodiac auditorium, widen both natural coasts at native scale, and make Orbit Playground a playable walking course. Preserve original stages, listener zones, entrances, ship and plane. Add only the four reviewed WAM areas per speaker room; refresh shared source provenance."
+    },
+    {
+      "path": "maps/preview/speaker-gemini.tmj",
+      "fromSha256": "39dac79b6acbc67f7ac109fd854faf9c65d90e82c4205410e79f7644837ab722",
+      "toSha256": "59a450fad83361606efd4110faee0cf98d2e0b3858429af8ac7a4c0f53afa867",
+      "reason": "Append four office and breakout spaces beside each zodiac auditorium, widen both natural coasts at native scale, and make Orbit Playground a playable walking course. Preserve original stages, listener zones, entrances, ship and plane. Add only the four reviewed WAM areas per speaker room; refresh shared source provenance."
+    },
+    {
+      "path": "maps/preview/speaker-leo.tmj",
+      "fromSha256": "c417eb648017f9d2a9dda97d8a3d63e67d0bcedbd77b9cec0017123c2b06997a",
+      "toSha256": "4175567736127d60e9f3c467cdc654b8bd819dd72f7e8043eca8ab6a4628887d",
+      "reason": "Append four office and breakout spaces beside each zodiac auditorium, widen both natural coasts at native scale, and make Orbit Playground a playable walking course. Preserve original stages, listener zones, entrances, ship and plane. Add only the four reviewed WAM areas per speaker room; refresh shared source provenance."
+    },
+    {
+      "path": "maps/preview/speaker-libra.tmj",
+      "fromSha256": "1ca1f363ba900e4bb5170a732cd533f5d7c8be7a8d12b8aabe12d67c871531af",
+      "toSha256": "a885f3270ee7b1d521f6c22ec33d091a8cecce1aef2afa876cc2b325699ab371",
+      "reason": "Append four office and breakout spaces beside each zodiac auditorium, widen both natural coasts at native scale, and make Orbit Playground a playable walking course. Preserve original stages, listener zones, entrances, ship and plane. Add only the four reviewed WAM areas per speaker room; refresh shared source provenance."
+    },
+    {
+      "path": "maps/preview/speaker-pisces.tmj",
+      "fromSha256": "ae2e61eb37349a520dd0ef83072faacf6322aee811db33f1f8c125eb177a5cc4",
+      "toSha256": "3ba216a1866ac985764b6f7f24c6d69e1e8f182702de2aeb5454aed637a73115",
+      "reason": "Append four office and breakout spaces beside each zodiac auditorium, widen both natural coasts at native scale, and make Orbit Playground a playable walking course. Preserve original stages, listener zones, entrances, ship and plane. Add only the four reviewed WAM areas per speaker room; refresh shared source provenance."
+    },
+    {
+      "path": "maps/preview/speaker-sagittarius.tmj",
+      "fromSha256": "0547408845b59dd3f5b3ce5f0fde0b4944ac2948d7b2247cd7015843446d330b",
+      "toSha256": "b63eac2e93670a8b096454911b0241f8ef447031e4072df8e6eac8b56e11dc3c",
+      "reason": "Append four office and breakout spaces beside each zodiac auditorium, widen both natural coasts at native scale, and make Orbit Playground a playable walking course. Preserve original stages, listener zones, entrances, ship and plane. Add only the four reviewed WAM areas per speaker room; refresh shared source provenance."
+    },
+    {
+      "path": "maps/preview/speaker-scorpio.tmj",
+      "fromSha256": "14544cec8012303827e9a34a37eccd761f70fa7bcc90d80857cfdbc6ba68e025",
+      "toSha256": "84377b6a594e0e0e504c47de99fc8fd7df1decf0118aeec1fd70b175a72f29e5",
+      "reason": "Append four office and breakout spaces beside each zodiac auditorium, widen both natural coasts at native scale, and make Orbit Playground a playable walking course. Preserve original stages, listener zones, entrances, ship and plane. Add only the four reviewed WAM areas per speaker room; refresh shared source provenance."
+    },
+    {
+      "path": "maps/preview/speaker-taurus.tmj",
+      "fromSha256": "235198990bf9fde4f68870ae93dd325fe5cf0c3b90526d93836d86cc9f89ed71",
+      "toSha256": "e2e52210b927c33bb3b5d0d1c1acdb4e62e4db975d7ce7091f6ca67add10f920",
+      "reason": "Append four office and breakout spaces beside each zodiac auditorium, widen both natural coasts at native scale, and make Orbit Playground a playable walking course. Preserve original stages, listener zones, entrances, ship and plane. Add only the four reviewed WAM areas per speaker room; refresh shared source provenance."
+    },
+    {
+      "path": "maps/preview/speaker-virgo.tmj",
+      "fromSha256": "2ba6ca59c10f4ac1415478ebb1fd4a2e999a1d363ec203b2a2c092fd124275de",
+      "toSha256": "b9aad656947647c3c1cc3ea2e199be12ca2f3d8dca5afaa21f64ee32afaf3567",
+      "reason": "Append four office and breakout spaces beside each zodiac auditorium, widen both natural coasts at native scale, and make Orbit Playground a playable walking course. Preserve original stages, listener zones, entrances, ship and plane. Add only the four reviewed WAM areas per speaker room; refresh shared source provenance."
+    },
+    {
+      "path": "maps/shipyard-beach.tmj",
+      "fromSha256": "f6d78e422ea69844c9cd02951ae5fb403d3fee52f30a99d9a1e1246a34dfe985",
+      "toSha256": "038df72df0cc96e265d7fa3650adb4ce5f985de03e0961092a00182808842f35",
+      "reason": "Append four office and breakout spaces beside each zodiac auditorium, widen both natural coasts at native scale, and make Orbit Playground a playable walking course. Preserve original stages, listener zones, entrances, ship and plane. Add only the four reviewed WAM areas per speaker room; refresh shared source provenance."
+    },
+    {
+      "path": "maps/speaker-aquarius.tmj",
+      "fromSha256": "40d67e5ef6cfe570eeb10f8cfe44c7826ba185fb8ce57acefb26a3a2f9d60ccd",
+      "toSha256": "cd65f78e94af66f36bad261dffa23d83f430762bebd60cf12e13f7aaad2cb304",
+      "reason": "Append four office and breakout spaces beside each zodiac auditorium, widen both natural coasts at native scale, and make Orbit Playground a playable walking course. Preserve original stages, listener zones, entrances, ship and plane. Add only the four reviewed WAM areas per speaker room; refresh shared source provenance."
+    },
+    {
+      "path": "maps/speaker-aquarius.wam",
+      "fromSha256": "c82452ffe5aedb4d5c0752fcfdc2a15b36ebf06c6eb6a07f3556ef7a147258e6",
+      "toSha256": "6c3ddca9d8cc495b7f04c99d45d6a18dfff964e13ad46d3ee151a04bf2b5a7bc",
+      "reason": "Append four office and breakout spaces beside each zodiac auditorium, widen both natural coasts at native scale, and make Orbit Playground a playable walking course. Preserve original stages, listener zones, entrances, ship and plane. Add only the four reviewed WAM areas per speaker room; refresh shared source provenance."
+    },
+    {
+      "path": "maps/speaker-aries.tmj",
+      "fromSha256": "81854f4d922f94c780400d6327f7e4b6ae5d0c4f27e4763f9d653a3d87f1af43",
+      "toSha256": "91deff598e8311906839a04a03b65bcee383da5a9f12cf07c2eb689495ca189c",
+      "reason": "Append four office and breakout spaces beside each zodiac auditorium, widen both natural coasts at native scale, and make Orbit Playground a playable walking course. Preserve original stages, listener zones, entrances, ship and plane. Add only the four reviewed WAM areas per speaker room; refresh shared source provenance."
+    },
+    {
+      "path": "maps/speaker-aries.wam",
+      "fromSha256": "475ea309d7f55c296086596522956b4fd2a959801191e2879aaa190274bb9daf",
+      "toSha256": "182af4025aa66f0c321dcb81a5fef6e3ca76230e90f188a4191624d7aa0473d4",
+      "reason": "Append four office and breakout spaces beside each zodiac auditorium, widen both natural coasts at native scale, and make Orbit Playground a playable walking course. Preserve original stages, listener zones, entrances, ship and plane. Add only the four reviewed WAM areas per speaker room; refresh shared source provenance."
+    },
+    {
+      "path": "maps/speaker-cancer.tmj",
+      "fromSha256": "422091a2700119f5a501578f61eada15a06e672768214c1369ffc7989bef7615",
+      "toSha256": "22790f9b7d2a75099928da2787554e31a6a2da455c4809d353f797e7ea6bcc58",
+      "reason": "Append four office and breakout spaces beside each zodiac auditorium, widen both natural coasts at native scale, and make Orbit Playground a playable walking course. Preserve original stages, listener zones, entrances, ship and plane. Add only the four reviewed WAM areas per speaker room; refresh shared source provenance."
+    },
+    {
+      "path": "maps/speaker-cancer.wam",
+      "fromSha256": "b461db4bb4ad0cbb2b4ed01c644f94e681fc889a31b466d5379b49e4a206e706",
+      "toSha256": "0fa58bc0ab914a329b70d6ccaa51dbe7361b84ae58120903a1ef5d7300b26715",
+      "reason": "Append four office and breakout spaces beside each zodiac auditorium, widen both natural coasts at native scale, and make Orbit Playground a playable walking course. Preserve original stages, listener zones, entrances, ship and plane. Add only the four reviewed WAM areas per speaker room; refresh shared source provenance."
+    },
+    {
+      "path": "maps/speaker-capricorn.tmj",
+      "fromSha256": "dfbc73465d5cbc11664c56d27ac0b18313db04409ad3b22b2836982f6a0333ef",
+      "toSha256": "cb4f87f8c3e3273c2da36dcf65fb3a22dbe24722e29de492e694fbc9830487ae",
+      "reason": "Append four office and breakout spaces beside each zodiac auditorium, widen both natural coasts at native scale, and make Orbit Playground a playable walking course. Preserve original stages, listener zones, entrances, ship and plane. Add only the four reviewed WAM areas per speaker room; refresh shared source provenance."
+    },
+    {
+      "path": "maps/speaker-capricorn.wam",
+      "fromSha256": "bd0ead46ec77e219f85fda291a5558d24ef14e2856920d156909474948ec1806",
+      "toSha256": "92ea1f09f57cfbf6b0ca8f37e0cd31bd161aa0ec7f05a52059dd0f31b315f761",
+      "reason": "Append four office and breakout spaces beside each zodiac auditorium, widen both natural coasts at native scale, and make Orbit Playground a playable walking course. Preserve original stages, listener zones, entrances, ship and plane. Add only the four reviewed WAM areas per speaker room; refresh shared source provenance."
+    },
+    {
+      "path": "maps/speaker-gemini.tmj",
+      "fromSha256": "591b3c4a9239267eb884bbace4d77c27bb2bedd403b4778f57ca823b570ddd55",
+      "toSha256": "3566bef5a8e7f72d73aee5b2642a62f2101ad8985bd45c20f61ac3d74c81d285",
+      "reason": "Append four office and breakout spaces beside each zodiac auditorium, widen both natural coasts at native scale, and make Orbit Playground a playable walking course. Preserve original stages, listener zones, entrances, ship and plane. Add only the four reviewed WAM areas per speaker room; refresh shared source provenance."
+    },
+    {
+      "path": "maps/speaker-gemini.wam",
+      "fromSha256": "45100caeccd1d5c040667abbe64c826d3df6acaca701d1d98204bdc2a8e7eacc",
+      "toSha256": "27c4dda4be04b23614473a4f35a9f5073414c0b47d100098b951c1b1efefe823",
+      "reason": "Append four office and breakout spaces beside each zodiac auditorium, widen both natural coasts at native scale, and make Orbit Playground a playable walking course. Preserve original stages, listener zones, entrances, ship and plane. Add only the four reviewed WAM areas per speaker room; refresh shared source provenance."
+    },
+    {
+      "path": "maps/speaker-leo.tmj",
+      "fromSha256": "cae6d6709e10d3dee978e7ef6fc70eeac25c868c99c4811d8c7f037602b5e2ca",
+      "toSha256": "390e448b0bee103658a091ca712a74dbdcc234239617ebda5537e7d67b7a2012",
+      "reason": "Append four office and breakout spaces beside each zodiac auditorium, widen both natural coasts at native scale, and make Orbit Playground a playable walking course. Preserve original stages, listener zones, entrances, ship and plane. Add only the four reviewed WAM areas per speaker room; refresh shared source provenance."
+    },
+    {
+      "path": "maps/speaker-leo.wam",
+      "fromSha256": "7bfd9382cb29cfa12767b406eb01b200346cc127aadc3a7c627fd79b34b38bfa",
+      "toSha256": "191c856b50ce7af930d3a02c410e31c0aa7616b718272d99e2f93e5a799270b2",
+      "reason": "Append four office and breakout spaces beside each zodiac auditorium, widen both natural coasts at native scale, and make Orbit Playground a playable walking course. Preserve original stages, listener zones, entrances, ship and plane. Add only the four reviewed WAM areas per speaker room; refresh shared source provenance."
+    },
+    {
+      "path": "maps/speaker-libra.tmj",
+      "fromSha256": "20e26dc216c4e6ecf3b6ab4ef65fa4a42b0212372a66120503126553ea73e1c6",
+      "toSha256": "a8ffc858a22dbaa9f7585764de14da2af8b34456518b92b622d48cc71b09cf44",
+      "reason": "Append four office and breakout spaces beside each zodiac auditorium, widen both natural coasts at native scale, and make Orbit Playground a playable walking course. Preserve original stages, listener zones, entrances, ship and plane. Add only the four reviewed WAM areas per speaker room; refresh shared source provenance."
+    },
+    {
+      "path": "maps/speaker-libra.wam",
+      "fromSha256": "fec4237e750cf3b598a0da1239c2505a8287e24df2fbc829b87567236276a89b",
+      "toSha256": "4b708bb5894d7b212a6e3e9c1e3f04ef16c803ab20ff19d2d94e77562a66d39f",
+      "reason": "Append four office and breakout spaces beside each zodiac auditorium, widen both natural coasts at native scale, and make Orbit Playground a playable walking course. Preserve original stages, listener zones, entrances, ship and plane. Add only the four reviewed WAM areas per speaker room; refresh shared source provenance."
+    },
+    {
+      "path": "maps/speaker-pisces.tmj",
+      "fromSha256": "6f680890b8ec7ddcea6cebd1ea645cfc68206acaef137489c605b440fe62479a",
+      "toSha256": "ccfa9e12e12f242368a3ffe2ad3cf8717cce5116edb9bdfaf3e831157bdf2d4d",
+      "reason": "Append four office and breakout spaces beside each zodiac auditorium, widen both natural coasts at native scale, and make Orbit Playground a playable walking course. Preserve original stages, listener zones, entrances, ship and plane. Add only the four reviewed WAM areas per speaker room; refresh shared source provenance."
+    },
+    {
+      "path": "maps/speaker-pisces.wam",
+      "fromSha256": "f707ccbd7de05afa7923769708746e21acb6ff24742df5f491ea8eb1563ffb7f",
+      "toSha256": "2cc647be496963be203ad792c9c7ab58be40df241c8040c62b1eb7b11002492a",
+      "reason": "Append four office and breakout spaces beside each zodiac auditorium, widen both natural coasts at native scale, and make Orbit Playground a playable walking course. Preserve original stages, listener zones, entrances, ship and plane. Add only the four reviewed WAM areas per speaker room; refresh shared source provenance."
+    },
+    {
+      "path": "maps/speaker-sagittarius.tmj",
+      "fromSha256": "7e31f64657365d9a08d7bb284ce55755e3e375c8f52b1b19eed19282e9fabf6f",
+      "toSha256": "56e1b01be9d38c99bea2de0de41a078d42ffa54c3359a8351b33dd6ff4121c6b",
+      "reason": "Append four office and breakout spaces beside each zodiac auditorium, widen both natural coasts at native scale, and make Orbit Playground a playable walking course. Preserve original stages, listener zones, entrances, ship and plane. Add only the four reviewed WAM areas per speaker room; refresh shared source provenance."
+    },
+    {
+      "path": "maps/speaker-sagittarius.wam",
+      "fromSha256": "d10be40ddf55ea96fa9444fefc6dfb44880ee03cdf51e798a3c4bdbfeb3eef8d",
+      "toSha256": "4be794991e1bc69244785dc29298a1e9f92b12223717fabb4085b31ee717ab23",
+      "reason": "Append four office and breakout spaces beside each zodiac auditorium, widen both natural coasts at native scale, and make Orbit Playground a playable walking course. Preserve original stages, listener zones, entrances, ship and plane. Add only the four reviewed WAM areas per speaker room; refresh shared source provenance."
+    },
+    {
+      "path": "maps/speaker-scorpio.tmj",
+      "fromSha256": "0c7421bc89081054377b893709fff2ba2c7e5cd4a81f45d8a9cedb43e350f25c",
+      "toSha256": "044c36cdd10f0450c982a863c36898fb2c0b440b19312b6a214be24a248916f9",
+      "reason": "Append four office and breakout spaces beside each zodiac auditorium, widen both natural coasts at native scale, and make Orbit Playground a playable walking course. Preserve original stages, listener zones, entrances, ship and plane. Add only the four reviewed WAM areas per speaker room; refresh shared source provenance."
+    },
+    {
+      "path": "maps/speaker-scorpio.wam",
+      "fromSha256": "8e6843bc9198c2655b0d619b7abbec8c392f15598bc02d21eab6f2a32dcc5187",
+      "toSha256": "bb872042bacbff68234007e3924f36a526bb5c2def2370a237d306fdefa8d1aa",
+      "reason": "Append four office and breakout spaces beside each zodiac auditorium, widen both natural coasts at native scale, and make Orbit Playground a playable walking course. Preserve original stages, listener zones, entrances, ship and plane. Add only the four reviewed WAM areas per speaker room; refresh shared source provenance."
+    },
+    {
+      "path": "maps/speaker-taurus.tmj",
+      "fromSha256": "2208ab39785e978e7fe0c9f7c57fca7c72401109e69cfb180367d76f133637bd",
+      "toSha256": "8f7011d0d1541c41858a2d46614f5091fe7cd68e38cdbd8b3abdc6c424722dc8",
+      "reason": "Append four office and breakout spaces beside each zodiac auditorium, widen both natural coasts at native scale, and make Orbit Playground a playable walking course. Preserve original stages, listener zones, entrances, ship and plane. Add only the four reviewed WAM areas per speaker room; refresh shared source provenance."
+    },
+    {
+      "path": "maps/speaker-taurus.wam",
+      "fromSha256": "d5225d6a8b84c201868563893764c86bdfeb57f74ca1af1dc58523ea1a95173f",
+      "toSha256": "5d00a7c212c7bbb8f8c0c7b5f7e206f99b2cfea78265911f78675bac86905291",
+      "reason": "Append four office and breakout spaces beside each zodiac auditorium, widen both natural coasts at native scale, and make Orbit Playground a playable walking course. Preserve original stages, listener zones, entrances, ship and plane. Add only the four reviewed WAM areas per speaker room; refresh shared source provenance."
+    },
+    {
+      "path": "maps/speaker-virgo.tmj",
+      "fromSha256": "f7fb934269236459e45023b717779f7994251bcd6a08b814173efbeb76416348",
+      "toSha256": "48a8387c3506dd99d42ac974e89447e59f2266333803b9cf395086bddf31a755",
+      "reason": "Append four office and breakout spaces beside each zodiac auditorium, widen both natural coasts at native scale, and make Orbit Playground a playable walking course. Preserve original stages, listener zones, entrances, ship and plane. Add only the four reviewed WAM areas per speaker room; refresh shared source provenance."
+    },
+    {
+      "path": "maps/speaker-virgo.wam",
+      "fromSha256": "cb2a05e89ee33c9a79b99362145f2f3280ddf011ff878fd1b5de7804fb0467ed",
+      "toSha256": "6d5318d3749e5e953b9cf090d20e28c1c568ec56d47f0cbb41467f832869c6f7",
+      "reason": "Append four office and breakout spaces beside each zodiac auditorium, widen both natural coasts at native scale, and make Orbit Playground a playable walking course. Preserve original stages, listener zones, entrances, ship and plane. Add only the four reviewed WAM areas per speaker room; refresh shared source provenance."
+    },
+    {
+      "path": "src/main.ts",
+      "fromSha256": "6bc62eaf7a345a08b47166fc834bb9fa1f4d9fe3ee16fc8c0d406465d9c5c25b",
+      "toSha256": "7ee1dba3c98eec4f48445c0b914f9a1c37443c26b0ede36ea6b7f0676d198f2b",
+      "reason": "Append four office and breakout spaces beside each zodiac auditorium, widen both natural coasts at native scale, and make Orbit Playground a playable walking course. Preserve original stages, listener zones, entrances, ship and plane. Add only the four reviewed WAM areas per speaker room; refresh shared source provenance."
+    },
+    {
+      "path": "src/world/catalog.ts",
+      "fromSha256": "e39116af6e7233e69b61657680e9dc0b09962ca03eab88aec651be36e66d1b5b",
+      "toSha256": "e63120b96686bfb557ce9e3f3f0173e009ea4f392ce987002ad9cbc99b66eb59",
+      "reason": "Append four office and breakout spaces beside each zodiac auditorium, widen both natural coasts at native scale, and make Orbit Playground a playable walking course. Preserve original stages, listener zones, entrances, ship and plane. Add only the four reviewed WAM areas per speaker room; refresh shared source provenance."
+    },
+    {
+      "path": "world/layouts/air-district.json",
+      "fromSha256": "4b1798a3cb29508e59ef49f144f7fbe1cc392a69a529d60ba8d42c6da8b72b4b",
+      "toSha256": "fa7f5f91832b1b769e0fca5d03cc29940ac93b2bc905d8f37b7169b93afb5f86",
+      "reason": "Append four office and breakout spaces beside each zodiac auditorium, widen both natural coasts at native scale, and make Orbit Playground a playable walking course. Preserve original stages, listener zones, entrances, ship and plane. Add only the four reviewed WAM areas per speaker room; refresh shared source provenance."
+    },
+    {
+      "path": "world/layouts/campus-exploration.json",
+      "fromSha256": "0e2d7f4a8add876383abbabaadb6b56f24a2d2db04ba8bae9a7fb162e7ce90df",
+      "toSha256": "d2be4b66b70696b34837453ebf71626b26085065b948ab4e65ff5485aa1db47f",
+      "reason": "Append four office and breakout spaces beside each zodiac auditorium, widen both natural coasts at native scale, and make Orbit Playground a playable walking course. Preserve original stages, listener zones, entrances, ship and plane. Add only the four reviewed WAM areas per speaker room; refresh shared source provenance."
+    },
+    {
+      "path": "world/layouts/comet-maze.json",
+      "fromSha256": "f4a03d32c801ca9ec7a75f2019a977a3e2db056cae306a177cfeb95c915d3387",
+      "toSha256": "d18cf836711b28fa66d3a330f45d1b82b4779453b0757f1231f979bfef026fa5",
+      "reason": "Append four office and breakout spaces beside each zodiac auditorium, widen both natural coasts at native scale, and make Orbit Playground a playable walking course. Preserve original stages, listener zones, entrances, ship and plane. Add only the four reviewed WAM areas per speaker room; refresh shared source provenance."
+    },
+    {
+      "path": "world/layouts/constellation-shore.json",
+      "fromSha256": "632e34dfda11dc0496d2558ed4a6aba086d51fd50e26de64a34589e1ec4f7ae6",
+      "toSha256": "04cd39f7bf1c9106fd82bff422e69141434d9ec67377a2059fa39cb3cd579688",
+      "reason": "Append four office and breakout spaces beside each zodiac auditorium, widen both natural coasts at native scale, and make Orbit Playground a playable walking course. Preserve original stages, listener zones, entrances, ship and plane. Add only the four reviewed WAM areas per speaker room; refresh shared source provenance."
+    },
+    {
+      "path": "world/layouts/earth-district.json",
+      "fromSha256": "cd7e47eb3e75f4a226413d008be04d8afa6de6ea31b7d5f9c0403fc6c41ab88d",
+      "toSha256": "e3da661eb702ce77c5be55e0c09d1a0471ea5fab681c860072882bc8e9482676",
+      "reason": "Append four office and breakout spaces beside each zodiac auditorium, widen both natural coasts at native scale, and make Orbit Playground a playable walking course. Preserve original stages, listener zones, entrances, ship and plane. Add only the four reviewed WAM areas per speaker room; refresh shared source provenance."
+    },
+    {
+      "path": "world/layouts/fa-ship.json",
+      "fromSha256": "cf3ed604bdd612249bb19a01139e3902f7bea4be2a1e842bc5b04bc297bb13d5",
+      "toSha256": "7e9c7e627a3aa78bb3f6c5cc86d8951ad8982e32f7ddc652cb824e7fbdc2d347",
+      "reason": "Append four office and breakout spaces beside each zodiac auditorium, widen both natural coasts at native scale, and make Orbit Playground a playable walking course. Preserve original stages, listener zones, entrances, ship and plane. Add only the four reviewed WAM areas per speaker room; refresh shared source provenance."
+    },
+    {
+      "path": "world/layouts/fire-district.json",
+      "fromSha256": "9dc39aecb07ee169dcbb705988adbf4e62b4458d77111c7a66ead34f55f0a8a1",
+      "toSha256": "d46dee0b54fb31d5b24a447a222eef1e93916d7032659d5d85686af74933b0e2",
+      "reason": "Append four office and breakout spaces beside each zodiac auditorium, widen both natural coasts at native scale, and make Orbit Playground a playable walking course. Preserve original stages, listener zones, entrances, ship and plane. Add only the four reviewed WAM areas per speaker room; refresh shared source provenance."
+    },
+    {
+      "path": "world/layouts/hidden-observatory.json",
+      "fromSha256": "7392c8300ec46331d38e514cde637dc08f965a4c2b06315f6578b4fb1a1f7d52",
+      "toSha256": "ec1660ee35f42d123c9eb3a44492018125f50054b883f7f2c2f1d5eef162c717",
+      "reason": "Append four office and breakout spaces beside each zodiac auditorium, widen both natural coasts at native scale, and make Orbit Playground a playable walking course. Preserve original stages, listener zones, entrances, ship and plane. Add only the four reviewed WAM areas per speaker room; refresh shared source provenance."
+    },
+    {
+      "path": "world/layouts/lunar-hall.json",
+      "fromSha256": "57ad1288b7b8e4079e9b3f6667c8df8482e232890f409a3231286bd7302112e7",
+      "toSha256": "98041931d66f7ae452f81c3e564bd111fdd9fb64d87bb93021c3c62b6b921242",
+      "reason": "Append four office and breakout spaces beside each zodiac auditorium, widen both natural coasts at native scale, and make Orbit Playground a playable walking course. Preserve original stages, listener zones, entrances, ship and plane. Add only the four reviewed WAM areas per speaker room; refresh shared source provenance."
+    },
+    {
+      "path": "world/layouts/moon-cafe.json",
+      "fromSha256": "f0f1e89ab93429157f0ca110bf6fbbcee6d4c797598dfdc6ea8cae03bdc1d509",
+      "toSha256": "7519c863d7f8419676183f4114b026b8ee40483e81d4e4c65a73d7e2d4b95192",
+      "reason": "Append four office and breakout spaces beside each zodiac auditorium, widen both natural coasts at native scale, and make Orbit Playground a playable walking course. Preserve original stages, listener zones, entrances, ship and plane. Add only the four reviewed WAM areas per speaker room; refresh shared source provenance."
+    },
+    {
+      "path": "world/layouts/moon-grotto.json",
+      "fromSha256": "4de6be70ebb0b3bd1743a09e851ac0f0835570a1d416c2c2a512bcbc841c642d",
+      "toSha256": "b3f762676aa1571d50da3391ab9c8c3f0f7bf13efa4dd5ffcbecd329ad6cb43b",
+      "reason": "Append four office and breakout spaces beside each zodiac auditorium, widen both natural coasts at native scale, and make Orbit Playground a playable walking course. Preserve original stages, listener zones, entrances, ship and plane. Add only the four reviewed WAM areas per speaker room; refresh shared source provenance."
+    },
+    {
+      "path": "world/layouts/nebula-arcade.json",
+      "fromSha256": "17da45d38f41279d80cc48b811e1d9f17e8e1edf0a19fc7f7b6cb82053acc994",
+      "toSha256": "21a5eac1aa307d82edec3dbe1b32088bddeb7a400725fe6ab8cc6da1c030f8cb",
+      "reason": "Append four office and breakout spaces beside each zodiac auditorium, widen both natural coasts at native scale, and make Orbit Playground a playable walking course. Preserve original stages, listener zones, entrances, ship and plane. Add only the four reviewed WAM areas per speaker room; refresh shared source provenance."
+    },
+    {
+      "path": "world/layouts/orbit-maze.json",
+      "fromSha256": "a443c983a8f2efc8f1b9110d61f2aea3e4f0ea4dd1bee147f3d93c01a8fc43bb",
+      "toSha256": "8e2f3ea02b6a51e8b7a0dea0c757463e1038058761be49fd6d6ed4bfacc4c9eb",
+      "reason": "Append four office and breakout spaces beside each zodiac auditorium, widen both natural coasts at native scale, and make Orbit Playground a playable walking course. Preserve original stages, listener zones, entrances, ship and plane. Add only the four reviewed WAM areas per speaker room; refresh shared source provenance."
+    },
+    {
+      "path": "world/layouts/orbit-playground.json",
+      "fromSha256": "8d210465649de739cbc31817c60e2a17e9f1aedde1e1406cba3f090ea7fe9ae6",
+      "toSha256": "0c57c789313a55fb21ca37106b539796585cfe8d947c7127562ce1be9ec4effc",
+      "reason": "Append four office and breakout spaces beside each zodiac auditorium, widen both natural coasts at native scale, and make Orbit Playground a playable walking course. Preserve original stages, listener zones, entrances, ship and plane. Add only the four reviewed WAM areas per speaker room; refresh shared source provenance."
+    },
+    {
+      "path": "world/layouts/shipyard-beach.json",
+      "fromSha256": "4df68f550406f54c9781f72187a7a71506b261a836f3253d91bab1c9219edf27",
+      "toSha256": "06d65388db62047f9f9931b345d2421f390ffba31f9178891223c33428d1d6c7",
+      "reason": "Append four office and breakout spaces beside each zodiac auditorium, widen both natural coasts at native scale, and make Orbit Playground a playable walking course. Preserve original stages, listener zones, entrances, ship and plane. Add only the four reviewed WAM areas per speaker room; refresh shared source provenance."
+    },
+    {
+      "path": "world/layouts/solar-hall.json",
+      "fromSha256": "9f62f29465f59aab0cce001246ad22f3f31929a35ce29b482d2eaa826b3d5c86",
+      "toSha256": "e5f03f62387616f93a3f34443bff9741c3350c9f3286bd92c235866496a5e23d",
+      "reason": "Append four office and breakout spaces beside each zodiac auditorium, widen both natural coasts at native scale, and make Orbit Playground a playable walking course. Preserve original stages, listener zones, entrances, ship and plane. Add only the four reviewed WAM areas per speaker room; refresh shared source provenance."
+    },
+    {
+      "path": "world/layouts/speaker-aquarius.json",
+      "fromSha256": "aa30e817796a259d19e0a2adafafda9cb7bbf893f51413b3e388db286a5626a5",
+      "toSha256": "a6cbcd96aa24d11e93835da9eea217bbb6918495cc29539c33445c9d3710c020",
+      "reason": "Append four office and breakout spaces beside each zodiac auditorium, widen both natural coasts at native scale, and make Orbit Playground a playable walking course. Preserve original stages, listener zones, entrances, ship and plane. Add only the four reviewed WAM areas per speaker room; refresh shared source provenance."
+    },
+    {
+      "path": "world/layouts/speaker-aries.json",
+      "fromSha256": "70aaec6684b6bc61b856b3676cb414bbd729e67dfd7e4130cc8ea4742fc717b2",
+      "toSha256": "ee017cb3d79ba653af5cadc351367a9d80b743a4acddd17fe3ad38327a0b2587",
+      "reason": "Append four office and breakout spaces beside each zodiac auditorium, widen both natural coasts at native scale, and make Orbit Playground a playable walking course. Preserve original stages, listener zones, entrances, ship and plane. Add only the four reviewed WAM areas per speaker room; refresh shared source provenance."
+    },
+    {
+      "path": "world/layouts/speaker-cancer.json",
+      "fromSha256": "7482041a854cc8b59b506c8d083a7d327f64988c8d422f4dfdaf208830bc64c7",
+      "toSha256": "774aa54f35fe726e6158163a7bf93ccd89cf69649fd05f444d8c904fcfde9262",
+      "reason": "Append four office and breakout spaces beside each zodiac auditorium, widen both natural coasts at native scale, and make Orbit Playground a playable walking course. Preserve original stages, listener zones, entrances, ship and plane. Add only the four reviewed WAM areas per speaker room; refresh shared source provenance."
+    },
+    {
+      "path": "world/layouts/speaker-capricorn.json",
+      "fromSha256": "60fea5b6b683cfa65a5fec6046fc1f8345f5a41fe44091e096f479a21fdc451f",
+      "toSha256": "c19889f4abebe568a14fee4fca06c1c9bb912d024cae0bc00e2177c5ef5dc58a",
+      "reason": "Append four office and breakout spaces beside each zodiac auditorium, widen both natural coasts at native scale, and make Orbit Playground a playable walking course. Preserve original stages, listener zones, entrances, ship and plane. Add only the four reviewed WAM areas per speaker room; refresh shared source provenance."
+    },
+    {
+      "path": "world/layouts/speaker-gemini.json",
+      "fromSha256": "2e9d4494022e12af55a2c8607dc2289394349e7d8eb317e1ce35606ca72e4fe1",
+      "toSha256": "185f7dca3876bf238e4a0172734165725b922709740d8fcda80348ec357d14f6",
+      "reason": "Append four office and breakout spaces beside each zodiac auditorium, widen both natural coasts at native scale, and make Orbit Playground a playable walking course. Preserve original stages, listener zones, entrances, ship and plane. Add only the four reviewed WAM areas per speaker room; refresh shared source provenance."
+    },
+    {
+      "path": "world/layouts/speaker-leo.json",
+      "fromSha256": "88fc219fbfb5fe97006ae2a399ce70ec5239342b69062e79157a1082819d633b",
+      "toSha256": "322d67a414923184dbe5661662e4bdff8401bdbdd046b8dad758fe151b80c8da",
+      "reason": "Append four office and breakout spaces beside each zodiac auditorium, widen both natural coasts at native scale, and make Orbit Playground a playable walking course. Preserve original stages, listener zones, entrances, ship and plane. Add only the four reviewed WAM areas per speaker room; refresh shared source provenance."
+    },
+    {
+      "path": "world/layouts/speaker-libra.json",
+      "fromSha256": "a1aa3f475d1b06b0a0acfafe7d0cd17945a865272ceef9214997aff7968242d0",
+      "toSha256": "485c830dec946f5ae033785ba179e0bdbb79ffa89fd9f9ac7e1570ca08656486",
+      "reason": "Append four office and breakout spaces beside each zodiac auditorium, widen both natural coasts at native scale, and make Orbit Playground a playable walking course. Preserve original stages, listener zones, entrances, ship and plane. Add only the four reviewed WAM areas per speaker room; refresh shared source provenance."
+    },
+    {
+      "path": "world/layouts/speaker-pisces.json",
+      "fromSha256": "65fce0c5bc3485c11529c5412a390407f38049883509313c4948b08ef6fae29c",
+      "toSha256": "a63fc90d5c324d299a46e1f3898005564dfe9f8f5d97db8d562db012cd06054c",
+      "reason": "Append four office and breakout spaces beside each zodiac auditorium, widen both natural coasts at native scale, and make Orbit Playground a playable walking course. Preserve original stages, listener zones, entrances, ship and plane. Add only the four reviewed WAM areas per speaker room; refresh shared source provenance."
+    },
+    {
+      "path": "world/layouts/speaker-sagittarius.json",
+      "fromSha256": "a8bad5918d6e3b54829329e0aedfdb4052244ad3027c15fc70d31771a31c94ed",
+      "toSha256": "f48d14c1cf16250d226fcc836b2549ac16709498f42c4772a3f49fc0cb63711f",
+      "reason": "Append four office and breakout spaces beside each zodiac auditorium, widen both natural coasts at native scale, and make Orbit Playground a playable walking course. Preserve original stages, listener zones, entrances, ship and plane. Add only the four reviewed WAM areas per speaker room; refresh shared source provenance."
+    },
+    {
+      "path": "world/layouts/speaker-scorpio.json",
+      "fromSha256": "d65c6f4b3df16ac3d0c0b6c5f5a1338b59157b6b7f046d0037b5b3b1dd3ecf41",
+      "toSha256": "4ef96d59e001bfa4b420ebd82fa7e80b2fb71c65ddacbc64f1b48a76bce6b0b8",
+      "reason": "Append four office and breakout spaces beside each zodiac auditorium, widen both natural coasts at native scale, and make Orbit Playground a playable walking course. Preserve original stages, listener zones, entrances, ship and plane. Add only the four reviewed WAM areas per speaker room; refresh shared source provenance."
+    },
+    {
+      "path": "world/layouts/speaker-taurus.json",
+      "fromSha256": "9acc051e971826dc3c0c9b210c5ac2920cfb2a297161c8b41c929d2dff464575",
+      "toSha256": "b8d6f9e3462f125f0081abbbb51dfce41dafb6ebe0e7806b9100add11a008333",
+      "reason": "Append four office and breakout spaces beside each zodiac auditorium, widen both natural coasts at native scale, and make Orbit Playground a playable walking course. Preserve original stages, listener zones, entrances, ship and plane. Add only the four reviewed WAM areas per speaker room; refresh shared source provenance."
+    },
+    {
+      "path": "world/layouts/speaker-virgo.json",
+      "fromSha256": "2f12811800090e03de3a9ec21d66c493745ecec10780cbb9624514515162161d",
+      "toSha256": "90112d9142e605484d82139f51de973e5a07406299027966daaae91987f4e722",
+      "reason": "Append four office and breakout spaces beside each zodiac auditorium, widen both natural coasts at native scale, and make Orbit Playground a playable walking course. Preserve original stages, listener zones, entrances, ship and plane. Add only the four reviewed WAM areas per speaker room; refresh shared source provenance."
+    },
+    {
+      "path": "world/layouts/star-garden.json",
+      "fromSha256": "e75d04ea9aa4f4b98fca18fc6e22209a76ece200fc5e4394a22b91479839deac",
+      "toSha256": "e56fa883849536ae7f517ffc1c3b56146569c098798e809d9861bc4f36d97841",
+      "reason": "Append four office and breakout spaces beside each zodiac auditorium, widen both natural coasts at native scale, and make Orbit Playground a playable walking course. Preserve original stages, listener zones, entrances, ship and plane. Add only the four reviewed WAM areas per speaker room; refresh shared source provenance."
+    },
+    {
+      "path": "world/layouts/stargazer-terrace.json",
+      "fromSha256": "f38dc633d2929c2d13dd9a3a507c7149c91b007c548900a2bfe04decb22bee0d",
+      "toSha256": "7ac71d78ff6136c6d1a95bad79fdddc476625e335c3938236d79efef17913124",
+      "reason": "Append four office and breakout spaces beside each zodiac auditorium, widen both natural coasts at native scale, and make Orbit Playground a playable walking course. Preserve original stages, listener zones, entrances, ship and plane. Add only the four reviewed WAM areas per speaker room; refresh shared source provenance."
+    },
+    {
+      "path": "world/layouts/water-district.json",
+      "fromSha256": "1b0fef731d8df87955a5d6d5abfe26e3f049fa80cecc410931d7509dfae41910",
+      "toSha256": "d35174057a6155aca82f05b64a912d14d39f3199df719b80c5cbbd04aff8b331",
+      "reason": "Append four office and breakout spaces beside each zodiac auditorium, widen both natural coasts at native scale, and make Orbit Playground a playable walking course. Preserve original stages, listener zones, entrances, ship and plane. Add only the four reviewed WAM areas per speaker room; refresh shared source provenance."
+    },
+    {
+      "path": "world/layouts/zodiac-festival-park.json",
+      "fromSha256": "645b701b6d2904ff0c4f96b5a84ad7ab6f0106e1ff09cb26779e5dabd04c16bb",
+      "toSha256": "f879af36c19070219cc7bbce2fb36f41405aa3c226e23dfdac2881ac24a99904",
+      "reason": "Append four office and breakout spaces beside each zodiac auditorium, widen both natural coasts at native scale, and make Orbit Playground a playable walking course. Preserve original stages, listener zones, entrances, ship and plane. Add only the four reviewed WAM areas per speaker room; refresh shared source provenance."
+    }
+  ]
+}

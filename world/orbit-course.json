@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "mapId": "orbit-playground",
+  "maxSeconds": 180,
+  "start": {"x": 19, "y": 25, "width": 2, "height": 2},
+  "checkpoints": [
+    {"x": 12, "y": 24, "width": 2, "height": 2},
+    {"x": 12, "y": 18, "width": 2, "height": 2},
+    {"x": 12, "y": 12, "width": 2, "height": 2},
+    {"x": 19, "y": 12, "width": 2, "height": 2},
+    {"x": 26, "y": 12, "width": 2, "height": 2},
+    {"x": 26, "y": 18, "width": 2, "height": 2},
+    {"x": 26, "y": 24, "width": 2, "height": 2},
+    {"x": 19, "y": 25, "width": 2, "height": 2}
+  ]
+}

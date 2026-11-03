@@ -49,6 +49,51 @@
           "raiseHandEnabled": true
         }
       ]
+    },
+    {
+      "id": "taurus-office-organizers",
+      "name": "taurus / Organizer Team",
+      "x": 1184,
+      "y": 160,
+      "width": 384,
+      "height": 480,
+      "properties": [],
+      "visible": true
+    },
+    {
+      "id": "taurus-office-silent",
+      "name": "taurus / Silent Room",
+      "x": 1760,
+      "y": 160,
+      "width": 320,
+      "height": 480,
+      "properties": [
+        {
+          "id": "taurus-office-quiet",
+          "type": "silent"
+        }
+      ],
+      "visible": true
+    },
+    {
+      "id": "taurus-office-briefing",
+      "name": "taurus / Launch / Briefing",
+      "x": 1184,
+      "y": 672,
+      "width": 384,
+      "height": 416,
+      "properties": [],
+      "visible": true
+    },
+    {
+      "id": "taurus-office-lounge",
+      "name": "taurus / Lounge / Break",
+      "x": 1760,
+      "y": 672,
+      "width": 320,
+      "height": 416,
+      "properties": [],
+      "visible": true
     }
   ],
   "entityCollections": [

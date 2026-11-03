@@ -1,0 +1,279 @@
+{
+  "version": 1,
+  "mapId": "orbit-playground",
+  "beforeLayoutSha256": "f074cc3cf9fa3043ac3ad7f1e71643a08df031af1873508c6b50471c7019e861",
+  "afterLayoutSha256": "e719604dbdcd1cc58d127de3e3fc9902971f5b6f651047df2efe7103fe185a31",
+  "layer": {
+    "beforeSha256": "844b49485d5d42650a7a235a560667d6040d69e8552a1f5e8ec5cbc55611f1e4",
+    "after": {
+      "id": 13,
+      "name": "wayfinding-text",
+      "type": "objectgroup",
+      "visible": true,
+      "opacity": 1,
+      "objects": [
+        {
+          "id": 1,
+          "name": "plaza-return-label",
+          "x": 480,
+          "y": 1184,
+          "width": 384,
+          "height": 32,
+          "rotation": 0,
+          "visible": true,
+          "text": {
+            "text": "↓ ZODIAC PLAZA",
+            "color": "#fff0b0",
+            "fontfamily": "Arial",
+            "pixelsize": 16,
+            "bold": false,
+            "wrap": true,
+            "halign": "left",
+            "valign": "top"
+          }
+        },
+        {
+          "id": 2,
+          "name": "branch-return-label",
+          "x": 128,
+          "y": 1184,
+          "width": 352,
+          "height": 32,
+          "rotation": 0,
+          "visible": true,
+          "text": {
+            "text": "↓ FESTIVAL PARK",
+            "color": "#fff0b0",
+            "fontfamily": "Arial",
+            "pixelsize": 16,
+            "bold": false,
+            "wrap": true,
+            "halign": "left",
+            "valign": "top"
+          }
+        },
+        {
+          "id": 3,
+          "name": "playground-title",
+          "x": 256,
+          "y": 96,
+          "width": 800,
+          "height": 64,
+          "rotation": 0,
+          "visible": true,
+          "text": {
+            "text": "ORBIT PLAYGROUND",
+            "color": "#f4d77b",
+            "fontfamily": "Arial",
+            "pixelsize": 26,
+            "bold": false,
+            "wrap": true,
+            "halign": "left",
+            "valign": "top"
+          }
+        },
+        {
+          "id": 4,
+          "name": "play-rules",
+          "x": 352,
+          "y": 256,
+          "width": 640,
+          "height": 64,
+          "rotation": 0,
+          "visible": true,
+          "text": {
+            "text": "ORBIT RUN · WALKING CHALLENGE\nStart below. Follow 1–7, then finish.",
+            "color": "#fff0b0",
+            "fontfamily": "Arial",
+            "pixelsize": 16,
+            "bold": false,
+            "wrap": true,
+            "halign": "left",
+            "valign": "top"
+          }
+        },
+        {
+          "id": 6,
+          "name": "course-explain",
+          "x": 480,
+          "y": 608,
+          "width": 320,
+          "height": 128,
+          "rotation": 0,
+          "visible": true,
+          "text": {
+            "text": "RACE THE ORBIT\nWalk onto START\nPress SPACE to begin\nYour time + personal best",
+            "color": "#fff0b0",
+            "fontfamily": "Arial",
+            "pixelsize": 15,
+            "bold": false,
+            "wrap": true,
+            "halign": "left",
+            "valign": "top"
+          }
+        },
+        {
+          "id": 7,
+          "name": "course-start-label",
+          "x": 544,
+          "y": 896,
+          "width": 320,
+          "height": 32,
+          "rotation": 0,
+          "visible": true,
+          "text": {
+            "text": "START / FINISH",
+            "color": "#fff0b0",
+            "fontfamily": "Arial",
+            "pixelsize": 17,
+            "bold": false,
+            "wrap": true,
+            "halign": "left",
+            "valign": "top"
+          }
+        },
+        {
+          "id": 8,
+          "name": "course-number-1",
+          "x": 416,
+          "y": 768,
+          "width": 32,
+          "height": 64,
+          "rotation": 0,
+          "visible": true,
+          "text": {
+            "text": "1",
+            "color": "#182d40",
+            "fontfamily": "Arial",
+            "pixelsize": 27,
+            "bold": false,
+            "wrap": true,
+            "halign": "left",
+            "valign": "top"
+          }
+        },
+        {
+          "id": 9,
+          "name": "course-number-2",
+          "x": 416,
+          "y": 576,
+          "width": 32,
+          "height": 64,
+          "rotation": 0,
+          "visible": true,
+          "text": {
+            "text": "2",
+            "color": "#182d40",
+            "fontfamily": "Arial",
+            "pixelsize": 27,
+            "bold": false,
+            "wrap": true,
+            "halign": "left",
+            "valign": "top"
+          }
+        },
+        {
+          "id": 10,
+          "name": "course-number-3",
+          "x": 416,
+          "y": 384,
+          "width": 32,
+          "height": 64,
+          "rotation": 0,
+          "visible": true,
+          "text": {
+            "text": "3",
+            "color": "#182d40",
+            "fontfamily": "Arial",
+            "pixelsize": 27,
+            "bold": false,
+            "wrap": true,
+            "halign": "left",
+            "valign": "top"
+          }
+        },
+        {
+          "id": 11,
+          "name": "course-number-4",
+          "x": 640,
+          "y": 384,
+          "width": 32,
+          "height": 64,
+          "rotation": 0,
+          "visible": true,
+          "text": {
+            "text": "4",
+            "color": "#182d40",
+            "fontfamily": "Arial",
+            "pixelsize": 27,
+            "bold": false,
+            "wrap": true,
+            "halign": "left",
+            "valign": "top"
+          }
+        },
+        {
+          "id": 12,
+          "name": "course-number-5",
+          "x": 864,
+          "y": 384,
+          "width": 32,
+          "height": 64,
+          "rotation": 0,
+          "visible": true,
+          "text": {
+            "text": "5",
+            "color": "#182d40",
+            "fontfamily": "Arial",
+            "pixelsize": 27,
+            "bold": false,
+            "wrap": true,
+            "halign": "left",
+            "valign": "top"
+          }
+        },
+        {
+          "id": 13,
+          "name": "course-number-6",
+          "x": 864,
+          "y": 576,
+          "width": 32,
+          "height": 64,
+          "rotation": 0,
+          "visible": true,
+          "text": {
+            "text": "6",
+            "color": "#182d40",
+            "fontfamily": "Arial",
+            "pixelsize": 27,
+            "bold": false,
+            "wrap": true,
+            "halign": "left",
+            "valign": "top"
+          }
+        },
+        {
+          "id": 14,
+          "name": "course-number-7",
+          "x": 864,
+          "y": 768,
+          "width": 32,
+          "height": 64,
+          "rotation": 0,
+          "visible": true,
+          "text": {
+            "text": "7",
+            "color": "#182d40",
+            "fontfamily": "Arial",
+            "pixelsize": 27,
+            "bold": false,
+            "wrap": true,
+            "halign": "left",
+            "valign": "top"
+          }
+        }
+      ]
+    }
+  },
+  "retiredPaint": []
+}

@@ -16,6 +16,7 @@ import sys
 
 from release_upload import Storage, read_zip, wam_reference, zip_bytes
 from auditorium_spacing import ROOMS, auditorium_candidate
+from office_wings import office_wings_candidate
 
 PLACEHOLDER = b'<VERSION>'
 TOKEN_LENGTH = 64
@@ -48,7 +49,7 @@ def rewrite_token(path, data, new_pin):
     return output
 
 
-def migrate(live, dist, *, auditorium_spacing=False):
+def migrate(live, dist, *, auditorium_spacing=False, office_wings=False):
     """Plan paired references and, only when requested, the closed area migration."""
     dist = pathlib.Path(dist)
     reviewed = {}
@@ -68,6 +69,13 @@ def migrate(live, dist, *, auditorium_spacing=False):
                 body = (json.dumps(updated, indent=2, ensure_ascii=False) + '\n').encode('utf-8')
             elif auditorium_candidate(path, parsed, already_current=True) is None:
                 raise ValueError(f'{path}: owned saved areas differ from the reviewed auditorium predecessor/current geometry or controls')
+        if office_wings and path in {'maps/' + room + '.wam' for room in ROOMS}:
+            parsed = json.loads(body)
+            updated = office_wings_candidate(path, parsed)
+            if updated is None:
+                raise ValueError(f'{path}: office append conflicts with the reviewed areas or saved editor data')
+            if updated != parsed:
+                body = (json.dumps(updated, indent=2, ensure_ascii=False) + '\n').encode('utf-8')
         if current_pin == expected_pin and body == live[path]:
             summary['unchanged'].append(path)
             continue
@@ -83,11 +91,12 @@ def main(argv=None):
     parser.add_argument('--dist', type=pathlib.Path, default=pathlib.Path('dist'))
     parser.add_argument('--out', required=True, type=pathlib.Path, help='reviewed WAM ZIP for release_upload.py prepare --reviewed-wams')
     parser.add_argument('--auditorium-spacing', action='store_true', help='Apply the reviewed twelve-room area geometry migration, preserving saved controls and editor data')
+    parser.add_argument('--office-wings', action='store_true', help='Append four reviewed side-wing areas in each zodiac room, preserving existing editor content')
     args = parser.parse_args(argv)
     if not args.dist.is_dir():
         parser.error('Build the release first; dist/ is missing')
     live = read_zip(Storage(args.environment).download(args.target))
-    reviewed, summary = migrate(live, args.dist, auditorium_spacing=args.auditorium_spacing)
+    reviewed, summary = migrate(live, args.dist, auditorium_spacing=args.auditorium_spacing, office_wings=args.office_wings)
     args.out.parent.mkdir(parents=True, exist_ok=True)
     args.out.write_bytes(zip_bytes(reviewed))
     print(json.dumps({'target': args.target, 'out': str(args.out), 'liveWams': sum(p.endswith('.wam') for p in live),

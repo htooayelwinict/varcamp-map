@@ -565,7 +565,7 @@
         },
         {
           "path": "tools/art/world-ambient.ts",
-          "sha256": "5b33e4b567645f3417fc5492d9472f96266f4f604454d30eb52fa4dedca3a85b"
+          "sha256": "0d769ffaba6c809efd24e36470a6e6ce40874a07541ca2b579fea64a3ee982f9"
         },
         {
           "path": "tools/art/world-ambient-assets.ts",
@@ -585,7 +585,7 @@
         },
         {
           "path": "tools/maps/world-ambient-ownership.ts",
-          "sha256": "ff37b6dc1ec3994ca1e532351231667d7351d260eade5d7e7cd26752b0feda4d"
+          "sha256": "4835ace34c2be50a916cb041e7e19fd9e601cc2fdd58aca8a361c70feb5b7093"
         },
         {
           "path": "tools/maps/park-arcade-context.ts",
@@ -594,6 +594,14 @@
         {
           "path": "art/source/park-arcade-refresh.json",
           "sha256": "4facd2068f4c15d23e03a96e103e284a4ac12bb632b4b4f3165bafcdbe8adc50"
+        },
+        {
+          "path": "tools/maps/playground-context.ts",
+          "sha256": "6409b50d903b03e6ae962ec49ac200935be00c4930b6342e4bb7e52374289111"
+        },
+        {
+          "path": "art/source/orbit-course-refresh.json",
+          "sha256": "cabcc28b7bdbaa90bf6bb2deb74680baa49429d6f19555169660d871f761af43"
         },
         {
           "path": "tools/maps/cafe-arrival-context.ts",
@@ -613,11 +621,11 @@
         },
         {
           "path": "tools/maps/native-projection.ts",
-          "sha256": "767f545f0e7ec2d8494ad2aa3a17913ed41da0cfbe1478d35fa83ea709041965"
+          "sha256": "82853c147bc1ef49ddb5ee662d410eef8f58daa96ac768108ffb422b226fe5bf"
         },
         {
           "path": "tools/maps/native-ownership-context.ts",
-          "sha256": "dec843145ca77cc39af9a00e8ae09c56dcfe8b1609b9d550e5098bf678213280"
+          "sha256": "913f5880954885f08505630f4f1c1dea34ba19b5608518731f4729681cf7ea7a"
         },
         {
           "path": "art/source/native-ownership-context.json",

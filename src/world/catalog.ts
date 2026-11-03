@@ -51,8 +51,8 @@ export const WORLD_CATALOG = {
     ]
   },
   "constellation-shore": {
-    "width": 40,
-    "height": 40,
+    "width": 96,
+    "height": 48,
     "defaultEntry": "arrival",
     "entries": [
       "arrival",
@@ -174,7 +174,7 @@ export const WORLD_CATALOG = {
     ]
   },
   "shipyard-beach": {
-    "width": 48,
+    "width": 96,
     "height": 48,
     "defaultEntry": "shipyard-entry",
     "entries": [
@@ -192,7 +192,7 @@ export const WORLD_CATALOG = {
     ]
   },
   "speaker-aquarius": {
-    "width": 36,
+    "width": 66,
     "height": 46,
     "defaultEntry": "speaker-entry",
     "entries": [
@@ -200,7 +200,7 @@ export const WORLD_CATALOG = {
     ]
   },
   "speaker-aries": {
-    "width": 36,
+    "width": 66,
     "height": 46,
     "defaultEntry": "speaker-entry",
     "entries": [
@@ -208,7 +208,7 @@ export const WORLD_CATALOG = {
     ]
   },
   "speaker-cancer": {
-    "width": 36,
+    "width": 66,
     "height": 46,
     "defaultEntry": "speaker-entry",
     "entries": [
@@ -216,7 +216,7 @@ export const WORLD_CATALOG = {
     ]
   },
   "speaker-capricorn": {
-    "width": 36,
+    "width": 66,
     "height": 46,
     "defaultEntry": "speaker-entry",
     "entries": [
@@ -224,7 +224,7 @@ export const WORLD_CATALOG = {
     ]
   },
   "speaker-gemini": {
-    "width": 36,
+    "width": 66,
     "height": 46,
     "defaultEntry": "speaker-entry",
     "entries": [
@@ -232,7 +232,7 @@ export const WORLD_CATALOG = {
     ]
   },
   "speaker-leo": {
-    "width": 36,
+    "width": 66,
     "height": 46,
     "defaultEntry": "speaker-entry",
     "entries": [
@@ -240,7 +240,7 @@ export const WORLD_CATALOG = {
     ]
   },
   "speaker-libra": {
-    "width": 36,
+    "width": 66,
     "height": 46,
     "defaultEntry": "speaker-entry",
     "entries": [
@@ -248,7 +248,7 @@ export const WORLD_CATALOG = {
     ]
   },
   "speaker-pisces": {
-    "width": 36,
+    "width": 66,
     "height": 48,
     "defaultEntry": "speaker-entry",
     "entries": [
@@ -256,7 +256,7 @@ export const WORLD_CATALOG = {
     ]
   },
   "speaker-sagittarius": {
-    "width": 40,
+    "width": 70,
     "height": 46,
     "defaultEntry": "speaker-entry",
     "entries": [
@@ -264,7 +264,7 @@ export const WORLD_CATALOG = {
     ]
   },
   "speaker-scorpio": {
-    "width": 36,
+    "width": 66,
     "height": 46,
     "defaultEntry": "speaker-entry",
     "entries": [
@@ -272,7 +272,7 @@ export const WORLD_CATALOG = {
     ]
   },
   "speaker-taurus": {
-    "width": 36,
+    "width": 66,
     "height": 46,
     "defaultEntry": "speaker-entry",
     "entries": [
@@ -280,7 +280,7 @@ export const WORLD_CATALOG = {
     ]
   },
   "speaker-virgo": {
-    "width": 36,
+    "width": 66,
     "height": 46,
     "defaultEntry": "speaker-entry",
     "entries": [

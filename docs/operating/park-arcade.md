@@ -10,7 +10,7 @@ The arcade has six cabinets, in three facing pairs:
 | Middle | [DEADSHOT](https://deadshot.io/) | Arena FPS |
 | South | [HaxBall](https://www.haxball.com/play) | Team PvP football |
 
-Stand on the mat immediately in front of a cabinet and press **Space**, or click its action prompt. The game opens on its official website in a **new browser tab**. Return to the VarCamp tab to continue exploring. Each game controls its own matches, accounts and room selection; the map does not automatically put attendees into the same match. To play together, use the game's own room or party controls. The playground remains a social space.
+Stand on the mat immediately in front of a cabinet and press **Space**, or click its action prompt. The game opens on its official website in a **new browser tab**. Return to the VarCamp tab to continue exploring. Each game controls its own matches, accounts and room selection; the map does not automatically put attendees into the same match. To play together, use the game's own room or party controls. Orbit Playground now has a Woka walking course. Walk onto START, press Space, visit pads 1–7 in order and return to FINISH. The action prompt shows progress, then elapsed time and your private personal best. Space cancels a run; runs expire after three minutes. [Course and side-wing guide](coast-office-playground.md).
 
 Games never load merely because an attendee enters the arcade. No game client, game server, account credentials or advertising scripts are hosted by this map. New tabs give FPS games their own keyboard, mouse capture and fullscreen context; they receive no WorkAdventure scripting API access. An old action prompt cannot launch after the attendee has left its cabinet.
 

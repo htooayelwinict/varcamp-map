@@ -16,7 +16,8 @@ describe('Audience seating and grounded scenery',()=>{
   expect(l.placements.filter(p=>p.id.startsWith('audience-boundary-edge-'))).toHaveLength(4);
   const mask=buildMap(l,catalog).tmj.layers.find(l=>l.name==='physical-collisions');
   if(mask?.type!=='tilelayer')throw Error('Missing collision mask');
-  const reachable=new Set<number>(),queue=[(area.y+area.height)*l.width+l.width/2];
+  const center=area.x+area.width/2;
+  const reachable=new Set<number>(),queue=[(area.y+area.height)*l.width+center];
   while(queue.length){const i=queue.pop()!;if(i<0||i>=mask.data.length||reachable.has(i)||mask.data[i])continue;reachable.add(i);for(const j of[i-l.width,i+l.width,...(i%l.width?[i-1]:[]),...(i%l.width<l.width-1?[i+1]:[])])queue.push(j);}
   for(const p of chairs){
    expect(p.x>=area.x&&p.x+p.width<=area.x+area.width&&p.y>=area.y&&p.y+p.height<=area.y+area.height).toBe(true);
@@ -24,7 +25,7 @@ describe('Audience seating and grounded scenery',()=>{
    expect(reachable.has((p.y+2)*l.width+p.x)).toBe(true);
    expect(l.placements.filter(q=>q.id!==p.id&&q.layer==='props'&&catalog[q.sprite].blockingCells.length&&q.x<p.x+p.width&&q.x+q.width>p.x&&q.y<p.y+p.height&&q.y+q.height>p.y)).toEqual([]);
   }
-  for(let y=area.y;y<area.y+area.height;y++)for(let x=l.width/2-2;x<l.width/2+2;x++)expect(mask.data[y*l.width+x]).toBe(0);
+  for(let y=area.y;y<area.y+area.height;y++)for(let x=center-2;x<center+2;x++)expect(mask.data[y*l.width+x]).toBe(0);
   for(const p of l.placements.filter(p=>p.id.startsWith('audience-boundary-')))expect(catalog[p.sprite].blockingCells).toEqual([]);
  });
  it('all six plaza lamps block only their base and draw the upper two cells over players',()=>{

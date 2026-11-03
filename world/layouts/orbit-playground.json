@@ -391,6 +391,150 @@
       "layer": "architecture"
     },
     {
+      "id": "course-pad-1",
+      "sprite": "floor-wood",
+      "x": 12,
+      "y": 24,
+      "width": 2,
+      "height": 2,
+      "layer": "terrain"
+    },
+    {
+      "id": "course-pad-2",
+      "sprite": "floor-wood",
+      "x": 12,
+      "y": 18,
+      "width": 2,
+      "height": 2,
+      "layer": "terrain"
+    },
+    {
+      "id": "course-pad-3",
+      "sprite": "floor-wood",
+      "x": 12,
+      "y": 12,
+      "width": 2,
+      "height": 2,
+      "layer": "terrain"
+    },
+    {
+      "id": "course-pad-4",
+      "sprite": "floor-wood",
+      "x": 19,
+      "y": 12,
+      "width": 2,
+      "height": 2,
+      "layer": "terrain"
+    },
+    {
+      "id": "course-pad-5",
+      "sprite": "floor-wood",
+      "x": 26,
+      "y": 12,
+      "width": 2,
+      "height": 2,
+      "layer": "terrain"
+    },
+    {
+      "id": "course-pad-6",
+      "sprite": "floor-wood",
+      "x": 26,
+      "y": 18,
+      "width": 2,
+      "height": 2,
+      "layer": "terrain"
+    },
+    {
+      "id": "course-pad-7",
+      "sprite": "floor-wood",
+      "x": 26,
+      "y": 24,
+      "width": 2,
+      "height": 2,
+      "layer": "terrain"
+    },
+    {
+      "id": "course-start",
+      "sprite": "rune-threshold",
+      "x": 18,
+      "y": 25,
+      "width": 4,
+      "height": 1,
+      "layer": "props"
+    },
+    {
+      "id": "course-arrow-16-25",
+      "sprite": "arrow-west",
+      "x": 16,
+      "y": 25,
+      "width": 1,
+      "height": 1,
+      "layer": "props"
+    },
+    {
+      "id": "course-arrow-12-21",
+      "sprite": "arrow-north",
+      "x": 12,
+      "y": 21,
+      "width": 1,
+      "height": 1,
+      "layer": "props"
+    },
+    {
+      "id": "course-arrow-12-15",
+      "sprite": "arrow-north",
+      "x": 12,
+      "y": 15,
+      "width": 1,
+      "height": 1,
+      "layer": "props"
+    },
+    {
+      "id": "course-arrow-16-12",
+      "sprite": "arrow-east",
+      "x": 16,
+      "y": 12,
+      "width": 1,
+      "height": 1,
+      "layer": "props"
+    },
+    {
+      "id": "course-arrow-23-12",
+      "sprite": "arrow-east",
+      "x": 23,
+      "y": 12,
+      "width": 1,
+      "height": 1,
+      "layer": "props"
+    },
+    {
+      "id": "course-arrow-27-15",
+      "sprite": "arrow-south",
+      "x": 27,
+      "y": 15,
+      "width": 1,
+      "height": 1,
+      "layer": "props"
+    },
+    {
+      "id": "course-arrow-27-21",
+      "sprite": "arrow-south",
+      "x": 27,
+      "y": 21,
+      "width": 1,
+      "height": 1,
+      "layer": "props"
+    },
+    {
+      "id": "course-arrow-23-25",
+      "sprite": "arrow-west",
+      "x": 23,
+      "y": 25,
+      "width": 1,
+      "height": 1,
+      "layer": "props"
+    },
+    {
       "id": "world-ambient-grass-play-garden-west-soil-4-19",
       "sprite": "plaza-grass-02",
       "x": 4,
@@ -739,13 +883,112 @@
     },
     {
       "name": "play-rules",
-      "text": "FOLLOW THE GOLD ORBIT\nGames and conversation court",
-      "fontSize": 16,
-      "color": "#f4d77b",
+      "text": "ORBIT RUN · WALKING CHALLENGE\nStart below. Follow 1–7, then finish.",
       "x": 11,
       "y": 8,
       "width": 20,
       "height": 2,
+      "fontSize": 16,
+      "color": "#fff0b0",
+      "align": "left"
+    },
+    {
+      "name": "course-explain",
+      "text": "RACE THE ORBIT\nWalk onto START\nPress SPACE to begin\nYour time + personal best",
+      "x": 15,
+      "y": 19,
+      "width": 10,
+      "height": 4,
+      "fontSize": 15,
+      "color": "#fff0b0",
+      "align": "left"
+    },
+    {
+      "name": "course-start-label",
+      "text": "START / FINISH",
+      "x": 17,
+      "y": 28,
+      "width": 10,
+      "height": 1,
+      "fontSize": 17,
+      "color": "#fff0b0",
+      "align": "left"
+    },
+    {
+      "name": "course-number-1",
+      "text": "1",
+      "x": 13,
+      "y": 24,
+      "width": 1,
+      "height": 2,
+      "fontSize": 27,
+      "color": "#182d40",
+      "align": "left"
+    },
+    {
+      "name": "course-number-2",
+      "text": "2",
+      "x": 13,
+      "y": 18,
+      "width": 1,
+      "height": 2,
+      "fontSize": 27,
+      "color": "#182d40",
+      "align": "left"
+    },
+    {
+      "name": "course-number-3",
+      "text": "3",
+      "x": 13,
+      "y": 12,
+      "width": 1,
+      "height": 2,
+      "fontSize": 27,
+      "color": "#182d40",
+      "align": "left"
+    },
+    {
+      "name": "course-number-4",
+      "text": "4",
+      "x": 20,
+      "y": 12,
+      "width": 1,
+      "height": 2,
+      "fontSize": 27,
+      "color": "#182d40",
+      "align": "left"
+    },
+    {
+      "name": "course-number-5",
+      "text": "5",
+      "x": 27,
+      "y": 12,
+      "width": 1,
+      "height": 2,
+      "fontSize": 27,
+      "color": "#182d40",
+      "align": "left"
+    },
+    {
+      "name": "course-number-6",
+      "text": "6",
+      "x": 27,
+      "y": 18,
+      "width": 1,
+      "height": 2,
+      "fontSize": 27,
+      "color": "#182d40",
+      "align": "left"
+    },
+    {
+      "name": "course-number-7",
+      "text": "7",
+      "x": 27,
+      "y": 24,
+      "width": 1,
+      "height": 2,
+      "fontSize": 27,
+      "color": "#182d40",
       "align": "left"
     }
   ],
@@ -867,7 +1110,7 @@
           },
           {
             "path": "tools/art/world-ambient.ts",
-            "sha256": "5b33e4b567645f3417fc5492d9472f96266f4f604454d30eb52fa4dedca3a85b"
+            "sha256": "0d769ffaba6c809efd24e36470a6e6ce40874a07541ca2b579fea64a3ee982f9"
           },
           {
             "path": "tools/art/world-ambient-assets.ts",
@@ -887,7 +1130,7 @@
           },
           {
             "path": "tools/maps/world-ambient-ownership.ts",
-            "sha256": "ff37b6dc1ec3994ca1e532351231667d7351d260eade5d7e7cd26752b0feda4d"
+            "sha256": "4835ace34c2be50a916cb041e7e19fd9e601cc2fdd58aca8a361c70feb5b7093"
           },
           {
             "path": "tools/maps/park-arcade-context.ts",
@@ -896,6 +1139,14 @@
           {
             "path": "art/source/park-arcade-refresh.json",
             "sha256": "4facd2068f4c15d23e03a96e103e284a4ac12bb632b4b4f3165bafcdbe8adc50"
+          },
+          {
+            "path": "tools/maps/playground-context.ts",
+            "sha256": "6409b50d903b03e6ae962ec49ac200935be00c4930b6342e4bb7e52374289111"
+          },
+          {
+            "path": "art/source/orbit-course-refresh.json",
+            "sha256": "cabcc28b7bdbaa90bf6bb2deb74680baa49429d6f19555169660d871f761af43"
           },
           {
             "path": "tools/maps/cafe-arrival-context.ts",
@@ -915,11 +1166,11 @@
           },
           {
             "path": "tools/maps/native-projection.ts",
-            "sha256": "767f545f0e7ec2d8494ad2aa3a17913ed41da0cfbe1478d35fa83ea709041965"
+            "sha256": "82853c147bc1ef49ddb5ee662d410eef8f58daa96ac768108ffb422b226fe5bf"
           },
           {
             "path": "tools/maps/native-ownership-context.ts",
-            "sha256": "dec843145ca77cc39af9a00e8ae09c56dcfe8b1609b9d550e5098bf678213280"
+            "sha256": "913f5880954885f08505630f4f1c1dea34ba19b5608518731f4729681cf7ea7a"
           },
           {
             "path": "art/source/native-ownership-context.json",
@@ -1315,7 +1566,7 @@
           },
           {
             "path": "tools/art/world-ambient.ts",
-            "sha256": "5b33e4b567645f3417fc5492d9472f96266f4f604454d30eb52fa4dedca3a85b"
+            "sha256": "0d769ffaba6c809efd24e36470a6e6ce40874a07541ca2b579fea64a3ee982f9"
           },
           {
             "path": "tools/art/world-ambient-assets.ts",
@@ -1335,7 +1586,7 @@
           },
           {
             "path": "tools/maps/world-ambient-ownership.ts",
-            "sha256": "ff37b6dc1ec3994ca1e532351231667d7351d260eade5d7e7cd26752b0feda4d"
+            "sha256": "4835ace34c2be50a916cb041e7e19fd9e601cc2fdd58aca8a361c70feb5b7093"
           },
           {
             "path": "tools/maps/park-arcade-context.ts",
@@ -1344,6 +1595,14 @@
           {
             "path": "art/source/park-arcade-refresh.json",
             "sha256": "4facd2068f4c15d23e03a96e103e284a4ac12bb632b4b4f3165bafcdbe8adc50"
+          },
+          {
+            "path": "tools/maps/playground-context.ts",
+            "sha256": "6409b50d903b03e6ae962ec49ac200935be00c4930b6342e4bb7e52374289111"
+          },
+          {
+            "path": "art/source/orbit-course-refresh.json",
+            "sha256": "cabcc28b7bdbaa90bf6bb2deb74680baa49429d6f19555169660d871f761af43"
           },
           {
             "path": "tools/maps/cafe-arrival-context.ts",
@@ -1363,11 +1622,11 @@
           },
           {
             "path": "tools/maps/native-projection.ts",
-            "sha256": "767f545f0e7ec2d8494ad2aa3a17913ed41da0cfbe1478d35fa83ea709041965"
+            "sha256": "82853c147bc1ef49ddb5ee662d410eef8f58daa96ac768108ffb422b226fe5bf"
           },
           {
             "path": "tools/maps/native-ownership-context.ts",
-            "sha256": "dec843145ca77cc39af9a00e8ae09c56dcfe8b1609b9d550e5098bf678213280"
+            "sha256": "913f5880954885f08505630f4f1c1dea34ba19b5608518731f4729681cf7ea7a"
           },
           {
             "path": "art/source/native-ownership-context.json",

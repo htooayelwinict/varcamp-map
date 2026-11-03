@@ -33,16 +33,16 @@ The world contains **34 connected maps**, authored on a **32 × 32 pixel tile gr
 | --- | --- |
 | Arrival and expo | VarCamp Myanmar 2026 floor branding, partner artwork, an animated fountain and twelve booths with a shared central aisle. |
 | Zodiac campus | Twelve distinct building exteriors arranged around the circular campus, with floor labels, gardens, flowers and an outer road. |
-| Speaker rooms | Individually themed interiors with stages, seating, presenter/listener areas, VarCamp branding and partner panels. |
+| Speaker rooms | Individually themed auditoriums with stages, audience seating, VarCamp branding and adjoining office/breakout wings. |
 | Solar and Lunar halls | Two larger venues with separate sun and moon architecture and presentation spaces. |
-| Festival and games | A landscaped park, six playable FPS/PvP arcade cabinets and a social playground, plus Orbit Maze and the checkpoint-based Comet Maze. |
+| Festival and games | A landscaped park, six playable FPS/PvP arcade cabinets and a timed walking playground, plus Orbit Maze and the checkpoint-based Comet Maze. |
 | Coast and ship | A tropical cove, Constellation Shore, the FA SHIP upper deck and its furnished interior. |
 | Exploration | Four elemental districts, Star Garden, Moon Café, Moon Grotto, Stargazer Terrace and a hidden observatory. |
 | Ambient motion | Fountain water, aerial patrol drones, a hovering Roadster and environmental animations. Vehicles are scenery; attendees cannot drive or ride them. |
 
 The plaza's left side is **Community Corner**, with **BSides Myanmar and Vibe Code Tours** next to each other. The right side is **Sponsor Expo**, with the **VarCamp Info Desk** retained. Other booths are unbranded while confirmed sponsor artwork is pending. The booths do not use separate meeting zones to isolate conversations.
 
-The twelve zodiac rooms have stage-facing audience chairs and clear aisles, with VarCamp branding and their zodiac themes. Community banners appear in Solar and Lunar halls, which retain BSides Myanmar and Vibe Code Tours alongside VarCamp and their larger chair rows. Retired demo and unapproved partner marks are no longer displayed. See the [event presentation handoff](docs/operating/event-presentation.md) and [branding registry](art/sponsors.json).
+The twelve zodiac rooms have stage-facing audience chairs and clear aisles, with VarCamp branding and their zodiac themes. A side wing in each room contains organizer offices, a silent room, a launch/briefing room and a lounge. Reach it through the east doorway behind the audience; the auditorium and right-side stage stairs remain in place. See the [side-wing and playground guide](docs/operating/coast-office-playground.md). Community banners appear in Solar and Lunar halls, which retain BSides Myanmar and Vibe Code Tours alongside VarCamp and their larger chair rows. Retired demo and unapproved partner marks are no longer displayed. See the [event presentation handoff](docs/operating/event-presentation.md) and [branding registry](art/sponsors.json).
 
 ## Visitor guide
 
@@ -54,7 +54,7 @@ The twelve zodiac rooms have stage-facing audience chairs and clear aisles, with
 4. Use the welcome directory or the **Quest Journal** menu for destinations and exploration progress. When standing near an interactive object, follow its displayed activation prompt.
 5. For a session, enter the named zodiac room or Solar/Lunar hall and use the audience area. Follow the organizer's programme for timings and the host's instructions for media and presenting.
 
-Physical doors and exits remain available if the optional quest interface fails to initialize. At Nebula Arcade, stand in front of a cabinet and press **Space** to launch **War Brokers**, **DEADSHOT** or **HaxBall** on its official site in a new tab. The six cabinets do not download games until you choose to play. Use each game’s own party or room controls to play together; return to the VarCamp tab afterward. The playground remains a social space. See the [park and arcade guide](docs/operating/park-arcade.md).
+Physical doors and exits remain available if the optional quest interface fails to initialize. At Nebula Arcade, stand in front of a cabinet and press **Space** to launch **War Brokers**, **DEADSHOT** or **HaxBall** on its official site in a new tab. The six cabinets do not download games until you choose to play. Use each game’s own party or room controls to play together; return to the VarCamp tab afterward. At Orbit Playground, walk onto START, press Space, follow numbered pads 1–7 and return to FINISH. Your time and personal best appear in the map. See the [park and arcade guide](docs/operating/park-arcade.md).
 
 For event attendance, find the small computer desk with the **CHECK IN** floor label beside the main VarCamp logo, to the right of arrival. Click the computer, or approach the desk and activate its prompt. The [official ticket check-in page](https://register.var.camp/2026/attendee/check-in) opens in a new tab; follow its instructions to scan your ticket QR code or upload the ticket image. The registration service controls opening times and attendance records. [Counter maintenance guide](docs/operating/check-in-counter.md).
 
@@ -106,7 +106,7 @@ Every map below has a native `.tmj` file and a matching `.wam` file under [`maps
 | Main halls | [Solar Hall](maps/solar-hall.tmj), [Lunar Hall](maps/lunar-hall.tmj) | Two 64 × 56 tile presentation venues. |
 | Mazes | [Orbit Maze](maps/orbit-maze.tmj), [Comet Maze](maps/comet-maze.tmj) | Orbit's planted garden labyrinth and Comet's constellation gallery, with illuminated paths, landmark courts and rest areas. Comet has three collectible checkpoints. [Interior authoring guide](docs/operating/maze-interiors.md). |
 | Festival | [Zodiac Festival Park](maps/zodiac-festival-park.tmj), [Nebula Arcade](maps/nebula-arcade.tmj), [Orbit Playground](maps/orbit-playground.tmj) | Tree-lined gardens, a pond walk, picnic seating and six cabinets launching real browser FPS/PvP games. [Guide and resources](docs/operating/park-arcade.md). |
-| Coast | [Shipyard Beach](maps/shipyard-beach.tmj), [Constellation Shore](maps/constellation-shore.tmj), [FA SHIP](maps/fa-ship.tmj), [Ship Interior](maps/fa-ship-interior.tmj) | Tropical cove, waterfront walks and a two-level ship destination. |
+| Coast | [Shipyard Beach](maps/shipyard-beach.tmj), [Constellation Shore](maps/constellation-shore.tmj), [FA SHIP](maps/fa-ship.tmj), [Ship Interior](maps/fa-ship-interior.tmj) | Two 96-tile-wide palm-lined shores with animated surf, waterfront walks, a harbour plane and a two-level ship destination. |
 | Exploration hub | [Campus Exploration](maps/campus-exploration.tmj) | Routes to the elemental districts and retreats. |
 | Elements | [Fire](maps/fire-district.tmj), [Earth](maps/earth-district.tmj), [Air](maps/air-district.tmj), [Water](maps/water-district.tmj) | Four themed districts with elemental sigils. |
 | Retreats | [Star Garden](maps/star-garden.tmj), [Moon Café](maps/moon-cafe.tmj), [Moon Grotto](maps/moon-grotto.tmj) | Places to explore and take a break between sessions. |

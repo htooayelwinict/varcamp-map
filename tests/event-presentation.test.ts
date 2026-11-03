@@ -2,6 +2,7 @@ import {readFileSync} from 'node:fs';
 import {isDeepStrictEqual} from 'node:util';
 import {restoreAuditoriumSpacing} from '../tools/maps/auditorium-spacing';
 import {restoreStageSideAccess} from '../tools/maps/stage-side-access';
+import {restoreSpeakerOfficeWings} from '../tools/maps/speaker-office-wings';
 import {describe,it,expect} from 'vitest';
 import {EVENT_MAP_IDS,applyEventPresentation,restoreEventPresentation} from '../tools/maps/event-presentation';
 import {loadTileCatalog} from '../tools/art/catalog';
@@ -25,7 +26,7 @@ describe('Event branding and audience presentation',()=>{
   const l=current(id),before=restoreEventPresentation(l);
   expect(l.images!.map(i=>i.image.split('/').at(-1))).toEqual(id.startsWith('speaker-')?['varcamp-2026.png']:['varcamp-2026.png','partner-bsides-mm.png','vibecode-tours.png']);
   expect(l.placements.some(p=>p.sprite==='speaker-style-logo-card')).toBe(false);
-  for(const key of ['entries','exits','areas','inspectionZones','animatedOverlays']as const)expect(isDeepStrictEqual(restoreAuditoriumSpacing(restoreStageSideAccess(l))[key],before[key])).toBe(true);
+  for(const key of ['entries','exits','areas','inspectionZones','animatedOverlays']as const)expect(isDeepStrictEqual(restoreAuditoriumSpacing(restoreStageSideAccess(restoreSpeakerOfficeWings(l)))[key],before[key])).toBe(true);
   if(id.startsWith('speaker-')){
    expect(l.placements.filter(p=>p.id.startsWith('audience-chair-'))).toHaveLength(48);
    expect(l.placements.some(p=>p.id.endsWith('-style-partner-wallpaper')||p.id.endsWith('-style-partner-rule'))).toBe(false);

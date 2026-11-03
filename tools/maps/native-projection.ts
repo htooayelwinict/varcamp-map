@@ -1,5 +1,6 @@
 import {authorNavigationContext,navigationAtlases} from './harbour-navigation-context';
 import {authorParkArcadeContext,parkArcadeAtlases} from './park-arcade-context';
+import {authorPlaygroundContext} from './playground-context';
 import {isDeepStrictEqual} from 'node:util';
 import{assertNativeOwnershipContext,assertNativeAuthoringContext,isRoadsterV2}from'./native-ownership-context';
 import contract from'./animated-decoration-contract.json';
@@ -84,6 +85,7 @@ export function reconcileNativeProjection(native:TiledMap,rawSource:TiledMap):Ti
  authorMazeGateContext(result);
  authorNavigationContext(result);
  authorParkArcadeContext(result);
+ authorPlaygroundContext(result);
  const paint=source.layers.filter(l=>l.type==='tilelayer'&&l.visible!==false&&l.opacity!==0),owned=new Set(paint.map(l=>l.name)),sourceNames=new Set(source.layers.map(l=>l.name));
  need(result.layers.every(l=>l.type!=='tilelayer'||sourceNames.has(l.name)),'unknown native layer cannot be retired');
  const originalSets=structuredClone(result.tilesets),originalMax=Math.max(...originalSets.map(t=>t.firstgid+t.tilecount!));let next=originalMax;

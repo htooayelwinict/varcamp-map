@@ -1,5 +1,6 @@
 import {navigationProtectedLayers,navigationAtlases} from './harbour-navigation-context';
 import {parkArcadeProtectedLayers,parkArcadeAtlases,isParkLampSource} from './park-arcade-context';
+import {playgroundProtectedLayers} from './playground-context';
 import {VIBECODE_IMAGE,VIBECODE_CAPTION_IMAGE} from '../art/vibecode';
 import{isDeepStrictEqual}from'node:util';
 import registered from'../../art/source/native-ownership-context.json';
@@ -213,7 +214,7 @@ function protectedContext(actual:TiledMap,row:ContextRow,author=false):void{
  const preceding=cafeArrivalProtectedLayers(identities(actual)[0],row.protectedLayers);
  const maze=mazeGateProtectedLayers(identities(actual)[0],preceding);
  const navigation=navigationProtectedLayers(identities(actual)[0],maze);
- const current=parkArcadeProtectedLayers(identities(actual)[0],navigation);
+ const current=playgroundProtectedLayers(identities(actual)[0],parkArcadeProtectedLayers(identities(actual)[0],navigation));
  need(isDeepStrictEqual(layers,current)||(author&&[navigation,maze,preceding,row.protectedLayers].some(prior=>isDeepStrictEqual(layers,prior))),'protected nonfloor layer bodies/roster changed');
  need(isDeepStrictEqual(actual.layers.filter(l=>l.type!=='tilelayer').map(l=>l.name),row.protectedNonfloorOrder),'protected nonfloor order changed');
 }
