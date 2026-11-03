@@ -3,6 +3,7 @@ import {applyCheckInCounter,restoreCheckInCounter} from './check-in-definition';
 import {applyEventPresentation,restoreEventPresentation} from './event-presentation';
 import {assertCheckInPhysicsCatalog} from './check-in-physics';
 import {assertAudienceFootprintCatalog} from './audience-footprints';
+import {restoreLeoCitadel} from './leo-citadel';
 import {applyPlazaLandscape,restorePlazaLandscape} from './plaza-landscape';
 import {applyPlazaPatrol,restorePlazaPatrol} from './plaza-patrol';
 import {applyExpoSpacing,restoreExpoSpacing} from './expo-spacing';
@@ -66,6 +67,7 @@ export function assertNativePlaza(map:TiledMap,layout:MapLayout,catalog:TileCata
  need(layout.id==='overworld'&&identity.length===1&&identity[0].type==='string'&&identity[0].value==='overworld'&&map.width===128&&map.height===128,'current map/layout identity changed');
  assertCheckInPhysicsCatalog(catalog);
  assertAudienceFootprintCatalog(catalog);
+ restoreLeoCitadel(layout,catalog);
  const beforeEvent=restoreEventPresentation(layout);
  const priorCrescent=restorePlazaCrescent(restorePlazaLandscape(restoreVibeCodeBranding(restoreCheckInCounter(beforeEvent))));
  assertHallBuildings(priorCrescent,catalog);

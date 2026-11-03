@@ -1,0 +1,3 @@
+Original Leo citadel artwork generated for the VarCamp map project using OpenAI image generation on 2026-11-03, with the project's original Leo pavilion as a framing reference. Native sprite compilation and layout by the VarCamp map team.
+
+Original project artwork; permitted project distribution with this WorkAdventure map. Retain this notice, generated master and prompt provenance. Imported map assets retain their separate original licenses.

@@ -1,0 +1,358 @@
+{
+  "version": 1,
+  "baseCommit": "2022d6c516c01f0a20504d9ec8589fe37351b90c",
+  "beforeLayoutSha256": "2ba335c9d9a7e4981da0ddcc099eb82eba0315c870f4b6806d43cee93a770535",
+  "afterLayoutSha256": "1ab8aa8464a01c2fbf096dcc1726a8cdd78eba2b47f1a9db7007e28facc6d39f",
+  "building": {
+    "index": 1101,
+    "before": {
+      "id": "leo-building",
+      "sprite": "grounded-zodiac-physical-leo",
+      "x": 36,
+      "y": 96,
+      "width": 12,
+      "height": 12,
+      "layer": "props"
+    },
+    "after": {
+      "id": "leo-building",
+      "sprite": "leo-citadel",
+      "x": 36,
+      "y": 96,
+      "width": 12,
+      "height": 12,
+      "layer": "props"
+    }
+  },
+  "retiredOrnament": {
+    "index": 1463,
+    "value": {
+      "id": "leo-lion-head",
+      "sprite": "leo-lion-head",
+      "x": 40,
+      "y": 98,
+      "width": 4,
+      "height": 3,
+      "layer": "props"
+    }
+  },
+  "sprite": {
+    "sheet": "assets/tilesets/original/leo-citadel.png",
+    "rect": {
+      "x": 0,
+      "y": 0,
+      "width": 12,
+      "height": 12
+    },
+    "blockingCells": [
+      [
+        0,
+        8
+      ],
+      [
+        1,
+        8
+      ],
+      [
+        2,
+        8
+      ],
+      [
+        3,
+        8
+      ],
+      [
+        4,
+        8
+      ],
+      [
+        5,
+        8
+      ],
+      [
+        6,
+        8
+      ],
+      [
+        7,
+        8
+      ],
+      [
+        8,
+        8
+      ],
+      [
+        9,
+        8
+      ],
+      [
+        10,
+        8
+      ],
+      [
+        11,
+        8
+      ],
+      [
+        0,
+        9
+      ],
+      [
+        1,
+        9
+      ],
+      [
+        2,
+        9
+      ],
+      [
+        3,
+        9
+      ],
+      [
+        4,
+        9
+      ],
+      [
+        7,
+        9
+      ],
+      [
+        8,
+        9
+      ],
+      [
+        9,
+        9
+      ],
+      [
+        10,
+        9
+      ],
+      [
+        11,
+        9
+      ],
+      [
+        0,
+        10
+      ],
+      [
+        1,
+        10
+      ],
+      [
+        2,
+        10
+      ],
+      [
+        3,
+        10
+      ],
+      [
+        4,
+        10
+      ],
+      [
+        7,
+        10
+      ],
+      [
+        8,
+        10
+      ],
+      [
+        9,
+        10
+      ],
+      [
+        10,
+        10
+      ],
+      [
+        11,
+        10
+      ],
+      [
+        0,
+        11
+      ],
+      [
+        1,
+        11
+      ],
+      [
+        2,
+        11
+      ],
+      [
+        3,
+        11
+      ],
+      [
+        4,
+        11
+      ],
+      [
+        7,
+        11
+      ],
+      [
+        8,
+        11
+      ],
+      [
+        9,
+        11
+      ],
+      [
+        10,
+        11
+      ],
+      [
+        11,
+        11
+      ]
+    ],
+    "level": "aboveAvatar",
+    "sourceId": "leo-citadel"
+  },
+  "master": {
+    "path": "art/source/leo-citadel/generated-master.png",
+    "sha256": "954cc384554812b44ee6498e071b27633535e58a67e91e84da2a52280cd9d4cf"
+  },
+  "image": "assets/tilesets/original/leo-citadel.png",
+  "alphaThreshold": 192,
+  "priorAtlasesSha256": "0c316f3deca8afd78fa928c238d15b4466a0f4d612b07197b1cbe1567a34f7d9",
+  "protectedLayers": {
+    "terrain": "4fa341a4611029cfc788c789205e248bcbe1425743d5d729633f9f757a357d66",
+    "roadster": "26fbfc935363340c21d1536f5a344dbc3e994f46bf13523ea6bbf306ae3764aa",
+    "plaza-fountain-water": "86d5220eae3eb2702f024a72ad22569c45bf8c138005311915972aee3e2ae10c",
+    "Expo / VarCamp": "f3c97b1ae8e4b8b1eeed9125e5e553e9bcf98ba5650a79a5c8bc222693492de9",
+    "Expo / BSides Myanmar": "97907fc8dac9bde0fed63fd83f606f89401eb602d16cb24f4c4e44958096ce3a",
+    "Arrival / VarCamp NW": "b43420eb577f3d3186d1c16d1c72b0913261fbf71b11c6438c2c9d7f8ba6bffd",
+    "Arrival / VarCamp NE": "f003e22f7fcfa1958d6ad5c8ec016df9ca73eb20086af10a6b63f2495634d065",
+    "Arrival / VarCamp SW": "eb785ccc98443647502371dc724bf5fc933b6772a867449bd427b0cb81bed0ca",
+    "Arrival / VarCamp SE": "3e19e88f007fe1b044d2907846650e501e043ecf6507ed9aa21876f90b2e3538",
+    "Expo / Vibe Code Tours": "80d23bbfb47dc3fa5b381a1d5f5be3939a7db8b591910c082359b141a53869ef",
+    "floorLayer": "eff28cc49e34762eb36d40216102d7871c2fcbabbd33c9fe854d9f9c9f1470b2",
+    "plaza-fountain-water-upper": "2889ae98a917a519b6c513775add9a1e13574fd68f6c4e1ceccb9ddbd972d1bd",
+    "standing-caption-expo-n6-nameplate": "2263bbc3571b8c6cfa5de0a9abd982ea86bc9f3d5c75077f779982c44c4b6093",
+    "standing-caption-expo-s2-nameplate": "21950d2330a509243cfdb4e7bab2be88e1fb992c7fab90fea285ea1a5206f39d",
+    "standing-caption-expo-s3-nameplate": "80d8b050794b3993343ef9919c97a08bae99f726c0939d2fa5b4cf104aa7adda",
+    "physical-collisions": "80265273b9708c9c7708ae8922755c5004c7e83f014a1d5076de18302e84d641",
+    "from-speaker-aries": "28130c0d6b50d67122390a7412fe6f36ec32e8f783cc2d99e46e2b225c529949",
+    "from-speaker-taurus": "c9b33c7f87349ecff6f22ac84168369023d7b696b33298879404c0dcf4c715e7",
+    "from-speaker-gemini": "72728e1a9f5f87201737b4b73d3aa37e6f909a4969b8489ac80c457dd2b01440",
+    "from-speaker-cancer": "32e170548991e99b13149428c4def3f505d50924e418507f22ff099c276e9f55",
+    "from-speaker-leo": "503cadff364b180e9a9e192820534979da30d2be45ba8a295036bed76bd07de4",
+    "from-speaker-virgo": "8c7d21f59744adc4e56ea9fbcf27b536fb7e96dbbac82ea846b6fc9adc1b1216",
+    "from-speaker-libra": "c5b5253bfb395a6144beb9792794882bacf14d346a7c208e7d942cbc228b96e4",
+    "from-speaker-scorpio": "ff871dd0c5f9495bde84cdcbfbe9a1d0fa32f71769eb0000fdd984b1f5324939",
+    "from-speaker-sagittarius": "742cbc7cff150db55f0145e137c5773001f352f2ea9f0fca60bae8b1e1fb90f9",
+    "from-speaker-capricorn": "b9437da2c08b39459755d976e57dc99c2c1559c04a65b91fdd6f0346909d0197",
+    "from-speaker-aquarius": "6477dbac4e5e27737e11dd0ab08ce3d362783431f618b5c0f864b4508970507b",
+    "from-speaker-pisces": "1b7d3e66507d099b72245c2f671f6f1f2d0cd5659a3c9363cb43b82dd9194937",
+    "from-solar": "42b49d9e9ae64f20ce9ff93f016908234ecead87fa9ac4f26ceac68a18bb35db",
+    "from-lunar": "fccc17ee8584288411d74f7812d1b45b19b5893b2c2345304e43236a6c4bb7df",
+    "from-maze": "4b0f39099fc35c3a55fd8a377bca50e64a19c5bf4044efdc6faf694941eccf8e",
+    "from-festival": "0d0c279b609592af67140d27e4f669962ba604b4967652fc176cfd441bb6a75d",
+    "from-shipyard": "1193e438f3450647041f374295927882997c13f567211041e1783b2e32b3db85",
+    "from-campus": "1a243cb292037891f798635f72752142c916428fbe6517170f194abe728e8468",
+    "welcome": "bc1c6aaa9ebdb0027ff2992b6f0328fa3913fc3c96ae80b86ab9301c64c4b3d9",
+    "from-fire": "25553da94cb2fc59297f8b3d9bf005b28f228c6cbff4687cdc9a5c7e0bfb1e8d",
+    "from-earth": "b6a23d6d56d5a5f82939470fa1fc5f948f8c9bb3d71dfcba61b7c764bbd06b21",
+    "from-air": "05edd60c1bc0dc49f9df59eee8d817ea6fb2231b79285c1f10e9292c400fdad5",
+    "from-water": "92d67851b7d878aa403eff8e77195f363dc16ac13bd5e109d9d34059512aa1ab",
+    "from-observatory": "ff320c69eede81d5eae5a9d4f8bd0e21b78d08f3fb42c62ef3beecbd0d12f3e5",
+    "from-arcade": "e1af860c803aca784489d061c06e4ad9278d8ee749468c1cb01b7aec09bf8c57",
+    "start": "94b698bbd1c5e0737c3530fd0ae3d8cc7398e1f4058c0714acce4204f3bd928c",
+    "exit-speaker-aries": "7dc0f947f1c07a14f4fa2dbb32e4ed3c9ac524939b4b8df66bd973887e299bd0",
+    "exit-speaker-taurus": "ca9f6afb91bab09206e3a38c0585251427bfb4aa9ec16647fb1abe0facef1d82",
+    "exit-speaker-gemini": "c43fc88174314f931d0eec3f2c86797b9fac3e2e7d7b57e7e19283a6ecf9331b",
+    "exit-speaker-cancer": "f2b7fcb00a16150bd946b62ea56c2b57ae9ed3ea8b1a0fec23315167ef8dfddf",
+    "exit-speaker-leo": "6a86933559fe2b111bc9a7699620d214be546f233b100c1211df8594396fc68f",
+    "exit-speaker-virgo": "e78ff9eda57f7734b583e7ca1d61466b5251b897e79422405180e1970d72c899",
+    "exit-speaker-libra": "1fd6d8340c1df32a201c4ecdb58a9f850b121ef3261008d8dcc8ef3247fbeb31",
+    "exit-speaker-scorpio": "ccf508def94870e136fa51df03837469849f9511649d2ed2a8626c16fa0e1b34",
+    "exit-speaker-sagittarius": "c380c77015eb7329525488d2b1113a118802b5da0bcde80fe8d6abc44a147a43",
+    "exit-speaker-capricorn": "ff533f8348faa0247f18c7e5987b3374e3a557cdb2612ef40f83dc5d765d2267",
+    "exit-speaker-aquarius": "8dadf9decbe24fa4fec066a54a97ebf96b16b563d00feeea4075fb230b3c81b5",
+    "exit-speaker-pisces": "8361547691ed4e7d20b54111db1447fab7f5937041fa0c543bf1aaa00034b039",
+    "exit-solar": "cf92caecc86a4cdfbb0b71bbaf96b6636ba9d29c2e0173f7e2bed994d7b89d38",
+    "exit-lunar": "feaeb2a4bba2c88501ad28180461a749b24a83536193d538262a4da32c99bef0",
+    "exit-maze": "fc25574f3ee875293e4a8839f7dac4d0b08f621078b675171f1f040d7a9a460d",
+    "exit-festival": "e5eb0c1565519804a41496fc66f62c2011a53cc822de2a71a6aef79abcb53562",
+    "exit-shipyard": "9f5ec83b2a97be0aa7a37bf24d7c727bd6b2922182efbf6679922084ecd83a88",
+    "exit-campus": "26338439fd7d5090f2334e4cddc60f6f09537ea020819648617341cfee287d5c",
+    "wayfinding-text": "519e26943aab1b8d47ad3260671207b808e7f862ff9f81567350b9fa837e340f",
+    "inspection-zones": "017824a0d9f84d8f472f0607ee6b9844ccd21851d12517a9288ba8de772ab2a1",
+    "plaza-drone-00": "b9627f006abd1f83c2e0bf800ba511963386bb4bb8c355c7b3cb52a7a487c05d",
+    "plaza-drone-01": "285e03e91ab1e1acc99c06e4842af0b3d171de2ff59cbb378260baa73210989b",
+    "plaza-drone-02": "2cf8d9875746896b1047153548abfa8357b7ab5a29bfb68cf569e3c4aa45c9c4",
+    "plaza-drone-03": "1ce0e77a4afb911ea0ef852763034bedf7f8a31c86357b9e13b4eab8c419cb6e",
+    "plaza-drone-04": "2b4602e9d4a31f6d42ecdea7f7a31954b60490f3a43e0551fe7cd376a3aa4a57",
+    "plaza-drone-05": "d2c5d2bc7f01cf05d874f7bc9f4a40bd56e10f51567f50689e7a4ddc2463bf94",
+    "plaza-drone-06": "9f660d5d9f1db9000295fc584abd2208db92388820b863220c50aa38c88447ef",
+    "plaza-drone-07": "d8b184e63922af5b1df59b71a7f23d914d46ea9d63ab392b2916f572d688213b",
+    "plaza-drone-08": "4bbfc30199fa15281ae796c4e4cbe2178f88d5e317435a52953a6615b75ac8fa",
+    "plaza-drone-09": "2f1fbd09448e7cce2d7ebf2ca7423b352aff45430e2fa8eca43024bc26541649",
+    "plaza-drone-10": "d37497e4f250970bc40185c14027ee270188d9844a76915b9eb32e617158a1b4",
+    "plaza-drone-11": "b68a6715d2c86abfd261c7f7bf9103c2ace3ee4f40ba49f9897496a68f0c3fe8",
+    "plaza-drone-12": "99894602cd72bb3d16c38546f2f31333e531228bbf4f0bbc588d83043e8a4990",
+    "plaza-drone-13": "a4e5d96a4b341b97437339754c43754e90ddda3dd4f3c7eef6ac6e717a2cc44b",
+    "plaza-drone-14": "1149ce9255cc50cdd8d0e1b253d4c39daea9ba083aa2a894cbf7da4d4dcee3cc",
+    "plaza-drone-15": "4b111f89db2e3e72a540c4e381b2e9602d403d8ab361ba7ba219e1a1efedc157",
+    "plaza-drone-16": "dd10a7e2de5e5de46f7fbdfe7262dd0e568d169caed70df8f5fc972296753643",
+    "plaza-drone-17": "386931f8b0ac8e6eb16930df989f2c4a0346b43da78fa56f799915cb00220af9",
+    "plaza-drone-18": "eab1624c57729b0edcf0ad8a876c9fcbe5dbc4113201e5370f13a59f58b52d38",
+    "plaza-drone-19": "054a0aa44c65744d5333183f7bc2470aff4fd7be7dd4fa49cfdbc2eab91eacd5",
+    "plaza-drone-20": "6f2b5328c5a95733ac8ed5fe4309b1778422a85a0f53ed5ae7fbfa73be164131",
+    "plaza-drone-21": "1d4e12721937d68224a424b93c3674692e187c4f29243b4f32a6ed2fbf9d5421",
+    "plaza-drone-22": "bdef416823831146559de4493bc4959ee3df0b356667833d17b4e92050541b49",
+    "plaza-drone-23": "90a2da90bd9ee15fa59a52dab1ee4e387fe1b57d5dcebf13ffdec6c9ee35931d",
+    "plaza-drone-24": "9b942445f74035d9fa813a5862247e946830f970b71362eeda713bd5814a4884",
+    "plaza-drone-25": "20150da9320d4c83ffcdd887f2823041e9f4facc592ab2bc5ba214a5231e4d10",
+    "plaza-drone-26": "146b84f5bf57387fc3e93af9af66e2f07b74fbfa1379398504e850385f40e077",
+    "plaza-drone-27": "5818ad901f5e853f596a116860dcedfe88284b0eba0082cb5a35e3ae2a5d17fe",
+    "plaza-drone-28": "b10072fa7c8828ce313f3008823a00582c54b4a4c232e38521de2991d6dfe5e7",
+    "plaza-drone-29": "5dca177ddc24d47c37b5d2ae2444694d60f82cd21db7dd6bec8110b5805be578",
+    "plaza-drone-30": "ea137c082c612826028c944d5fd37d7a0072e0cb07bcf5cfdd98f8428adad9d3",
+    "plaza-drone-31": "2c4d69462ddb442f23223d2a6367e113ca5973f2cede30c24ca7c328d6c18536",
+    "plaza-drone-32": "17a09ae1f1204dcb508db7b0bb67bac22eb3183ae0a4ebb0271fbdd2568cefbc",
+    "plaza-drone-33": "676c874e1e54fa3f13f763f173e6ea55bfed3695ea1e7578315f0515930b53f3",
+    "plaza-drone-34": "6b90ec31739846e0bd358ea6fa27db160bbe01477c692652a5e022d63d27bc6f",
+    "plaza-drone-35": "afdd2d95e604efc7feeec4b2387b34a2cfb4563bf743d924b1bcc3c2797b78f9",
+    "plaza-drone-36": "f68c775166488eb7c1e189d7b5cce75a2ef6279fffe7bddd4a3aaf561946be85",
+    "plaza-drone-37": "ddae07528344c1e05e1f476db7eb1f4f53fc0104155fe6866ff855b2a7f2d79c",
+    "plaza-drone-38": "abf0e5941488501a0c6b0a33ce9ff7c26311e17298a10d8834699d89777be0a3",
+    "plaza-drone-39": "08bc863be8422f68609ee6f4f1a915ccfc4e6277d51f645f4e48bb7eba686be7",
+    "plaza-fleet-camera": "f66c6913fe85f81e25d77922985720339f58a5e52a844172dea6f15d551ce0fb",
+    "plaza-fleet-delivery": "a6322939ac817b7e322dbe7a796700afcc1ba985f66f150f0d8254e1ec7636a1",
+    "plaza-fleet-survey": "0e976f64cec5d7103502a0aa0cc607667e832e93ea54f82c87664b20a7ff3543",
+    "plaza-patrol-north": "34449f50d58651350e3ad37b260063c56587bc18bbdbd719f21b1a402fa00a6d",
+    "plaza-patrol-south": "56598222660ddbe4bfd76a4494bba8f1c4579775f114a3122fff472ba35f091e",
+    "plaza-patrol-west": "bff46ecf67f6200ae63967323a5443e0bd06796b11e328176869ec2e82887156",
+    "plaza-patrol-east": "5ba80fdd58c5736486c03ff969de8f1ea38a979d43aeec20e49982543cd4b914",
+    "plaza-patrol-arrival-west": "839fbbf7085cd2f0c3c21f6335f55b0c108a2b18b4371475ab5cef6c8d60d568",
+    "plaza-patrol-arrival-east": "9fb60015cc48654a68a8857437c4344029d3ede15800f3dbe87d49a3ffc844c6"
+  },
+  "retiredAtlas": {
+    "firstgid": 18055,
+    "name": "leo-lion-head",
+    "tilewidth": 32,
+    "tileheight": 32,
+    "columns": 4,
+    "tilecount": 12,
+    "image": "../assets/tilesets/original/leo-lion-head.png",
+    "imagewidth": 128,
+    "imageheight": 96,
+    "properties": [
+      {
+        "name": "tilesetCopyright",
+        "type": "string",
+        "value": "Original VarCamp cosmic pixel artwork created by Codex for this project, 2026; CC0 1.0"
+      }
+    ]
+  }
+}

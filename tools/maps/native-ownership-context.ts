@@ -1,6 +1,7 @@
 import {navigationProtectedLayers,navigationAtlases} from './harbour-navigation-context';
 import {parkArcadeProtectedLayers,parkArcadeAtlases,isParkLampSource} from './park-arcade-context';
 import {playgroundProtectedLayers} from './playground-context';
+import {leoCitadelAtlases,leoCitadelContextSource} from './leo-citadel';
 import {VIBECODE_IMAGE,VIBECODE_CAPTION_IMAGE} from '../art/vibecode';
 import{isDeepStrictEqual}from'node:util';
 import registered from'../../art/source/native-ownership-context.json';
@@ -223,7 +224,7 @@ function protectedContext(actual:TiledMap,row:ContextRow,author=false):void{
 interface Epoch{expo:boolean;brand:boolean;roadsterV2:boolean}
 const CURRENT:Epoch={expo:true,brand:true,roadsterV2:true},PRE_ROADSTER_V2:Epoch={expo:true,brand:true,roadsterV2:false},PRE_BRAND:Epoch={expo:true,brand:false,roadsterV2:false},PRE_EXPO:Epoch={expo:false,brand:false,roadsterV2:false};
 function currentAtlases(row:ContextRow,source:TiledMap,epoch:Epoch=CURRENT,includeCove=true,includeZodiac=true,includeHall=true,includeArrival=true,includePatrol=true,includeFountain=true,includeLeo=true,includeBuildings=true):TiledTileset[]{
- source=eventAtlasContextSource(source);
+ source=leoCitadelContextSource(eventAtlasContextSource(source));
  const retired=new Set(row.retired.map(t=>t.firstgid));
  const expected=structuredClone(row.atlases.filter(t=>!retired.has(t.firstgid)));
  let next=row.nextAtlasGid;
@@ -285,6 +286,7 @@ function currentAtlases(row:ContextRow,source:TiledMap,epoch:Epoch=CURRENT,inclu
  expected.push(...eventCounterAtlases(source,Math.max(...expected.map(t=>t.firstgid+t.tilecount!))));
  expected.push(...navigationAtlases(identities(source)[0]));
  expected.push(...parkArcadeAtlases(identities(source)[0]));
+ expected.push(...leoCitadelAtlases(source,Math.max(...expected.map(t=>t.firstgid+t.tilecount!))));
  return expected;
 }
 /** Mandatory final current context: complete atlas roster/order/bodies/ranges,
@@ -305,6 +307,7 @@ export function assertNativeAuthoringContext(actual:TiledMap,source:TiledMap):vo
  const expected=currentAtlases(row,source);
  if(isDeepStrictEqual(actual.tilesets,row.atlases))return;
  if(isDeepStrictEqual(actual.tilesets,expected))return;
+ if(leoCitadelAtlases(source,0).length===1&&isDeepStrictEqual(actual.tilesets,expected.slice(0,-1)))return;
  const parkCount=parkArcadeAtlases(identities(source)[0]).length;
  if(parkCount&&isDeepStrictEqual(actual.tilesets,expected.slice(0,-parkCount)))return;
  const navigationCount=navigationAtlases(identities(source)[0]).length;

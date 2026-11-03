@@ -9914,7 +9914,7 @@
     },
     {
       "id": "leo-building",
-      "sprite": "grounded-zodiac-physical-leo",
+      "sprite": "leo-citadel",
       "x": 36,
       "y": 96,
       "width": 12,
@@ -13174,15 +13174,6 @@
       "y": 48,
       "width": 4,
       "height": 4,
-      "layer": "props"
-    },
-    {
-      "id": "leo-lion-head",
-      "sprite": "leo-lion-head",
-      "x": 40,
-      "y": 98,
-      "width": 4,
-      "height": 3,
       "layer": "props"
     },
     {

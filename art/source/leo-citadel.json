@@ -1,0 +1,205 @@
+{
+  "version": 1,
+  "master": {
+    "path": "art/source/leo-citadel/generated-master.png",
+    "sha256": "954cc384554812b44ee6498e071b27633535e58a67e91e84da2a52280cd9d4cf"
+  },
+  "crop": {
+    "left": 8,
+    "top": 74,
+    "width": 1239,
+    "height": 1026
+  },
+  "target": {
+    "x": 0,
+    "y": 66,
+    "width": 384,
+    "height": 318
+  },
+  "operation": "Uniform nearest fit, centered at south edge, preserve complete silhouette, alpha below192 cleared",
+  "image": {
+    "path": "assets/tilesets/original/leo-citadel.png",
+    "sha256": "1cdff252a0ba6959f6ae0f17da64694f3d740c39ee92471d921f856175815b41"
+  },
+  "sprite": {
+    "sheet": "assets/tilesets/original/leo-citadel.png",
+    "rect": {
+      "x": 0,
+      "y": 0,
+      "width": 12,
+      "height": 12
+    },
+    "blockingCells": [
+      [
+        0,
+        8
+      ],
+      [
+        1,
+        8
+      ],
+      [
+        2,
+        8
+      ],
+      [
+        3,
+        8
+      ],
+      [
+        4,
+        8
+      ],
+      [
+        5,
+        8
+      ],
+      [
+        6,
+        8
+      ],
+      [
+        7,
+        8
+      ],
+      [
+        8,
+        8
+      ],
+      [
+        9,
+        8
+      ],
+      [
+        10,
+        8
+      ],
+      [
+        11,
+        8
+      ],
+      [
+        0,
+        9
+      ],
+      [
+        1,
+        9
+      ],
+      [
+        2,
+        9
+      ],
+      [
+        3,
+        9
+      ],
+      [
+        4,
+        9
+      ],
+      [
+        7,
+        9
+      ],
+      [
+        8,
+        9
+      ],
+      [
+        9,
+        9
+      ],
+      [
+        10,
+        9
+      ],
+      [
+        11,
+        9
+      ],
+      [
+        0,
+        10
+      ],
+      [
+        1,
+        10
+      ],
+      [
+        2,
+        10
+      ],
+      [
+        3,
+        10
+      ],
+      [
+        4,
+        10
+      ],
+      [
+        7,
+        10
+      ],
+      [
+        8,
+        10
+      ],
+      [
+        9,
+        10
+      ],
+      [
+        10,
+        10
+      ],
+      [
+        11,
+        10
+      ],
+      [
+        0,
+        11
+      ],
+      [
+        1,
+        11
+      ],
+      [
+        2,
+        11
+      ],
+      [
+        3,
+        11
+      ],
+      [
+        4,
+        11
+      ],
+      [
+        7,
+        11
+      ],
+      [
+        8,
+        11
+      ],
+      [
+        9,
+        11
+      ],
+      [
+        10,
+        11
+      ],
+      [
+        11,
+        11
+      ]
+    ],
+    "level": "aboveAvatar",
+    "sourceId": "leo-citadel"
+  }
+}

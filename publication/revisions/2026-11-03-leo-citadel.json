@@ -1,0 +1,143 @@
+{
+  "schemaVersion": 1,
+  "revisions": [
+    {
+      "path": "art/sources.json",
+      "fromSha256": "82664b023bb164c313559bb7234b6cc62541e616ea9577a08d911a78fa9bf702",
+      "toSha256": "70f37e239a321080dd5795cbaa7c5c534f7afd2962ed4fcb872b842edaa3eb24",
+      "reason": "Replace only Leo exterior with a stone lion citadel, preserving all controls, grounded physics, other building artwork and old atlas reservations. Refresh shared producer and public route receipts."
+    },
+    {
+      "path": "art/tile-catalog.json",
+      "fromSha256": "1175660e20dc7cad8b002b623853c21cc9feefedbd83dcc245d1c4b7fde78ae4",
+      "toSha256": "f4972b5881e0634240ca801cfc0782154e1b7500aff11862268444d2e9c46898",
+      "reason": "Replace only Leo exterior with a stone lion citadel, preserving all controls, grounded physics, other building artwork and old atlas reservations. Refresh shared producer and public route receipts."
+    },
+    {
+      "path": "maps/overworld.tmj",
+      "fromSha256": "207e426836ce62294f5a97b021e600bfa519791e6f2cc17c2cbea9a17c88f1f0",
+      "toSha256": "7336e7483cfd64553420fb8b669635398105f72881c72c9cbcbc6dd8a1c72acb",
+      "reason": "Replace only Leo exterior with a stone lion citadel, preserving all controls, grounded physics, other building artwork and old atlas reservations. Refresh shared producer and public route receipts."
+    },
+    {
+      "path": "maps/preview/overworld.tmj",
+      "fromSha256": "2cea07d3c47558dc762981097cd6ba728ec98489369f51f097e44c5e2d994efb",
+      "toSha256": "87fdbf964b1c344e2c47ad36b0374093100d25d828722c106abbf5b111779cd6",
+      "reason": "Replace only Leo exterior with a stone lion citadel, preserving all controls, grounded physics, other building artwork and old atlas reservations. Refresh shared producer and public route receipts."
+    },
+    {
+      "path": "tools/art/check.ts",
+      "fromSha256": "9d1d85518576a31b9c4d698bc0a0c000803427b93eb4ff98c770e6056f5ab8c0",
+      "toSha256": "5c7874d2f6bd81661d1bcd920cd633a32685664836a774b8a31abd52bd01586a",
+      "reason": "Replace only Leo exterior with a stone lion citadel, preserving all controls, grounded physics, other building artwork and old atlas reservations. Refresh shared producer and public route receipts."
+    },
+    {
+      "path": "tools/release.ts",
+      "fromSha256": "3858e832e776c1cdb22b786f658b7cad307696234a9b9bba1477900d51b45deb",
+      "toSha256": "66f887dae2f56843b230d2a21454a752fd6c83763c364483925a24adb2e25a3f",
+      "reason": "Replace only Leo exterior with a stone lion citadel, preserving all controls, grounded physics, other building artwork and old atlas reservations. Refresh shared producer and public route receipts."
+    },
+    {
+      "path": "world/layouts/air-district.json",
+      "fromSha256": "fa7f5f91832b1b769e0fca5d03cc29940ac93b2bc905d8f37b7169b93afb5f86",
+      "toSha256": "36d0e858c9fb099bc332e588d3434268e348a5ef409fbe0db27d6776721b71ff",
+      "reason": "Replace only Leo exterior with a stone lion citadel, preserving all controls, grounded physics, other building artwork and old atlas reservations. Refresh shared producer and public route receipts."
+    },
+    {
+      "path": "world/layouts/campus-exploration.json",
+      "fromSha256": "d2be4b66b70696b34837453ebf71626b26085065b948ab4e65ff5485aa1db47f",
+      "toSha256": "adc6f5de38bb839708a449a5f2e6cb8299a8d4a3daab4a8ff4d7d432c37bc6a0",
+      "reason": "Replace only Leo exterior with a stone lion citadel, preserving all controls, grounded physics, other building artwork and old atlas reservations. Refresh shared producer and public route receipts."
+    },
+    {
+      "path": "world/layouts/comet-maze.json",
+      "fromSha256": "d18cf836711b28fa66d3a330f45d1b82b4779453b0757f1231f979bfef026fa5",
+      "toSha256": "210242711a84a35bb9ddb4276e07a040d5e01d8ecdabe557400f41094adc1486",
+      "reason": "Replace only Leo exterior with a stone lion citadel, preserving all controls, grounded physics, other building artwork and old atlas reservations. Refresh shared producer and public route receipts."
+    },
+    {
+      "path": "world/layouts/earth-district.json",
+      "fromSha256": "e3da661eb702ce77c5be55e0c09d1a0471ea5fab681c860072882bc8e9482676",
+      "toSha256": "1e27d38f7e14743b11bea924d3d87fe86995e137e3c698819fc5c5cb67a6c608",
+      "reason": "Replace only Leo exterior with a stone lion citadel, preserving all controls, grounded physics, other building artwork and old atlas reservations. Refresh shared producer and public route receipts."
+    },
+    {
+      "path": "world/layouts/fa-ship.json",
+      "fromSha256": "7e9c7e627a3aa78bb3f6c5cc86d8951ad8982e32f7ddc652cb824e7fbdc2d347",
+      "toSha256": "dbb61ec40359775d2efcf7fc4fbdb6930f4a916301a0d92bd3974515147c2bc3",
+      "reason": "Replace only Leo exterior with a stone lion citadel, preserving all controls, grounded physics, other building artwork and old atlas reservations. Refresh shared producer and public route receipts."
+    },
+    {
+      "path": "world/layouts/fire-district.json",
+      "fromSha256": "d46dee0b54fb31d5b24a447a222eef1e93916d7032659d5d85686af74933b0e2",
+      "toSha256": "ca0a4022638aec508b528e55c9b35a1ce008fd0cfb038b536b426f8e615ba74d",
+      "reason": "Replace only Leo exterior with a stone lion citadel, preserving all controls, grounded physics, other building artwork and old atlas reservations. Refresh shared producer and public route receipts."
+    },
+    {
+      "path": "world/layouts/hidden-observatory.json",
+      "fromSha256": "ec1660ee35f42d123c9eb3a44492018125f50054b883f7f2c2f1d5eef162c717",
+      "toSha256": "c4020cfa7a0afc4cc4b8b9d3db927def899f94648c2786cbc1b53ffa8bcf2974",
+      "reason": "Replace only Leo exterior with a stone lion citadel, preserving all controls, grounded physics, other building artwork and old atlas reservations. Refresh shared producer and public route receipts."
+    },
+    {
+      "path": "world/layouts/moon-cafe.json",
+      "fromSha256": "7519c863d7f8419676183f4114b026b8ee40483e81d4e4c65a73d7e2d4b95192",
+      "toSha256": "eb4f486fdffbac263ebf2ff8e319d06d466da9d7bc1e741bf37138fc99d95933",
+      "reason": "Replace only Leo exterior with a stone lion citadel, preserving all controls, grounded physics, other building artwork and old atlas reservations. Refresh shared producer and public route receipts."
+    },
+    {
+      "path": "world/layouts/moon-grotto.json",
+      "fromSha256": "b3f762676aa1571d50da3391ab9c8c3f0f7bf13efa4dd5ffcbecd329ad6cb43b",
+      "toSha256": "e20bcf673dbd8fa1a758c7bf775afc4797e865e3e1cfccb0565ff8a62c1a7252",
+      "reason": "Replace only Leo exterior with a stone lion citadel, preserving all controls, grounded physics, other building artwork and old atlas reservations. Refresh shared producer and public route receipts."
+    },
+    {
+      "path": "world/layouts/nebula-arcade.json",
+      "fromSha256": "21a5eac1aa307d82edec3dbe1b32088bddeb7a400725fe6ab8cc6da1c030f8cb",
+      "toSha256": "258b2c04e3c60062d5c825113ce93ed1e9e3e724b99f77a69be02c12740fd2d8",
+      "reason": "Replace only Leo exterior with a stone lion citadel, preserving all controls, grounded physics, other building artwork and old atlas reservations. Refresh shared producer and public route receipts."
+    },
+    {
+      "path": "world/layouts/orbit-maze.json",
+      "fromSha256": "8e2f3ea02b6a51e8b7a0dea0c757463e1038058761be49fd6d6ed4bfacc4c9eb",
+      "toSha256": "6b668f8c54ebb303fe5bbe163e249b8b1a788ce9fae563886787fed74da48fdd",
+      "reason": "Replace only Leo exterior with a stone lion citadel, preserving all controls, grounded physics, other building artwork and old atlas reservations. Refresh shared producer and public route receipts."
+    },
+    {
+      "path": "world/layouts/orbit-playground.json",
+      "fromSha256": "0c57c789313a55fb21ca37106b539796585cfe8d947c7127562ce1be9ec4effc",
+      "toSha256": "67e8a60b685b494f8063acff0c30ca786f1e619c3acc489427296d9ec5dad5ff",
+      "reason": "Replace only Leo exterior with a stone lion citadel, preserving all controls, grounded physics, other building artwork and old atlas reservations. Refresh shared producer and public route receipts."
+    },
+    {
+      "path": "world/layouts/overworld.json",
+      "fromSha256": "3ff45adcc5004051e5821af0d4eb163830e1938f62ebe30eddb810aba26968fb",
+      "toSha256": "5378c18e05bc91354ccedc9c7e90f264d3218730769e59d115497d61ca44f187",
+      "reason": "Replace only Leo exterior with a stone lion citadel, preserving all controls, grounded physics, other building artwork and old atlas reservations. Refresh shared producer and public route receipts."
+    },
+    {
+      "path": "world/layouts/star-garden.json",
+      "fromSha256": "e56fa883849536ae7f517ffc1c3b56146569c098798e809d9861bc4f36d97841",
+      "toSha256": "2930a472a7c605586f9dfa2692084c47f4af0d5c4b9d6b9edd3b9c66b852f707",
+      "reason": "Replace only Leo exterior with a stone lion citadel, preserving all controls, grounded physics, other building artwork and old atlas reservations. Refresh shared producer and public route receipts."
+    },
+    {
+      "path": "world/layouts/stargazer-terrace.json",
+      "fromSha256": "7ac71d78ff6136c6d1a95bad79fdddc476625e335c3938236d79efef17913124",
+      "toSha256": "ff920bd14973ebb69e5bcccfa9de6d51b64e100f2cba10bc209b3d589f0d1cf4",
+      "reason": "Replace only Leo exterior with a stone lion citadel, preserving all controls, grounded physics, other building artwork and old atlas reservations. Refresh shared producer and public route receipts."
+    },
+    {
+      "path": "world/layouts/water-district.json",
+      "fromSha256": "d35174057a6155aca82f05b64a912d14d39f3199df719b80c5cbbd04aff8b331",
+      "toSha256": "c29c65202c7b6044db2c877d340addc0d5b6f961e48375fcddef8cc35d906082",
+      "reason": "Replace only Leo exterior with a stone lion citadel, preserving all controls, grounded physics, other building artwork and old atlas reservations. Refresh shared producer and public route receipts."
+    },
+    {
+      "path": "world/layouts/zodiac-festival-park.json",
+      "fromSha256": "f879af36c19070219cc7bbce2fb36f41405aa3c226e23dfdac2881ac24a99904",
+      "toSha256": "9e0008264935b8c6bd7b58888f8ca8ec1eb53bf4afd0078e9724ddd1a675fdd7",
+      "reason": "Replace only Leo exterior with a stone lion citadel, preserving all controls, grounded physics, other building artwork and old atlas reservations. Refresh shared producer and public route receipts."
+    }
+  ]
+}

@@ -1,6 +1,7 @@
 import {checkPlazaPatrolArt} from './plaza-patrol';
 import {checkFountainMotionArt} from './fountain-motion';
 import {checkLeoLionHeadArt} from './leo-lion-head';
+import {checkLeoCitadelArt} from './leo-citadel';
 import {checkHallBuildingsArt} from './hall-buildings';
 import{checkStandingCaptionArt}from'./standing-captions';
 import {checkTropicalCoveArt} from './tropical-cove';
@@ -43,6 +44,7 @@ export async function checkArt(catalog: TileCatalog = loadTileCatalog()): Promis
   await checkHarbourPlane();
   await checkArcadeScreenArt();
   const sources=JSON.parse(readFileSync('art/sources.json','utf8')) as Record<string,SourceRecord>;
+  await checkLeoCitadelArt(catalog,sources);
   // Reject an incomplete mandatory family before evaluating dependent artwork.
   // This remains unconditional even when all fleet registry rows are removed.
   const fleetErrors=await checkPlazaFleetArt(sources);
