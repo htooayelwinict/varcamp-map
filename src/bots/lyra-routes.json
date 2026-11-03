@@ -2,8 +2,8 @@
   "provenance": {
     "proposalSha256": "a071e0c81c18ad4b1d759f8c246384fc50032e6e3b7c395413246b9858958282",
     "sourceSha256": {
-      "world/layouts/overworld.json": "5378c18e05bc91354ccedc9c7e90f264d3218730769e59d115497d61ca44f187",
-      "maps/overworld.tmj": "7336e7483cfd64553420fb8b669635398105f72881c72c9cbcbc6dd8a1c72acb",
+      "world/layouts/overworld.json": "8999e7d8605f970ae4e7b4738d594f7152cf4ed627e60823b820c129dd2b8cf4",
+      "maps/overworld.tmj": "4d52d5ebdc02ed7b1761a3ed2a3bf6d2d8d8e6d011d2afa786b933c5187d9685",
       "maps/overworld.wam": "34912c410e77b9ce32c356275f585a5b8f444187b8f447d346f7542bbe159eff",
       "tests/exterior-gates.test.ts": "eeaf05f4e7311d7bf8053609a7221d63dbc60d6b0493cfa513278a77339f84da",
       "tests/npc-maps.test.ts": "9e0951890a877421e27e13127a1d2243b057c1e89559276d4e5d43d321c8ea57",
@@ -11,7 +11,7 @@
       "tests/helpers/editor-catalog-history.ts": "b6668f1d84d6c028c1cba99d2ff3e936c241a030edbddb061a222168711eb7ee",
       "world/editor-collections.json": "024e7de19bc32d573b6bb79b77e013e153584ebbfb413436b9991fd467452fc0",
       "tests/helpers/physical-prop-contracts.ts": "9ac76984fe6fe3e32514aeb755b1317dda180ffac4efa656c51f513eadf57972",
-      "art/tile-catalog.json": "f4972b5881e0634240ca801cfc0782154e1b7500aff11862268444d2e9c46898",
+      "art/tile-catalog.json": "ad5f3d1d8fb656c6c34db585cf81601fe88cc84b33b6e982b209d4bbb6eba529",
       "tools/bots/route-audit.ts": "47671835b82b951cde24acfd95478be8d5b770f080e7e4b8726208cb28a67cf0",
       "tests/guide-route-audit.test.ts": "2aafc9f2cf8f22504c452668b36030bebb8ca4a3dce7fa44721d4390eb8a5d6f",
       "src/bots/map-guard.ts": "9ee1397f8886e7f11e723f3ee3b7e011692b6352481dd83503739455f7055c15",
@@ -57,10 +57,10 @@
       "tools/maps/maze-gate-context.ts": "c037c2de5058365087839c3208244360e4d80bffae0aec98e2263974807fc350",
       "art/source/maze-gate-refresh.json": "44a807922c89b3bf6c46ade6d4578ed3a304c9dbfac0e2215fdbe24434ad1b19",
       "tools/maps/expo-chair-physics.ts": "ee0fed3318613b75d9565a413c1e725ba3849994a147854a442b6a09701607e9",
-      "tools/maps/plaza-native.ts": "8c67eaa37e539322f910b7424604d57ae1c0fcc32bad6010b7bea6787a06fb19",
+      "tools/maps/plaza-native.ts": "15b472338dd802f767f719eaff6d3c531548e9237edaa0b5048afc572fa8f495",
       "tools/maps/check-in-definition.ts": "269d398c6a4f8c8f2760361dd67a107e34d9d4c064ea511b7bbce979c7a6123f",
       "world/check-in-counter.json": "866948b4bb574d6484d33fd672b1f6888a052fa1e2b0d84b70be71833d671a32",
-      "tools/maps/event-presentation.ts": "c602abcb4f0a13e31cbac441923d9de2651b537d30abfc46d1a55f53fb40f15b",
+      "tools/maps/event-presentation.ts": "b7af0160f821f61ffa2ba35e13b3d7224f5207ee62498979cbe131786f70777c",
       "tools/maps/event-native-context.ts": "3f1e3ace564feb1e2056a8e7ac924686d944b5f0f02ae7a48d8e7c422e460fd8",
       "world/event-presentation.json": "36bfa30e29be41bcef6fccb0606ce6bc14b9d182f22cc5f2e3e9b97e6d7aa400",
       "world/event-native-reservations.json": "44e6801550887db382e3157499728c3649ac617d890bafa49e1631b11331ff63",
@@ -96,10 +96,13 @@
       "src/playground/course.ts": "9ae77b464d1a390b3289dc7c384af1995c2bf18e7142d0969c4209e59c99c68d",
       "tools/maps/leo-citadel.ts": "55efd78b3b03f3ad217aaa96481b5744e4de3cdb00e139d3bb47941809b284dc",
       "world/leo-citadel.json": "2941e82d0da3c66e93e45b0a4ffb9a02ecbfdb52f333d6c2e4d9cbae0e642174",
-      "tools/art/leo-citadel.ts": "f32e7ff13a73e0ad77c1b3b57f3e1c47f85e722af4ce294aadb12ac337848426"
+      "tools/art/leo-citadel.ts": "f32e7ff13a73e0ad77c1b3b57f3e1c47f85e722af4ce294aadb12ac337848426",
+      "tools/maps/cancer-citadel.ts": "6ae78e027caf68f5555265a5f1a485e7df4ddb14aab7a43943a158d710ded787",
+      "world/cancer-citadel.json": "07d0273708a9e25f07673705afa4fec9a0ec8a786c2db49db70572c708abe166",
+      "tools/art/cancer-citadel.ts": "c94ae7d7c05ca8302b4458cae97e0fd7b17ba9f44d07368c4cca3c87d6044d1e"
     },
     "allowedCellsSha256": "34d4a7f34610d0b669b9f059086557e03aec0f379cf28c832797a279cc07061d",
-    "geometrySha256": "ad5023bc00d8e9d79ac9c0b46cedf179366bf6739b8b5dfb0be917a5263f3f39",
+    "geometrySha256": "5497bd0a4b489e02f969b08f453947ce7bb886a3fd2f3d648340c7af757ab121",
     "geometryEncoding": "Sorted-key JSON of width,height,tilewidth,tileheight,layers with objectgroup class omitted only when identical to nonempty object type,tilesets excluding image,properties excluding script; UTF-8 SHA-256."
   },
   "home": [

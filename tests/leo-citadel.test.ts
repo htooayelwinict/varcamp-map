@@ -29,7 +29,8 @@ describe('Leo citadel exterior',()=>{
  it('preserves all campus controls and old atlas reservations',()=>{
   const m=read('maps/overworld.tmj') as TiledMap,r=read('world/leo-citadel.json');
   for(const[name,digest]of Object.entries(r.protectedLayers))expect(sha(m.layers.find(l=>l.name===name)),name).toBe(digest);
-  expect(sha(m.tilesets.slice(0,-1))).toBe(r.priorAtlasesSha256);
-  expect(m.tilesets.at(-1)?.image).toBe('../assets/tilesets/original/leo-citadel.png');
+  const index=m.tilesets.findIndex(t=>t.image==='../assets/tilesets/original/leo-citadel.png');
+  expect(index).toBe(104);
+  expect(sha(m.tilesets.slice(0,index))).toBe(r.priorAtlasesSha256);
  });
 });

@@ -2355,7 +2355,7 @@
           },
           {
             "path": "tools/maps/native-ownership-context.ts",
-            "sha256": "db9292279f7322ec52e6ccd228178409b5fabe9727b6b1ebdd9502cc48085e9e"
+            "sha256": "2ffa7364b5951f0faf7db3ae13128531ce65caa153180058c9c24e9e6b0c4c79"
           },
           {
             "path": "art/source/native-ownership-context.json",
@@ -2811,7 +2811,7 @@
           },
           {
             "path": "tools/maps/native-ownership-context.ts",
-            "sha256": "db9292279f7322ec52e6ccd228178409b5fabe9727b6b1ebdd9502cc48085e9e"
+            "sha256": "2ffa7364b5951f0faf7db3ae13128531ce65caa153180058c9c24e9e6b0c4c79"
           },
           {
             "path": "art/source/native-ownership-context.json",

@@ -1,0 +1,143 @@
+{
+  "schemaVersion": 1,
+  "revisions": [
+    {
+      "path": "art/sources.json",
+      "fromSha256": "70f37e239a321080dd5795cbaa7c5c534f7afd2962ed4fcb872b842edaa3eb24",
+      "toSha256": "bc80b8e853de8aeff65420db776a704b399d27e869c2526022138144c1dad84b",
+      "reason": "Review the fourteen zodiac and hall exteriors; replace only Cancer with a coastal crab citadel. Preserve all controls, grounded physics, other building artwork and old atlas reservations. Refresh shared producer and public route receipts."
+    },
+    {
+      "path": "art/tile-catalog.json",
+      "fromSha256": "f4972b5881e0634240ca801cfc0782154e1b7500aff11862268444d2e9c46898",
+      "toSha256": "ad5f3d1d8fb656c6c34db585cf81601fe88cc84b33b6e982b209d4bbb6eba529",
+      "reason": "Review the fourteen zodiac and hall exteriors; replace only Cancer with a coastal crab citadel. Preserve all controls, grounded physics, other building artwork and old atlas reservations. Refresh shared producer and public route receipts."
+    },
+    {
+      "path": "maps/overworld.tmj",
+      "fromSha256": "7336e7483cfd64553420fb8b669635398105f72881c72c9cbcbc6dd8a1c72acb",
+      "toSha256": "4d52d5ebdc02ed7b1761a3ed2a3bf6d2d8d8e6d011d2afa786b933c5187d9685",
+      "reason": "Review the fourteen zodiac and hall exteriors; replace only Cancer with a coastal crab citadel. Preserve all controls, grounded physics, other building artwork and old atlas reservations. Refresh shared producer and public route receipts."
+    },
+    {
+      "path": "maps/preview/overworld.tmj",
+      "fromSha256": "87fdbf964b1c344e2c47ad36b0374093100d25d828722c106abbf5b111779cd6",
+      "toSha256": "158caf2bc44bc2befb29db2ca4e74da0db979a7daaed92004521ca88459efab2",
+      "reason": "Review the fourteen zodiac and hall exteriors; replace only Cancer with a coastal crab citadel. Preserve all controls, grounded physics, other building artwork and old atlas reservations. Refresh shared producer and public route receipts."
+    },
+    {
+      "path": "tools/art/check.ts",
+      "fromSha256": "5c7874d2f6bd81661d1bcd920cd633a32685664836a774b8a31abd52bd01586a",
+      "toSha256": "773086c82cf3c810a5d975068bc06b5ae68a42724ba72389c373e9fdb1119053",
+      "reason": "Review the fourteen zodiac and hall exteriors; replace only Cancer with a coastal crab citadel. Preserve all controls, grounded physics, other building artwork and old atlas reservations. Refresh shared producer and public route receipts."
+    },
+    {
+      "path": "tools/release.ts",
+      "fromSha256": "66f887dae2f56843b230d2a21454a752fd6c83763c364483925a24adb2e25a3f",
+      "toSha256": "3779b894caebbd45c60085fbac29b323bb2c6dbf81102f6d9acb64175d17c96f",
+      "reason": "Review the fourteen zodiac and hall exteriors; replace only Cancer with a coastal crab citadel. Preserve all controls, grounded physics, other building artwork and old atlas reservations. Refresh shared producer and public route receipts."
+    },
+    {
+      "path": "world/layouts/air-district.json",
+      "fromSha256": "36d0e858c9fb099bc332e588d3434268e348a5ef409fbe0db27d6776721b71ff",
+      "toSha256": "53e893164ad463c0f0b629839a986266145e7c28777d85fe210b6dbdb81f66cb",
+      "reason": "Review the fourteen zodiac and hall exteriors; replace only Cancer with a coastal crab citadel. Preserve all controls, grounded physics, other building artwork and old atlas reservations. Refresh shared producer and public route receipts."
+    },
+    {
+      "path": "world/layouts/campus-exploration.json",
+      "fromSha256": "adc6f5de38bb839708a449a5f2e6cb8299a8d4a3daab4a8ff4d7d432c37bc6a0",
+      "toSha256": "ed4d34c2e47cc806565f5fa15dd27d0ed62820fcf750247f3cacb0102523ed7e",
+      "reason": "Review the fourteen zodiac and hall exteriors; replace only Cancer with a coastal crab citadel. Preserve all controls, grounded physics, other building artwork and old atlas reservations. Refresh shared producer and public route receipts."
+    },
+    {
+      "path": "world/layouts/comet-maze.json",
+      "fromSha256": "210242711a84a35bb9ddb4276e07a040d5e01d8ecdabe557400f41094adc1486",
+      "toSha256": "f3127ee5a2ee9b236136243e5edbaeaae17fc74b322fbfbf3deca1dff01009b6",
+      "reason": "Review the fourteen zodiac and hall exteriors; replace only Cancer with a coastal crab citadel. Preserve all controls, grounded physics, other building artwork and old atlas reservations. Refresh shared producer and public route receipts."
+    },
+    {
+      "path": "world/layouts/earth-district.json",
+      "fromSha256": "1e27d38f7e14743b11bea924d3d87fe86995e137e3c698819fc5c5cb67a6c608",
+      "toSha256": "8f97241e5cfb8265d3b59f8aa6504342975484e0653069b9ba3583381a56dc0d",
+      "reason": "Review the fourteen zodiac and hall exteriors; replace only Cancer with a coastal crab citadel. Preserve all controls, grounded physics, other building artwork and old atlas reservations. Refresh shared producer and public route receipts."
+    },
+    {
+      "path": "world/layouts/fa-ship.json",
+      "fromSha256": "dbb61ec40359775d2efcf7fc4fbdb6930f4a916301a0d92bd3974515147c2bc3",
+      "toSha256": "98de6f2ee4e5d55cc23dba2c40e674e71763cc74b642ba075f1e7b99adbb037c",
+      "reason": "Review the fourteen zodiac and hall exteriors; replace only Cancer with a coastal crab citadel. Preserve all controls, grounded physics, other building artwork and old atlas reservations. Refresh shared producer and public route receipts."
+    },
+    {
+      "path": "world/layouts/fire-district.json",
+      "fromSha256": "ca0a4022638aec508b528e55c9b35a1ce008fd0cfb038b536b426f8e615ba74d",
+      "toSha256": "c768762effc8be7b87ffb1ef8a613f585c2e898b38fc7db4ea5302f15013f744",
+      "reason": "Review the fourteen zodiac and hall exteriors; replace only Cancer with a coastal crab citadel. Preserve all controls, grounded physics, other building artwork and old atlas reservations. Refresh shared producer and public route receipts."
+    },
+    {
+      "path": "world/layouts/hidden-observatory.json",
+      "fromSha256": "c4020cfa7a0afc4cc4b8b9d3db927def899f94648c2786cbc1b53ffa8bcf2974",
+      "toSha256": "0761263888cdca4d43cbc605f7c227810ba3dac18fc8bf6de94e7f415162979e",
+      "reason": "Review the fourteen zodiac and hall exteriors; replace only Cancer with a coastal crab citadel. Preserve all controls, grounded physics, other building artwork and old atlas reservations. Refresh shared producer and public route receipts."
+    },
+    {
+      "path": "world/layouts/moon-cafe.json",
+      "fromSha256": "eb4f486fdffbac263ebf2ff8e319d06d466da9d7bc1e741bf37138fc99d95933",
+      "toSha256": "a3883f1b944d115857491d9c83b59183ffa245302d855eca39a0e35bbdde12d3",
+      "reason": "Review the fourteen zodiac and hall exteriors; replace only Cancer with a coastal crab citadel. Preserve all controls, grounded physics, other building artwork and old atlas reservations. Refresh shared producer and public route receipts."
+    },
+    {
+      "path": "world/layouts/moon-grotto.json",
+      "fromSha256": "e20bcf673dbd8fa1a758c7bf775afc4797e865e3e1cfccb0565ff8a62c1a7252",
+      "toSha256": "c6d070b5dacf128b05ca70a5134158b5a5d7216823d21afcf87f64d4aa2477f9",
+      "reason": "Review the fourteen zodiac and hall exteriors; replace only Cancer with a coastal crab citadel. Preserve all controls, grounded physics, other building artwork and old atlas reservations. Refresh shared producer and public route receipts."
+    },
+    {
+      "path": "world/layouts/nebula-arcade.json",
+      "fromSha256": "258b2c04e3c60062d5c825113ce93ed1e9e3e724b99f77a69be02c12740fd2d8",
+      "toSha256": "8715a521c59593e730184ae01ef493c948caa79cfb1120d297118967181264c9",
+      "reason": "Review the fourteen zodiac and hall exteriors; replace only Cancer with a coastal crab citadel. Preserve all controls, grounded physics, other building artwork and old atlas reservations. Refresh shared producer and public route receipts."
+    },
+    {
+      "path": "world/layouts/orbit-maze.json",
+      "fromSha256": "6b668f8c54ebb303fe5bbe163e249b8b1a788ce9fae563886787fed74da48fdd",
+      "toSha256": "687964070cb1cb5271df7aed9628d55f90b4d609968f241224ef549afd5804bb",
+      "reason": "Review the fourteen zodiac and hall exteriors; replace only Cancer with a coastal crab citadel. Preserve all controls, grounded physics, other building artwork and old atlas reservations. Refresh shared producer and public route receipts."
+    },
+    {
+      "path": "world/layouts/orbit-playground.json",
+      "fromSha256": "67e8a60b685b494f8063acff0c30ca786f1e619c3acc489427296d9ec5dad5ff",
+      "toSha256": "3cb5f70a45578bc2ff6069eaaeac3c1644a1c9a9a20195357c53a749ad3d02be",
+      "reason": "Review the fourteen zodiac and hall exteriors; replace only Cancer with a coastal crab citadel. Preserve all controls, grounded physics, other building artwork and old atlas reservations. Refresh shared producer and public route receipts."
+    },
+    {
+      "path": "world/layouts/overworld.json",
+      "fromSha256": "5378c18e05bc91354ccedc9c7e90f264d3218730769e59d115497d61ca44f187",
+      "toSha256": "8999e7d8605f970ae4e7b4738d594f7152cf4ed627e60823b820c129dd2b8cf4",
+      "reason": "Review the fourteen zodiac and hall exteriors; replace only Cancer with a coastal crab citadel. Preserve all controls, grounded physics, other building artwork and old atlas reservations. Refresh shared producer and public route receipts."
+    },
+    {
+      "path": "world/layouts/star-garden.json",
+      "fromSha256": "2930a472a7c605586f9dfa2692084c47f4af0d5c4b9d6b9edd3b9c66b852f707",
+      "toSha256": "bf2da45ff1144f45b7a44849601172679763b5cea4b6a63dea212b51c9050fb7",
+      "reason": "Review the fourteen zodiac and hall exteriors; replace only Cancer with a coastal crab citadel. Preserve all controls, grounded physics, other building artwork and old atlas reservations. Refresh shared producer and public route receipts."
+    },
+    {
+      "path": "world/layouts/stargazer-terrace.json",
+      "fromSha256": "ff920bd14973ebb69e5bcccfa9de6d51b64e100f2cba10bc209b3d589f0d1cf4",
+      "toSha256": "3b59286ea88a57f3fc9f5eab3ebb6e66d9a814920c06450898c754aaf4fb20ed",
+      "reason": "Review the fourteen zodiac and hall exteriors; replace only Cancer with a coastal crab citadel. Preserve all controls, grounded physics, other building artwork and old atlas reservations. Refresh shared producer and public route receipts."
+    },
+    {
+      "path": "world/layouts/water-district.json",
+      "fromSha256": "c29c65202c7b6044db2c877d340addc0d5b6f961e48375fcddef8cc35d906082",
+      "toSha256": "cac9954f6e8503378651d2855f9b73ddf62c6563732f8472de37ccdbfe05341f",
+      "reason": "Review the fourteen zodiac and hall exteriors; replace only Cancer with a coastal crab citadel. Preserve all controls, grounded physics, other building artwork and old atlas reservations. Refresh shared producer and public route receipts."
+    },
+    {
+      "path": "world/layouts/zodiac-festival-park.json",
+      "fromSha256": "9e0008264935b8c6bd7b58888f8ca8ec1eb53bf4afd0078e9724ddd1a675fdd7",
+      "toSha256": "d745863a56c3aecf15a51b3638e010620081cb8f914a7aec33119e4af612e64b",
+      "reason": "Review the fourteen zodiac and hall exteriors; replace only Cancer with a coastal crab citadel. Preserve all controls, grounded physics, other building artwork and old atlas reservations. Refresh shared producer and public route receipts."
+    }
+  ]
+}

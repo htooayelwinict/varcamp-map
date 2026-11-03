@@ -2,6 +2,7 @@ import {navigationProtectedLayers,navigationAtlases} from './harbour-navigation-
 import {parkArcadeProtectedLayers,parkArcadeAtlases,isParkLampSource} from './park-arcade-context';
 import {playgroundProtectedLayers} from './playground-context';
 import {leoCitadelAtlases,leoCitadelContextSource} from './leo-citadel';
+import {cancerCitadelAtlases} from './cancer-citadel';
 import {VIBECODE_IMAGE,VIBECODE_CAPTION_IMAGE} from '../art/vibecode';
 import{isDeepStrictEqual}from'node:util';
 import registered from'../../art/source/native-ownership-context.json';
@@ -287,6 +288,7 @@ function currentAtlases(row:ContextRow,source:TiledMap,epoch:Epoch=CURRENT,inclu
  expected.push(...navigationAtlases(identities(source)[0]));
  expected.push(...parkArcadeAtlases(identities(source)[0]));
  expected.push(...leoCitadelAtlases(source,Math.max(...expected.map(t=>t.firstgid+t.tilecount!))));
+ expected.push(...cancerCitadelAtlases(source,Math.max(...expected.map(t=>t.firstgid+t.tilecount!))));
  return expected;
 }
 /** Mandatory final current context: complete atlas roster/order/bodies/ranges,
@@ -307,6 +309,7 @@ export function assertNativeAuthoringContext(actual:TiledMap,source:TiledMap):vo
  const expected=currentAtlases(row,source);
  if(isDeepStrictEqual(actual.tilesets,row.atlases))return;
  if(isDeepStrictEqual(actual.tilesets,expected))return;
+ if(cancerCitadelAtlases(source,0).length===1&&isDeepStrictEqual(actual.tilesets,expected.slice(0,-1)))return;
  if(leoCitadelAtlases(source,0).length===1&&isDeepStrictEqual(actual.tilesets,expected.slice(0,-1)))return;
  const parkCount=parkArcadeAtlases(identities(source)[0]).length;
  if(parkCount&&isDeepStrictEqual(actual.tilesets,expected.slice(0,-parkCount)))return;

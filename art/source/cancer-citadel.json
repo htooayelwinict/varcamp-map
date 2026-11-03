@@ -1,0 +1,205 @@
+{
+  "version": 1,
+  "master": {
+    "path": "art/source/cancer-citadel/generated-master.png",
+    "sha256": "c214dd1c6e16a1e7434038b8cc88dcf9648a856c743345ec39d424584bcb9efe"
+  },
+  "crop": {
+    "left": 19,
+    "top": 184,
+    "width": 1216,
+    "height": 927
+  },
+  "target": {
+    "x": 0,
+    "y": 91,
+    "width": 384,
+    "height": 293
+  },
+  "operation": "Uniform nearest fit, centered at south edge, preserve complete silhouette, alpha below192 cleared",
+  "image": {
+    "path": "assets/tilesets/original/cancer-citadel.png",
+    "sha256": "074f474759586d1974cfce43b31e5a088e3f1853363700bce995c2e8e54d1ee1"
+  },
+  "sprite": {
+    "sheet": "assets/tilesets/original/cancer-citadel.png",
+    "rect": {
+      "x": 0,
+      "y": 0,
+      "width": 12,
+      "height": 12
+    },
+    "blockingCells": [
+      [
+        0,
+        8
+      ],
+      [
+        1,
+        8
+      ],
+      [
+        2,
+        8
+      ],
+      [
+        3,
+        8
+      ],
+      [
+        4,
+        8
+      ],
+      [
+        5,
+        8
+      ],
+      [
+        6,
+        8
+      ],
+      [
+        7,
+        8
+      ],
+      [
+        8,
+        8
+      ],
+      [
+        9,
+        8
+      ],
+      [
+        10,
+        8
+      ],
+      [
+        11,
+        8
+      ],
+      [
+        0,
+        9
+      ],
+      [
+        1,
+        9
+      ],
+      [
+        2,
+        9
+      ],
+      [
+        3,
+        9
+      ],
+      [
+        4,
+        9
+      ],
+      [
+        7,
+        9
+      ],
+      [
+        8,
+        9
+      ],
+      [
+        9,
+        9
+      ],
+      [
+        10,
+        9
+      ],
+      [
+        11,
+        9
+      ],
+      [
+        0,
+        10
+      ],
+      [
+        1,
+        10
+      ],
+      [
+        2,
+        10
+      ],
+      [
+        3,
+        10
+      ],
+      [
+        4,
+        10
+      ],
+      [
+        7,
+        10
+      ],
+      [
+        8,
+        10
+      ],
+      [
+        9,
+        10
+      ],
+      [
+        10,
+        10
+      ],
+      [
+        11,
+        10
+      ],
+      [
+        0,
+        11
+      ],
+      [
+        1,
+        11
+      ],
+      [
+        2,
+        11
+      ],
+      [
+        3,
+        11
+      ],
+      [
+        4,
+        11
+      ],
+      [
+        7,
+        11
+      ],
+      [
+        8,
+        11
+      ],
+      [
+        9,
+        11
+      ],
+      [
+        10,
+        11
+      ],
+      [
+        11,
+        11
+      ]
+    ],
+    "level": "aboveAvatar",
+    "sourceId": "cancer-citadel"
+  }
+}
