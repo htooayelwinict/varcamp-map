@@ -1291,11 +1291,11 @@
       "inputs": [
         {
           "path": "art/source/outer-security-flight.json",
-          "sha256": "7229cc76531f33b7577f68745447d76b2d263bf246ede00c52efb8d1168cf16e"
+          "sha256": "ea567285b63976b36f62e0c01c3aac47db6f7b235d76c29d7273c25645969a0e"
         },
         {
           "path": "tools/art/outer-security.ts",
-          "sha256": "247de6726704caa9649abb4a8fca2fc82f551bd2bf6367cae9b9c45648e22986"
+          "sha256": "038c2632762c40448676db369246ef96e4742a183103c2b346d30ab7b4217ffa"
         },
         {
           "path": "tools/art/native-motion.ts",

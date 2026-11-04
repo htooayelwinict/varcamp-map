@@ -5,36 +5,55 @@
     "image": "assets/tilesets/original/outer-security-48.png",
     "sourceId": "outer-security",
     "level": "aboveScenery",
-    "x": 41,
+    "x": 38,
     "y": 120,
-    "width": 7,
-    "height": 3,
+    "width": 10,
+    "height": 4,
     "carrierTileIds": [
-      26,
-      27,
-      28,
-      29,
-      30,
-      31,
-      32,
-      33,
-      34,
-      35,
-      36,
-      37,
-      38,
-      39,
-      40,
-      41,
-      42,
-      43,
-      44,
-      45,
-      46
+      52,
+      53,
+      54,
+      55,
+      56,
+      57,
+      58,
+      59,
+      60,
+      61,
+      62,
+      63,
+      64,
+      65,
+      66,
+      67,
+      68,
+      69,
+      70,
+      71,
+      72,
+      73,
+      74,
+      75,
+      76,
+      77,
+      78,
+      79,
+      80,
+      81,
+      82,
+      83,
+      84,
+      85,
+      86,
+      87,
+      88,
+      89,
+      90,
+      91
     ],
     "animations": [
       {
-        "id": 26,
+        "id": 52,
         "frames": [
           {
             "tileid": 0,
@@ -43,7 +62,7 @@
         ]
       },
       {
-        "id": 27,
+        "id": 53,
         "frames": [
           {
             "tileid": 0,
@@ -52,14 +71,44 @@
         ]
       },
       {
-        "id": 28,
+        "id": 54,
         "frames": [
           {
             "tileid": 0,
-            "duration": 76200
+            "duration": 120000
+          }
+        ]
+      },
+      {
+        "id": 55,
+        "frames": [
+          {
+            "tileid": 0,
+            "duration": 120000
+          }
+        ]
+      },
+      {
+        "id": 56,
+        "frames": [
+          {
+            "tileid": 0,
+            "duration": 75600
           },
           {
-            "tileid": 2,
+            "tileid": 1,
+            "duration": 200
+          },
+          {
+            "tileid": 0,
+            "duration": 200
+          },
+          {
+            "tileid": 5,
+            "duration": 200
+          },
+          {
+            "tileid": 9,
             "duration": 200
           },
           {
@@ -69,14 +118,14 @@
         ]
       },
       {
-        "id": 29,
+        "id": 57,
         "frames": [
           {
             "tileid": 0,
-            "duration": 76000
+            "duration": 75600
           },
           {
-            "tileid": 1,
+            "tileid": 2,
             "duration": 200
           },
           {
@@ -84,40 +133,11 @@
             "duration": 200
           },
           {
-            "tileid": 5,
-            "duration": 200
-          },
-          {
-            "tileid": 8,
-            "duration": 200
-          },
-          {
-            "tileid": 0,
-            "duration": 43200
-          }
-        ]
-      },
-      {
-        "id": 30,
-        "frames": [
-          {
-            "tileid": 0,
-            "duration": 76200
-          },
-          {
-            "tileid": 4,
-            "duration": 200
-          },
-          {
             "tileid": 6,
             "duration": 200
           },
           {
-            "tileid": 9,
-            "duration": 200
-          },
-          {
-            "tileid": 11,
+            "tileid": 10,
             "duration": 200
           },
           {
@@ -126,27 +146,27 @@
           },
           {
             "tileid": 0,
-            "duration": 42800
+            "duration": 43400
           }
         ]
       },
       {
-        "id": 31,
+        "id": 58,
         "frames": [
           {
             "tileid": 0,
-            "duration": 76400
+            "duration": 75800
+          },
+          {
+            "tileid": 4,
+            "duration": 200
           },
           {
             "tileid": 7,
             "duration": 200
           },
           {
-            "tileid": 10,
-            "duration": 200
-          },
-          {
-            "tileid": 12,
+            "tileid": 11,
             "duration": 200
           },
           {
@@ -154,7 +174,52 @@
             "duration": 200
           },
           {
+            "tileid": 18,
+            "duration": 200
+          },
+          {
+            "tileid": 24,
+            "duration": 200
+          },
+          {
+            "tileid": 0,
+            "duration": 43000
+          }
+        ]
+      },
+      {
+        "id": 59,
+        "frames": [
+          {
+            "tileid": 0,
+            "duration": 76000
+          },
+          {
+            "tileid": 8,
+            "duration": 200
+          },
+          {
+            "tileid": 12,
+            "duration": 200
+          },
+          {
+            "tileid": 16,
+            "duration": 200
+          },
+          {
             "tileid": 19,
+            "duration": 200
+          },
+          {
+            "tileid": 25,
+            "duration": 200
+          },
+          {
+            "tileid": 30,
+            "duration": 200
+          },
+          {
+            "tileid": 36,
             "duration": 200
           },
           {
@@ -164,18 +229,18 @@
         ]
       },
       {
-        "id": 32,
+        "id": 60,
         "frames": [
           {
             "tileid": 0,
-            "duration": 76800
+            "duration": 76200
           },
           {
             "tileid": 13,
             "duration": 200
           },
           {
-            "tileid": 16,
+            "tileid": 17,
             "duration": 200
           },
           {
@@ -183,11 +248,23 @@
             "duration": 200
           },
           {
-            "tileid": 22,
+            "tileid": 26,
             "duration": 200
           },
           {
-            "tileid": 24,
+            "tileid": 31,
+            "duration": 200
+          },
+          {
+            "tileid": 37,
+            "duration": 200
+          },
+          {
+            "tileid": 42,
+            "duration": 200
+          },
+          {
+            "tileid": 46,
             "duration": 200
           },
           {
@@ -197,88 +274,167 @@
         ]
       },
       {
-        "id": 33,
+        "id": 61,
         "frames": [
           {
             "tileid": 0,
-            "duration": 120000
-          }
-        ]
-      },
-      {
-        "id": 34,
-        "frames": [
-          {
-            "tileid": 0,
-            "duration": 120000
-          }
-        ]
-      },
-      {
-        "id": 35,
-        "frames": [
-          {
-            "tileid": 0,
-            "duration": 120000
-          }
-        ]
-      },
-      {
-        "id": 36,
-        "frames": [
-          {
-            "tileid": 0,
-            "duration": 120000
-          }
-        ]
-      },
-      {
-        "id": 37,
-        "frames": [
-          {
-            "tileid": 0,
-            "duration": 120000
-          }
-        ]
-      },
-      {
-        "id": 38,
-        "frames": [
-          {
-            "tileid": 0,
-            "duration": 77000
-          },
-          {
-            "tileid": 17,
-            "duration": 200
-          },
-          {
-            "tileid": 0,
-            "duration": 42800
-          }
-        ]
-      },
-      {
-        "id": 39,
-        "frames": [
-          {
-            "tileid": 0,
-            "duration": 77000
-          },
-          {
-            "tileid": 18,
-            "duration": 200
+            "duration": 76600
           },
           {
             "tileid": 21,
             "duration": 200
           },
           {
+            "tileid": 27,
+            "duration": 200
+          },
+          {
+            "tileid": 32,
+            "duration": 200
+          },
+          {
+            "tileid": 38,
+            "duration": 200
+          },
+          {
+            "tileid": 43,
+            "duration": 200
+          },
+          {
+            "tileid": 47,
+            "duration": 200
+          },
+          {
+            "tileid": 50,
+            "duration": 200
+          },
+          {
+            "tileid": 0,
+            "duration": 42000
+          }
+        ]
+      },
+      {
+        "id": 62,
+        "frames": [
+          {
+            "tileid": 0,
+            "duration": 120000
+          }
+        ]
+      },
+      {
+        "id": 63,
+        "frames": [
+          {
+            "tileid": 0,
+            "duration": 120000
+          }
+        ]
+      },
+      {
+        "id": 64,
+        "frames": [
+          {
+            "tileid": 0,
+            "duration": 120000
+          }
+        ]
+      },
+      {
+        "id": 65,
+        "frames": [
+          {
+            "tileid": 0,
+            "duration": 120000
+          }
+        ]
+      },
+      {
+        "id": 66,
+        "frames": [
+          {
+            "tileid": 0,
+            "duration": 120000
+          }
+        ]
+      },
+      {
+        "id": 67,
+        "frames": [
+          {
+            "tileid": 0,
+            "duration": 120000
+          }
+        ]
+      },
+      {
+        "id": 68,
+        "frames": [
+          {
+            "tileid": 0,
+            "duration": 120000
+          }
+        ]
+      },
+      {
+        "id": 69,
+        "frames": [
+          {
+            "tileid": 0,
+            "duration": 76600
+          },
+          {
+            "tileid": 22,
+            "duration": 200
+          },
+          {
+            "tileid": 0,
+            "duration": 200
+          },
+          {
+            "tileid": 33,
+            "duration": 200
+          },
+          {
+            "tileid": 39,
+            "duration": 200
+          },
+          {
+            "tileid": 0,
+            "duration": 42600
+          }
+        ]
+      },
+      {
+        "id": 70,
+        "frames": [
+          {
+            "tileid": 0,
+            "duration": 76600
+          },
+          {
             "tileid": 23,
             "duration": 200
           },
           {
-            "tileid": 25,
+            "tileid": 28,
+            "duration": 200
+          },
+          {
+            "tileid": 34,
+            "duration": 200
+          },
+          {
+            "tileid": 40,
+            "duration": 200
+          },
+          {
+            "tileid": 44,
+            "duration": 200
+          },
+          {
+            "tileid": 48,
             "duration": 200
           },
           {
@@ -288,7 +444,44 @@
         ]
       },
       {
-        "id": 40,
+        "id": 71,
+        "frames": [
+          {
+            "tileid": 0,
+            "duration": 76800
+          },
+          {
+            "tileid": 29,
+            "duration": 200
+          },
+          {
+            "tileid": 35,
+            "duration": 200
+          },
+          {
+            "tileid": 41,
+            "duration": 200
+          },
+          {
+            "tileid": 45,
+            "duration": 200
+          },
+          {
+            "tileid": 49,
+            "duration": 200
+          },
+          {
+            "tileid": 51,
+            "duration": 200
+          },
+          {
+            "tileid": 0,
+            "duration": 42000
+          }
+        ]
+      },
+      {
+        "id": 72,
         "frames": [
           {
             "tileid": 0,
@@ -297,7 +490,7 @@
         ]
       },
       {
-        "id": 41,
+        "id": 73,
         "frames": [
           {
             "tileid": 0,
@@ -306,7 +499,7 @@
         ]
       },
       {
-        "id": 42,
+        "id": 74,
         "frames": [
           {
             "tileid": 0,
@@ -315,7 +508,7 @@
         ]
       },
       {
-        "id": 43,
+        "id": 75,
         "frames": [
           {
             "tileid": 0,
@@ -324,7 +517,7 @@
         ]
       },
       {
-        "id": 44,
+        "id": 76,
         "frames": [
           {
             "tileid": 0,
@@ -333,7 +526,7 @@
         ]
       },
       {
-        "id": 45,
+        "id": 77,
         "frames": [
           {
             "tileid": 0,
@@ -342,7 +535,124 @@
         ]
       },
       {
-        "id": 46,
+        "id": 78,
+        "frames": [
+          {
+            "tileid": 0,
+            "duration": 120000
+          }
+        ]
+      },
+      {
+        "id": 79,
+        "frames": [
+          {
+            "tileid": 0,
+            "duration": 120000
+          }
+        ]
+      },
+      {
+        "id": 80,
+        "frames": [
+          {
+            "tileid": 0,
+            "duration": 120000
+          }
+        ]
+      },
+      {
+        "id": 81,
+        "frames": [
+          {
+            "tileid": 0,
+            "duration": 120000
+          }
+        ]
+      },
+      {
+        "id": 82,
+        "frames": [
+          {
+            "tileid": 0,
+            "duration": 120000
+          }
+        ]
+      },
+      {
+        "id": 83,
+        "frames": [
+          {
+            "tileid": 0,
+            "duration": 120000
+          }
+        ]
+      },
+      {
+        "id": 84,
+        "frames": [
+          {
+            "tileid": 0,
+            "duration": 120000
+          }
+        ]
+      },
+      {
+        "id": 85,
+        "frames": [
+          {
+            "tileid": 0,
+            "duration": 120000
+          }
+        ]
+      },
+      {
+        "id": 86,
+        "frames": [
+          {
+            "tileid": 0,
+            "duration": 120000
+          }
+        ]
+      },
+      {
+        "id": 87,
+        "frames": [
+          {
+            "tileid": 0,
+            "duration": 120000
+          }
+        ]
+      },
+      {
+        "id": 88,
+        "frames": [
+          {
+            "tileid": 0,
+            "duration": 120000
+          }
+        ]
+      },
+      {
+        "id": 89,
+        "frames": [
+          {
+            "tileid": 0,
+            "duration": 120000
+          }
+        ]
+      },
+      {
+        "id": 90,
+        "frames": [
+          {
+            "tileid": 0,
+            "duration": 120000
+          }
+        ]
+      },
+      {
+        "id": 91,
         "frames": [
           {
             "tileid": 0,
@@ -353,15 +663,15 @@
     ],
     "provenance": {
       "metadataPath": "art/source/outer-security-48.json",
-      "atlasSha256": "7a00d9e1ad43394b3586a0b20d383c3a480d0153ee54c6d934bde0640fee2bd2",
+      "atlasSha256": "a0848c6ce644ea8c80c375cb03888796431ea86853ea39570a6cc52a63f56c66",
       "inputs": [
         {
           "path": "art/source/outer-security-flight.json",
-          "sha256": "7229cc76531f33b7577f68745447d76b2d263bf246ede00c52efb8d1168cf16e"
+          "sha256": "ea567285b63976b36f62e0c01c3aac47db6f7b235d76c29d7273c25645969a0e"
         },
         {
           "path": "tools/art/outer-security.ts",
-          "sha256": "247de6726704caa9649abb4a8fca2fc82f551bd2bf6367cae9b9c45648e22986"
+          "sha256": "038c2632762c40448676db369246ef96e4742a183103c2b346d30ab7b4217ffa"
         },
         {
           "path": "tools/art/native-motion.ts",
@@ -386,13 +696,13 @@
     "phaseCount": 600,
     "periodMs": 120000,
     "stepMs": 200,
-    "sharedFrameTiles": 26,
-    "decodedRgbaBytes": 196608,
+    "sharedFrameTiles": 52,
+    "decodedRgbaBytes": 393216,
     "atlas": {
       "width": 512,
-      "height": 96,
+      "height": 192,
       "columns": 16,
-      "tilecount": 48
+      "tilecount": 96
     },
     "tracks": [
       {
@@ -433,8 +743,8 @@
       },
       {
         "id": "security-helicopter",
-        "visiblePhases": 9,
-        "positionCount": 9,
+        "visiblePhases": 12,
+        "positionCount": 12,
         "poseCount": 2
       }
     ]

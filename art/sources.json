@@ -2220,7 +2220,7 @@
     "files": [
       {
         "path": "tools/art/outer-security.ts",
-        "sha256": "247de6726704caa9649abb4a8fca2fc82f551bd2bf6367cae9b9c45648e22986"
+        "sha256": "038c2632762c40448676db369246ef96e4742a183103c2b346d30ab7b4217ffa"
       },
       {
         "path": "tools/maps/outer-security.ts",
@@ -2232,11 +2232,11 @@
       },
       {
         "path": "world/outer-security.json",
-        "sha256": "5dc642fa6c63cb0f91bf64e81872ddff648d7b2376a6287aa8bc17cf3ddd008b"
+        "sha256": "8e0ffd32377e3a26ce0a2a99d40c04f42bf59b2d4d6d47965f8b0614908005d6"
       },
       {
         "path": "art/source/outer-security-flight.json",
-        "sha256": "7229cc76531f33b7577f68745447d76b2d263bf246ede00c52efb8d1168cf16e"
+        "sha256": "ea567285b63976b36f62e0c01c3aac47db6f7b235d76c29d7273c25645969a0e"
       },
       {
         "path": "art/source/outer-security-helicopter-master.png",
@@ -2252,79 +2252,79 @@
       },
       {
         "path": "art/source/outer-security.json",
-        "sha256": "691233b5715017bf4dc5ed7add17e70d691868488b95a8eadae6bf2e4dd30b09"
+        "sha256": "4b13ba6e4fe8b2d43a98dbdde904601629aa4cb836828f27d88f00a1101adc07"
       },
       {
         "path": "assets/tilesets/original/outer-security-00.png",
-        "sha256": "1e030030939bb0eea238c714546e028eb8a616a9d1131bf2147d7c74a36eec02"
+        "sha256": "86ccc495583229b2204e5e881ca677936ff4bbc816feb00d302c909cf22bd95d"
       },
       {
         "path": "art/source/outer-security-00.json",
-        "sha256": "abb1259df551d3b7eca91a90dfa329778ff8569f2b053e090353c4aa337bd027"
+        "sha256": "08fc8d1f19082929ed8353c8b297907fb8df34a9c11384c9ba144cd70c288335"
       },
       {
         "path": "assets/tilesets/original/outer-security-01.png",
-        "sha256": "f83e369a97d33b9b9370632ceddcea7c89be245be451ae721c6dfe4dba807b93"
+        "sha256": "8970aa6736c10a7e7fd74e45dfdafe97399f863d4438ce40282786e5c68340c7"
       },
       {
         "path": "art/source/outer-security-01.json",
-        "sha256": "b8d9c7fec9cbc37d91d8bafaf0824fe30039f5d9e4fcede85b89829a5d83cd93"
+        "sha256": "26d89b56a54350c7169f5b580116f788a33a52ea677b8286c97a4b8ea7d7d56b"
       },
       {
         "path": "assets/tilesets/original/outer-security-02.png",
-        "sha256": "79dd6c7ab36d67bc09521b8aec382fc9b6b6683469f2122f0fc404fa189c8930"
+        "sha256": "e16320db886c71584024cfc18d5482141ee22751824ed52d12b2c6352cfb7a67"
       },
       {
         "path": "art/source/outer-security-02.json",
-        "sha256": "5dc8fdc8e9304c767817ef6d3350931940c6a5227501464fd67fb8e39a9f6010"
+        "sha256": "6ec2bb24627ada3dda58b88ab49210e3849fce4cf4788ae4e08b7cf8101e43ac"
       },
       {
         "path": "assets/tilesets/original/outer-security-03.png",
-        "sha256": "b82faf04db20486b03a533ff240ca0a4b1fbfa65577cf3561dc237ba0fd990d7"
+        "sha256": "47c8186b884f4ce8c0f11f9f9c6badfe6a8135d6a39667b9159c97d3a8e1c54c"
       },
       {
         "path": "art/source/outer-security-03.json",
-        "sha256": "59ae50306b7ad3926cb86becf1cf774a2b6ad452a711db597b6411d4c1de6dd4"
+        "sha256": "69f01af892cf0e81ca13ad89f8c96da83a6533f9645a7d1adf9faca268113875"
       },
       {
         "path": "assets/tilesets/original/outer-security-04.png",
-        "sha256": "8fcafc5404731f75faf4609ae214e446b79736e8d849510c34434e14ea998d01"
+        "sha256": "fab16db0751e3eb40a4afc2de099824f920795f0ad1950748868fa6bc288ca24"
       },
       {
         "path": "art/source/outer-security-04.json",
-        "sha256": "34fc72f24c2b969d158105ee334ccd2ff6a50025d89010dbc206aeff8d3603ae"
+        "sha256": "66f43a6b2d575810e5f1d6036673b138d3ffd0de798170495d41ca87f4ac5ef0"
       },
       {
         "path": "assets/tilesets/original/outer-security-05.png",
-        "sha256": "f62d343702ae8767a1663b8398d8d1e2f5861378273df1691d2ceca299b8e54d"
+        "sha256": "068e438adb75f403421c2d70817d742db9ad0d3ed2d3b74a12a346f0c6546267"
       },
       {
         "path": "art/source/outer-security-05.json",
-        "sha256": "d696430cf901b04ec304c2d3c378e85e292fce352c378e241686c572bd1dd310"
+        "sha256": "5d3625037842597a38752b04b30c5954579c942f141cac057624ce544f2bdd3f"
       },
       {
         "path": "assets/tilesets/original/outer-security-06.png",
-        "sha256": "25851566a7bfa38264a501aa1aa7583eb9b2b559d17909c137339e414dfeb11c"
+        "sha256": "8fb279a345f02862f31e5f61f3446f189d9c1418195aba2656dd41786980453b"
       },
       {
         "path": "art/source/outer-security-06.json",
-        "sha256": "18091cbb85841e88bd582a491953870ef421d4327da21994881b1d269be0321d"
+        "sha256": "cdbce1f794e8e1cab1678e1b2f1efce626a16561bd7098d54275d63d3c4d79a6"
       },
       {
         "path": "assets/tilesets/original/outer-security-07.png",
-        "sha256": "2fb3dfc26be1c83500932c064c32500defadf2d5dc3e5f51b9872023491caa87"
+        "sha256": "1c5bfc3499c1d81ad05f7e6c12900887a47a0c9e39a874c1329e82d2ce4ade64"
       },
       {
         "path": "art/source/outer-security-07.json",
-        "sha256": "2e491375445446ac6a27898db967f4601de493c323c52576fa55515351fd0ed8"
+        "sha256": "0d74c5fbd302427def843027ff0a0280c2c3143c0f620f57acb32eb483854bd7"
       },
       {
         "path": "assets/tilesets/original/outer-security-08.png",
-        "sha256": "108e11b7fb04154dc4301701de920892cc417ac6daaeb561338b701b58e9fc9e"
+        "sha256": "75f1df0ed4bb6957550dc7ee92ea4477f18ad054780e36280f11bd9bcf5820d9"
       },
       {
         "path": "art/source/outer-security-08.json",
-        "sha256": "ef178bf88ac682d4045a8c0e25dc2b8e459d8da41e7cf90b30fcb6dad36ad9d1"
+        "sha256": "f2684c65bb24117235b5b3c4e02aa042a843be6119d8fee85d4459b4ae072f5e"
       },
       {
         "path": "assets/tilesets/original/outer-security-09.png",
@@ -2332,47 +2332,47 @@
       },
       {
         "path": "art/source/outer-security-09.json",
-        "sha256": "f93a22b09bfa9a7701bb1fd4f6d8326b77da431659b8abfbe0fed6d0f607cc90"
+        "sha256": "8a755374cb30f03864e78e967231fa6c97095b162ae46d8594c7de0982299533"
       },
       {
         "path": "assets/tilesets/original/outer-security-10.png",
-        "sha256": "8fa99aa03b03df125adca27bfe37fa15b3de1f5e4f799d69f93fad19810d72fe"
+        "sha256": "c82fa31fe2c30ef68e28b4f77a97ac62a4f377ff61c49a30b9277336c743c010"
       },
       {
         "path": "art/source/outer-security-10.json",
-        "sha256": "dd5d44304c2be119597be8d583a4f7df0b3646d9dd1dac5369494969687563f0"
+        "sha256": "6d43fcdcbae55e0a544078fdba15e80631d1846085d46814f9b05c7e009215c5"
       },
       {
         "path": "assets/tilesets/original/outer-security-11.png",
-        "sha256": "2a02dc14bfde0000bc407f675ab9c3971eae6bd77725a698921ea06d91027c38"
+        "sha256": "8ab0ad782ea32f06114bed6e51ae01f5c4af5814597fb08a72b66f88d5dd58c2"
       },
       {
         "path": "art/source/outer-security-11.json",
-        "sha256": "64debcb7b56806a1f07356181310018de22f30bd7e874791ae74e28af173d71f"
+        "sha256": "4934fd299131efb9a111d00bd8ac4f1ef61e75d39361906a1ba6d8d7add71a94"
       },
       {
         "path": "assets/tilesets/original/outer-security-12.png",
-        "sha256": "11f2575fc0034f5733b4a069140e9b2b57e8d563af04ddd5941d4a4bfeb2385c"
+        "sha256": "25fb9164d9bf0b50ca0782ebd40cf22b43bc22bc39f0318aa36dae270c75fcc7"
       },
       {
         "path": "art/source/outer-security-12.json",
-        "sha256": "4801b6348a542fea04d4dd3459f3a63d6b2dcad08d67b24f290f1d68e0374e9a"
+        "sha256": "040b5e8335835ab73759e1da8dafc46dbe97b9dc78cb5f901a768e41f180d383"
       },
       {
         "path": "assets/tilesets/original/outer-security-13.png",
-        "sha256": "81d5138444b8a64240bc78b4ee66e30d3ce6602cbae2b7d16d1966a03b405dc9"
+        "sha256": "67ee73dacab5eaad8bc23d780b9b45dea63ee6bb953e23d5ad6a0935bd669af5"
       },
       {
         "path": "art/source/outer-security-13.json",
-        "sha256": "7679a3047b74d2dbb7044b2e19b387146e7f68386035c4818aa772f532f23d16"
+        "sha256": "1869785779386457c31fbd4414022c08646aeabbdb2598df52d433a81184e6bd"
       },
       {
         "path": "assets/tilesets/original/outer-security-14.png",
-        "sha256": "cb44a417db337bf988d77f60ebd4cc7379c9e96949743325b1363760c0f01821"
+        "sha256": "ca4ceb17a4a2d18174868371c2ef5ac519ddc76d2c6907e6db97a9e1fd56c62e"
       },
       {
         "path": "art/source/outer-security-14.json",
-        "sha256": "2f6471d0d1b8001a2f7c69d351233e5898cf8921f3e061575d33638b03cb5d7f"
+        "sha256": "8168d3ba739d7730504a5fef7cb0c1d518118253f12b903c0c91e65b3f8a15e5"
       },
       {
         "path": "assets/tilesets/original/outer-security-15.png",
@@ -2380,87 +2380,87 @@
       },
       {
         "path": "art/source/outer-security-15.json",
-        "sha256": "14a54e758de177e690de4d0fa8f6bef7c1d3a67fbb99ee99b5c3c430999447cc"
+        "sha256": "10a0689d5160becf5488c8b85598868f2401e44a112011ae9d38a7f768f86929"
       },
       {
         "path": "assets/tilesets/original/outer-security-16.png",
-        "sha256": "7a41ea39a20cdc20ae3652c174d575d457440769d1b40f0fd1148759dfa60da1"
+        "sha256": "260c7cd55506000960c0dbec3813bf0acea9513dc5dcfe83d3962ee33f47e671"
       },
       {
         "path": "art/source/outer-security-16.json",
-        "sha256": "a0bf5b9fdb0f5fb786d9cd8b8120c670fda22b318a9329157a73ecea54dc3ab2"
+        "sha256": "9780801a7265df77f2670ba591e41a0ea1af1d5bb0e163c004d75f647dbbd1fb"
       },
       {
         "path": "assets/tilesets/original/outer-security-17.png",
-        "sha256": "237c29eb00c1d13cb6f87fa9ad0fd81e27296c548212b67372ce2401704e07a9"
+        "sha256": "3455caa34bb44209007df2f489f0ba87afe78402b86feff16f3901c5fc651a99"
       },
       {
         "path": "art/source/outer-security-17.json",
-        "sha256": "e9407c670dd18699cfa22f890f6528a00001f7a2842ff3e7ce2185d400ef61ee"
+        "sha256": "2af34afd14e7a68ffc79f9c8239b31cbe83f54877cd5fea0e380109b6736beb9"
       },
       {
         "path": "assets/tilesets/original/outer-security-18.png",
-        "sha256": "7b114a2a5c0a58f1ecc25b2dd04e611e1a21ccf3e71224aa4d53ebda3115e566"
+        "sha256": "e1fdf26c0d4ea96b066d0e241c2c1d887caa82b23b3b2052974814698f63d6b6"
       },
       {
         "path": "art/source/outer-security-18.json",
-        "sha256": "857a8907dc6acb6916da4a4a41b0d9e0100b9db8eb595ea5f2669514a883ccd7"
+        "sha256": "e66bd5d1369b46c4ccec46e75d68eedbdff584f8ab8899b8b05e453c0ba3e498"
       },
       {
         "path": "assets/tilesets/original/outer-security-19.png",
-        "sha256": "e8d65c86f7641b488e52654cfcae0c01088f5dfa8af11941c77820a696e7cc82"
+        "sha256": "19a6b27cfdb275b975bbde6c0b497881b95884de72c5ce437b01b72e0ecd29fb"
       },
       {
         "path": "art/source/outer-security-19.json",
-        "sha256": "07104a40a83e856ea25a9c68016326a244485415707ab221f151d147303e9500"
+        "sha256": "536643ca9c431562a0fa505e042a5a3b71b251c837bb036b707c7c2ef5a53dd0"
       },
       {
         "path": "assets/tilesets/original/outer-security-20.png",
-        "sha256": "807eced7347f37b86c83268462c645b88a4d5bf71eea1f8ef71bb33a079aeff1"
+        "sha256": "d16fa22e2de300e455c009449b41754d46605461c1144ccae523808eeb3e0113"
       },
       {
         "path": "art/source/outer-security-20.json",
-        "sha256": "73e6a7024db91b9fbc0cf5a0aca8b726322377d8dfa5209a886f4e2051c8c412"
+        "sha256": "d7edce22542188e1cf87e3a640b8d97d550aa3725937a7fd20e0040b3368bc8a"
       },
       {
         "path": "assets/tilesets/original/outer-security-21.png",
-        "sha256": "03a92ff08ab657eaddcd19498bf8fd44735e4bc5686e7a069a6cc7207befcb02"
+        "sha256": "b054da35e1a887e1cfff6b3286efed573de2556e0db85795f14b02ef80838a96"
       },
       {
         "path": "art/source/outer-security-21.json",
-        "sha256": "2f8b733de1719f8015b63b3d4ace9375a4e8ebeb52bf9f09f1ccf60f15d04152"
+        "sha256": "d68ad3d3f3680f9827857a38c939e485960d81546069968aa45f72022b589085"
       },
       {
         "path": "assets/tilesets/original/outer-security-22.png",
-        "sha256": "a6ae2e7773c47ea3a3c3aec821c8b7ada92590d434776188a72092251c0c9a30"
+        "sha256": "67ba1a4a58f013a56358d47dbc754d04133d11300b8dbd19e2a1456cc9f61f17"
       },
       {
         "path": "art/source/outer-security-22.json",
-        "sha256": "3b143a7c9dba194d6bbb5e20a6fe4d3f51e6dbc0a3b3feb1c9bca9ac6754fd55"
+        "sha256": "6a8eb6dd426a7024fecac55a769d635193f80263e6d11fefb7e04b04d6c61efe"
       },
       {
         "path": "assets/tilesets/original/outer-security-23.png",
-        "sha256": "4807415aedb51dbea6990525a3a154da100dfe16ed239f5928185f1950461ce5"
+        "sha256": "f2294eab480e01a72ad471938c040fb22b4348f6f359ff81207e4ea443c22d6b"
       },
       {
         "path": "art/source/outer-security-23.json",
-        "sha256": "3d675021e3afd528dada2b75b0939d5db972f84e994b888734a4330290ea473a"
+        "sha256": "02083e8971c716573b983444e33c8be6bf285b1a241dcdc66940c7bd72aaa6ed"
       },
       {
         "path": "assets/tilesets/original/outer-security-24.png",
-        "sha256": "6cdb3903af0c5f1522a907bff5bccde9750ac2de7d11cf1a549e9364606a5473"
+        "sha256": "b4bbbb1752700af1a1f787c31e11de156160ae2497c7876b36f02dc8bdbb0a3b"
       },
       {
         "path": "art/source/outer-security-24.json",
-        "sha256": "17ed53481d0743c2515585f6f9aa59387989a95f9f72f07792afd4e697f321d2"
+        "sha256": "ec2f89bdce52880c3ab3857f39d4c5980805189456e00425ace82c260f4a7096"
       },
       {
         "path": "assets/tilesets/original/outer-security-25.png",
-        "sha256": "f1326720d3fbe40b6422de9acef83467ddafade3b760277e9cac4eb94bf58b86"
+        "sha256": "c2d1f94760e7391fd1f62568cc7a47da324f4dc020f7a3f669365baf9c5730d4"
       },
       {
         "path": "art/source/outer-security-25.json",
-        "sha256": "45052b8d493605d570bc8075b6f6b0bd72db72d78771a940478702e51b1fce3c"
+        "sha256": "7cc00cbd6a87667bc79c5dfd0e082536c7e20742f4a09b7b7651f9cdcfc71294"
       },
       {
         "path": "assets/tilesets/original/outer-security-26.png",
@@ -2468,23 +2468,23 @@
       },
       {
         "path": "art/source/outer-security-26.json",
-        "sha256": "25ddd1610d831cd0dc441b1dea8fc15d7230e15d4b58e82e8a60847511e85838"
+        "sha256": "dd425cc7fd63c7857db9baa95b83032954d84bc5fa8b83e50bcb7ac803449006"
       },
       {
         "path": "assets/tilesets/original/outer-security-27.png",
-        "sha256": "af1d73dec17831aabae63097abd096f6fdedd45860f875bacbe2e6adc0ffca84"
+        "sha256": "3461aa1c801f04439574aa2c1b5f383c888e2eca09263a9d199d8c8939a9c2a6"
       },
       {
         "path": "art/source/outer-security-27.json",
-        "sha256": "832991e6b9e406a67a55ed972cb0fd052a5aa76858b6b4be0b7c05e4f7b228e1"
+        "sha256": "809aa34f336ec267f79e7366e1735b0152e38f12c109ccd4ac632d5f4f51360a"
       },
       {
         "path": "assets/tilesets/original/outer-security-28.png",
-        "sha256": "808edc8d336a944f23e97491f8e6b680ccf0b3ec44f389fc0369796cf350c105"
+        "sha256": "5d2359bf2369fecd8c0ccf81bc7366013f70d740c9f158368db690d50dc4ea4f"
       },
       {
         "path": "art/source/outer-security-28.json",
-        "sha256": "f70dd6e38e9521b3a8181f67bce77fd39ed678fcfbe3e051770f7011a9c6975d"
+        "sha256": "fd360181410719b81115e93821ba7220934ba297169af0e640ec5062fbd9b8d2"
       },
       {
         "path": "assets/tilesets/original/outer-security-29.png",
@@ -2492,119 +2492,119 @@
       },
       {
         "path": "art/source/outer-security-29.json",
-        "sha256": "f5ada1d5fa514dd91ab7d584d181857b1a9ba07dd87b507d74fb725443e7196c"
+        "sha256": "30dd6f690232de70deb39d0ccd3de4e12443019c234346888e2148046689f50d"
       },
       {
         "path": "assets/tilesets/original/outer-security-30.png",
-        "sha256": "6620bef0ee013129b5a5fddde79e1c6b81dbd1980a68f438c55de98b43ec95be"
+        "sha256": "f20b68d88002403322898f76d0ac36c6a7ad6fb2503dbd0c9cf9313183aedb3b"
       },
       {
         "path": "art/source/outer-security-30.json",
-        "sha256": "719f5806fb5fed85464afee7d22036affc68c9f1bc1a626e618c39647b34c218"
+        "sha256": "5d35c9bf3bc62b0c8ee10d45dfdcac3130351940b997dd2391811796749cb55c"
       },
       {
         "path": "assets/tilesets/original/outer-security-31.png",
-        "sha256": "cca39539a21e135b2d16b89bbb65562a4c5408386cbb1dbc593b617787bf1f12"
+        "sha256": "473b314d7c0ee6947a9bf005d001ebde22986a873c08f66e6587047b8c15c151"
       },
       {
         "path": "art/source/outer-security-31.json",
-        "sha256": "788edd9b7b224e9d1d430e2a28ae9c2b38dae695524b7cc1469851504dac463d"
+        "sha256": "f91f35c7419f01cdc2bc88b8b55afe34148dfc67423efb9ae148c6c4a54e5c84"
       },
       {
         "path": "assets/tilesets/original/outer-security-32.png",
-        "sha256": "417ed96da1176ac0167edf75fab540dfa90cce6fdb080153bb606ed2dc6bb901"
+        "sha256": "fbf3c67787a03d4b25c2e6077b3de80ae1da37e95794db59b4e40b0a0f1282e8"
       },
       {
         "path": "art/source/outer-security-32.json",
-        "sha256": "93a737640189203fa8afee8919310f21d011fd17b3c99f7197f302c6ae7ad580"
+        "sha256": "e1d81833e56248d4403044de0a7eb721ebd4e6020419be095b3edfa6c117c3e3"
       },
       {
         "path": "assets/tilesets/original/outer-security-33.png",
-        "sha256": "633af0ee791aef0f301f6c58fb978e04a74c018c761e708a3ce91b1ce5b39cc7"
+        "sha256": "431ae52e4a1aa76e4c848c63a3c6f76fa733c8f4574162954e6fed0b4767925c"
       },
       {
         "path": "art/source/outer-security-33.json",
-        "sha256": "d9a593202fb388a8bcba1d128da80972f3ba83f7bb356e78d99385090d96093f"
+        "sha256": "7372aebc3da01269becf821ac7e51a3a3ce1d01a910fe7003010bea67477c888"
       },
       {
         "path": "assets/tilesets/original/outer-security-34.png",
-        "sha256": "5f55eb9dd085d941466c52f65412bb931e15ca1c61e9a7ee2f99a907e4ce9245"
+        "sha256": "85b00da67188d7332dc1ed4db831a3682cf7fc253c42bd2ba08617bc67eedd31"
       },
       {
         "path": "art/source/outer-security-34.json",
-        "sha256": "e80d37f7685e42f71f076159977721b04940b55b38758e5a92267b895f8139bc"
+        "sha256": "416eb10c58f315283b0612bfe7b0f548e2f71560f6c870b091dff8c16d398f03"
       },
       {
         "path": "assets/tilesets/original/outer-security-35.png",
-        "sha256": "9f6a96be5c7286b952c56175a62f133e06bd0bd553d34d901717ff11e9efc137"
+        "sha256": "5f1fa719099f2dddb0e9ee53a52fcece51cd8dfe62988512c5e808d71b5288ce"
       },
       {
         "path": "art/source/outer-security-35.json",
-        "sha256": "bcdfbe1b89d5b5d20b71ade4c6b0518285279b7eec680cdc363c3ec2c7e2e181"
+        "sha256": "f1ae4745732a95fabcfbed4600d7144fe5f624781029f6fdfe31eab98eb742e2"
       },
       {
         "path": "assets/tilesets/original/outer-security-36.png",
-        "sha256": "518b1fe19197bc87b3fa47e4f5e0140876f0efe68e044dc8a3833f7c144e8224"
+        "sha256": "8266dcae777b5f6ee25912fbba1adc42bd9945f7a9dec10d5c30db38690d8b2b"
       },
       {
         "path": "art/source/outer-security-36.json",
-        "sha256": "256a775fac86118976ddbe8bcc58d4060ba97309cb8f7608a20a8fbdb045669b"
+        "sha256": "62608d85b8d1030a67c7bdece6e2f5c64af1d47670268a587b47e235ce997e2b"
       },
       {
         "path": "assets/tilesets/original/outer-security-37.png",
-        "sha256": "db52c5160b6798792a29f4c4b736c9fd2c2ddbdf6785b30054ebe46627b57c00"
+        "sha256": "3cacb0020e8991294b6d34e274957097a965812f5b7bfecbd6fb55c72be0e829"
       },
       {
         "path": "art/source/outer-security-37.json",
-        "sha256": "693901ea2ff9107eeccf092874206e017382be6e71e462e104ebd0dd26a3efde"
+        "sha256": "49b1d217277b9143a9ba7254788c0c3fba03b1b90d04ddcdc9f6ea937e46ffda"
       },
       {
         "path": "assets/tilesets/original/outer-security-38.png",
-        "sha256": "89929a0d57ca30d93690f34fcf59b6323dea6a4817591f36defe8c236cfbc901"
+        "sha256": "ebea413e91386a0340a0048355696629abd1df77b06bc18781d9ee021ce40e23"
       },
       {
         "path": "art/source/outer-security-38.json",
-        "sha256": "c5c62b0789717871f6ef2dfe697892034efef39ccdb985b0e36d65ff1944d94b"
+        "sha256": "790009c3faa2921db67e21471c45b1b5e90ae055e5a2901f035b5e6bed13f641"
       },
       {
         "path": "assets/tilesets/original/outer-security-39.png",
-        "sha256": "880d0164bc82c2c9be85842a99f8178822499435254566f4c6194aa2eb6957ad"
+        "sha256": "8040f63daf6ed45fdc3af02b58324d0b1bd27bb63b8c1158b53818b4b58dc6b8"
       },
       {
         "path": "art/source/outer-security-39.json",
-        "sha256": "3725bd8eebbe5d8c145dbc13a46111d669b94a60fbe242bcc394c92e11cd95e5"
+        "sha256": "274499519aa1e207aed0b27799878c8255ba772701ab18dfcc9bf993c21297a7"
       },
       {
         "path": "assets/tilesets/original/outer-security-40.png",
-        "sha256": "9f6a96be5c7286b952c56175a62f133e06bd0bd553d34d901717ff11e9efc137"
+        "sha256": "639f72165b32c60c6da1cec4edc2c2d47543bf474befa302f43e08902d8c4154"
       },
       {
         "path": "art/source/outer-security-40.json",
-        "sha256": "cb72a67519118d5e390129e79c5eeb36df7cc49358e29d7d99576a260ab5b950"
+        "sha256": "b4680942c217420a60e82be0fd9e892b31b81334a8f0cbdb05494566b8f52ba4"
       },
       {
         "path": "assets/tilesets/original/outer-security-41.png",
-        "sha256": "24ccef3d3834e2d081c0880edf701e9c011bc2d73bb50a0cb156f8de9a2d1a02"
+        "sha256": "e4559eb3316a174a581e9d1087a67064e4a2b160b4b540496fe4d8ae6ddadb19"
       },
       {
         "path": "art/source/outer-security-41.json",
-        "sha256": "a058ca2e3cc8986a67326284652e2e60acce498717919aa8a6cbc3c342682fec"
+        "sha256": "cfc7bed33cfd1a76fa0d0d2228d8596c0855e26543ed867f91998327a36b6c6e"
       },
       {
         "path": "assets/tilesets/original/outer-security-42.png",
-        "sha256": "f32aa540face26e348b966f145644301029dd92cc98949a58e33d4b5e717a32a"
+        "sha256": "8ebae880c7ad6d066cdcbfa47d7a80b7849004c76acece73d1acf6fb35f62fb2"
       },
       {
         "path": "art/source/outer-security-42.json",
-        "sha256": "86bd7d251a3e60451cd837f5535bec81768de569c9aa9cb18543af08745e0d7f"
+        "sha256": "271281dfd53146d0fd72342a9a94161df67d31732c292a7b6f9c93d61189ed37"
       },
       {
         "path": "assets/tilesets/original/outer-security-43.png",
-        "sha256": "c81cd5612c3a9db026c7c4b671ec1fe906f65baeb72ba5c9dde830f1cca26306"
+        "sha256": "685fb64d0b99c71d4356cf3f4d82e65b17560dd13ff4500cbea864ac1ec23d3f"
       },
       {
         "path": "art/source/outer-security-43.json",
-        "sha256": "e6683cf3955e115008507e1bc73e5780282dd26ce0e3f12d7754e53d36ce9591"
+        "sha256": "a71654c54ddc688d836bb80a059b885e2279b06931447a39dc71a43eedaa9e4a"
       },
       {
         "path": "assets/tilesets/original/outer-security-44.png",
@@ -2612,71 +2612,71 @@
       },
       {
         "path": "art/source/outer-security-44.json",
-        "sha256": "10a3e76bb00de4a56d5f46b3e9acd7b07516c9e852d90a910b3fd98d308ed86c"
+        "sha256": "900034728343008960a23c29f2371175edc0776e93721c326c60b7fc61318c4a"
       },
       {
         "path": "assets/tilesets/original/outer-security-45.png",
-        "sha256": "91b7ed2a624ab970648ae8f7b826da7f389839002d16acfec09f3aa20390d70f"
+        "sha256": "b78e4dc11dfbb3e836accf63429372837409474ca32a4e8e4b26b70d5a375389"
       },
       {
         "path": "art/source/outer-security-45.json",
-        "sha256": "8e0597dcc4dcfbcb3d425fe7d5c4f0f5a8ea0edc175a133a37dd7ee931341fb1"
+        "sha256": "ed0c316d91bebf98f19bc19e0a591c8162b24004f9cffcff58cac284aacf201e"
       },
       {
         "path": "assets/tilesets/original/outer-security-46.png",
-        "sha256": "2fb983b956c7bedfc9491ac86e59f54481e4adb40f2c6d89e886a4ade59ba131"
+        "sha256": "b92aa15d8d7153c5d3fb2758cd38e67725b3e563d0941e40c9d23600723a5cff"
       },
       {
         "path": "art/source/outer-security-46.json",
-        "sha256": "fdbc9a87bf8437f7cf429883d3e2bbfcd5dc930c762f73ea1b2bfdf8ec0f5c5a"
+        "sha256": "c79eeb9ad0a35a6ac376b14aa19df17d1374126ff75f191913aab9f97350e22d"
       },
       {
         "path": "assets/tilesets/original/outer-security-47.png",
-        "sha256": "e458373de7ffa718cc0f94025638fe73621a02f7071c3e77c2a726128e3d2ada"
+        "sha256": "e7e33ae11f6f7b799219a1ab85bbee4197b862ae205d510ba53ff33c8806d26a"
       },
       {
         "path": "art/source/outer-security-47.json",
-        "sha256": "27cf5e7ca43009452fcd0d07e1be4b491a8a0afd6a6d9b05497507a3b0139f29"
+        "sha256": "34c4b4be1488719612ebea4d1916148a7ba2a1663393ce92f4a69d0061e3f22d"
       },
       {
         "path": "assets/tilesets/original/outer-security-48.png",
-        "sha256": "7a00d9e1ad43394b3586a0b20d383c3a480d0153ee54c6d934bde0640fee2bd2"
+        "sha256": "a0848c6ce644ea8c80c375cb03888796431ea86853ea39570a6cc52a63f56c66"
       },
       {
         "path": "art/source/outer-security-48.json",
-        "sha256": "6c77200b6c591abc02524cffe476e6dbbb590347eba5091393e630c3cd2e7bd0"
+        "sha256": "957006f05a88e5ea5d6bef7835fdb9ef9d81e851943cc7f430cf8824c6c9cc8a"
       },
       {
         "path": "assets/tilesets/original/outer-security-49.png",
-        "sha256": "d796d68074574a63ec9257e15ab033b438b587991d0a669dfe33bf698b9e9a88"
+        "sha256": "fee9778010775a709ec509c5eb688f882427e7ffacb5d886560bb04801ef4bf7"
       },
       {
         "path": "art/source/outer-security-49.json",
-        "sha256": "5ad97509817b530af7cbf39fff7c45063b38682c58263efebbfda1a79bc35db3"
+        "sha256": "31d179b1f7c69d56842bc2ab075579aba992c3707270543ed477570029ead254"
       },
       {
         "path": "assets/tilesets/original/outer-security-50.png",
-        "sha256": "c355c0f044502ffd6478de5467253261e12a6d94f00313e1bf5ebbd38a8e4868"
+        "sha256": "ba9a6203cd26f44b2640382fe5a9c4eb70b743402fdbb2165600def3af44e7a6"
       },
       {
         "path": "art/source/outer-security-50.json",
-        "sha256": "7a7dff93edc5fcc3f6811c40507ebf5b1b2323c2811a3de03571d47461cb2729"
+        "sha256": "366b097f40b020a550eb94c8d23157535323bd16b26368566da6bc0a72aae16f"
       },
       {
         "path": "assets/tilesets/original/outer-security-51.png",
-        "sha256": "bfc389e5c391905dcb5cfca5a0caa5af37ae941cb81e4357c31780cc1154bc19"
+        "sha256": "95c0cab4bdf129b895cd3564e92fc8f198705becf57f7d0568606caf4b3112e6"
       },
       {
         "path": "art/source/outer-security-51.json",
-        "sha256": "88b70b260320ff739ed43f8df9a68f2219bea9f233852b1d7e591e2837ee02ec"
+        "sha256": "d18a4bfaf29118e87c0ba8864baf8c4f5a95e665c9c939a376063f67ebc8e0d3"
       },
       {
         "path": "assets/tilesets/original/outer-security-52.png",
-        "sha256": "783abe14413ecf09b8b68d3bc14a752d51c59bbd5acf1d90f0aed0d4d4360af4"
+        "sha256": "2b98ce677d881a7139b9bcdac5fab2b59fd3f0edf8752154f8b6f07f28be6229"
       },
       {
         "path": "art/source/outer-security-52.json",
-        "sha256": "a78cec5a22e96dc121380700dfda6eaf8518b86613e1530d95e267dcae7bd805"
+        "sha256": "a84b8f89fe26f284014738d3e947dcdc228c2616956e3778fc6dc1df6d74d7ee"
       }
     ]
   }

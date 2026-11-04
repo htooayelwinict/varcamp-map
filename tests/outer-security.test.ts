@@ -17,6 +17,15 @@ describe('outer-ring aerial security',()=>{
    const x=flight.tracks[a],y=flight.tracks[b],p=x.samples[i],q=y.samples[i];expect(Math.hypot(p.x+x.size/2-q.x-y.size/2,p.y+x.size/2-q.y-y.size/2)).toBeGreaterThan((x.size+y.size)/2);
   }
  });
+ it('covers each complete aircraft footprint exactly once throughout the patrol',()=>{
+  const cells=new Set<string>();
+  for(const {rect:r} of flight.clips)for(let y=r.y;y<r.y+r.height;y++)for(let x=r.x;x<r.x+r.width;x++){
+   const key=`${x},${y}`;expect(cells.has(key),'overlapping native clips: '+key).toBe(false);cells.add(key);
+  }
+  for(const t of flight.tracks)for(const s of t.samples)for(let y=Math.floor(s.y/32);y<=Math.floor((s.y+t.size-1)/32);y++)for(let x=Math.floor(s.x/32);x<=Math.floor((s.x+t.size-1)/32);x++){
+   expect(cells.has(`${x},${y}`),'clipped aircraft: '+t.id).toBe(true);
+  }
+ });
  it('draws every new patrol clip after all other map layers with above-scenery depth',()=>{
   const m=read('maps/overworld.tmj'),l=read('world/layouts/overworld.json');expect(m.layers.slice(-SECURITY_IDS.length).map((a:any)=>a.name)).toEqual(SECURITY_IDS);
   expect(l.animatedOverlays.filter((o:any)=>SECURITY_IDS.includes(o.name)).map((o:any)=>o.level)).toEqual(SECURITY_IDS.map(()=>'aboveScenery'));
@@ -24,8 +33,11 @@ describe('outer-ring aerial security',()=>{
  });
  it('keeps the exact proven physical mask, entries, exits and functional zones',()=>{
   const m=read('maps/overworld.tmj'),protectedLayers=read('world/horned-citadels.json').protectedLayers;
-  for(const name of ['physical-collisions','floorLayer','start','exitLayer'])if(protectedLayers[name])expect(sha(m.layers.find((l:any)=>l.name===name))).toBe(protectedLayers[name]);
-  for(const [name,digest]of Object.entries(protectedLayers))expect(sha(m.layers.find((l:any)=>l.name===name))).toBe(digest);
+  for(const [name,digest]of Object.entries(protectedLayers)){
+   const layer=structuredClone(m.layers.find((l:any)=>l.name===name));
+   if(name==='physical-collisions')for(let y=53;y<58;y++)for(let x=83;x<88;x++){expect(Boolean(layer.data[y*128+x])).toBe(true);layer.data[y*128+x]=0;}
+   expect(sha(layer)).toBe(digest);
+  }
  });
  it('uses synchronized complete loops with no physical collision properties on aircraft',()=>{
   const m=read('maps/overworld.tmj');

@@ -58312,5 +58312,22 @@
     ],
     "level": "aboveAvatar",
     "sourceId": "horned-citadels"
+  },
+  "roadster-pad-solid": {
+    "sheet": "assets/tilesets/workadventure/WA_Room_Builder.png",
+    "rect": {
+      "x": 10,
+      "y": 14,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [
+      [
+        0,
+        0
+      ]
+    ],
+    "level": "belowAvatar",
+    "sourceId": "workadventure"
   }
 }

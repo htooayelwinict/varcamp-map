@@ -10,13 +10,6 @@
     "width": 4,
     "height": 9,
     "carrierTileIds": [
-      42,
-      43,
-      44,
-      45,
-      46,
-      47,
-      48,
       49,
       50,
       51,
@@ -45,15 +38,22 @@
       74,
       75,
       76,
-      77
+      77,
+      78,
+      79,
+      80,
+      81,
+      82,
+      83,
+      84
     ],
     "animations": [
       {
-        "id": 42,
+        "id": 49,
         "frames": [
           {
             "tileid": 0,
-            "duration": 43000
+            "duration": 42800
           },
           {
             "tileid": 37,
@@ -64,30 +64,50 @@
             "duration": 200
           },
           {
-            "tileid": 39,
-            "duration": 200
-          },
-          {
             "tileid": 40,
             "duration": 200
           },
           {
+            "tileid": 42,
+            "duration": 200
+          },
+          {
+            "tileid": 44,
+            "duration": 200
+          },
+          {
+            "tileid": 45,
+            "duration": 200
+          },
+          {
+            "tileid": 47,
+            "duration": 200
+          },
+          {
             "tileid": 0,
-            "duration": 76200
+            "duration": 75800
           }
         ]
       },
       {
-        "id": 43,
+        "id": 50,
         "frames": [
           {
             "tileid": 0,
-            "duration": 120000
+            "duration": 43000
+          },
+          {
+            "tileid": 39,
+            "duration": 200
+          },
+          {
+            "tileid": 0,
+            "duration": 76800
           }
         ]
       },
       {
-        "id": 44,
+        "id": 51,
         "frames": [
           {
             "tileid": 0,
@@ -168,7 +188,7 @@
         ]
       },
       {
-        "id": 45,
+        "id": 52,
         "frames": [
           {
             "tileid": 0,
@@ -273,24 +293,40 @@
         ]
       },
       {
-        "id": 46,
+        "id": 53,
         "frames": [
           {
             "tileid": 0,
-            "duration": 43600
+            "duration": 43200
           },
           {
             "tileid": 41,
             "duration": 200
           },
           {
+            "tileid": 43,
+            "duration": 200
+          },
+          {
             "tileid": 0,
-            "duration": 76200
+            "duration": 200
+          },
+          {
+            "tileid": 46,
+            "duration": 200
+          },
+          {
+            "tileid": 48,
+            "duration": 200
+          },
+          {
+            "tileid": 0,
+            "duration": 75800
           }
         ]
       },
       {
-        "id": 47,
+        "id": 54,
         "frames": [
           {
             "tileid": 0,
@@ -299,7 +335,7 @@
         ]
       },
       {
-        "id": 48,
+        "id": 55,
         "frames": [
           {
             "tileid": 0,
@@ -404,7 +440,7 @@
         ]
       },
       {
-        "id": 49,
+        "id": 56,
         "frames": [
           {
             "tileid": 0,
@@ -485,7 +521,7 @@
         ]
       },
       {
-        "id": 50,
+        "id": 57,
         "frames": [
           {
             "tileid": 0,
@@ -494,7 +530,7 @@
         ]
       },
       {
-        "id": 51,
+        "id": 58,
         "frames": [
           {
             "tileid": 0,
@@ -575,7 +611,7 @@
         ]
       },
       {
-        "id": 52,
+        "id": 59,
         "frames": [
           {
             "tileid": 0,
@@ -680,7 +716,7 @@
         ]
       },
       {
-        "id": 53,
+        "id": 60,
         "frames": [
           {
             "tileid": 0,
@@ -689,7 +725,7 @@
         ]
       },
       {
-        "id": 54,
+        "id": 61,
         "frames": [
           {
             "tileid": 0,
@@ -746,7 +782,7 @@
         ]
       },
       {
-        "id": 55,
+        "id": 62,
         "frames": [
           {
             "tileid": 0,
@@ -851,7 +887,7 @@
         ]
       },
       {
-        "id": 56,
+        "id": 63,
         "frames": [
           {
             "tileid": 0,
@@ -908,7 +944,7 @@
         ]
       },
       {
-        "id": 57,
+        "id": 64,
         "frames": [
           {
             "tileid": 0,
@@ -917,7 +953,7 @@
         ]
       },
       {
-        "id": 58,
+        "id": 65,
         "frames": [
           {
             "tileid": 0,
@@ -1022,7 +1058,7 @@
         ]
       },
       {
-        "id": 59,
+        "id": 66,
         "frames": [
           {
             "tileid": 0,
@@ -1127,7 +1163,7 @@
         ]
       },
       {
-        "id": 60,
+        "id": 67,
         "frames": [
           {
             "tileid": 0,
@@ -1136,7 +1172,7 @@
         ]
       },
       {
-        "id": 61,
+        "id": 68,
         "frames": [
           {
             "tileid": 0,
@@ -1145,7 +1181,7 @@
         ]
       },
       {
-        "id": 62,
+        "id": 69,
         "frames": [
           {
             "tileid": 0,
@@ -1226,7 +1262,7 @@
         ]
       },
       {
-        "id": 63,
+        "id": 70,
         "frames": [
           {
             "tileid": 0,
@@ -1283,7 +1319,7 @@
         ]
       },
       {
-        "id": 64,
+        "id": 71,
         "frames": [
           {
             "tileid": 0,
@@ -1292,7 +1328,7 @@
         ]
       },
       {
-        "id": 65,
+        "id": 72,
         "frames": [
           {
             "tileid": 0,
@@ -1301,7 +1337,7 @@
         ]
       },
       {
-        "id": 66,
+        "id": 73,
         "frames": [
           {
             "tileid": 0,
@@ -1406,7 +1442,7 @@
         ]
       },
       {
-        "id": 67,
+        "id": 74,
         "frames": [
           {
             "tileid": 0,
@@ -1415,7 +1451,7 @@
         ]
       },
       {
-        "id": 68,
+        "id": 75,
         "frames": [
           {
             "tileid": 0,
@@ -1424,7 +1460,7 @@
         ]
       },
       {
-        "id": 69,
+        "id": 76,
         "frames": [
           {
             "tileid": 0,
@@ -1433,7 +1469,7 @@
         ]
       },
       {
-        "id": 70,
+        "id": 77,
         "frames": [
           {
             "tileid": 0,
@@ -1538,7 +1574,7 @@
         ]
       },
       {
-        "id": 71,
+        "id": 78,
         "frames": [
           {
             "tileid": 0,
@@ -1547,7 +1583,7 @@
         ]
       },
       {
-        "id": 72,
+        "id": 79,
         "frames": [
           {
             "tileid": 0,
@@ -1556,7 +1592,7 @@
         ]
       },
       {
-        "id": 73,
+        "id": 80,
         "frames": [
           {
             "tileid": 0,
@@ -1565,7 +1601,7 @@
         ]
       },
       {
-        "id": 74,
+        "id": 81,
         "frames": [
           {
             "tileid": 0,
@@ -1622,7 +1658,7 @@
         ]
       },
       {
-        "id": 75,
+        "id": 82,
         "frames": [
           {
             "tileid": 0,
@@ -1631,7 +1667,7 @@
         ]
       },
       {
-        "id": 76,
+        "id": 83,
         "frames": [
           {
             "tileid": 0,
@@ -1640,7 +1676,7 @@
         ]
       },
       {
-        "id": 77,
+        "id": 84,
         "frames": [
           {
             "tileid": 0,
@@ -1651,15 +1687,15 @@
     ],
     "provenance": {
       "metadataPath": "art/source/outer-security-19.json",
-      "atlasSha256": "e8d65c86f7641b488e52654cfcae0c01088f5dfa8af11941c77820a696e7cc82",
+      "atlasSha256": "19a6b27cfdb275b975bbde6c0b497881b95884de72c5ce437b01b72e0ecd29fb",
       "inputs": [
         {
           "path": "art/source/outer-security-flight.json",
-          "sha256": "7229cc76531f33b7577f68745447d76b2d263bf246ede00c52efb8d1168cf16e"
+          "sha256": "ea567285b63976b36f62e0c01c3aac47db6f7b235d76c29d7273c25645969a0e"
         },
         {
           "path": "tools/art/outer-security.ts",
-          "sha256": "247de6726704caa9649abb4a8fca2fc82f551bd2bf6367cae9b9c45648e22986"
+          "sha256": "038c2632762c40448676db369246ef96e4742a183103c2b346d30ab7b4217ffa"
         },
         {
           "path": "tools/art/native-motion.ts",
@@ -1684,13 +1720,13 @@
     "phaseCount": 600,
     "periodMs": 120000,
     "stepMs": 200,
-    "sharedFrameTiles": 42,
-    "decodedRgbaBytes": 327680,
+    "sharedFrameTiles": 49,
+    "decodedRgbaBytes": 393216,
     "atlas": {
       "width": 512,
-      "height": 160,
+      "height": 192,
       "columns": 16,
-      "tilecount": 80
+      "tilecount": 96
     },
     "tracks": [
       {
@@ -1731,8 +1767,8 @@
       },
       {
         "id": "security-helicopter",
-        "visiblePhases": 4,
-        "positionCount": 4,
+        "visiblePhases": 7,
+        "positionCount": 7,
         "poseCount": 2
       }
     ]

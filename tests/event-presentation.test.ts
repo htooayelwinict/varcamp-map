@@ -35,7 +35,9 @@ describe('Event branding and audience presentation',()=>{
  });
  it.each(EVENT_MAP_IDS)('%s admits only the exact reviewed successor and validates its native map',id=>{
   const l=current(id);expect(isDeepStrictEqual(applyEventPresentation(restoreEventPresentation(l)),l)).toBe(true);
-  const bad=structuredClone(l);bad.placements.pop();expect(()=>restoreEventPresentation(bad)).toThrow();
+  // Removing the newest footprint is a valid historical predecessor. A
+  // retained fixture mutation must still be rejected by the inverse chain.
+  const bad=structuredClone(l);bad.placements[0].id+='-unreviewed';expect(()=>restoreEventPresentation(bad)).toThrow();
   expect(()=>assertCurrentNativeMap(id,read(`maps/${id}.tmj`),l,read(`maps/${id}.wam`),loadTileCatalog())).not.toThrow();
  },30000);
 });

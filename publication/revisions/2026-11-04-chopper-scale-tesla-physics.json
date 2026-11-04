@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "revisions": [
+    {
+      "path": "art/sources.json",
+      "fromSha256": "b9b9994ce6d6ac9fd457cc5b4bc7bfb8d6eedb7180f5a02845abecb7fb3b0813",
+      "toSha256": "e893cfb0cb1489be16817abf951ab0dd763204bda9952f9bebcef1fecc29c20a",
+      "reason": "Enlarge the outer-ring helicopter from 80px to 128px without moving its flight centers or changing its clock; block the stationary Tesla landing footprint with twenty-five solid tiles. Preserve all other map geometry, artwork, drones and editor data; refresh native publication and public route receipts."
+    },
+    {
+      "path": "art/tile-catalog.json",
+      "fromSha256": "2e05fa0603185e812f460de4895f78d101495d5c8b06410576bd04d1a79ea5a6",
+      "toSha256": "8f0621296ee11529c68068a8a0219118f942004b9b1f41587f9039f9843d4eaa",
+      "reason": "Enlarge the outer-ring helicopter from 80px to 128px without moving its flight centers or changing its clock; block the stationary Tesla landing footprint with twenty-five solid tiles. Preserve all other map geometry, artwork, drones and editor data; refresh native publication and public route receipts."
+    },
+    {
+      "path": "maps/overworld.tmj",
+      "fromSha256": "7bf3a2529029f221d11161a7562c15d6c6c6b0bfb1d5090b8b18dc3103339c90",
+      "toSha256": "a1eb4b4dae25e002a23a1d874f320fdb0ccbe88a9751640821889a1bfc1208e8",
+      "reason": "Enlarge the outer-ring helicopter from 80px to 128px without moving its flight centers or changing its clock; block the stationary Tesla landing footprint with twenty-five solid tiles. Preserve all other map geometry, artwork, drones and editor data; refresh native publication and public route receipts."
+    },
+    {
+      "path": "maps/preview/overworld.tmj",
+      "fromSha256": "9c47c3174a942704a9060b175bcef295ff419f41ca21d86116f6d8b690fdebd3",
+      "toSha256": "44cdf93274b97ad6bae836a51b8723a692951413541d31c27803ba3e84704cde",
+      "reason": "Enlarge the outer-ring helicopter from 80px to 128px without moving its flight centers or changing its clock; block the stationary Tesla landing footprint with twenty-five solid tiles. Preserve all other map geometry, artwork, drones and editor data; refresh native publication and public route receipts."
+    },
+    {
+      "path": "world/layouts/overworld.json",
+      "fromSha256": "685cb2b35ab44c54fc35abffdf09b746e519b0c0bcaf7ca486fa0f7a89a9a0a6",
+      "toSha256": "21fb85e24c3533210ea2b9a2e31b6a4bcbabcbf517b57c346c9ddff2e3d443d6",
+      "reason": "Enlarge the outer-ring helicopter from 80px to 128px without moving its flight centers or changing its clock; block the stationary Tesla landing footprint with twenty-five solid tiles. Preserve all other map geometry, artwork, drones and editor data; refresh native publication and public route receipts."
+    }
+  ]
+}

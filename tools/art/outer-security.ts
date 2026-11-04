@@ -15,11 +15,13 @@ export async function renderOuterSecurity(){
  const poses:NativeMotionPose[]=[];
  for(let i=0;i<12;i++)poses.push({width:24,height:24,rgba:await sharp(flight.sources[1].path).extract({left:i%4*32+4,top:Math.floor(i/4)*32+4,width:24,height:24}).ensureAlpha().raw().toBuffer()});
  const master=readFileSync(flight.sources[0].path),info=await sharp(master).metadata();
+ const helicopterSize=flight.tracks.find(t=>t.kind==='helicopter')!.size;
+ need(Number.isSafeInteger(helicopterSize)&&helicopterSize>=80&&helicopterSize<=128,'bounded helicopter rendering size');
  need(info.width&&info.height&&info.width>1000&&info.height>1000,'four-by-four helicopter poses');
  for(let i=0;i<16;i++){
-  const rgba=await sharp(master).extract({left:Math.floor(i%4*info.width!/4),top:Math.floor(Math.floor(i/4)*info.height!/4),width:Math.floor(info.width!/4),height:Math.floor(info.height!/4)}).resize(80,80,{fit:'contain',kernel:'nearest',background:{r:0,g:0,b:0,alpha:0}}).ensureAlpha().raw().toBuffer();
+  const rgba=await sharp(master).extract({left:Math.floor(i%4*info.width!/4),top:Math.floor(Math.floor(i/4)*info.height!/4),width:Math.floor(info.width!/4),height:Math.floor(info.height!/4)}).resize(helicopterSize,helicopterSize,{fit:'contain',kernel:'nearest',background:{r:0,g:0,b:0,alpha:0}}).ensureAlpha().raw().toBuffer();
   for(let p=0;p<rgba.length;p+=4)if(rgba[p+3]<128)rgba.fill(0,p,p+4);
-  poses.push({width:80,height:80,rgba});
+  poses.push({width:helicopterSize,height:helicopterSize,rgba});
  }
  const resources=[];let decoded=0;
  for(const clip of flight.clips){

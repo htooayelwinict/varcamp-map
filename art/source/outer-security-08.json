@@ -10,12 +10,6 @@
     "width": 9,
     "height": 4,
     "carrierTileIds": [
-      43,
-      44,
-      45,
-      46,
-      47,
-      48,
       49,
       50,
       51,
@@ -45,19 +39,21 @@
       75,
       76,
       77,
-      78
+      78,
+      79,
+      80,
+      81,
+      82,
+      83,
+      84
     ],
     "animations": [
       {
-        "id": 43,
+        "id": 49,
         "frames": [
           {
             "tileid": 0,
-            "duration": 31600
-          },
-          {
-            "tileid": 37,
-            "duration": 200
+            "duration": 31400
           },
           {
             "tileid": 39,
@@ -68,28 +64,48 @@
             "duration": 200
           },
           {
-            "tileid": 42,
+            "tileid": 43,
+            "duration": 200
+          },
+          {
+            "tileid": 45,
+            "duration": 200
+          },
+          {
+            "tileid": 47,
+            "duration": 200
+          },
+          {
+            "tileid": 48,
             "duration": 200
           },
           {
             "tileid": 0,
-            "duration": 87600
+            "duration": 87400
           }
         ]
       },
       {
-        "id": 44,
+        "id": 50,
         "frames": [
           {
             "tileid": 0,
-            "duration": 31600
+            "duration": 31200
           },
           {
-            "tileid": 38,
+            "tileid": 37,
             "duration": 200
           },
           {
             "tileid": 40,
+            "duration": 200
+          },
+          {
+            "tileid": 42,
+            "duration": 200
+          },
+          {
+            "tileid": 44,
             "duration": 200
           },
           {
@@ -99,7 +115,24 @@
         ]
       },
       {
-        "id": 45,
+        "id": 51,
+        "frames": [
+          {
+            "tileid": 0,
+            "duration": 31200
+          },
+          {
+            "tileid": 38,
+            "duration": 200
+          },
+          {
+            "tileid": 0,
+            "duration": 88600
+          }
+        ]
+      },
+      {
+        "id": 52,
         "frames": [
           {
             "tileid": 0,
@@ -108,16 +141,7 @@
         ]
       },
       {
-        "id": 46,
-        "frames": [
-          {
-            "tileid": 0,
-            "duration": 120000
-          }
-        ]
-      },
-      {
-        "id": 47,
+        "id": 53,
         "frames": [
           {
             "tileid": 0,
@@ -198,7 +222,7 @@
         ]
       },
       {
-        "id": 48,
+        "id": 54,
         "frames": [
           {
             "tileid": 0,
@@ -327,7 +351,7 @@
         ]
       },
       {
-        "id": 49,
+        "id": 55,
         "frames": [
           {
             "tileid": 0,
@@ -432,7 +456,7 @@
         ]
       },
       {
-        "id": 50,
+        "id": 56,
         "frames": [
           {
             "tileid": 0,
@@ -537,7 +561,7 @@
         ]
       },
       {
-        "id": 51,
+        "id": 57,
         "frames": [
           {
             "tileid": 0,
@@ -594,7 +618,24 @@
         ]
       },
       {
-        "id": 52,
+        "id": 58,
+        "frames": [
+          {
+            "tileid": 0,
+            "duration": 32000
+          },
+          {
+            "tileid": 46,
+            "duration": 200
+          },
+          {
+            "tileid": 0,
+            "duration": 87800
+          }
+        ]
+      },
+      {
+        "id": 59,
         "frames": [
           {
             "tileid": 0,
@@ -603,16 +644,7 @@
         ]
       },
       {
-        "id": 53,
-        "frames": [
-          {
-            "tileid": 0,
-            "duration": 120000
-          }
-        ]
-      },
-      {
-        "id": 54,
+        "id": 60,
         "frames": [
           {
             "tileid": 0,
@@ -693,7 +725,7 @@
         ]
       },
       {
-        "id": 55,
+        "id": 61,
         "frames": [
           {
             "tileid": 0,
@@ -798,7 +830,7 @@
         ]
       },
       {
-        "id": 56,
+        "id": 62,
         "frames": [
           {
             "tileid": 0,
@@ -903,7 +935,7 @@
         ]
       },
       {
-        "id": 57,
+        "id": 63,
         "frames": [
           {
             "tileid": 0,
@@ -984,7 +1016,7 @@
         ]
       },
       {
-        "id": 58,
+        "id": 64,
         "frames": [
           {
             "tileid": 0,
@@ -993,7 +1025,7 @@
         ]
       },
       {
-        "id": 59,
+        "id": 65,
         "frames": [
           {
             "tileid": 0,
@@ -1002,7 +1034,7 @@
         ]
       },
       {
-        "id": 60,
+        "id": 66,
         "frames": [
           {
             "tileid": 0,
@@ -1011,7 +1043,7 @@
         ]
       },
       {
-        "id": 61,
+        "id": 67,
         "frames": [
           {
             "tileid": 0,
@@ -1092,7 +1124,7 @@
         ]
       },
       {
-        "id": 62,
+        "id": 68,
         "frames": [
           {
             "tileid": 0,
@@ -1197,7 +1229,7 @@
         ]
       },
       {
-        "id": 63,
+        "id": 69,
         "frames": [
           {
             "tileid": 0,
@@ -1302,7 +1334,7 @@
         ]
       },
       {
-        "id": 64,
+        "id": 70,
         "frames": [
           {
             "tileid": 0,
@@ -1359,153 +1391,153 @@
         ]
       },
       {
-        "id": 65,
-        "frames": [
-          {
-            "tileid": 0,
-            "duration": 120000
-          }
-        ]
-      },
-      {
-        "id": 66,
-        "frames": [
-          {
-            "tileid": 0,
-            "duration": 120000
-          }
-        ]
-      },
-      {
-        "id": 67,
-        "frames": [
-          {
-            "tileid": 0,
-            "duration": 120000
-          }
-        ]
-      },
-      {
-        "id": 68,
-        "frames": [
-          {
-            "tileid": 0,
-            "duration": 120000
-          }
-        ]
-      },
-      {
-        "id": 69,
-        "frames": [
-          {
-            "tileid": 0,
-            "duration": 120000
-          }
-        ]
-      },
-      {
-        "id": 70,
-        "frames": [
-          {
-            "tileid": 1,
-            "duration": 200
-          },
-          {
-            "tileid": 3,
-            "duration": 200
-          },
-          {
-            "tileid": 6,
-            "duration": 200
-          },
-          {
-            "tileid": 0,
-            "duration": 19400
-          },
-          {
-            "tileid": 1,
-            "duration": 200
-          },
-          {
-            "tileid": 3,
-            "duration": 200
-          },
-          {
-            "tileid": 6,
-            "duration": 200
-          },
-          {
-            "tileid": 0,
-            "duration": 19400
-          },
-          {
-            "tileid": 1,
-            "duration": 200
-          },
-          {
-            "tileid": 3,
-            "duration": 200
-          },
-          {
-            "tileid": 6,
-            "duration": 200
-          },
-          {
-            "tileid": 0,
-            "duration": 19400
-          },
-          {
-            "tileid": 1,
-            "duration": 200
-          },
-          {
-            "tileid": 3,
-            "duration": 200
-          },
-          {
-            "tileid": 6,
-            "duration": 200
-          },
-          {
-            "tileid": 0,
-            "duration": 19400
-          },
-          {
-            "tileid": 1,
-            "duration": 200
-          },
-          {
-            "tileid": 3,
-            "duration": 200
-          },
-          {
-            "tileid": 6,
-            "duration": 200
-          },
-          {
-            "tileid": 0,
-            "duration": 19400
-          },
-          {
-            "tileid": 1,
-            "duration": 200
-          },
-          {
-            "tileid": 3,
-            "duration": 200
-          },
-          {
-            "tileid": 6,
-            "duration": 200
-          },
-          {
-            "tileid": 0,
-            "duration": 19400
-          }
-        ]
-      },
-      {
         "id": 71,
+        "frames": [
+          {
+            "tileid": 0,
+            "duration": 120000
+          }
+        ]
+      },
+      {
+        "id": 72,
+        "frames": [
+          {
+            "tileid": 0,
+            "duration": 120000
+          }
+        ]
+      },
+      {
+        "id": 73,
+        "frames": [
+          {
+            "tileid": 0,
+            "duration": 120000
+          }
+        ]
+      },
+      {
+        "id": 74,
+        "frames": [
+          {
+            "tileid": 0,
+            "duration": 120000
+          }
+        ]
+      },
+      {
+        "id": 75,
+        "frames": [
+          {
+            "tileid": 0,
+            "duration": 120000
+          }
+        ]
+      },
+      {
+        "id": 76,
+        "frames": [
+          {
+            "tileid": 1,
+            "duration": 200
+          },
+          {
+            "tileid": 3,
+            "duration": 200
+          },
+          {
+            "tileid": 6,
+            "duration": 200
+          },
+          {
+            "tileid": 0,
+            "duration": 19400
+          },
+          {
+            "tileid": 1,
+            "duration": 200
+          },
+          {
+            "tileid": 3,
+            "duration": 200
+          },
+          {
+            "tileid": 6,
+            "duration": 200
+          },
+          {
+            "tileid": 0,
+            "duration": 19400
+          },
+          {
+            "tileid": 1,
+            "duration": 200
+          },
+          {
+            "tileid": 3,
+            "duration": 200
+          },
+          {
+            "tileid": 6,
+            "duration": 200
+          },
+          {
+            "tileid": 0,
+            "duration": 19400
+          },
+          {
+            "tileid": 1,
+            "duration": 200
+          },
+          {
+            "tileid": 3,
+            "duration": 200
+          },
+          {
+            "tileid": 6,
+            "duration": 200
+          },
+          {
+            "tileid": 0,
+            "duration": 19400
+          },
+          {
+            "tileid": 1,
+            "duration": 200
+          },
+          {
+            "tileid": 3,
+            "duration": 200
+          },
+          {
+            "tileid": 6,
+            "duration": 200
+          },
+          {
+            "tileid": 0,
+            "duration": 19400
+          },
+          {
+            "tileid": 1,
+            "duration": 200
+          },
+          {
+            "tileid": 3,
+            "duration": 200
+          },
+          {
+            "tileid": 6,
+            "duration": 200
+          },
+          {
+            "tileid": 0,
+            "duration": 19400
+          }
+        ]
+      },
+      {
+        "id": 77,
         "frames": [
           {
             "tileid": 0,
@@ -1562,61 +1594,61 @@
         ]
       },
       {
-        "id": 72,
-        "frames": [
-          {
-            "tileid": 0,
-            "duration": 120000
-          }
-        ]
-      },
-      {
-        "id": 73,
-        "frames": [
-          {
-            "tileid": 0,
-            "duration": 120000
-          }
-        ]
-      },
-      {
-        "id": 74,
-        "frames": [
-          {
-            "tileid": 0,
-            "duration": 120000
-          }
-        ]
-      },
-      {
-        "id": 75,
-        "frames": [
-          {
-            "tileid": 0,
-            "duration": 120000
-          }
-        ]
-      },
-      {
-        "id": 76,
-        "frames": [
-          {
-            "tileid": 0,
-            "duration": 120000
-          }
-        ]
-      },
-      {
-        "id": 77,
-        "frames": [
-          {
-            "tileid": 0,
-            "duration": 120000
-          }
-        ]
-      },
-      {
         "id": 78,
+        "frames": [
+          {
+            "tileid": 0,
+            "duration": 120000
+          }
+        ]
+      },
+      {
+        "id": 79,
+        "frames": [
+          {
+            "tileid": 0,
+            "duration": 120000
+          }
+        ]
+      },
+      {
+        "id": 80,
+        "frames": [
+          {
+            "tileid": 0,
+            "duration": 120000
+          }
+        ]
+      },
+      {
+        "id": 81,
+        "frames": [
+          {
+            "tileid": 0,
+            "duration": 120000
+          }
+        ]
+      },
+      {
+        "id": 82,
+        "frames": [
+          {
+            "tileid": 0,
+            "duration": 120000
+          }
+        ]
+      },
+      {
+        "id": 83,
+        "frames": [
+          {
+            "tileid": 0,
+            "duration": 120000
+          }
+        ]
+      },
+      {
+        "id": 84,
         "frames": [
           {
             "tileid": 0,
@@ -1627,15 +1659,15 @@
     ],
     "provenance": {
       "metadataPath": "art/source/outer-security-08.json",
-      "atlasSha256": "108e11b7fb04154dc4301701de920892cc417ac6daaeb561338b701b58e9fc9e",
+      "atlasSha256": "75f1df0ed4bb6957550dc7ee92ea4477f18ad054780e36280f11bd9bcf5820d9",
       "inputs": [
         {
           "path": "art/source/outer-security-flight.json",
-          "sha256": "7229cc76531f33b7577f68745447d76b2d263bf246ede00c52efb8d1168cf16e"
+          "sha256": "ea567285b63976b36f62e0c01c3aac47db6f7b235d76c29d7273c25645969a0e"
         },
         {
           "path": "tools/art/outer-security.ts",
-          "sha256": "247de6726704caa9649abb4a8fca2fc82f551bd2bf6367cae9b9c45648e22986"
+          "sha256": "038c2632762c40448676db369246ef96e4742a183103c2b346d30ab7b4217ffa"
         },
         {
           "path": "tools/art/native-motion.ts",
@@ -1660,13 +1692,13 @@
     "phaseCount": 600,
     "periodMs": 120000,
     "stepMs": 200,
-    "sharedFrameTiles": 43,
-    "decodedRgbaBytes": 327680,
+    "sharedFrameTiles": 49,
+    "decodedRgbaBytes": 393216,
     "atlas": {
       "width": 512,
-      "height": 160,
+      "height": 192,
       "columns": 16,
-      "tilecount": 80
+      "tilecount": 96
     },
     "tracks": [
       {
@@ -1707,8 +1739,8 @@
       },
       {
         "id": "security-helicopter",
-        "visiblePhases": 4,
-        "positionCount": 4,
+        "visiblePhases": 7,
+        "positionCount": 7,
         "poseCount": 2
       }
     ]

@@ -5,23 +5,33 @@
     "image": "assets/tilesets/original/outer-security-00.png",
     "sourceId": "outer-security",
     "level": "aboveScenery",
-    "x": 32,
-    "y": 10,
-    "width": 4,
-    "height": 2,
+    "x": 30,
+    "y": 9,
+    "width": 6,
+    "height": 3,
     "carrierTileIds": [
-      8,
-      9,
-      10,
-      11,
-      12,
-      13,
-      14,
-      15
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35
     ],
     "animations": [
       {
-        "id": 8,
+        "id": 18,
         "frames": [
           {
             "tileid": 0,
@@ -30,7 +40,7 @@
         ]
       },
       {
-        "id": 9,
+        "id": 19,
         "frames": [
           {
             "tileid": 0,
@@ -39,7 +49,7 @@
         ]
       },
       {
-        "id": 10,
+        "id": 20,
         "frames": [
           {
             "tileid": 0,
@@ -48,7 +58,7 @@
         ]
       },
       {
-        "id": 11,
+        "id": 21,
         "frames": [
           {
             "tileid": 0,
@@ -57,7 +67,7 @@
         ]
       },
       {
-        "id": 12,
+        "id": 22,
         "frames": [
           {
             "tileid": 0,
@@ -66,7 +76,7 @@
         ]
       },
       {
-        "id": 13,
+        "id": 23,
         "frames": [
           {
             "tileid": 0,
@@ -75,36 +85,56 @@
         ]
       },
       {
-        "id": 14,
+        "id": 24,
         "frames": [
           {
             "tileid": 0,
-            "duration": 32200
-          },
-          {
-            "tileid": 3,
-            "duration": 200
-          },
-          {
-            "tileid": 5,
-            "duration": 200
-          },
-          {
-            "tileid": 0,
-            "duration": 87400
+            "duration": 120000
           }
         ]
       },
       {
-        "id": 15,
+        "id": 25,
+        "frames": [
+          {
+            "tileid": 0,
+            "duration": 120000
+          }
+        ]
+      },
+      {
+        "id": 26,
+        "frames": [
+          {
+            "tileid": 0,
+            "duration": 120000
+          }
+        ]
+      },
+      {
+        "id": 27,
+        "frames": [
+          {
+            "tileid": 0,
+            "duration": 120000
+          }
+        ]
+      },
+      {
+        "id": 28,
+        "frames": [
+          {
+            "tileid": 0,
+            "duration": 120000
+          }
+        ]
+      },
+      {
+        "id": 29,
         "frames": [
           {
             "tileid": 0,
             "duration": 31800
-          },
-          {
-            "tileid": 1,
-            "duration": 200
           },
           {
             "tileid": 2,
@@ -115,7 +145,68 @@
             "duration": 200
           },
           {
-            "tileid": 6,
+            "tileid": 0,
+            "duration": 87800
+          }
+        ]
+      },
+      {
+        "id": 30,
+        "frames": [
+          {
+            "tileid": 0,
+            "duration": 120000
+          }
+        ]
+      },
+      {
+        "id": 31,
+        "frames": [
+          {
+            "tileid": 0,
+            "duration": 120000
+          }
+        ]
+      },
+      {
+        "id": 32,
+        "frames": [
+          {
+            "tileid": 0,
+            "duration": 120000
+          }
+        ]
+      },
+      {
+        "id": 33,
+        "frames": [
+          {
+            "tileid": 0,
+            "duration": 32600
+          },
+          {
+            "tileid": 11,
+            "duration": 200
+          },
+          {
+            "tileid": 14,
+            "duration": 200
+          },
+          {
+            "tileid": 0,
+            "duration": 87000
+          }
+        ]
+      },
+      {
+        "id": 34,
+        "frames": [
+          {
+            "tileid": 0,
+            "duration": 32000
+          },
+          {
+            "tileid": 5,
             "duration": 200
           },
           {
@@ -123,23 +214,80 @@
             "duration": 200
           },
           {
+            "tileid": 9,
+            "duration": 200
+          },
+          {
+            "tileid": 12,
+            "duration": 200
+          },
+          {
+            "tileid": 15,
+            "duration": 200
+          },
+          {
+            "tileid": 17,
+            "duration": 200
+          },
+          {
             "tileid": 0,
-            "duration": 87200
+            "duration": 86800
+          }
+        ]
+      },
+      {
+        "id": 35,
+        "frames": [
+          {
+            "tileid": 0,
+            "duration": 31600
+          },
+          {
+            "tileid": 1,
+            "duration": 200
+          },
+          {
+            "tileid": 3,
+            "duration": 200
+          },
+          {
+            "tileid": 6,
+            "duration": 200
+          },
+          {
+            "tileid": 8,
+            "duration": 200
+          },
+          {
+            "tileid": 10,
+            "duration": 200
+          },
+          {
+            "tileid": 13,
+            "duration": 200
+          },
+          {
+            "tileid": 16,
+            "duration": 200
+          },
+          {
+            "tileid": 0,
+            "duration": 87000
           }
         ]
       }
     ],
     "provenance": {
       "metadataPath": "art/source/outer-security-00.json",
-      "atlasSha256": "1e030030939bb0eea238c714546e028eb8a616a9d1131bf2147d7c74a36eec02",
+      "atlasSha256": "86ccc495583229b2204e5e881ca677936ff4bbc816feb00d302c909cf22bd95d",
       "inputs": [
         {
           "path": "art/source/outer-security-flight.json",
-          "sha256": "7229cc76531f33b7577f68745447d76b2d263bf246ede00c52efb8d1168cf16e"
+          "sha256": "ea567285b63976b36f62e0c01c3aac47db6f7b235d76c29d7273c25645969a0e"
         },
         {
           "path": "tools/art/outer-security.ts",
-          "sha256": "247de6726704caa9649abb4a8fca2fc82f551bd2bf6367cae9b9c45648e22986"
+          "sha256": "038c2632762c40448676db369246ef96e4742a183103c2b346d30ab7b4217ffa"
         },
         {
           "path": "tools/art/native-motion.ts",
@@ -164,13 +312,13 @@
     "phaseCount": 600,
     "periodMs": 120000,
     "stepMs": 200,
-    "sharedFrameTiles": 8,
-    "decodedRgbaBytes": 65536,
+    "sharedFrameTiles": 18,
+    "decodedRgbaBytes": 196608,
     "atlas": {
       "width": 512,
-      "height": 32,
+      "height": 96,
       "columns": 16,
-      "tilecount": 16
+      "tilecount": 48
     },
     "tracks": [
       {
@@ -211,8 +359,8 @@
       },
       {
         "id": "security-helicopter",
-        "visiblePhases": 5,
-        "positionCount": 5,
+        "visiblePhases": 8,
+        "positionCount": 8,
         "poseCount": 2
       }
     ]

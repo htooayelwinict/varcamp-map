@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "beforeLayoutSha256": "68a0cbe6d302d154bc306da3e53d2d18e6a2a314217fc264a60e415b8a207d89",
+  "afterLayoutSha256": "bdfe740d8a14885a68bdd6fdf89ae391e949b9819c884f576310de8c075edcc5",
+  "spriteId": "roadster-pad-solid",
+  "sprite": {
+    "sheet": "assets/tilesets/workadventure/WA_Room_Builder.png",
+    "rect": {
+      "x": 10,
+      "y": 14,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [
+      [
+        0,
+        0
+      ]
+    ],
+    "level": "belowAvatar",
+    "sourceId": "workadventure"
+  },
+  "placement": {
+    "id": "roadster-solid-pad",
+    "sprite": "roadster-pad-solid",
+    "x": 83,
+    "y": 53,
+    "width": 5,
+    "height": 5,
+    "layer": "terrain"
+  },
+  "overlaySha256": "f35d8e958a0e93818e70bab2746d9f89ed6969815e751feca072cd803ce5601d"
+}
