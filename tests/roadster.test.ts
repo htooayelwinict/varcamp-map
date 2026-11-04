@@ -1,6 +1,5 @@
 import { approvedEditorCollections, editorCatalogHistoryMaps, historicalEditorWamBytes, editorMetadataHistoryPaths, historicalEditorMetadataBytes } from './helpers/editor-catalog-history';
 import { readFileSync } from 'node:fs';
-import { PATROL_IDS } from '../tools/maps/patrol-roles';
 import { describe, expect, it } from 'vitest';
 import type { TiledMap, TileLayer } from '../tools/maps/types';
 function frozenOverworld(kind:'tmj'):TiledMap;
@@ -20,10 +19,9 @@ describe('stationary native Roadster display', () => {
   expect(set.tiles).toHaveLength(25);
   expect(set.tiles!.every(t => t.animation && t.animation.length >= 2)).toBe(true);
   expect(new Set(set.tiles!.map(t => t.animation!.reduce((n,f) => n+f.duration,0)))).toEqual(new Set([12800]));
-  // The v2 epoch: the role atlas is the compiled motion atlas, appended after the brand family.
-  expect(set).toMatchObject({ image: '../assets/tilesets/original/roadster-v2.png', firstgid: 11783, columns: 16, imagewidth: 512 });
-  expect(map.tilesets[82]).toBe(set); // every prior reservation stays fixed; the two named exterior families append afterward
-  expect(map.tilesets.slice(83).map(t=>t.name)).toEqual(['zodiac-exteriors','hall-exteriors','Arrival / VarCamp NW','Arrival / VarCamp NE','Arrival / VarCamp SW','Arrival / VarCamp SE',...PATROL_IDS,'plaza-fountain-water','plaza-fountain-water-upper','leo-lion-head','zodiac-ground-names','hall-buildings','Expo / Vibe Code Tours']);
+  expect(set).toMatchObject({image:'../assets/tilesets/original/roadster-flight.png',firstgid:31670,columns:16,imagewidth:512});
+  expect(map.tilesets.at(-1)).toBe(set);
+  expect(map.tilesets[82]).toMatchObject({name:'roadster-v2-history',image:'../assets/tilesets/original/roadster-v2.png',firstgid:11783});
   expect(map.tilesets.filter(s => s.name === 'roadster')).toHaveLength(1);
  });
 });
@@ -71,7 +69,7 @@ it('preserves the original sole-addition Roadster receipt against its immutable 
 // whose real CLI tests establish a positive baseline before artifact mutations.
 // Roadster's sole-addition history above uses independent immutable 17d4 inputs.
 it('fits the upper-right blue arrival floor without touching any of the 864 guide cells, spawn, entrance, scenery or sponsor panel', () => {
- const overlay = json('art/source/landscape-roadster.json').overlay;
+ const overlay = json('art/source/roadster-flight.json').overlay;
  expect(overlay).toMatchObject({x:83,y:53,width:5,height:5,level:'belowAvatar',name:'roadster'});
  expect(json('art/source/roadster.json').overlay).toMatchObject({x:73,y:60,width:5,height:5});
  expect(json(ROADSTER_V2_METADATA_PATH).overlay).toMatchObject({x:73,y:60,width:5,height:5});
@@ -106,7 +104,7 @@ it('keeps compiling the frozen v1 epoch byte for byte from the original generate
  const overlay=structuredClone(metadata.overlay);overlay.provenance!.inputs[0].sha256='0'.repeat(64);
  expect(()=>buildMap({id:'overworld',width:128,height:128,placements:[],entries:[],exits:[],areas:[],inspectionZones:[],animatedOverlays:[overlay]},loadTileCatalog())).toThrow(/input changed/);
 });
-describe('v2 compiled motion', () => {
+describe('frozen v2 historical motion', () => {
  const render = (async () => ({ v2: await renderRoadster(), v1: await renderRoadsterV1() }))();
  it('makes exactly one continuous full flip from a single unchanged car viewpoint before recovering upright', async () => {
   const {v2}=await render;
@@ -227,7 +225,8 @@ describe('v2 compiled motion', () => {
  });
  it('resolves every v2 frame and the loop boundary through the pinned deployed Phaser parser without tile seams or world travel',async()=>{
   for(const entry of json(`${fixtureRoot}/source-manifest.json`))expect(sha(readFileSync(`${fixtureRoot}/${entry.path}`))).toBe(entry.sha256);
-  const {v2}=await render,{png,frames,metadata}=v2, map=native(), set=map.tilesets.find(s=>s.name==='roadster')!;
+  const {v2}=await render,{png,frames,metadata}=v2, map=native(), set=map.tilesets.find(s=>s.name==='roadster-v2-history')!;
+  const old=json('world/roadster-flight.json').before,car=map.layers.find(l=>l.name==='roadster') as TileLayer;car.data.fill(0);for(let y=0;y<5;y++)for(let x=0;x<5;x++)car.data[(53+y)*128+83+x]=set.firstgid+old.carrierTileIds[y*5+x];
   const engine=parse(structuredClone(map)).tilesets.find((s:{firstgid:number})=>s.firstgid===set.firstgid);
   const layer=map.layers.find(l=>l.name==='roadster') as TileLayer,atlas=await sharp(png).ensureAlpha().raw().toBuffer();
   const starts:number[]=[];let t=0;for(const f of metadata.frames as RoadsterFrameReceipt[]){starts.push(t);t+=f.durationMs;}starts.push(t);expect(t).toBe(12800);

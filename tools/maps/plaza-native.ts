@@ -1,3 +1,4 @@
+import {restoreRoadsterFlight} from './roadster-flight';
 import {restorePlazaShoreline} from './plaza-shoreline';
 import {restoreArrivalHospitality} from './arrival-hospitality';
 import {restoreRoadsterPhysics} from './roadster-physics';
@@ -73,7 +74,7 @@ export function assertNativePlaza(map:TiledMap,layout:MapLayout,catalog:TileCata
  need(layout.id==='overworld'&&identity.length===1&&identity[0].type==='string'&&identity[0].value==='overworld'&&map.width===128&&map.height===128,'current map/layout identity changed');
  assertCheckInPhysicsCatalog(catalog);
  assertAudienceFootprintCatalog(catalog);
- restoreLeoCitadel(restoreCancerCitadel(restoreHornedCitadels(restoreOuterSecurity(restoreRoadsterPhysics(restoreArrivalHospitality(restorePlazaShoreline(layout,catalog)),catalog)),catalog),catalog),catalog);
+ restoreLeoCitadel(restoreCancerCitadel(restoreHornedCitadels(restoreOuterSecurity(restoreRoadsterPhysics(restoreArrivalHospitality(restorePlazaShoreline(restoreRoadsterFlight(layout),catalog)),catalog)),catalog),catalog),catalog);
  const beforeEvent=restoreEventPresentation(layout);
  const priorCrescent=restorePlazaCrescent(restorePlazaLandscape(restoreVibeCodeBranding(restoreCheckInCounter(beforeEvent))));
  assertHallBuildings(priorCrescent,catalog);

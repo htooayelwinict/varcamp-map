@@ -1,3 +1,4 @@
+import {flightSourceAtlas,flightPredecessorSource,retireRoadsterAtlas} from './roadster-flight';
 import {shorelineAtlases} from './plaza-shoreline';
 import {navigationProtectedLayers,navigationAtlases} from './harbour-navigation-context';
 import {parkArcadeProtectedLayers,parkArcadeAtlases,isParkLampSource} from './park-arcade-context';
@@ -228,6 +229,12 @@ function protectedContext(actual:TiledMap,row:ContextRow,author=false):void{
 interface Epoch{expo:boolean;brand:boolean;roadsterV2:boolean}
 const CURRENT:Epoch={expo:true,brand:true,roadsterV2:true},PRE_ROADSTER_V2:Epoch={expo:true,brand:true,roadsterV2:false},PRE_BRAND:Epoch={expo:true,brand:false,roadsterV2:false},PRE_EXPO:Epoch={expo:false,brand:false,roadsterV2:false};
 function currentAtlases(row:ContextRow,source:TiledMap,epoch:Epoch=CURRENT,includeCove=true,includeZodiac=true,includeHall=true,includeArrival=true,includePatrol=true,includeFountain=true,includeLeo=true,includeBuildings=true):TiledTileset[]{
+ const flight=flightSourceAtlas(source);
+ if(flight){
+  const old=currentAtlases(row,flightPredecessorSource(source),epoch,includeCove,includeZodiac,includeHall,includeArrival,includePatrol,includeFountain,includeLeo,includeBuildings);
+  if(!epoch.roadsterV2)return old;
+  const expected=retireRoadsterAtlas(old);expected.push({...structuredClone(flight),firstgid:Math.max(...expected.map(t=>t.firstgid+t.tilecount!))});return expected;
+ }
  source=leoCitadelContextSource(eventAtlasContextSource(source));
  const retired=new Set(row.retired.map(t=>t.firstgid));
  const expected=structuredClone(row.atlases.filter(t=>!retired.has(t.firstgid)));
@@ -315,6 +322,7 @@ export function assertNativeAuthoringContext(actual:TiledMap,source:TiledMap):vo
  const expected=currentAtlases(row,source);
  if(isDeepStrictEqual(actual.tilesets,row.atlases))return;
  if(isDeepStrictEqual(actual.tilesets,expected))return;
+ if(flightSourceAtlas(source)&&isDeepStrictEqual(actual.tilesets,currentAtlases(row,flightPredecessorSource(source))))return;
  const shorelineCount=shorelineAtlases(source,0).length;
  if(shorelineCount===1&&isDeepStrictEqual(actual.tilesets,expected.slice(0,-1)))return;
  const securityCount=securityAtlases(source,0).length;

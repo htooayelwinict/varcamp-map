@@ -1,10 +1,11 @@
+import {restoreRoadsterFlight} from '../tools/maps/roadster-flight';
 import {readFileSync} from 'node:fs';
 import {describe,it,expect} from 'vitest';
 import {applyPlazaShoreline,restorePlazaShoreline,shorelineAtlases} from '../tools/maps/plaza-shoreline';
 import type {MapLayout,TiledMap,TileLayer} from '../tools/maps/types';
 import recipe from '../world/plaza-shoreline.json';
 const read=(p:string)=>JSON.parse(readFileSync(p,'utf8'));
-const layout=()=>read('world/layouts/overworld.json') as MapLayout;
+const layout=()=>restoreRoadsterFlight(read('world/layouts/overworld.json') as MapLayout);
 const map=()=>read('maps/overworld.tmj') as TiledMap;
 const layer=(m:TiledMap,n:string)=>m.layers.find(l=>l.name===n) as TileLayer;
 
@@ -47,7 +48,7 @@ describe('circular plaza shoreline',()=>{
   for(const[x,y]of [[63,7],[63,120],[7,63],[120,63],[27,24],[100,24],[24,107],[103,107]])expect(seen.has(y*128+x),'unreachable perimeter '+[x,y]).toBe(true);
  });
  it('adds only the licensed terrain reservation with fixed native dimensions',()=>{
-  const m=map(),t=m.tilesets.at(-1)!;expect(m.tilesets).toHaveLength(162);expect(t.name).toBe('plaza-shoreline-terrain');
+  const m=map(),t=m.tilesets.find(t=>t.name==='plaza-shoreline-terrain')!;expect(m.tilesets).toHaveLength(163);expect(t.name).toBe('plaza-shoreline-terrain');
   const source={...m,tilesets:[{...t,name:'art-0',firstgid:1}]};
   expect(shorelineAtlases(source,t.firstgid)).toEqual([t]);
   source.tilesets[0].columns=20;expect(()=>shorelineAtlases(source,t.firstgid)).toThrow('bank atlas geometry');

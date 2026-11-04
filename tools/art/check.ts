@@ -1,3 +1,4 @@
+import {renderRoadsterFlight,FLIGHT_ATLAS,FLIGHT_METADATA} from './roadster-flight';
 import {checkPlazaPatrolArt} from './plaza-patrol';
 import {checkFountainMotionArt} from './fountain-motion';
 import {checkLeoLionHeadArt} from './leo-lion-head';
@@ -111,6 +112,9 @@ export async function checkArt(catalog: TileCatalog = loadTileCatalog()): Promis
   const roadster=await renderRoadster();
   if(!readFileSync(ROADSTER_V2_ATLAS_PATH).equals(roadster.png))errors.push('roadster-v2: animated PNG differs from compiled motion');
   if(JSON.stringify(JSON.parse(readFileSync(ROADSTER_V2_METADATA_PATH,'utf8')))!==JSON.stringify(roadster.metadata))errors.push('roadster-v2: metadata differs from compiled motion');
+  const roadsterFlight=await renderRoadsterFlight();
+  if(!readFileSync(FLIGHT_ATLAS).equals(roadsterFlight.png))errors.push('roadster-flight: animated PNG differs from source');
+  if(!isDeepStrictEqual(JSON.parse(readFileSync(FLIGHT_METADATA,'utf8')),roadsterFlight.metadata))errors.push('roadster-flight: metadata differs from source');
   const identity=await renderPlazaIdentity(),garden=await renderPlazaGarden(),buildings=await renderPlazaBuildings(),grass=await renderPlazaGrass(),drones=await renderPlazaDrones(),pots=await renderPlazaPots();
   const nativeOutputs:[string,Buffer][]=[['assets/tilesets/original/zodiac-emblems.png',identity.zodiac],['assets/sponsors/varcamp-2026.png',identity.brand],['assets/tilesets/original/plaza-garden.png',garden.png],['assets/tilesets/original/plaza-buildings.png',buildings.png],['assets/tilesets/original/plaza-grass.png',grass.png],['assets/tilesets/original/plaza-pots.png',pots.png],['art/source/plaza-drone-poses.png',drones.posePng],...drones.resources.map(r=>[r.overlay.image,r.png] as [string,Buffer])];
   for(const[path,expected]of nativeOutputs)if(!existsSync(path)||!readFileSync(path).equals(expected))errors.push(`${path}: differs from retained original native export`);

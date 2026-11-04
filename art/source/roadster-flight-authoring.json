@@ -1,0 +1,30 @@
+{
+  "version": 3,
+  "source": "art/source/roadster-roll-poses.png",
+  "grid": 4,
+  "alphaThreshold": 180,
+  "framePixels": 160,
+  "bodyLengthPx": 112,
+  "headingDeg": -28,
+  "cycleMs": 12800,
+  "stepMs": 100,
+  "flightStartMs": 3400,
+  "flightDurationMs": 3000,
+  "rollStartMs": 400,
+  "rollDurationMs": 1600,
+  "altitudeKeys": [[0,0,0],[250,8,0.065],[1150,54,0],[2000,31,-0.05],[2700,2,-0.015],[3000,0,0]],
+  "imageGeneration": {
+    "tool": "built-in image_gen",
+    "reference": "art/source/roadster-poses.png",
+    "prompt": "Use the top-left upright car as the design reference. Transparent 4 by 4 sprite sheet of the same silver angular wedge sports car with black glass, four black wheels, white front light and red rear light. Sixteen sequential poses through one complete longitudinal barrel roll, from 0 through 337.5 degrees. Fixed elevated orthographic three-quarter camera. Nose always lower-left, rear upper-right. Expose the dark underbody and wheels when inverted, hide the roof and glass when underneath. Body only, no exhaust, shadow, pad or labels. Crisp pixel art; consistent size and cell centre."
+  },
+  "references": [
+    {"url":"https://www.youtube.com/watch?v=r5vsHHPVhJg","role":"Tesla The Kickflip; official description read; direct playback required sign-in"},
+    {"url":"https://www.youtube.com/watch?v=7p5LxFdc-Qg","role":"Tesla The Ramp; distinct ramp stunt; description read"},
+    {"url":"https://www.tesla.com/roadster","role":"Official cold-gas thruster and rotational movement specification"},
+    {"url":"https://roadster.rocks/media/clips/kickflip.mp4","original":"https://x.com/Tesla/status/2110926164306931860","role":"Public mirror credited to Tesla; 44-second multi-angle clip inspected as frames; reference only, not redistributed"},
+    {"url":"https://roadster.rocks/media/clips/up-close.mp4","original":"https://x.com/SawyerMerritt/status/2110928489318896119","role":"Crowd footage of ramp approach; cross-check distinguishing the separate stunt"},
+    {"url":"https://www.teslarati.com/tesla-shows-off-roadster-kickflip-new-pov-video/","role":"Independent report on Tesla's November 3 POV release"}
+  ],
+  "adaptation": "One longitudinal roll during a rise and descent, bounded inside the existing 5 by 5 tile display. Not a scale simulation of the forward leap over other vehicles. Technical per-pose registration corrects generated sheet heading drift; no flat-image full-turn rotation."
+}

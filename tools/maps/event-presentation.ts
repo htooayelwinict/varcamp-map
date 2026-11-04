@@ -1,3 +1,4 @@
+import {applyRoadsterFlight,isRoadsterFlight,restoreRoadsterFlight} from './roadster-flight';
 import {applyPlazaShoreline,isPlazaShoreline,restorePlazaShoreline} from './plaza-shoreline';
 import {applyArrivalHospitality,isArrivalHospitality,restoreArrivalHospitality} from './arrival-hospitality';
 import {createHash} from 'node:crypto';
@@ -21,8 +22,9 @@ const rows=data.maps as unknown as Record<string,Row>;
 const sha=(v:unknown)=>createHash('sha256').update(JSON.stringify(v)).digest('hex');
 const need=(ok:unknown,message:string)=>{if(!ok)throw Error('Event presentation: '+message);};
 export const EVENT_MAP_IDS=Object.keys(rows);
-export function isEventPresentation(l:MapLayout):boolean{return isPlazaShoreline(l)||isArrivalHospitality(l)||isRoadsterPhysics(l)||isOuterSecurity(l)||isHornedCitadels(l)||isCancerCitadel(l)||isLeoCitadel(l)||isSpeakerOfficeWings(l)||isStageSideAccess(l)||isAuditoriumSpacing(l)||isRoomRefinement(l)||isAudienceFootprints(l)||(l.id.startsWith('speaker-')?isSpeakerCommunity(l):rows[l.id]?.afterLayoutSha256===sha(l)||isCheckInPhysics(l));}
+export function isEventPresentation(l:MapLayout):boolean{return isRoadsterFlight(l)||isPlazaShoreline(l)||isArrivalHospitality(l)||isRoadsterPhysics(l)||isOuterSecurity(l)||isHornedCitadels(l)||isCancerCitadel(l)||isLeoCitadel(l)||isSpeakerOfficeWings(l)||isStageSideAccess(l)||isAuditoriumSpacing(l)||isRoomRefinement(l)||isAudienceFootprints(l)||(l.id.startsWith('speaker-')?isSpeakerCommunity(l):rows[l.id]?.afterLayoutSha256===sha(l)||isCheckInPhysics(l));}
 export function transformEventPresentation(input:MapLayout,forward:boolean):MapLayout{
+ if(!forward&&isRoadsterFlight(input))input=restoreRoadsterFlight(input);
  if(!forward&&isPlazaShoreline(input))input=restorePlazaShoreline(input);
  if(!forward&&isArrivalHospitality(input))input=restoreArrivalHospitality(input);
  if(!forward&&isRoadsterPhysics(input))input=restoreRoadsterPhysics(input);
@@ -56,7 +58,7 @@ export function transformEventPresentation(input:MapLayout,forward:boolean):MapL
  }
  need(sha(l)===(forward?row.afterLayoutSha256:row.beforeLayoutSha256),'transaction output changed');
  const presentation=forward?applyLeoCitadel(applySpeakerOfficeWings(applyStageSideAccess(applyAuditoriumSpacing(applyRoomRefinement(applyAudienceFootprints(l.id==='overworld'?applyCheckInPhysics(l):l.id.startsWith('speaker-')?applySpeakerCommunity(l):l)))))):l;
- return forward?applyPlazaShoreline(applyArrivalHospitality(applyRoadsterPhysics(applyOuterSecurity(applyHornedCitadels(applyCancerCitadel(presentation)))))):presentation;
+ return forward?applyRoadsterFlight(applyPlazaShoreline(applyArrivalHospitality(applyRoadsterPhysics(applyOuterSecurity(applyHornedCitadels(applyCancerCitadel(presentation))))))):presentation;
 }
 export const applyEventPresentation=(l:MapLayout)=>transformEventPresentation(l,true);
 export const restoreEventPresentation=(l:MapLayout)=>transformEventPresentation(l,false);
