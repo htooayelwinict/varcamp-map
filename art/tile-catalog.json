@@ -58329,5 +58329,158 @@
     ],
     "level": "belowAvatar",
     "sourceId": "workadventure"
+  },
+  "shoreline-bank-0-0": {
+    "sheet": "assets/tilesets/lpc-garden/terrain.png",
+    "rect": {
+      "x": 12,
+      "y": 14,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [
+      [
+        0,
+        0
+      ]
+    ],
+    "level": "belowAvatar",
+    "sourceId": "lpc-garden-terrain"
+  },
+  "shoreline-bank-1-0": {
+    "sheet": "assets/tilesets/lpc-garden/terrain.png",
+    "rect": {
+      "x": 13,
+      "y": 14,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [
+      [
+        0,
+        0
+      ]
+    ],
+    "level": "belowAvatar",
+    "sourceId": "lpc-garden-terrain"
+  },
+  "shoreline-bank-2-0": {
+    "sheet": "assets/tilesets/lpc-garden/terrain.png",
+    "rect": {
+      "x": 14,
+      "y": 14,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [
+      [
+        0,
+        0
+      ]
+    ],
+    "level": "belowAvatar",
+    "sourceId": "lpc-garden-terrain"
+  },
+  "shoreline-bank-0-1": {
+    "sheet": "assets/tilesets/lpc-garden/terrain.png",
+    "rect": {
+      "x": 12,
+      "y": 15,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [
+      [
+        0,
+        0
+      ]
+    ],
+    "level": "belowAvatar",
+    "sourceId": "lpc-garden-terrain"
+  },
+  "shoreline-bank-1-1": {
+    "sheet": "assets/tilesets/lpc-garden/terrain.png",
+    "rect": {
+      "x": 13,
+      "y": 15,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [
+      [
+        0,
+        0
+      ]
+    ],
+    "level": "belowAvatar",
+    "sourceId": "lpc-garden-terrain"
+  },
+  "shoreline-bank-2-1": {
+    "sheet": "assets/tilesets/lpc-garden/terrain.png",
+    "rect": {
+      "x": 14,
+      "y": 15,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [
+      [
+        0,
+        0
+      ]
+    ],
+    "level": "belowAvatar",
+    "sourceId": "lpc-garden-terrain"
+  },
+  "shoreline-bank-0-2": {
+    "sheet": "assets/tilesets/lpc-garden/terrain.png",
+    "rect": {
+      "x": 12,
+      "y": 16,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [
+      [
+        0,
+        0
+      ]
+    ],
+    "level": "belowAvatar",
+    "sourceId": "lpc-garden-terrain"
+  },
+  "shoreline-bank-1-2": {
+    "sheet": "assets/tilesets/lpc-garden/terrain.png",
+    "rect": {
+      "x": 13,
+      "y": 16,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [
+      [
+        0,
+        0
+      ]
+    ],
+    "level": "belowAvatar",
+    "sourceId": "lpc-garden-terrain"
+  },
+  "shoreline-bank-2-2": {
+    "sheet": "assets/tilesets/lpc-garden/terrain.png",
+    "rect": {
+      "x": 14,
+      "y": 16,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [
+      [
+        0,
+        0
+      ]
+    ],
+    "level": "belowAvatar",
+    "sourceId": "lpc-garden-terrain"
   }
 }

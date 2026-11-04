@@ -1,0 +1,131 @@
+{
+  "schemaVersion": 1,
+  "revisions": [
+    {
+      "path": "art/sources.json",
+      "fromSha256": "e893cfb0cb1489be16817abf951ab0dd763204bda9952f9bebcef1fecc29c20a",
+      "toSha256": "0b47807e83b70398f5bf91d0acfbb264aab6090276be0cebc78eb6cb7212bbee",
+      "reason": "Finish the circular island with a licensed native stone bank, continuous planted verge and four widened gate landings. Keep all existing objects, roads, portals, saved WAMs and flight routes exact; add one terrain atlas reservation and refresh release receipts."
+    },
+    {
+      "path": "art/tile-catalog.json",
+      "fromSha256": "8f0621296ee11529c68068a8a0219118f942004b9b1f41587f9039f9843d4eaa",
+      "toSha256": "ed0499d487d5eed78b3ca294edd729f7c5be24b290316d18b1d3b4fa94731b38",
+      "reason": "Finish the circular island with a licensed native stone bank, continuous planted verge and four widened gate landings. Keep all existing objects, roads, portals, saved WAMs and flight routes exact; add one terrain atlas reservation and refresh release receipts."
+    },
+    {
+      "path": "maps/overworld.tmj",
+      "fromSha256": "ca9eec3ec05cf9fd6bedab89ba0445c0104675a2f77acf127cbb74a80862ce56",
+      "toSha256": "44fa3aad2bbc33d790f7f9be18d0316493374cb2a90f6b4746f2d273be272122",
+      "reason": "Finish the circular island with a licensed native stone bank, continuous planted verge and four widened gate landings. Keep all existing objects, roads, portals, saved WAMs and flight routes exact; add one terrain atlas reservation and refresh release receipts."
+    },
+    {
+      "path": "maps/preview/overworld.tmj",
+      "fromSha256": "f5f4363f973b403d381f62e5e9f38fba971189df0f910689dacce5f9ac9c7ac6",
+      "toSha256": "fdfa4e9c717481fb8e044cad46c653c702c439a2c578c68eed2f7fe0979872be",
+      "reason": "Finish the circular island with a licensed native stone bank, continuous planted verge and four widened gate landings. Keep all existing objects, roads, portals, saved WAMs and flight routes exact; add one terrain atlas reservation and refresh release receipts."
+    },
+    {
+      "path": "world/layouts/air-district.json",
+      "fromSha256": "063a61dab8920169609188621a77c44e8271a51e086df1d4609dcc442bee1874",
+      "toSha256": "7de4347a1a8db4ea3dfec3042e03e31f8377820b87a7aaf4027286372e99e7e7",
+      "reason": "Finish the circular island with a licensed native stone bank, continuous planted verge and four widened gate landings. Keep all existing objects, roads, portals, saved WAMs and flight routes exact; add one terrain atlas reservation and refresh release receipts."
+    },
+    {
+      "path": "world/layouts/campus-exploration.json",
+      "fromSha256": "d7958ce1b7520159a6fad9bba963c74e546120b87ba852743eeff727c176b3cc",
+      "toSha256": "9c76849769ac173096a68aa38a7291df38a6d05528288061ba699bd7c6c156b6",
+      "reason": "Finish the circular island with a licensed native stone bank, continuous planted verge and four widened gate landings. Keep all existing objects, roads, portals, saved WAMs and flight routes exact; add one terrain atlas reservation and refresh release receipts."
+    },
+    {
+      "path": "world/layouts/comet-maze.json",
+      "fromSha256": "43d152a3b8ac84591c2e09b1f4dde485afa323320209227a9c4540ab37ceef65",
+      "toSha256": "9b3c69adb4d932d879bf93451939098af76f0cb6a28b45208658dc98d3efa683",
+      "reason": "Finish the circular island with a licensed native stone bank, continuous planted verge and four widened gate landings. Keep all existing objects, roads, portals, saved WAMs and flight routes exact; add one terrain atlas reservation and refresh release receipts."
+    },
+    {
+      "path": "world/layouts/earth-district.json",
+      "fromSha256": "9cf3f148f79bf132a7f2682b12f63d64505ce0a6bb621ecdf71064ec89973597",
+      "toSha256": "f37d8e9bbdd9eff3f1c782c1850c148974ec812ab1f92e353394ac49062acb72",
+      "reason": "Finish the circular island with a licensed native stone bank, continuous planted verge and four widened gate landings. Keep all existing objects, roads, portals, saved WAMs and flight routes exact; add one terrain atlas reservation and refresh release receipts."
+    },
+    {
+      "path": "world/layouts/fa-ship.json",
+      "fromSha256": "60d31163e89ca99373f4d660636ae41450346bce891ed0c584a18217bf3c1675",
+      "toSha256": "aed00ddb730b54ae5db1ec213bd9644fb2758a43a58484b7abea84de456c532a",
+      "reason": "Finish the circular island with a licensed native stone bank, continuous planted verge and four widened gate landings. Keep all existing objects, roads, portals, saved WAMs and flight routes exact; add one terrain atlas reservation and refresh release receipts."
+    },
+    {
+      "path": "world/layouts/fire-district.json",
+      "fromSha256": "b18e83c52e43ec8c720fc1b45b9757f3c03be3f75b11797314f5972b2f3b5afb",
+      "toSha256": "b67efe73601690abbe3fdc98d878f5509f9b1a89ef95cc9106106643371799f0",
+      "reason": "Finish the circular island with a licensed native stone bank, continuous planted verge and four widened gate landings. Keep all existing objects, roads, portals, saved WAMs and flight routes exact; add one terrain atlas reservation and refresh release receipts."
+    },
+    {
+      "path": "world/layouts/hidden-observatory.json",
+      "fromSha256": "3669ac07cb236ca58aa181c409f365bf51ba6a41f436a61f4ed614e25f4b92c6",
+      "toSha256": "e6ad9c3294ab6099888904a09a6ac6be78bf5cae58e7ac5e3f353fde0d474e70",
+      "reason": "Finish the circular island with a licensed native stone bank, continuous planted verge and four widened gate landings. Keep all existing objects, roads, portals, saved WAMs and flight routes exact; add one terrain atlas reservation and refresh release receipts."
+    },
+    {
+      "path": "world/layouts/moon-cafe.json",
+      "fromSha256": "7b4bae43a8df8d413ef96db646ac9a22ecef77d430bdc3ae4ea6981ab8ab6b4f",
+      "toSha256": "9c9fcac34fd60ec84eecab433c6ff4af9be1f3bed90d1b167d21eeb806001730",
+      "reason": "Finish the circular island with a licensed native stone bank, continuous planted verge and four widened gate landings. Keep all existing objects, roads, portals, saved WAMs and flight routes exact; add one terrain atlas reservation and refresh release receipts."
+    },
+    {
+      "path": "world/layouts/moon-grotto.json",
+      "fromSha256": "07d33c90428ca3cf886cf5303abf5c425b42970f36f882792b6c3bc97ea9a4ee",
+      "toSha256": "ee1133d50c4f61441019590cd71117376e98e9c4816025f11171e183e21d3def",
+      "reason": "Finish the circular island with a licensed native stone bank, continuous planted verge and four widened gate landings. Keep all existing objects, roads, portals, saved WAMs and flight routes exact; add one terrain atlas reservation and refresh release receipts."
+    },
+    {
+      "path": "world/layouts/nebula-arcade.json",
+      "fromSha256": "a9c690f292ff983ec69ef4061b0bd5490bb76021544d9a3f8c6619fffe24924e",
+      "toSha256": "55bce378f53d3965f92d2d9a8770e360f2168a852233882ba4744b43fd2feceb",
+      "reason": "Finish the circular island with a licensed native stone bank, continuous planted verge and four widened gate landings. Keep all existing objects, roads, portals, saved WAMs and flight routes exact; add one terrain atlas reservation and refresh release receipts."
+    },
+    {
+      "path": "world/layouts/orbit-maze.json",
+      "fromSha256": "97863d5e9ce1808d7a9ee6638c31b99bc371043e1948e5024757ea9d8dd452ce",
+      "toSha256": "779b6b8b299389eebe4296723a0b159a79d67b3f8b318741eed7cd9de8f8e1ce",
+      "reason": "Finish the circular island with a licensed native stone bank, continuous planted verge and four widened gate landings. Keep all existing objects, roads, portals, saved WAMs and flight routes exact; add one terrain atlas reservation and refresh release receipts."
+    },
+    {
+      "path": "world/layouts/orbit-playground.json",
+      "fromSha256": "21988b53eabc443ff3e00e1aafc50852d7d2679f1b58cccc7754f99b7b201bb2",
+      "toSha256": "e9ed08c486a72095bdeb19feeeae53ed5c2680cd7c25abff3f1bec38218fa5cd",
+      "reason": "Finish the circular island with a licensed native stone bank, continuous planted verge and four widened gate landings. Keep all existing objects, roads, portals, saved WAMs and flight routes exact; add one terrain atlas reservation and refresh release receipts."
+    },
+    {
+      "path": "world/layouts/overworld.json",
+      "fromSha256": "8493ba1482c3aee60525894f100936fb847eaf29485a66422f2aaae04b31d5dc",
+      "toSha256": "62234bbfaa842e5ade7cd091b27ab956440998070cde641e30fadbe9c2bece31",
+      "reason": "Finish the circular island with a licensed native stone bank, continuous planted verge and four widened gate landings. Keep all existing objects, roads, portals, saved WAMs and flight routes exact; add one terrain atlas reservation and refresh release receipts."
+    },
+    {
+      "path": "world/layouts/star-garden.json",
+      "fromSha256": "4b2d2c0793c12ab63a9daa528e77cd848811cd5130596253c19a30fd8ba7b4fb",
+      "toSha256": "107b0e1fa362c36f57f9c313f13ba00ae03bab2daf80bb0361ff3f45d00c920e",
+      "reason": "Finish the circular island with a licensed native stone bank, continuous planted verge and four widened gate landings. Keep all existing objects, roads, portals, saved WAMs and flight routes exact; add one terrain atlas reservation and refresh release receipts."
+    },
+    {
+      "path": "world/layouts/stargazer-terrace.json",
+      "fromSha256": "35b7129915d9c646e0833ccfe3b2648fe5a9a050dd475773e4f74cb72da77bc0",
+      "toSha256": "1539ad4279201d0c0e2c78ed4f1533643bd66b570b7593fd2e38f9a6eb1b6214",
+      "reason": "Finish the circular island with a licensed native stone bank, continuous planted verge and four widened gate landings. Keep all existing objects, roads, portals, saved WAMs and flight routes exact; add one terrain atlas reservation and refresh release receipts."
+    },
+    {
+      "path": "world/layouts/water-district.json",
+      "fromSha256": "5d92b3d5beedc5a75e2fbfbc075d123de9cdb7b23c3f39d5c010e55628db632e",
+      "toSha256": "e3d87a4fbf9a839f1946b387e991cc9849bb00582c005810d452ca5925ae8d35",
+      "reason": "Finish the circular island with a licensed native stone bank, continuous planted verge and four widened gate landings. Keep all existing objects, roads, portals, saved WAMs and flight routes exact; add one terrain atlas reservation and refresh release receipts."
+    },
+    {
+      "path": "world/layouts/zodiac-festival-park.json",
+      "fromSha256": "3b92389274f700df5a437e6c22effd8ccc7035ca960615cd430004ae16025d59",
+      "toSha256": "09a2d6269645599d8d8d3be944ef3bd6b6a276f18307975089ceec961451078c",
+      "reason": "Finish the circular island with a licensed native stone bank, continuous planted verge and four widened gate landings. Keep all existing objects, roads, portals, saved WAMs and flight routes exact; add one terrain atlas reservation and refresh release receipts."
+    }
+  ]
+}

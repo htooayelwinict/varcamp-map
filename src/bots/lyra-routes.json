@@ -2,8 +2,8 @@
   "provenance": {
     "proposalSha256": "a071e0c81c18ad4b1d759f8c246384fc50032e6e3b7c395413246b9858958282",
     "sourceSha256": {
-      "world/layouts/overworld.json": "8493ba1482c3aee60525894f100936fb847eaf29485a66422f2aaae04b31d5dc",
-      "maps/overworld.tmj": "ca9eec3ec05cf9fd6bedab89ba0445c0104675a2f77acf127cbb74a80862ce56",
+      "world/layouts/overworld.json": "62234bbfaa842e5ade7cd091b27ab956440998070cde641e30fadbe9c2bece31",
+      "maps/overworld.tmj": "44fa3aad2bbc33d790f7f9be18d0316493374cb2a90f6b4746f2d273be272122",
       "maps/overworld.wam": "34912c410e77b9ce32c356275f585a5b8f444187b8f447d346f7542bbe159eff",
       "tests/exterior-gates.test.ts": "eeaf05f4e7311d7bf8053609a7221d63dbc60d6b0493cfa513278a77339f84da",
       "tests/npc-maps.test.ts": "9e0951890a877421e27e13127a1d2243b057c1e89559276d4e5d43d321c8ea57",
@@ -11,7 +11,7 @@
       "tests/helpers/editor-catalog-history.ts": "b6668f1d84d6c028c1cba99d2ff3e936c241a030edbddb061a222168711eb7ee",
       "world/editor-collections.json": "024e7de19bc32d573b6bb79b77e013e153584ebbfb413436b9991fd467452fc0",
       "tests/helpers/physical-prop-contracts.ts": "9ac76984fe6fe3e32514aeb755b1317dda180ffac4efa656c51f513eadf57972",
-      "art/tile-catalog.json": "8f0621296ee11529c68068a8a0219118f942004b9b1f41587f9039f9843d4eaa",
+      "art/tile-catalog.json": "ed0499d487d5eed78b3ca294edd729f7c5be24b290316d18b1d3b4fa94731b38",
       "tools/bots/route-audit.ts": "47671835b82b951cde24acfd95478be8d5b770f080e7e4b8726208cb28a67cf0",
       "tests/guide-route-audit.test.ts": "2aafc9f2cf8f22504c452668b36030bebb8ca4a3dce7fa44721d4390eb8a5d6f",
       "src/bots/map-guard.ts": "9ee1397f8886e7f11e723f3ee3b7e011692b6352481dd83503739455f7055c15",
@@ -57,10 +57,10 @@
       "tools/maps/maze-gate-context.ts": "c037c2de5058365087839c3208244360e4d80bffae0aec98e2263974807fc350",
       "art/source/maze-gate-refresh.json": "44a807922c89b3bf6c46ade6d4578ed3a304c9dbfac0e2215fdbe24434ad1b19",
       "tools/maps/expo-chair-physics.ts": "ee0fed3318613b75d9565a413c1e725ba3849994a147854a442b6a09701607e9",
-      "tools/maps/plaza-native.ts": "4d9f7f7bf45166acf684b5cc11ba4a1fed807c1977d12469ecc8fefa3545f6ff",
+      "tools/maps/plaza-native.ts": "8f778fe4475705edf57f0e2fc2b753ed7bbdb0c4bf80e54d37f5af30f78e9c21",
       "tools/maps/check-in-definition.ts": "269d398c6a4f8c8f2760361dd67a107e34d9d4c064ea511b7bbce979c7a6123f",
       "world/check-in-counter.json": "866948b4bb574d6484d33fd672b1f6888a052fa1e2b0d84b70be71833d671a32",
-      "tools/maps/event-presentation.ts": "b7dc59f184bc5b34d8d2008fd963af4a4e06d2238bac511ae1bf473a9da6fbf6",
+      "tools/maps/event-presentation.ts": "20603ef98de735bd84e84a5601f5be6401ade11bbf317d55ca5c63b7e7196b97",
       "tools/maps/event-native-context.ts": "3f1e3ace564feb1e2056a8e7ac924686d944b5f0f02ae7a48d8e7c422e460fd8",
       "world/event-presentation.json": "36bfa30e29be41bcef6fccb0606ce6bc14b9d182f22cc5f2e3e9b97e6d7aa400",
       "world/event-native-reservations.json": "44e6801550887db382e3157499728c3649ac617d890bafa49e1631b11331ff63",
@@ -112,10 +112,13 @@
       "tools/maps/roadster-physics.ts": "bcd884d9e9cf0ebafb426750e9d15f8e3a89d1cec74b921f1a249bf3be7566c1",
       "world/check-in-stations.json": "2d1dde0b83d3e69dc2eee5cb3f65c735c7b525ab572506bdaeb4a0b335c9a997",
       "world/arrival-hospitality.json": "255329df3f5c9d6524988befbd9c1710549cbb77507e1225934e33cf0824ab5c",
-      "tools/maps/arrival-hospitality.ts": "0d0a9f4b385edc337d2cdc3b0dae56c1c85055ca50339fe58f9cc79a515fe179"
+      "tools/maps/arrival-hospitality.ts": "0d0a9f4b385edc337d2cdc3b0dae56c1c85055ca50339fe58f9cc79a515fe179",
+      "tools/maps/plaza-shoreline.ts": "b3d8e416ba251996e72d8a8ec2c6fb16cc67558f24b41e9198c319ce5ed15da2",
+      "world/plaza-shoreline.json": "b0a34397b7d62e1ab99462580bd86cc8547a364bec3ae495e7bcc4271874d8ca",
+      "tools/maps/native-ownership-context.ts": "7acadecf9534085b360f132dbbc5d84ad83be6d3ca9931b4078f6d24c1810ec1"
     },
     "allowedCellsSha256": "34d4a7f34610d0b669b9f059086557e03aec0f379cf28c832797a279cc07061d",
-    "geometrySha256": "6ab37f065bca92aa6b8742e420631bf19b1404cd02bea9a94a5c6833aaf6ea48",
+    "geometrySha256": "96883f3d6bd1865a9ba88d176a88f0faa63580c403d59875795927db1bd01ce9",
     "geometryEncoding": "Sorted-key JSON of width,height,tilewidth,tileheight,layers with objectgroup class omitted only when identical to nonempty object type,tilesets excluding image,properties excluding script; UTF-8 SHA-256."
   },
   "home": [

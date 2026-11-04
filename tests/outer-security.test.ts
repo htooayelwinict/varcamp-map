@@ -31,10 +31,11 @@ describe('outer-ring aerial security',()=>{
   expect(l.animatedOverlays.filter((o:any)=>SECURITY_IDS.includes(o.name)).map((o:any)=>o.level)).toEqual(SECURITY_IDS.map(()=>'aboveScenery'));
   for(const id of SECURITY_IDS){const layer=m.layers.find((a:any)=>a.name===id);expect(m.layers.indexOf(layer)).toBeGreaterThan(m.layers.findIndex((l:any)=>l.name==='floorLayer'));expect(layer.visible).toBe(true);}
  });
- it('keeps prior physics and paving outside the reviewed arrival changes, with all entries and zones exact',()=>{
+ it('keeps prior physics and paving outside the reviewed shoreline and arrival changes, with all entries and zones exact',()=>{
   const m=read('maps/overworld.tmj'),protectedLayers=read('world/horned-citadels.json').protectedLayers;
   for(const [name,digest]of Object.entries(protectedLayers)){
    const layer=structuredClone(m.layers.find((l:any)=>l.name===name));
+   if(['terrain','physical-collisions'].includes(name))for(const cell of read('world/plaza-shoreline.json')[name==='terrain'?'terrainChanges':'collisionChanges']){expect(layer.data[cell.index]).toBe(cell.after);layer.data[cell.index]=cell.before;}
    if(name==='terrain')for(const cell of read('world/arrival-hospitality.json').terrainChanges){expect(layer.data[cell.index]).toBe(cell.after);layer.data[cell.index]=cell.before;}
    if(name==='physical-collisions'){
     for(const cell of read('world/arrival-hospitality.json').collisionChanges){expect(layer.data[cell.index]).toBe(cell.after);layer.data[cell.index]=cell.before;}

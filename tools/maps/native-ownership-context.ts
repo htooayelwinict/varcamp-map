@@ -1,3 +1,4 @@
+import {shorelineAtlases} from './plaza-shoreline';
 import {navigationProtectedLayers,navigationAtlases} from './harbour-navigation-context';
 import {parkArcadeProtectedLayers,parkArcadeAtlases,isParkLampSource} from './park-arcade-context';
 import {playgroundProtectedLayers} from './playground-context';
@@ -293,6 +294,7 @@ function currentAtlases(row:ContextRow,source:TiledMap,epoch:Epoch=CURRENT,inclu
  expected.push(...cancerCitadelAtlases(source,Math.max(...expected.map(t=>t.firstgid+t.tilecount!))));
  expected.push(...hornedCitadelAtlases(source,Math.max(...expected.map(t=>t.firstgid+t.tilecount!))));
  expected.push(...securityAtlases(source,Math.max(...expected.map(t=>t.firstgid+t.tilecount!))));
+ expected.push(...shorelineAtlases(source,Math.max(...expected.map(t=>t.firstgid+t.tilecount!))));
  return expected;
 }
 /** Mandatory final current context: complete atlas roster/order/bodies/ranges,
@@ -313,6 +315,8 @@ export function assertNativeAuthoringContext(actual:TiledMap,source:TiledMap):vo
  const expected=currentAtlases(row,source);
  if(isDeepStrictEqual(actual.tilesets,row.atlases))return;
  if(isDeepStrictEqual(actual.tilesets,expected))return;
+ const shorelineCount=shorelineAtlases(source,0).length;
+ if(shorelineCount===1&&isDeepStrictEqual(actual.tilesets,expected.slice(0,-1)))return;
  const securityCount=securityAtlases(source,0).length;
  if(securityCount&&isDeepStrictEqual(actual.tilesets,expected.slice(0,-securityCount)))return;
  // Atomic release from the exact pre-redesign campus: two buildings plus the patrol family.
