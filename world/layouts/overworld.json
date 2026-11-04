@@ -10489,15 +10489,6 @@
       "layer": "terrain"
     },
     {
-      "id": "central-moon-fountain",
-      "sprite": "hub-moon-fountain",
-      "x": 51,
-      "y": 43,
-      "width": 6,
-      "height": 6,
-      "layer": "props"
-    },
-    {
       "id": "community-kiosk-table",
       "sprite": "table-circular",
       "x": 72,
@@ -55988,6 +55979,933 @@
       "width": 5,
       "height": 5,
       "layer": "terrain"
+    },
+    {
+      "id": "arrival-hospitality-speaker-aries-paving",
+      "sprite": "path-stone",
+      "x": 110,
+      "y": 70,
+      "width": 5,
+      "height": 5,
+      "layer": "terrain"
+    },
+    {
+      "id": "arrival-hospitality-speaker-aries-desk",
+      "sprite": "check-in-desk-solid",
+      "x": 111,
+      "y": 71,
+      "width": 3,
+      "height": 2,
+      "layer": "props"
+    },
+    {
+      "id": "arrival-hospitality-speaker-aries-computer",
+      "sprite": "laptop",
+      "x": 112,
+      "y": 71,
+      "width": 1,
+      "height": 1,
+      "layer": "props"
+    },
+    {
+      "id": "arrival-hospitality-speaker-aries-label",
+      "sprite": "event-check-in-floor-label",
+      "x": 111,
+      "y": 73,
+      "width": 3,
+      "height": 1,
+      "layer": "props"
+    },
+    {
+      "id": "arrival-hospitality-speaker-taurus-paving",
+      "sprite": "path-stone",
+      "x": 104,
+      "y": 92,
+      "width": 5,
+      "height": 5,
+      "layer": "terrain"
+    },
+    {
+      "id": "arrival-hospitality-speaker-taurus-desk",
+      "sprite": "check-in-desk-solid",
+      "x": 105,
+      "y": 93,
+      "width": 3,
+      "height": 2,
+      "layer": "props"
+    },
+    {
+      "id": "arrival-hospitality-speaker-taurus-computer",
+      "sprite": "laptop",
+      "x": 106,
+      "y": 93,
+      "width": 1,
+      "height": 1,
+      "layer": "props"
+    },
+    {
+      "id": "arrival-hospitality-speaker-taurus-label",
+      "sprite": "event-check-in-floor-label",
+      "x": 105,
+      "y": 95,
+      "width": 3,
+      "height": 1,
+      "layer": "props"
+    },
+    {
+      "id": "arrival-hospitality-speaker-gemini-paving",
+      "sprite": "path-stone",
+      "x": 88,
+      "y": 108,
+      "width": 5,
+      "height": 5,
+      "layer": "terrain"
+    },
+    {
+      "id": "arrival-hospitality-speaker-gemini-desk",
+      "sprite": "check-in-desk-solid",
+      "x": 89,
+      "y": 109,
+      "width": 3,
+      "height": 2,
+      "layer": "props"
+    },
+    {
+      "id": "arrival-hospitality-speaker-gemini-computer",
+      "sprite": "laptop",
+      "x": 90,
+      "y": 109,
+      "width": 1,
+      "height": 1,
+      "layer": "props"
+    },
+    {
+      "id": "arrival-hospitality-speaker-gemini-label",
+      "sprite": "event-check-in-floor-label",
+      "x": 89,
+      "y": 111,
+      "width": 3,
+      "height": 1,
+      "layer": "props"
+    },
+    {
+      "id": "arrival-hospitality-speaker-cancer-paving",
+      "sprite": "path-stone",
+      "x": 66,
+      "y": 114,
+      "width": 5,
+      "height": 5,
+      "layer": "terrain"
+    },
+    {
+      "id": "arrival-hospitality-speaker-cancer-desk",
+      "sprite": "check-in-desk-solid",
+      "x": 67,
+      "y": 115,
+      "width": 3,
+      "height": 2,
+      "layer": "props"
+    },
+    {
+      "id": "arrival-hospitality-speaker-cancer-computer",
+      "sprite": "laptop",
+      "x": 68,
+      "y": 115,
+      "width": 1,
+      "height": 1,
+      "layer": "props"
+    },
+    {
+      "id": "arrival-hospitality-speaker-cancer-label",
+      "sprite": "event-check-in-floor-label",
+      "x": 67,
+      "y": 117,
+      "width": 3,
+      "height": 1,
+      "layer": "props"
+    },
+    {
+      "id": "arrival-hospitality-speaker-leo-paving",
+      "sprite": "path-stone",
+      "x": 35,
+      "y": 108,
+      "width": 5,
+      "height": 5,
+      "layer": "terrain"
+    },
+    {
+      "id": "arrival-hospitality-speaker-leo-desk",
+      "sprite": "check-in-desk-solid",
+      "x": 36,
+      "y": 109,
+      "width": 3,
+      "height": 2,
+      "layer": "props"
+    },
+    {
+      "id": "arrival-hospitality-speaker-leo-computer",
+      "sprite": "laptop",
+      "x": 37,
+      "y": 109,
+      "width": 1,
+      "height": 1,
+      "layer": "props"
+    },
+    {
+      "id": "arrival-hospitality-speaker-leo-label",
+      "sprite": "event-check-in-floor-label",
+      "x": 36,
+      "y": 111,
+      "width": 3,
+      "height": 1,
+      "layer": "props"
+    },
+    {
+      "id": "arrival-hospitality-speaker-virgo-paving",
+      "sprite": "path-stone",
+      "x": 19,
+      "y": 92,
+      "width": 5,
+      "height": 5,
+      "layer": "terrain"
+    },
+    {
+      "id": "arrival-hospitality-speaker-virgo-desk",
+      "sprite": "check-in-desk-solid",
+      "x": 20,
+      "y": 93,
+      "width": 3,
+      "height": 2,
+      "layer": "props"
+    },
+    {
+      "id": "arrival-hospitality-speaker-virgo-computer",
+      "sprite": "laptop",
+      "x": 21,
+      "y": 93,
+      "width": 1,
+      "height": 1,
+      "layer": "props"
+    },
+    {
+      "id": "arrival-hospitality-speaker-virgo-label",
+      "sprite": "event-check-in-floor-label",
+      "x": 20,
+      "y": 95,
+      "width": 3,
+      "height": 1,
+      "layer": "props"
+    },
+    {
+      "id": "arrival-hospitality-speaker-libra-paving",
+      "sprite": "path-stone",
+      "x": 13,
+      "y": 70,
+      "width": 5,
+      "height": 5,
+      "layer": "terrain"
+    },
+    {
+      "id": "arrival-hospitality-speaker-libra-desk",
+      "sprite": "check-in-desk-solid",
+      "x": 14,
+      "y": 71,
+      "width": 3,
+      "height": 2,
+      "layer": "props"
+    },
+    {
+      "id": "arrival-hospitality-speaker-libra-computer",
+      "sprite": "laptop",
+      "x": 15,
+      "y": 71,
+      "width": 1,
+      "height": 1,
+      "layer": "props"
+    },
+    {
+      "id": "arrival-hospitality-speaker-libra-label",
+      "sprite": "event-check-in-floor-label",
+      "x": 14,
+      "y": 73,
+      "width": 3,
+      "height": 1,
+      "layer": "props"
+    },
+    {
+      "id": "arrival-hospitality-speaker-scorpio-paving",
+      "sprite": "path-stone",
+      "x": 19,
+      "y": 48,
+      "width": 5,
+      "height": 5,
+      "layer": "terrain"
+    },
+    {
+      "id": "arrival-hospitality-speaker-scorpio-desk",
+      "sprite": "check-in-desk-solid",
+      "x": 20,
+      "y": 49,
+      "width": 3,
+      "height": 2,
+      "layer": "props"
+    },
+    {
+      "id": "arrival-hospitality-speaker-scorpio-computer",
+      "sprite": "laptop",
+      "x": 21,
+      "y": 49,
+      "width": 1,
+      "height": 1,
+      "layer": "props"
+    },
+    {
+      "id": "arrival-hospitality-speaker-scorpio-label",
+      "sprite": "event-check-in-floor-label",
+      "x": 20,
+      "y": 51,
+      "width": 3,
+      "height": 1,
+      "layer": "props"
+    },
+    {
+      "id": "arrival-hospitality-speaker-sagittarius-paving",
+      "sprite": "path-stone",
+      "x": 35,
+      "y": 32,
+      "width": 5,
+      "height": 5,
+      "layer": "terrain"
+    },
+    {
+      "id": "arrival-hospitality-speaker-sagittarius-desk",
+      "sprite": "check-in-desk-solid",
+      "x": 36,
+      "y": 33,
+      "width": 3,
+      "height": 2,
+      "layer": "props"
+    },
+    {
+      "id": "arrival-hospitality-speaker-sagittarius-computer",
+      "sprite": "laptop",
+      "x": 37,
+      "y": 33,
+      "width": 1,
+      "height": 1,
+      "layer": "props"
+    },
+    {
+      "id": "arrival-hospitality-speaker-sagittarius-label",
+      "sprite": "event-check-in-floor-label",
+      "x": 36,
+      "y": 35,
+      "width": 3,
+      "height": 1,
+      "layer": "props"
+    },
+    {
+      "id": "arrival-hospitality-speaker-capricorn-paving",
+      "sprite": "path-stone",
+      "x": 66,
+      "y": 26,
+      "width": 5,
+      "height": 5,
+      "layer": "terrain"
+    },
+    {
+      "id": "arrival-hospitality-speaker-capricorn-desk",
+      "sprite": "check-in-desk-solid",
+      "x": 67,
+      "y": 27,
+      "width": 3,
+      "height": 2,
+      "layer": "props"
+    },
+    {
+      "id": "arrival-hospitality-speaker-capricorn-computer",
+      "sprite": "laptop",
+      "x": 68,
+      "y": 27,
+      "width": 1,
+      "height": 1,
+      "layer": "props"
+    },
+    {
+      "id": "arrival-hospitality-speaker-capricorn-label",
+      "sprite": "event-check-in-floor-label",
+      "x": 67,
+      "y": 29,
+      "width": 3,
+      "height": 1,
+      "layer": "props"
+    },
+    {
+      "id": "arrival-hospitality-speaker-aquarius-paving",
+      "sprite": "path-stone",
+      "x": 88,
+      "y": 32,
+      "width": 5,
+      "height": 5,
+      "layer": "terrain"
+    },
+    {
+      "id": "arrival-hospitality-speaker-aquarius-desk",
+      "sprite": "check-in-desk-solid",
+      "x": 89,
+      "y": 33,
+      "width": 3,
+      "height": 2,
+      "layer": "props"
+    },
+    {
+      "id": "arrival-hospitality-speaker-aquarius-computer",
+      "sprite": "laptop",
+      "x": 90,
+      "y": 33,
+      "width": 1,
+      "height": 1,
+      "layer": "props"
+    },
+    {
+      "id": "arrival-hospitality-speaker-aquarius-label",
+      "sprite": "event-check-in-floor-label",
+      "x": 89,
+      "y": 35,
+      "width": 3,
+      "height": 1,
+      "layer": "props"
+    },
+    {
+      "id": "arrival-hospitality-speaker-pisces-paving",
+      "sprite": "path-stone",
+      "x": 104,
+      "y": 48,
+      "width": 5,
+      "height": 5,
+      "layer": "terrain"
+    },
+    {
+      "id": "arrival-hospitality-speaker-pisces-desk",
+      "sprite": "check-in-desk-solid",
+      "x": 105,
+      "y": 49,
+      "width": 3,
+      "height": 2,
+      "layer": "props"
+    },
+    {
+      "id": "arrival-hospitality-speaker-pisces-computer",
+      "sprite": "laptop",
+      "x": 106,
+      "y": 49,
+      "width": 1,
+      "height": 1,
+      "layer": "props"
+    },
+    {
+      "id": "arrival-hospitality-speaker-pisces-label",
+      "sprite": "event-check-in-floor-label",
+      "x": 105,
+      "y": 51,
+      "width": 3,
+      "height": 1,
+      "layer": "props"
+    },
+    {
+      "id": "arrival-hospitality-central-walk",
+      "sprite": "path-stone",
+      "x": 62,
+      "y": 51,
+      "width": 4,
+      "height": 8,
+      "layer": "terrain"
+    },
+    {
+      "id": "arrival-hospitality-west-rest-bed-0",
+      "sprite": "plaza-grass-02",
+      "x": 44,
+      "y": 52,
+      "width": 11,
+      "height": 1,
+      "layer": "terrain"
+    },
+    {
+      "id": "arrival-hospitality-west-rest-bed-1",
+      "sprite": "plaza-grass-02",
+      "x": 43,
+      "y": 53,
+      "width": 13,
+      "height": 1,
+      "layer": "terrain"
+    },
+    {
+      "id": "arrival-hospitality-west-rest-bed-2",
+      "sprite": "plaza-grass-02",
+      "x": 43,
+      "y": 54,
+      "width": 13,
+      "height": 1,
+      "layer": "terrain"
+    },
+    {
+      "id": "arrival-hospitality-west-rest-bed-3",
+      "sprite": "plaza-grass-02",
+      "x": 44,
+      "y": 55,
+      "width": 11,
+      "height": 1,
+      "layer": "terrain"
+    },
+    {
+      "id": "arrival-hospitality-east-rest-bed-0",
+      "sprite": "plaza-grass-02",
+      "x": 73,
+      "y": 52,
+      "width": 8,
+      "height": 1,
+      "layer": "terrain"
+    },
+    {
+      "id": "arrival-hospitality-east-rest-bed-1",
+      "sprite": "plaza-grass-02",
+      "x": 72,
+      "y": 53,
+      "width": 10,
+      "height": 1,
+      "layer": "terrain"
+    },
+    {
+      "id": "arrival-hospitality-east-rest-bed-2",
+      "sprite": "plaza-grass-02",
+      "x": 72,
+      "y": 54,
+      "width": 10,
+      "height": 1,
+      "layer": "terrain"
+    },
+    {
+      "id": "arrival-hospitality-east-rest-bed-3",
+      "sprite": "plaza-grass-02",
+      "x": 73,
+      "y": 55,
+      "width": 8,
+      "height": 1,
+      "layer": "terrain"
+    },
+    {
+      "id": "arrival-hospitality-west-a-tree",
+      "sprite": "plaza-tree-flowering",
+      "x": 44,
+      "y": 51,
+      "width": 2,
+      "height": 3,
+      "layer": "props"
+    },
+    {
+      "id": "arrival-hospitality-west-b-tree",
+      "sprite": "plaza-tree-flowering",
+      "x": 52,
+      "y": 51,
+      "width": 2,
+      "height": 3,
+      "layer": "props"
+    },
+    {
+      "id": "arrival-hospitality-east-a-tree",
+      "sprite": "plaza-tree-flowering",
+      "x": 73,
+      "y": 51,
+      "width": 2,
+      "height": 3,
+      "layer": "props"
+    },
+    {
+      "id": "arrival-hospitality-east-b-tree",
+      "sprite": "plaza-tree-flowering",
+      "x": 80,
+      "y": 51,
+      "width": 2,
+      "height": 3,
+      "layer": "props"
+    },
+    {
+      "id": "arrival-hospitality-west-bench",
+      "sprite": "bench-park",
+      "x": 48,
+      "y": 55,
+      "width": 2,
+      "height": 1,
+      "layer": "props"
+    },
+    {
+      "id": "arrival-hospitality-east-bench",
+      "sprite": "bench-park",
+      "x": 76,
+      "y": 55,
+      "width": 2,
+      "height": 1,
+      "layer": "props"
+    },
+    {
+      "id": "arrival-hospitality-west-a-flowers",
+      "sprite": "plaza-flower-bed",
+      "x": 46,
+      "y": 53,
+      "width": 2,
+      "height": 2,
+      "layer": "props"
+    },
+    {
+      "id": "arrival-hospitality-west-b-flowers",
+      "sprite": "plaza-flower-bed",
+      "x": 50,
+      "y": 53,
+      "width": 2,
+      "height": 2,
+      "layer": "props"
+    },
+    {
+      "id": "arrival-hospitality-east-a-flowers",
+      "sprite": "plaza-flower-bed",
+      "x": 75,
+      "y": 53,
+      "width": 2,
+      "height": 2,
+      "layer": "props"
+    },
+    {
+      "id": "arrival-hospitality-east-b-flowers",
+      "sprite": "plaza-flower-bed",
+      "x": 77,
+      "y": 53,
+      "width": 2,
+      "height": 2,
+      "layer": "props"
+    },
+    {
+      "id": "arrival-hospitality-west-rest-walk",
+      "sprite": "path-stone",
+      "x": 53,
+      "y": 54,
+      "width": 2,
+      "height": 5,
+      "layer": "terrain"
+    },
+    {
+      "id": "arrival-hospitality-east-rest-walk",
+      "sprite": "path-stone",
+      "x": 79,
+      "y": 52,
+      "width": 1,
+      "height": 4,
+      "layer": "terrain"
+    },
+    {
+      "id": "arrival-hospitality-reception-platform",
+      "sprite": "floor-wood-long",
+      "x": 70,
+      "y": 59,
+      "width": 6,
+      "height": 5,
+      "layer": "terrain"
+    },
+    {
+      "id": "arrival-hospitality-reception-bed-0",
+      "sprite": "plaza-grass-02",
+      "x": 71,
+      "y": 57,
+      "width": 4,
+      "height": 1,
+      "layer": "terrain"
+    },
+    {
+      "id": "arrival-hospitality-reception-bed-1",
+      "sprite": "plaza-grass-02",
+      "x": 71,
+      "y": 58,
+      "width": 4,
+      "height": 1,
+      "layer": "terrain"
+    },
+    {
+      "id": "arrival-hospitality-reception-left",
+      "sprite": "plaza-potted-fern",
+      "x": 70,
+      "y": 57,
+      "width": 1,
+      "height": 2,
+      "layer": "props"
+    },
+    {
+      "id": "arrival-hospitality-reception-right",
+      "sprite": "plaza-potted-fern",
+      "x": 75,
+      "y": 57,
+      "width": 1,
+      "height": 2,
+      "layer": "props"
+    },
+    {
+      "id": "arrival-hospitality-reception-flowers",
+      "sprite": "plaza-wildflowers",
+      "x": 72,
+      "y": 57,
+      "width": 2,
+      "height": 2,
+      "layer": "props"
+    },
+    {
+      "id": "arrival-hospitality-fountain-paving-0",
+      "sprite": "path-stone",
+      "x": 48,
+      "y": 58,
+      "width": 6,
+      "height": 1,
+      "layer": "terrain"
+    },
+    {
+      "id": "arrival-hospitality-fountain-paving-1",
+      "sprite": "path-stone",
+      "x": 47,
+      "y": 59,
+      "width": 8,
+      "height": 1,
+      "layer": "terrain"
+    },
+    {
+      "id": "arrival-hospitality-fountain-paving-2",
+      "sprite": "path-stone",
+      "x": 47,
+      "y": 60,
+      "width": 8,
+      "height": 1,
+      "layer": "terrain"
+    },
+    {
+      "id": "arrival-hospitality-fountain-paving-3",
+      "sprite": "path-stone",
+      "x": 47,
+      "y": 61,
+      "width": 8,
+      "height": 1,
+      "layer": "terrain"
+    },
+    {
+      "id": "arrival-hospitality-fountain-paving-4",
+      "sprite": "path-stone",
+      "x": 47,
+      "y": 62,
+      "width": 8,
+      "height": 1,
+      "layer": "terrain"
+    },
+    {
+      "id": "arrival-hospitality-fountain-paving-5",
+      "sprite": "path-stone",
+      "x": 48,
+      "y": 63,
+      "width": 6,
+      "height": 1,
+      "layer": "terrain"
+    },
+    {
+      "id": "arrival-hospitality-fountain-left",
+      "sprite": "plaza-potted-lavender",
+      "x": 47,
+      "y": 60,
+      "width": 1,
+      "height": 1,
+      "layer": "props"
+    },
+    {
+      "id": "arrival-hospitality-fountain-right",
+      "sprite": "plaza-potted-lavender",
+      "x": 54,
+      "y": 60,
+      "width": 1,
+      "height": 1,
+      "layer": "props"
+    },
+    {
+      "id": "arrival-hospitality-fountain-seat",
+      "sprite": "bench-park",
+      "x": 45,
+      "y": 62,
+      "width": 2,
+      "height": 1,
+      "layer": "props"
+    },
+    {
+      "id": "arrival-hospitality-north-court-0",
+      "sprite": "path-stone",
+      "x": 52,
+      "y": 42,
+      "width": 4,
+      "height": 1,
+      "layer": "terrain"
+    },
+    {
+      "id": "arrival-hospitality-north-court-1",
+      "sprite": "path-stone",
+      "x": 51,
+      "y": 43,
+      "width": 6,
+      "height": 1,
+      "layer": "terrain"
+    },
+    {
+      "id": "arrival-hospitality-north-court-2",
+      "sprite": "path-stone",
+      "x": 50,
+      "y": 44,
+      "width": 8,
+      "height": 1,
+      "layer": "terrain"
+    },
+    {
+      "id": "arrival-hospitality-north-court-3",
+      "sprite": "path-stone",
+      "x": 50,
+      "y": 45,
+      "width": 8,
+      "height": 1,
+      "layer": "terrain"
+    },
+    {
+      "id": "arrival-hospitality-north-court-4",
+      "sprite": "path-stone",
+      "x": 50,
+      "y": 46,
+      "width": 8,
+      "height": 1,
+      "layer": "terrain"
+    },
+    {
+      "id": "arrival-hospitality-north-court-5",
+      "sprite": "path-stone",
+      "x": 50,
+      "y": 47,
+      "width": 8,
+      "height": 1,
+      "layer": "terrain"
+    },
+    {
+      "id": "arrival-hospitality-north-court-6",
+      "sprite": "path-stone",
+      "x": 51,
+      "y": 48,
+      "width": 6,
+      "height": 1,
+      "layer": "terrain"
+    },
+    {
+      "id": "arrival-hospitality-north-court-7",
+      "sprite": "path-stone",
+      "x": 52,
+      "y": 49,
+      "width": 4,
+      "height": 1,
+      "layer": "terrain"
+    },
+    {
+      "id": "arrival-hospitality-north-left-tree-soil",
+      "sprite": "plaza-grass-02",
+      "x": 50,
+      "y": 42,
+      "width": 2,
+      "height": 2,
+      "layer": "terrain"
+    },
+    {
+      "id": "arrival-hospitality-north-right-tree-soil",
+      "sprite": "plaza-grass-02",
+      "x": 56,
+      "y": 42,
+      "width": 2,
+      "height": 2,
+      "layer": "terrain"
+    },
+    {
+      "id": "arrival-hospitality-north-left-flowers-soil",
+      "sprite": "plaza-grass-02",
+      "x": 50,
+      "y": 46,
+      "width": 2,
+      "height": 2,
+      "layer": "terrain"
+    },
+    {
+      "id": "arrival-hospitality-north-right-flowers-soil",
+      "sprite": "plaza-grass-02",
+      "x": 56,
+      "y": 46,
+      "width": 2,
+      "height": 2,
+      "layer": "terrain"
+    },
+    {
+      "id": "arrival-hospitality-north-fountain",
+      "sprite": "plaza-fountain",
+      "x": 52,
+      "y": 45,
+      "width": 4,
+      "height": 3,
+      "layer": "props"
+    },
+    {
+      "id": "arrival-hospitality-north-left-tree",
+      "sprite": "plaza-tree-flowering",
+      "x": 50,
+      "y": 41,
+      "width": 2,
+      "height": 3,
+      "layer": "props"
+    },
+    {
+      "id": "arrival-hospitality-north-right-tree",
+      "sprite": "plaza-tree-flowering",
+      "x": 56,
+      "y": 41,
+      "width": 2,
+      "height": 3,
+      "layer": "props"
+    },
+    {
+      "id": "arrival-hospitality-north-left-flowers",
+      "sprite": "plaza-flower-bed",
+      "x": 50,
+      "y": 46,
+      "width": 2,
+      "height": 2,
+      "layer": "props"
+    },
+    {
+      "id": "arrival-hospitality-north-right-flowers",
+      "sprite": "plaza-flower-bed",
+      "x": 56,
+      "y": 46,
+      "width": 2,
+      "height": 2,
+      "layer": "props"
+    },
+    {
+      "id": "arrival-hospitality-north-seat-left",
+      "sprite": "bench-park",
+      "x": 51,
+      "y": 49,
+      "width": 2,
+      "height": 1,
+      "layer": "props"
+    },
+    {
+      "id": "arrival-hospitality-north-seat-right",
+      "sprite": "bench-park",
+      "x": 55,
+      "y": 49,
+      "width": 2,
+      "height": 1,
+      "layer": "props"
     }
   ],
   "entries": [

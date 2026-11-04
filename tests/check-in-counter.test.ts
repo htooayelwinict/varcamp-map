@@ -1,3 +1,4 @@
+import {restoreArrivalHospitality} from '../tools/maps/arrival-hospitality';
 import {restoreRoadsterPhysics} from '../tools/maps/roadster-physics';
 import {restoreOuterSecurity} from '../tools/maps/outer-security';
 import {restoreHornedCitadels} from '../tools/maps/horned-citadels';
@@ -45,7 +46,8 @@ describe('Check-in counter',()=>{
  });
  it('removes prompts on exit and disposes the sign and listener without allowing stale callbacks',async()=>{
   const f=fixture(),dispose=registerCheckInCounter(f.api);f.move(at);f.move({x:0,y:0});expect(f.actions[0].remove).toHaveBeenCalledOnce();f.actions[0].callback();expect(f.openTab).not.toHaveBeenCalled();
-  f.move(at);dispose();dispose();expect(f.unsubscribe).toHaveBeenCalledOnce();expect(f.del).toHaveBeenCalledExactlyOnceWith('varcamp-check-in-sign');f.actions[1].callback();f.initial(at);await tick();expect(f.actions).toHaveLength(2);expect(f.openTab).not.toHaveBeenCalled();
+  expect(f.del).toHaveBeenCalledExactlyOnceWith('varcamp-check-in-sign');
+  f.move(at);dispose();dispose();expect(f.unsubscribe).toHaveBeenCalledOnce();expect(f.del).toHaveBeenCalledTimes(2);expect(f.del).toHaveBeenLastCalledWith('varcamp-check-in-sign');f.actions[1].callback();f.initial(at);await tick();expect(f.actions).toHaveLength(2);expect(f.openTab).not.toHaveBeenCalled();
  });
  it('ignores a delayed initial position after the visitor has already moved away',async()=>{
   const f=fixture(),dispose=registerCheckInCounter(f.api);f.move({x:0,y:0});f.initial(at);await tick();expect(f.actions).toHaveLength(0);dispose();
@@ -69,7 +71,7 @@ describe('Check-in counter',()=>{
  it('blocks all six desk tiles from every side, reuses native art and keeps the perimeter clear',()=>{
   const layout=read('world/layouts/overworld.json') as MapLayout,map=read('maps/overworld.tmj') as TiledMap,old=before['maps/overworld.tmj'] as TiledMap,catalog=loadTileCatalog();
   const mask=(m:TiledMap)=>{const l=m.layers.find(l=>l.name==='physical-collisions');if(l?.type!=='tilelayer')throw Error('No mask');return l.data.map(Boolean);};
-  const a=mask(old),b=mask(map),deskOnly=mask(buildMap(restoreAudienceFootprints(restoreLeoCitadel(restoreCancerCitadel(restoreHornedCitadels(restoreOuterSecurity(restoreRoadsterPhysics(layout,catalog)),catalog),catalog),catalog)),catalog).tmj);expect(deskOnly.flatMap((v,i)=>v!==a[i]?[i]:[])).toEqual([60*128+71,60*128+72,60*128+73,61*128+71,61*128+72,61*128+73]);
+  const a=mask(old),b=mask(map),deskOnly=mask(buildMap(restoreAudienceFootprints(restoreLeoCitadel(restoreCancerCitadel(restoreHornedCitadels(restoreOuterSecurity(restoreRoadsterPhysics(restoreArrivalHospitality(layout),catalog)),catalog),catalog),catalog)),catalog).tmj);expect(deskOnly.flatMap((v,i)=>v!==a[i]?[i]:[])).toEqual([60*128+71,60*128+72,60*128+73,61*128+71,61*128+72,61*128+73]);
   expect(mask(buildMap(layout,catalog).tmj)).toEqual(b);
   const desk=layout.placements.find(p=>p.id==='check-in-counter-desk')!;expect(catalog[desk.sprite].blockingCells).toEqual([[0,0],[1,0],[2,0],[0,1],[1,1],[2,1]]);
   for(const [x,y]of [[71,59],[72,59],[73,59],[70,60],[70,61],[74,60],[74,61],[71,62],[72,62],[73,62]])expect(b[y*128+x]).toBe(false);

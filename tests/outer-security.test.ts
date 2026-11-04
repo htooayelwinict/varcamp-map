@@ -31,11 +31,15 @@ describe('outer-ring aerial security',()=>{
   expect(l.animatedOverlays.filter((o:any)=>SECURITY_IDS.includes(o.name)).map((o:any)=>o.level)).toEqual(SECURITY_IDS.map(()=>'aboveScenery'));
   for(const id of SECURITY_IDS){const layer=m.layers.find((a:any)=>a.name===id);expect(m.layers.indexOf(layer)).toBeGreaterThan(m.layers.findIndex((l:any)=>l.name==='floorLayer'));expect(layer.visible).toBe(true);}
  });
- it('keeps the exact proven physical mask, entries, exits and functional zones',()=>{
+ it('keeps prior physics and paving outside the reviewed arrival changes, with all entries and zones exact',()=>{
   const m=read('maps/overworld.tmj'),protectedLayers=read('world/horned-citadels.json').protectedLayers;
   for(const [name,digest]of Object.entries(protectedLayers)){
    const layer=structuredClone(m.layers.find((l:any)=>l.name===name));
-   if(name==='physical-collisions')for(let y=53;y<58;y++)for(let x=83;x<88;x++){expect(Boolean(layer.data[y*128+x])).toBe(true);layer.data[y*128+x]=0;}
+   if(name==='terrain')for(const cell of read('world/arrival-hospitality.json').terrainChanges){expect(layer.data[cell.index]).toBe(cell.after);layer.data[cell.index]=cell.before;}
+   if(name==='physical-collisions'){
+    for(const cell of read('world/arrival-hospitality.json').collisionChanges){expect(layer.data[cell.index]).toBe(cell.after);layer.data[cell.index]=cell.before;}
+    for(let y=53;y<58;y++)for(let x=83;x<88;x++){expect(Boolean(layer.data[y*128+x])).toBe(true);layer.data[y*128+x]=0;}
+   }
    expect(sha(layer)).toBe(digest);
   }
  });

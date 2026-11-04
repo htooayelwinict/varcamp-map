@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "revisions": [
+    {
+      "path": "maps/overworld.tmj",
+      "fromSha256": "a1eb4b4dae25e002a23a1d874f320fdb0ccbe88a9751640821889a1bfc1208e8",
+      "toSha256": "ca9eec3ec05cf9fd6bedab89ba0445c0104675a2f77acf127cbb74a80862ce56",
+      "reason": "Add a solid computer check-in desk beside every zodiac speaker entrance and refine arrival planting, seating and reception using existing native art. Preserve doors, saved WAMs, building positions, flight animations and public guide routes; refresh source and release receipts."
+    },
+    {
+      "path": "maps/preview/overworld.tmj",
+      "fromSha256": "44cdf93274b97ad6bae836a51b8723a692951413541d31c27803ba3e84704cde",
+      "toSha256": "f5f4363f973b403d381f62e5e9f38fba971189df0f910689dacce5f9ac9c7ac6",
+      "reason": "Add a solid computer check-in desk beside every zodiac speaker entrance and refine arrival planting, seating and reception using existing native art. Preserve doors, saved WAMs, building positions, flight animations and public guide routes; refresh source and release receipts."
+    },
+    {
+      "path": "world/layouts/overworld.json",
+      "fromSha256": "21fb85e24c3533210ea2b9a2e31b6a4bcbabcbf517b57c346c9ddff2e3d443d6",
+      "toSha256": "8493ba1482c3aee60525894f100936fb847eaf29485a66422f2aaae04b31d5dc",
+      "reason": "Add a solid computer check-in desk beside every zodiac speaker entrance and refine arrival planting, seating and reception using existing native art. Preserve doors, saved WAMs, building positions, flight animations and public guide routes; refresh source and release receipts."
+    }
+  ]
+}
