@@ -20,6 +20,14 @@ for(const id of EXPLORATION_IDS){
   for(const action of actions.filter(a=>a.map===id))expect(l.areas).toContainEqual(expect.objectContaining({id:'exp-'+action.site+( ['garden','grotto','cafe','terrace'].includes(action.site)?'-game':''),x:action.x,y:action.y,width:action.width,height:action.height}));
   const mask=m.layers.find(l=>l.name==='physical-collisions');expect(mask?.type).toBe('tilelayer');
   if(mask?.type==='tilelayer'){
+   const water=new Set(l.placements.filter(p=>/^exp-(pond|moon-water|cave-rim)-/.test(p.sprite)).map(p=>p.y*m.width+p.x));
+   for(const path of l.placements.filter(p=>p.id.startsWith('trail-'))){
+    expect(water.has(path.y*m.width+path.x),`${id}: a visible path must not conceal water collision`).toBe(false);
+   }
+   for(const bridge of l.placements.filter(p=>p.sprite==='exp-bridge-deck')){
+    // Furniture may occupy patios; the narrow spring crossing must stay clear.
+    if(id==='moon-cafe'&&bridge.x===51&&bridge.y===36)for(let y=36;y<41;y++)for(let x=51;x<53;x++)expect(mask.data[y*m.width+x]).toBe(0);
+   }
    const tree=l.placements.find(p=>p.sprite.startsWith('garden-'));if(tree){const sprite=loadTileCatalog()[tree.sprite];for(const [x,y]of sprite.blockingCells)expect(mask.data[(tree.y+y)*m.width+tree.x+x]).not.toBe(0);}
    const spawn=l.entries.find(e=>e.isDefault)!;mask.data[spawn.y*m.width+spawn.x]=1;
    expect(()=>explorationReachability(m,l)).toThrow('spawn is blocked');

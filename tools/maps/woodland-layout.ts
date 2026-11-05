@@ -114,7 +114,7 @@ export function woodlandLayout(id:ExplorationId,catalog:TileCatalog):MapLayout{
    path([[31,49],[32,40],[29,33],[30,27],[25,19]],3);path([[5,29],[12,29],[18,26],[30,27],[39,25],[50,28],[58,29]],3);
    path([[44,49],[45,46],[39,40],[32,40]],3);path([[39,25],[42,18],[46,13],[50,10]],2);path([[50,28],[53,34],[51,43],[45,46]],2);path([[18,26],[14,20],[14,17]],2);path([[25,19],[39,18]],3);
    region('pond',[[8,16,4,6],[9,20,3,4],[51,38,3,2]],{water:true});
-   cottage(17,8,'Moonleaf kitchen',3,true);path([[18,17],[25,19]],3);deck(19,20,12,7);deck(41,32,8,5);
+   cottage(17,8,'Moonleaf kitchen',3,true);path([[18,17],[25,19]],3);deck(19,20,12,7);deck(41,32,8,5);deck(51,36,2,5);
    prop('exp-market',30,12);prop('exp-market-front',30,15);prop('exp-kettle',29,16);prop('exp-herb-basket',33,15);area('exp-cafe-game',30,17);label('cafe-game-label','MOONLEAF TEA',27,19,10);
    for(const[x,y]of [[21,21],[27,21],[23,25],[43,33],[47,33],[17,37]]){prop('table-small-wood',x,y);prop('cafe-chair-cream',x-1,y+1);prop('cafe-chair-cream',x+1,y+1);reserve(x-2,y-1,5,4);}
    for(const[x,y]of [[19,19],[25,19],[41,31],[47,31],[16,35]])prop('garden-hedge',x,y);

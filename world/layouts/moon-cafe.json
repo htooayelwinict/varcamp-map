@@ -751,24 +751,6 @@
       "layer": "props"
     },
     {
-      "id": "landform-81",
-      "sprite": "exp-pond-1-0",
-      "x": 51,
-      "y": 37,
-      "width": 1,
-      "height": 1,
-      "layer": "props"
-    },
-    {
-      "id": "landform-82",
-      "sprite": "exp-pond-1-0",
-      "x": 52,
-      "y": 37,
-      "width": 1,
-      "height": 1,
-      "layer": "props"
-    },
-    {
       "id": "landform-83",
       "sprite": "exp-pond-2-0",
       "x": 53,
@@ -796,24 +778,6 @@
       "layer": "props"
     },
     {
-      "id": "landform-86",
-      "sprite": "exp-pond-1-1",
-      "x": 51,
-      "y": 38,
-      "width": 1,
-      "height": 1,
-      "layer": "props"
-    },
-    {
-      "id": "landform-87",
-      "sprite": "exp-pond-1-1",
-      "x": 52,
-      "y": 38,
-      "width": 1,
-      "height": 1,
-      "layer": "props"
-    },
-    {
       "id": "landform-88",
       "sprite": "exp-pond-2-1",
       "x": 53,
@@ -835,24 +799,6 @@
       "id": "landform-90",
       "sprite": "exp-pond-1-2",
       "x": 50,
-      "y": 39,
-      "width": 1,
-      "height": 1,
-      "layer": "props"
-    },
-    {
-      "id": "landform-91",
-      "sprite": "exp-pond-1-2",
-      "x": 51,
-      "y": 39,
-      "width": 1,
-      "height": 1,
-      "layer": "props"
-    },
-    {
-      "id": "landform-92",
-      "sprite": "exp-pond-1-2",
-      "x": 52,
       "y": 39,
       "width": 1,
       "height": 1,
@@ -4432,24 +4378,6 @@
       "layer": "props"
     },
     {
-      "id": "trail-2355",
-      "sprite": "exp-path-0-1",
-      "x": 51,
-      "y": 36,
-      "width": 1,
-      "height": 1,
-      "layer": "props"
-    },
-    {
-      "id": "trail-2356",
-      "sprite": "exp-path-1-1",
-      "x": 52,
-      "y": 36,
-      "width": 1,
-      "height": 1,
-      "layer": "props"
-    },
-    {
       "id": "trail-2357",
       "sprite": "exp-path-2-2",
       "x": 53,
@@ -4495,24 +4423,6 @@
       "layer": "props"
     },
     {
-      "id": "trail-2419",
-      "sprite": "exp-path-0-1",
-      "x": 51,
-      "y": 37,
-      "width": 1,
-      "height": 1,
-      "layer": "props"
-    },
-    {
-      "id": "trail-2420",
-      "sprite": "exp-path-2-1",
-      "x": 52,
-      "y": 37,
-      "width": 1,
-      "height": 1,
-      "layer": "props"
-    },
-    {
       "id": "trail-2462",
       "sprite": "exp-path-0-1",
       "x": 30,
@@ -4543,24 +4453,6 @@
       "id": "trail-2465",
       "sprite": "exp-path-2-0",
       "x": 33,
-      "y": 38,
-      "width": 1,
-      "height": 1,
-      "layer": "props"
-    },
-    {
-      "id": "trail-2483",
-      "sprite": "exp-path-0-1",
-      "x": 51,
-      "y": 38,
-      "width": 1,
-      "height": 1,
-      "layer": "props"
-    },
-    {
-      "id": "trail-2484",
-      "sprite": "exp-path-2-1",
-      "x": 52,
       "y": 38,
       "width": 1,
       "height": 1,
@@ -4660,24 +4552,6 @@
       "id": "trail-2536",
       "sprite": "exp-path-2-0",
       "x": 40,
-      "y": 39,
-      "width": 1,
-      "height": 1,
-      "layer": "props"
-    },
-    {
-      "id": "trail-2547",
-      "sprite": "exp-path-0-1",
-      "x": 51,
-      "y": 39,
-      "width": 1,
-      "height": 1,
-      "layer": "props"
-    },
-    {
-      "id": "trail-2548",
-      "sprite": "exp-path-2-1",
-      "x": 52,
       "y": 39,
       "width": 1,
       "height": 1,
@@ -4795,24 +4669,6 @@
       "id": "trail-2610",
       "sprite": "exp-path-0-0",
       "x": 50,
-      "y": 40,
-      "width": 1,
-      "height": 1,
-      "layer": "props"
-    },
-    {
-      "id": "trail-2611",
-      "sprite": "exp-path-1-1",
-      "x": 51,
-      "y": 40,
-      "width": 1,
-      "height": 1,
-      "layer": "props"
-    },
-    {
-      "id": "trail-2612",
-      "sprite": "exp-path-2-1",
-      "x": 52,
       "y": 40,
       "width": 1,
       "height": 1,
@@ -6098,6 +5954,15 @@
     },
     {
       "id": "woodland-109",
+      "sprite": "exp-bridge-deck",
+      "x": 51,
+      "y": 36,
+      "width": 2,
+      "height": 5,
+      "layer": "props"
+    },
+    {
+      "id": "woodland-110",
       "sprite": "exp-market",
       "x": 30,
       "y": 12,
@@ -6106,7 +5971,7 @@
       "layer": "props"
     },
     {
-      "id": "woodland-110",
+      "id": "woodland-111",
       "sprite": "exp-market-front",
       "x": 30,
       "y": 15,
@@ -6115,7 +5980,7 @@
       "layer": "props"
     },
     {
-      "id": "woodland-111",
+      "id": "woodland-112",
       "sprite": "exp-kettle",
       "x": 29,
       "y": 16,
@@ -6124,7 +5989,7 @@
       "layer": "props"
     },
     {
-      "id": "woodland-112",
+      "id": "woodland-113",
       "sprite": "exp-herb-basket",
       "x": 33,
       "y": 15,
@@ -6133,7 +5998,7 @@
       "layer": "props"
     },
     {
-      "id": "woodland-113",
+      "id": "woodland-114",
       "sprite": "table-small-wood",
       "x": 21,
       "y": 21,
@@ -6142,7 +6007,7 @@
       "layer": "props"
     },
     {
-      "id": "woodland-114",
+      "id": "woodland-115",
       "sprite": "cafe-chair-cream",
       "x": 20,
       "y": 22,
@@ -6151,7 +6016,7 @@
       "layer": "props"
     },
     {
-      "id": "woodland-115",
+      "id": "woodland-116",
       "sprite": "cafe-chair-cream",
       "x": 22,
       "y": 22,
@@ -6160,7 +6025,7 @@
       "layer": "props"
     },
     {
-      "id": "woodland-116",
+      "id": "woodland-117",
       "sprite": "table-small-wood",
       "x": 27,
       "y": 21,
@@ -6169,7 +6034,7 @@
       "layer": "props"
     },
     {
-      "id": "woodland-117",
+      "id": "woodland-118",
       "sprite": "cafe-chair-cream",
       "x": 26,
       "y": 22,
@@ -6178,7 +6043,7 @@
       "layer": "props"
     },
     {
-      "id": "woodland-118",
+      "id": "woodland-119",
       "sprite": "cafe-chair-cream",
       "x": 28,
       "y": 22,
@@ -6187,7 +6052,7 @@
       "layer": "props"
     },
     {
-      "id": "woodland-119",
+      "id": "woodland-120",
       "sprite": "table-small-wood",
       "x": 23,
       "y": 25,
@@ -6196,7 +6061,7 @@
       "layer": "props"
     },
     {
-      "id": "woodland-120",
+      "id": "woodland-121",
       "sprite": "cafe-chair-cream",
       "x": 22,
       "y": 26,
@@ -6205,7 +6070,7 @@
       "layer": "props"
     },
     {
-      "id": "woodland-121",
+      "id": "woodland-122",
       "sprite": "cafe-chair-cream",
       "x": 24,
       "y": 26,
@@ -6214,7 +6079,7 @@
       "layer": "props"
     },
     {
-      "id": "woodland-122",
+      "id": "woodland-123",
       "sprite": "table-small-wood",
       "x": 43,
       "y": 33,
@@ -6223,7 +6088,7 @@
       "layer": "props"
     },
     {
-      "id": "woodland-123",
+      "id": "woodland-124",
       "sprite": "cafe-chair-cream",
       "x": 42,
       "y": 34,
@@ -6232,7 +6097,7 @@
       "layer": "props"
     },
     {
-      "id": "woodland-124",
+      "id": "woodland-125",
       "sprite": "cafe-chair-cream",
       "x": 44,
       "y": 34,
@@ -6241,7 +6106,7 @@
       "layer": "props"
     },
     {
-      "id": "woodland-125",
+      "id": "woodland-126",
       "sprite": "table-small-wood",
       "x": 47,
       "y": 33,
@@ -6250,7 +6115,7 @@
       "layer": "props"
     },
     {
-      "id": "woodland-126",
+      "id": "woodland-127",
       "sprite": "cafe-chair-cream",
       "x": 46,
       "y": 34,
@@ -6259,7 +6124,7 @@
       "layer": "props"
     },
     {
-      "id": "woodland-127",
+      "id": "woodland-128",
       "sprite": "cafe-chair-cream",
       "x": 48,
       "y": 34,
@@ -6268,7 +6133,7 @@
       "layer": "props"
     },
     {
-      "id": "woodland-128",
+      "id": "woodland-129",
       "sprite": "table-small-wood",
       "x": 17,
       "y": 37,
@@ -6277,7 +6142,7 @@
       "layer": "props"
     },
     {
-      "id": "woodland-129",
+      "id": "woodland-130",
       "sprite": "cafe-chair-cream",
       "x": 16,
       "y": 38,
@@ -6286,7 +6151,7 @@
       "layer": "props"
     },
     {
-      "id": "woodland-130",
+      "id": "woodland-131",
       "sprite": "cafe-chair-cream",
       "x": 18,
       "y": 38,
@@ -6295,7 +6160,7 @@
       "layer": "props"
     },
     {
-      "id": "woodland-131",
+      "id": "woodland-132",
       "sprite": "garden-hedge",
       "x": 19,
       "y": 19,
@@ -6304,7 +6169,7 @@
       "layer": "props"
     },
     {
-      "id": "woodland-132",
+      "id": "woodland-133",
       "sprite": "garden-hedge",
       "x": 25,
       "y": 19,
@@ -6313,7 +6178,7 @@
       "layer": "props"
     },
     {
-      "id": "woodland-133",
+      "id": "woodland-134",
       "sprite": "garden-hedge",
       "x": 41,
       "y": 31,
@@ -6322,7 +6187,7 @@
       "layer": "props"
     },
     {
-      "id": "woodland-134",
+      "id": "woodland-135",
       "sprite": "garden-hedge",
       "x": 47,
       "y": 31,
@@ -6331,7 +6196,7 @@
       "layer": "props"
     },
     {
-      "id": "woodland-135",
+      "id": "woodland-136",
       "sprite": "garden-hedge",
       "x": 16,
       "y": 35,
@@ -6340,7 +6205,7 @@
       "layer": "props"
     },
     {
-      "id": "woodland-136",
+      "id": "woodland-137",
       "sprite": "bookcase",
       "x": 48,
       "y": 7,
@@ -6349,7 +6214,7 @@
       "layer": "props"
     },
     {
-      "id": "woodland-137",
+      "id": "woodland-138",
       "sprite": "bench-park",
       "x": 46,
       "y": 10,
@@ -6367,7 +6232,7 @@
       "layer": "props"
     },
     {
-      "id": "woodland-138",
+      "id": "woodland-139",
       "sprite": "exp-crystal-small",
       "x": 49,
       "y": 9,
@@ -6439,7 +6304,7 @@
       "layer": "props"
     },
     {
-      "id": "woodland-139",
+      "id": "woodland-140",
       "sprite": "exp-soil",
       "x": 16,
       "y": 42,
@@ -6448,25 +6313,25 @@
       "layer": "props"
     },
     {
-      "id": "woodland-140",
+      "id": "woodland-141",
       "sprite": "exp-crop-herb",
       "x": 16,
       "y": 42,
-      "width": 1,
-      "height": 1,
-      "layer": "props"
-    },
-    {
-      "id": "woodland-141",
-      "sprite": "garden-meadow-white",
-      "x": 16,
-      "y": 43,
       "width": 1,
       "height": 1,
       "layer": "props"
     },
     {
       "id": "woodland-142",
+      "sprite": "garden-meadow-white",
+      "x": 16,
+      "y": 43,
+      "width": 1,
+      "height": 1,
+      "layer": "props"
+    },
+    {
+      "id": "woodland-143",
       "sprite": "exp-soil",
       "x": 19,
       "y": 42,
@@ -6475,25 +6340,25 @@
       "layer": "props"
     },
     {
-      "id": "woodland-143",
+      "id": "woodland-144",
       "sprite": "exp-crop-herb",
       "x": 19,
       "y": 42,
-      "width": 1,
-      "height": 1,
-      "layer": "props"
-    },
-    {
-      "id": "woodland-144",
-      "sprite": "garden-meadow-white",
-      "x": 19,
-      "y": 43,
       "width": 1,
       "height": 1,
       "layer": "props"
     },
     {
       "id": "woodland-145",
+      "sprite": "garden-meadow-white",
+      "x": 19,
+      "y": 43,
+      "width": 1,
+      "height": 1,
+      "layer": "props"
+    },
+    {
+      "id": "woodland-146",
       "sprite": "exp-soil",
       "x": 22,
       "y": 42,
@@ -6502,25 +6367,25 @@
       "layer": "props"
     },
     {
-      "id": "woodland-146",
+      "id": "woodland-147",
       "sprite": "exp-crop-herb",
       "x": 22,
       "y": 42,
-      "width": 1,
-      "height": 1,
-      "layer": "props"
-    },
-    {
-      "id": "woodland-147",
-      "sprite": "garden-meadow-white",
-      "x": 22,
-      "y": 43,
       "width": 1,
       "height": 1,
       "layer": "props"
     },
     {
       "id": "woodland-148",
+      "sprite": "garden-meadow-white",
+      "x": 22,
+      "y": 43,
+      "width": 1,
+      "height": 1,
+      "layer": "props"
+    },
+    {
+      "id": "woodland-149",
       "sprite": "exp-soil",
       "x": 25,
       "y": 42,
@@ -6529,25 +6394,25 @@
       "layer": "props"
     },
     {
-      "id": "woodland-149",
+      "id": "woodland-150",
       "sprite": "exp-crop-herb",
       "x": 25,
       "y": 42,
-      "width": 1,
-      "height": 1,
-      "layer": "props"
-    },
-    {
-      "id": "woodland-150",
-      "sprite": "garden-meadow-white",
-      "x": 25,
-      "y": 43,
       "width": 1,
       "height": 1,
       "layer": "props"
     },
     {
       "id": "woodland-151",
+      "sprite": "garden-meadow-white",
+      "x": 25,
+      "y": 43,
+      "width": 1,
+      "height": 1,
+      "layer": "props"
+    },
+    {
+      "id": "woodland-152",
       "sprite": "exp-soil",
       "x": 28,
       "y": 42,
@@ -6556,7 +6421,7 @@
       "layer": "props"
     },
     {
-      "id": "woodland-152",
+      "id": "woodland-153",
       "sprite": "exp-crop-herb",
       "x": 28,
       "y": 42,
@@ -6565,7 +6430,7 @@
       "layer": "props"
     },
     {
-      "id": "woodland-153",
+      "id": "woodland-154",
       "sprite": "garden-meadow-white",
       "x": 28,
       "y": 43,
@@ -6574,7 +6439,7 @@
       "layer": "props"
     },
     {
-      "id": "woodland-154",
+      "id": "woodland-155",
       "sprite": "bench-park",
       "x": 37,
       "y": 44,
@@ -6583,7 +6448,7 @@
       "layer": "props"
     },
     {
-      "id": "woodland-155",
+      "id": "woodland-156",
       "sprite": "exp-lilies",
       "x": 7,
       "y": 17,
@@ -6592,7 +6457,7 @@
       "layer": "props"
     },
     {
-      "id": "woodland-156",
+      "id": "woodland-157",
       "sprite": "garden-linden",
       "x": 4,
       "y": 1,
@@ -6601,7 +6466,7 @@
       "layer": "props"
     },
     {
-      "id": "woodland-157",
+      "id": "woodland-158",
       "sprite": "garden-linden",
       "x": 8,
       "y": 1,
@@ -6610,7 +6475,7 @@
       "layer": "props"
     },
     {
-      "id": "woodland-158",
+      "id": "woodland-159",
       "sprite": "garden-oak",
       "x": 11,
       "y": 1,
@@ -6619,7 +6484,7 @@
       "layer": "props"
     },
     {
-      "id": "woodland-159",
+      "id": "woodland-160",
       "sprite": "garden-linden",
       "x": 14,
       "y": 1,
@@ -6628,18 +6493,9 @@
       "layer": "props"
     },
     {
-      "id": "woodland-160",
+      "id": "woodland-161",
       "sprite": "garden-oak",
       "x": 16,
-      "y": 1,
-      "width": 3,
-      "height": 4,
-      "layer": "props"
-    },
-    {
-      "id": "woodland-161",
-      "sprite": "garden-orchard",
-      "x": 18,
       "y": 1,
       "width": 3,
       "height": 4,
@@ -6648,7 +6504,7 @@
     {
       "id": "woodland-162",
       "sprite": "garden-orchard",
-      "x": 22,
+      "x": 18,
       "y": 1,
       "width": 3,
       "height": 4,
@@ -6657,7 +6513,7 @@
     {
       "id": "woodland-163",
       "sprite": "garden-orchard",
-      "x": 24,
+      "x": 22,
       "y": 1,
       "width": 3,
       "height": 4,
@@ -6665,8 +6521,8 @@
     },
     {
       "id": "woodland-164",
-      "sprite": "garden-oak",
-      "x": 26,
+      "sprite": "garden-orchard",
+      "x": 24,
       "y": 1,
       "width": 3,
       "height": 4,
@@ -6675,7 +6531,7 @@
     {
       "id": "woodland-165",
       "sprite": "garden-oak",
-      "x": 29,
+      "x": 26,
       "y": 1,
       "width": 3,
       "height": 4,
@@ -6683,8 +6539,8 @@
     },
     {
       "id": "woodland-166",
-      "sprite": "garden-linden",
-      "x": 32,
+      "sprite": "garden-oak",
+      "x": 29,
       "y": 1,
       "width": 3,
       "height": 4,
@@ -6692,8 +6548,8 @@
     },
     {
       "id": "woodland-167",
-      "sprite": "garden-orchard",
-      "x": 38,
+      "sprite": "garden-linden",
+      "x": 32,
       "y": 1,
       "width": 3,
       "height": 4,
@@ -6702,7 +6558,7 @@
     {
       "id": "woodland-168",
       "sprite": "garden-orchard",
-      "x": 40,
+      "x": 38,
       "y": 1,
       "width": 3,
       "height": 4,
@@ -6710,8 +6566,8 @@
     },
     {
       "id": "woodland-169",
-      "sprite": "garden-oak",
-      "x": 44,
+      "sprite": "garden-orchard",
+      "x": 40,
       "y": 1,
       "width": 3,
       "height": 4,
@@ -6719,8 +6575,8 @@
     },
     {
       "id": "woodland-170",
-      "sprite": "garden-orchard",
-      "x": 46,
+      "sprite": "garden-oak",
+      "x": 44,
       "y": 1,
       "width": 3,
       "height": 4,
@@ -6729,7 +6585,7 @@
     {
       "id": "woodland-171",
       "sprite": "garden-orchard",
-      "x": 49,
+      "x": 46,
       "y": 1,
       "width": 3,
       "height": 4,
@@ -6738,7 +6594,7 @@
     {
       "id": "woodland-172",
       "sprite": "garden-orchard",
-      "x": 53,
+      "x": 49,
       "y": 1,
       "width": 3,
       "height": 4,
@@ -6746,8 +6602,8 @@
     },
     {
       "id": "woodland-173",
-      "sprite": "garden-linden",
-      "x": 56,
+      "sprite": "garden-orchard",
+      "x": 53,
       "y": 1,
       "width": 3,
       "height": 4,
@@ -6755,8 +6611,8 @@
     },
     {
       "id": "woodland-174",
-      "sprite": "garden-orchard",
-      "x": 58,
+      "sprite": "garden-linden",
+      "x": 56,
       "y": 1,
       "width": 3,
       "height": 4,
@@ -6765,6 +6621,15 @@
     {
       "id": "woodland-175",
       "sprite": "garden-orchard",
+      "x": 58,
+      "y": 1,
+      "width": 3,
+      "height": 4,
+      "layer": "props"
+    },
+    {
+      "id": "woodland-176",
+      "sprite": "garden-orchard",
       "x": 2,
       "y": 2,
       "width": 3,
@@ -6772,7 +6637,7 @@
       "layer": "props"
     },
     {
-      "id": "woodland-176",
+      "id": "woodland-177",
       "sprite": "garden-oak",
       "x": 6,
       "y": 2,
@@ -6781,7 +6646,7 @@
       "layer": "props"
     },
     {
-      "id": "woodland-177",
+      "id": "woodland-178",
       "sprite": "garden-linden",
       "x": 35,
       "y": 2,
@@ -6790,7 +6655,7 @@
       "layer": "props"
     },
     {
-      "id": "woodland-178",
+      "id": "woodland-179",
       "sprite": "garden-orchard",
       "x": 51,
       "y": 2,
@@ -6799,7 +6664,7 @@
       "layer": "props"
     },
     {
-      "id": "woodland-179",
+      "id": "woodland-180",
       "sprite": "garden-oak",
       "x": 10,
       "y": 3,
@@ -6808,7 +6673,7 @@
       "layer": "props"
     },
     {
-      "id": "woodland-180",
+      "id": "woodland-181",
       "sprite": "garden-orchard",
       "x": 12,
       "y": 3,
@@ -6817,7 +6682,7 @@
       "layer": "props"
     },
     {
-      "id": "woodland-181",
+      "id": "woodland-182",
       "sprite": "garden-oak",
       "x": 14,
       "y": 3,
@@ -6826,7 +6691,7 @@
       "layer": "props"
     },
     {
-      "id": "woodland-182",
+      "id": "woodland-183",
       "sprite": "garden-linden",
       "x": 21,
       "y": 3,
@@ -6835,7 +6700,7 @@
       "layer": "props"
     },
     {
-      "id": "woodland-183",
+      "id": "woodland-184",
       "sprite": "garden-oak",
       "x": 23,
       "y": 3,
@@ -6844,7 +6709,7 @@
       "layer": "props"
     },
     {
-      "id": "woodland-184",
+      "id": "woodland-185",
       "sprite": "garden-linden",
       "x": 26,
       "y": 3,
@@ -6853,18 +6718,9 @@
       "layer": "props"
     },
     {
-      "id": "woodland-185",
+      "id": "woodland-186",
       "sprite": "garden-orchard",
       "x": 28,
-      "y": 3,
-      "width": 3,
-      "height": 4,
-      "layer": "props"
-    },
-    {
-      "id": "woodland-186",
-      "sprite": "garden-oak",
-      "x": 33,
       "y": 3,
       "width": 3,
       "height": 4,
@@ -6873,7 +6729,7 @@
     {
       "id": "woodland-187",
       "sprite": "garden-oak",
-      "x": 40,
+      "x": 33,
       "y": 3,
       "width": 3,
       "height": 4,
@@ -6881,6 +6737,15 @@
     },
     {
       "id": "woodland-188",
+      "sprite": "garden-oak",
+      "x": 40,
+      "y": 3,
+      "width": 3,
+      "height": 4,
+      "layer": "props"
+    },
+    {
+      "id": "woodland-189",
       "sprite": "garden-linden",
       "x": 44,
       "y": 3,
@@ -6889,7 +6754,7 @@
       "layer": "props"
     },
     {
-      "id": "woodland-189",
+      "id": "woodland-190",
       "sprite": "garden-oak",
       "x": 47,
       "y": 3,
@@ -6898,18 +6763,9 @@
       "layer": "props"
     },
     {
-      "id": "woodland-190",
+      "id": "woodland-191",
       "sprite": "garden-linden",
       "x": 49,
-      "y": 3,
-      "width": 3,
-      "height": 4,
-      "layer": "props"
-    },
-    {
-      "id": "woodland-191",
-      "sprite": "garden-oak",
-      "x": 56,
       "y": 3,
       "width": 3,
       "height": 4,
@@ -6918,6 +6774,15 @@
     {
       "id": "woodland-192",
       "sprite": "garden-oak",
+      "x": 56,
+      "y": 3,
+      "width": 3,
+      "height": 4,
+      "layer": "props"
+    },
+    {
+      "id": "woodland-193",
+      "sprite": "garden-oak",
       "x": 2,
       "y": 4,
       "width": 3,
@@ -6925,18 +6790,9 @@
       "layer": "props"
     },
     {
-      "id": "woodland-193",
+      "id": "woodland-194",
       "sprite": "garden-orchard",
       "x": 31,
-      "y": 4,
-      "width": 3,
-      "height": 4,
-      "layer": "props"
-    },
-    {
-      "id": "woodland-194",
-      "sprite": "garden-linden",
-      "x": 38,
       "y": 4,
       "width": 3,
       "height": 4,
@@ -6945,7 +6801,7 @@
     {
       "id": "woodland-195",
       "sprite": "garden-linden",
-      "x": 42,
+      "x": 38,
       "y": 4,
       "width": 3,
       "height": 4,
@@ -6954,7 +6810,7 @@
     {
       "id": "woodland-196",
       "sprite": "garden-linden",
-      "x": 59,
+      "x": 42,
       "y": 4,
       "width": 3,
       "height": 4,
@@ -6963,8 +6819,8 @@
     {
       "id": "woodland-197",
       "sprite": "garden-linden",
-      "x": 4,
-      "y": 5,
+      "x": 59,
+      "y": 4,
       "width": 3,
       "height": 4,
       "layer": "props"
@@ -6972,7 +6828,7 @@
     {
       "id": "woodland-198",
       "sprite": "garden-linden",
-      "x": 7,
+      "x": 4,
       "y": 5,
       "width": 3,
       "height": 4,
@@ -6980,8 +6836,8 @@
     },
     {
       "id": "woodland-199",
-      "sprite": "garden-orchard",
-      "x": 12,
+      "sprite": "garden-linden",
+      "x": 7,
       "y": 5,
       "width": 3,
       "height": 4,
@@ -6990,7 +6846,7 @@
     {
       "id": "woodland-200",
       "sprite": "garden-orchard",
-      "x": 34,
+      "x": 12,
       "y": 5,
       "width": 3,
       "height": 4,
@@ -6998,8 +6854,8 @@
     },
     {
       "id": "woodland-201",
-      "sprite": "garden-linden",
-      "x": 40,
+      "sprite": "garden-orchard",
+      "x": 34,
       "y": 5,
       "width": 3,
       "height": 4,
@@ -7008,7 +6864,7 @@
     {
       "id": "woodland-202",
       "sprite": "garden-linden",
-      "x": 54,
+      "x": 40,
       "y": 5,
       "width": 3,
       "height": 4,
@@ -7016,17 +6872,17 @@
     },
     {
       "id": "woodland-203",
-      "sprite": "garden-orchard",
-      "x": 1,
-      "y": 6,
+      "sprite": "garden-linden",
+      "x": 54,
+      "y": 5,
       "width": 3,
       "height": 4,
       "layer": "props"
     },
     {
       "id": "woodland-204",
-      "sprite": "garden-linden",
-      "x": 28,
+      "sprite": "garden-orchard",
+      "x": 1,
       "y": 6,
       "width": 3,
       "height": 4,
@@ -7035,7 +6891,7 @@
     {
       "id": "woodland-205",
       "sprite": "garden-linden",
-      "x": 32,
+      "x": 28,
       "y": 6,
       "width": 3,
       "height": 4,
@@ -7043,9 +6899,9 @@
     },
     {
       "id": "woodland-206",
-      "sprite": "garden-orchard",
-      "x": 4,
-      "y": 7,
+      "sprite": "garden-linden",
+      "x": 32,
+      "y": 6,
       "width": 3,
       "height": 4,
       "layer": "props"
@@ -7053,7 +6909,7 @@
     {
       "id": "woodland-207",
       "sprite": "garden-orchard",
-      "x": 7,
+      "x": 4,
       "y": 7,
       "width": 3,
       "height": 4,
@@ -7062,7 +6918,7 @@
     {
       "id": "woodland-208",
       "sprite": "garden-orchard",
-      "x": 39,
+      "x": 7,
       "y": 7,
       "width": 3,
       "height": 4,
@@ -7071,7 +6927,7 @@
     {
       "id": "woodland-209",
       "sprite": "garden-orchard",
-      "x": 42,
+      "x": 39,
       "y": 7,
       "width": 3,
       "height": 4,
@@ -7079,6 +6935,15 @@
     },
     {
       "id": "woodland-210",
+      "sprite": "garden-orchard",
+      "x": 42,
+      "y": 7,
+      "width": 3,
+      "height": 4,
+      "layer": "props"
+    },
+    {
+      "id": "woodland-211",
       "sprite": "garden-oak",
       "x": 59,
       "y": 7,
@@ -7087,7 +6952,7 @@
       "layer": "props"
     },
     {
-      "id": "woodland-211",
+      "id": "woodland-212",
       "sprite": "garden-orchard",
       "x": 11,
       "y": 8,
@@ -7096,18 +6961,9 @@
       "layer": "props"
     },
     {
-      "id": "woodland-212",
+      "id": "woodland-213",
       "sprite": "garden-linden",
       "x": 54,
-      "y": 8,
-      "width": 3,
-      "height": 4,
-      "layer": "props"
-    },
-    {
-      "id": "woodland-213",
-      "sprite": "garden-oak",
-      "x": 56,
       "y": 8,
       "width": 3,
       "height": 4,
@@ -7116,6 +6972,15 @@
     {
       "id": "woodland-214",
       "sprite": "garden-oak",
+      "x": 56,
+      "y": 8,
+      "width": 3,
+      "height": 4,
+      "layer": "props"
+    },
+    {
+      "id": "woodland-215",
+      "sprite": "garden-oak",
       "x": 13,
       "y": 9,
       "width": 3,
@@ -7123,7 +6988,7 @@
       "layer": "props"
     },
     {
-      "id": "woodland-215",
+      "id": "woodland-216",
       "sprite": "garden-oak",
       "x": 40,
       "y": 9,
@@ -7132,7 +6997,7 @@
       "layer": "props"
     },
     {
-      "id": "woodland-216",
+      "id": "woodland-217",
       "sprite": "garden-orchard",
       "x": 42,
       "y": 9,
@@ -7141,7 +7006,7 @@
       "layer": "props"
     },
     {
-      "id": "woodland-217",
+      "id": "woodland-218",
       "sprite": "garden-oak",
       "x": 1,
       "y": 10,
@@ -7150,7 +7015,7 @@
       "layer": "props"
     },
     {
-      "id": "woodland-218",
+      "id": "woodland-219",
       "sprite": "garden-oak",
       "x": 53,
       "y": 10,
@@ -7159,18 +7024,9 @@
       "layer": "props"
     },
     {
-      "id": "woodland-219",
+      "id": "woodland-220",
       "sprite": "garden-linden",
       "x": 56,
-      "y": 10,
-      "width": 3,
-      "height": 4,
-      "layer": "props"
-    },
-    {
-      "id": "woodland-220",
-      "sprite": "garden-oak",
-      "x": 59,
       "y": 10,
       "width": 3,
       "height": 4,
@@ -7179,6 +7035,15 @@
     {
       "id": "woodland-221",
       "sprite": "garden-oak",
+      "x": 59,
+      "y": 10,
+      "width": 3,
+      "height": 4,
+      "layer": "props"
+    },
+    {
+      "id": "woodland-222",
+      "sprite": "garden-oak",
       "x": 2,
       "y": 12,
       "width": 3,
@@ -7186,7 +7051,7 @@
       "layer": "props"
     },
     {
-      "id": "woodland-222",
+      "id": "woodland-223",
       "sprite": "garden-linden",
       "x": 39,
       "y": 12,
@@ -7195,18 +7060,9 @@
       "layer": "props"
     },
     {
-      "id": "woodland-223",
+      "id": "woodland-224",
       "sprite": "garden-orchard",
       "x": 56,
-      "y": 12,
-      "width": 3,
-      "height": 4,
-      "layer": "props"
-    },
-    {
-      "id": "woodland-224",
-      "sprite": "garden-linden",
-      "x": 59,
       "y": 12,
       "width": 3,
       "height": 4,
@@ -7215,6 +7071,15 @@
     {
       "id": "woodland-225",
       "sprite": "garden-linden",
+      "x": 59,
+      "y": 12,
+      "width": 3,
+      "height": 4,
+      "layer": "props"
+    },
+    {
+      "id": "woodland-226",
+      "sprite": "garden-linden",
       "x": 53,
       "y": 13,
       "width": 3,
@@ -7222,7 +7087,7 @@
       "layer": "props"
     },
     {
-      "id": "woodland-226",
+      "id": "woodland-227",
       "sprite": "garden-orchard",
       "x": 55,
       "y": 14,
@@ -7231,7 +7096,7 @@
       "layer": "props"
     },
     {
-      "id": "woodland-227",
+      "id": "woodland-228",
       "sprite": "garden-oak",
       "x": 57,
       "y": 14,
@@ -7240,7 +7105,7 @@
       "layer": "props"
     },
     {
-      "id": "woodland-228",
+      "id": "woodland-229",
       "sprite": "garden-linden",
       "x": 59,
       "y": 15,
@@ -7249,7 +7114,7 @@
       "layer": "props"
     },
     {
-      "id": "woodland-229",
+      "id": "woodland-230",
       "sprite": "garden-oak",
       "x": 1,
       "y": 17,
@@ -7258,7 +7123,7 @@
       "layer": "props"
     },
     {
-      "id": "woodland-230",
+      "id": "woodland-231",
       "sprite": "garden-linden",
       "x": 58,
       "y": 17,
@@ -7267,7 +7132,7 @@
       "layer": "props"
     },
     {
-      "id": "woodland-231",
+      "id": "woodland-232",
       "sprite": "garden-oak",
       "x": 54,
       "y": 19,
@@ -7276,18 +7141,9 @@
       "layer": "props"
     },
     {
-      "id": "woodland-232",
+      "id": "woodland-233",
       "sprite": "garden-linden",
       "x": 2,
-      "y": 20,
-      "width": 3,
-      "height": 4,
-      "layer": "props"
-    },
-    {
-      "id": "woodland-233",
-      "sprite": "garden-orchard",
-      "x": 35,
       "y": 20,
       "width": 3,
       "height": 4,
@@ -7296,6 +7152,15 @@
     {
       "id": "woodland-234",
       "sprite": "garden-orchard",
+      "x": 35,
+      "y": 20,
+      "width": 3,
+      "height": 4,
+      "layer": "props"
+    },
+    {
+      "id": "woodland-235",
+      "sprite": "garden-orchard",
       "x": 54,
       "y": 21,
       "width": 3,
@@ -7303,7 +7168,7 @@
       "layer": "props"
     },
     {
-      "id": "woodland-235",
+      "id": "woodland-236",
       "sprite": "garden-orchard",
       "x": 56,
       "y": 21,
@@ -7312,7 +7177,7 @@
       "layer": "props"
     },
     {
-      "id": "woodland-236",
+      "id": "woodland-237",
       "sprite": "garden-linden",
       "x": 58,
       "y": 21,
@@ -7321,18 +7186,9 @@
       "layer": "props"
     },
     {
-      "id": "woodland-237",
-      "sprite": "garden-oak",
-      "x": 2,
-      "y": 22,
-      "width": 3,
-      "height": 4,
-      "layer": "props"
-    },
-    {
       "id": "woodland-238",
       "sprite": "garden-oak",
-      "x": 47,
+      "x": 2,
       "y": 22,
       "width": 3,
       "height": 4,
@@ -7341,6 +7197,15 @@
     {
       "id": "woodland-239",
       "sprite": "garden-oak",
+      "x": 47,
+      "y": 22,
+      "width": 3,
+      "height": 4,
+      "layer": "props"
+    },
+    {
+      "id": "woodland-240",
+      "sprite": "garden-oak",
       "x": 50,
       "y": 23,
       "width": 3,
@@ -7348,7 +7213,7 @@
       "layer": "props"
     },
     {
-      "id": "woodland-240",
+      "id": "woodland-241",
       "sprite": "garden-linden",
       "x": 37,
       "y": 28,
@@ -7357,7 +7222,7 @@
       "layer": "props"
     },
     {
-      "id": "woodland-241",
+      "id": "woodland-242",
       "sprite": "garden-oak",
       "x": 35,
       "y": 30,
@@ -7366,7 +7231,7 @@
       "layer": "props"
     },
     {
-      "id": "woodland-242",
+      "id": "woodland-243",
       "sprite": "garden-oak",
       "x": 2,
       "y": 32,
@@ -7375,7 +7240,7 @@
       "layer": "props"
     },
     {
-      "id": "woodland-243",
+      "id": "woodland-244",
       "sprite": "garden-orchard",
       "x": 36,
       "y": 32,
@@ -7384,18 +7249,9 @@
       "layer": "props"
     },
     {
-      "id": "woodland-244",
+      "id": "woodland-245",
       "sprite": "garden-oak",
       "x": 12,
-      "y": 33,
-      "width": 3,
-      "height": 4,
-      "layer": "props"
-    },
-    {
-      "id": "woodland-245",
-      "sprite": "garden-linden",
-      "x": 34,
       "y": 33,
       "width": 3,
       "height": 4,
@@ -7404,7 +7260,7 @@
     {
       "id": "woodland-246",
       "sprite": "garden-linden",
-      "x": 58,
+      "x": 34,
       "y": 33,
       "width": 3,
       "height": 4,
@@ -7413,6 +7269,15 @@
     {
       "id": "woodland-247",
       "sprite": "garden-linden",
+      "x": 58,
+      "y": 33,
+      "width": 3,
+      "height": 4,
+      "layer": "props"
+    },
+    {
+      "id": "woodland-248",
+      "sprite": "garden-linden",
       "x": 1,
       "y": 34,
       "width": 3,
@@ -7420,7 +7285,7 @@
       "layer": "props"
     },
     {
-      "id": "woodland-248",
+      "id": "woodland-249",
       "sprite": "garden-orchard",
       "x": 7,
       "y": 35,
@@ -7429,7 +7294,7 @@
       "layer": "props"
     },
     {
-      "id": "woodland-249",
+      "id": "woodland-250",
       "sprite": "garden-linden",
       "x": 11,
       "y": 35,
@@ -7438,7 +7303,7 @@
       "layer": "props"
     },
     {
-      "id": "woodland-250",
+      "id": "woodland-251",
       "sprite": "garden-orchard",
       "x": 35,
       "y": 35,
@@ -7447,7 +7312,7 @@
       "layer": "props"
     },
     {
-      "id": "woodland-251",
+      "id": "woodland-252",
       "sprite": "garden-oak",
       "x": 3,
       "y": 36,
@@ -7456,18 +7321,9 @@
       "layer": "props"
     },
     {
-      "id": "woodland-252",
+      "id": "woodland-253",
       "sprite": "garden-linden",
       "x": 1,
-      "y": 37,
-      "width": 3,
-      "height": 4,
-      "layer": "props"
-    },
-    {
-      "id": "woodland-253",
-      "sprite": "garden-oak",
-      "x": 7,
       "y": 37,
       "width": 3,
       "height": 4,
@@ -7476,7 +7332,7 @@
     {
       "id": "woodland-254",
       "sprite": "garden-oak",
-      "x": 9,
+      "x": 7,
       "y": 37,
       "width": 3,
       "height": 4,
@@ -7484,6 +7340,15 @@
     },
     {
       "id": "woodland-255",
+      "sprite": "garden-oak",
+      "x": 9,
+      "y": 37,
+      "width": 3,
+      "height": 4,
+      "layer": "props"
+    },
+    {
+      "id": "woodland-256",
       "sprite": "garden-orchard",
       "x": 12,
       "y": 37,
@@ -7492,7 +7357,7 @@
       "layer": "props"
     },
     {
-      "id": "woodland-256",
+      "id": "woodland-257",
       "sprite": "garden-linden",
       "x": 3,
       "y": 38,
@@ -7501,7 +7366,7 @@
       "layer": "props"
     },
     {
-      "id": "woodland-257",
+      "id": "woodland-258",
       "sprite": "garden-linden",
       "x": 58,
       "y": 38,
@@ -7510,18 +7375,9 @@
       "layer": "props"
     },
     {
-      "id": "woodland-258",
-      "sprite": "garden-orchard",
-      "x": 6,
-      "y": 39,
-      "width": 3,
-      "height": 4,
-      "layer": "props"
-    },
-    {
       "id": "woodland-259",
       "sprite": "garden-orchard",
-      "x": 10,
+      "x": 6,
       "y": 39,
       "width": 3,
       "height": 4,
@@ -7530,6 +7386,15 @@
     {
       "id": "woodland-260",
       "sprite": "garden-orchard",
+      "x": 10,
+      "y": 39,
+      "width": 3,
+      "height": 4,
+      "layer": "props"
+    },
+    {
+      "id": "woodland-261",
+      "sprite": "garden-orchard",
       "x": 3,
       "y": 40,
       "width": 3,
@@ -7537,7 +7402,7 @@
       "layer": "props"
     },
     {
-      "id": "woodland-261",
+      "id": "woodland-262",
       "sprite": "garden-oak",
       "x": 11,
       "y": 41,
@@ -7546,7 +7411,7 @@
       "layer": "props"
     },
     {
-      "id": "woodland-262",
+      "id": "woodland-263",
       "sprite": "garden-orchard",
       "x": 58,
       "y": 41,
@@ -7555,7 +7420,7 @@
       "layer": "props"
     },
     {
-      "id": "woodland-263",
+      "id": "woodland-264",
       "sprite": "garden-oak",
       "x": 1,
       "y": 42,
@@ -7564,7 +7429,7 @@
       "layer": "props"
     },
     {
-      "id": "woodland-264",
+      "id": "woodland-265",
       "sprite": "garden-oak",
       "x": 9,
       "y": 42,
@@ -7573,7 +7438,7 @@
       "layer": "props"
     },
     {
-      "id": "woodland-265",
+      "id": "woodland-266",
       "sprite": "garden-orchard",
       "x": 3,
       "y": 43,
@@ -7582,7 +7447,7 @@
       "layer": "props"
     },
     {
-      "id": "woodland-266",
+      "id": "woodland-267",
       "sprite": "garden-linden",
       "x": 7,
       "y": 43,
@@ -7591,18 +7456,9 @@
       "layer": "props"
     },
     {
-      "id": "woodland-267",
+      "id": "woodland-268",
       "sprite": "garden-orchard",
       "x": 1,
-      "y": 44,
-      "width": 3,
-      "height": 4,
-      "layer": "props"
-    },
-    {
-      "id": "woodland-268",
-      "sprite": "garden-linden",
-      "x": 9,
       "y": 44,
       "width": 3,
       "height": 4,
@@ -7611,6 +7467,15 @@
     {
       "id": "woodland-269",
       "sprite": "garden-linden",
+      "x": 9,
+      "y": 44,
+      "width": 3,
+      "height": 4,
+      "layer": "props"
+    },
+    {
+      "id": "woodland-270",
+      "sprite": "garden-linden",
       "x": 4,
       "y": 45,
       "width": 3,
@@ -7618,7 +7483,7 @@
       "layer": "props"
     },
     {
-      "id": "woodland-270",
+      "id": "woodland-271",
       "sprite": "garden-linden",
       "x": 58,
       "y": 45,
@@ -7627,7 +7492,7 @@
       "layer": "props"
     },
     {
-      "id": "woodland-271",
+      "id": "woodland-272",
       "sprite": "garden-orchard",
       "x": 6,
       "y": 46,
@@ -7636,7 +7501,7 @@
       "layer": "props"
     },
     {
-      "id": "woodland-272",
+      "id": "woodland-273",
       "sprite": "garden-oak",
       "x": 8,
       "y": 46,
@@ -7645,7 +7510,7 @@
       "layer": "props"
     },
     {
-      "id": "woodland-273",
+      "id": "woodland-274",
       "sprite": "garden-orchard",
       "x": 20,
       "y": 46,
@@ -7654,7 +7519,7 @@
       "layer": "props"
     },
     {
-      "id": "woodland-274",
+      "id": "woodland-275",
       "sprite": "garden-linden",
       "x": 56,
       "y": 46,
@@ -7663,7 +7528,7 @@
       "layer": "props"
     },
     {
-      "id": "woodland-275",
+      "id": "woodland-276",
       "sprite": "garden-oak",
       "x": 12,
       "y": 47,
@@ -7672,7 +7537,7 @@
       "layer": "props"
     },
     {
-      "id": "woodland-276",
+      "id": "woodland-277",
       "sprite": "garden-linden",
       "x": 16,
       "y": 47,
@@ -7681,7 +7546,7 @@
       "layer": "props"
     },
     {
-      "id": "woodland-277",
+      "id": "woodland-278",
       "sprite": "garden-orchard",
       "x": 23,
       "y": 47,
@@ -7690,7 +7555,7 @@
       "layer": "props"
     },
     {
-      "id": "woodland-278",
+      "id": "woodland-279",
       "sprite": "garden-oak",
       "x": 25,
       "y": 47,
@@ -7699,7 +7564,7 @@
       "layer": "props"
     },
     {
-      "id": "woodland-279",
+      "id": "woodland-280",
       "sprite": "garden-linden",
       "x": 49,
       "y": 47,
@@ -7708,7 +7573,7 @@
       "layer": "props"
     },
     {
-      "id": "woodland-280",
+      "id": "woodland-281",
       "sprite": "garden-oak",
       "x": 3,
       "y": 48,
@@ -7717,7 +7582,7 @@
       "layer": "props"
     },
     {
-      "id": "woodland-281",
+      "id": "woodland-282",
       "sprite": "garden-linden",
       "x": 9,
       "y": 48,
@@ -7726,7 +7591,7 @@
       "layer": "props"
     },
     {
-      "id": "woodland-282",
+      "id": "woodland-283",
       "sprite": "garden-linden",
       "x": 19,
       "y": 48,
@@ -7735,7 +7600,7 @@
       "layer": "props"
     },
     {
-      "id": "woodland-283",
+      "id": "woodland-284",
       "sprite": "garden-orchard",
       "x": 47,
       "y": 48,
@@ -7744,18 +7609,9 @@
       "layer": "props"
     },
     {
-      "id": "woodland-284",
+      "id": "woodland-285",
       "sprite": "garden-linden",
       "x": 54,
-      "y": 48,
-      "width": 3,
-      "height": 4,
-      "layer": "props"
-    },
-    {
-      "id": "woodland-285",
-      "sprite": "garden-oak",
-      "x": 57,
       "y": 48,
       "width": 3,
       "height": 4,
@@ -7764,7 +7620,7 @@
     {
       "id": "woodland-286",
       "sprite": "garden-oak",
-      "x": 59,
+      "x": 57,
       "y": 48,
       "width": 3,
       "height": 4,
@@ -7773,16 +7629,16 @@
     {
       "id": "woodland-287",
       "sprite": "garden-oak",
-      "x": 6,
-      "y": 49,
+      "x": 59,
+      "y": 48,
       "width": 3,
       "height": 4,
       "layer": "props"
     },
     {
       "id": "woodland-288",
-      "sprite": "garden-linden",
-      "x": 11,
+      "sprite": "garden-oak",
+      "x": 6,
       "y": 49,
       "width": 3,
       "height": 4,
@@ -7791,7 +7647,7 @@
     {
       "id": "woodland-289",
       "sprite": "garden-linden",
-      "x": 13,
+      "x": 11,
       "y": 49,
       "width": 3,
       "height": 4,
@@ -7799,6 +7655,15 @@
     },
     {
       "id": "woodland-290",
+      "sprite": "garden-linden",
+      "x": 13,
+      "y": 49,
+      "width": 3,
+      "height": 4,
+      "layer": "props"
+    },
+    {
+      "id": "woodland-291",
       "sprite": "garden-orchard",
       "x": 17,
       "y": 49,
@@ -7807,7 +7672,7 @@
       "layer": "props"
     },
     {
-      "id": "woodland-291",
+      "id": "woodland-292",
       "sprite": "garden-oak",
       "x": 21,
       "y": 49,
@@ -7816,7 +7681,7 @@
       "layer": "props"
     },
     {
-      "id": "woodland-292",
+      "id": "woodland-293",
       "sprite": "garden-orchard",
       "x": 23,
       "y": 49,
@@ -7825,7 +7690,7 @@
       "layer": "props"
     },
     {
-      "id": "woodland-293",
+      "id": "woodland-294",
       "sprite": "garden-oak",
       "x": 2,
       "y": 50,
@@ -7834,7 +7699,7 @@
       "layer": "props"
     },
     {
-      "id": "woodland-294",
+      "id": "woodland-295",
       "sprite": "garden-oak",
       "x": 4,
       "y": 50,
@@ -7843,7 +7708,7 @@
       "layer": "props"
     },
     {
-      "id": "woodland-295",
+      "id": "woodland-296",
       "sprite": "garden-linden",
       "x": 15,
       "y": 50,
@@ -7852,7 +7717,7 @@
       "layer": "props"
     },
     {
-      "id": "woodland-296",
+      "id": "woodland-297",
       "sprite": "garden-orchard",
       "x": 50,
       "y": 50,
@@ -7861,7 +7726,7 @@
       "layer": "props"
     },
     {
-      "id": "woodland-297",
+      "id": "woodland-298",
       "sprite": "garden-linden",
       "x": 56,
       "y": 50,
@@ -7870,7 +7735,7 @@
       "layer": "props"
     },
     {
-      "id": "woodland-298",
+      "id": "woodland-299",
       "sprite": "garden-linden",
       "x": 58,
       "y": 50,
@@ -7879,7 +7744,7 @@
       "layer": "props"
     },
     {
-      "id": "woodland-299",
+      "id": "woodland-300",
       "sprite": "garden-fern",
       "x": 5,
       "y": 1,
@@ -7888,18 +7753,9 @@
       "layer": "props"
     },
     {
-      "id": "woodland-300",
+      "id": "woodland-301",
       "sprite": "exp-grass-tuft",
       "x": 10,
-      "y": 1,
-      "width": 1,
-      "height": 1,
-      "layer": "props"
-    },
-    {
-      "id": "woodland-301",
-      "sprite": "garden-meadow-pink",
-      "x": 14,
       "y": 1,
       "width": 1,
       "height": 1,
@@ -7908,7 +7764,7 @@
     {
       "id": "woodland-302",
       "sprite": "garden-meadow-pink",
-      "x": 23,
+      "x": 14,
       "y": 1,
       "width": 1,
       "height": 1,
@@ -7916,8 +7772,8 @@
     },
     {
       "id": "woodland-303",
-      "sprite": "exp-grass-tuft",
-      "x": 28,
+      "sprite": "garden-meadow-pink",
+      "x": 23,
       "y": 1,
       "width": 1,
       "height": 1,
@@ -7926,7 +7782,7 @@
     {
       "id": "woodland-304",
       "sprite": "exp-grass-tuft",
-      "x": 48,
+      "x": 28,
       "y": 1,
       "width": 1,
       "height": 1,
@@ -7935,7 +7791,7 @@
     {
       "id": "woodland-305",
       "sprite": "exp-grass-tuft",
-      "x": 54,
+      "x": 48,
       "y": 1,
       "width": 1,
       "height": 1,
@@ -7944,7 +7800,7 @@
     {
       "id": "woodland-306",
       "sprite": "exp-grass-tuft",
-      "x": 59,
+      "x": 54,
       "y": 1,
       "width": 1,
       "height": 1,
@@ -7952,6 +7808,15 @@
     },
     {
       "id": "woodland-307",
+      "sprite": "exp-grass-tuft",
+      "x": 59,
+      "y": 1,
+      "width": 1,
+      "height": 1,
+      "layer": "props"
+    },
+    {
+      "id": "woodland-308",
       "sprite": "exp-berry",
       "x": 4,
       "y": 2,
@@ -7960,7 +7825,7 @@
       "layer": "props"
     },
     {
-      "id": "woodland-308",
+      "id": "woodland-309",
       "sprite": "garden-fern",
       "x": 10,
       "y": 2,
@@ -7969,7 +7834,7 @@
       "layer": "props"
     },
     {
-      "id": "woodland-309",
+      "id": "woodland-310",
       "sprite": "exp-grass-tuft",
       "x": 13,
       "y": 2,
@@ -7978,7 +7843,7 @@
       "layer": "props"
     },
     {
-      "id": "woodland-310",
+      "id": "woodland-311",
       "sprite": "garden-meadow-blue",
       "x": 27,
       "y": 2,
@@ -7987,7 +7852,7 @@
       "layer": "props"
     },
     {
-      "id": "woodland-311",
+      "id": "woodland-312",
       "sprite": "garden-meadow-pink",
       "x": 28,
       "y": 2,
@@ -7996,18 +7861,9 @@
       "layer": "props"
     },
     {
-      "id": "woodland-312",
+      "id": "woodland-313",
       "sprite": "garden-meadow-blue",
       "x": 30,
-      "y": 2,
-      "width": 1,
-      "height": 1,
-      "layer": "props"
-    },
-    {
-      "id": "woodland-313",
-      "sprite": "exp-grass-tuft",
-      "x": 53,
       "y": 2,
       "width": 1,
       "height": 1,
@@ -8016,6 +7872,15 @@
     {
       "id": "woodland-314",
       "sprite": "exp-grass-tuft",
+      "x": 53,
+      "y": 2,
+      "width": 1,
+      "height": 1,
+      "layer": "props"
+    },
+    {
+      "id": "woodland-315",
+      "sprite": "exp-grass-tuft",
       "x": 11,
       "y": 3,
       "width": 1,
@@ -8023,7 +7888,7 @@
       "layer": "props"
     },
     {
-      "id": "woodland-315",
+      "id": "woodland-316",
       "sprite": "exp-grass-tuft",
       "x": 14,
       "y": 3,
@@ -8032,7 +7897,7 @@
       "layer": "props"
     },
     {
-      "id": "woodland-316",
+      "id": "woodland-317",
       "sprite": "exp-berry",
       "x": 42,
       "y": 3,
@@ -8041,7 +7906,7 @@
       "layer": "props"
     },
     {
-      "id": "woodland-317",
+      "id": "woodland-318",
       "sprite": "garden-meadow-pink",
       "x": 47,
       "y": 3,
@@ -8050,7 +7915,7 @@
       "layer": "props"
     },
     {
-      "id": "woodland-318",
+      "id": "woodland-319",
       "sprite": "garden-fern",
       "x": 57,
       "y": 3,
@@ -8059,7 +7924,7 @@
       "layer": "props"
     },
     {
-      "id": "woodland-319",
+      "id": "woodland-320",
       "sprite": "garden-fern",
       "x": 9,
       "y": 4,
@@ -8068,7 +7933,7 @@
       "layer": "props"
     },
     {
-      "id": "woodland-320",
+      "id": "woodland-321",
       "sprite": "exp-berry",
       "x": 35,
       "y": 4,
@@ -8077,7 +7942,7 @@
       "layer": "props"
     },
     {
-      "id": "woodland-321",
+      "id": "woodland-322",
       "sprite": "garden-meadow-white",
       "x": 49,
       "y": 4,
@@ -8086,7 +7951,7 @@
       "layer": "props"
     },
     {
-      "id": "woodland-322",
+      "id": "woodland-323",
       "sprite": "exp-mushrooms",
       "x": 57,
       "y": 4,
@@ -8095,7 +7960,7 @@
       "layer": "props"
     },
     {
-      "id": "woodland-323",
+      "id": "woodland-324",
       "sprite": "garden-fern",
       "x": 6,
       "y": 5,
@@ -8104,7 +7969,7 @@
       "layer": "props"
     },
     {
-      "id": "woodland-324",
+      "id": "woodland-325",
       "sprite": "exp-grass-tuft",
       "x": 7,
       "y": 5,
@@ -8113,7 +7978,7 @@
       "layer": "props"
     },
     {
-      "id": "woodland-325",
+      "id": "woodland-326",
       "sprite": "exp-berry",
       "x": 9,
       "y": 5,
@@ -8122,7 +7987,7 @@
       "layer": "props"
     },
     {
-      "id": "woodland-326",
+      "id": "woodland-327",
       "sprite": "exp-grass-tuft",
       "x": 18,
       "y": 5,
@@ -8131,7 +7996,7 @@
       "layer": "props"
     },
     {
-      "id": "woodland-327",
+      "id": "woodland-328",
       "sprite": "exp-berry",
       "x": 19,
       "y": 5,
@@ -8140,7 +8005,7 @@
       "layer": "props"
     },
     {
-      "id": "woodland-328",
+      "id": "woodland-329",
       "sprite": "exp-grass-tuft",
       "x": 22,
       "y": 5,
@@ -8149,7 +8014,7 @@
       "layer": "props"
     },
     {
-      "id": "woodland-329",
+      "id": "woodland-330",
       "sprite": "exp-grass-tuft",
       "x": 29,
       "y": 5,
@@ -8158,7 +8023,7 @@
       "layer": "props"
     },
     {
-      "id": "woodland-330",
+      "id": "woodland-331",
       "sprite": "exp-grass-tuft",
       "x": 39,
       "y": 5,
@@ -8167,7 +8032,7 @@
       "layer": "props"
     },
     {
-      "id": "woodland-331",
+      "id": "woodland-332",
       "sprite": "exp-berry",
       "x": 41,
       "y": 5,
@@ -8176,7 +8041,7 @@
       "layer": "props"
     },
     {
-      "id": "woodland-332",
+      "id": "woodland-333",
       "sprite": "exp-grass-tuft",
       "x": 53,
       "y": 5,
@@ -8185,7 +8050,7 @@
       "layer": "props"
     },
     {
-      "id": "woodland-333",
+      "id": "woodland-334",
       "sprite": "garden-fern",
       "x": 54,
       "y": 5,
@@ -8194,7 +8059,7 @@
       "layer": "props"
     },
     {
-      "id": "woodland-334",
+      "id": "woodland-335",
       "sprite": "exp-grass-tuft",
       "x": 17,
       "y": 6,
@@ -8203,7 +8068,7 @@
       "layer": "props"
     },
     {
-      "id": "woodland-335",
+      "id": "woodland-336",
       "sprite": "exp-grass-tuft",
       "x": 24,
       "y": 6,
@@ -8212,7 +8077,7 @@
       "layer": "props"
     },
     {
-      "id": "woodland-336",
+      "id": "woodland-337",
       "sprite": "exp-berry",
       "x": 25,
       "y": 6,
@@ -8221,7 +8086,7 @@
       "layer": "props"
     },
     {
-      "id": "woodland-337",
+      "id": "woodland-338",
       "sprite": "exp-grass-tuft",
       "x": 37,
       "y": 6,
@@ -8230,7 +8095,7 @@
       "layer": "props"
     },
     {
-      "id": "woodland-338",
+      "id": "woodland-339",
       "sprite": "exp-berry",
       "x": 39,
       "y": 6,
@@ -8239,7 +8104,7 @@
       "layer": "props"
     },
     {
-      "id": "woodland-339",
+      "id": "woodland-340",
       "sprite": "exp-mushrooms",
       "x": 40,
       "y": 6,
@@ -8248,7 +8113,7 @@
       "layer": "props"
     },
     {
-      "id": "woodland-340",
+      "id": "woodland-341",
       "sprite": "exp-berry",
       "x": 56,
       "y": 6,
@@ -8257,7 +8122,7 @@
       "layer": "props"
     },
     {
-      "id": "woodland-341",
+      "id": "woodland-342",
       "sprite": "garden-fern",
       "x": 2,
       "y": 7,
@@ -8266,7 +8131,7 @@
       "layer": "props"
     },
     {
-      "id": "woodland-342",
+      "id": "woodland-343",
       "sprite": "exp-mushrooms",
       "x": 14,
       "y": 7,
@@ -8275,7 +8140,7 @@
       "layer": "props"
     },
     {
-      "id": "woodland-343",
+      "id": "woodland-344",
       "sprite": "garden-fern",
       "x": 33,
       "y": 7,
@@ -8284,7 +8149,7 @@
       "layer": "props"
     },
     {
-      "id": "woodland-344",
+      "id": "woodland-345",
       "sprite": "exp-berry",
       "x": 38,
       "y": 7,
@@ -8293,7 +8158,7 @@
       "layer": "props"
     },
     {
-      "id": "woodland-345",
+      "id": "woodland-346",
       "sprite": "garden-fern",
       "x": 42,
       "y": 7,
@@ -8302,7 +8167,7 @@
       "layer": "props"
     },
     {
-      "id": "woodland-346",
+      "id": "woodland-347",
       "sprite": "garden-meadow-blue",
       "x": 50,
       "y": 7,
@@ -8311,7 +8176,7 @@
       "layer": "props"
     },
     {
-      "id": "woodland-347",
+      "id": "woodland-348",
       "sprite": "garden-fern",
       "x": 59,
       "y": 7,
@@ -8320,7 +8185,7 @@
       "layer": "props"
     },
     {
-      "id": "woodland-348",
+      "id": "woodland-349",
       "sprite": "garden-fern",
       "x": 6,
       "y": 8,
@@ -8329,7 +8194,7 @@
       "layer": "props"
     },
     {
-      "id": "woodland-349",
+      "id": "woodland-350",
       "sprite": "exp-berry",
       "x": 10,
       "y": 8,
@@ -8338,7 +8203,7 @@
       "layer": "props"
     },
     {
-      "id": "woodland-350",
+      "id": "woodland-351",
       "sprite": "exp-mushrooms",
       "x": 14,
       "y": 8,
@@ -8347,7 +8212,7 @@
       "layer": "props"
     },
     {
-      "id": "woodland-351",
+      "id": "woodland-352",
       "sprite": "garden-meadow-white",
       "x": 31,
       "y": 8,
@@ -8356,7 +8221,7 @@
       "layer": "props"
     },
     {
-      "id": "woodland-352",
+      "id": "woodland-353",
       "sprite": "garden-meadow-blue",
       "x": 35,
       "y": 8,
@@ -8365,7 +8230,7 @@
       "layer": "props"
     },
     {
-      "id": "woodland-353",
+      "id": "woodland-354",
       "sprite": "exp-grass-tuft",
       "x": 38,
       "y": 8,
@@ -8374,7 +8239,7 @@
       "layer": "props"
     },
     {
-      "id": "woodland-354",
+      "id": "woodland-355",
       "sprite": "exp-berry",
       "x": 53,
       "y": 8,
@@ -8383,7 +8248,7 @@
       "layer": "props"
     },
     {
-      "id": "woodland-355",
+      "id": "woodland-356",
       "sprite": "exp-grass-tuft",
       "x": 9,
       "y": 9,
@@ -8392,7 +8257,7 @@
       "layer": "props"
     },
     {
-      "id": "woodland-356",
+      "id": "woodland-357",
       "sprite": "garden-fern",
       "x": 11,
       "y": 9,
@@ -8401,7 +8266,7 @@
       "layer": "props"
     },
     {
-      "id": "woodland-357",
+      "id": "woodland-358",
       "sprite": "exp-mushrooms",
       "x": 4,
       "y": 10,
@@ -8410,7 +8275,7 @@
       "layer": "props"
     },
     {
-      "id": "woodland-358",
+      "id": "woodland-359",
       "sprite": "exp-grass-tuft",
       "x": 5,
       "y": 10,
@@ -8419,7 +8284,7 @@
       "layer": "props"
     },
     {
-      "id": "woodland-359",
+      "id": "woodland-360",
       "sprite": "exp-mushrooms",
       "x": 8,
       "y": 10,
@@ -8428,7 +8293,7 @@
       "layer": "props"
     },
     {
-      "id": "woodland-360",
+      "id": "woodland-361",
       "sprite": "exp-grass-tuft",
       "x": 9,
       "y": 10,
@@ -8437,7 +8302,7 @@
       "layer": "props"
     },
     {
-      "id": "woodland-361",
+      "id": "woodland-362",
       "sprite": "exp-grass-tuft",
       "x": 30,
       "y": 10,
@@ -8446,7 +8311,7 @@
       "layer": "props"
     },
     {
-      "id": "woodland-362",
+      "id": "woodland-363",
       "sprite": "garden-meadow-pink",
       "x": 33,
       "y": 10,
@@ -8455,7 +8320,7 @@
       "layer": "props"
     },
     {
-      "id": "woodland-363",
+      "id": "woodland-364",
       "sprite": "exp-berry",
       "x": 39,
       "y": 10,
@@ -8464,7 +8329,7 @@
       "layer": "props"
     },
     {
-      "id": "woodland-364",
+      "id": "woodland-365",
       "sprite": "exp-berry",
       "x": 41,
       "y": 10,
@@ -8473,7 +8338,7 @@
       "layer": "props"
     },
     {
-      "id": "woodland-365",
+      "id": "woodland-366",
       "sprite": "exp-grass-tuft",
       "x": 12,
       "y": 11,
@@ -8482,7 +8347,7 @@
       "layer": "props"
     },
     {
-      "id": "woodland-366",
+      "id": "woodland-367",
       "sprite": "exp-grass-tuft",
       "x": 28,
       "y": 11,
@@ -8491,7 +8356,7 @@
       "layer": "props"
     },
     {
-      "id": "woodland-367",
+      "id": "woodland-368",
       "sprite": "exp-grass-tuft",
       "x": 30,
       "y": 11,
@@ -8500,7 +8365,7 @@
       "layer": "props"
     },
     {
-      "id": "woodland-368",
+      "id": "woodland-369",
       "sprite": "garden-meadow-blue",
       "x": 36,
       "y": 11,
@@ -8509,7 +8374,7 @@
       "layer": "props"
     },
     {
-      "id": "woodland-369",
+      "id": "woodland-370",
       "sprite": "exp-mushrooms",
       "x": 54,
       "y": 11,
@@ -8518,7 +8383,7 @@
       "layer": "props"
     },
     {
-      "id": "woodland-370",
+      "id": "woodland-371",
       "sprite": "exp-berry",
       "x": 55,
       "y": 11,
@@ -8527,7 +8392,7 @@
       "layer": "props"
     },
     {
-      "id": "woodland-371",
+      "id": "woodland-372",
       "sprite": "exp-berry",
       "x": 57,
       "y": 11,
@@ -8536,7 +8401,7 @@
       "layer": "props"
     },
     {
-      "id": "woodland-372",
+      "id": "woodland-373",
       "sprite": "garden-meadow-blue",
       "x": 5,
       "y": 12,
@@ -8545,7 +8410,7 @@
       "layer": "props"
     },
     {
-      "id": "woodland-373",
+      "id": "woodland-374",
       "sprite": "exp-grass-tuft",
       "x": 15,
       "y": 12,
@@ -8554,7 +8419,7 @@
       "layer": "props"
     },
     {
-      "id": "woodland-374",
+      "id": "woodland-375",
       "sprite": "garden-meadow-blue",
       "x": 27,
       "y": 12,
@@ -8563,7 +8428,7 @@
       "layer": "props"
     },
     {
-      "id": "woodland-375",
+      "id": "woodland-376",
       "sprite": "exp-grass-tuft",
       "x": 28,
       "y": 12,
@@ -8572,7 +8437,7 @@
       "layer": "props"
     },
     {
-      "id": "woodland-376",
+      "id": "woodland-377",
       "sprite": "garden-meadow-blue",
       "x": 37,
       "y": 12,
@@ -8581,7 +8446,7 @@
       "layer": "props"
     },
     {
-      "id": "woodland-377",
+      "id": "woodland-378",
       "sprite": "garden-fern",
       "x": 43,
       "y": 12,
@@ -8590,7 +8455,7 @@
       "layer": "props"
     },
     {
-      "id": "woodland-378",
+      "id": "woodland-379",
       "sprite": "garden-meadow-blue",
       "x": 35,
       "y": 13,
@@ -8599,7 +8464,7 @@
       "layer": "props"
     },
     {
-      "id": "woodland-379",
+      "id": "woodland-380",
       "sprite": "exp-berry",
       "x": 43,
       "y": 13,
@@ -8608,7 +8473,7 @@
       "layer": "props"
     },
     {
-      "id": "woodland-380",
+      "id": "woodland-381",
       "sprite": "garden-meadow-pink",
       "x": 49,
       "y": 13,
@@ -8617,7 +8482,7 @@
       "layer": "props"
     },
     {
-      "id": "woodland-381",
+      "id": "woodland-382",
       "sprite": "exp-grass-tuft",
       "x": 54,
       "y": 13,
@@ -8626,7 +8491,7 @@
       "layer": "props"
     },
     {
-      "id": "woodland-382",
+      "id": "woodland-383",
       "sprite": "garden-fern",
       "x": 59,
       "y": 13,
@@ -8635,7 +8500,7 @@
       "layer": "props"
     },
     {
-      "id": "woodland-383",
+      "id": "woodland-384",
       "sprite": "garden-meadow-blue",
       "x": 4,
       "y": 14,
@@ -8644,18 +8509,9 @@
       "layer": "props"
     },
     {
-      "id": "woodland-384",
+      "id": "woodland-385",
       "sprite": "exp-grass-tuft",
       "x": 13,
-      "y": 14,
-      "width": 1,
-      "height": 1,
-      "layer": "props"
-    },
-    {
-      "id": "woodland-385",
-      "sprite": "garden-meadow-pink",
-      "x": 27,
       "y": 14,
       "width": 1,
       "height": 1,
@@ -8665,13 +8521,22 @@
       "id": "woodland-386",
       "sprite": "garden-meadow-pink",
       "x": 27,
-      "y": 15,
+      "y": 14,
       "width": 1,
       "height": 1,
       "layer": "props"
     },
     {
       "id": "woodland-387",
+      "sprite": "garden-meadow-pink",
+      "x": 27,
+      "y": 15,
+      "width": 1,
+      "height": 1,
+      "layer": "props"
+    },
+    {
+      "id": "woodland-388",
       "sprite": "garden-meadow-white",
       "x": 38,
       "y": 15,
@@ -8680,7 +8545,7 @@
       "layer": "props"
     },
     {
-      "id": "woodland-388",
+      "id": "woodland-389",
       "sprite": "garden-meadow-blue",
       "x": 47,
       "y": 15,
@@ -8689,7 +8554,7 @@
       "layer": "props"
     },
     {
-      "id": "woodland-389",
+      "id": "woodland-390",
       "sprite": "garden-meadow-pink",
       "x": 1,
       "y": 16,
@@ -8698,7 +8563,7 @@
       "layer": "props"
     },
     {
-      "id": "woodland-390",
+      "id": "woodland-391",
       "sprite": "garden-meadow-blue",
       "x": 22,
       "y": 16,
@@ -8707,7 +8572,7 @@
       "layer": "props"
     },
     {
-      "id": "woodland-391",
+      "id": "woodland-392",
       "sprite": "exp-grass-tuft",
       "x": 36,
       "y": 16,
@@ -8716,7 +8581,7 @@
       "layer": "props"
     },
     {
-      "id": "woodland-392",
+      "id": "woodland-393",
       "sprite": "exp-grass-tuft",
       "x": 45,
       "y": 16,
@@ -8725,7 +8590,7 @@
       "layer": "props"
     },
     {
-      "id": "woodland-393",
+      "id": "woodland-394",
       "sprite": "garden-meadow-white",
       "x": 53,
       "y": 16,
@@ -8734,7 +8599,7 @@
       "layer": "props"
     },
     {
-      "id": "woodland-394",
+      "id": "woodland-395",
       "sprite": "exp-berry",
       "x": 56,
       "y": 16,
@@ -8743,7 +8608,7 @@
       "layer": "props"
     },
     {
-      "id": "woodland-395",
+      "id": "woodland-396",
       "sprite": "exp-grass-tuft",
       "x": 58,
       "y": 16,
@@ -8752,7 +8617,7 @@
       "layer": "props"
     },
     {
-      "id": "woodland-396",
+      "id": "woodland-397",
       "sprite": "garden-meadow-blue",
       "x": 2,
       "y": 17,
@@ -8761,7 +8626,7 @@
       "layer": "props"
     },
     {
-      "id": "woodland-397",
+      "id": "woodland-398",
       "sprite": "garden-meadow-white",
       "x": 44,
       "y": 17,
@@ -8770,7 +8635,7 @@
       "layer": "props"
     },
     {
-      "id": "woodland-398",
+      "id": "woodland-399",
       "sprite": "garden-meadow-pink",
       "x": 49,
       "y": 17,
@@ -8779,7 +8644,7 @@
       "layer": "props"
     },
     {
-      "id": "woodland-399",
+      "id": "woodland-400",
       "sprite": "garden-meadow-pink",
       "x": 59,
       "y": 17,
@@ -8788,7 +8653,7 @@
       "layer": "props"
     },
     {
-      "id": "woodland-400",
+      "id": "woodland-401",
       "sprite": "garden-meadow-white",
       "x": 2,
       "y": 18,
@@ -8797,7 +8662,7 @@
       "layer": "props"
     },
     {
-      "id": "woodland-401",
+      "id": "woodland-402",
       "sprite": "exp-grass-tuft",
       "x": 3,
       "y": 18,
@@ -8806,7 +8671,7 @@
       "layer": "props"
     },
     {
-      "id": "woodland-402",
+      "id": "woodland-403",
       "sprite": "garden-meadow-pink",
       "x": 4,
       "y": 18,
@@ -8815,7 +8680,7 @@
       "layer": "props"
     },
     {
-      "id": "woodland-403",
+      "id": "woodland-404",
       "sprite": "garden-meadow-blue",
       "x": 51,
       "y": 18,
@@ -8824,7 +8689,7 @@
       "layer": "props"
     },
     {
-      "id": "woodland-404",
+      "id": "woodland-405",
       "sprite": "exp-grass-tuft",
       "x": 58,
       "y": 18,
@@ -8833,7 +8698,7 @@
       "layer": "props"
     },
     {
-      "id": "woodland-405",
+      "id": "woodland-406",
       "sprite": "garden-meadow-white",
       "x": 43,
       "y": 19,
@@ -8842,7 +8707,7 @@
       "layer": "props"
     },
     {
-      "id": "woodland-406",
+      "id": "woodland-407",
       "sprite": "garden-meadow-blue",
       "x": 52,
       "y": 19,
@@ -8851,7 +8716,7 @@
       "layer": "props"
     },
     {
-      "id": "woodland-407",
+      "id": "woodland-408",
       "sprite": "exp-grass-tuft",
       "x": 54,
       "y": 19,
@@ -8860,18 +8725,9 @@
       "layer": "props"
     },
     {
-      "id": "woodland-408",
+      "id": "woodland-409",
       "sprite": "exp-berry",
       "x": 56,
-      "y": 19,
-      "width": 1,
-      "height": 1,
-      "layer": "props"
-    },
-    {
-      "id": "woodland-409",
-      "sprite": "exp-grass-tuft",
-      "x": 59,
       "y": 19,
       "width": 1,
       "height": 1,
@@ -8880,6 +8736,15 @@
     {
       "id": "woodland-410",
       "sprite": "exp-grass-tuft",
+      "x": 59,
+      "y": 19,
+      "width": 1,
+      "height": 1,
+      "layer": "props"
+    },
+    {
+      "id": "woodland-411",
+      "sprite": "exp-grass-tuft",
       "x": 2,
       "y": 20,
       "width": 1,
@@ -8887,7 +8752,7 @@
       "layer": "props"
     },
     {
-      "id": "woodland-411",
+      "id": "woodland-412",
       "sprite": "garden-meadow-white",
       "x": 45,
       "y": 20,
@@ -8896,7 +8761,7 @@
       "layer": "props"
     },
     {
-      "id": "woodland-412",
+      "id": "woodland-413",
       "sprite": "garden-fern",
       "x": 55,
       "y": 20,
@@ -8905,7 +8770,7 @@
       "layer": "props"
     },
     {
-      "id": "woodland-413",
+      "id": "woodland-414",
       "sprite": "garden-fern",
       "x": 56,
       "y": 20,
@@ -8914,7 +8779,7 @@
       "layer": "props"
     },
     {
-      "id": "woodland-414",
+      "id": "woodland-415",
       "sprite": "exp-grass-tuft",
       "x": 36,
       "y": 21,
@@ -8923,7 +8788,7 @@
       "layer": "props"
     },
     {
-      "id": "woodland-415",
+      "id": "woodland-416",
       "sprite": "exp-grass-tuft",
       "x": 42,
       "y": 21,
@@ -8932,7 +8797,7 @@
       "layer": "props"
     },
     {
-      "id": "woodland-416",
+      "id": "woodland-417",
       "sprite": "exp-berry",
       "x": 47,
       "y": 21,
@@ -8941,7 +8806,7 @@
       "layer": "props"
     },
     {
-      "id": "woodland-417",
+      "id": "woodland-418",
       "sprite": "garden-meadow-pink",
       "x": 5,
       "y": 22,
@@ -8950,7 +8815,7 @@
       "layer": "props"
     },
     {
-      "id": "woodland-418",
+      "id": "woodland-419",
       "sprite": "garden-meadow-white",
       "x": 41,
       "y": 22,
@@ -8959,7 +8824,7 @@
       "layer": "props"
     },
     {
-      "id": "woodland-419",
+      "id": "woodland-420",
       "sprite": "garden-meadow-blue",
       "x": 42,
       "y": 22,
@@ -8968,7 +8833,7 @@
       "layer": "props"
     },
     {
-      "id": "woodland-420",
+      "id": "woodland-421",
       "sprite": "exp-grass-tuft",
       "x": 50,
       "y": 22,
@@ -8977,18 +8842,9 @@
       "layer": "props"
     },
     {
-      "id": "woodland-421",
+      "id": "woodland-422",
       "sprite": "garden-meadow-white",
       "x": 1,
-      "y": 23,
-      "width": 1,
-      "height": 1,
-      "layer": "props"
-    },
-    {
-      "id": "woodland-422",
-      "sprite": "exp-grass-tuft",
-      "x": 11,
       "y": 23,
       "width": 1,
       "height": 1,
@@ -8997,7 +8853,7 @@
     {
       "id": "woodland-423",
       "sprite": "exp-grass-tuft",
-      "x": 36,
+      "x": 11,
       "y": 23,
       "width": 1,
       "height": 1,
@@ -9006,7 +8862,7 @@
     {
       "id": "woodland-424",
       "sprite": "exp-grass-tuft",
-      "x": 49,
+      "x": 36,
       "y": 23,
       "width": 1,
       "height": 1,
@@ -9014,6 +8870,15 @@
     },
     {
       "id": "woodland-425",
+      "sprite": "exp-grass-tuft",
+      "x": 49,
+      "y": 23,
+      "width": 1,
+      "height": 1,
+      "layer": "props"
+    },
+    {
+      "id": "woodland-426",
       "sprite": "exp-mushrooms",
       "x": 58,
       "y": 23,
@@ -9022,7 +8887,7 @@
       "layer": "props"
     },
     {
-      "id": "woodland-426",
+      "id": "woodland-427",
       "sprite": "exp-grass-tuft",
       "x": 59,
       "y": 23,
@@ -9031,7 +8896,7 @@
       "layer": "props"
     },
     {
-      "id": "woodland-427",
+      "id": "woodland-428",
       "sprite": "garden-meadow-blue",
       "x": 1,
       "y": 24,
@@ -9040,7 +8905,7 @@
       "layer": "props"
     },
     {
-      "id": "woodland-428",
+      "id": "woodland-429",
       "sprite": "garden-meadow-pink",
       "x": 3,
       "y": 24,
@@ -9049,7 +8914,7 @@
       "layer": "props"
     },
     {
-      "id": "woodland-429",
+      "id": "woodland-430",
       "sprite": "exp-grass-tuft",
       "x": 52,
       "y": 24,
@@ -9058,7 +8923,7 @@
       "layer": "props"
     },
     {
-      "id": "woodland-430",
+      "id": "woodland-431",
       "sprite": "exp-mushrooms",
       "x": 59,
       "y": 24,
@@ -9067,7 +8932,7 @@
       "layer": "props"
     },
     {
-      "id": "woodland-431",
+      "id": "woodland-432",
       "sprite": "garden-meadow-white",
       "x": 2,
       "y": 25,
@@ -9076,7 +8941,7 @@
       "layer": "props"
     },
     {
-      "id": "woodland-432",
+      "id": "woodland-433",
       "sprite": "garden-meadow-pink",
       "x": 5,
       "y": 25,
@@ -9085,7 +8950,7 @@
       "layer": "props"
     },
     {
-      "id": "woodland-433",
+      "id": "woodland-434",
       "sprite": "exp-mushrooms",
       "x": 46,
       "y": 25,
@@ -9094,7 +8959,7 @@
       "layer": "props"
     },
     {
-      "id": "woodland-434",
+      "id": "woodland-435",
       "sprite": "exp-grass-tuft",
       "x": 58,
       "y": 25,
@@ -9103,7 +8968,7 @@
       "layer": "props"
     },
     {
-      "id": "woodland-435",
+      "id": "woodland-436",
       "sprite": "garden-meadow-pink",
       "x": 60,
       "y": 25,
@@ -9112,7 +8977,7 @@
       "layer": "props"
     },
     {
-      "id": "woodland-436",
+      "id": "woodland-437",
       "sprite": "garden-meadow-white",
       "x": 10,
       "y": 26,
@@ -9121,7 +8986,7 @@
       "layer": "props"
     },
     {
-      "id": "woodland-437",
+      "id": "woodland-438",
       "sprite": "garden-meadow-blue",
       "x": 12,
       "y": 26,
@@ -9130,7 +8995,7 @@
       "layer": "props"
     },
     {
-      "id": "woodland-438",
+      "id": "woodland-439",
       "sprite": "garden-meadow-white",
       "x": 51,
       "y": 26,
@@ -9139,7 +9004,7 @@
       "layer": "props"
     },
     {
-      "id": "woodland-439",
+      "id": "woodland-440",
       "sprite": "garden-meadow-blue",
       "x": 9,
       "y": 27,
@@ -9148,7 +9013,7 @@
       "layer": "props"
     },
     {
-      "id": "woodland-440",
+      "id": "woodland-441",
       "sprite": "exp-grass-tuft",
       "x": 10,
       "y": 27,
@@ -9157,7 +9022,7 @@
       "layer": "props"
     },
     {
-      "id": "woodland-441",
+      "id": "woodland-442",
       "sprite": "garden-meadow-blue",
       "x": 34,
       "y": 28,
@@ -9166,18 +9031,9 @@
       "layer": "props"
     },
     {
-      "id": "woodland-442",
+      "id": "woodland-443",
       "sprite": "garden-meadow-pink",
       "x": 42,
-      "y": 28,
-      "width": 1,
-      "height": 1,
-      "layer": "props"
-    },
-    {
-      "id": "woodland-443",
-      "sprite": "garden-meadow-white",
-      "x": 43,
       "y": 28,
       "width": 1,
       "height": 1,
@@ -9186,6 +9042,15 @@
     {
       "id": "woodland-444",
       "sprite": "garden-meadow-white",
+      "x": 43,
+      "y": 28,
+      "width": 1,
+      "height": 1,
+      "layer": "props"
+    },
+    {
+      "id": "woodland-445",
+      "sprite": "garden-meadow-white",
       "x": 19,
       "y": 29,
       "width": 1,
@@ -9193,7 +9058,7 @@
       "layer": "props"
     },
     {
-      "id": "woodland-445",
+      "id": "woodland-446",
       "sprite": "garden-meadow-blue",
       "x": 21,
       "y": 29,
@@ -9202,7 +9067,7 @@
       "layer": "props"
     },
     {
-      "id": "woodland-446",
+      "id": "woodland-447",
       "sprite": "garden-meadow-pink",
       "x": 27,
       "y": 29,
@@ -9211,7 +9076,7 @@
       "layer": "props"
     },
     {
-      "id": "woodland-447",
+      "id": "woodland-448",
       "sprite": "garden-meadow-blue",
       "x": 32,
       "y": 29,
@@ -9220,7 +9085,7 @@
       "layer": "props"
     },
     {
-      "id": "woodland-448",
+      "id": "woodland-449",
       "sprite": "garden-meadow-white",
       "x": 20,
       "y": 30,
@@ -9229,18 +9094,9 @@
       "layer": "props"
     },
     {
-      "id": "woodland-449",
+      "id": "woodland-450",
       "sprite": "garden-meadow-blue",
       "x": 41,
-      "y": 30,
-      "width": 1,
-      "height": 1,
-      "layer": "props"
-    },
-    {
-      "id": "woodland-450",
-      "sprite": "garden-meadow-white",
-      "x": 49,
       "y": 30,
       "width": 1,
       "height": 1,
@@ -9249,6 +9105,15 @@
     {
       "id": "woodland-451",
       "sprite": "garden-meadow-white",
+      "x": 49,
+      "y": 30,
+      "width": 1,
+      "height": 1,
+      "layer": "props"
+    },
+    {
+      "id": "woodland-452",
+      "sprite": "garden-meadow-white",
       "x": 16,
       "y": 31,
       "width": 1,
@@ -9256,7 +9121,7 @@
       "layer": "props"
     },
     {
-      "id": "woodland-452",
+      "id": "woodland-453",
       "sprite": "garden-meadow-white",
       "x": 34,
       "y": 31,
@@ -9265,7 +9130,7 @@
       "layer": "props"
     },
     {
-      "id": "woodland-453",
+      "id": "woodland-454",
       "sprite": "garden-meadow-pink",
       "x": 1,
       "y": 32,
@@ -9274,18 +9139,9 @@
       "layer": "props"
     },
     {
-      "id": "woodland-454",
+      "id": "woodland-455",
       "sprite": "garden-meadow-blue",
       "x": 8,
-      "y": 32,
-      "width": 1,
-      "height": 1,
-      "layer": "props"
-    },
-    {
-      "id": "woodland-455",
-      "sprite": "exp-grass-tuft",
-      "x": 15,
       "y": 32,
       "width": 1,
       "height": 1,
@@ -9294,7 +9150,7 @@
     {
       "id": "woodland-456",
       "sprite": "exp-grass-tuft",
-      "x": 33,
+      "x": 15,
       "y": 32,
       "width": 1,
       "height": 1,
@@ -9302,6 +9158,15 @@
     },
     {
       "id": "woodland-457",
+      "sprite": "exp-grass-tuft",
+      "x": 33,
+      "y": 32,
+      "width": 1,
+      "height": 1,
+      "layer": "props"
+    },
+    {
+      "id": "woodland-458",
       "sprite": "garden-fern",
       "x": 39,
       "y": 32,
@@ -9310,7 +9175,7 @@
       "layer": "props"
     },
     {
-      "id": "woodland-458",
+      "id": "woodland-459",
       "sprite": "garden-meadow-white",
       "x": 3,
       "y": 33,
@@ -9319,7 +9184,7 @@
       "layer": "props"
     },
     {
-      "id": "woodland-459",
+      "id": "woodland-460",
       "sprite": "garden-meadow-white",
       "x": 23,
       "y": 33,
@@ -9328,7 +9193,7 @@
       "layer": "props"
     },
     {
-      "id": "woodland-460",
+      "id": "woodland-461",
       "sprite": "exp-grass-tuft",
       "x": 33,
       "y": 33,
@@ -9337,7 +9202,7 @@
       "layer": "props"
     },
     {
-      "id": "woodland-461",
+      "id": "woodland-462",
       "sprite": "garden-meadow-white",
       "x": 50,
       "y": 33,
@@ -9346,7 +9211,7 @@
       "layer": "props"
     },
     {
-      "id": "woodland-462",
+      "id": "woodland-463",
       "sprite": "exp-grass-tuft",
       "x": 54,
       "y": 33,
@@ -9355,7 +9220,7 @@
       "layer": "props"
     },
     {
-      "id": "woodland-463",
+      "id": "woodland-464",
       "sprite": "garden-meadow-blue",
       "x": 55,
       "y": 33,
@@ -9364,7 +9229,7 @@
       "layer": "props"
     },
     {
-      "id": "woodland-464",
+      "id": "woodland-465",
       "sprite": "garden-meadow-white",
       "x": 61,
       "y": 33,
@@ -9373,7 +9238,7 @@
       "layer": "props"
     },
     {
-      "id": "woodland-465",
+      "id": "woodland-466",
       "sprite": "garden-meadow-pink",
       "x": 2,
       "y": 34,
@@ -9382,7 +9247,7 @@
       "layer": "props"
     },
     {
-      "id": "woodland-466",
+      "id": "woodland-467",
       "sprite": "exp-grass-tuft",
       "x": 3,
       "y": 34,
@@ -9391,7 +9256,7 @@
       "layer": "props"
     },
     {
-      "id": "woodland-467",
+      "id": "woodland-468",
       "sprite": "garden-meadow-pink",
       "x": 7,
       "y": 34,
@@ -9400,18 +9265,9 @@
       "layer": "props"
     },
     {
-      "id": "woodland-468",
+      "id": "woodland-469",
       "sprite": "garden-fern",
       "x": 10,
-      "y": 34,
-      "width": 1,
-      "height": 1,
-      "layer": "props"
-    },
-    {
-      "id": "woodland-469",
-      "sprite": "exp-grass-tuft",
-      "x": 24,
       "y": 34,
       "width": 1,
       "height": 1,
@@ -9420,7 +9276,7 @@
     {
       "id": "woodland-470",
       "sprite": "exp-grass-tuft",
-      "x": 25,
+      "x": 24,
       "y": 34,
       "width": 1,
       "height": 1,
@@ -9428,6 +9284,15 @@
     },
     {
       "id": "woodland-471",
+      "sprite": "exp-grass-tuft",
+      "x": 25,
+      "y": 34,
+      "width": 1,
+      "height": 1,
+      "layer": "props"
+    },
+    {
+      "id": "woodland-472",
       "sprite": "garden-meadow-pink",
       "x": 26,
       "y": 34,
@@ -9436,7 +9301,7 @@
       "layer": "props"
     },
     {
-      "id": "woodland-472",
+      "id": "woodland-473",
       "sprite": "exp-berry",
       "x": 36,
       "y": 34,
@@ -9445,7 +9310,7 @@
       "layer": "props"
     },
     {
-      "id": "woodland-473",
+      "id": "woodland-474",
       "sprite": "garden-fern",
       "x": 37,
       "y": 34,
@@ -9454,18 +9319,9 @@
       "layer": "props"
     },
     {
-      "id": "woodland-474",
+      "id": "woodland-475",
       "sprite": "garden-meadow-white",
       "x": 55,
-      "y": 34,
-      "width": 1,
-      "height": 1,
-      "layer": "props"
-    },
-    {
-      "id": "woodland-475",
-      "sprite": "exp-grass-tuft",
-      "x": 56,
       "y": 34,
       "width": 1,
       "height": 1,
@@ -9474,6 +9330,15 @@
     {
       "id": "woodland-476",
       "sprite": "exp-grass-tuft",
+      "x": 56,
+      "y": 34,
+      "width": 1,
+      "height": 1,
+      "layer": "props"
+    },
+    {
+      "id": "woodland-477",
+      "sprite": "exp-grass-tuft",
       "x": 4,
       "y": 35,
       "width": 1,
@@ -9481,7 +9346,7 @@
       "layer": "props"
     },
     {
-      "id": "woodland-477",
+      "id": "woodland-478",
       "sprite": "exp-mushrooms",
       "x": 9,
       "y": 35,
@@ -9490,7 +9355,7 @@
       "layer": "props"
     },
     {
-      "id": "woodland-478",
+      "id": "woodland-479",
       "sprite": "garden-fern",
       "x": 11,
       "y": 35,
@@ -9499,18 +9364,9 @@
       "layer": "props"
     },
     {
-      "id": "woodland-479",
+      "id": "woodland-480",
       "sprite": "garden-meadow-blue",
       "x": 15,
-      "y": 35,
-      "width": 1,
-      "height": 1,
-      "layer": "props"
-    },
-    {
-      "id": "woodland-480",
-      "sprite": "exp-grass-tuft",
-      "x": 19,
       "y": 35,
       "width": 1,
       "height": 1,
@@ -9519,7 +9375,7 @@
     {
       "id": "woodland-481",
       "sprite": "exp-grass-tuft",
-      "x": 21,
+      "x": 19,
       "y": 35,
       "width": 1,
       "height": 1,
@@ -9527,8 +9383,8 @@
     },
     {
       "id": "woodland-482",
-      "sprite": "garden-meadow-pink",
-      "x": 23,
+      "sprite": "exp-grass-tuft",
+      "x": 21,
       "y": 35,
       "width": 1,
       "height": 1,
@@ -9536,8 +9392,8 @@
     },
     {
       "id": "woodland-483",
-      "sprite": "exp-grass-tuft",
-      "x": 24,
+      "sprite": "garden-meadow-pink",
+      "x": 23,
       "y": 35,
       "width": 1,
       "height": 1,
@@ -9546,7 +9402,7 @@
     {
       "id": "woodland-484",
       "sprite": "exp-grass-tuft",
-      "x": 26,
+      "x": 24,
       "y": 35,
       "width": 1,
       "height": 1,
@@ -9554,6 +9410,15 @@
     },
     {
       "id": "woodland-485",
+      "sprite": "exp-grass-tuft",
+      "x": 26,
+      "y": 35,
+      "width": 1,
+      "height": 1,
+      "layer": "props"
+    },
+    {
+      "id": "woodland-486",
       "sprite": "garden-fern",
       "x": 35,
       "y": 35,
@@ -9562,7 +9427,7 @@
       "layer": "props"
     },
     {
-      "id": "woodland-486",
+      "id": "woodland-487",
       "sprite": "exp-grass-tuft",
       "x": 55,
       "y": 35,
@@ -9571,7 +9436,7 @@
       "layer": "props"
     },
     {
-      "id": "woodland-487",
+      "id": "woodland-488",
       "sprite": "exp-berry",
       "x": 10,
       "y": 36,
@@ -9580,7 +9445,7 @@
       "layer": "props"
     },
     {
-      "id": "woodland-488",
+      "id": "woodland-489",
       "sprite": "exp-mushrooms",
       "x": 36,
       "y": 36,
@@ -9589,7 +9454,7 @@
       "layer": "props"
     },
     {
-      "id": "woodland-489",
+      "id": "woodland-490",
       "sprite": "exp-grass-tuft",
       "x": 4,
       "y": 37,
@@ -9598,7 +9463,7 @@
       "layer": "props"
     },
     {
-      "id": "woodland-490",
+      "id": "woodland-491",
       "sprite": "garden-meadow-pink",
       "x": 5,
       "y": 37,
@@ -9607,7 +9472,7 @@
       "layer": "props"
     },
     {
-      "id": "woodland-491",
+      "id": "woodland-492",
       "sprite": "exp-grass-tuft",
       "x": 10,
       "y": 37,
@@ -9616,7 +9481,7 @@
       "layer": "props"
     },
     {
-      "id": "woodland-492",
+      "id": "woodland-493",
       "sprite": "exp-mushrooms",
       "x": 13,
       "y": 37,
@@ -9625,7 +9490,7 @@
       "layer": "props"
     },
     {
-      "id": "woodland-493",
+      "id": "woodland-494",
       "sprite": "exp-grass-tuft",
       "x": 23,
       "y": 37,
@@ -9634,18 +9499,9 @@
       "layer": "props"
     },
     {
-      "id": "woodland-494",
+      "id": "woodland-495",
       "sprite": "exp-grass-tuft",
       "x": 26,
-      "y": 37,
-      "width": 1,
-      "height": 1,
-      "layer": "props"
-    },
-    {
-      "id": "woodland-495",
-      "sprite": "garden-meadow-white",
-      "x": 27,
       "y": 37,
       "width": 1,
       "height": 1,
@@ -9654,7 +9510,7 @@
     {
       "id": "woodland-496",
       "sprite": "garden-meadow-white",
-      "x": 59,
+      "x": 27,
       "y": 37,
       "width": 1,
       "height": 1,
@@ -9662,8 +9518,8 @@
     },
     {
       "id": "woodland-497",
-      "sprite": "exp-grass-tuft",
-      "x": 60,
+      "sprite": "garden-meadow-white",
+      "x": 59,
       "y": 37,
       "width": 1,
       "height": 1,
@@ -9672,6 +9528,15 @@
     {
       "id": "woodland-498",
       "sprite": "exp-grass-tuft",
+      "x": 60,
+      "y": 37,
+      "width": 1,
+      "height": 1,
+      "layer": "props"
+    },
+    {
+      "id": "woodland-499",
+      "sprite": "exp-grass-tuft",
       "x": 4,
       "y": 38,
       "width": 1,
@@ -9679,7 +9544,7 @@
       "layer": "props"
     },
     {
-      "id": "woodland-499",
+      "id": "woodland-500",
       "sprite": "garden-meadow-white",
       "x": 24,
       "y": 38,
@@ -9688,7 +9553,7 @@
       "layer": "props"
     },
     {
-      "id": "woodland-500",
+      "id": "woodland-501",
       "sprite": "garden-meadow-pink",
       "x": 27,
       "y": 38,
@@ -9697,7 +9562,7 @@
       "layer": "props"
     },
     {
-      "id": "woodland-501",
+      "id": "woodland-502",
       "sprite": "exp-grass-tuft",
       "x": 38,
       "y": 38,
@@ -9706,7 +9571,7 @@
       "layer": "props"
     },
     {
-      "id": "woodland-502",
+      "id": "woodland-503",
       "sprite": "exp-grass-tuft",
       "x": 43,
       "y": 38,
@@ -9715,7 +9580,7 @@
       "layer": "props"
     },
     {
-      "id": "woodland-503",
+      "id": "woodland-504",
       "sprite": "garden-meadow-pink",
       "x": 55,
       "y": 38,
@@ -9724,7 +9589,7 @@
       "layer": "props"
     },
     {
-      "id": "woodland-504",
+      "id": "woodland-505",
       "sprite": "exp-grass-tuft",
       "x": 2,
       "y": 39,
@@ -9733,7 +9598,7 @@
       "layer": "props"
     },
     {
-      "id": "woodland-505",
+      "id": "woodland-506",
       "sprite": "exp-berry",
       "x": 7,
       "y": 39,
@@ -9742,7 +9607,7 @@
       "layer": "props"
     },
     {
-      "id": "woodland-506",
+      "id": "woodland-507",
       "sprite": "garden-meadow-white",
       "x": 23,
       "y": 39,
@@ -9751,7 +9616,7 @@
       "layer": "props"
     },
     {
-      "id": "woodland-507",
+      "id": "woodland-508",
       "sprite": "garden-meadow-pink",
       "x": 60,
       "y": 39,
@@ -9760,18 +9625,9 @@
       "layer": "props"
     },
     {
-      "id": "woodland-508",
-      "sprite": "exp-grass-tuft",
-      "x": 1,
-      "y": 40,
-      "width": 1,
-      "height": 1,
-      "layer": "props"
-    },
-    {
       "id": "woodland-509",
       "sprite": "exp-grass-tuft",
-      "x": 2,
+      "x": 1,
       "y": 40,
       "width": 1,
       "height": 1,
@@ -9780,7 +9636,7 @@
     {
       "id": "woodland-510",
       "sprite": "exp-grass-tuft",
-      "x": 6,
+      "x": 2,
       "y": 40,
       "width": 1,
       "height": 1,
@@ -9789,7 +9645,7 @@
     {
       "id": "woodland-511",
       "sprite": "exp-grass-tuft",
-      "x": 17,
+      "x": 6,
       "y": 40,
       "width": 1,
       "height": 1,
@@ -9798,7 +9654,7 @@
     {
       "id": "woodland-512",
       "sprite": "exp-grass-tuft",
-      "x": 59,
+      "x": 17,
       "y": 40,
       "width": 1,
       "height": 1,
@@ -9807,6 +9663,15 @@
     {
       "id": "woodland-513",
       "sprite": "exp-grass-tuft",
+      "x": 59,
+      "y": 40,
+      "width": 1,
+      "height": 1,
+      "layer": "props"
+    },
+    {
+      "id": "woodland-514",
+      "sprite": "exp-grass-tuft",
       "x": 5,
       "y": 41,
       "width": 1,
@@ -9814,7 +9679,7 @@
       "layer": "props"
     },
     {
-      "id": "woodland-514",
+      "id": "woodland-515",
       "sprite": "garden-meadow-blue",
       "x": 54,
       "y": 41,
@@ -9823,7 +9688,7 @@
       "layer": "props"
     },
     {
-      "id": "woodland-515",
+      "id": "woodland-516",
       "sprite": "exp-grass-tuft",
       "x": 6,
       "y": 43,
@@ -9832,7 +9697,7 @@
       "layer": "props"
     },
     {
-      "id": "woodland-516",
+      "id": "woodland-517",
       "sprite": "garden-fern",
       "x": 12,
       "y": 43,
@@ -9841,18 +9706,9 @@
       "layer": "props"
     },
     {
-      "id": "woodland-517",
+      "id": "woodland-518",
       "sprite": "exp-grass-tuft",
       "x": 34,
-      "y": 43,
-      "width": 1,
-      "height": 1,
-      "layer": "props"
-    },
-    {
-      "id": "woodland-518",
-      "sprite": "garden-meadow-white",
-      "x": 46,
       "y": 43,
       "width": 1,
       "height": 1,
@@ -9861,7 +9717,7 @@
     {
       "id": "woodland-519",
       "sprite": "garden-meadow-white",
-      "x": 55,
+      "x": 46,
       "y": 43,
       "width": 1,
       "height": 1,
@@ -9869,6 +9725,15 @@
     },
     {
       "id": "woodland-520",
+      "sprite": "garden-meadow-white",
+      "x": 55,
+      "y": 43,
+      "width": 1,
+      "height": 1,
+      "layer": "props"
+    },
+    {
+      "id": "woodland-521",
       "sprite": "garden-meadow-blue",
       "x": 3,
       "y": 44,
@@ -9877,7 +9742,7 @@
       "layer": "props"
     },
     {
-      "id": "woodland-521",
+      "id": "woodland-522",
       "sprite": "exp-mushrooms",
       "x": 9,
       "y": 44,
@@ -9886,7 +9751,7 @@
       "layer": "props"
     },
     {
-      "id": "woodland-522",
+      "id": "woodland-523",
       "sprite": "exp-grass-tuft",
       "x": 12,
       "y": 44,
@@ -9895,7 +9760,7 @@
       "layer": "props"
     },
     {
-      "id": "woodland-523",
+      "id": "woodland-524",
       "sprite": "exp-grass-tuft",
       "x": 40,
       "y": 44,
@@ -9904,7 +9769,7 @@
       "layer": "props"
     },
     {
-      "id": "woodland-524",
+      "id": "woodland-525",
       "sprite": "garden-fern",
       "x": 8,
       "y": 45,
@@ -9913,7 +9778,7 @@
       "layer": "props"
     },
     {
-      "id": "woodland-525",
+      "id": "woodland-526",
       "sprite": "garden-meadow-pink",
       "x": 34,
       "y": 45,
@@ -9922,7 +9787,7 @@
       "layer": "props"
     },
     {
-      "id": "woodland-526",
+      "id": "woodland-527",
       "sprite": "garden-meadow-blue",
       "x": 14,
       "y": 46,
@@ -9931,7 +9796,7 @@
       "layer": "props"
     },
     {
-      "id": "woodland-527",
+      "id": "woodland-528",
       "sprite": "garden-meadow-pink",
       "x": 17,
       "y": 46,
@@ -9940,7 +9805,7 @@
       "layer": "props"
     },
     {
-      "id": "woodland-528",
+      "id": "woodland-529",
       "sprite": "garden-meadow-blue",
       "x": 26,
       "y": 46,
@@ -9949,7 +9814,7 @@
       "layer": "props"
     },
     {
-      "id": "woodland-529",
+      "id": "woodland-530",
       "sprite": "garden-meadow-white",
       "x": 28,
       "y": 46,
@@ -9958,7 +9823,7 @@
       "layer": "props"
     },
     {
-      "id": "woodland-530",
+      "id": "woodland-531",
       "sprite": "garden-meadow-blue",
       "x": 29,
       "y": 46,
@@ -9967,7 +9832,7 @@
       "layer": "props"
     },
     {
-      "id": "woodland-531",
+      "id": "woodland-532",
       "sprite": "garden-meadow-blue",
       "x": 41,
       "y": 46,
@@ -9976,7 +9841,7 @@
       "layer": "props"
     },
     {
-      "id": "woodland-532",
+      "id": "woodland-533",
       "sprite": "exp-berry",
       "x": 53,
       "y": 46,
@@ -9985,7 +9850,7 @@
       "layer": "props"
     },
     {
-      "id": "woodland-533",
+      "id": "woodland-534",
       "sprite": "garden-meadow-pink",
       "x": 58,
       "y": 46,
@@ -9994,7 +9859,7 @@
       "layer": "props"
     },
     {
-      "id": "woodland-534",
+      "id": "woodland-535",
       "sprite": "exp-mushrooms",
       "x": 1,
       "y": 47,
@@ -10003,7 +9868,7 @@
       "layer": "props"
     },
     {
-      "id": "woodland-535",
+      "id": "woodland-536",
       "sprite": "garden-fern",
       "x": 5,
       "y": 47,
@@ -10012,7 +9877,7 @@
       "layer": "props"
     },
     {
-      "id": "woodland-536",
+      "id": "woodland-537",
       "sprite": "exp-berry",
       "x": 13,
       "y": 47,
@@ -10021,7 +9886,7 @@
       "layer": "props"
     },
     {
-      "id": "woodland-537",
+      "id": "woodland-538",
       "sprite": "exp-grass-tuft",
       "x": 37,
       "y": 47,
@@ -10030,7 +9895,7 @@
       "layer": "props"
     },
     {
-      "id": "woodland-538",
+      "id": "woodland-539",
       "sprite": "exp-grass-tuft",
       "x": 39,
       "y": 47,
@@ -10039,7 +9904,7 @@
       "layer": "props"
     },
     {
-      "id": "woodland-539",
+      "id": "woodland-540",
       "sprite": "exp-mushrooms",
       "x": 49,
       "y": 47,
@@ -10048,7 +9913,7 @@
       "layer": "props"
     },
     {
-      "id": "woodland-540",
+      "id": "woodland-541",
       "sprite": "garden-fern",
       "x": 59,
       "y": 47,
@@ -10057,7 +9922,7 @@
       "layer": "props"
     },
     {
-      "id": "woodland-541",
+      "id": "woodland-542",
       "sprite": "exp-mushrooms",
       "x": 24,
       "y": 48,
@@ -10066,7 +9931,7 @@
       "layer": "props"
     },
     {
-      "id": "woodland-542",
+      "id": "woodland-543",
       "sprite": "exp-grass-tuft",
       "x": 40,
       "y": 48,
@@ -10075,7 +9940,7 @@
       "layer": "props"
     },
     {
-      "id": "woodland-543",
+      "id": "woodland-544",
       "sprite": "exp-berry",
       "x": 48,
       "y": 48,
@@ -10084,7 +9949,7 @@
       "layer": "props"
     },
     {
-      "id": "woodland-544",
+      "id": "woodland-545",
       "sprite": "exp-grass-tuft",
       "x": 58,
       "y": 48,
@@ -10093,7 +9958,7 @@
       "layer": "props"
     },
     {
-      "id": "woodland-545",
+      "id": "woodland-546",
       "sprite": "exp-mushrooms",
       "x": 3,
       "y": 49,
@@ -10102,7 +9967,7 @@
       "layer": "props"
     },
     {
-      "id": "woodland-546",
+      "id": "woodland-547",
       "sprite": "exp-berry",
       "x": 4,
       "y": 49,
@@ -10111,7 +9976,7 @@
       "layer": "props"
     },
     {
-      "id": "woodland-547",
+      "id": "woodland-548",
       "sprite": "exp-berry",
       "x": 6,
       "y": 49,
@@ -10120,7 +9985,7 @@
       "layer": "props"
     },
     {
-      "id": "woodland-548",
+      "id": "woodland-549",
       "sprite": "exp-grass-tuft",
       "x": 7,
       "y": 49,
@@ -10129,7 +9994,7 @@
       "layer": "props"
     },
     {
-      "id": "woodland-549",
+      "id": "woodland-550",
       "sprite": "exp-berry",
       "x": 8,
       "y": 49,
@@ -10138,7 +10003,7 @@
       "layer": "props"
     },
     {
-      "id": "woodland-550",
+      "id": "woodland-551",
       "sprite": "garden-fern",
       "x": 10,
       "y": 49,
@@ -10147,7 +10012,7 @@
       "layer": "props"
     },
     {
-      "id": "woodland-551",
+      "id": "woodland-552",
       "sprite": "exp-berry",
       "x": 15,
       "y": 49,
@@ -10156,7 +10021,7 @@
       "layer": "props"
     },
     {
-      "id": "woodland-552",
+      "id": "woodland-553",
       "sprite": "exp-berry",
       "x": 19,
       "y": 49,
@@ -10165,7 +10030,7 @@
       "layer": "props"
     },
     {
-      "id": "woodland-553",
+      "id": "woodland-554",
       "sprite": "exp-grass-tuft",
       "x": 42,
       "y": 49,
@@ -10174,7 +10039,7 @@
       "layer": "props"
     },
     {
-      "id": "woodland-554",
+      "id": "woodland-555",
       "sprite": "garden-fern",
       "x": 52,
       "y": 49,
@@ -10183,7 +10048,7 @@
       "layer": "props"
     },
     {
-      "id": "woodland-555",
+      "id": "woodland-556",
       "sprite": "exp-berry",
       "x": 8,
       "y": 50,
@@ -10192,7 +10057,7 @@
       "layer": "props"
     },
     {
-      "id": "woodland-556",
+      "id": "woodland-557",
       "sprite": "exp-berry",
       "x": 9,
       "y": 50,
@@ -10201,7 +10066,7 @@
       "layer": "props"
     },
     {
-      "id": "woodland-557",
+      "id": "woodland-558",
       "sprite": "exp-grass-tuft",
       "x": 12,
       "y": 50,
@@ -10210,18 +10075,9 @@
       "layer": "props"
     },
     {
-      "id": "woodland-558",
+      "id": "woodland-559",
       "sprite": "exp-berry",
       "x": 15,
-      "y": 50,
-      "width": 1,
-      "height": 1,
-      "layer": "props"
-    },
-    {
-      "id": "woodland-559",
-      "sprite": "exp-grass-tuft",
-      "x": 24,
       "y": 50,
       "width": 1,
       "height": 1,
@@ -10230,7 +10086,7 @@
     {
       "id": "woodland-560",
       "sprite": "exp-grass-tuft",
-      "x": 46,
+      "x": 24,
       "y": 50,
       "width": 1,
       "height": 1,
@@ -10239,7 +10095,7 @@
     {
       "id": "woodland-561",
       "sprite": "exp-grass-tuft",
-      "x": 47,
+      "x": 46,
       "y": 50,
       "width": 1,
       "height": 1,
@@ -10247,8 +10103,8 @@
     },
     {
       "id": "woodland-562",
-      "sprite": "garden-fern",
-      "x": 52,
+      "sprite": "exp-grass-tuft",
+      "x": 47,
       "y": 50,
       "width": 1,
       "height": 1,
@@ -10257,7 +10113,7 @@
     {
       "id": "woodland-563",
       "sprite": "garden-fern",
-      "x": 54,
+      "x": 52,
       "y": 50,
       "width": 1,
       "height": 1,
@@ -10265,6 +10121,15 @@
     },
     {
       "id": "woodland-564",
+      "sprite": "garden-fern",
+      "x": 54,
+      "y": 50,
+      "width": 1,
+      "height": 1,
+      "layer": "props"
+    },
+    {
+      "id": "woodland-565",
       "sprite": "exp-grass-tuft",
       "x": 4,
       "y": 51,
@@ -10273,7 +10138,7 @@
       "layer": "props"
     },
     {
-      "id": "woodland-565",
+      "id": "woodland-566",
       "sprite": "exp-mushrooms",
       "x": 6,
       "y": 51,
@@ -10282,18 +10147,9 @@
       "layer": "props"
     },
     {
-      "id": "woodland-566",
+      "id": "woodland-567",
       "sprite": "exp-grass-tuft",
       "x": 8,
-      "y": 51,
-      "width": 1,
-      "height": 1,
-      "layer": "props"
-    },
-    {
-      "id": "woodland-567",
-      "sprite": "garden-fern",
-      "x": 16,
       "y": 51,
       "width": 1,
       "height": 1,
@@ -10302,7 +10158,7 @@
     {
       "id": "woodland-568",
       "sprite": "garden-fern",
-      "x": 25,
+      "x": 16,
       "y": 51,
       "width": 1,
       "height": 1,
@@ -10310,6 +10166,15 @@
     },
     {
       "id": "woodland-569",
+      "sprite": "garden-fern",
+      "x": 25,
+      "y": 51,
+      "width": 1,
+      "height": 1,
+      "layer": "props"
+    },
+    {
+      "id": "woodland-570",
       "sprite": "garden-meadow-pink",
       "x": 39,
       "y": 51,
@@ -10318,7 +10183,7 @@
       "layer": "props"
     },
     {
-      "id": "woodland-570",
+      "id": "woodland-571",
       "sprite": "exp-berry",
       "x": 52,
       "y": 51,
@@ -10327,7 +10192,7 @@
       "layer": "props"
     },
     {
-      "id": "woodland-571",
+      "id": "woodland-572",
       "sprite": "garden-fern",
       "x": 57,
       "y": 51,
@@ -10336,7 +10201,7 @@
       "layer": "props"
     },
     {
-      "id": "woodland-572",
+      "id": "woodland-573",
       "sprite": "garden-meadow-pink",
       "x": 61,
       "y": 51,
@@ -10345,7 +10210,7 @@
       "layer": "props"
     },
     {
-      "id": "woodland-573",
+      "id": "woodland-574",
       "sprite": "exp-berry",
       "x": 8,
       "y": 52,
@@ -10354,7 +10219,7 @@
       "layer": "props"
     },
     {
-      "id": "woodland-574",
+      "id": "woodland-575",
       "sprite": "exp-berry",
       "x": 11,
       "y": 52,
@@ -10363,7 +10228,7 @@
       "layer": "props"
     },
     {
-      "id": "woodland-575",
+      "id": "woodland-576",
       "sprite": "exp-berry",
       "x": 15,
       "y": 52,
@@ -10372,7 +10237,7 @@
       "layer": "props"
     },
     {
-      "id": "woodland-576",
+      "id": "woodland-577",
       "sprite": "exp-mushrooms",
       "x": 18,
       "y": 52,
@@ -10381,7 +10246,7 @@
       "layer": "props"
     },
     {
-      "id": "woodland-577",
+      "id": "woodland-578",
       "sprite": "exp-mushrooms",
       "x": 51,
       "y": 52,
@@ -10390,7 +10255,7 @@
       "layer": "props"
     },
     {
-      "id": "woodland-578",
+      "id": "woodland-579",
       "sprite": "garden-fern",
       "x": 54,
       "y": 52,
@@ -10399,7 +10264,7 @@
       "layer": "props"
     },
     {
-      "id": "woodland-579",
+      "id": "woodland-580",
       "sprite": "exp-grass-tuft",
       "x": 59,
       "y": 52,
@@ -10408,7 +10273,7 @@
       "layer": "props"
     },
     {
-      "id": "woodland-580",
+      "id": "woodland-581",
       "sprite": "exp-grass-tuft",
       "x": 16,
       "y": 53,
@@ -10417,7 +10282,7 @@
       "layer": "props"
     },
     {
-      "id": "woodland-581",
+      "id": "woodland-582",
       "sprite": "exp-grass-tuft",
       "x": 17,
       "y": 53,
@@ -10426,7 +10291,7 @@
       "layer": "props"
     },
     {
-      "id": "woodland-582",
+      "id": "woodland-583",
       "sprite": "exp-grass-tuft",
       "x": 36,
       "y": 53,
@@ -10435,7 +10300,7 @@
       "layer": "props"
     },
     {
-      "id": "woodland-583",
+      "id": "woodland-584",
       "sprite": "garden-meadow-white",
       "x": 38,
       "y": 53,
@@ -10444,7 +10309,7 @@
       "layer": "props"
     },
     {
-      "id": "woodland-584",
+      "id": "woodland-585",
       "sprite": "garden-meadow-blue",
       "x": 49,
       "y": 53,

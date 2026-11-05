@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "revisions": [
+    {
+      "path": "maps/moon-cafe.tmj",
+      "fromSha256": "a48d06ebe8f09f3e05853d3bf7986f5245d53f59e8b13c0a2225bb517c00f7eb",
+      "toSha256": "f04072ca8beeafbef5331638a3fafd6d11a2845b249bc1efc562cade230775ea",
+      "reason": "Replace the cafe path over the spring with a visibly wooden, fully walkable footbridge; retain all areas, entries, exits and other maps."
+    },
+    {
+      "path": "maps/preview/moon-cafe.tmj",
+      "fromSha256": "f4ca3993c6aaed5ad8206c30b5d980716ab603f9826d5d08f74e31f0c7d19667",
+      "toSha256": "8e31cf75b29acc64d9b2bb91abbdac415e748135ddbb133b6debc95ccb8dfe91",
+      "reason": "Replace the cafe path over the spring with a visibly wooden, fully walkable footbridge; retain all areas, entries, exits and other maps."
+    },
+    {
+      "path": "world/layouts/moon-cafe.json",
+      "fromSha256": "9741fabe3cd5f88b5949af04ea6984077bab6de3edfbf8a694682ef3c125eccc",
+      "toSha256": "5f78e4a8656a5ed01d40f53ddcc79b66a6c15acc57857bb7e2a2ab2958ac0ebe",
+      "reason": "Replace the cafe path over the spring with a visibly wooden, fully walkable footbridge; retain all areas, entries, exits and other maps."
+    }
+  ]
+}
