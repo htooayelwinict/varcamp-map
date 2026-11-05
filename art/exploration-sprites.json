@@ -1899,5 +1899,749 @@
     ],
     "level": "belowAvatar",
     "sourceId": "lpc-exploration"
+  },
+  "exp-meadow": {
+    "sheet": "assets/tilesets/lpc-garden/terrain.png",
+    "rect": {
+      "x": 4,
+      "y": 9,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar",
+    "sourceId": "lpc-garden-terrain"
+  },
+  "exp-meadow-specks": {
+    "sheet": "assets/tilesets/lpc-garden/terrain.png",
+    "rect": {
+      "x": 4,
+      "y": 11,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar",
+    "sourceId": "lpc-garden-terrain"
+  },
+  "exp-forest-specks": {
+    "sheet": "assets/tilesets/lpc-garden/terrain.png",
+    "rect": {
+      "x": 7,
+      "y": 11,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar",
+    "sourceId": "lpc-garden-terrain"
+  },
+  "exp-pond-0-0": {
+    "sheet": "assets/tilesets/lpc-garden/terrain.png",
+    "rect": {
+      "x": 6,
+      "y": 14,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [
+      [
+        0,
+        0
+      ]
+    ],
+    "level": "belowAvatar",
+    "sourceId": "lpc-garden-terrain"
+  },
+  "exp-pond-1-0": {
+    "sheet": "assets/tilesets/lpc-garden/terrain.png",
+    "rect": {
+      "x": 7,
+      "y": 14,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [
+      [
+        0,
+        0
+      ]
+    ],
+    "level": "belowAvatar",
+    "sourceId": "lpc-garden-terrain"
+  },
+  "exp-pond-2-0": {
+    "sheet": "assets/tilesets/lpc-garden/terrain.png",
+    "rect": {
+      "x": 8,
+      "y": 14,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [
+      [
+        0,
+        0
+      ]
+    ],
+    "level": "belowAvatar",
+    "sourceId": "lpc-garden-terrain"
+  },
+  "exp-pond-0-1": {
+    "sheet": "assets/tilesets/lpc-garden/terrain.png",
+    "rect": {
+      "x": 6,
+      "y": 15,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [
+      [
+        0,
+        0
+      ]
+    ],
+    "level": "belowAvatar",
+    "sourceId": "lpc-garden-terrain"
+  },
+  "exp-pond-1-1": {
+    "sheet": "assets/tilesets/lpc-garden/terrain.png",
+    "rect": {
+      "x": 7,
+      "y": 15,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [
+      [
+        0,
+        0
+      ]
+    ],
+    "level": "belowAvatar",
+    "sourceId": "lpc-garden-terrain"
+  },
+  "exp-pond-2-1": {
+    "sheet": "assets/tilesets/lpc-garden/terrain.png",
+    "rect": {
+      "x": 8,
+      "y": 15,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [
+      [
+        0,
+        0
+      ]
+    ],
+    "level": "belowAvatar",
+    "sourceId": "lpc-garden-terrain"
+  },
+  "exp-pond-0-2": {
+    "sheet": "assets/tilesets/lpc-garden/terrain.png",
+    "rect": {
+      "x": 6,
+      "y": 16,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [
+      [
+        0,
+        0
+      ]
+    ],
+    "level": "belowAvatar",
+    "sourceId": "lpc-garden-terrain"
+  },
+  "exp-pond-1-2": {
+    "sheet": "assets/tilesets/lpc-garden/terrain.png",
+    "rect": {
+      "x": 7,
+      "y": 16,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [
+      [
+        0,
+        0
+      ]
+    ],
+    "level": "belowAvatar",
+    "sourceId": "lpc-garden-terrain"
+  },
+  "exp-pond-2-2": {
+    "sheet": "assets/tilesets/lpc-garden/terrain.png",
+    "rect": {
+      "x": 8,
+      "y": 16,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [
+      [
+        0,
+        0
+      ]
+    ],
+    "level": "belowAvatar",
+    "sourceId": "lpc-garden-terrain"
+  },
+  "exp-moss-0-0": {
+    "sheet": "assets/tilesets/lpc-garden/terrain.png",
+    "rect": {
+      "x": 3,
+      "y": 8,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar",
+    "sourceId": "lpc-garden-terrain"
+  },
+  "exp-moss-1-0": {
+    "sheet": "assets/tilesets/lpc-garden/terrain.png",
+    "rect": {
+      "x": 4,
+      "y": 8,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar",
+    "sourceId": "lpc-garden-terrain"
+  },
+  "exp-moss-2-0": {
+    "sheet": "assets/tilesets/lpc-garden/terrain.png",
+    "rect": {
+      "x": 5,
+      "y": 8,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar",
+    "sourceId": "lpc-garden-terrain"
+  },
+  "exp-moss-0-1": {
+    "sheet": "assets/tilesets/lpc-garden/terrain.png",
+    "rect": {
+      "x": 3,
+      "y": 9,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar",
+    "sourceId": "lpc-garden-terrain"
+  },
+  "exp-moss-1-1": {
+    "sheet": "assets/tilesets/lpc-garden/terrain.png",
+    "rect": {
+      "x": 4,
+      "y": 9,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar",
+    "sourceId": "lpc-garden-terrain"
+  },
+  "exp-moss-2-1": {
+    "sheet": "assets/tilesets/lpc-garden/terrain.png",
+    "rect": {
+      "x": 5,
+      "y": 9,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar",
+    "sourceId": "lpc-garden-terrain"
+  },
+  "exp-moss-0-2": {
+    "sheet": "assets/tilesets/lpc-garden/terrain.png",
+    "rect": {
+      "x": 3,
+      "y": 10,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar",
+    "sourceId": "lpc-garden-terrain"
+  },
+  "exp-moss-1-2": {
+    "sheet": "assets/tilesets/lpc-garden/terrain.png",
+    "rect": {
+      "x": 4,
+      "y": 10,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar",
+    "sourceId": "lpc-garden-terrain"
+  },
+  "exp-moss-2-2": {
+    "sheet": "assets/tilesets/lpc-garden/terrain.png",
+    "rect": {
+      "x": 5,
+      "y": 10,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar",
+    "sourceId": "lpc-garden-terrain"
+  },
+  "exp-paving-0-0": {
+    "sheet": "assets/tilesets/lpc-garden/terrain.png",
+    "rect": {
+      "x": 0,
+      "y": 18,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar",
+    "sourceId": "lpc-garden-terrain"
+  },
+  "exp-paving-1-0": {
+    "sheet": "assets/tilesets/lpc-garden/terrain.png",
+    "rect": {
+      "x": 1,
+      "y": 18,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar",
+    "sourceId": "lpc-garden-terrain"
+  },
+  "exp-paving-2-0": {
+    "sheet": "assets/tilesets/lpc-garden/terrain.png",
+    "rect": {
+      "x": 2,
+      "y": 18,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar",
+    "sourceId": "lpc-garden-terrain"
+  },
+  "exp-paving-0-1": {
+    "sheet": "assets/tilesets/lpc-garden/terrain.png",
+    "rect": {
+      "x": 0,
+      "y": 19,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar",
+    "sourceId": "lpc-garden-terrain"
+  },
+  "exp-paving-1-1": {
+    "sheet": "assets/tilesets/lpc-garden/terrain.png",
+    "rect": {
+      "x": 1,
+      "y": 19,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar",
+    "sourceId": "lpc-garden-terrain"
+  },
+  "exp-paving-2-1": {
+    "sheet": "assets/tilesets/lpc-garden/terrain.png",
+    "rect": {
+      "x": 2,
+      "y": 19,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar",
+    "sourceId": "lpc-garden-terrain"
+  },
+  "exp-paving-0-2": {
+    "sheet": "assets/tilesets/lpc-garden/terrain.png",
+    "rect": {
+      "x": 0,
+      "y": 20,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar",
+    "sourceId": "lpc-garden-terrain"
+  },
+  "exp-paving-1-2": {
+    "sheet": "assets/tilesets/lpc-garden/terrain.png",
+    "rect": {
+      "x": 1,
+      "y": 20,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar",
+    "sourceId": "lpc-garden-terrain"
+  },
+  "exp-paving-2-2": {
+    "sheet": "assets/tilesets/lpc-garden/terrain.png",
+    "rect": {
+      "x": 2,
+      "y": 20,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar",
+    "sourceId": "lpc-garden-terrain"
+  },
+  "exp-roof-gable": {
+    "sheet": "assets/tilesets/lpc-exploration/thatched-roof.png",
+    "rect": {
+      "x": 3,
+      "y": 0,
+      "width": 3,
+      "height": 3
+    },
+    "blockingCells": [],
+    "level": "belowAvatar",
+    "sourceId": "lpc-exploration",
+    "upperCells": [
+      [
+        0,
+        0
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        2,
+        0
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        2,
+        1
+      ]
+    ]
+  },
+  "exp-roof-gable-dark": {
+    "sheet": "assets/tilesets/lpc-exploration/thatched-roof.png",
+    "rect": {
+      "x": 3,
+      "y": 7,
+      "width": 3,
+      "height": 3
+    },
+    "blockingCells": [],
+    "level": "belowAvatar",
+    "sourceId": "lpc-exploration",
+    "upperCells": [
+      [
+        0,
+        0
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        2,
+        0
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        2,
+        1
+      ]
+    ]
+  },
+  "exp-timber-wall": {
+    "sheet": "assets/tilesets/lpc-exploration/cottage.png",
+    "rect": {
+      "x": 3,
+      "y": 0,
+      "width": 3,
+      "height": 3
+    },
+    "blockingCells": [
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        0
+      ],
+      [
+        2,
+        1
+      ],
+      [
+        2,
+        2
+      ]
+    ],
+    "level": "belowAvatar",
+    "sourceId": "lpc-exploration"
+  },
+  "exp-foundation": {
+    "sheet": "assets/tilesets/lpc-exploration/cottage.png",
+    "rect": {
+      "x": 0,
+      "y": 15,
+      "width": 3,
+      "height": 1
+    },
+    "blockingCells": [
+      [
+        0,
+        0
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        2,
+        0
+      ]
+    ],
+    "level": "belowAvatar",
+    "sourceId": "lpc-exploration"
+  },
+  "exp-bridge-deck": {
+    "sheet": "assets/tilesets/lpc-exploration/farming_fishing.png",
+    "rect": {
+      "x": 15,
+      "y": 1,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar",
+    "sourceId": "lpc-exploration"
+  },
+  "exp-boat": {
+    "sheet": "assets/tilesets/lpc-exploration/farming_fishing.png",
+    "rect": {
+      "x": 11,
+      "y": 16,
+      "width": 4,
+      "height": 2
+    },
+    "blockingCells": [],
+    "level": "belowAvatar",
+    "sourceId": "lpc-exploration"
+  },
+  "exp-kettle": {
+    "sheet": "assets/tilesets/lpc-exploration/farming_fishing.png",
+    "rect": {
+      "x": 6,
+      "y": 0,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [
+      [
+        0,
+        0
+      ]
+    ],
+    "level": "belowAvatar",
+    "sourceId": "lpc-exploration"
+  },
+  "exp-herb-basket": {
+    "sheet": "assets/tilesets/lpc-exploration/farming_fishing.png",
+    "rect": {
+      "x": 0,
+      "y": 6,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [
+      [
+        0,
+        0
+      ]
+    ],
+    "level": "belowAvatar",
+    "sourceId": "lpc-exploration"
+  },
+  "exp-grain-basket": {
+    "sheet": "assets/tilesets/lpc-exploration/farming_fishing.png",
+    "rect": {
+      "x": 0,
+      "y": 4,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [
+      [
+        0,
+        0
+      ]
+    ],
+    "level": "belowAvatar",
+    "sourceId": "lpc-exploration"
+  },
+  "exp-crate": {
+    "sheet": "assets/tilesets/lpc-exploration/farming_fishing.png",
+    "rect": {
+      "x": 5,
+      "y": 7,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [
+      [
+        0,
+        0
+      ]
+    ],
+    "level": "belowAvatar",
+    "sourceId": "lpc-exploration"
+  },
+  "exp-broken-column": {
+    "sheet": "assets/tilesets/lpc-exploration/cavern.png",
+    "rect": {
+      "x": 18,
+      "y": 11,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [
+      [
+        0,
+        0
+      ]
+    ],
+    "level": "belowAvatar",
+    "sourceId": "lpc-exploration"
+  },
+  "exp-moss-column": {
+    "sheet": "assets/tilesets/lpc-exploration/cavern.png",
+    "rect": {
+      "x": 17,
+      "y": 11,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [
+      [
+        0,
+        0
+      ]
+    ],
+    "level": "belowAvatar",
+    "sourceId": "lpc-exploration"
+  },
+  "exp-ruin-brick": {
+    "sheet": "assets/tilesets/lpc-exploration/cavern.png",
+    "rect": {
+      "x": 19,
+      "y": 9,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [
+      [
+        0,
+        0
+      ]
+    ],
+    "level": "belowAvatar",
+    "sourceId": "lpc-exploration"
+  },
+  "exp-ruin-coping": {
+    "sheet": "assets/tilesets/lpc-exploration/cavern.png",
+    "rect": {
+      "x": 19,
+      "y": 8,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [
+      [
+        0,
+        0
+      ]
+    ],
+    "level": "belowAvatar",
+    "sourceId": "lpc-exploration"
+  },
+  "exp-ruin-paving": {
+    "sheet": "assets/tilesets/lpc-exploration/cavern.png",
+    "rect": {
+      "x": 4,
+      "y": 9,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar",
+    "sourceId": "lpc-exploration"
+  },
+  "exp-letter": {
+    "sheet": "assets/tilesets/lpc-exploration/farming_fishing.png",
+    "rect": {
+      "x": 5,
+      "y": 8,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [
+      [
+        0,
+        0
+      ]
+    ],
+    "level": "belowAvatar",
+    "sourceId": "lpc-exploration"
   }
 }

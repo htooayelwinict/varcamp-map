@@ -7,8 +7,8 @@
       "id": "exp-fishing",
       "name": "Moon Pond",
       "visible": true,
-      "x": 992,
-      "y": 896,
+      "x": 1440,
+      "y": 992,
       "width": 64,
       "height": 64,
       "properties": []
@@ -18,7 +18,7 @@
       "name": "Seed Memory",
       "visible": true,
       "x": 800,
-      "y": 768,
+      "y": 832,
       "width": 64,
       "height": 64,
       "properties": []
@@ -59,6 +59,16 @@
       "visible": true,
       "x": 1696,
       "y": 448,
+      "width": 64,
+      "height": 64,
+      "properties": []
+    },
+    {
+      "id": "exp-letter-orchard",
+      "name": "Lost Letter · orchard",
+      "visible": true,
+      "x": 256,
+      "y": 384,
       "width": 64,
       "height": 64,
       "properties": []

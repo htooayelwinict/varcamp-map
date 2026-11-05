@@ -6,6 +6,7 @@ import {WORLD_CATALOG} from '../src/world/catalog';
 import type {MapLayout,TiledMap,WamFile} from '../tools/maps/types';
 import actions from '../world/exploration-actions.json';
 import before from '../world/exploration-predecessors.json';
+import {LETTERS} from '../src/adventure/content';
 const read=<T>(path:string):T=>JSON.parse(readFileSync(path,'utf8'));
 for(const id of EXPLORATION_IDS){
  it(`${id}: all entrances, exits and activity cells are walkable and connected`,()=>{
@@ -29,4 +30,15 @@ it('keeps the telescope behind the original explicit sigil interaction, with no 
  const l=read<MapLayout>('world/layouts/stargazer-terrace.json');
  expect(l.areas.some(a=>a.name==='observatory-telescope')).toBe(true);
  expect(l.exits.some(e=>e.destination==='hidden-observatory')).toBe(false);
+});
+it('provides one reachable in-world parcel for every page of the story',()=>{
+ for(const letter of LETTERS){
+  const l=read<MapLayout>(`world/layouts/${letter.map}.json`),m=read<TiledMap>(`maps/${letter.map}.tmj`);
+  const matches=actions.filter(a=>a.map===letter.map&&a.site==='letter-'+letter.id);
+  expect(matches).toHaveLength(1);const area=matches[0];
+  const reached=explorationReachability(m,l);expect(reached.has(area.y*m.width+area.x)).toBe(true);
+  const box=l.placements.find(p=>p.id==='letter-box-'+letter.id)!;expect(box).toBeDefined();
+  const mask=m.layers.find(l=>l.name==='physical-collisions');
+  if(mask?.type==='tilelayer')expect(mask.data[box.y*m.width+box.x]).not.toBe(0);
+ }
 });

@@ -7,8 +7,18 @@
       "id": "exp-cafe-game",
       "name": "Moonleaf Kitchen",
       "visible": true,
-      "x": 992,
-      "y": 512,
+      "x": 960,
+      "y": 544,
+      "width": 64,
+      "height": 64,
+      "properties": []
+    },
+    {
+      "id": "exp-letter-teahouse",
+      "name": "Lost Letter · teahouse",
+      "visible": true,
+      "x": 1600,
+      "y": 320,
       "width": 64,
       "height": 64,
       "properties": []
@@ -17,8 +27,8 @@
       "id": "exp-story",
       "name": "Woodland Spirit",
       "visible": true,
-      "x": 1376,
-      "y": 736,
+      "x": 1440,
+      "y": 1216,
       "width": 64,
       "height": 64,
       "properties": []
@@ -37,8 +47,8 @@
       "id": "exp-discovery-libra",
       "name": "LIBRA Memory",
       "visible": true,
-      "x": 1632,
-      "y": 608,
+      "x": 1248,
+      "y": 576,
       "width": 96,
       "height": 64,
       "properties": []

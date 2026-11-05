@@ -62,7 +62,7 @@ For event attendance, find a small computer desk with the **CHECK IN** floor lab
 
 From the overworld, the zodiac buildings and both halls have their own entrances. The outer gates lead **north to Orbit Maze**, **west to the festival park**, **east to the coast**, and **south to Campus Exploration**. Signs and the directory help you return to the plaza.
 
-The festival park connects to the arcade and playground. The beach connects to Constellation Shore and FA SHIP; ship stairs lead below deck. Campus Exploration begins **The Lantern Trail**: five connected woodland, garden, cavern, café and stargazing maps. Find twelve zodiac memories, play four small puzzles, fish for six species, and uncover a friendly spirit’s story. Activities are optional and replayable, with private saved progress and a relaxed fishing mode. [Visitor and contributor guide](docs/operating/lantern-trail.md). Stargazer Terrace retains the four-sigil route to the hidden observatory.
+The festival park connects to the arcade and playground. The beach connects to Constellation Shore and FA SHIP; ship stairs lead below deck. Campus Exploration begins **The Lantern Trail**: five connected woodland, garden, cavern, café and stargazing maps. Find twelve zodiac memories, play four small puzzles, fish for six species, uncover a friendly spirit’s story, and follow five lost letters through the landscape. Activities are optional and replayable, with private saved progress and a relaxed fishing mode. [Visitor and contributor guide](docs/operating/lantern-trail.md). Stargazer Terrace retains the four-sigil route to the hidden observatory.
 
 ### Optional quests
 

@@ -23,9 +23,14 @@ def exploration_candidate(path, data):
         if predecessor['version'] != 1 or set(predecessor['maps']) != set(MAPS):
             return None
         old = predecessor['maps'][map_id]['areas']
+        lantern = json.loads((ROOT / 'world/exploration-lantern-predecessors.json').read_text())
+        if lantern['version'] != 1 or set(lantern['maps']) != set(MAPS):
+            return None
+        previous = lantern['maps'][map_id]['areas']
         new = json.loads((ROOT / f'world/layouts/{map_id}.json').read_text())['areas']
         pixels = lambda a: {**a, 'visible': True, **{k: a[k] * 32 for k in GEOMETRY}}
         old = [pixels(a) for a in old]
+        previous = [pixels(a) for a in previous]
         new = [pixels(a) for a in new]
         legacy = [{**a, 'id': LEGACY_IDS.get(map_id, {}).get(a['id'], a['id'])} for a in old]
         result = copy.deepcopy(data)
@@ -34,13 +39,13 @@ def exploration_candidate(path, data):
             values = [a[key] for a in areas]
             if any(not isinstance(v, str) or not v for v in values) or len(set(values)) != len(values):
                 return None
-        owned = {a['id'] for a in old + legacy + new}
+        owned = {a['id'] for a in old + legacy + previous + new}
         actual = [a for a in areas if a['id'] in owned]
         canonical = lambda rows: sorted(rows, key=lambda a: a['id'])
         if same(canonical(actual), canonical(new)):
             return result
         # Exact predecessor controls and fields: do not discard live edits.
-        if not any(same(canonical(actual), canonical(rows)) for rows in (old, legacy)):
+        if not any(same(canonical(actual), canonical(rows)) for rows in (old, legacy, previous)):
             return None
         independent = [a for a in areas if a['id'] not in owned]
         if {a['name'] for a in independent} & {a['name'] for a in new}:

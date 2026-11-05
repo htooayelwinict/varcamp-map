@@ -10,7 +10,9 @@ Exploration Court and its four branches are now a connected pastoral adventure d
 | Moon Café | Open-air tea terrace, herb beds, reading and conversation spots. Play Moonleaf Kitchen and find Gemini, Libra and Aquarius. |
 | Stargazer Terrace | Deep-green woodland, ancient stones, a telescope and a gathering clearing. Trace a constellation and find Aries, Leo and Sagittarius. |
 
-Walk close to a zodiac stone, spirit or activity station and choose its action prompt. The **Expedition Journal** menu remains available across these five maps. Twelve riddle discoveries and four completed activities unlock the spirit's ending. Fishing has six collectible species and an optional relaxed mode without a reaction deadline. All activities can be replayed; exploration and return paths never require quest completion.
+Walk close to a zodiac landmark, blue-lit parcel box, spirit or activity station and choose its action prompt. The **Expedition Journal** menu remains available across these five maps. Twelve riddle discoveries and four completed activities unlock the spirit's ending. Fishing has six collectible species and an optional relaxed mode without a reaction deadline. All activities can be replayed; exploration and return paths never require quest completion.
+
+**The letters we left behind** is a separate five-stop story. Find one blue-lit parcel box in each place; its page points to a landmark in the next area. Read collected pages again using **Lost letters** in the journal. Pages can be collected in any order, and the original twelve-memory ending remains independent. Existing saved discoveries and completed activities are retained.
 
 Progress uses private, persistent, world-scoped WorkAdventure player variables under `varcamp2026.expedition.v1.*`. It belongs to the current WorkAdventure identity; a different guest browser or identity starts separately. Failed saves show a retry message and do not count as confirmed progress. There are no external game embeds, new accounts, timers that require returning daily, or forced meeting zones.
 
@@ -18,7 +20,7 @@ The circuit is Garden → Grotto → Terrace → Café → Garden. Each branch a
 
 ## Maintain and publish
 
-- Composition: [exploration generator](../../tools/maps/exploration.ts); [authoring entry point](../../tools/maps/author-exploration.ts).
+- Composition: [authored woodland scenes](../../tools/maps/woodland-layout.ts), [native projection and geometry guard](../../tools/maps/exploration.ts); [authoring entry point](../../tools/maps/author-exploration.ts).
 - Interactions, riddles and UI: [adventure source](../../src/adventure/content.ts).
 - Artwork: [upstream credits and licenses](../../assets/tilesets/lpc-exploration/ATTRIBUTION.md). Native licensed sheets remain unmodified. No Harvest Moon assets are used.
 - The action-location manifest is generated with the map, so UI proximity checks follow the same geometry.
@@ -36,3 +38,5 @@ Exploration Court နဲ့ နေရာခွဲလေးခုကို တေ
 Zodiac အမှတ်တရ ၁၂ ခုနဲ့ လုပ်ဆောင်ချက် ၄ ခု ပြီးသွားရင် ဝိညာဉ်လေးရဲ့ ဇာတ်လမ်းအဆုံးကို ဖတ်နိုင်ပါတယ်။ ငါးမျှားတာက ရွေးချယ်နိုင်တဲ့ အပိုကစားနည်းပါ။ အချိန်မကန့်သတ်တဲ့ Relaxed mode လည်း ပါပါတယ်။ Quest မပြီးလည်း နေရာအားလုံးကို သွားနိုင်ပြီး Plaza ကို အမြဲပြန်နိုင်ပါတယ်။
 
 တိုးတက်မှုကို လက်ရှိ WorkAdventure အသုံးပြုသူအတွက် သီးသန့်သိမ်းပါတယ်။ Guest browser သို့မဟုတ် အသုံးပြုသူအမည်/အကောင့် ပြောင်းသွားရင် ယခင်တိုးတက်မှု အလိုအလျောက် မပါလာနိုင်ပါ။ နောက်နှစ်အတွက် ပြင်ဆင်သူတွေက မူရင်းပန်းချီရင်းမြစ်နဲ့ လိုင်စင်တွေကို ထိန်းသိမ်းပြီး collision၊ အဝင်အထွက်နဲ့ save ပြန်ကြိုးစားမှုတွေကို စမ်းသပ်ပါ။ Devbox မတုံ့ပြန်တော့တာ မဖြစ်အောင် test တစ်ဖိုင်စီကို 6 GB memory limit နဲ့သာ run ပါ။
+
+Lost letters မှာ နေရာငါးခုအတွင်း စာတစ်စောင်စီ ရှာနိုင်ပါတယ်။ အပြာရောင်ကျောက်လေးဘေးက ပစ္စည်းသေတ္တာကို ချဉ်းကပ်ပြီး စာကိုဖတ်ပါ။ စာထဲမှာ နောက်နေရာအတွက် လမ်းညွှန်ပါတယ်။ ရှာတွေ့ပြီးသားစာတွေကို journal ထဲကနေ ပြန်ဖတ်နိုင်ပြီး ယခင် Zodiac အမှတ်တရနဲ့ ကစားနည်းတိုးတက်မှုတွေကို မဖျက်ပါ။

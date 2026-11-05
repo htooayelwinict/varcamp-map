@@ -1,0 +1,131 @@
+{
+  "schemaVersion": 1,
+  "revisions": [
+    {
+      "path": "art/tile-catalog.json",
+      "fromSha256": "414b9690e6503cb334e97fc521c6dbc61597c98ec56321ec6fed6870870f5962",
+      "toSha256": "1828ae96e97744dd2cfd42acf015b9f5539715c15909d1ae5c71d37c6911543f",
+      "reason": "Complete the five exploration landscapes with distinct authored landforms, cottages, orchard, cavern and observatory paths, and an optional five-letter story. Preserve existing routes, private progress and independent live editor data; all other native map geometry remains unchanged."
+    },
+    {
+      "path": "maps/campus-exploration.tmj",
+      "fromSha256": "8d1771c3b515248dad5f79912ae744faf2efc1e44631e81198dc7254b97ed8c9",
+      "toSha256": "79c403e15c5c94c29a6213ca20baf40c5512c9f131b4e75b6c6a1129d9781c06",
+      "reason": "Complete the five exploration landscapes with distinct authored landforms, cottages, orchard, cavern and observatory paths, and an optional five-letter story. Preserve existing routes, private progress and independent live editor data; all other native map geometry remains unchanged."
+    },
+    {
+      "path": "maps/campus-exploration.wam",
+      "fromSha256": "ec143c153fcdb82a5d5d7bb1247da33d0624fcbd0a59b1e07ba5603b4c01ebd3",
+      "toSha256": "58d989b4bbf2f05635585d93447ee7df772a85c6f3e048f89b35ca038cd2e0ae",
+      "reason": "Complete the five exploration landscapes with distinct authored landforms, cottages, orchard, cavern and observatory paths, and an optional five-letter story. Preserve existing routes, private progress and independent live editor data; all other native map geometry remains unchanged."
+    },
+    {
+      "path": "maps/moon-cafe.tmj",
+      "fromSha256": "8679207f7be93a105b1add82ea5e3b14db150bfa80af6f5b206fafec1951df04",
+      "toSha256": "a48d06ebe8f09f3e05853d3bf7986f5245d53f59e8b13c0a2225bb517c00f7eb",
+      "reason": "Complete the five exploration landscapes with distinct authored landforms, cottages, orchard, cavern and observatory paths, and an optional five-letter story. Preserve existing routes, private progress and independent live editor data; all other native map geometry remains unchanged."
+    },
+    {
+      "path": "maps/moon-cafe.wam",
+      "fromSha256": "4937f1a190c77e0067a2e5e0680db2bfad01739b190e17379184de8313743f28",
+      "toSha256": "f61766de00e68a01e1d58ff40fccce061cce5f734e2967972c9dfcf705d6d4b1",
+      "reason": "Complete the five exploration landscapes with distinct authored landforms, cottages, orchard, cavern and observatory paths, and an optional five-letter story. Preserve existing routes, private progress and independent live editor data; all other native map geometry remains unchanged."
+    },
+    {
+      "path": "maps/moon-grotto.tmj",
+      "fromSha256": "14c46e89a24bfdbf6bccffaf170a0db9f531c7e2884278a84f76aa72866d382c",
+      "toSha256": "d2bdcea70d4336d68efd3ecdc9bc49ec0bada9a13def849e521d647300576536",
+      "reason": "Complete the five exploration landscapes with distinct authored landforms, cottages, orchard, cavern and observatory paths, and an optional five-letter story. Preserve existing routes, private progress and independent live editor data; all other native map geometry remains unchanged."
+    },
+    {
+      "path": "maps/moon-grotto.wam",
+      "fromSha256": "01374aa85c1da585a6ab08c66b5a2a45baf396e9a82de7eb30a8fb87bf2698f0",
+      "toSha256": "956d4225361b4b559061201b6e5fa48b0a6e600eb620e9a5496cfe85e6c2835a",
+      "reason": "Complete the five exploration landscapes with distinct authored landforms, cottages, orchard, cavern and observatory paths, and an optional five-letter story. Preserve existing routes, private progress and independent live editor data; all other native map geometry remains unchanged."
+    },
+    {
+      "path": "maps/preview/campus-exploration.tmj",
+      "fromSha256": "ac19a82b5621ab59b90b016970cb460c31e1c342fc3d835500a93f90f429707c",
+      "toSha256": "88b2514e46dd751bd8cea4ae29f11e7510aef29376851ff60772a7660d3bea9e",
+      "reason": "Complete the five exploration landscapes with distinct authored landforms, cottages, orchard, cavern and observatory paths, and an optional five-letter story. Preserve existing routes, private progress and independent live editor data; all other native map geometry remains unchanged."
+    },
+    {
+      "path": "maps/preview/moon-cafe.tmj",
+      "fromSha256": "04fada3b45ad4ec7d97d7f19c552699c81b2cbefe6f21450c4acab5ef7cba56d",
+      "toSha256": "f4ca3993c6aaed5ad8206c30b5d980716ab603f9826d5d08f74e31f0c7d19667",
+      "reason": "Complete the five exploration landscapes with distinct authored landforms, cottages, orchard, cavern and observatory paths, and an optional five-letter story. Preserve existing routes, private progress and independent live editor data; all other native map geometry remains unchanged."
+    },
+    {
+      "path": "maps/preview/moon-grotto.tmj",
+      "fromSha256": "d26220c27d96a817dade7959f4efdbe2dfdedfdfd53da4919a7f2426acb8a8cc",
+      "toSha256": "f3456e85c0a6732e03522368698b8337dcf3c7dc96fa7b11c7ee9304da823ae4",
+      "reason": "Complete the five exploration landscapes with distinct authored landforms, cottages, orchard, cavern and observatory paths, and an optional five-letter story. Preserve existing routes, private progress and independent live editor data; all other native map geometry remains unchanged."
+    },
+    {
+      "path": "maps/preview/star-garden.tmj",
+      "fromSha256": "af90cfe1b8dbf12c6108388f90e8a4c87ab2427286b10177a131838ef491001d",
+      "toSha256": "730dd21f8de12f89f2e33deac7574d0a487b7c46d02ce61f0099b9113ce89623",
+      "reason": "Complete the five exploration landscapes with distinct authored landforms, cottages, orchard, cavern and observatory paths, and an optional five-letter story. Preserve existing routes, private progress and independent live editor data; all other native map geometry remains unchanged."
+    },
+    {
+      "path": "maps/preview/stargazer-terrace.tmj",
+      "fromSha256": "9b8a2613b3ee27fdc7997ccc7562e3dc00b43aed71406593ba49dbaeb28dc714",
+      "toSha256": "a7ccb8d5e0bfadbc16e17906b300f96c96cc946183da301ad0e06547617d889a",
+      "reason": "Complete the five exploration landscapes with distinct authored landforms, cottages, orchard, cavern and observatory paths, and an optional five-letter story. Preserve existing routes, private progress and independent live editor data; all other native map geometry remains unchanged."
+    },
+    {
+      "path": "maps/star-garden.tmj",
+      "fromSha256": "b96231d1c6260b70987375b43601d47e5738c7e1efeeef55e9162778f6484402",
+      "toSha256": "5e04f62035ccf38341dba72266eddb586bc076e5cfcdbe8c6f57f47381b2ee11",
+      "reason": "Complete the five exploration landscapes with distinct authored landforms, cottages, orchard, cavern and observatory paths, and an optional five-letter story. Preserve existing routes, private progress and independent live editor data; all other native map geometry remains unchanged."
+    },
+    {
+      "path": "maps/star-garden.wam",
+      "fromSha256": "392b928349d817ae47686ac711b4c27693e9f2e28f9055da9bbc327c1685d505",
+      "toSha256": "399d2acb263fcbf75ff0caba3184f0c1f0f342d3bcd696df563ed8a48bf5760c",
+      "reason": "Complete the five exploration landscapes with distinct authored landforms, cottages, orchard, cavern and observatory paths, and an optional five-letter story. Preserve existing routes, private progress and independent live editor data; all other native map geometry remains unchanged."
+    },
+    {
+      "path": "maps/stargazer-terrace.tmj",
+      "fromSha256": "f050feded74543be87fc38b02665812f0b037837b77a3f877a8a30f3a4ff1594",
+      "toSha256": "fac9aa8652f4b28836990fde18ffb6875a89592c0ac752a355be811a9c9ded57",
+      "reason": "Complete the five exploration landscapes with distinct authored landforms, cottages, orchard, cavern and observatory paths, and an optional five-letter story. Preserve existing routes, private progress and independent live editor data; all other native map geometry remains unchanged."
+    },
+    {
+      "path": "maps/stargazer-terrace.wam",
+      "fromSha256": "7648bcb2acde5413ecf074355bc7bb8c4380aa3a231cae373a9a243dcdf2d7d0",
+      "toSha256": "40c5c7278a0f07e99919ee0eaa0c8a4afc1f0b6e16c42d74031bb51866690aa2",
+      "reason": "Complete the five exploration landscapes with distinct authored landforms, cottages, orchard, cavern and observatory paths, and an optional five-letter story. Preserve existing routes, private progress and independent live editor data; all other native map geometry remains unchanged."
+    },
+    {
+      "path": "world/layouts/campus-exploration.json",
+      "fromSha256": "d9f7f88a9291ec01e0466452e26b2f216e7af677a2e6a56e414f522aaaf9152c",
+      "toSha256": "1b9632536d6f55eab2ad2de523c3cef88317d49d0776af40caa04695d104f1ac",
+      "reason": "Complete the five exploration landscapes with distinct authored landforms, cottages, orchard, cavern and observatory paths, and an optional five-letter story. Preserve existing routes, private progress and independent live editor data; all other native map geometry remains unchanged."
+    },
+    {
+      "path": "world/layouts/moon-cafe.json",
+      "fromSha256": "1d3510ca5fe487310b6acbbd9ad2d6b7fec4d206adc883e25dafc884ec1d62b7",
+      "toSha256": "9741fabe3cd5f88b5949af04ea6984077bab6de3edfbf8a694682ef3c125eccc",
+      "reason": "Complete the five exploration landscapes with distinct authored landforms, cottages, orchard, cavern and observatory paths, and an optional five-letter story. Preserve existing routes, private progress and independent live editor data; all other native map geometry remains unchanged."
+    },
+    {
+      "path": "world/layouts/moon-grotto.json",
+      "fromSha256": "0c46488d10695411163edd92ccaf3a1d9a018a02123e1657d30fa1dda38b0cbe",
+      "toSha256": "b20f12d1061923455ca7157eedef57f58e206d82bad827fbb1c8f1b21cd1df49",
+      "reason": "Complete the five exploration landscapes with distinct authored landforms, cottages, orchard, cavern and observatory paths, and an optional five-letter story. Preserve existing routes, private progress and independent live editor data; all other native map geometry remains unchanged."
+    },
+    {
+      "path": "world/layouts/star-garden.json",
+      "fromSha256": "53dcde72e0d81095e6f0e9fe4cbf896374931969a371cfc656d8fc3f67438e95",
+      "toSha256": "a7cb51de105cffaa2e14e36f3df05e76fddb3e978d8de5a7f0fbf848c96b0a16",
+      "reason": "Complete the five exploration landscapes with distinct authored landforms, cottages, orchard, cavern and observatory paths, and an optional five-letter story. Preserve existing routes, private progress and independent live editor data; all other native map geometry remains unchanged."
+    },
+    {
+      "path": "world/layouts/stargazer-terrace.json",
+      "fromSha256": "0fd44875bcd16ec89c018466f1ae502d8ea69e8f54cf47ce91129aab566a1c68",
+      "toSha256": "d160f5997d60a4b7af041bc9eacb9eedfb662a3dff6d73053ef430a1b33ef7ee",
+      "reason": "Complete the five exploration landscapes with distinct authored landforms, cottages, orchard, cavern and observatory paths, and an optional five-letter story. Preserve existing routes, private progress and independent live editor data; all other native map geometry remains unchanged."
+    }
+  ]
+}

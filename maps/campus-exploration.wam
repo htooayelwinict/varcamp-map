@@ -8,7 +8,7 @@
       "name": "Field Guide",
       "visible": true,
       "x": 1152,
-      "y": 1152,
+      "y": 1088,
       "width": 96,
       "height": 64,
       "properties": []
@@ -18,7 +18,7 @@
       "name": "welcome-directory",
       "visible": true,
       "x": 928,
-      "y": 1312,
+      "y": 1376,
       "width": 96,
       "height": 64,
       "properties": []
@@ -27,8 +27,18 @@
       "id": "exp-story",
       "name": "Woodland Spirit",
       "visible": true,
-      "x": 640,
+      "x": 768,
       "y": 1152,
+      "width": 64,
+      "height": 64,
+      "properties": []
+    },
+    {
+      "id": "exp-letter-trailhead",
+      "name": "Lost Letter · trailhead",
+      "visible": true,
+      "x": 1536,
+      "y": 1536,
       "width": 64,
       "height": 64,
       "properties": []

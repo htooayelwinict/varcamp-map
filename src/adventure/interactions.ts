@@ -1,5 +1,5 @@
 import locations from '../../world/exploration-actions.json';
-import {ADVENTURE_MAPS,ACTIVITIES,DISCOVERIES} from './content';
+import {ADVENTURE_MAPS,ACTIVITIES,DISCOVERIES,LETTERS} from './content';
 export interface AdventureApi {
  room:Pick<typeof WA.room,'id'>;
  mapEditor:{area:Pick<typeof WA.mapEditor.area,'onEnter'|'onLeave'>};
@@ -25,5 +25,6 @@ export function registerExpedition(api:AdventureApi):()=>void{
  if(id==='star-garden')bind('exp-fishing','Try moon-pond fishing','fishing');
  for(const d of DISCOVERIES)if(d.map===id)bind('exp-discovery-'+d.id,'Investigate · '+d.title,'discovery-'+d.id);
  for(const a of ACTIVITIES)if(a.map===id)bind('exp-'+a.id+'-game',a.name+' · play',a.id);
+ for(const letter of LETTERS)if(letter.map===id)bind('exp-letter-'+letter.id,'Read the lost letter · '+letter.title,'letter-'+letter.id);
  return()=>{alive=false;subscriptions.forEach(s=>s.unsubscribe());cleanups.forEach(f=>f());};
 }

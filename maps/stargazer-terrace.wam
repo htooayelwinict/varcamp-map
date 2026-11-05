@@ -7,7 +7,7 @@
       "id": "observatory-telescope",
       "name": "observatory-telescope",
       "visible": true,
-      "x": 928,
+      "x": 1248,
       "y": 416,
       "width": 96,
       "height": 64,
@@ -18,7 +18,7 @@
       "name": "Star Weaver",
       "visible": true,
       "x": 960,
-      "y": 864,
+      "y": 960,
       "width": 64,
       "height": 64,
       "properties": []
@@ -57,8 +57,18 @@
       "id": "exp-story",
       "name": "Woodland Spirit",
       "visible": true,
-      "x": 448,
-      "y": 1376,
+      "x": 320,
+      "y": 1408,
+      "width": 64,
+      "height": 64,
+      "properties": []
+    },
+    {
+      "id": "exp-letter-summit",
+      "name": "Lost Letter · summit",
+      "visible": true,
+      "x": 224,
+      "y": 1408,
       "width": 64,
       "height": 64,
       "properties": []

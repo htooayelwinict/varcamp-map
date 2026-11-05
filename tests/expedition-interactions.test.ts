@@ -14,6 +14,14 @@ it('opens activities only on explicit action and removes stale prompts',()=>{
  m.callbacks[0]();expect(m.openModal).toHaveBeenCalledOnce();expect(m.openModal.mock.calls[0][0].src).toMatch(/#fishing$/);
  m.callbacks[0]();expect(m.openModal).toHaveBeenCalledOnce();
  m.enter.get('TAURUS Memory')!();m.leave.get('TAURUS Memory')!();m.callbacks[1]();expect(m.openModal).toHaveBeenCalledOnce();
- dispose();expect(m.unsubscribe).toHaveBeenCalledTimes(12);
+ dispose();expect(m.unsubscribe).toHaveBeenCalledTimes(m.enter.size*2);
  m.enter.get('Moon Pond')!();expect(m.raw.ui.displayActionMessage).toHaveBeenCalledTimes(2);
+});
+it('offers a parcel only in its own map and dismisses the prompt on leaving',()=>{
+ const m=mock('moon-cafe'),dispose=registerExpedition(m.api);
+ expect(m.enter.has('Lost Letter · orchard')).toBe(false);
+ m.enter.get('Lost Letter · teahouse')!();m.callbacks[0]();
+ expect(m.openModal.mock.calls[0][0].src).toMatch(/#letter-teahouse$/);
+ m.enter.get('Lost Letter · teahouse')!();m.leave.get('Lost Letter · teahouse')!();m.callbacks[1]();
+ expect(m.openModal).toHaveBeenCalledOnce();dispose();
 });

@@ -1,6 +1,14 @@
 import {expect,it,vi} from 'vitest';
 import {expeditionState,fishingResult,seedSequence} from '../src/adventure/state';
 import {FLAG_IDS,flagKey,trailComplete} from '../src/adventure/content';
+it('keeps old completion and saves new letter progress across a fresh journal',async()=>{
+ const data:Record<string,boolean>={[flagKey('story-finished')]:true,[flagKey('discovery-taurus')]:true};
+ const driver={read:(k:string)=>data[k],save:async(k:string,v:boolean)=>{data[k]=v;}};
+ await expeditionState(driver).save('letter-orchard');
+ const restored=expeditionState(driver).flags();
+ expect(restored.has('story-finished')).toBe(true);expect(restored.has('discovery-taurus')).toBe(true);expect(restored.has('letter-orchard')).toBe(true);
+ expect(restored.has('letter-grotto')).toBe(false);
+});
 it('repairs an optimistic rejected save and persists a later retry',async()=>{
  const raw:Record<string,boolean>={},durable:Record<string,boolean>={};let offline=true;
  const driver={read:(k:string)=>raw[k],save:async(k:string,v:boolean)=>{if(raw[k]===v)return;raw[k]=v;if(offline)throw Error('offline');durable[k]=v;}};

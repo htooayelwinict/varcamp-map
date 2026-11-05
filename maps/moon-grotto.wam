@@ -8,7 +8,7 @@
       "name": "Moon Echoes",
       "visible": true,
       "x": 1088,
-      "y": 800,
+      "y": 928,
       "width": 64,
       "height": 64,
       "properties": []
@@ -28,7 +28,7 @@
       "name": "SCORPIO Memory",
       "visible": true,
       "x": 1600,
-      "y": 1376,
+      "y": 1440,
       "width": 96,
       "height": 64,
       "properties": []
@@ -38,7 +38,7 @@
       "name": "PISCES Memory",
       "visible": true,
       "x": 256,
-      "y": 1376,
+      "y": 1408,
       "width": 96,
       "height": 64,
       "properties": []
@@ -47,8 +47,18 @@
       "id": "exp-story",
       "name": "Woodland Spirit",
       "visible": true,
-      "x": 1568,
-      "y": 544,
+      "x": 1536,
+      "y": 736,
+      "width": 64,
+      "height": 64,
+      "properties": []
+    },
+    {
+      "id": "exp-letter-grotto",
+      "name": "Lost Letter · grotto",
+      "visible": true,
+      "x": 1376,
+      "y": 320,
       "width": 64,
       "height": 64,
       "properties": []

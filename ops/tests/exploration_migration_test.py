@@ -28,6 +28,12 @@ class MigrationTest(unittest.TestCase):
                 for a in legacy['areas']:
                     a['id']=LEGACY_IDS.get(map_id,{}).get(a['id'],a['id'])
                 self.assertEqual(exploration_candidate(path,legacy),out)
+                prior = copy.deepcopy(data)
+                lantern = json.loads((ROOT / 'world/exploration-lantern-predecessors.json').read_text())['maps'][map_id]['areas']
+                prior['areas'] = [{**a, 'visible': True, **{k:a[k]*32 for k in ('x','y','width','height')}} for a in lantern] + [extra]
+                self.assertEqual(exploration_candidate(path,prior),out)
+                prior['areas'][0]['x'] += 32
+                self.assertIsNone(exploration_candidate(path,prior))
                 legacy['areas'][0]['properties']=[{'id':'edited-control','type':'silent'}]
                 self.assertIsNone(exploration_candidate(path,legacy))
                 for mutate in ('geometry','controls','extra-field','duplicate','partial'):

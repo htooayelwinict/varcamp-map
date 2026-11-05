@@ -40,6 +40,30 @@ sprite('small-table',str(root/'farming_fishing.png'),14,3,3,3,[[a,b] for a in ra
 sprite('produce',str(root/'farming_fishing.png'),8,10,7,1,[[a,0] for a in range(7)])
 sprite('campfire',str(root/'farming_fishing.png'),0,0,1,2,[[0,1]])
 sprite('sacks',str(root/'farming_fishing.png'),0,2,2,2,[[0,1],[1,1]])
+# Second composition pass: more of the original, unchanged LPC sheets. Keep
+# the first release's selections intact for its immutable publication receipts.
+sprite('meadow',T,4,9,source='lpc-garden-terrain')
+sprite('meadow-specks',T,4,11,source='lpc-garden-terrain')
+sprite('forest-specks',T,7,11,source='lpc-garden-terrain')
+for prefix,x,y,block in [('pond',6,14,True),('moss',3,8,False),('paving',0,18,False)]:
+ for dy in range(3):
+  for dx in range(3):sprite(prefix+f'-{dx}-{dy}',T,x+dx,y+dy,blocking=[[0,0]] if block else [],source='lpc-garden-terrain')
+sprite('roof-gable',str(root/'thatched-roof.png'),3,0,3,3,[],True)
+sprite('roof-gable-dark',str(root/'thatched-roof.png'),3,7,3,3,[],True)
+sprite('timber-wall',str(root/'cottage.png'),3,0,3,3,[[a,b] for a in range(3) for b in range(3)])
+sprite('foundation',str(root/'cottage.png'),0,15,3,1,[[a,0] for a in range(3)])
+sprite('bridge-deck',str(root/'farming_fishing.png'),15,1)
+sprite('boat',str(root/'farming_fishing.png'),11,16,4,2,[],False)
+sprite('kettle',str(root/'farming_fishing.png'),6,0,1,1,[[0,0]])
+sprite('herb-basket',str(root/'farming_fishing.png'),0,6,1,1,[[0,0]])
+sprite('grain-basket',str(root/'farming_fishing.png'),0,4,1,1,[[0,0]])
+sprite('crate',str(root/'farming_fishing.png'),5,7,1,1,[[0,0]])
+sprite('broken-column',str(root/'cavern.png'),18,11,1,1,[[0,0]])
+sprite('moss-column',str(root/'cavern.png'),17,11,1,1,[[0,0]])
+sprite('ruin-brick',str(root/'cavern.png'),19,9,1,1,[[0,0]])
+sprite('ruin-coping',str(root/'cavern.png'),19,8,1,1,[[0,0]])
+sprite('ruin-paving',str(root/'cavern.png'),4,9)
+sprite('letter',str(root/'farming_fishing.png'),5,8,1,1,[[0,0]])
 c.update(sprites);Path('art/exploration-sprites.json').write_text(json.dumps(sprites,indent=2)+'\n');Path('art/tile-catalog.json').write_text(json.dumps(c,indent=2)+'\n')
 s=json.load(open('art/sources.json'));sha=lambda p:hashlib.sha256(p.read_bytes()).hexdigest()
 s['lpc-exploration']={'attribution':'Cottage: bluecarrot16, Sharm, HughSpectrum, Casper Nilsson. Farm: Daniel Eddeland. Cavern: Tuomo Untinen and all artists in CREDITS-cavern.txt.','url':'https://opengameart.org/content/lpc-cavern-and-ruin-tiles','license':'CC-BY-SA 3.0','licenseFile':str(root/'LICENSE-CC-BY-SA-3.0.txt'),'changes':'None. Upstream PNGs retained byte-for-byte. Native 32px tile selections only.','files':[{'path':str(p),'sha256':sha(p)} for p in sorted(root.glob('*.png')) if p.name!='ghost.png']}

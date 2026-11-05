@@ -5,7 +5,7 @@
     "name": "Field Guide",
     "site": "journal",
     "x": 36,
-    "y": 36,
+    "y": 34,
     "width": 3,
     "height": 2
   },
@@ -14,8 +14,18 @@
     "id": "exp-story",
     "name": "Woodland Spirit",
     "site": "story",
-    "x": 20,
+    "x": 24,
     "y": 36,
+    "width": 2,
+    "height": 2
+  },
+  {
+    "map": "campus-exploration",
+    "id": "exp-letter-trailhead",
+    "name": "Lost Letter · trailhead",
+    "site": "letter-trailhead",
+    "x": 48,
+    "y": 48,
     "width": 2,
     "height": 2
   },
@@ -24,8 +34,8 @@
     "id": "exp-fishing",
     "name": "Moon Pond",
     "site": "fishing",
-    "x": 31,
-    "y": 28,
+    "x": 45,
+    "y": 31,
     "width": 2,
     "height": 2
   },
@@ -35,7 +45,7 @@
     "name": "Seed Memory",
     "site": "garden",
     "x": 25,
-    "y": 24,
+    "y": 26,
     "width": 2,
     "height": 2
   },
@@ -80,12 +90,22 @@
     "height": 2
   },
   {
+    "map": "star-garden",
+    "id": "exp-letter-orchard",
+    "name": "Lost Letter · orchard",
+    "site": "letter-orchard",
+    "x": 8,
+    "y": 12,
+    "width": 2,
+    "height": 2
+  },
+  {
     "map": "moon-grotto",
     "id": "exp-grotto-game",
     "name": "Moon Echoes",
     "site": "grotto",
     "x": 34,
-    "y": 25,
+    "y": 29,
     "width": 2,
     "height": 2
   },
@@ -105,7 +125,7 @@
     "name": "SCORPIO Memory",
     "site": "discovery-scorpio",
     "x": 50,
-    "y": 43,
+    "y": 45,
     "width": 3,
     "height": 2
   },
@@ -115,7 +135,7 @@
     "name": "PISCES Memory",
     "site": "discovery-pisces",
     "x": 8,
-    "y": 43,
+    "y": 44,
     "width": 3,
     "height": 2
   },
@@ -124,8 +144,18 @@
     "id": "exp-story",
     "name": "Woodland Spirit",
     "site": "story",
-    "x": 49,
-    "y": 17,
+    "x": 48,
+    "y": 23,
+    "width": 2,
+    "height": 2
+  },
+  {
+    "map": "moon-grotto",
+    "id": "exp-letter-grotto",
+    "name": "Lost Letter · grotto",
+    "site": "letter-grotto",
+    "x": 43,
+    "y": 10,
     "width": 2,
     "height": 2
   },
@@ -134,8 +164,18 @@
     "id": "exp-cafe-game",
     "name": "Moonleaf Kitchen",
     "site": "cafe",
-    "x": 31,
-    "y": 16,
+    "x": 30,
+    "y": 17,
+    "width": 2,
+    "height": 2
+  },
+  {
+    "map": "moon-cafe",
+    "id": "exp-letter-teahouse",
+    "name": "Lost Letter · teahouse",
+    "site": "letter-teahouse",
+    "x": 50,
+    "y": 10,
     "width": 2,
     "height": 2
   },
@@ -144,8 +184,8 @@
     "id": "exp-story",
     "name": "Woodland Spirit",
     "site": "story",
-    "x": 43,
-    "y": 23,
+    "x": 45,
+    "y": 38,
     "width": 2,
     "height": 2
   },
@@ -164,8 +204,8 @@
     "id": "exp-discovery-libra",
     "name": "LIBRA Memory",
     "site": "discovery-libra",
-    "x": 51,
-    "y": 19,
+    "x": 39,
+    "y": 18,
     "width": 3,
     "height": 2
   },
@@ -185,7 +225,7 @@
     "name": "Star Weaver",
     "site": "terrace",
     "x": 30,
-    "y": 27,
+    "y": 30,
     "width": 2,
     "height": 2
   },
@@ -224,8 +264,18 @@
     "id": "exp-story",
     "name": "Woodland Spirit",
     "site": "story",
-    "x": 14,
-    "y": 43,
+    "x": 10,
+    "y": 44,
+    "width": 2,
+    "height": 2
+  },
+  {
+    "map": "stargazer-terrace",
+    "id": "exp-letter-summit",
+    "name": "Lost Letter · summit",
+    "site": "letter-summit",
+    "x": 7,
+    "y": 44,
     "width": 2,
     "height": 2
   }

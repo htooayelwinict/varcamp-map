@@ -16,6 +16,14 @@ Use the existing 32px WorkAdventure tile pipeline and licensed hand-drawn LPC as
 
 A separate Expedition Journal offers twelve clue-based discoveries (three in each branch), four area activities and repeatable pond fishing. Collectible/solved flags save privately in WorkAdventure world player state, independently of the existing quest flags. Progress is idempotent; failures show a retry message instead of claiming a save. Full collection unlocks a short woodland-spirit story conclusion. No external game service, accounts, payments, forced media or autoplay. Journal interactions work with keyboard and touch; hints remain available and puzzles can be replayed. Visitors can also simply walk, discover scenery and chat. The four branches form a walkable portal circuit, with the Court and Plaza always reachable.
 
+## Woodland completion pass
+
+The five layouts now have separate authored paths and landforms: a branching village green, orchard and river crossing, irregular cavern chambers, a farmhouse kitchen with two garden patios, and a wooded observatory hill. Seeded vegetation fills the authored groves and borders; it does not determine the routes. Terrain uses the licensed native LPC sprites, with varied trees, smaller signs and low-density animated spirits. Water edges, bridges, counters and approach cells are included in the geometry checks.
+
+An optional five-letter correspondence connects the places through a gardener and a missing friend. Each parcel has a visible landmark, a clue to the next location, a proximity-checked collection action and a journal page that can be reread after collecting it. Letters can be found in any order. The previous twelve memories, four activities, fish collection and ending keep their persistent identifiers; existing progress survives this addition. Memory hints now describe actual baskets, tables, tablets and other landmarks rather than referring to every discovery as a stone.
+
+The live migration accepts the exact previous Lantern Trail area set as an additional predecessor. It preserves independent editor areas, entities and settings, and refuses modified owned geometry rather than silently overwriting it. Completion is verified against the candidate build and deployed WorkAdventure client before reporting it as live.
+
 ## Physics and visuals
 
 Keep native sprite scale, bottom/trunk collisions and canopies above avatars. Water, cliff walls, building walls and counters are solid. Doors, bridges, every spawn, every exit and every action approach are walkable. Never cover the arrival cell with an exit or put an action under a blocking sprite. Compact labels appear at route choices. Add low-density magical animation using native tile frames, with a bounded atlas/memory budget and no polling loop when idle.
