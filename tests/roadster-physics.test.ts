@@ -1,4 +1,3 @@
-import {restoreRoadsterFlight} from '../tools/maps/roadster-flight';
 import {restorePlazaShoreline} from '../tools/maps/plaza-shoreline';
 import {readFileSync} from 'node:fs';
 import {describe,it,expect} from 'vitest';
@@ -15,7 +14,7 @@ describe('Tesla display footprint',()=>{
  });
  it('rejects removing the collision footprint from the current release',()=>{
   const layout=read('world/layouts/overworld.json');layout.placements=layout.placements.filter((p:any)=>p.id!=='roadster-solid-pad');
-  expect(()=>restoreArrivalHospitality(restorePlazaShoreline(restoreRoadsterFlight(layout)))).toThrow('unreviewed source layout');
+  expect(()=>restoreArrivalHospitality(restorePlazaShoreline(layout))).toThrow('unreviewed source layout');
   expect(()=>assertCurrentNativeMap('overworld',read('maps/overworld.tmj'),layout,read('maps/overworld.wam'),read('art/tile-catalog.json'))).toThrow();
  });
 });

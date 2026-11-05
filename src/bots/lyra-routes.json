@@ -2,8 +2,8 @@
   "provenance": {
     "proposalSha256": "a071e0c81c18ad4b1d759f8c246384fc50032e6e3b7c395413246b9858958282",
     "sourceSha256": {
-      "world/layouts/overworld.json": "32071eaf776fcab4028b13fa6a74baeb5c8bf3568561c942d12a1c3f230de94d",
-      "maps/overworld.tmj": "840c78993f07301027b70b8cc00a8a6c39687a336fc86a9e512947b664021d96",
+      "world/layouts/overworld.json": "62234bbfaa842e5ade7cd091b27ab956440998070cde641e30fadbe9c2bece31",
+      "maps/overworld.tmj": "44fa3aad2bbc33d790f7f9be18d0316493374cb2a90f6b4746f2d273be272122",
       "maps/overworld.wam": "34912c410e77b9ce32c356275f585a5b8f444187b8f447d346f7542bbe159eff",
       "tests/exterior-gates.test.ts": "eeaf05f4e7311d7bf8053609a7221d63dbc60d6b0493cfa513278a77339f84da",
       "tests/npc-maps.test.ts": "9e0951890a877421e27e13127a1d2243b057c1e89559276d4e5d43d321c8ea57",
@@ -57,10 +57,10 @@
       "tools/maps/maze-gate-context.ts": "c037c2de5058365087839c3208244360e4d80bffae0aec98e2263974807fc350",
       "art/source/maze-gate-refresh.json": "44a807922c89b3bf6c46ade6d4578ed3a304c9dbfac0e2215fdbe24434ad1b19",
       "tools/maps/expo-chair-physics.ts": "ee0fed3318613b75d9565a413c1e725ba3849994a147854a442b6a09701607e9",
-      "tools/maps/plaza-native.ts": "dea69cd308c5383a01d62a5685b66006f201a7955cbaf20b3657700558e2bcb7",
+      "tools/maps/plaza-native.ts": "8f778fe4475705edf57f0e2fc2b753ed7bbdb0c4bf80e54d37f5af30f78e9c21",
       "tools/maps/check-in-definition.ts": "269d398c6a4f8c8f2760361dd67a107e34d9d4c064ea511b7bbce979c7a6123f",
       "world/check-in-counter.json": "866948b4bb574d6484d33fd672b1f6888a052fa1e2b0d84b70be71833d671a32",
-      "tools/maps/event-presentation.ts": "3da2f14f1087374318bf9bd6e0755a9c5ffd5618611321c16c0b8ade819049f3",
+      "tools/maps/event-presentation.ts": "20603ef98de735bd84e84a5601f5be6401ade11bbf317d55ca5c63b7e7196b97",
       "tools/maps/event-native-context.ts": "3f1e3ace564feb1e2056a8e7ac924686d944b5f0f02ae7a48d8e7c422e460fd8",
       "world/event-presentation.json": "36bfa30e29be41bcef6fccb0606ce6bc14b9d182f22cc5f2e3e9b97e6d7aa400",
       "world/event-native-reservations.json": "44e6801550887db382e3157499728c3649ac617d890bafa49e1631b11331ff63",
@@ -115,14 +115,10 @@
       "tools/maps/arrival-hospitality.ts": "0d0a9f4b385edc337d2cdc3b0dae56c1c85055ca50339fe58f9cc79a515fe179",
       "tools/maps/plaza-shoreline.ts": "b3d8e416ba251996e72d8a8ec2c6fb16cc67558f24b41e9198c319ce5ed15da2",
       "world/plaza-shoreline.json": "b0a34397b7d62e1ab99462580bd86cc8547a364bec3ae495e7bcc4271874d8ca",
-      "tools/maps/native-ownership-context.ts": "61ba555d7776183f927225bcc4e8eba78aa0b439de0579520e961145807f2ac0",
-      "tools/maps/roadster-flight.ts": "7a811a7367b9e4b7db21c1620a0a14ef78eeda4e101835b3787ef020d3c1dcc6",
-      "world/roadster-flight.json": "a380e60a21a507a38ea4ebdf140e9aa49ccb4164767d36ab5814619201d5b7ce",
-      "tools/art/roadster-flight.ts": "b118dff9fa1e829aba7cee8e226d538efbb38c37cc3556a9abe4f826d85f1ac4",
-      "art/source/roadster-flight-authoring.json": "5b5e72018bd7d7861bd20331ebab86fc60ac29dc061620cd1fafd40f3d5ca7d3"
+      "tools/maps/native-ownership-context.ts": "7acadecf9534085b360f132dbbc5d84ad83be6d3ca9931b4078f6d24c1810ec1"
     },
     "allowedCellsSha256": "34d4a7f34610d0b669b9f059086557e03aec0f379cf28c832797a279cc07061d",
-    "geometrySha256": "82d4350bc16c0be20fe4280ee7837c98c6233eb3cc3753bc680f52856cbde5df",
+    "geometrySha256": "96883f3d6bd1865a9ba88d176a88f0faa63580c403d59875795927db1bd01ce9",
     "geometryEncoding": "Sorted-key JSON of width,height,tilewidth,tileheight,layers with objectgroup class omitted only when identical to nonempty object type,tilesets excluding image,properties excluding script; UTF-8 SHA-256."
   },
   "home": [
