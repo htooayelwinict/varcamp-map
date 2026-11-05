@@ -1,0 +1,155 @@
+{
+  "schemaVersion": 1,
+  "revisions": [
+    {
+      "path": "art/sources.json",
+      "fromSha256": "0b47807e83b70398f5bf91d0acfbb264aab6090276be0cebc78eb6cb7212bbee",
+      "toSha256": "1b8c38f40bb34d1ace904c7df5cda8dd380980684e861cd41352a77c030867e9",
+      "reason": "Replace Exploration Court and four retreats with native licensed woodland/cavern adventure maps, preserve existing route identities and observatory gate, append private optional activities and a closed live-WAM area migration. Other map geometry remains byte-exact."
+    },
+    {
+      "path": "art/tile-catalog.json",
+      "fromSha256": "ed0499d487d5eed78b3ca294edd729f7c5be24b290316d18b1d3b4fa94731b38",
+      "toSha256": "414b9690e6503cb334e97fc521c6dbc61597c98ec56321ec6fed6870870f5962",
+      "reason": "Replace Exploration Court and four retreats with native licensed woodland/cavern adventure maps, preserve existing route identities and observatory gate, append private optional activities and a closed live-WAM area migration. Other map geometry remains byte-exact."
+    },
+    {
+      "path": "maps/campus-exploration.tmj",
+      "fromSha256": "1418dfeb458d31c8f831968dfe46cea36ed19088fdc6a780dca36c6387c41bd8",
+      "toSha256": "8d1771c3b515248dad5f79912ae744faf2efc1e44631e81198dc7254b97ed8c9",
+      "reason": "Replace Exploration Court and four retreats with native licensed woodland/cavern adventure maps, preserve existing route identities and observatory gate, append private optional activities and a closed live-WAM area migration. Other map geometry remains byte-exact."
+    },
+    {
+      "path": "maps/campus-exploration.wam",
+      "fromSha256": "dce2b026acf5c0f7535eb641cd3ed41ea8ddf737568153b400b9d341203e79d1",
+      "toSha256": "ec143c153fcdb82a5d5d7bb1247da33d0624fcbd0a59b1e07ba5603b4c01ebd3",
+      "reason": "Replace Exploration Court and four retreats with native licensed woodland/cavern adventure maps, preserve existing route identities and observatory gate, append private optional activities and a closed live-WAM area migration. Other map geometry remains byte-exact."
+    },
+    {
+      "path": "maps/moon-cafe.tmj",
+      "fromSha256": "a8d8a1afe8dfa2b5b4604af8298e5e0ba3e2c73df2cf8532e2f4181cc86601fc",
+      "toSha256": "8679207f7be93a105b1add82ea5e3b14db150bfa80af6f5b206fafec1951df04",
+      "reason": "Replace Exploration Court and four retreats with native licensed woodland/cavern adventure maps, preserve existing route identities and observatory gate, append private optional activities and a closed live-WAM area migration. Other map geometry remains byte-exact."
+    },
+    {
+      "path": "maps/moon-cafe.wam",
+      "fromSha256": "595081627a27e1890fcef7b600ee933c901a8cefe65a1036e220953b25e540d3",
+      "toSha256": "4937f1a190c77e0067a2e5e0680db2bfad01739b190e17379184de8313743f28",
+      "reason": "Replace Exploration Court and four retreats with native licensed woodland/cavern adventure maps, preserve existing route identities and observatory gate, append private optional activities and a closed live-WAM area migration. Other map geometry remains byte-exact."
+    },
+    {
+      "path": "maps/moon-grotto.tmj",
+      "fromSha256": "37951759fd02ee9935751fe4bdaca323c4ea0b0c13f8b2d747a5a43d90da020a",
+      "toSha256": "14c46e89a24bfdbf6bccffaf170a0db9f531c7e2884278a84f76aa72866d382c",
+      "reason": "Replace Exploration Court and four retreats with native licensed woodland/cavern adventure maps, preserve existing route identities and observatory gate, append private optional activities and a closed live-WAM area migration. Other map geometry remains byte-exact."
+    },
+    {
+      "path": "maps/moon-grotto.wam",
+      "fromSha256": "003bcd8e813606b232565c4a323074c7b568b6d0c52b03d0e8e5971be24268ec",
+      "toSha256": "01374aa85c1da585a6ab08c66b5a2a45baf396e9a82de7eb30a8fb87bf2698f0",
+      "reason": "Replace Exploration Court and four retreats with native licensed woodland/cavern adventure maps, preserve existing route identities and observatory gate, append private optional activities and a closed live-WAM area migration. Other map geometry remains byte-exact."
+    },
+    {
+      "path": "maps/preview/campus-exploration.tmj",
+      "fromSha256": "7d03547cd2e48d56ab3aef53688cc49ac65d73efb63a5695f4d8ef579582f531",
+      "toSha256": "ac19a82b5621ab59b90b016970cb460c31e1c342fc3d835500a93f90f429707c",
+      "reason": "Replace Exploration Court and four retreats with native licensed woodland/cavern adventure maps, preserve existing route identities and observatory gate, append private optional activities and a closed live-WAM area migration. Other map geometry remains byte-exact."
+    },
+    {
+      "path": "maps/preview/moon-cafe.tmj",
+      "fromSha256": "5a1a530d38a8e1ec5edef9005a047129563032688ad2f623aa602f0b66d12ec5",
+      "toSha256": "04fada3b45ad4ec7d97d7f19c552699c81b2cbefe6f21450c4acab5ef7cba56d",
+      "reason": "Replace Exploration Court and four retreats with native licensed woodland/cavern adventure maps, preserve existing route identities and observatory gate, append private optional activities and a closed live-WAM area migration. Other map geometry remains byte-exact."
+    },
+    {
+      "path": "maps/preview/moon-grotto.tmj",
+      "fromSha256": "436b902d2d4eec0222c302c71265a9ae47d39e4d6c14dc16b975264a63a86a0e",
+      "toSha256": "d26220c27d96a817dade7959f4efdbe2dfdedfdfd53da4919a7f2426acb8a8cc",
+      "reason": "Replace Exploration Court and four retreats with native licensed woodland/cavern adventure maps, preserve existing route identities and observatory gate, append private optional activities and a closed live-WAM area migration. Other map geometry remains byte-exact."
+    },
+    {
+      "path": "maps/preview/star-garden.tmj",
+      "fromSha256": "a2070a5725b4c6967d93d9ad31dc12f6e565ba34442068425ad362fc7fc069a1",
+      "toSha256": "af90cfe1b8dbf12c6108388f90e8a4c87ab2427286b10177a131838ef491001d",
+      "reason": "Replace Exploration Court and four retreats with native licensed woodland/cavern adventure maps, preserve existing route identities and observatory gate, append private optional activities and a closed live-WAM area migration. Other map geometry remains byte-exact."
+    },
+    {
+      "path": "maps/preview/stargazer-terrace.tmj",
+      "fromSha256": "4569bb93cb21e8d0fed633d2121f100b69a0a304f1971969200c79cc4ea38d62",
+      "toSha256": "9b8a2613b3ee27fdc7997ccc7562e3dc00b43aed71406593ba49dbaeb28dc714",
+      "reason": "Replace Exploration Court and four retreats with native licensed woodland/cavern adventure maps, preserve existing route identities and observatory gate, append private optional activities and a closed live-WAM area migration. Other map geometry remains byte-exact."
+    },
+    {
+      "path": "maps/star-garden.tmj",
+      "fromSha256": "1e56a6af6d4122d16e9ea9a32c4cd8e0f2ce6b8977454f155070b2f5138c464f",
+      "toSha256": "b96231d1c6260b70987375b43601d47e5738c7e1efeeef55e9162778f6484402",
+      "reason": "Replace Exploration Court and four retreats with native licensed woodland/cavern adventure maps, preserve existing route identities and observatory gate, append private optional activities and a closed live-WAM area migration. Other map geometry remains byte-exact."
+    },
+    {
+      "path": "maps/star-garden.wam",
+      "fromSha256": "9be64b84a6e75a3165fc9429c6afaac61717a5f167e604b87bf570e0431b5354",
+      "toSha256": "392b928349d817ae47686ac711b4c27693e9f2e28f9055da9bbc327c1685d505",
+      "reason": "Replace Exploration Court and four retreats with native licensed woodland/cavern adventure maps, preserve existing route identities and observatory gate, append private optional activities and a closed live-WAM area migration. Other map geometry remains byte-exact."
+    },
+    {
+      "path": "maps/stargazer-terrace.tmj",
+      "fromSha256": "155e3e3e3128424075034a3473329baf4546c126ce849c759237b5d1be2e2375",
+      "toSha256": "f050feded74543be87fc38b02665812f0b037837b77a3f877a8a30f3a4ff1594",
+      "reason": "Replace Exploration Court and four retreats with native licensed woodland/cavern adventure maps, preserve existing route identities and observatory gate, append private optional activities and a closed live-WAM area migration. Other map geometry remains byte-exact."
+    },
+    {
+      "path": "maps/stargazer-terrace.wam",
+      "fromSha256": "01cb9cc9f613e725924e3790b7316b9ada982f7bab095630763d82b86facc962",
+      "toSha256": "7648bcb2acde5413ecf074355bc7bb8c4380aa3a231cae373a9a243dcdf2d7d0",
+      "reason": "Replace Exploration Court and four retreats with native licensed woodland/cavern adventure maps, preserve existing route identities and observatory gate, append private optional activities and a closed live-WAM area migration. Other map geometry remains byte-exact."
+    },
+    {
+      "path": "src/main.ts",
+      "fromSha256": "7ee1dba3c98eec4f48445c0b914f9a1c37443c26b0ede36ea6b7f0676d198f2b",
+      "toSha256": "de709e5c57c8ace44f4e30d48c5c70bbdb40d9666a671d16fe7648dedd482bbd",
+      "reason": "Replace Exploration Court and four retreats with native licensed woodland/cavern adventure maps, preserve existing route identities and observatory gate, append private optional activities and a closed live-WAM area migration. Other map geometry remains byte-exact."
+    },
+    {
+      "path": "src/world/catalog.ts",
+      "fromSha256": "e63120b96686bfb557ce9e3f3f0173e009ea4f392ce987002ad9cbc99b66eb59",
+      "toSha256": "5cdbd5a46d817dba169b0a2c2cf0f0f273b88793905a1e58029432dd8367c8c2",
+      "reason": "Replace Exploration Court and four retreats with native licensed woodland/cavern adventure maps, preserve existing route identities and observatory gate, append private optional activities and a closed live-WAM area migration. Other map geometry remains byte-exact."
+    },
+    {
+      "path": "tools/release.ts",
+      "fromSha256": "773bb7d16516be8f23a59f93d14af0aab1a7e171fdb1fb6e92449f579645f726",
+      "toSha256": "42cbb3359219e2d6bc3037ecad72db949ca9085581b04e268259d863821d57b4",
+      "reason": "Replace Exploration Court and four retreats with native licensed woodland/cavern adventure maps, preserve existing route identities and observatory gate, append private optional activities and a closed live-WAM area migration. Other map geometry remains byte-exact."
+    },
+    {
+      "path": "world/layouts/campus-exploration.json",
+      "fromSha256": "9c76849769ac173096a68aa38a7291df38a6d05528288061ba699bd7c6c156b6",
+      "toSha256": "d9f7f88a9291ec01e0466452e26b2f216e7af677a2e6a56e414f522aaaf9152c",
+      "reason": "Replace Exploration Court and four retreats with native licensed woodland/cavern adventure maps, preserve existing route identities and observatory gate, append private optional activities and a closed live-WAM area migration. Other map geometry remains byte-exact."
+    },
+    {
+      "path": "world/layouts/moon-cafe.json",
+      "fromSha256": "9c9fcac34fd60ec84eecab433c6ff4af9be1f3bed90d1b167d21eeb806001730",
+      "toSha256": "1d3510ca5fe487310b6acbbd9ad2d6b7fec4d206adc883e25dafc884ec1d62b7",
+      "reason": "Replace Exploration Court and four retreats with native licensed woodland/cavern adventure maps, preserve existing route identities and observatory gate, append private optional activities and a closed live-WAM area migration. Other map geometry remains byte-exact."
+    },
+    {
+      "path": "world/layouts/moon-grotto.json",
+      "fromSha256": "ee1133d50c4f61441019590cd71117376e98e9c4816025f11171e183e21d3def",
+      "toSha256": "0c46488d10695411163edd92ccaf3a1d9a018a02123e1657d30fa1dda38b0cbe",
+      "reason": "Replace Exploration Court and four retreats with native licensed woodland/cavern adventure maps, preserve existing route identities and observatory gate, append private optional activities and a closed live-WAM area migration. Other map geometry remains byte-exact."
+    },
+    {
+      "path": "world/layouts/star-garden.json",
+      "fromSha256": "107b0e1fa362c36f57f9c313f13ba00ae03bab2daf80bb0361ff3f45d00c920e",
+      "toSha256": "53dcde72e0d81095e6f0e9fe4cbf896374931969a371cfc656d8fc3f67438e95",
+      "reason": "Replace Exploration Court and four retreats with native licensed woodland/cavern adventure maps, preserve existing route identities and observatory gate, append private optional activities and a closed live-WAM area migration. Other map geometry remains byte-exact."
+    },
+    {
+      "path": "world/layouts/stargazer-terrace.json",
+      "fromSha256": "1539ad4279201d0c0e2c78ed4f1533643bd66b570b7593fd2e38f9a6eb1b6214",
+      "toSha256": "0fd44875bcd16ec89c018466f1ae502d8ea69e8f54cf47ce91129aab566a1c68",
+      "reason": "Replace Exploration Court and four retreats with native licensed woodland/cavern adventure maps, preserve existing route identities and observatory gate, append private optional activities and a closed live-WAM area migration. Other map geometry remains byte-exact."
+    }
+  ]
+}

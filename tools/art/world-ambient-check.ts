@@ -2,8 +2,10 @@ import{readFileSync,existsSync}from'node:fs';
 import{createHash}from'node:crypto';
 import{isDeepStrictEqual}from'node:util';
 import{renderWorldAmbientAssets}from'./world-ambient-assets';
-import{renderWorldAmbient}from'./world-ambient';
+import{renderAmbientInPublishedContexts}from'./ambient-published-contexts';
 import{WORLD_AMBIENT_IDS}from'../maps/world-ambient';
+import{isExplorationId,assertExplorationMap}from'../maps/exploration';
+import{loadTileCatalog}from'./catalog';
 
 const need=(ok:unknown,message:string):void=>{if(!ok)throw Error(message);};
 const json=(value:unknown)=>Buffer.from(JSON.stringify(value,null,2)+'\n');
@@ -14,7 +16,7 @@ const hash=(body:Buffer)=>createHash('sha256').update(body).digest('hex');
 export async function checkWorldAmbientArt():Promise<string[]>{
  const errors:string[]=[];
  try{
-  const assets=await renderWorldAmbientAssets(),motion=await renderWorldAmbient();
+  const assets=await renderWorldAmbientAssets(),motion=await renderAmbientInPublishedContexts();
   const groups=['steam','ripples','device','lamp','leaves','cascade','glint','fish','gull'].sort();
   need(isDeepStrictEqual(Object.keys(assets.strips).sort(),groups),'closed nine source-strip groups changed');
   need(motion.length===36&&new Set(motion.map(r=>r.overlay.name)).size===36,'closed thirty-six native component roster changed');
@@ -48,6 +50,12 @@ export async function checkWorldAmbientArt():Promise<string[]>{
   }
   for(const id of WORLD_AMBIENT_IDS){
    const path=`world/layouts/${id}.json`,layout=JSON.parse(readFileSync(path,'utf8'));
+   // The five exploration maps have a complete, separately checked successor.
+   // Frozen ambient art above is still verified; only its old placement is retired.
+   if(isExplorationId(id)){
+    assertExplorationMap(JSON.parse(readFileSync(`maps/${id}.tmj`,'utf8')),layout,JSON.parse(readFileSync(`maps/${id}.wam`,'utf8')),loadTileCatalog());
+    continue;
+   }
    const actual=(layout.animatedOverlays??[]).filter((o:{name:string})=>o.name.startsWith('world-ambient-'));
    if(!isDeepStrictEqual(actual,motion.filter(r=>r.map===id).map(r=>r.overlay)))errors.push(`world-ambient: ${path}: ambient overlay descriptors differ from complete producer`);
   }

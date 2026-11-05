@@ -19,8 +19,8 @@ export const WORLD_CATALOG = {
     ]
   },
   "campus-exploration": {
-    "width": 48,
-    "height": 48,
+    "width": 64,
+    "height": 56,
     "defaultEntry": "plaza-arrival",
     "entries": [
       "from-fire",
@@ -101,18 +101,22 @@ export const WORLD_CATALOG = {
     ]
   },
   "moon-cafe": {
-    "width": 40,
-    "height": 40,
+    "width": 64,
+    "height": 56,
     "defaultEntry": "arrival",
     "entries": [
+      "from-trail-west",
+      "from-trail-east",
       "arrival"
     ]
   },
   "moon-grotto": {
-    "width": 40,
-    "height": 40,
+    "width": 64,
+    "height": 56,
     "defaultEntry": "arrival",
     "entries": [
+      "from-trail-west",
+      "from-trail-east",
       "arrival"
     ]
   },
@@ -288,18 +292,22 @@ export const WORLD_CATALOG = {
     ]
   },
   "star-garden": {
-    "width": 40,
-    "height": 40,
+    "width": 64,
+    "height": 56,
     "defaultEntry": "arrival",
     "entries": [
+      "from-trail-west",
+      "from-trail-east",
       "arrival"
     ]
   },
   "stargazer-terrace": {
-    "width": 40,
-    "height": 40,
+    "width": 64,
+    "height": 56,
     "defaultEntry": "arrival",
     "entries": [
+      "from-trail-west",
+      "from-trail-east",
       "arrival"
     ]
   },

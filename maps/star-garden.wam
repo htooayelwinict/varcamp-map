@@ -4,17 +4,76 @@
   "entities": {},
   "areas": [
     {
-      "id": "garden-conversation",
-      "name": "garden-conversation",
+      "id": "exp-fishing",
+      "name": "Moon Pond",
       "visible": true,
-      "x": 544,
+      "x": 992,
+      "y": 896,
+      "width": 64,
+      "height": 64,
+      "properties": []
+    },
+    {
+      "id": "exp-garden-game",
+      "name": "Seed Memory",
+      "visible": true,
+      "x": 800,
       "y": 768,
-      "width": 192,
-      "height": 128,
+      "width": 64,
+      "height": 64,
+      "properties": []
+    },
+    {
+      "id": "exp-discovery-taurus",
+      "name": "TAURUS Memory",
+      "visible": true,
+      "x": 608,
+      "y": 288,
+      "width": 96,
+      "height": 64,
+      "properties": []
+    },
+    {
+      "id": "exp-discovery-virgo",
+      "name": "VIRGO Memory",
+      "visible": true,
+      "x": 1760,
+      "y": 416,
+      "width": 96,
+      "height": 64,
+      "properties": []
+    },
+    {
+      "id": "exp-discovery-capricorn",
+      "name": "CAPRICORN Memory",
+      "visible": true,
+      "x": 448,
+      "y": 1408,
+      "width": 96,
+      "height": 64,
+      "properties": []
+    },
+    {
+      "id": "exp-story",
+      "name": "Woodland Spirit",
+      "visible": true,
+      "x": 1696,
+      "y": 448,
+      "width": 64,
+      "height": 64,
       "properties": []
     }
   ],
-  "entityCollections": [{"url":"https://varcamp.3-1-133-135.sslip.io/collections/FurnitureCollection.json","type":"file"},{"url":"https://varcamp.3-1-133-135.sslip.io/collections/OfficeCollection.json","type":"file"}],
+  "entityCollections": [
+    {
+      "url": "https://varcamp.3-1-133-135.sslip.io/collections/FurnitureCollection.json",
+      "type": "file"
+    },
+    {
+      "url": "https://varcamp.3-1-133-135.sslip.io/collections/OfficeCollection.json",
+      "type": "file"
+    }
+  ],
   "metadata": {
     "name": "VarCamp · Star Garden"
   }

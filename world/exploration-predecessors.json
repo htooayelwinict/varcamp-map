@@ -1,0 +1,404 @@
+{
+  "version": 1,
+  "maps": {
+    "campus-exploration": {
+      "entries": [
+        {
+          "name": "from-fire",
+          "x": 7,
+          "y": 12,
+          "width": 2,
+          "height": 2
+        },
+        {
+          "name": "from-air",
+          "x": 17,
+          "y": 12,
+          "width": 2,
+          "height": 2
+        },
+        {
+          "name": "from-earth",
+          "x": 27,
+          "y": 12,
+          "width": 2,
+          "height": 2
+        },
+        {
+          "name": "from-water",
+          "x": 37,
+          "y": 12,
+          "width": 2,
+          "height": 2
+        },
+        {
+          "name": "from-star-garden",
+          "x": 7,
+          "y": 25,
+          "width": 2,
+          "height": 2
+        },
+        {
+          "name": "from-moon-cafe",
+          "x": 37,
+          "y": 25,
+          "width": 2,
+          "height": 2
+        },
+        {
+          "name": "from-moon-grotto",
+          "x": 7,
+          "y": 36,
+          "width": 2,
+          "height": 2
+        },
+        {
+          "name": "from-stargazer-terrace",
+          "x": 37,
+          "y": 36,
+          "width": 2,
+          "height": 2
+        },
+        {
+          "name": "plaza-arrival",
+          "x": 23,
+          "y": 40,
+          "width": 2,
+          "height": 2,
+          "isDefault": true
+        },
+        {
+          "name": "from-solar",
+          "x": 23,
+          "y": 40,
+          "width": 2,
+          "height": 2
+        },
+        {
+          "name": "from-lunar",
+          "x": 23,
+          "y": 40,
+          "width": 2,
+          "height": 2
+        },
+        {
+          "name": "from-maze",
+          "x": 23,
+          "y": 40,
+          "width": 2,
+          "height": 2
+        },
+        {
+          "name": "from-observatory",
+          "x": 23,
+          "y": 40,
+          "width": 2,
+          "height": 2
+        },
+        {
+          "name": "from-arcade",
+          "x": 23,
+          "y": 40,
+          "width": 2,
+          "height": 2
+        },
+        {
+          "name": "from-festival",
+          "x": 23,
+          "y": 40,
+          "width": 2,
+          "height": 2
+        },
+        {
+          "name": "from-wheel",
+          "x": 23,
+          "y": 40,
+          "width": 2,
+          "height": 2
+        },
+        {
+          "name": "start",
+          "x": 23,
+          "y": 40,
+          "width": 2,
+          "height": 2
+        }
+      ],
+      "exits": [
+        {
+          "name": "fire",
+          "destination": "fire-district",
+          "entry": "fire-entry",
+          "x": 7,
+          "y": 10,
+          "width": 2,
+          "height": 1
+        },
+        {
+          "name": "air",
+          "destination": "air-district",
+          "entry": "air-entry",
+          "x": 17,
+          "y": 10,
+          "width": 2,
+          "height": 1
+        },
+        {
+          "name": "earth",
+          "destination": "earth-district",
+          "entry": "earth-entry",
+          "x": 27,
+          "y": 10,
+          "width": 2,
+          "height": 1
+        },
+        {
+          "name": "water",
+          "destination": "water-district",
+          "entry": "water-entry",
+          "x": 37,
+          "y": 10,
+          "width": 2,
+          "height": 1
+        },
+        {
+          "name": "star-garden",
+          "destination": "star-garden",
+          "entry": "arrival",
+          "x": 7,
+          "y": 23,
+          "width": 2,
+          "height": 1
+        },
+        {
+          "name": "moon-cafe",
+          "destination": "moon-cafe",
+          "entry": "arrival",
+          "x": 37,
+          "y": 23,
+          "width": 2,
+          "height": 1
+        },
+        {
+          "name": "moon-grotto",
+          "destination": "moon-grotto",
+          "entry": "arrival",
+          "x": 7,
+          "y": 34,
+          "width": 2,
+          "height": 1
+        },
+        {
+          "name": "stargazer-terrace",
+          "destination": "stargazer-terrace",
+          "entry": "arrival",
+          "x": 37,
+          "y": 34,
+          "width": 2,
+          "height": 1
+        },
+        {
+          "name": "plaza-return",
+          "destination": "overworld",
+          "entry": "from-campus",
+          "x": 23,
+          "y": 44,
+          "width": 2,
+          "height": 1
+        }
+      ],
+      "areas": [
+        {
+          "id": "welcome-directory",
+          "name": "welcome-directory",
+          "properties": [],
+          "x": 21,
+          "y": 30,
+          "width": 6,
+          "height": 3
+        }
+      ]
+    },
+    "star-garden": {
+      "entries": [
+        {
+          "name": "arrival",
+          "x": 19,
+          "y": 32,
+          "width": 2,
+          "height": 2,
+          "isDefault": true
+        }
+      ],
+      "exits": [
+        {
+          "name": "plaza-return",
+          "destination": "overworld",
+          "entry": "from-campus",
+          "x": 19,
+          "y": 36,
+          "width": 2,
+          "height": 1
+        },
+        {
+          "name": "branch-return",
+          "destination": "campus-exploration",
+          "entry": "from-star-garden",
+          "x": 7,
+          "y": 36,
+          "width": 2,
+          "height": 1
+        }
+      ],
+      "areas": [
+        {
+          "id": "garden-conversation",
+          "name": "garden-conversation",
+          "properties": [],
+          "x": 17,
+          "y": 24,
+          "width": 6,
+          "height": 4
+        }
+      ]
+    },
+    "moon-grotto": {
+      "entries": [
+        {
+          "name": "arrival",
+          "x": 19,
+          "y": 32,
+          "width": 2,
+          "height": 2,
+          "isDefault": true
+        }
+      ],
+      "exits": [
+        {
+          "name": "plaza-return",
+          "destination": "overworld",
+          "entry": "from-campus",
+          "x": 19,
+          "y": 36,
+          "width": 2,
+          "height": 1
+        },
+        {
+          "name": "branch-return",
+          "destination": "campus-exploration",
+          "entry": "from-moon-grotto",
+          "x": 7,
+          "y": 36,
+          "width": 2,
+          "height": 1
+        }
+      ],
+      "areas": [
+        {
+          "id": "grotto-conversation",
+          "name": "grotto-conversation",
+          "properties": [],
+          "x": 17,
+          "y": 24,
+          "width": 6,
+          "height": 3
+        }
+      ]
+    },
+    "moon-cafe": {
+      "entries": [
+        {
+          "name": "arrival",
+          "x": 19,
+          "y": 32,
+          "width": 2,
+          "height": 2,
+          "isDefault": true
+        }
+      ],
+      "exits": [
+        {
+          "name": "plaza-return",
+          "destination": "overworld",
+          "entry": "from-campus",
+          "x": 19,
+          "y": 36,
+          "width": 2,
+          "height": 1
+        },
+        {
+          "name": "branch-return",
+          "destination": "campus-exploration",
+          "entry": "from-moon-cafe",
+          "x": 7,
+          "y": 36,
+          "width": 2,
+          "height": 1
+        }
+      ],
+      "areas": [
+        {
+          "id": "cafe-west",
+          "name": "cafe-west",
+          "properties": [],
+          "x": 8,
+          "y": 23,
+          "width": 4,
+          "height": 3
+        },
+        {
+          "id": "cafe-east",
+          "name": "cafe-east",
+          "properties": [],
+          "x": 29,
+          "y": 23,
+          "width": 4,
+          "height": 3
+        }
+      ]
+    },
+    "stargazer-terrace": {
+      "entries": [
+        {
+          "name": "arrival",
+          "x": 19,
+          "y": 32,
+          "width": 2,
+          "height": 2,
+          "isDefault": true
+        }
+      ],
+      "exits": [
+        {
+          "name": "plaza-return",
+          "destination": "overworld",
+          "entry": "from-campus",
+          "x": 19,
+          "y": 36,
+          "width": 2,
+          "height": 1
+        },
+        {
+          "name": "branch-return",
+          "destination": "campus-exploration",
+          "entry": "from-stargazer-terrace",
+          "x": 7,
+          "y": 36,
+          "width": 2,
+          "height": 1
+        }
+      ],
+      "areas": [
+        {
+          "id": "observatory-telescope",
+          "name": "observatory-telescope",
+          "properties": [],
+          "x": 18,
+          "y": 14,
+          "width": 3,
+          "height": 3
+        }
+      ]
+    }
+  }
+}

@@ -2,7 +2,7 @@
   "workadventure": {
     "attribution": "WorkAdventure / The Coding Machine; preserve all authors and terms in LICENSE.assets",
     "url": "https://github.com/workadventure/map-starter-kit/tree/1143646a9c02c3928eac4acbb123642c62a48a85/tilesets",
-    "license": "WorkAdventure assets license — redistribution only with a WorkAdventure map; not a standalone asset pack",
+    "license": "WorkAdventure assets license \u2014 redistribution only with a WorkAdventure map; not a standalone asset pack",
     "licenseFile": "assets/tilesets/workadventure/LICENSE.assets",
     "changes": "None. Six complete source sheets copied byte-for-byte. Catalog only selects tile rectangles.",
     "files": [
@@ -66,7 +66,7 @@
     ]
   },
   "lpc-space": {
-    "attribution": "Baŝto/Basxto, Hyptosis, FunwithPixels and Skorpio",
+    "attribution": "Ba\u015dto/Basxto, Hyptosis, FunwithPixels and Skorpio",
     "url": "https://opengameart.org/content/lpc-goes-to-space",
     "license": "CC-BY-SA 4.0",
     "licenseFile": "assets/tilesets/lpc-space/LICENSE-CC-BY-SA-4.0.txt",
@@ -2677,6 +2677,60 @@
       {
         "path": "art/source/outer-security-52.json",
         "sha256": "a84b8f89fe26f284014738d3e947dcdc228c2616956e3778fc6dc1df6d74d7ee"
+      }
+    ]
+  },
+  "lpc-exploration": {
+    "attribution": "Cottage: bluecarrot16, Sharm, HughSpectrum, Casper Nilsson. Farm: Daniel Eddeland. Cavern: Tuomo Untinen and all artists in CREDITS-cavern.txt.",
+    "url": "https://opengameart.org/content/lpc-cavern-and-ruin-tiles",
+    "license": "CC-BY-SA 3.0",
+    "licenseFile": "assets/tilesets/lpc-exploration/LICENSE-CC-BY-SA-3.0.txt",
+    "changes": "None. Upstream PNGs retained byte-for-byte. Native 32px tile selections only.",
+    "files": [
+      {
+        "path": "assets/tilesets/lpc-exploration/cavern.png",
+        "sha256": "1f0097d1d7ddcb7e34a85b285e872ff3138d62a3c3758970aad65bf0492e8adb"
+      },
+      {
+        "path": "assets/tilesets/lpc-exploration/cottage.png",
+        "sha256": "b0c076d67a13608c4542654131c97435aaef24375ef437876da5b6cff380731b"
+      },
+      {
+        "path": "assets/tilesets/lpc-exploration/farming_fishing.png",
+        "sha256": "eb57d8271eeed63a26a03349dd84686adeb03161cea55ed7b11310d78115dbd2"
+      },
+      {
+        "path": "assets/tilesets/lpc-exploration/fence.png",
+        "sha256": "4b06696d0feb9a9c834d484c5f3767183e0757e1310efc5026ba2993c97ae7bf"
+      },
+      {
+        "path": "assets/tilesets/lpc-exploration/plants.png",
+        "sha256": "593f5e134e447f7110ab1c437c6fed3d8b9b2f8a87e60a3eb3fc234da63b2140"
+      },
+      {
+        "path": "assets/tilesets/lpc-exploration/plowed_soil.png",
+        "sha256": "05660541aa1240e2b431a5721691d0c4b99d9ee28a58d8db5cf3b6f29e9ab9c3"
+      },
+      {
+        "path": "assets/tilesets/lpc-exploration/thatched-roof.png",
+        "sha256": "ce93207a11ffc5f22aff46f878631347884c48053474d5733901b1c6b03ee9ee"
+      },
+      {
+        "path": "assets/tilesets/lpc-exploration/wheat.png",
+        "sha256": "e206a38614aa304889a0e40a15e15f25639af559adc50fa73222608f8b8ab41d"
+      }
+    ]
+  },
+  "exploration-ghost": {
+    "attribution": "Ghost monster by ImogiaGames, remixed from Ghost and Skeleton by Balmer",
+    "url": "https://opengameart.org/content/ghost-monster",
+    "license": "CC0 1.0",
+    "licenseFile": "assets/tilesets/lpc-exploration/LICENSE-ghost.txt",
+    "changes": "None. Original six-frame 32px PNG retained.",
+    "files": [
+      {
+        "path": "assets/tilesets/lpc-exploration/ghost.png",
+        "sha256": "593eb2c830c787e45e5c943527c9c745b079c9c57452dafbff51b733f2982a11"
       }
     ]
   }

@@ -7,14 +7,73 @@
       "id": "observatory-telescope",
       "name": "observatory-telescope",
       "visible": true,
-      "x": 576,
-      "y": 448,
+      "x": 928,
+      "y": 416,
       "width": 96,
-      "height": 96,
+      "height": 64,
+      "properties": []
+    },
+    {
+      "id": "exp-terrace-game",
+      "name": "Star Weaver",
+      "visible": true,
+      "x": 960,
+      "y": 864,
+      "width": 64,
+      "height": 64,
+      "properties": []
+    },
+    {
+      "id": "exp-discovery-aries",
+      "name": "ARIES Memory",
+      "visible": true,
+      "x": 384,
+      "y": 576,
+      "width": 96,
+      "height": 64,
+      "properties": []
+    },
+    {
+      "id": "exp-discovery-leo",
+      "name": "LEO Memory",
+      "visible": true,
+      "x": 1632,
+      "y": 608,
+      "width": 96,
+      "height": 64,
+      "properties": []
+    },
+    {
+      "id": "exp-discovery-sagittarius",
+      "name": "SAGITTARIUS Memory",
+      "visible": true,
+      "x": 1632,
+      "y": 1376,
+      "width": 96,
+      "height": 64,
+      "properties": []
+    },
+    {
+      "id": "exp-story",
+      "name": "Woodland Spirit",
+      "visible": true,
+      "x": 448,
+      "y": 1376,
+      "width": 64,
+      "height": 64,
       "properties": []
     }
   ],
-  "entityCollections": [{"url":"https://varcamp.3-1-133-135.sslip.io/collections/FurnitureCollection.json","type":"file"},{"url":"https://varcamp.3-1-133-135.sslip.io/collections/OfficeCollection.json","type":"file"}],
+  "entityCollections": [
+    {
+      "url": "https://varcamp.3-1-133-135.sslip.io/collections/FurnitureCollection.json",
+      "type": "file"
+    },
+    {
+      "url": "https://varcamp.3-1-133-135.sslip.io/collections/OfficeCollection.json",
+      "type": "file"
+    }
+  ],
   "metadata": {
     "name": "VarCamp · Stargazer Terrace"
   }

@@ -4,17 +4,46 @@
   "entities": {},
   "areas": [
     {
+      "id": "exp-journal",
+      "name": "Field Guide",
+      "visible": true,
+      "x": 1152,
+      "y": 1152,
+      "width": 96,
+      "height": 64,
+      "properties": []
+    },
+    {
       "id": "welcome-directory",
       "name": "welcome-directory",
       "visible": true,
-      "x": 672,
-      "y": 960,
-      "width": 192,
-      "height": 96,
+      "x": 928,
+      "y": 1312,
+      "width": 96,
+      "height": 64,
+      "properties": []
+    },
+    {
+      "id": "exp-story",
+      "name": "Woodland Spirit",
+      "visible": true,
+      "x": 640,
+      "y": 1152,
+      "width": 64,
+      "height": 64,
       "properties": []
     }
   ],
-  "entityCollections": [{"url":"https://varcamp.3-1-133-135.sslip.io/collections/FurnitureCollection.json","type":"file"},{"url":"https://varcamp.3-1-133-135.sslip.io/collections/OfficeCollection.json","type":"file"}],
+  "entityCollections": [
+    {
+      "url": "https://varcamp.3-1-133-135.sslip.io/collections/FurnitureCollection.json",
+      "type": "file"
+    },
+    {
+      "url": "https://varcamp.3-1-133-135.sslip.io/collections/OfficeCollection.json",
+      "type": "file"
+    }
+  ],
   "metadata": {
     "name": "VarCamp · Campus Exploration"
   }

@@ -4,17 +4,66 @@
   "entities": {},
   "areas": [
     {
-      "id": "grotto-conversation",
-      "name": "grotto-conversation",
+      "id": "exp-grotto-game",
+      "name": "Moon Echoes",
       "visible": true,
-      "x": 544,
-      "y": 768,
-      "width": 192,
-      "height": 96,
+      "x": 1088,
+      "y": 800,
+      "width": 64,
+      "height": 64,
+      "properties": []
+    },
+    {
+      "id": "exp-discovery-cancer",
+      "name": "CANCER Memory",
+      "visible": true,
+      "x": 640,
+      "y": 384,
+      "width": 96,
+      "height": 64,
+      "properties": []
+    },
+    {
+      "id": "exp-discovery-scorpio",
+      "name": "SCORPIO Memory",
+      "visible": true,
+      "x": 1600,
+      "y": 1376,
+      "width": 96,
+      "height": 64,
+      "properties": []
+    },
+    {
+      "id": "exp-discovery-pisces",
+      "name": "PISCES Memory",
+      "visible": true,
+      "x": 256,
+      "y": 1376,
+      "width": 96,
+      "height": 64,
+      "properties": []
+    },
+    {
+      "id": "exp-story",
+      "name": "Woodland Spirit",
+      "visible": true,
+      "x": 1568,
+      "y": 544,
+      "width": 64,
+      "height": 64,
       "properties": []
     }
   ],
-  "entityCollections": [{"url":"https://varcamp.3-1-133-135.sslip.io/collections/FurnitureCollection.json","type":"file"},{"url":"https://varcamp.3-1-133-135.sslip.io/collections/OfficeCollection.json","type":"file"}],
+  "entityCollections": [
+    {
+      "url": "https://varcamp.3-1-133-135.sslip.io/collections/FurnitureCollection.json",
+      "type": "file"
+    },
+    {
+      "url": "https://varcamp.3-1-133-135.sslip.io/collections/OfficeCollection.json",
+      "type": "file"
+    }
+  ],
   "metadata": {
     "name": "VarCamp · Moon Grotto"
   }

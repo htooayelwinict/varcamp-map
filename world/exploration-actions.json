@@ -1,0 +1,232 @@
+[
+  {
+    "map": "campus-exploration",
+    "id": "exp-journal",
+    "name": "Field Guide",
+    "site": "journal",
+    "x": 36,
+    "y": 36,
+    "width": 3,
+    "height": 2
+  },
+  {
+    "map": "campus-exploration",
+    "id": "exp-story",
+    "name": "Woodland Spirit",
+    "site": "story",
+    "x": 20,
+    "y": 36,
+    "width": 2,
+    "height": 2
+  },
+  {
+    "map": "star-garden",
+    "id": "exp-fishing",
+    "name": "Moon Pond",
+    "site": "fishing",
+    "x": 31,
+    "y": 28,
+    "width": 2,
+    "height": 2
+  },
+  {
+    "map": "star-garden",
+    "id": "exp-garden-game",
+    "name": "Seed Memory",
+    "site": "garden",
+    "x": 25,
+    "y": 24,
+    "width": 2,
+    "height": 2
+  },
+  {
+    "map": "star-garden",
+    "id": "exp-discovery-taurus",
+    "name": "TAURUS Memory",
+    "site": "discovery-taurus",
+    "x": 19,
+    "y": 9,
+    "width": 3,
+    "height": 2
+  },
+  {
+    "map": "star-garden",
+    "id": "exp-discovery-virgo",
+    "name": "VIRGO Memory",
+    "site": "discovery-virgo",
+    "x": 55,
+    "y": 13,
+    "width": 3,
+    "height": 2
+  },
+  {
+    "map": "star-garden",
+    "id": "exp-discovery-capricorn",
+    "name": "CAPRICORN Memory",
+    "site": "discovery-capricorn",
+    "x": 14,
+    "y": 44,
+    "width": 3,
+    "height": 2
+  },
+  {
+    "map": "star-garden",
+    "id": "exp-story",
+    "name": "Woodland Spirit",
+    "site": "story",
+    "x": 53,
+    "y": 14,
+    "width": 2,
+    "height": 2
+  },
+  {
+    "map": "moon-grotto",
+    "id": "exp-grotto-game",
+    "name": "Moon Echoes",
+    "site": "grotto",
+    "x": 34,
+    "y": 25,
+    "width": 2,
+    "height": 2
+  },
+  {
+    "map": "moon-grotto",
+    "id": "exp-discovery-cancer",
+    "name": "CANCER Memory",
+    "site": "discovery-cancer",
+    "x": 20,
+    "y": 12,
+    "width": 3,
+    "height": 2
+  },
+  {
+    "map": "moon-grotto",
+    "id": "exp-discovery-scorpio",
+    "name": "SCORPIO Memory",
+    "site": "discovery-scorpio",
+    "x": 50,
+    "y": 43,
+    "width": 3,
+    "height": 2
+  },
+  {
+    "map": "moon-grotto",
+    "id": "exp-discovery-pisces",
+    "name": "PISCES Memory",
+    "site": "discovery-pisces",
+    "x": 8,
+    "y": 43,
+    "width": 3,
+    "height": 2
+  },
+  {
+    "map": "moon-grotto",
+    "id": "exp-story",
+    "name": "Woodland Spirit",
+    "site": "story",
+    "x": 49,
+    "y": 17,
+    "width": 2,
+    "height": 2
+  },
+  {
+    "map": "moon-cafe",
+    "id": "exp-cafe-game",
+    "name": "Moonleaf Kitchen",
+    "site": "cafe",
+    "x": 31,
+    "y": 16,
+    "width": 2,
+    "height": 2
+  },
+  {
+    "map": "moon-cafe",
+    "id": "exp-story",
+    "name": "Woodland Spirit",
+    "site": "story",
+    "x": 43,
+    "y": 23,
+    "width": 2,
+    "height": 2
+  },
+  {
+    "map": "moon-cafe",
+    "id": "exp-discovery-gemini",
+    "name": "GEMINI Memory",
+    "site": "discovery-gemini",
+    "x": 14,
+    "y": 17,
+    "width": 3,
+    "height": 2
+  },
+  {
+    "map": "moon-cafe",
+    "id": "exp-discovery-libra",
+    "name": "LIBRA Memory",
+    "site": "discovery-libra",
+    "x": 51,
+    "y": 19,
+    "width": 3,
+    "height": 2
+  },
+  {
+    "map": "moon-cafe",
+    "id": "exp-discovery-aquarius",
+    "name": "AQUARIUS Memory",
+    "site": "discovery-aquarius",
+    "x": 51,
+    "y": 43,
+    "width": 3,
+    "height": 2
+  },
+  {
+    "map": "stargazer-terrace",
+    "id": "exp-terrace-game",
+    "name": "Star Weaver",
+    "site": "terrace",
+    "x": 30,
+    "y": 27,
+    "width": 2,
+    "height": 2
+  },
+  {
+    "map": "stargazer-terrace",
+    "id": "exp-discovery-aries",
+    "name": "ARIES Memory",
+    "site": "discovery-aries",
+    "x": 12,
+    "y": 18,
+    "width": 3,
+    "height": 2
+  },
+  {
+    "map": "stargazer-terrace",
+    "id": "exp-discovery-leo",
+    "name": "LEO Memory",
+    "site": "discovery-leo",
+    "x": 51,
+    "y": 19,
+    "width": 3,
+    "height": 2
+  },
+  {
+    "map": "stargazer-terrace",
+    "id": "exp-discovery-sagittarius",
+    "name": "SAGITTARIUS Memory",
+    "site": "discovery-sagittarius",
+    "x": 51,
+    "y": 43,
+    "width": 3,
+    "height": 2
+  },
+  {
+    "map": "stargazer-terrace",
+    "id": "exp-story",
+    "name": "Woodland Spirit",
+    "site": "story",
+    "x": 14,
+    "y": 43,
+    "width": 2,
+    "height": 2
+  }
+]

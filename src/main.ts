@@ -1,3 +1,4 @@
+import {registerExpedition} from './adventure/interactions';
 import { initializeWorld } from './runtime';
 import { registerGuideMenu } from './guides/menu';
 import { registerCheckInCounter } from './check-in/counter';
@@ -16,3 +17,5 @@ void WA.onInit().then(() => {
  const dispose=registerOrbitCourse(WA);
  window.addEventListener('pagehide',dispose,{once:true});
 }).catch(() => { console.warn('VarCamp playground course unavailable.'); });
+
+void WA.onInit().then(()=>{const dispose=registerExpedition(WA);window.addEventListener("pagehide",dispose,{once:true});}).catch(()=>console.warn("VarCamp expedition unavailable; physical trails remain open."));

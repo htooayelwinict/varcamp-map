@@ -1,3 +1,4 @@
+import {isExplorationId,assertExplorationMap} from './exploration';
 import {assertDeclaredMapIdentity} from './current-package';
 import {assertNativeReferenceInterior} from './reference-interiors';
 import {assertNativeStandingCaptions} from './standing-captions';
@@ -15,6 +16,7 @@ import type {TiledMap,MapLayout,WamFile} from './types';
  * Filename identity always precedes all domain dispatch. */
 export function assertCurrentNativeMap(id:string,map:TiledMap,layout:MapLayout,wam:WamFile,catalog:TileCatalog):void{
  assertDeclaredMapIdentity(id,map,layout,wam);
+ if(isExplorationId(id)){assertExplorationMap(map,layout,wam,catalog);return;}
  if(isNaturalCoastId(id)){
   assertNaturalCoast(map,layout,wam,catalog);
   return;

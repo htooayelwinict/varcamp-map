@@ -4,27 +4,66 @@
   "entities": {},
   "areas": [
     {
-      "id": "cafe-west",
-      "name": "cafe-west",
+      "id": "exp-cafe-game",
+      "name": "Moonleaf Kitchen",
       "visible": true,
-      "x": 256,
-      "y": 736,
-      "width": 128,
-      "height": 96,
+      "x": 992,
+      "y": 512,
+      "width": 64,
+      "height": 64,
       "properties": []
     },
     {
-      "id": "cafe-east",
-      "name": "cafe-east",
+      "id": "exp-story",
+      "name": "Woodland Spirit",
       "visible": true,
-      "x": 928,
+      "x": 1376,
       "y": 736,
-      "width": 128,
-      "height": 96,
+      "width": 64,
+      "height": 64,
+      "properties": []
+    },
+    {
+      "id": "exp-discovery-gemini",
+      "name": "GEMINI Memory",
+      "visible": true,
+      "x": 448,
+      "y": 544,
+      "width": 96,
+      "height": 64,
+      "properties": []
+    },
+    {
+      "id": "exp-discovery-libra",
+      "name": "LIBRA Memory",
+      "visible": true,
+      "x": 1632,
+      "y": 608,
+      "width": 96,
+      "height": 64,
+      "properties": []
+    },
+    {
+      "id": "exp-discovery-aquarius",
+      "name": "AQUARIUS Memory",
+      "visible": true,
+      "x": 1632,
+      "y": 1376,
+      "width": 96,
+      "height": 64,
       "properties": []
     }
   ],
-  "entityCollections": [{"url":"https://varcamp.3-1-133-135.sslip.io/collections/FurnitureCollection.json","type":"file"},{"url":"https://varcamp.3-1-133-135.sslip.io/collections/OfficeCollection.json","type":"file"}],
+  "entityCollections": [
+    {
+      "url": "https://varcamp.3-1-133-135.sslip.io/collections/FurnitureCollection.json",
+      "type": "file"
+    },
+    {
+      "url": "https://varcamp.3-1-133-135.sslip.io/collections/OfficeCollection.json",
+      "type": "file"
+    }
+  ],
   "metadata": {
     "name": "VarCamp · Moon Cafe"
   }
