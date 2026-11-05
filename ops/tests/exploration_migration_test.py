@@ -4,7 +4,7 @@ import sys
 import unittest
 from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
-from enchanted_exploration import MAPS, ROOT, exploration_candidate, is_exploration_wam_change
+from enchanted_exploration import MAPS, ROOT, LEGACY_IDS, exploration_candidate, is_exploration_wam_change
 
 
 class MigrationTest(unittest.TestCase):
@@ -24,6 +24,12 @@ class MigrationTest(unittest.TestCase):
                 self.assertIn(extra,out['areas'])
                 self.assertEqual(exploration_candidate(path,out),out)
                 self.assertTrue(is_exploration_wam_change(path,json.dumps(data),json.dumps(out)))
+                legacy=copy.deepcopy(data)
+                for a in legacy['areas']:
+                    a['id']=LEGACY_IDS.get(map_id,{}).get(a['id'],a['id'])
+                self.assertEqual(exploration_candidate(path,legacy),out)
+                legacy['areas'][0]['properties']=[{'id':'edited-control','type':'silent'}]
+                self.assertIsNone(exploration_candidate(path,legacy))
                 for mutate in ('geometry','controls','extra-field','duplicate','partial'):
                     bad=copy.deepcopy(data)
                     if mutate=='geometry':bad['areas'][0]['x']+=32

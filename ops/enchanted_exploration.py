@@ -5,6 +5,12 @@ from pathlib import Path
 from auditorium_spacing import same, GEOMETRY
 
 MAPS = ('campus-exploration', 'star-garden', 'moon-grotto', 'moon-cafe', 'stargazer-terrace')
+# The oldest saved editor files used these IDs with the same names, geometry
+# and empty controls. Accept only these observed complete predecessor variants.
+LEGACY_IDS = {
+    'star-garden': {'garden-conversation': 'campus-exploration-area-0'},
+    'moon-cafe': {'cafe-west': 'campus-exploration-area-2', 'cafe-east': 'campus-exploration-area-3'},
+}
 ROOT = Path(__file__).resolve().parent.parent
 
 
@@ -21,19 +27,20 @@ def exploration_candidate(path, data):
         pixels = lambda a: {**a, 'visible': True, **{k: a[k] * 32 for k in GEOMETRY}}
         old = [pixels(a) for a in old]
         new = [pixels(a) for a in new]
+        legacy = [{**a, 'id': LEGACY_IDS.get(map_id, {}).get(a['id'], a['id'])} for a in old]
         result = copy.deepcopy(data)
         areas = result['areas']
         for key in ('id', 'name'):
             values = [a[key] for a in areas]
             if any(not isinstance(v, str) or not v for v in values) or len(set(values)) != len(values):
                 return None
-        owned = {a['id'] for a in old + new}
+        owned = {a['id'] for a in old + legacy + new}
         actual = [a for a in areas if a['id'] in owned]
         canonical = lambda rows: sorted(rows, key=lambda a: a['id'])
         if same(canonical(actual), canonical(new)):
             return result
         # Exact predecessor controls and fields: do not discard live edits.
-        if not same(canonical(actual), canonical(old)):
+        if not any(same(canonical(actual), canonical(rows)) for rows in (old, legacy)):
             return None
         independent = [a for a in areas if a['id'] not in owned]
         if {a['name'] for a in independent} & {a['name'] for a in new}:
