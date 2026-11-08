@@ -25,6 +25,7 @@ Options:
   --auditorium-spacing   Move the three owned zones in each zodiac room to the expanded layout.
   --office-wings        Append four side-wing areas to each zodiac room; retain saved editor data.
   --organizer-meetings  Enable shared meetings in the twelve existing organizer offices.
+  --reset-sagittarius-organizer Remove the reviewed manual lock/highlight settings from that office.
   --enchanted-exploration Replace the five reviewed exploration area sets; retain other editor data.
   --apply                After prepare: upload the plan (--quiet-editor-window) and run
                          `npm run acceptance:smoke`. Without it the script stops after
@@ -53,6 +54,7 @@ while [ $# -gt 0 ]; do
     --auditorium-spacing) wam_options+=(--auditorium-spacing); shift ;;
     --office-wings) wam_options+=(--office-wings); shift ;;
     --organizer-meetings) wam_options+=(--organizer-meetings); shift ;;
+    --reset-sagittarius-organizer) wam_options+=(--reset-sagittarius-organizer); shift ;;
     --enchanted-exploration) wam_options+=(--enchanted-exploration); shift ;;
     -h|--help) usage; exit 0 ;;
     *) echo "Unknown argument: $1" >&2; usage >&2; exit 2 ;;

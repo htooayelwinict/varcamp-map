@@ -17,7 +17,7 @@ import sys
 from release_upload import Storage, read_zip, wam_reference, zip_bytes
 from auditorium_spacing import ROOMS, auditorium_candidate
 from office_wings import office_wings_candidate
-from organizer_meetings import organizer_meetings_candidate
+from organizer_meetings import organizer_meetings_candidate, reset_sagittarius_organizer_candidate
 from enchanted_exploration import MAPS as EXPLORATION_MAPS, exploration_candidate
 
 PLACEHOLDER = b'<VERSION>'
@@ -51,7 +51,7 @@ def rewrite_token(path, data, new_pin):
     return output
 
 
-def migrate(live, dist, *, auditorium_spacing=False, office_wings=False, organizer_meetings=False, enchanted_exploration=False):
+def migrate(live, dist, *, auditorium_spacing=False, office_wings=False, organizer_meetings=False, reset_sagittarius_organizer=False, enchanted_exploration=False):
     """Plan paired references and, only when requested, the closed area migration."""
     dist = pathlib.Path(dist)
     reviewed = {}
@@ -85,6 +85,13 @@ def migrate(live, dist, *, auditorium_spacing=False, office_wings=False, organiz
                 raise ValueError(f'{path}: organizer meeting conflicts with the reviewed office or saved editor data')
             if updated != parsed:
                 body = (json.dumps(updated, indent=2, ensure_ascii=False) + '\n').encode('utf-8')
+        if reset_sagittarius_organizer and path == 'maps/speaker-sagittarius.wam':
+            parsed = json.loads(body)
+            updated = reset_sagittarius_organizer_candidate(path, parsed)
+            if updated is None:
+                raise ValueError(f'{path}: manual organizer settings differ from the reviewed reset; editor data retained')
+            if updated != parsed:
+                body = (json.dumps(updated, indent=2, ensure_ascii=False) + '\n').encode('utf-8')
         if enchanted_exploration and path in {'maps/' + room + '.wam' for room in EXPLORATION_MAPS}:
             parsed = json.loads(body)
             updated = exploration_candidate(path, parsed)
@@ -109,12 +116,13 @@ def main(argv=None):
     parser.add_argument('--auditorium-spacing', action='store_true', help='Apply the reviewed twelve-room area geometry migration, preserving saved controls and editor data')
     parser.add_argument('--office-wings', action='store_true', help='Append four reviewed side-wing areas in each zodiac room, preserving existing editor content')
     parser.add_argument('--organizer-meetings', action='store_true', help='Enable a shared native meeting in each existing organizer office; retain all other editor data')
+    parser.add_argument('--reset-sagittarius-organizer', action='store_true', help='Remove only the reviewed manual lock/highlight/description edit from the Sagittarius organizer office')
     parser.add_argument('--enchanted-exploration', action='store_true', help='Replace the reviewed five exploration area sets; preserve independent live editor data')
     args = parser.parse_args(argv)
     if not args.dist.is_dir():
         parser.error('Build the release first; dist/ is missing')
     live = read_zip(Storage(args.environment).download(args.target))
-    reviewed, summary = migrate(live, args.dist, auditorium_spacing=args.auditorium_spacing, office_wings=args.office_wings, organizer_meetings=args.organizer_meetings, enchanted_exploration=args.enchanted_exploration)
+    reviewed, summary = migrate(live, args.dist, auditorium_spacing=args.auditorium_spacing, office_wings=args.office_wings, organizer_meetings=args.organizer_meetings, reset_sagittarius_organizer=args.reset_sagittarius_organizer, enchanted_exploration=args.enchanted_exploration)
     args.out.parent.mkdir(parents=True, exist_ok=True)
     args.out.write_bytes(zip_bytes(reviewed))
     print(json.dumps({'target': args.target, 'out': str(args.out), 'liveWams': sum(p.endswith('.wam') for p in live),

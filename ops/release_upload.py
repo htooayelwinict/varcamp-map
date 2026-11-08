@@ -15,7 +15,7 @@ from verified_transport import create_opener
 from map_roster import MAP_IDS
 from auditorium_spacing import is_auditorium_spacing_wam_change
 from office_wings import is_office_wings_wam_change
-from organizer_meetings import is_organizer_meetings_wam_change
+from organizer_meetings import is_organizer_meetings_wam_change, is_sagittarius_organizer_reset_wam_change
 from enchanted_exploration import is_exploration_wam_change
 
 
@@ -199,6 +199,8 @@ def wam_dependencies(release, baseline, reviewed_wams=None):
                     named_migration = 'speaker-office-wings-v1'
                 elif is_organizer_meetings_wam_change(path, baseline[path], candidate):
                     named_migration = 'organizer-meetings-v1'
+                elif is_sagittarius_organizer_reset_wam_change(path, baseline[path], candidate):
+                    named_migration = 'sagittarius-organizer-reset-v1'
                 elif is_exploration_wam_change(path, baseline[path], candidate):
                     named_migration = 'enchanted-exploration-v1'
             if protected != original_protected and not named_migration:

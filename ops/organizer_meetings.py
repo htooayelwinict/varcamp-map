@@ -79,3 +79,38 @@ def is_organizer_meetings_wam_change(path, before, after):
         return False
     expected['mapUrl'] = actual.get('mapUrl')
     return same(expected, actual)
+
+
+# Lewis requested removing this specific manual edit after confirming it made
+# Sagittarius behave differently. Ordinary meeting migrations still retain it.
+SAGITTARIUS_MANUAL_PROPERTIES = [
+    {'id': 'bfee37ec-7d97-46cb-9b21-e4dd4ee8ad62', 'type': 'areaDescriptionProperties', 'description': '', 'searchable': False},
+    {'id': 'c49abbf3-ed52-4171-9e7d-7bb04b988be3', 'type': 'lockableAreaPropertyData', 'allowedTags': []},
+    {'id': '0d310e50-589b-444d-aa7b-16fbda4b766b', 'hideButtonLabel': True, 'type': 'highlight', 'opacity': 0.6, 'gradientWidth': 10, 'duration': 250, 'color': '#000000'},
+]
+
+
+def reset_sagittarius_organizer_candidate(path, data):
+    if path != 'maps/speaker-sagittarius.wam':
+        return None
+    result = organizer_meetings_candidate(path, data)
+    if result is None or not same(result, data):
+        return None  # The existing meeting must already be present and exact.
+    area = next(a for a in result['areas'] if a['id'] == 'sagittarius-office-organizers')
+    meeting = [p for p in area['properties'] if p['type'] == 'livekitRoomProperty']
+    if same(area['properties'], meeting) and 'modifyProperties' not in area:
+        return result
+    if area.get('modifyProperties') is not True or not same(area['properties'], SAGITTARIUS_MANUAL_PROPERTIES + meeting):
+        return None  # Changed or additional manual edits require fresh review.
+    area['properties'] = meeting
+    del area['modifyProperties']
+    return result
+
+
+def is_sagittarius_organizer_reset_wam_change(path, before, after):
+    expected = reset_sagittarius_organizer_candidate(path, json.loads(before))
+    actual = json.loads(after)
+    if expected is None:
+        return False
+    expected['mapUrl'] = actual.get('mapUrl')
+    return same(expected, actual)

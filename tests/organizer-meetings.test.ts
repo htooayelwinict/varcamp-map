@@ -25,4 +25,7 @@ describe('organizer offices share one native meeting across the entire room',()=
  it('preserves independent live editor data and refuses unsafe drift',()=>{
   expect(execFileSync('python3',['ops/tests/organizer-meetings-fixture.py'],{encoding:'utf8'})).toContain('12 organizer meetings preserve editor data');
  });
+ it('resets only the reviewed manual Sagittarius edit when explicitly requested',()=>{
+  expect(execFileSync('python3',['ops/tests/sagittarius-organizer-reset-fixture.py'],{encoding:'utf8'})).toContain('Sagittarius reset removes only the reviewed manual controls');
+ });
 });
