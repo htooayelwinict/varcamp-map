@@ -4,6 +4,7 @@ import {assertRoomMaterials} from './room-refinement';
 import {auditoriumFunctional,assertAuditoriumSpacing} from './auditorium-spacing';
 import {restoreStageSideAccess} from './stage-side-access';
 import {restoreSpeakerOfficeWings,officeWingFunctional,assertOfficeMaterials} from './speaker-office-wings';
+import {withOrganizerMeetings} from './organizer-meetings';
 import{isDeepStrictEqual}from'node:util';
 import{SIGN_IDS}from'../../src/world/catalog';
 import contractData from'../../world/interior-reference-contract.json';
@@ -23,7 +24,7 @@ export function renderReferenceInterior(layout:MapLayout,catalog:TileCatalog){
  const result=buildMap(layout,catalog);
  for(const layer of result.tmj.layers)if(layer.type==='objectgroup')for(const object of layer.objects)if(object.name==='scene-title')object.text={...(object.text as object),bold:true};
  // Native TMJ is a JSON value: the author serializer omits undefined optional fields.
- return{tmj:JSON.parse(JSON.stringify(result.tmj))as TiledMap,wam:result.wam};
+ return{tmj:JSON.parse(JSON.stringify(result.tmj))as TiledMap,wam:withOrganizerMeetings(layout.id,result.wam)};
 }
 /** Complete-package callers must first bind filename/native/layout/WAM identity.
  * This guard never writes and does not erase independent organizer WAM content. */
@@ -58,12 +59,13 @@ export function assertNativeReferenceInterior(map:TiledMap,layout:MapLayout,cata
   need(!areas.has(area.id)&&!names.has(area.name),`${layout.id}: duplicate saved WAM area identity/name`);areas.add(area.id);names.add(area.name);
   for(const property of area.properties){need(property.id.length>0&&!properties.has(property.id),`${layout.id}: duplicate saved WAM property ID`);properties.add(property.id);const owner=property.type==='livekitRoomProperty'?`meeting:${String(property.roomName)}`:property.type==='speakerMegaphone'?`speaker:${String(property.name)}`:undefined;if(owner){need(!owners.has(owner),`${layout.id}: duplicate saved WAM control owner`);owners.add(owner);}}
  }
- for(const area of functional.areas){
+ const rendered=renderReferenceInterior(layout,catalog);
+ for(const area of rendered.wam.areas){
   const actual=sourceWam.areas.filter(a=>a.id===area.id);need(actual.length===1,`${layout.id}: required saved WAM area missing`);
-  const expected={name:area.name,visible:true,x:area.x*32,y:area.y*32,width:area.width*32,height:area.height*32,properties:area.properties};
+  const expected={name:area.name,visible:true,x:area.x,y:area.y,width:area.width,height:area.height,properties:area.properties};
   for(const[key,value]of Object.entries(expected))need(isDeepStrictEqual(actual[0][key as keyof WamArea],value),`${layout.id}: required saved WAM area geometry/control changed`);
  }
- const expected=renderReferenceInterior(layout,catalog).tmj;need(isDeepStrictEqual(map,expected),`${layout.id}: saved native cells/depth/controls differ from authored source`);
+ need(isDeepStrictEqual(map,rendered.tmj),`${layout.id}: saved native cells/depth/controls differ from authored source`);
  const masks=map.layers.filter(l=>l.name==='physical-collisions');need(masks.length===1&&masks[0].type==='tilelayer',`${layout.id}: native route mask missing`);if(masks[0].type!=='tilelayer')return;const blocked=masks[0].data;
  const cells=(r:TileRect)=>Array.from({length:r.width*r.height},(_,i)=>(r.y+Math.floor(i/r.width))*map.width+r.x+i%r.width);
  for(const entry of functional.entries){

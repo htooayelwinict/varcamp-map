@@ -18,7 +18,8 @@ describe('appended venue space',()=>{
   const audience=w.areas.find((a:any)=>a.id===`${sign}-audience`);expect([audience.x,audience.y,audience.width,audience.height]).toEqual([64,512,(originalWidth-4)*32,576]);
   for(const kind of ['organizers','silent','briefing','lounge']){
    const a=w.areas.find((a:any)=>a.id===`${sign}-office-${kind}`);expect(a,kind).toBeDefined();expect(a.x).toBeGreaterThanOrEqual(36*32);
-   expect(a.properties).toEqual(kind==='silent'?[{id:`${sign}-office-quiet`,type:'silent'}]:[]);
+   if(kind==='organizers')expect(a.properties).toMatchObject([{type:'livekitRoomProperty',roomName:`varcamp-${sign}-organizer-team`,livekitRoomConfig:{disableChat:false}}]);
+   else expect(a.properties).toEqual(kind==='silent'?[{id:`${sign}-office-quiet`,type:'silent'}]:[]);
   }
   const mask=m.layers.find((a:any)=>a.name==='physical-collisions').data;
   for(let y=35;y<38;y++)expect(mask[y*width+originalWidth-1]).toBe(0);

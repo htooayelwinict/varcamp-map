@@ -2,6 +2,7 @@ import { mkdir, readFile, readdir, writeFile } from 'node:fs/promises';
 import { existsSync } from 'node:fs';
 import { createHash } from 'node:crypto';
 import { buildMap } from './builder';
+import {withOrganizerMeetings} from './organizer-meetings';
 import { addNpcGuides } from './npc-guides';
 import { loadTileCatalog } from '../art/catalog';
 import { validateMap, validateWam } from './validate';
@@ -15,7 +16,7 @@ const prior:Record<string,string>=existsSync(manifestPath)?JSON.parse(await read
 const layouts=addNpcGuides(await Promise.all((await readdir('world/layouts')).filter(f=>f.endsWith('.json')).sort().map(async f=>JSON.parse(await readFile(`world/layouts/${f}`,'utf8')) as MapLayout)));
 const outputs:Record<string,string>={};
 for(const layout of layouts){
- const{tmj,wam}=buildMap(layout,loadTileCatalog()),issues=[...validateMap(tmj,WORLD_CATALOG),...validateWam(wam)];
+ const{tmj,wam:baseWam}=buildMap(layout,loadTileCatalog()),wam=withOrganizerMeetings(layout.id,baseWam),issues=[...validateMap(tmj,WORLD_CATALOG),...validateWam(wam)];
  if(issues.length)throw Error(`${layout.id}: ${JSON.stringify(issues)}`);
  outputs[`maps/${layout.id}.tmj`]=JSON.stringify(tmj)+'\n';outputs[`maps/${layout.id}.wam`]=JSON.stringify(wam,null,2)+'\n';
 }

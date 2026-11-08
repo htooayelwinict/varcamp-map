@@ -57,7 +57,19 @@
       "y": 160,
       "width": 384,
       "height": 480,
-      "properties": [],
+      "properties": [
+        {
+          "id": "cancer-organizer-meeting",
+          "type": "livekitRoomProperty",
+          "roomName": "varcamp-cancer-organizer-team",
+          "livekitRoomConfig": {
+            "startWithAudioMuted": false,
+            "startWithVideoMuted": false,
+            "disableChat": false,
+            "raiseHandEnabled": true
+          }
+        }
+      ],
       "visible": true
     },
     {

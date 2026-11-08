@@ -1,0 +1,173 @@
+{
+  "version": 1,
+  "maps": {
+    "speaker-aries": {
+      "areaId": "aries-office-organizers",
+      "property": {
+        "id": "aries-organizer-meeting",
+        "type": "livekitRoomProperty",
+        "roomName": "varcamp-aries-organizer-team",
+        "livekitRoomConfig": {
+          "startWithAudioMuted": false,
+          "startWithVideoMuted": false,
+          "disableChat": false,
+          "raiseHandEnabled": true
+        }
+      }
+    },
+    "speaker-taurus": {
+      "areaId": "taurus-office-organizers",
+      "property": {
+        "id": "taurus-organizer-meeting",
+        "type": "livekitRoomProperty",
+        "roomName": "varcamp-taurus-organizer-team",
+        "livekitRoomConfig": {
+          "startWithAudioMuted": false,
+          "startWithVideoMuted": false,
+          "disableChat": false,
+          "raiseHandEnabled": true
+        }
+      }
+    },
+    "speaker-gemini": {
+      "areaId": "gemini-office-organizers",
+      "property": {
+        "id": "gemini-organizer-meeting",
+        "type": "livekitRoomProperty",
+        "roomName": "varcamp-gemini-organizer-team",
+        "livekitRoomConfig": {
+          "startWithAudioMuted": false,
+          "startWithVideoMuted": false,
+          "disableChat": false,
+          "raiseHandEnabled": true
+        }
+      }
+    },
+    "speaker-cancer": {
+      "areaId": "cancer-office-organizers",
+      "property": {
+        "id": "cancer-organizer-meeting",
+        "type": "livekitRoomProperty",
+        "roomName": "varcamp-cancer-organizer-team",
+        "livekitRoomConfig": {
+          "startWithAudioMuted": false,
+          "startWithVideoMuted": false,
+          "disableChat": false,
+          "raiseHandEnabled": true
+        }
+      }
+    },
+    "speaker-leo": {
+      "areaId": "leo-office-organizers",
+      "property": {
+        "id": "leo-organizer-meeting",
+        "type": "livekitRoomProperty",
+        "roomName": "varcamp-leo-organizer-team",
+        "livekitRoomConfig": {
+          "startWithAudioMuted": false,
+          "startWithVideoMuted": false,
+          "disableChat": false,
+          "raiseHandEnabled": true
+        }
+      }
+    },
+    "speaker-virgo": {
+      "areaId": "virgo-office-organizers",
+      "property": {
+        "id": "virgo-organizer-meeting",
+        "type": "livekitRoomProperty",
+        "roomName": "varcamp-virgo-organizer-team",
+        "livekitRoomConfig": {
+          "startWithAudioMuted": false,
+          "startWithVideoMuted": false,
+          "disableChat": false,
+          "raiseHandEnabled": true
+        }
+      }
+    },
+    "speaker-libra": {
+      "areaId": "libra-office-organizers",
+      "property": {
+        "id": "libra-organizer-meeting",
+        "type": "livekitRoomProperty",
+        "roomName": "varcamp-libra-organizer-team",
+        "livekitRoomConfig": {
+          "startWithAudioMuted": false,
+          "startWithVideoMuted": false,
+          "disableChat": false,
+          "raiseHandEnabled": true
+        }
+      }
+    },
+    "speaker-scorpio": {
+      "areaId": "scorpio-office-organizers",
+      "property": {
+        "id": "scorpio-organizer-meeting",
+        "type": "livekitRoomProperty",
+        "roomName": "varcamp-scorpio-organizer-team",
+        "livekitRoomConfig": {
+          "startWithAudioMuted": false,
+          "startWithVideoMuted": false,
+          "disableChat": false,
+          "raiseHandEnabled": true
+        }
+      }
+    },
+    "speaker-sagittarius": {
+      "areaId": "sagittarius-office-organizers",
+      "property": {
+        "id": "sagittarius-organizer-meeting",
+        "type": "livekitRoomProperty",
+        "roomName": "varcamp-sagittarius-organizer-team",
+        "livekitRoomConfig": {
+          "startWithAudioMuted": false,
+          "startWithVideoMuted": false,
+          "disableChat": false,
+          "raiseHandEnabled": true
+        }
+      }
+    },
+    "speaker-capricorn": {
+      "areaId": "capricorn-office-organizers",
+      "property": {
+        "id": "capricorn-organizer-meeting",
+        "type": "livekitRoomProperty",
+        "roomName": "varcamp-capricorn-organizer-team",
+        "livekitRoomConfig": {
+          "startWithAudioMuted": false,
+          "startWithVideoMuted": false,
+          "disableChat": false,
+          "raiseHandEnabled": true
+        }
+      }
+    },
+    "speaker-aquarius": {
+      "areaId": "aquarius-office-organizers",
+      "property": {
+        "id": "aquarius-organizer-meeting",
+        "type": "livekitRoomProperty",
+        "roomName": "varcamp-aquarius-organizer-team",
+        "livekitRoomConfig": {
+          "startWithAudioMuted": false,
+          "startWithVideoMuted": false,
+          "disableChat": false,
+          "raiseHandEnabled": true
+        }
+      }
+    },
+    "speaker-pisces": {
+      "areaId": "pisces-office-organizers",
+      "property": {
+        "id": "pisces-organizer-meeting",
+        "type": "livekitRoomProperty",
+        "roomName": "varcamp-pisces-organizer-team",
+        "livekitRoomConfig": {
+          "startWithAudioMuted": false,
+          "startWithVideoMuted": false,
+          "disableChat": false,
+          "raiseHandEnabled": true
+        }
+      }
+    }
+  }
+}

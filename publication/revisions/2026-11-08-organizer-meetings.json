@@ -1,0 +1,83 @@
+{
+  "schemaVersion": 1,
+  "revisions": [
+    {
+      "path": "maps/speaker-aquarius.wam",
+      "fromSha256": "6c3ddca9d8cc495b7f04c99d45d6a18dfff964e13ad46d3ee151a04bf2b5a7bc",
+      "toSha256": "7f7fd076354d9eece47e66cf0ba4939e91289716142671037afaea7616a09c42",
+      "reason": "Enable one native shared meeting with chat across each existing zodiac organizer office; preserve every tile, collision, furnishing, other area and independent live editor field."
+    },
+    {
+      "path": "maps/speaker-aries.wam",
+      "fromSha256": "182af4025aa66f0c321dcb81a5fef6e3ca76230e90f188a4191624d7aa0473d4",
+      "toSha256": "11e10878b613ecdb18465164fb62add6d569c11782c504623113589667574eeb",
+      "reason": "Enable one native shared meeting with chat across each existing zodiac organizer office; preserve every tile, collision, furnishing, other area and independent live editor field."
+    },
+    {
+      "path": "maps/speaker-cancer.wam",
+      "fromSha256": "0fa58bc0ab914a329b70d6ccaa51dbe7361b84ae58120903a1ef5d7300b26715",
+      "toSha256": "5607a8a5beccc808d88e394a448a136bfb727eeff876662fa8bd193f39a13c0b",
+      "reason": "Enable one native shared meeting with chat across each existing zodiac organizer office; preserve every tile, collision, furnishing, other area and independent live editor field."
+    },
+    {
+      "path": "maps/speaker-capricorn.wam",
+      "fromSha256": "92ea1f09f57cfbf6b0ca8f37e0cd31bd161aa0ec7f05a52059dd0f31b315f761",
+      "toSha256": "82d29df83082126f5f1b8aa82ac338f6ef88589f8197ff765ab934594f18df78",
+      "reason": "Enable one native shared meeting with chat across each existing zodiac organizer office; preserve every tile, collision, furnishing, other area and independent live editor field."
+    },
+    {
+      "path": "maps/speaker-gemini.wam",
+      "fromSha256": "27c4dda4be04b23614473a4f35a9f5073414c0b47d100098b951c1b1efefe823",
+      "toSha256": "055449a424fdff2fab9aef4b3352dae3289e8f408a531351210bf65d80a88951",
+      "reason": "Enable one native shared meeting with chat across each existing zodiac organizer office; preserve every tile, collision, furnishing, other area and independent live editor field."
+    },
+    {
+      "path": "maps/speaker-leo.wam",
+      "fromSha256": "191c856b50ce7af930d3a02c410e31c0aa7616b718272d99e2f93e5a799270b2",
+      "toSha256": "4741f3fcc1dd5eefe53b297be028d088b9c7ce8f981108c6b069c81aa6ada18d",
+      "reason": "Enable one native shared meeting with chat across each existing zodiac organizer office; preserve every tile, collision, furnishing, other area and independent live editor field."
+    },
+    {
+      "path": "maps/speaker-libra.wam",
+      "fromSha256": "4b708bb5894d7b212a6e3e9c1e3f04ef16c803ab20ff19d2d94e77562a66d39f",
+      "toSha256": "941b51a0a735bd1de5815718648f6e96871c74a98a62d5a06c2668c035552eb2",
+      "reason": "Enable one native shared meeting with chat across each existing zodiac organizer office; preserve every tile, collision, furnishing, other area and independent live editor field."
+    },
+    {
+      "path": "maps/speaker-pisces.wam",
+      "fromSha256": "2cc647be496963be203ad792c9c7ab58be40df241c8040c62b1eb7b11002492a",
+      "toSha256": "bdb181b684c556f1114e6748c635eb8941e10a0542341a967b610d4932f2751d",
+      "reason": "Enable one native shared meeting with chat across each existing zodiac organizer office; preserve every tile, collision, furnishing, other area and independent live editor field."
+    },
+    {
+      "path": "maps/speaker-sagittarius.wam",
+      "fromSha256": "4be794991e1bc69244785dc29298a1e9f92b12223717fabb4085b31ee717ab23",
+      "toSha256": "20e0c6b97c0b73dc366b482fdfcb4a21da4e019910bfa9b69278414f6f9d9e84",
+      "reason": "Enable one native shared meeting with chat across each existing zodiac organizer office; preserve every tile, collision, furnishing, other area and independent live editor field."
+    },
+    {
+      "path": "maps/speaker-scorpio.wam",
+      "fromSha256": "bb872042bacbff68234007e3924f36a526bb5c2def2370a237d306fdefa8d1aa",
+      "toSha256": "7a766718e60f5454833255716f59f36911cb94e78f86d19a338e4932e3440dfe",
+      "reason": "Enable one native shared meeting with chat across each existing zodiac organizer office; preserve every tile, collision, furnishing, other area and independent live editor field."
+    },
+    {
+      "path": "maps/speaker-taurus.wam",
+      "fromSha256": "5d00a7c212c7bbb8f8c0c7b5f7e206f99b2cfea78265911f78675bac86905291",
+      "toSha256": "fc82c24f51297102564acc2a43dbca9a18c8b4595a0aba97a9f33c16e54ebfbf",
+      "reason": "Enable one native shared meeting with chat across each existing zodiac organizer office; preserve every tile, collision, furnishing, other area and independent live editor field."
+    },
+    {
+      "path": "maps/speaker-virgo.wam",
+      "fromSha256": "6d5318d3749e5e953b9cf090d20e28c1c568ec56d47f0cbb41467f832869c6f7",
+      "toSha256": "593f5d83a1de0d19aec8bc1ee7236811c5839e2c6153255ee7581ac3cb027c69",
+      "reason": "Enable one native shared meeting with chat across each existing zodiac organizer office; preserve every tile, collision, furnishing, other area and independent live editor field."
+    },
+    {
+      "path": "tools/maps/author.ts",
+      "fromSha256": "9c39f11c800c27b2497ef0e4fbeff65265f143ddbd8ff8b2bb5ed7110ccd4b88",
+      "toSha256": "1632165ef063c28a88b294c40138eb1d63ee6887120fbd0ba0dffff561e2b586",
+      "reason": "Enable one native shared meeting with chat across each existing zodiac organizer office; preserve every tile, collision, furnishing, other area and independent live editor field."
+    }
+  ]
+}

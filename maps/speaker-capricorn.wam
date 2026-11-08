@@ -57,7 +57,19 @@
       "y": 160,
       "width": 384,
       "height": 480,
-      "properties": [],
+      "properties": [
+        {
+          "id": "capricorn-organizer-meeting",
+          "type": "livekitRoomProperty",
+          "roomName": "varcamp-capricorn-organizer-team",
+          "livekitRoomConfig": {
+            "startWithAudioMuted": false,
+            "startWithVideoMuted": false,
+            "disableChat": false,
+            "raiseHandEnabled": true
+          }
+        }
+      ],
       "visible": true
     },
     {
