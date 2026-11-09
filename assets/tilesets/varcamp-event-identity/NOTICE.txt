@@ -1,0 +1,14 @@
+VarCamp event identity, supplied by Lewis on 2026-11-09.
+
+supplied-flame.png is the exact uploaded logo (1).png, retained byte-for-byte.
+SHA-256: ffb579d7e977790707d29abaf7f86c0451703973a6f2ff1805f31aa4442a1aa2
+
+The event organizer requested its use for every VarCamp map logo. Rights in
+the brand and supplied artwork remain with their respective owners. This is
+organizer-approved event use, not a CC0 dedication or a general sublicense.
+
+The derived horizontal SVG embeds the supplied flame pixels with an alpha-only
+export crop and preserves the existing VarCamp vector wordmark. Native exports
+retain transparent backgrounds and existing map footprints. MYANMAR 2026 uses
+the project's existing pixel lettering. The old SVG and approved master remain
+available as historical sources; current exports are recorded in exports.json.

@@ -1,6 +1,6 @@
 {
-  "version": 1,
-  "operation": "uniform nearest-neighbor export; approved source RGBA retained",
+  "version": 2,
+  "operation": "Original zodiac nearest-neighbor export retained; event lockup uses the owner-supplied pink flame and retained vector wordmark",
   "inputs": {
     "zodiac": {
       "path": "art/source/plaza-original/zodiac-approved-master.png",
@@ -13,6 +13,10 @@
       "width": 2172,
       "height": 724,
       "sha256": "4eff60f9cd3422d2f5dbb75b546653445eeb402a594cc4299680bec9d1055103"
+    },
+    "eventMark": {
+      "path": "art/source/event-identity/supplied-flame.png",
+      "sha256": "ffb579d7e977790707d29abaf7f86c0451703973a6f2ff1805f31aa4442a1aa2"
     }
   },
   "exports": {
@@ -28,7 +32,7 @@
       "path": "assets/sponsors/varcamp-2026.png",
       "width": 192,
       "height": 64,
-      "sha256": "355f9df9be585dbdfe67b7cbbd34cfd893c0fc9f6e1463a5c3d92f3552c9cc8f"
+      "sha256": "8180921d45eaf6c20fabfe686e1f8db7fabb2448f5114f6b1d90d6d6ab42ef21"
     }
   }
 }

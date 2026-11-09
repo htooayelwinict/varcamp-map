@@ -4,6 +4,7 @@ import {pathToFileURL} from 'node:url';
 import sharp from 'sharp';
 import type {Sprite} from './catalog';
 import {SIGN_IDS} from '../../src/world/catalog';
+import {renderEventIdentity, EVENT_MARK} from './event-identity';
 
 const hash=(b:Buffer)=>createHash('sha256').update(b).digest('hex');
 const inputs={
@@ -19,8 +20,8 @@ export async function renderPlazaIdentity(){
   if(m.width!==s.width||m.height!==s.height||!m.hasAlpha)throw Error(`Reviewed original master dimensions/alpha changed: ${s.path}`);
  }
  const zodiac=await sharp(inputs.zodiac.path).resize(512,384,{kernel:'nearest'}).png().toBuffer();
- const brand=await sharp(inputs.brand.path).resize(192,64,{kernel:'nearest'}).png().toBuffer();
- const metadata={version:1,operation:'uniform nearest-neighbor export; approved source RGBA retained',inputs:source,
+ const brand=(await renderEventIdentity()).brand;
+ const metadata={version:2,operation:'Original zodiac nearest-neighbor export retained; event lockup uses the owner-supplied pink flame and retained vector wordmark',inputs:{...source,eventMark:{path:EVENT_MARK,sha256:hash(readFileSync(EVENT_MARK))}},
   exports:{zodiac:{path:'assets/tilesets/original/zodiac-emblems.png',width:512,height:384,cellWidth:128,cellHeight:128,sha256:hash(zodiac)},brand:{path:'assets/sponsors/varcamp-2026.png',width:192,height:64,sha256:hash(brand)}}};
  return {zodiac,brand,metadata};
 }

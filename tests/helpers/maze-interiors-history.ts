@@ -1,4 +1,5 @@
 import assert from 'node:assert/strict';
+import {eventIdentitySuccessorSha} from './event-identity-history';
 import {readFileSync} from 'node:fs';
 import {createHash} from 'node:crypto';
 import {gunzipSync} from 'node:zlib';
@@ -32,5 +33,5 @@ export function advanceMazeInteriorLayout(input:MapLayout):MapLayout{
 }
 export function mazeInteriorSuccessorSha(path:string,pin:string):string{
  const pair=receipt.transitions[path];
- return pair&&pair[0]===pin?pair[1]:pin;
+ return eventIdentitySuccessorSha(path,pair&&pair[0]===pin?pair[1]:pin);
 }

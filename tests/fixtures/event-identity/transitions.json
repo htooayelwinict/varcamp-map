@@ -1,0 +1,217 @@
+{
+  "version": 1,
+  "base": "5de44ff7f79b90fe00242970d98dea930fa68dc5",
+  "transitions": {
+    "art/source/hall-buildings.json": [
+      "e045d0e867523f8292f1a39ae3e1b51bbe1033117f834a7610cd7e64e848c353",
+      "f28f7c5cfd27426f071fc86f0f347766fef6507f659c49e78c8b675f492711bc"
+    ],
+    "art/source/plaza-generated.json": [
+      "fe55edaea7f1515b8bb8d37ac6b4d27b3a137b54f823f2648df291aa62670317",
+      "8a292b7cef9c027a84f517fc430ca17835b23a6a2eeb16d1b6da29c98f3a85a9"
+    ],
+    "art/sources.json": [
+      "1b8c38f40bb34d1ace904c7df5cda8dd380980684e861cd41352a77c030867e9",
+      "9643511c0b62366de54c2ee39a59eb3b48b35e690bcc4d29e487351649994ec3"
+    ],
+    "art/sponsors.json": [
+      "4b21160c0edec5a125ae5587f4aa6e964f453ac6eb670f495374e280c65133da",
+      "67f7e179953298f316bfdd442f5553a1397caf3547f6b5f5db8d5af5a15874b7"
+    ],
+    "assets/sponsors/varcamp-2026.png": [
+      "355f9df9be585dbdfe67b7cbbd34cfd893c0fc9f6e1463a5c3d92f3552c9cc8f",
+      "8180921d45eaf6c20fabfe686e1f8db7fabb2448f5114f6b1d90d6d6ab42ef21"
+    ],
+    "assets/sponsors/varcamp-arrival-nw.png": [
+      "28e9ca49bc4e0ded2ad133deb7863832ebe9f34a2972ad550558083c0a25f701",
+      "ae3443d8044ce4b02c443bb2331c0fd2ef892cd0ecd0f41ed54209ce9a2c8eb6"
+    ],
+    "assets/sponsors/varcamp-arrival-sw.png": [
+      "885fd86535d2db62b8e66e1886ce18603f76ab988b41ab0c3100c90f26f80cf3",
+      "b8f805bc4ccff3e7bdd63f55752077b6f5b4aceaf415693a25b75624f71b6841"
+    ],
+    "assets/sponsors/varcamp-horizontal.png": [
+      "d1ca1b1a70d98be5a7b27f5151ce3be48caf0b65b5f33e7e7ae48d36d7701ae4",
+      "a60b7ab8452d46a364a6bf724abff5b6d912c24234b7e383c2a5efaf2cf7c04c"
+    ],
+    "assets/tilesets/original/zodiac-ground-names.png": [
+      "a00bba247dcc36b3fbc5c856325d7c8db05beec0d702f4bdea726a7dc4cdf9eb",
+      "531790623edb7719e0506ae70b3fefcd655761f9078b0185deb12cb3da3a4262"
+    ],
+    "tools/art/check.ts": [
+      "8b121b20f22c70143f12c084a88318e9505492d6dbb81fd1737c2c84631c0c9c",
+      "e5459ddb6c93a19f71d323f299799c1505787b9bf2e09445d3fb11074550eec7"
+    ],
+    "tools/art/hall-buildings.ts": [
+      "f124d57d926f3d8357482b957754f312c5de861e438798840b77d52420fe8f07",
+      "6909e368b20e7a6e768947211cfd1a321bf4db8197975658a213ad17cf67d340"
+    ],
+    "tools/art/plaza-generated.ts": [
+      "37692dba062484dede8f756e92033fbec87b8c04f51f6cf1f67450bcb1e7c1f8",
+      "79dda1b8d05a18ce0762971fc51507f4a48cc2c6401a304ecdd80e65aec07ea3"
+    ],
+    "tools/release.ts": [
+      "42cbb3359219e2d6bc3037ecad72db949ca9085581b04e268259d863821d57b4",
+      "ca75202b81e12582b17988f1b40363531d2c29a405519565fac3a2e77445d9de"
+    ]
+  },
+  "unchanged": {
+    "art/tile-catalog.json": "1828ae96e97744dd2cfd42acf015b9f5539715c15909d1ae5c71d37c6911543f",
+    "maps/air-district.tmj": "ff6a9d48463d88e5f52965aeb34d273329fe27796cba93d3be8a21e348190b16",
+    "maps/air-district.wam": "d826e06b803e02ed1927d2f9d59ee224cd0d1e75643adabf3fb9cb5bf11a0f0c",
+    "maps/campus-exploration.tmj": "79c403e15c5c94c29a6213ca20baf40c5512c9f131b4e75b6c6a1129d9781c06",
+    "maps/campus-exploration.wam": "58d989b4bbf2f05635585d93447ee7df772a85c6f3e048f89b35ca038cd2e0ae",
+    "maps/comet-maze.tmj": "3a806054f548e831ee18a5af275818238eda8a3ca59cbe4165e8b66990e81e04",
+    "maps/comet-maze.wam": "9bc9c08ee62056fe3c849e837433af0feb3d920e36dd55afd7e4d697a94220da",
+    "maps/constellation-shore.tmj": "e80f047648349d5dead9c79a8f0b693fa6e64843e015f3461ae12c2800b36531",
+    "maps/constellation-shore.wam": "e1bde7a0ac049c0217219f3c7d98a2981c13303d734ac6d8ffff7c24d642ab1f",
+    "maps/earth-district.tmj": "30dd5052459951acf66baee4045e6ba4d5dc0c104620946db801fdf97ab92d00",
+    "maps/earth-district.wam": "6f9525ee614e09fd9123ced5a71e4a41d31be1015d1b2cc112aa64c9188cb87f",
+    "maps/fa-ship-interior.tmj": "877a1b1ffca9693f487b3838f228eef2f78d64172fb0ab32d86e372ca1330802",
+    "maps/fa-ship-interior.wam": "4aab52f0dc46d3a148f19861a59d8078438b83aec02006596107775a0422bb7d",
+    "maps/fa-ship.tmj": "04d1c228766c0ebc227a6923c432f4b4ef2931225bd902c90e7c9f9f09542bf0",
+    "maps/fa-ship.wam": "19f765e8fd4b314f84a7d00c37469c80d8061e28c435acbec5fa6917809a2786",
+    "maps/fire-district.tmj": "a6c95c207137132eed5191a37ac38cf65e7786f58d07649b835a3d389f2654f0",
+    "maps/fire-district.wam": "741ea3fcb7508bd75341db1f862c0f89870c7be091ee5239605eef7650ff732a",
+    "maps/hidden-observatory.tmj": "80557f39481bc4cfbc69d8ce63a9643a40b00e8a98041f7c0ac07d3f3de1be58",
+    "maps/hidden-observatory.wam": "0007ab32b3d2e8a5e11d5587ebca3ed5d87dae81706569c8846cd7095552429c",
+    "maps/lunar-hall.tmj": "b96e2f0c81660c17c70bdf0ca6ee4ab983738f4c5db7e58d4afb3e8ae2ba5a9e",
+    "maps/lunar-hall.wam": "1cc27f7c67c0124369ea6ac6443e6542106cfb98bc1a6f2aebd8f473abe46ebc",
+    "maps/moon-cafe.tmj": "f04072ca8beeafbef5331638a3fafd6d11a2845b249bc1efc562cade230775ea",
+    "maps/moon-cafe.wam": "f61766de00e68a01e1d58ff40fccce061cce5f734e2967972c9dfcf705d6d4b1",
+    "maps/moon-grotto.tmj": "d2bdcea70d4336d68efd3ecdc9bc49ec0bada9a13def849e521d647300576536",
+    "maps/moon-grotto.wam": "956d4225361b4b559061201b6e5fa48b0a6e600eb620e9a5496cfe85e6c2835a",
+    "maps/nebula-arcade.tmj": "7d47c4d57343871da5a0a3e8ba2695eabe2fb8dcd628ae85801f37f0be074c49",
+    "maps/nebula-arcade.wam": "256c0dbdd167ad3f29d2423401138df81a214edb9682b62c9d03382aa7a51543",
+    "maps/orbit-maze.tmj": "680b833c67faede8443a70711da91ef60435f45455a52fa340def10861d2d204",
+    "maps/orbit-maze.wam": "632d4a3621e971722fd54b79f3518bdffc0e8abc00d393df47ec2acc2afd72c9",
+    "maps/orbit-playground.tmj": "14b4ec30956eb0cc3f47433d9f30fd307b8473bfdd9cb42ee955c7f3e2f9f8e8",
+    "maps/orbit-playground.wam": "5c0d69ccb000ca8b2d41c4e3e7099affa608372b46cec9011aebf79acc38d747",
+    "maps/overworld.tmj": "44fa3aad2bbc33d790f7f9be18d0316493374cb2a90f6b4746f2d273be272122",
+    "maps/overworld.wam": "34912c410e77b9ce32c356275f585a5b8f444187b8f447d346f7542bbe159eff",
+    "maps/shipyard-beach.tmj": "038df72df0cc96e265d7fa3650adb4ce5f985de03e0961092a00182808842f35",
+    "maps/shipyard-beach.wam": "d631432218098ec0d1ac7991959418245d9614d30ef5c6a6ea7d23ff868b9018",
+    "maps/solar-hall.tmj": "346d45d3a95a0045ccb73eb3f5ee592facea0426010ec0e493a3474198666ce4",
+    "maps/solar-hall.wam": "e9f71bb8f9ead7a93234ddac27df181efd051144783592f9f58e2b099da90813",
+    "maps/speaker-aquarius.tmj": "cd65f78e94af66f36bad261dffa23d83f430762bebd60cf12e13f7aaad2cb304",
+    "maps/speaker-aquarius.wam": "7f7fd076354d9eece47e66cf0ba4939e91289716142671037afaea7616a09c42",
+    "maps/speaker-aries.tmj": "91deff598e8311906839a04a03b65bcee383da5a9f12cf07c2eb689495ca189c",
+    "maps/speaker-aries.wam": "11e10878b613ecdb18465164fb62add6d569c11782c504623113589667574eeb",
+    "maps/speaker-cancer.tmj": "22790f9b7d2a75099928da2787554e31a6a2da455c4809d353f797e7ea6bcc58",
+    "maps/speaker-cancer.wam": "5607a8a5beccc808d88e394a448a136bfb727eeff876662fa8bd193f39a13c0b",
+    "maps/speaker-capricorn.tmj": "cb4f87f8c3e3273c2da36dcf65fb3a22dbe24722e29de492e694fbc9830487ae",
+    "maps/speaker-capricorn.wam": "82d29df83082126f5f1b8aa82ac338f6ef88589f8197ff765ab934594f18df78",
+    "maps/speaker-gemini.tmj": "3566bef5a8e7f72d73aee5b2642a62f2101ad8985bd45c20f61ac3d74c81d285",
+    "maps/speaker-gemini.wam": "055449a424fdff2fab9aef4b3352dae3289e8f408a531351210bf65d80a88951",
+    "maps/speaker-leo.tmj": "390e448b0bee103658a091ca712a74dbdcc234239617ebda5537e7d67b7a2012",
+    "maps/speaker-leo.wam": "4741f3fcc1dd5eefe53b297be028d088b9c7ce8f981108c6b069c81aa6ada18d",
+    "maps/speaker-libra.tmj": "a8ffc858a22dbaa9f7585764de14da2af8b34456518b92b622d48cc71b09cf44",
+    "maps/speaker-libra.wam": "941b51a0a735bd1de5815718648f6e96871c74a98a62d5a06c2668c035552eb2",
+    "maps/speaker-pisces.tmj": "ccfa9e12e12f242368a3ffe2ad3cf8717cce5116edb9bdfaf3e831157bdf2d4d",
+    "maps/speaker-pisces.wam": "bdb181b684c556f1114e6748c635eb8941e10a0542341a967b610d4932f2751d",
+    "maps/speaker-sagittarius.tmj": "56e1b01be9d38c99bea2de0de41a078d42ffa54c3359a8351b33dd6ff4121c6b",
+    "maps/speaker-sagittarius.wam": "20e0c6b97c0b73dc366b482fdfcb4a21da4e019910bfa9b69278414f6f9d9e84",
+    "maps/speaker-scorpio.tmj": "044c36cdd10f0450c982a863c36898fb2c0b440b19312b6a214be24a248916f9",
+    "maps/speaker-scorpio.wam": "7a766718e60f5454833255716f59f36911cb94e78f86d19a338e4932e3440dfe",
+    "maps/speaker-taurus.tmj": "8f7011d0d1541c41858a2d46614f5091fe7cd68e38cdbd8b3abdc6c424722dc8",
+    "maps/speaker-taurus.wam": "fc82c24f51297102564acc2a43dbca9a18c8b4595a0aba97a9f33c16e54ebfbf",
+    "maps/speaker-virgo.tmj": "48a8387c3506dd99d42ac974e89447e59f2266333803b9cf395086bddf31a755",
+    "maps/speaker-virgo.wam": "593f5d83a1de0d19aec8bc1ee7236811c5839e2c6153255ee7581ac3cb027c69",
+    "maps/star-garden.tmj": "5e04f62035ccf38341dba72266eddb586bc076e5cfcdbe8c6f57f47381b2ee11",
+    "maps/star-garden.wam": "399d2acb263fcbf75ff0caba3184f0c1f0f342d3bcd696df563ed8a48bf5760c",
+    "maps/stargazer-terrace.tmj": "fac9aa8652f4b28836990fde18ffb6875a89592c0ac752a355be811a9c9ded57",
+    "maps/stargazer-terrace.wam": "40c5c7278a0f07e99919ee0eaa0c8a4afc1f0b6e16c42d74031bb51866690aa2",
+    "maps/water-district.tmj": "65d1956802181b705b7cc1437aefaf71804a072cfcc8cff69ac435c030c00b1b",
+    "maps/water-district.wam": "cb53821e2892425675fc61647c03f9c754ecfb37944aad96aed9c72583bd6256",
+    "maps/zodiac-festival-park.tmj": "cf691227af47095e8adebda36e3e8e8f113d4cb0de57b042aa12dbb342fe46b4",
+    "maps/zodiac-festival-park.wam": "c6adf05374629f1493f602b623e1c6f9a41882603577f2fca6afea27fc063658",
+    "world/layouts/air-district.json": "7de4347a1a8db4ea3dfec3042e03e31f8377820b87a7aaf4027286372e99e7e7",
+    "world/layouts/campus-exploration.json": "1b9632536d6f55eab2ad2de523c3cef88317d49d0776af40caa04695d104f1ac",
+    "world/layouts/comet-maze.json": "9b3c69adb4d932d879bf93451939098af76f0cb6a28b45208658dc98d3efa683",
+    "world/layouts/constellation-shore.json": "1410372b15128bf6e9345a1f11e04ce5bc6d7052b57a6eea3aa8f4b9eb181ee0",
+    "world/layouts/earth-district.json": "f37d8e9bbdd9eff3f1c782c1850c148974ec812ab1f92e353394ac49062acb72",
+    "world/layouts/fa-ship-interior.json": "a149a6a4a245422cb19ad89f5d00ab8d308f16c71a46e7cd206143e18921f53d",
+    "world/layouts/fa-ship.json": "aed00ddb730b54ae5db1ec213bd9644fb2758a43a58484b7abea84de456c532a",
+    "world/layouts/fire-district.json": "b67efe73601690abbe3fdc98d878f5509f9b1a89ef95cc9106106643371799f0",
+    "world/layouts/hidden-observatory.json": "e6ad9c3294ab6099888904a09a6ac6be78bf5cae58e7ac5e3f353fde0d474e70",
+    "world/layouts/lunar-hall.json": "98041931d66f7ae452f81c3e564bd111fdd9fb64d87bb93021c3c62b6b921242",
+    "world/layouts/moon-cafe.json": "5f78e4a8656a5ed01d40f53ddcc79b66a6c15acc57857bb7e2a2ab2958ac0ebe",
+    "world/layouts/moon-grotto.json": "b20f12d1061923455ca7157eedef57f58e206d82bad827fbb1c8f1b21cd1df49",
+    "world/layouts/nebula-arcade.json": "55bce378f53d3965f92d2d9a8770e360f2168a852233882ba4744b43fd2feceb",
+    "world/layouts/orbit-maze.json": "779b6b8b299389eebe4296723a0b159a79d67b3f8b318741eed7cd9de8f8e1ce",
+    "world/layouts/orbit-playground.json": "e9ed08c486a72095bdeb19feeeae53ed5c2680cd7c25abff3f1bec38218fa5cd",
+    "world/layouts/overworld.json": "62234bbfaa842e5ade7cd091b27ab956440998070cde641e30fadbe9c2bece31",
+    "world/layouts/shipyard-beach.json": "ebf96c00078185e304e0614a6f02eccff8aacc15c708ab80e4fd702235c32e0d",
+    "world/layouts/solar-hall.json": "e5f03f62387616f93a3f34443bff9741c3350c9f3286bd92c235866496a5e23d",
+    "world/layouts/speaker-aquarius.json": "a6cbcd96aa24d11e93835da9eea217bbb6918495cc29539c33445c9d3710c020",
+    "world/layouts/speaker-aries.json": "ee017cb3d79ba653af5cadc351367a9d80b743a4acddd17fe3ad38327a0b2587",
+    "world/layouts/speaker-cancer.json": "774aa54f35fe726e6158163a7bf93ccd89cf69649fd05f444d8c904fcfde9262",
+    "world/layouts/speaker-capricorn.json": "c19889f4abebe568a14fee4fca06c1c9bb912d024cae0bc00e2177c5ef5dc58a",
+    "world/layouts/speaker-gemini.json": "185f7dca3876bf238e4a0172734165725b922709740d8fcda80348ec357d14f6",
+    "world/layouts/speaker-leo.json": "322d67a414923184dbe5661662e4bdff8401bdbdd046b8dad758fe151b80c8da",
+    "world/layouts/speaker-libra.json": "485c830dec946f5ae033785ba179e0bdbb79ffa89fd9f9ac7e1570ca08656486",
+    "world/layouts/speaker-pisces.json": "a63fc90d5c324d299a46e1f3898005564dfe9f8f5d97db8d562db012cd06054c",
+    "world/layouts/speaker-sagittarius.json": "f48d14c1cf16250d226fcc836b2549ac16709498f42c4772a3f49fc0cb63711f",
+    "world/layouts/speaker-scorpio.json": "4ef96d59e001bfa4b420ebd82fa7e80b2fb71c65ddacbc64f1b48a76bce6b0b8",
+    "world/layouts/speaker-taurus.json": "b8d6f9e3462f125f0081abbbb51dfce41dafb6ebe0e7806b9100add11a008333",
+    "world/layouts/speaker-virgo.json": "90112d9142e605484d82139f51de973e5a07406299027966daaae91987f4e722",
+    "world/layouts/star-garden.json": "a7cb51de105cffaa2e14e36f3df05e76fddb3e978d8de5a7f0fbf848c96b0a16",
+    "world/layouts/stargazer-terrace.json": "d160f5997d60a4b7af041bc9eacb9eedfb662a3dff6d73053ef430a1b33ef7ee",
+    "world/layouts/water-district.json": "e3d87a4fbf9a839f1946b387e991cc9849bb00582c005810d452ca5925ae8d35",
+    "world/layouts/zodiac-festival-park.json": "09a2d6269645599d8d8d3be944ef3bd6b6a276f18307975089ceec961451078c"
+  },
+  "registration": {
+    "attribution": "VarCamp event identity supplied by organizer Lewis on 2026-11-09; rights retained by artwork and brand owners.",
+    "url": "https://var.camp/",
+    "license": "Organizer-approved event use",
+    "licenseFile": "assets/tilesets/varcamp-event-identity/NOTICE.txt",
+    "changes": "Exact supplied PNG retained. Alpha-only export crop, aspect-fit placement with original vector wordmark, transparent native panels, and existing MYANMAR 2026 pixel subtitle. No generated replacement artwork.",
+    "files": [
+      {
+        "path": "art/source/event-identity/supplied-flame.png",
+        "sha256": "ffb579d7e977790707d29abaf7f86c0451703973a6f2ff1805f31aa4442a1aa2"
+      },
+      {
+        "path": "art/source/event-identity/horizontal.svg",
+        "sha256": "7dc8631e1e824e8641438e8c3aa1de4b45ff00affb23ffa7983ea54af7073139"
+      },
+      {
+        "path": "art/source/event-identity/exports.json",
+        "sha256": "8fd6ad67b3b76aa0d2c6697b56b68402ccfd2a66d58bd45cbd6fa987d850f5fe"
+      },
+      {
+        "path": "tools/art/event-identity.ts",
+        "sha256": "9b7cdd4ad43fc90de8151b1c9622675c59443c45e5d6ddf5e9db9db73ebf5a47"
+      },
+      {
+        "path": "assets/sponsors/varcamp-2026.png",
+        "sha256": "8180921d45eaf6c20fabfe686e1f8db7fabb2448f5114f6b1d90d6d6ab42ef21"
+      },
+      {
+        "path": "assets/sponsors/varcamp-horizontal.png",
+        "sha256": "a60b7ab8452d46a364a6bf724abff5b6d912c24234b7e383c2a5efaf2cf7c04c"
+      },
+      {
+        "path": "assets/sponsors/varcamp-arrival-nw.png",
+        "sha256": "ae3443d8044ce4b02c443bb2331c0fd2ef892cd0ecd0f41ed54209ce9a2c8eb6"
+      },
+      {
+        "path": "assets/sponsors/varcamp-arrival-ne.png",
+        "sha256": "b92a08c65e2ee75c7526dabf9421f6febc3ebb9ba233d635d7155be421f41fcb"
+      },
+      {
+        "path": "assets/sponsors/varcamp-arrival-sw.png",
+        "sha256": "b8f805bc4ccff3e7bdd63f55752077b6f5b4aceaf415693a25b75624f71b6841"
+      },
+      {
+        "path": "assets/sponsors/varcamp-arrival-se.png",
+        "sha256": "3ae566a36e376acdde669780af34241a83aedef2ed54b3ff33db186faef98717"
+      }
+    ]
+  },
+  "registryNotes": {
+    "original": " 2026-11-09: entrance ground labels now read R1-R12 with zodiac names and the existing SPEAKER ROOM subtitle; footprint, alpha, halls and all collisions retained.",
+    "zodiac-emblems": " 2026-11-09: original master and zodiac emblems retained; current VarCamp panel uses the supplied pink event mark and original vector wordmark (see varcamp-event-identity).",
+    "varcamp-organiser": " 2026-11-09: current booth and arrival logos use the owner-supplied pink event mark; original vector wordmark and arrival subtitle retained."
+  }
+}

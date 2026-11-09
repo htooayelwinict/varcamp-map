@@ -32,11 +32,11 @@ export async function renderHallBuildings(){
   subjects.push({id,master,crop,target:{x,y,width,height},threshold:{x:i*384+128,y:352,width:128,height:32}});
  }
  for(const[i,id]of SIGN_IDS.entries()){
-  text(labels,String(i+1).padStart(2,'0')+' '+id.toUpperCase(),384,192,i*64+7,3,[235,224,189,155]);
+  text(labels,'R'+(i+1)+' '+id.toUpperCase(),384,192,i*64+7,3,[235,224,189,155]);
   text(labels,'SPEAKER ROOM',384,192,i*64+37,2,[205,228,231,145]);
  }
  const png=await sharp(atlas,{raw:{width:768,height:384,channels:4}}).png().toBuffer(),names=await sharp(labels,{raw:{width:384,height:768,channels:4}}).png().toBuffer();
- return{png,names,metadata:{version:1,recipeSha256:sha(readFileSync('world/hall-buildings.json')),operation:'Uniform nearest-neighbor native compilation; complete enclosed halls; only bottom four-wide threshold cleared; numbered names rendered as translucent glyphs with no board or border below avatars',subjects,images:[{path:HALL_BUILDINGS_IMAGE,sha256:sha(png)},{path:ZODIAC_GROUND_NAMES_IMAGE,sha256:sha(names)}]}};
+ return{png,names,metadata:{version:2,recipeSha256:sha(readFileSync('world/hall-buildings.json')),operation:'Uniform nearest-neighbor native compilation; complete enclosed halls; only bottom four-wide threshold cleared; R1-R12 zodiac names rendered as translucent glyphs with no board or border below avatars',labels:SIGN_IDS.map((id,i)=>({room:'R'+(i+1),zodiac:id.toUpperCase(),subtitle:'SPEAKER ROOM',row:i*64})),subjects,images:[{path:HALL_BUILDINGS_IMAGE,sha256:sha(png)},{path:ZODIAC_GROUND_NAMES_IMAGE,sha256:sha(names)}]}};
 }
 export async function writeHallBuildings(){const r=await renderHallBuildings();writeFileSync(HALL_BUILDINGS_IMAGE,r.png);writeFileSync(ZODIAC_GROUND_NAMES_IMAGE,r.names);writeFileSync(HALL_BUILDINGS_METADATA,JSON.stringify(r.metadata,null,2)+'\n');return r;}
 export async function checkHallBuildingsArt(catalog:TileCatalog){

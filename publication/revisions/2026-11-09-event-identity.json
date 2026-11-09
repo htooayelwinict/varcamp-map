@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "revisions": [
+    {
+      "path": "art/sources.json",
+      "fromSha256": "1b8c38f40bb34d1ace904c7df5cda8dd380980684e861cd41352a77c030867e9",
+      "toSha256": "9643511c0b62366de54c2ee39a59eb3b48b35e690bcc4d29e487351649994ec3",
+      "reason": "Replace the VarCamp flame with the exact supplied pink mark in every existing native logo and label the twelve speaker entrances R1-R12 with zodiac names; preserve all map geometry, collisions, portals and saved room controls."
+    },
+    {
+      "path": "art/sponsors.json",
+      "fromSha256": "4b21160c0edec5a125ae5587f4aa6e964f453ac6eb670f495374e280c65133da",
+      "toSha256": "67f7e179953298f316bfdd442f5553a1397caf3547f6b5f5db8d5af5a15874b7",
+      "reason": "Replace the VarCamp flame with the exact supplied pink mark in every existing native logo and label the twelve speaker entrances R1-R12 with zodiac names; preserve all map geometry, collisions, portals and saved room controls."
+    },
+    {
+      "path": "tools/art/check.ts",
+      "fromSha256": "8b121b20f22c70143f12c084a88318e9505492d6dbb81fd1737c2c84631c0c9c",
+      "toSha256": "e5459ddb6c93a19f71d323f299799c1505787b9bf2e09445d3fb11074550eec7",
+      "reason": "Replace the VarCamp flame with the exact supplied pink mark in every existing native logo and label the twelve speaker entrances R1-R12 with zodiac names; preserve all map geometry, collisions, portals and saved room controls."
+    },
+    {
+      "path": "tools/release.ts",
+      "fromSha256": "42cbb3359219e2d6bc3037ecad72db949ca9085581b04e268259d863821d57b4",
+      "toSha256": "ca75202b81e12582b17988f1b40363531d2c29a405519565fac3a2e77445d9de",
+      "reason": "Replace the VarCamp flame with the exact supplied pink mark in every existing native logo and label the twelve speaker entrances R1-R12 with zodiac names; preserve all map geometry, collisions, portals and saved room controls."
+    }
+  ]
+}

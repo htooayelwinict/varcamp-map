@@ -1,7 +1,81 @@
 {
-  "version": 1,
+  "version": 2,
   "recipeSha256": "229462e953be8e7501b220616f7c10eb2a7672e413e42312be4589d98b3ee2f8",
-  "operation": "Uniform nearest-neighbor native compilation; complete enclosed halls; only bottom four-wide threshold cleared; numbered names rendered as translucent glyphs with no board or border below avatars",
+  "operation": "Uniform nearest-neighbor native compilation; complete enclosed halls; only bottom four-wide threshold cleared; R1-R12 zodiac names rendered as translucent glyphs with no board or border below avatars",
+  "labels": [
+    {
+      "room": "R1",
+      "zodiac": "ARIES",
+      "subtitle": "SPEAKER ROOM",
+      "row": 0
+    },
+    {
+      "room": "R2",
+      "zodiac": "TAURUS",
+      "subtitle": "SPEAKER ROOM",
+      "row": 64
+    },
+    {
+      "room": "R3",
+      "zodiac": "GEMINI",
+      "subtitle": "SPEAKER ROOM",
+      "row": 128
+    },
+    {
+      "room": "R4",
+      "zodiac": "CANCER",
+      "subtitle": "SPEAKER ROOM",
+      "row": 192
+    },
+    {
+      "room": "R5",
+      "zodiac": "LEO",
+      "subtitle": "SPEAKER ROOM",
+      "row": 256
+    },
+    {
+      "room": "R6",
+      "zodiac": "VIRGO",
+      "subtitle": "SPEAKER ROOM",
+      "row": 320
+    },
+    {
+      "room": "R7",
+      "zodiac": "LIBRA",
+      "subtitle": "SPEAKER ROOM",
+      "row": 384
+    },
+    {
+      "room": "R8",
+      "zodiac": "SCORPIO",
+      "subtitle": "SPEAKER ROOM",
+      "row": 448
+    },
+    {
+      "room": "R9",
+      "zodiac": "SAGITTARIUS",
+      "subtitle": "SPEAKER ROOM",
+      "row": 512
+    },
+    {
+      "room": "R10",
+      "zodiac": "CAPRICORN",
+      "subtitle": "SPEAKER ROOM",
+      "row": 576
+    },
+    {
+      "room": "R11",
+      "zodiac": "AQUARIUS",
+      "subtitle": "SPEAKER ROOM",
+      "row": 640
+    },
+    {
+      "room": "R12",
+      "zodiac": "PISCES",
+      "subtitle": "SPEAKER ROOM",
+      "row": 704
+    }
+  ],
   "subjects": [
     {
       "id": "solar",
@@ -61,7 +135,7 @@
     },
     {
       "path": "assets/tilesets/original/zodiac-ground-names.png",
-      "sha256": "a00bba247dcc36b3fbc5c856325d7c8db05beec0d702f4bdea726a7dc4cdf9eb"
+      "sha256": "531790623edb7719e0506ae70b3fefcd655761f9078b0185deb12cb3da3a4262"
     }
   ]
 }

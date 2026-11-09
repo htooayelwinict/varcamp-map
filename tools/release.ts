@@ -111,6 +111,7 @@ export function emitNativeMapAssets(sourceMaps:readonly NativeMapPackageSource[]
   Object.assign(titles, {'lpc-exploration':'LPC cottages, farm and cavern art','exploration-ghost':'Woodland ghost animation','lpc-garden-trees':'LPC garden trees','lpc-garden-plants':'LPC garden flowers and plants','lpc-garden-terrain':'LPC garden gravel paths','leo-citadel':'Leo stone lion citadel','cancer-citadel':'Cancer coastal crab citadel','horned-citadels':'Aries and Capricorn architecture','outer-security':'Outer-ring aerial patrols'});
   const gardenSources = ['lpc-garden-trees','lpc-garden-plants','lpc-garden-terrain'];
   const fullCredits: Record<string,string> = {'lpc-office':'Credits.txt', 'lpc-ship':'CREDITS-ship.txt', 'lpc-containers':'CREDITS-container.txt', 'lpc-water':'AUTHORS','lpc-garden-trees':'CREDITS-trees.txt','lpc-garden-plants':'CREDITS-plants.txt','lpc-garden-terrain':'CREDITS-terrain.txt'};
+  titles['varcamp-event-identity']='VarCamp organizer-supplied pink event identity';
   const sections = Object.entries(sources).map(([id, s]) => {
     const directory=id==='ocean-audio'?'assets/audio':id==='exploration-ghost'?'assets/tilesets/lpc-exploration':gardenSources.includes(id)?'assets/tilesets/lpc-garden':`assets/tilesets/${id}`;
     for (const file of readdirSync(directory)) if (!/\.(png|mp3)$/.test(file)) emit(`credits/${id}/${file}`, readFileSync(`${directory}/${file}`));

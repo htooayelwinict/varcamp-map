@@ -83,7 +83,7 @@
     "url": "https://creativecommons.org/publicdomain/zero/1.0/",
     "license": "CC0 1.0",
     "licenseFile": "assets/tilesets/original/LICENSE.txt",
-    "changes": "New integer-grid vector paths and pixel art, exported at 1 unit = 1 pixel. No source-sheet pixels copied. Constellations are illustrative zodiac silhouettes, not sky charts. Speaker-room refinement adds a native large display, lectern, north-facing chairs and slim forge/balance wall reliefs; original social-space assets remain available. Campus addition: original translucent navy 32px atmosphere tile, rendered from campus.svg; imported sheets remain unchanged. Amenities addition: original cosmic arcade cabinet in amenities.svg/amenities.png; existing imported sheets and original artwork unchanged. Guide addition: original blue Lyra, purple Aster and gold Nova transparent robot sprites in guides.svg/guides.png, authored on a native integer grid; no imported pixels copied. Wayfinding addition: original integer-grid navy/wood/brass signboard components, compass and gold cardinal chevrons in wayfinding.svg/wayfinding.png, with no imported pixels copied. Medium-hub addition: original native fixed-camera warm-wall roofed building and deterministic bold block-glyph English nameplate/navigation art, generated from hub-nameplates.json and hub-art.ts into hub-buildings.svg/png and hub-labels.svg/png. No system font or imported pixels used; all existing atlas bytes unchanged. Original coastal sailing vessel, sails, nautical furniture, sand/water/foam, wildlife and sponsor aircraft/balloon frames authored in coastal.svg; reference composition only, no paid image pixels copied. Exterior-road addition: six original upright native masonry/timber gate elevations and compact road/return plaques, generated deterministically by exterior-gates.ts using the original block glyphs. Existing artwork and atlas pixels remain unchanged. Added original native painted FA SHIP block-glyph decals, human-scale cannon and mast base, plus dedicated whole-plane/banner animation atlas. Existing source pixels retained. Roadster: original generated sixteen-pose sheet compiled with uniform nearest-neighbor scale, binary alpha, fixed tech pad and native Tiled animation; source generation/crop receipts retained. Beach refinement: beach-lounge.svg/png and beach-surf.svg/png add integer-grid native pixel palms, striped parasols/recliners, slatted tables, woven towels, timber cabana/bar and gentle 2080ms four-frame surf. A separate translucent original tile calms the existing licensed LPC water; imported source sheets are unchanged. Original standing caption glyph atlas added: semantic source linked to existing original pixel alphabet plus original arrows; no imported pixels. Approved original generated coastal wildlife, props and aircraft technical native PNG exports, plus eleven bounded native wildlife animations. Masters, crop recipes, phase tracks and pure export checks retained. Expo-plaza addition: six original 32px booth sticker badges (star, heart, bolt, pin, smile, leaf) in the cream/teal/peach/lavender/amber palette with a thin cream outline, authored on the integer grid in booth-stickers.svg and exported natively to booth-stickers.png; no imported pixels copied. Roadster-v2 addition: the plaza display is recompiled from the same sixteen generated poses with compiler-synthesised 100 ms tweens, hover bob, landing settle, thruster bloom, pad shadow/light chases, dust puffs, light pulses and roll ghosting into roadster-v2.png; the v1 atlas stays frozen as the registered reservation body and no new car pixels were drawn. Aries owner-review addition: seven original geometric 32px charcoal wallpaper, orange trim and cream logo-plate tiles; SVG master and native PNG preserved in speaker-room-style records. Existing logo pixels remain separate and unchanged.",
+    "changes": "New integer-grid vector paths and pixel art, exported at 1 unit = 1 pixel. No source-sheet pixels copied. Constellations are illustrative zodiac silhouettes, not sky charts. Speaker-room refinement adds a native large display, lectern, north-facing chairs and slim forge/balance wall reliefs; original social-space assets remain available. Campus addition: original translucent navy 32px atmosphere tile, rendered from campus.svg; imported sheets remain unchanged. Amenities addition: original cosmic arcade cabinet in amenities.svg/amenities.png; existing imported sheets and original artwork unchanged. Guide addition: original blue Lyra, purple Aster and gold Nova transparent robot sprites in guides.svg/guides.png, authored on a native integer grid; no imported pixels copied. Wayfinding addition: original integer-grid navy/wood/brass signboard components, compass and gold cardinal chevrons in wayfinding.svg/wayfinding.png, with no imported pixels copied. Medium-hub addition: original native fixed-camera warm-wall roofed building and deterministic bold block-glyph English nameplate/navigation art, generated from hub-nameplates.json and hub-art.ts into hub-buildings.svg/png and hub-labels.svg/png. No system font or imported pixels used; all existing atlas bytes unchanged. Original coastal sailing vessel, sails, nautical furniture, sand/water/foam, wildlife and sponsor aircraft/balloon frames authored in coastal.svg; reference composition only, no paid image pixels copied. Exterior-road addition: six original upright native masonry/timber gate elevations and compact road/return plaques, generated deterministically by exterior-gates.ts using the original block glyphs. Existing artwork and atlas pixels remain unchanged. Added original native painted FA SHIP block-glyph decals, human-scale cannon and mast base, plus dedicated whole-plane/banner animation atlas. Existing source pixels retained. Roadster: original generated sixteen-pose sheet compiled with uniform nearest-neighbor scale, binary alpha, fixed tech pad and native Tiled animation; source generation/crop receipts retained. Beach refinement: beach-lounge.svg/png and beach-surf.svg/png add integer-grid native pixel palms, striped parasols/recliners, slatted tables, woven towels, timber cabana/bar and gentle 2080ms four-frame surf. A separate translucent original tile calms the existing licensed LPC water; imported source sheets are unchanged. Original standing caption glyph atlas added: semantic source linked to existing original pixel alphabet plus original arrows; no imported pixels. Approved original generated coastal wildlife, props and aircraft technical native PNG exports, plus eleven bounded native wildlife animations. Masters, crop recipes, phase tracks and pure export checks retained. Expo-plaza addition: six original 32px booth sticker badges (star, heart, bolt, pin, smile, leaf) in the cream/teal/peach/lavender/amber palette with a thin cream outline, authored on the integer grid in booth-stickers.svg and exported natively to booth-stickers.png; no imported pixels copied. Roadster-v2 addition: the plaza display is recompiled from the same sixteen generated poses with compiler-synthesised 100 ms tweens, hover bob, landing settle, thruster bloom, pad shadow/light chases, dust puffs, light pulses and roll ghosting into roadster-v2.png; the v1 atlas stays frozen as the registered reservation body and no new car pixels were drawn. Aries owner-review addition: seven original geometric 32px charcoal wallpaper, orange trim and cream logo-plate tiles; SVG master and native PNG preserved in speaker-room-style records. Existing logo pixels remain separate and unchanged. 2026-11-09: entrance ground labels now read R1-R12 with zodiac names and the existing SPEAKER ROOM subtitle; footprint, alpha, halls and all collisions retained.",
     "files": [
       {
         "path": "art/source/booth-stickers.svg",
@@ -983,7 +983,7 @@
       },
       {
         "path": "tools/art/hall-buildings.ts",
-        "sha256": "f124d57d926f3d8357482b957754f312c5de861e438798840b77d52420fe8f07"
+        "sha256": "6909e368b20e7a6e768947211cfd1a321bf4db8197975658a213ad17cf67d340"
       },
       {
         "path": "tools/maps/hall-buildings-definition.ts",
@@ -1003,7 +1003,7 @@
       },
       {
         "path": "art/source/hall-buildings.json",
-        "sha256": "e045d0e867523f8292f1a39ae3e1b51bbe1033117f834a7610cd7e64e848c353"
+        "sha256": "f28f7c5cfd27426f071fc86f0f347766fef6507f659c49e78c8b675f492711bc"
       },
       {
         "path": "assets/tilesets/original/hall-buildings.png",
@@ -1011,7 +1011,7 @@
       },
       {
         "path": "assets/tilesets/original/zodiac-ground-names.png",
-        "sha256": "a00bba247dcc36b3fbc5c856325d7c8db05beec0d702f4bdea726a7dc4cdf9eb"
+        "sha256": "531790623edb7719e0506ae70b3fefcd655761f9078b0185deb12cb3da3a4262"
       },
       {
         "path": "assets/tilesets/original/event-floor-labels.png",
@@ -1241,7 +1241,7 @@
     "url": "https://var.camp/",
     "license": "Project artwork; organizer-approved event use; brand rights retained by owners",
     "licenseFile": "assets/tilesets/zodiac-emblems/LICENSE.txt",
-    "changes": "New generated and organizer-approved masters retained byte-exact. Uniform nearest-neighbor native exports only, source alpha preserved. Original sponsor/brand assets and all earlier catalog rows are unchanged.",
+    "changes": "New generated and organizer-approved masters retained byte-exact. Uniform nearest-neighbor native exports only, source alpha preserved. Original sponsor/brand assets and all earlier catalog rows are unchanged. 2026-11-09: original master and zodiac emblems retained; current VarCamp panel uses the supplied pink event mark and original vector wordmark (see varcamp-event-identity).",
     "files": [
       {
         "path": "art/source/plaza-original/zodiac-approved-master.png",
@@ -1257,7 +1257,7 @@
       },
       {
         "path": "assets/sponsors/varcamp-2026.png",
-        "sha256": "355f9df9be585dbdfe67b7cbbd34cfd893c0fc9f6e1463a5c3d92f3552c9cc8f"
+        "sha256": "8180921d45eaf6c20fabfe686e1f8db7fabb2448f5114f6b1d90d6d6ab42ef21"
       }
     ]
   },
@@ -1882,7 +1882,7 @@
     "url": "https://var.camp/",
     "license": "Supplied by the VarCamp organiser for the 2026 event; event-use permission, all rights retained by the owner; not CC0",
     "licenseFile": "assets/tilesets/varcamp-organiser/LICENSE.txt",
-    "changes": "Alpha-bounding-box crop and aspect-preserving Lanczos3 downscale of the supplied masters to the native tile footprint (fountain 128x96 / 4x3 tiles, lamp 32x96 / 1x3 tiles), centred on the transparent grid, alpha thresholded to binary. Master hashes are recorded in ATTRIBUTION.md; the masters are not redistributed. No other registry row changed.",
+    "changes": "Alpha-bounding-box crop and aspect-preserving Lanczos3 downscale of the supplied masters to the native tile footprint (fountain 128x96 / 4x3 tiles, lamp 32x96 / 1x3 tiles), centred on the transparent grid, alpha thresholded to binary. Master hashes are recorded in ATTRIBUTION.md; the masters are not redistributed. No other registry row changed. 2026-11-09: current booth and arrival logos use the owner-supplied pink event mark; original vector wordmark and arrival subtitle retained.",
     "files": [
       {
         "path": "assets/tilesets/original/plaza-fountain.png",
@@ -1898,7 +1898,7 @@
       },
       {
         "path": "assets/sponsors/varcamp-arrival-nw.png",
-        "sha256": "28e9ca49bc4e0ded2ad133deb7863832ebe9f34a2972ad550558083c0a25f701"
+        "sha256": "ae3443d8044ce4b02c443bb2331c0fd2ef892cd0ecd0f41ed54209ce9a2c8eb6"
       },
       {
         "path": "assets/sponsors/varcamp-arrival-ne.png",
@@ -1906,7 +1906,7 @@
       },
       {
         "path": "assets/sponsors/varcamp-arrival-sw.png",
-        "sha256": "885fd86535d2db62b8e66e1886ce18603f76ab988b41ab0c3100c90f26f80cf3"
+        "sha256": "b8f805bc4ccff3e7bdd63f55752077b6f5b4aceaf415693a25b75624f71b6841"
       },
       {
         "path": "assets/sponsors/varcamp-arrival-se.png",
@@ -2731,6 +2731,55 @@
       {
         "path": "assets/tilesets/lpc-exploration/ghost.png",
         "sha256": "593eb2c830c787e45e5c943527c9c745b079c9c57452dafbff51b733f2982a11"
+      }
+    ]
+  },
+  "varcamp-event-identity": {
+    "attribution": "VarCamp event identity supplied by organizer Lewis on 2026-11-09; rights retained by artwork and brand owners.",
+    "url": "https://var.camp/",
+    "license": "Organizer-approved event use",
+    "licenseFile": "assets/tilesets/varcamp-event-identity/NOTICE.txt",
+    "changes": "Exact supplied PNG retained. Alpha-only export crop, aspect-fit placement with original vector wordmark, transparent native panels, and existing MYANMAR 2026 pixel subtitle. No generated replacement artwork.",
+    "files": [
+      {
+        "path": "art/source/event-identity/supplied-flame.png",
+        "sha256": "ffb579d7e977790707d29abaf7f86c0451703973a6f2ff1805f31aa4442a1aa2"
+      },
+      {
+        "path": "art/source/event-identity/horizontal.svg",
+        "sha256": "7dc8631e1e824e8641438e8c3aa1de4b45ff00affb23ffa7983ea54af7073139"
+      },
+      {
+        "path": "art/source/event-identity/exports.json",
+        "sha256": "8fd6ad67b3b76aa0d2c6697b56b68402ccfd2a66d58bd45cbd6fa987d850f5fe"
+      },
+      {
+        "path": "tools/art/event-identity.ts",
+        "sha256": "9b7cdd4ad43fc90de8151b1c9622675c59443c45e5d6ddf5e9db9db73ebf5a47"
+      },
+      {
+        "path": "assets/sponsors/varcamp-2026.png",
+        "sha256": "8180921d45eaf6c20fabfe686e1f8db7fabb2448f5114f6b1d90d6d6ab42ef21"
+      },
+      {
+        "path": "assets/sponsors/varcamp-horizontal.png",
+        "sha256": "a60b7ab8452d46a364a6bf724abff5b6d912c24234b7e383c2a5efaf2cf7c04c"
+      },
+      {
+        "path": "assets/sponsors/varcamp-arrival-nw.png",
+        "sha256": "ae3443d8044ce4b02c443bb2331c0fd2ef892cd0ecd0f41ed54209ce9a2c8eb6"
+      },
+      {
+        "path": "assets/sponsors/varcamp-arrival-ne.png",
+        "sha256": "b92a08c65e2ee75c7526dabf9421f6febc3ebb9ba233d635d7155be421f41fcb"
+      },
+      {
+        "path": "assets/sponsors/varcamp-arrival-sw.png",
+        "sha256": "b8f805bc4ccff3e7bdd63f55752077b6f5b4aceaf415693a25b75624f71b6841"
+      },
+      {
+        "path": "assets/sponsors/varcamp-arrival-se.png",
+        "sha256": "3ae566a36e376acdde669780af34241a83aedef2ed54b3ff33db186faef98717"
       }
     ]
   }

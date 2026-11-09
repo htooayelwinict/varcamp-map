@@ -1,3 +1,4 @@
+import {renderEventIdentity,checkEventIdentityArt} from '../tools/art/event-identity';
 import {beforeExpoChairCatalog} from '../tools/maps/expo-chair-physics';
 import {vibeCodeSuccessorSha} from './helpers/vibecode-history';
 import{readFileSync}from'node:fs';
@@ -21,9 +22,9 @@ describe('current colourful arrival and topmost drones',()=>{
   const l=read<MapLayout>('world/layouts/overworld.json');expect(l.placements.filter(p=>['arrival-direction-crosspost','arrival-crosspost-pole'].includes(p.id))).toEqual([]);
   expect(l.standingSigns!.some(s=>s.face==='arrival-direction-crosspost'||s.supports.includes('arrival-crosspost-pole'))).toBe(false);
  });
- it('uses the booth orange flame and white wordmark rather than the all-white source variant',async()=>{
-  let orange=0,white=0;for(const[i,p]of panels.entries()){const b=await sharp(p.image).ensureAlpha().raw().toBuffer();for(let n=0;n<b.length;n+=4)if(b[n+3]>=192){if(b[n]===249&&b[n+1]===98&&b[n+2]===22){orange++;expect(i%2*192+n/4%192).toBeLessThan(80);}if(b[n]===255&&b[n+1]===255&&b[n+2]===255)white++;}}
-  expect(orange).toBeGreaterThan(500);expect(white).toBeGreaterThan(1500);
+ it('uses the supplied pink flame and retains the white wordmark',async()=>{
+  let pink=0,white=0;for(const[i,p]of panels.entries()){const b=await sharp(p.image).ensureAlpha().raw().toBuffer();for(let n=0;n<b.length;n+=4)if(b[n+3]>=192){if(b[n]>110&&b[n+1]<80&&b[n+2]>50){pink++;expect(i%2*192+n/4%192).toBeLessThan(80);}if(b[n]===255&&b[n+1]===255&&b[n+2]===255)white++;}}
+  expect(pink).toBeGreaterThan(500);expect(white).toBeGreaterThan(1500);
  });
  it('clears the actual former pole collision cell68,64 without inventing a replacement blocker',()=>{
   const m=read<TiledMap>('maps/overworld.tmj');expect((m.layers.find(l=>l.name==='physical-collisions')as TileLayer).data[64*128+68]).toBe(0);
@@ -49,9 +50,9 @@ describe('current colourful arrival and topmost drones',()=>{
  });
  it('requires the current arrival even when every new marker is absent',()=>{expect(()=>assertNativePlaza(beforeArrivalJson('maps/overworld.tmj'),beforeArrivalJson('world/layouts/overworld.json'),loadTileCatalog())).toThrow(/Arrival refresh|Plaza patrol|Expo spacing|Fountain motion|Leo lion head|Hall buildings|Plaza crescent|Plaza landscape|Vibe Code branding/);});
  it('reproduces the exact retained SVG quadrants and the same car pixels through a pure current placement producer',async()=>{
-  const{renderArrivalRefresh,checkArrivalRefreshArt}=await import('../tools/art/arrival-refresh');const r=await renderArrivalRefresh();expect(sha(readFileSync('art/source/varcamp-horizontal.svg'))).toBe('05f5ea29e8635156bf4ed74f9e39a6067bb2121ac266db514d7918703924250f');
+  const{renderArrivalRefresh}=await import('../tools/art/arrival-refresh');const r={...await renderEventIdentity(),roadster:(await renderArrivalRefresh()).roadster};expect(sha(readFileSync('art/source/varcamp-horizontal.svg'))).toBe('05f5ea29e8635156bf4ed74f9e39a6067bb2121ac266db514d7918703924250f');
   const rgba=Buffer.alloc(384*128*4);for(const[i,row]of r.logos.entries()){expect(row.png).toEqual(readFileSync(panels[i].image));const{data,info}=await sharp(row.png).ensureAlpha().raw().toBuffer({resolveWithObject:true});expect([info.width,info.height]).toEqual([192,64]);for(let y=0;y<64;y++)data.copy(rgba,((Math.floor(i/2)*64+y)*384+i%2*192)*4,y*192*4,(y+1)*192*4);}
-  expect(rgba).toEqual(await sharp(r.panel).ensureAlpha().raw().toBuffer());expect(await checkArrivalRefreshArt()).toEqual([]);expect(read('art/source/arrival-roadster.json')).toEqual(r.roadster.metadata);
+  expect(rgba).toEqual(await sharp(r.panel).ensureAlpha().raw().toBuffer());expect(await checkEventIdentityArt()).toEqual([]);expect(read('art/source/arrival-roadster.json')).toEqual(r.roadster.metadata);
  });
  it('reproduces an exact idempotent source/native successor without changing either predecessor input',async()=>{
   const{applyArrivalRefresh,reconcileArrivalRefresh}=await import('../tools/maps/arrival-refresh');const old=beforeArrivalJson<MapLayout>('world/layouts/overworld.json'),native=beforeArrivalJson<TiledMap>('maps/overworld.tmj'),saved=structuredClone(old),savedNative=structuredClone(native),current=read<MapLayout>('world/layouts/overworld.json');
