@@ -30,7 +30,7 @@ describe('approved sponsor tier and community layout',()=>{
   const p=(id:string)=>l.placements.find(p=>p.id===`sponsor-tier-${id}-floor`)!;
   expect(p('main').y).toBeLessThan(p('spark').y);expect(p('spark').y).toBe(p('mini').y);
   expect(p('spark').x).toBeLessThan(p('main').x);expect(p('mini').x).toBeGreaterThan(p('main').x);
-  expect(floors.slice(3).map(id=>p(id).y)).toEqual([83,83,83,83,83]);
+  expect(floors.slice(3).map(id=>p(id).y)).toEqual([85,85,85,85,85]);
   expect(floors.slice(3).map(id=>p(id).x)).toEqual([39,47,55,69,81]);
   const text=l.signs!.map(s=>s.text).join('\n');
   for(const name of ['DIGISEC LAB','NEWNESS','LOKAL ZAYTANN','AWS UG','MYANMAR','OSRFM','BSIDES','VIBE CODE','TOURS','TEN TEN','INFO DESK'])expect(text).toContain(name);
@@ -68,9 +68,9 @@ describe('approved sponsor tier and community layout',()=>{
  it('reuses approved logo identities in their new booths and matches source physics',()=>{
   const {layout:l,native:m}=current(),b=baseline();
   expect(l.images!.filter(i=>!['Expo / AWS User Group Myanmar','Expo / OSRFM','Expo / Ten Ten'].includes(i.name)).map(i=>i.name)).toEqual(b.layout.images!.map(i=>i.name));
-  expect(l.images!.find(i=>i.name==='Expo / AWS User Group Myanmar')).toMatchObject({image:'assets/sponsors/partner-aws-ug-mm.png',x:40,y:85,width:4,height:2});
-  expect(l.images!.find(i=>i.name==='Expo / BSides Myanmar')).toMatchObject({x:48,y:85,width:4,height:2});
-  expect(l.images!.find(i=>i.name==='Expo / Vibe Code Tours')).toMatchObject({x:56,y:85,width:4,height:2});
+  expect(l.images!.find(i=>i.name==='Expo / AWS User Group Myanmar')).toMatchObject({image:'assets/sponsors/partner-aws-ug-mm.png',x:40,y:87,width:4,height:2});
+  expect(l.images!.find(i=>i.name==='Expo / BSides Myanmar')).toMatchObject({x:48,y:87,width:4,height:2});
+  expect(l.images!.find(i=>i.name==='Expo / Vibe Code Tours')).toMatchObject({x:56,y:87,width:4,height:2});
   expect(()=>assertNativeSourceProjection(m,buildMap(l,loadTileCatalog()).tmj)).not.toThrow();
  });
 

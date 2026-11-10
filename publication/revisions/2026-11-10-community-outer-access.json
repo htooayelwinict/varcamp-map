@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "revisions": [
+    {
+      "path": "maps/overworld.tmj",
+      "fromSha256": "98b5860bc42769d8d2832e77a185f6a8ea44c32463a0dc2feaf3dd32e29e6ae6",
+      "toSha256": "940f1a85b01424853cbf3f2ef5fd30e64e3b375a46e170d4bfe2c7b154349336",
+      "reason": "Reorient the five existing community booths toward the outer southern road; retain every atlas, approved brand and unrelated placement or control."
+    },
+    {
+      "path": "maps/preview/overworld.tmj",
+      "fromSha256": "6d9a4e1b3b0b5d8c88f21b95310c32d9d1da88811ee40a1fb3eeb89048dcb048",
+      "toSha256": "29eb37bb8c813aa9064f511928021bc13d5db98a77f7fb86fa78d70d11a29d73",
+      "reason": "Reorient the five existing community booths toward the outer southern road; retain every atlas, approved brand and unrelated placement or control."
+    },
+    {
+      "path": "world/layouts/overworld.json",
+      "fromSha256": "58fa881fbf82daf0ece742392258b0651c373dc5e64f5e2c5d8a6071476857f1",
+      "toSha256": "eb7d5040b25bf2c7865ca3692da6d1416b8b8d3ab139c178ab2451e6fa0a2c9c",
+      "reason": "Reorient the five existing community booths toward the outer southern road; retain every atlas, approved brand and unrelated placement or control."
+    }
+  ]
+}

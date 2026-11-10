@@ -2,7 +2,7 @@
   "version": 1,
   "mapId": "overworld",
   "beforeLayoutSha256": "d62e9ed7744469e389ed36c5b0fbd12deb7e0185b81f3dde7e023f194d16aec7",
-  "afterLayoutSha256": "358dba6bfd3db30cb9cd4812f81d41a1147773ba6c73c8df6076f6d8006b371b",
+  "afterLayoutSha256": "c6e199f406b242cf59f3e211574930aeb48bf636d58d7e913f7bb03a97b5e516",
   "bounds": {
     "x": 38,
     "y": 65,
@@ -2663,7 +2663,7 @@
       "sprite": "floor-wood",
       "layer": "terrain",
       "x": 39,
-      "y": 83,
+      "y": 85,
       "width": 6,
       "height": 4
     },
@@ -2672,7 +2672,7 @@
       "sprite": "floor-wood",
       "layer": "terrain",
       "x": 47,
-      "y": 83,
+      "y": 85,
       "width": 6,
       "height": 4
     },
@@ -2681,7 +2681,7 @@
       "sprite": "floor-wood",
       "layer": "terrain",
       "x": 55,
-      "y": 83,
+      "y": 85,
       "width": 6,
       "height": 4
     },
@@ -2690,7 +2690,7 @@
       "sprite": "floor-wood",
       "layer": "terrain",
       "x": 69,
-      "y": 83,
+      "y": 85,
       "width": 6,
       "height": 4
     },
@@ -2699,7 +2699,7 @@
       "sprite": "floor-wood",
       "layer": "terrain",
       "x": 81,
-      "y": 83,
+      "y": 85,
       "width": 6,
       "height": 4
     },
@@ -3671,7 +3671,7 @@
       "sprite": "expo-wall-navy",
       "layer": "props",
       "x": 39,
-      "y": 87,
+      "y": 83,
       "width": 1,
       "height": 2
     },
@@ -3680,7 +3680,7 @@
       "sprite": "wall-charcoal",
       "layer": "terrain",
       "x": 39,
-      "y": 87,
+      "y": 83,
       "width": 1,
       "height": 2
     },
@@ -3689,7 +3689,7 @@
       "sprite": "glass-partition",
       "layer": "props",
       "x": 40,
-      "y": 87,
+      "y": 83,
       "width": 3,
       "height": 2
     },
@@ -3698,7 +3698,7 @@
       "sprite": "wall-charcoal",
       "layer": "terrain",
       "x": 40,
-      "y": 87,
+      "y": 83,
       "width": 3,
       "height": 2
     },
@@ -3707,7 +3707,7 @@
       "sprite": "expo-wall-navy",
       "layer": "props",
       "x": 43,
-      "y": 87,
+      "y": 83,
       "width": 1,
       "height": 2
     },
@@ -3716,7 +3716,7 @@
       "sprite": "wall-charcoal",
       "layer": "terrain",
       "x": 43,
-      "y": 87,
+      "y": 83,
       "width": 1,
       "height": 2
     },
@@ -3725,7 +3725,7 @@
       "sprite": "expo-wall-navy",
       "layer": "props",
       "x": 44,
-      "y": 87,
+      "y": 83,
       "width": 1,
       "height": 2
     },
@@ -3734,7 +3734,7 @@
       "sprite": "wall-charcoal",
       "layer": "terrain",
       "x": 44,
-      "y": 87,
+      "y": 83,
       "width": 1,
       "height": 2
     },
@@ -3743,7 +3743,7 @@
       "sprite": "check-in-desk-solid",
       "layer": "props",
       "x": 39,
-      "y": 83,
+      "y": 85,
       "width": 3,
       "height": 2
     },
@@ -3752,7 +3752,7 @@
       "sprite": "laptop",
       "layer": "props",
       "x": 40,
-      "y": 83,
+      "y": 85,
       "width": 1,
       "height": 1
     },
@@ -3761,7 +3761,7 @@
       "sprite": "plaza-potted-lavender",
       "layer": "props",
       "x": 44,
-      "y": 84,
+      "y": 86,
       "width": 1,
       "height": 1
     },
@@ -3806,7 +3806,7 @@
       "sprite": "expo-wall-navy",
       "layer": "props",
       "x": 47,
-      "y": 87,
+      "y": 83,
       "width": 1,
       "height": 2
     },
@@ -3815,7 +3815,7 @@
       "sprite": "wall-charcoal",
       "layer": "terrain",
       "x": 47,
-      "y": 87,
+      "y": 83,
       "width": 1,
       "height": 2
     },
@@ -3824,7 +3824,7 @@
       "sprite": "glass-partition",
       "layer": "props",
       "x": 48,
-      "y": 87,
+      "y": 83,
       "width": 3,
       "height": 2
     },
@@ -3833,7 +3833,7 @@
       "sprite": "wall-charcoal",
       "layer": "terrain",
       "x": 48,
-      "y": 87,
+      "y": 83,
       "width": 3,
       "height": 2
     },
@@ -3842,7 +3842,7 @@
       "sprite": "expo-wall-navy",
       "layer": "props",
       "x": 51,
-      "y": 87,
+      "y": 83,
       "width": 1,
       "height": 2
     },
@@ -3851,7 +3851,7 @@
       "sprite": "wall-charcoal",
       "layer": "terrain",
       "x": 51,
-      "y": 87,
+      "y": 83,
       "width": 1,
       "height": 2
     },
@@ -3860,7 +3860,7 @@
       "sprite": "expo-wall-navy",
       "layer": "props",
       "x": 52,
-      "y": 87,
+      "y": 83,
       "width": 1,
       "height": 2
     },
@@ -3869,7 +3869,7 @@
       "sprite": "wall-charcoal",
       "layer": "terrain",
       "x": 52,
-      "y": 87,
+      "y": 83,
       "width": 1,
       "height": 2
     },
@@ -3878,7 +3878,7 @@
       "sprite": "check-in-desk-solid",
       "layer": "props",
       "x": 47,
-      "y": 83,
+      "y": 85,
       "width": 3,
       "height": 2
     },
@@ -3887,7 +3887,7 @@
       "sprite": "laptop",
       "layer": "props",
       "x": 48,
-      "y": 83,
+      "y": 85,
       "width": 1,
       "height": 1
     },
@@ -3896,7 +3896,7 @@
       "sprite": "plaza-potted-lavender",
       "layer": "props",
       "x": 52,
-      "y": 84,
+      "y": 86,
       "width": 1,
       "height": 1
     },
@@ -3941,7 +3941,7 @@
       "sprite": "expo-wall-navy",
       "layer": "props",
       "x": 55,
-      "y": 87,
+      "y": 83,
       "width": 1,
       "height": 2
     },
@@ -3950,7 +3950,7 @@
       "sprite": "wall-charcoal",
       "layer": "terrain",
       "x": 55,
-      "y": 87,
+      "y": 83,
       "width": 1,
       "height": 2
     },
@@ -3959,7 +3959,7 @@
       "sprite": "glass-partition",
       "layer": "props",
       "x": 56,
-      "y": 87,
+      "y": 83,
       "width": 3,
       "height": 2
     },
@@ -3968,7 +3968,7 @@
       "sprite": "wall-charcoal",
       "layer": "terrain",
       "x": 56,
-      "y": 87,
+      "y": 83,
       "width": 3,
       "height": 2
     },
@@ -3977,7 +3977,7 @@
       "sprite": "expo-wall-navy",
       "layer": "props",
       "x": 59,
-      "y": 87,
+      "y": 83,
       "width": 1,
       "height": 2
     },
@@ -3986,7 +3986,7 @@
       "sprite": "wall-charcoal",
       "layer": "terrain",
       "x": 59,
-      "y": 87,
+      "y": 83,
       "width": 1,
       "height": 2
     },
@@ -3995,7 +3995,7 @@
       "sprite": "expo-wall-navy",
       "layer": "props",
       "x": 60,
-      "y": 87,
+      "y": 83,
       "width": 1,
       "height": 2
     },
@@ -4004,7 +4004,7 @@
       "sprite": "wall-charcoal",
       "layer": "terrain",
       "x": 60,
-      "y": 87,
+      "y": 83,
       "width": 1,
       "height": 2
     },
@@ -4013,7 +4013,7 @@
       "sprite": "check-in-desk-solid",
       "layer": "props",
       "x": 55,
-      "y": 83,
+      "y": 85,
       "width": 3,
       "height": 2
     },
@@ -4022,7 +4022,7 @@
       "sprite": "laptop",
       "layer": "props",
       "x": 56,
-      "y": 83,
+      "y": 85,
       "width": 1,
       "height": 1
     },
@@ -4031,7 +4031,7 @@
       "sprite": "plaza-potted-lavender",
       "layer": "props",
       "x": 60,
-      "y": 84,
+      "y": 86,
       "width": 1,
       "height": 1
     },
@@ -4076,7 +4076,7 @@
       "sprite": "expo-wall-navy",
       "layer": "props",
       "x": 69,
-      "y": 87,
+      "y": 83,
       "width": 1,
       "height": 2
     },
@@ -4085,7 +4085,7 @@
       "sprite": "wall-charcoal",
       "layer": "terrain",
       "x": 69,
-      "y": 87,
+      "y": 83,
       "width": 1,
       "height": 2
     },
@@ -4094,7 +4094,7 @@
       "sprite": "glass-partition",
       "layer": "props",
       "x": 70,
-      "y": 87,
+      "y": 83,
       "width": 3,
       "height": 2
     },
@@ -4103,7 +4103,7 @@
       "sprite": "wall-charcoal",
       "layer": "terrain",
       "x": 70,
-      "y": 87,
+      "y": 83,
       "width": 3,
       "height": 2
     },
@@ -4112,7 +4112,7 @@
       "sprite": "expo-wall-navy",
       "layer": "props",
       "x": 73,
-      "y": 87,
+      "y": 83,
       "width": 1,
       "height": 2
     },
@@ -4121,7 +4121,7 @@
       "sprite": "wall-charcoal",
       "layer": "terrain",
       "x": 73,
-      "y": 87,
+      "y": 83,
       "width": 1,
       "height": 2
     },
@@ -4130,7 +4130,7 @@
       "sprite": "expo-wall-navy",
       "layer": "props",
       "x": 74,
-      "y": 87,
+      "y": 83,
       "width": 1,
       "height": 2
     },
@@ -4139,7 +4139,7 @@
       "sprite": "wall-charcoal",
       "layer": "terrain",
       "x": 74,
-      "y": 87,
+      "y": 83,
       "width": 1,
       "height": 2
     },
@@ -4148,7 +4148,7 @@
       "sprite": "check-in-desk-solid",
       "layer": "props",
       "x": 69,
-      "y": 83,
+      "y": 85,
       "width": 3,
       "height": 2
     },
@@ -4157,7 +4157,7 @@
       "sprite": "laptop",
       "layer": "props",
       "x": 70,
-      "y": 83,
+      "y": 85,
       "width": 1,
       "height": 1
     },
@@ -4166,7 +4166,7 @@
       "sprite": "plaza-potted-lavender",
       "layer": "props",
       "x": 74,
-      "y": 84,
+      "y": 86,
       "width": 1,
       "height": 1
     },
@@ -4211,7 +4211,7 @@
       "sprite": "expo-wall-navy",
       "layer": "props",
       "x": 81,
-      "y": 87,
+      "y": 83,
       "width": 1,
       "height": 2
     },
@@ -4220,7 +4220,7 @@
       "sprite": "wall-charcoal",
       "layer": "terrain",
       "x": 81,
-      "y": 87,
+      "y": 83,
       "width": 1,
       "height": 2
     },
@@ -4229,7 +4229,7 @@
       "sprite": "glass-partition",
       "layer": "props",
       "x": 82,
-      "y": 87,
+      "y": 83,
       "width": 3,
       "height": 2
     },
@@ -4238,7 +4238,7 @@
       "sprite": "wall-charcoal",
       "layer": "terrain",
       "x": 82,
-      "y": 87,
+      "y": 83,
       "width": 3,
       "height": 2
     },
@@ -4247,7 +4247,7 @@
       "sprite": "expo-wall-navy",
       "layer": "props",
       "x": 85,
-      "y": 87,
+      "y": 83,
       "width": 1,
       "height": 2
     },
@@ -4256,7 +4256,7 @@
       "sprite": "wall-charcoal",
       "layer": "terrain",
       "x": 85,
-      "y": 87,
+      "y": 83,
       "width": 1,
       "height": 2
     },
@@ -4265,7 +4265,7 @@
       "sprite": "expo-wall-navy",
       "layer": "props",
       "x": 86,
-      "y": 87,
+      "y": 83,
       "width": 1,
       "height": 2
     },
@@ -4274,7 +4274,7 @@
       "sprite": "wall-charcoal",
       "layer": "terrain",
       "x": 86,
-      "y": 87,
+      "y": 83,
       "width": 1,
       "height": 2
     },
@@ -4283,7 +4283,7 @@
       "sprite": "check-in-desk-solid",
       "layer": "props",
       "x": 81,
-      "y": 83,
+      "y": 85,
       "width": 3,
       "height": 2
     },
@@ -4292,7 +4292,7 @@
       "sprite": "laptop",
       "layer": "props",
       "x": 82,
-      "y": 83,
+      "y": 85,
       "width": 1,
       "height": 1
     },
@@ -4301,7 +4301,7 @@
       "sprite": "plaza-potted-lavender",
       "layer": "props",
       "x": 86,
-      "y": 84,
+      "y": 86,
       "width": 1,
       "height": 1
     },
@@ -4539,7 +4539,7 @@
           "name": "Expo / BSides Myanmar",
           "image": "assets/sponsors/partner-bsides-mm.png",
           "x": 48,
-          "y": 85,
+          "y": 87,
           "width": 4,
           "height": 2,
           "standing": false
@@ -4584,7 +4584,7 @@
           "name": "Expo / Vibe Code Tours",
           "image": "assets/sponsors/vibecode-tours.png",
           "x": 56,
-          "y": 85,
+          "y": 87,
           "width": 4,
           "height": 2
         },
@@ -4592,7 +4592,7 @@
           "name": "Expo / AWS User Group Myanmar",
           "image": "assets/sponsors/partner-aws-ug-mm.png",
           "x": 40,
-          "y": 85,
+          "y": 87,
           "width": 4,
           "height": 2,
           "standing": false
@@ -4601,7 +4601,7 @@
           "name": "Expo / OSRFM",
           "image": "assets/sponsors/partner-osrfm.png",
           "x": 70,
-          "y": 85,
+          "y": 87,
           "width": 4,
           "height": 2,
           "standing": false
@@ -4610,7 +4610,7 @@
           "name": "Expo / Ten Ten",
           "image": "assets/sponsors/partner-ten-ten.png",
           "x": 82,
-          "y": 85,
+          "y": 87,
           "width": 4,
           "height": 2,
           "standing": false
@@ -4744,9 +4744,9 @@
         {
           "name": "sponsor-tier-communities",
           "text": "COMMUNITY CORNER",
-          "x": 61,
-          "y": 80,
-          "width": 12,
+          "x": 60,
+          "y": 89,
+          "width": 8,
           "height": 1,
           "fontSize": 17,
           "color": "#cdebf2",
@@ -4757,7 +4757,7 @@
           "name": "sponsor-tier-aws-name",
           "text": "AWS UG\nMYANMAR",
           "x": 42,
-          "y": 83,
+          "y": 85,
           "width": 3,
           "height": 1,
           "fontSize": 11,
@@ -4769,7 +4769,7 @@
           "name": "sponsor-tier-bsides-name",
           "text": "BSIDES\nMYANMAR",
           "x": 50,
-          "y": 83,
+          "y": 85,
           "width": 3,
           "height": 1,
           "fontSize": 11,
@@ -4781,7 +4781,7 @@
           "name": "sponsor-tier-vibes-name",
           "text": "VIBE CODE\nTOURS",
           "x": 58,
-          "y": 83,
+          "y": 85,
           "width": 3,
           "height": 1,
           "fontSize": 11,
@@ -4793,7 +4793,7 @@
           "name": "sponsor-tier-osrfm-name",
           "text": "OSRFM",
           "x": 72,
-          "y": 83,
+          "y": 85,
           "width": 3,
           "height": 1,
           "fontSize": 14,
@@ -4805,7 +4805,7 @@
           "name": "sponsor-tier-ten-ten-name",
           "text": "TEN TEN",
           "x": 84,
-          "y": 83,
+          "y": 85,
           "width": 3,
           "height": 1,
           "fontSize": 14,
@@ -5154,9 +5154,9 @@
           {
             "id": 29,
             "name": "sponsor-tier-communities",
-            "x": 1953,
-            "y": 2561,
-            "width": 382,
+            "x": 1921,
+            "y": 2849,
+            "width": 254,
             "height": 30,
             "rotation": 0,
             "visible": true,
@@ -5175,7 +5175,7 @@
             "id": 30,
             "name": "sponsor-tier-aws-name",
             "x": 1345,
-            "y": 2657,
+            "y": 2721,
             "width": 94,
             "height": 30,
             "rotation": 0,
@@ -5195,7 +5195,7 @@
             "id": 31,
             "name": "sponsor-tier-bsides-name",
             "x": 1601,
-            "y": 2657,
+            "y": 2721,
             "width": 94,
             "height": 30,
             "rotation": 0,
@@ -5215,7 +5215,7 @@
             "id": 32,
             "name": "sponsor-tier-vibes-name",
             "x": 1857,
-            "y": 2657,
+            "y": 2721,
             "width": 94,
             "height": 30,
             "rotation": 0,
@@ -5235,7 +5235,7 @@
             "id": 33,
             "name": "sponsor-tier-osrfm-name",
             "x": 2305,
-            "y": 2657,
+            "y": 2721,
             "width": 94,
             "height": 30,
             "rotation": 0,
@@ -5255,7 +5255,7 @@
             "id": 34,
             "name": "sponsor-tier-ten-ten-name",
             "x": 2689,
-            "y": 2657,
+            "y": 2721,
             "width": 94,
             "height": 30,
             "rotation": 0,
@@ -5285,6 +5285,6 @@
       }
     ],
     "beforeSha256": "e98242907b2d88eac0ae3cf762a2066dff36ae3ec1103723c176ccd554173c35",
-    "afterSha256": "d94143d394bd539d8a45684462d1e333f769fbf48d2bb7f7e98fbf46a768b3c6"
+    "afterSha256": "98fcc9537b355698957c16f4e08bb051e84c07983a0ed7ae3e91177eaed87b68"
   }
 }
