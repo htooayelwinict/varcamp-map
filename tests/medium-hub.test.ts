@@ -1,4 +1,4 @@
-import {arrivalPlaques,arrivalFaces,arrivalFloorPanels,assertVisual,sponsorSupportIds,assertSponsorFootprints} from './helpers/physical-prop-contracts';
+import {arrivalPlaques,arrivalFaces,arrivalFloorPanels,assertVisual,assertSponsorFootprints} from './helpers/physical-prop-contracts';
 import {preArrivalLayout} from './helpers/pre-arrival-epoch';
 import { readFileSync, existsSync } from 'node:fs';
 import { describe, expect, it } from 'vitest';
@@ -37,9 +37,10 @@ describe('medium authored arrival',()=>{
  });
 
  it('shows the enlarged colourful floor lockup above the welcome spawn and clears the road crosspost',()=>{
-  const l=source(),spawn=l.entries.find(e=>e.isDefault)!;expect(l.images!.filter(i=>i.name.startsWith('Arrival /'))).toEqual(arrivalFloorPanels);
+  const l=source(),spawn=l.entries.find(e=>e.isDefault)!,panels=arrivalFloorPanels.map(p=>({...p,y:p.y-6}));
+  expect(l.images!.filter(i=>i.name.startsWith('Arrival /'))).toEqual(panels);
   expect(l.placements.some(p=>['arrival-direction-crosspost','arrival-crosspost-pole'].includes(p.id))).toBe(false);
-  for(const p of arrivalFloorPanels){expect(p.y+p.height).toBeLessThan(spawn.y);for(const other of l.placements.filter(p=>!['terrain','atmosphere'].includes(p.layer)))expect(overlap(p,other),p.name+' covers '+other.id).toBe(false);}
+  for(const p of panels){expect(p.y+p.height).toBeLessThan(spawn.y);for(const other of l.placements.filter(p=>!['terrain','atmosphere'].includes(p.layer)))expect(overlap(p,other),p.name+' covers '+other.id).toBe(false);}
  });
  it('gives every arrow glyph four clear dark pixels of vertical inset',async()=>{
   const svg=readFileSync('art/source/hub-labels.svg','utf8');
@@ -57,18 +58,19 @@ describe('medium authored arrival',()=>{
   }
   expect(glyphPixels).toBeGreaterThan(0);expect(failures).toEqual([]);
  });
- it('keeps the complete event lockup in the first viewport and relocated sponsor logos clear on the northern approach',()=>{
-  // Pinned HdpiManager:640×480 recommended game pixels; this2880px-wide screen defaults to3×.
-  // Conservatively use30×16 tiles and reserve1tile above/sides plus2tiles below for normal HUD.
-  const l=source(),spawn=l.entries.find(e=>e.isDefault)!;
-  // The eleven expo booth logos live in the hall band south of the first viewport; only the arrival inlays must be in view.
-  const arrival=(l.images??[]).filter(i=>!i.name.startsWith('Expo / ')),required=arrival.filter(i=>i.name.startsWith('Arrival /'));expect(l.images).toHaveLength(18);expect(arrival).toHaveLength(7);
-  const supportIds=sponsorSupportIds(l,loadTileCatalog());
-  assertSponsorFootprints(l,loadTileCatalog(),built().tmj);
-  for(const image of l.images??[])for(const p of l.placements.filter(p=>p.layer!=='terrain'&&p.layer!=='atmosphere'&&!supportIds.has(p.id)))expect(overlap(image,p),`${image.name} covered by ${p.id}`).toBe(false);
-  for(const c of cells(spawn,l.width)){
-   const cx=c%l.width+.5,cy=Math.floor(c/l.width)+.5,safe={x:cx-14,y:cy-7,width:28,height:13};
-   for(const r of required)expect(r.x>=safe.x&&r.y>=safe.y&&r.x+r.width<=safe.x+safe.width&&r.y+r.height<=safe.y+safe.height,`${r.name} misses first-view HUD-safe rectangle from ${c%l.width},${Math.floor(c/l.width)}`).toBe(true);
+ it('keeps the upper event lockup visible from the sponsor floor and reachable from the unchanged spawn',()=>{
+  const {l,mask}=built(),spawn=l.entries.find(e=>e.isDefault)!,required=l.images!.filter(i=>i.name.startsWith('Arrival /'));
+  expect(required).toHaveLength(4);
+  // Moving the logo north intentionally retires the old first-frame guarantee.
+  // From the reserved sponsor floor (64,60), retain the conservative 30x16-tile
+  // viewport with one tile of top/side HUD clearance and two tiles below.
+  const safe={x:64.5-14,y:60.5-7,width:28,height:13};
+  for(const r of required) expect(r.x>=safe.x&&r.y>=safe.y&&r.x+r.width<=safe.x+safe.width&&r.y+r.height<=safe.y+safe.height,r.name+' misses approach view').toBe(true);
+  for(const start of cells(spawn,l.width)){
+   const reachable=distances(l,mask,start);
+   for(const r of [...required,{x:58,y:60,width:12,height:4}]) for(const c of cells(r,l.width)){
+    expect(mask[c],'blocked arrival floor').toBe(0);expect(reachable.has(c),'unreachable arrival floor').toBe(true);
+   }
   }
  });
  it('retains the compact crosspost only in the independently checked pre-arrival history',()=>{

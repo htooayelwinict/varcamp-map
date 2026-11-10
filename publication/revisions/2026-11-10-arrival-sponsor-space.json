@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "revisions": [
+    {
+      "path": "maps/overworld.tmj",
+      "fromSha256": "44fa3aad2bbc33d790f7f9be18d0316493374cb2a90f6b4746f2d273be272122",
+      "toSha256": "06c80839468923cc4e9747786f9acc19802154df607150788f1e805f0fe78888",
+      "reason": "Move the existing arrival logo six tiles north and shorten its stone approach; reserve clear floor for main sponsors while preserving all artwork, collisions, controls and saved rooms."
+    },
+    {
+      "path": "maps/preview/overworld.tmj",
+      "fromSha256": "fdfa4e9c717481fb8e044cad46c653c702c439a2c578c68eed2f7fe0979872be",
+      "toSha256": "88fe4b85fc8f1c713cf873f0d3c0e3efd6ead3eaab44d446536cf6a7e623c91f",
+      "reason": "Move the existing arrival logo six tiles north and shorten its stone approach; reserve clear floor for main sponsors while preserving all artwork, collisions, controls and saved rooms."
+    },
+    {
+      "path": "tests/medium-hub.test.ts",
+      "fromSha256": "52fd4ee29ef74d2183449518aeec50dffa1f3273c8d5b9ae84d2b179116a076a",
+      "toSha256": "b757b6d6280ebfa5161bc83693162caaf7a061ba8848a924c0f378cdbfbf5261",
+      "reason": "Update the current arrival-logo geometry assertion for the approved six-tile northward move, preserving the no-overlap and clear-spawn assertions."
+    },
+    {
+      "path": "world/layouts/overworld.json",
+      "fromSha256": "62234bbfaa842e5ade7cd091b27ab956440998070cde641e30fadbe9c2bece31",
+      "toSha256": "76aa41a7cd940d4747c40482eb6a704f2273f7e8e869068da2ba4e740d37a73b",
+      "reason": "Move the existing arrival logo six tiles north and shorten its stone approach; reserve clear floor for main sponsors while preserving all artwork, collisions, controls and saved rooms."
+    }
+  ]
+}

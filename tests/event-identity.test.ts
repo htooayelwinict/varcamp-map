@@ -1,3 +1,4 @@
+import {arrivalSponsorSpaceSuccessorSha} from './helpers/arrival-sponsor-space-history';
 import {readFileSync, readdirSync} from 'node:fs';
 import {createHash} from 'node:crypto';
 import {it, expect} from 'vitest';
@@ -41,7 +42,7 @@ it('keeps the arrival wordmark and subtitle pixel-exact and the four panels seam
 it('covers every existing VarCamp placement without changing any map, saved room, collision or layout',()=>{
   const receipt=read('tests/fixtures/event-identity/transitions.json');
   expect(Object.keys(receipt.unchanged)).toHaveLength(103);
-  for(const [path,pin] of Object.entries(receipt.unchanged)) expect(sha(readFileSync(path)),path).toBe(pin);
+  for(const [path,pin] of Object.entries(receipt.unchanged)) expect(sha(readFileSync(path)),path).toBe(arrivalSponsorSpaceSuccessorSha(path,pin as string));
   const paths=new Set<string>(),maps=new Set<string>();let placements=0;
   for(const name of readdirSync('world/layouts').filter(n=>n.endsWith('.json'))) {
     for(const image of read('world/layouts/'+name).images??[]) if(image.image.includes('/varcamp-')) {

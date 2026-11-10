@@ -1,0 +1,113 @@
+{
+  "version": 1,
+  "mapId": "overworld",
+  "beforeLayoutSha256": "ade77c51e26cb7e6174052238a0a1574dfd2e95d91f9689d4ea38d3f48262b29",
+  "afterLayoutSha256": "d62e9ed7744469e389ed36c5b0fbd12deb7e0185b81f3dde7e023f194d16aec7",
+  "images": [
+    {
+      "index": 2,
+      "before": {
+        "name": "Arrival / VarCamp NW",
+        "image": "assets/sponsors/varcamp-arrival-nw.png",
+        "x": 58,
+        "y": 60,
+        "width": 6,
+        "height": 2,
+        "standing": false
+      },
+      "after": {
+        "name": "Arrival / VarCamp NW",
+        "image": "assets/sponsors/varcamp-arrival-nw.png",
+        "x": 58,
+        "y": 54,
+        "width": 6,
+        "height": 2,
+        "standing": false
+      }
+    },
+    {
+      "index": 3,
+      "before": {
+        "name": "Arrival / VarCamp NE",
+        "image": "assets/sponsors/varcamp-arrival-ne.png",
+        "x": 64,
+        "y": 60,
+        "width": 6,
+        "height": 2,
+        "standing": false
+      },
+      "after": {
+        "name": "Arrival / VarCamp NE",
+        "image": "assets/sponsors/varcamp-arrival-ne.png",
+        "x": 64,
+        "y": 54,
+        "width": 6,
+        "height": 2,
+        "standing": false
+      }
+    },
+    {
+      "index": 4,
+      "before": {
+        "name": "Arrival / VarCamp SW",
+        "image": "assets/sponsors/varcamp-arrival-sw.png",
+        "x": 58,
+        "y": 62,
+        "width": 6,
+        "height": 2,
+        "standing": false
+      },
+      "after": {
+        "name": "Arrival / VarCamp SW",
+        "image": "assets/sponsors/varcamp-arrival-sw.png",
+        "x": 58,
+        "y": 56,
+        "width": 6,
+        "height": 2,
+        "standing": false
+      }
+    },
+    {
+      "index": 5,
+      "before": {
+        "name": "Arrival / VarCamp SE",
+        "image": "assets/sponsors/varcamp-arrival-se.png",
+        "x": 64,
+        "y": 62,
+        "width": 6,
+        "height": 2,
+        "standing": false
+      },
+      "after": {
+        "name": "Arrival / VarCamp SE",
+        "image": "assets/sponsors/varcamp-arrival-se.png",
+        "x": 64,
+        "y": 56,
+        "width": 6,
+        "height": 2,
+        "standing": false
+      }
+    }
+  ],
+  "walk": {
+    "index": 6267,
+    "before": {
+      "id": "arrival-hospitality-central-walk",
+      "sprite": "path-stone",
+      "x": 62,
+      "y": 51,
+      "width": 4,
+      "height": 8,
+      "layer": "terrain"
+    },
+    "after": {
+      "id": "arrival-hospitality-central-walk",
+      "sprite": "path-stone",
+      "x": 62,
+      "y": 51,
+      "width": 4,
+      "height": 3,
+      "layer": "terrain"
+    }
+  }
+}

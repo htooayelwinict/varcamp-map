@@ -1,10 +1,11 @@
+import {restoreArrivalSponsorSpace} from '../tools/maps/arrival-sponsor-space';
 import {readFileSync} from 'node:fs';
 import {describe,it,expect} from 'vitest';
 import {applyPlazaShoreline,restorePlazaShoreline,shorelineAtlases} from '../tools/maps/plaza-shoreline';
 import type {MapLayout,TiledMap,TileLayer} from '../tools/maps/types';
 import recipe from '../world/plaza-shoreline.json';
 const read=(p:string)=>JSON.parse(readFileSync(p,'utf8'));
-const layout=()=>read('world/layouts/overworld.json') as MapLayout;
+const layout=()=>restoreArrivalSponsorSpace(read('world/layouts/overworld.json') as MapLayout);
 const map=()=>read('maps/overworld.tmj') as TiledMap;
 const layer=(m:TiledMap,n:string)=>m.layers.find(l=>l.name===n) as TileLayer;
 

@@ -1,0 +1,21 @@
+{
+  "base": "2ac477a90b6f8c8a376de70a49b67239b0fca17d",
+  "transitions": {
+    "world/layouts/overworld.json": [
+      "62234bbfaa842e5ade7cd091b27ab956440998070cde641e30fadbe9c2bece31",
+      "76aa41a7cd940d4747c40482eb6a704f2273f7e8e869068da2ba4e740d37a73b"
+    ],
+    "maps/overworld.tmj": [
+      "44fa3aad2bbc33d790f7f9be18d0316493374cb2a90f6b4746f2d273be272122",
+      "06c80839468923cc4e9747786f9acc19802154df607150788f1e805f0fe78888"
+    ],
+    "tools/maps/event-presentation.ts": [
+      "20603ef98de735bd84e84a5601f5be6401ade11bbf317d55ca5c63b7e7196b97",
+      "525b11bc4c175367a38a54d7f47df1b84e60615fd469cf22ea6333baf817b5d0"
+    ],
+    "tools/maps/plaza-native.ts": [
+      "8f778fe4475705edf57f0e2fc2b753ed7bbdb0c4bf80e54d37f5af30f78e9c21",
+      "a63f7422055894aabfca2cf89b5335079f70930fae6f7d7d437b4cbc41264060"
+    ]
+  }
+}

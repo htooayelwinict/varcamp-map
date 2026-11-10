@@ -1,3 +1,4 @@
+import {arrivalSponsorSpaceSuccessorSha} from './arrival-sponsor-space-history';
 import {readFileSync} from 'node:fs';
 import {createHash} from 'node:crypto';
 import assert from 'node:assert/strict';
@@ -7,7 +8,7 @@ const receipt=JSON.parse(bytes.toString());
 assert.equal(receipt.base,'5de44ff7f79b90fe00242970d98dea930fa68dc5');
 export function eventIdentitySuccessorSha(path:string,pin:string):string {
   const pair=receipt.transitions[path];
-  return pair && pair[0]===pin ? pair[1] : pin;
+  return arrivalSponsorSpaceSuccessorSha(path, pair && pair[0]===pin ? pair[1] : pin);
 }
 
 export const eventIdentityRegistration=receipt.registration;

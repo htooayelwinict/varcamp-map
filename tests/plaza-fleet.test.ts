@@ -8,6 +8,7 @@ import{assertFleetSafety,renderPlazaFleet}from'../tools/art/plaza-fleet';
 import{buildMap}from'../tools/maps/builder';
 import{loadTileCatalog}from'../tools/art/catalog';
 import type{MapLayout,TiledMap}from'../tools/maps/types';
+import {restoreArrivalSponsorSpace} from '../tools/maps/arrival-sponsor-space';
 const parse=createRequire(import.meta.url)(resolve('docs/qa/coastal-flight-2026-10-16/prototype/upstream/phaser/src/tilemaps/parsers/tiled/ParseTilesets.js'));
 const read=(p:string)=>JSON.parse(readFileSync(p,'utf8'));
 const sha=(b:Buffer)=>createHash('sha256').update(b).digest('hex');
@@ -18,8 +19,12 @@ it('adds three original readable drone types to the preserved two-aircraft plaza
  expect(extra.aircraft.map((a:{id:string})=>a.id)).toEqual(['plaza-fleet-camera','plaza-fleet-delivery','plaza-fleet-survey']);
  expect(baseline.tracks.length+extra.aircraft.length).toBe(5);
 });
-it('allows the registered topmost fleet above the exact walkable arrival floor logo while keeping raised panels protected',()=>{
- const l=read('world/layouts/overworld.json')as MapLayout,r=read('art/source/plaza-fleet-recipe.json');
+it('keeps current lanes clear and preserves the original floor-versus-raised arrival-logo safety check',()=>{
+ const current=read('world/layouts/overworld.json')as MapLayout,r=read('art/source/plaza-fleet-recipe.json');
+ expect(()=>assertFleetSafety(current,r)).not.toThrow();
+ // The relocated logo no longer lies under this camera lane. Replay the exact
+ // predecessor for the floor/raised comparison so the protected overlap is real.
+ const l=restoreArrivalSponsorSpace(current);
  expect(()=>assertFleetSafety(l,r)).not.toThrow();
  l.images!.find(i=>i.name==='Arrival / VarCamp SW')!.standing=true;
  expect(()=>assertFleetSafety(l,r)).toThrow(/logo/);

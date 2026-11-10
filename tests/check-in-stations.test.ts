@@ -1,3 +1,4 @@
+import {restoreArrivalSponsorSpace} from '../tools/maps/arrival-sponsor-space';
 import {restorePlazaShoreline} from '../tools/maps/plaza-shoreline';
 import {readFileSync} from 'node:fs';
 import {describe,it,expect,vi} from 'vitest';
@@ -16,7 +17,7 @@ function fixture(){
 }
 describe('Check-in beside every zodiac entrance',()=>{
  it('recognizes the reviewed layout, restores its predecessor and rejects a moved desk',()=>{
-  const layout=restorePlazaShoreline(read('world/layouts/overworld.json') as MapLayout);
+  const layout=restorePlazaShoreline(restoreArrivalSponsorSpace(read('world/layouts/overworld.json') as MapLayout));
   expect(isArrivalHospitality(layout)).toBe(true);
   const prior=restoreArrivalHospitality(layout);
   expect(prior.exits).toEqual(layout.exits);expect(prior.entries).toEqual(layout.entries);expect(prior.animatedOverlays).toEqual(layout.animatedOverlays);

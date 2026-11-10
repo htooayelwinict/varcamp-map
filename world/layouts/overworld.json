@@ -56418,7 +56418,7 @@
       "x": 62,
       "y": 51,
       "width": 4,
-      "height": 8,
+      "height": 3,
       "layer": "terrain"
     },
     {
@@ -67129,7 +67129,7 @@
       "name": "Arrival / VarCamp NW",
       "image": "assets/sponsors/varcamp-arrival-nw.png",
       "x": 58,
-      "y": 60,
+      "y": 54,
       "width": 6,
       "height": 2,
       "standing": false
@@ -67138,7 +67138,7 @@
       "name": "Arrival / VarCamp NE",
       "image": "assets/sponsors/varcamp-arrival-ne.png",
       "x": 64,
-      "y": 60,
+      "y": 54,
       "width": 6,
       "height": 2,
       "standing": false
@@ -67147,7 +67147,7 @@
       "name": "Arrival / VarCamp SW",
       "image": "assets/sponsors/varcamp-arrival-sw.png",
       "x": 58,
-      "y": 62,
+      "y": 56,
       "width": 6,
       "height": 2,
       "standing": false
@@ -67156,7 +67156,7 @@
       "name": "Arrival / VarCamp SE",
       "image": "assets/sponsors/varcamp-arrival-se.png",
       "x": 64,
-      "y": 62,
+      "y": 56,
       "width": 6,
       "height": 2,
       "standing": false
