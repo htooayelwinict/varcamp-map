@@ -24,7 +24,7 @@ systemd-run --user --scope -p MemoryMax=6G -p MemorySwapMax=0 npm test -- tests/
 npm run buildmap
 ```
 
-Use the [devbox deployment workflow](devbox-deployment.md) after qualification. Preserve live organizer WAM edits. This counter adds no meeting zone and does not alter saved WAM areas.
+Use the [devbox deployment workflow](devbox-deployment.md) after qualification. Preserve live organizer WAM edits. This counter adds no meeting zone. The existing arrival quiet/highlight area must cover all three desks: the guarded `ops/migrate_wam_tokens.py --arrival-check-in` option changes only its reviewed width from 239 to 335 px. Pass the resulting reviewed WAM ZIP to `ops/release_upload.py prepare --reviewed-wams`; the ordinary source WAM must never replace live editor data. Changed saved settings or overlapping areas stop the migration for review. Test the prepared live-derived WAM and reload the actual venue, since the checked-in preview does not contain those saved settings.
 
 Run the checks sequentially inside tmux on the devbox. Do not run the test files together or without memory limits. The arrival gardens reuse existing trees, flowers, benches and fountain artwork; all aircraft animations, building doors and public guide route cells remain unchanged.
 
@@ -33,6 +33,8 @@ Run the checks sequentially inside tmux on the devbox. Do not run the test files
 Check-in စားပွဲ စုစုပေါင်း ၁၅ ခု ရှိပါသည်။ ကြိုဆိုရေးနေရာတွင် စားပွဲသုံးခုကို ဘေးချင်းကပ်ထားပြီး တစ်ခုစီတွင် နှိပ်၍ အသုံးပြုနိုင်သော laptop တစ်လုံးစီ ရှိပါသည်။ ပိုကျယ်သော သစ်သားကြမ်းခင်းပေါ်တွင် ရှေ့ဘက်နှင့် ဘေးနှစ်ဖက်မှ သွားလာနိုင်ပါသည်။ ထို့အပြင် ရာသီခွင်ဟောပြောပွဲအဆောက်အဦ ၁၂ လုံး၏ ဝင်ပေါက်ဘေးတွင် တစ်ခုစီ ဖြစ်ပါသည်။ တံခါးနှင့် လူသွားလမ်းကို မပိတ်အောင် နေရာချထားပါသည်။
 
 နောက်နှစ်ပွဲအတွက် URL ပြောင်းရန် အထက်ပါ `world/check-in-counter.json` ကို ပြင်ပါ။ ကောင်တာစာတန်းနှင့် အနီးကပ်လုပ်ဆောင်ရန်ခလုတ်တို့သည် ထို URL တစ်ခုတည်းကို အသုံးပြုပါသည်။ ကောင်တာ၊ ကွန်ပျူတာနှင့် လူသွားလမ်းနေရာကို ပြောင်းပါက tile collision နှင့် guide လမ်းကြောင်းကိုပါ ပြန်စစ်ပါ။
+
+လက်ရှိ live မြေပုံတွင် သိမ်းထားသော quiet/highlight ဧရိယာ၏ အကျယ်ကို စားပွဲသုံးခုလုံး ပါဝင်အောင် 239 px မှ 335 px သို့သာ ချဲ့ထားပါသည်။ အခြား setting များကို မပြောင်းပါနှင့်။ Live editor မှ သိမ်းထားသည့် အချက်အလက်များကို source WAM ဖြင့် မဖုံးရေးပါနှင့်။ ပြင်ဆင်ပြီးနောက် live မြေပုံကို reload လုပ်၍ ညာဘက် laptop ပါ ဧရိယာအတွင်း ရှိကြောင်း ပြန်စစ်ပါ။
 
 Check-in စားပွဲ၏ tile ခြောက်ကွက်လုံးကို ပိတ်ထားရပါမည်။ ရှေ့ဘက်တစ်ဖက်တည်းမဟုတ်ဘဲ နောက်ဘက်နှင့် ဘေးနှစ်ဖက်မှလည်း လမ်းလျှောက်ဝင်၍ မရကြောင်း ဦးတည်ရာခလုတ်များဖြင့် စမ်းသပ်ပါ။ စားပွဲပတ်လည် လူသွားလမ်းကို မပိတ်ပါနှင့်။
 

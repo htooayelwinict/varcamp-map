@@ -32,5 +32,16 @@
 - [x] Implement the finite map successor, extend station data and regenerate only the overworld native projection. Update prior tests for the intentional larger counter.
 - [x] Run the targeted tests individually, validate art/source receipts and guide routes, and prepare a release. Update English/Burmese operator guidance.
 - [x] Exercise candidate click links, prompts, keyboard collisions, perimeter routes and screenshots in native Chromium.
-- [ ] Run requesting-code-review with review-agent, plus code-review; resolve findings before commit.
-- [ ] Commit and publish through the guarded release path, verify all three live laptop tabs and reload, record exact evidence and deployment status.
+- [x] Run requesting-code-review with review-agent, plus code-review; resolve findings before commit.
+- [x] Commit and publish through the guarded release path, verify all three live laptop tabs and reload, record exact evidence and deployment status.
+
+## Live saved-area follow-up
+
+Live reload exposed an old-width quiet/highlight area that was absent from the checked-in WAM preview. The third laptop falls outside its highlighted boundary. The desk geometry, link and collision checks passed, but visual acceptance remains pending.
+
+Scope: change only the width of saved area `5051b43b-7d12-4272-bcaa-f6284bb4f58c` from 239 to 335 pixels. Preserve its origin, height, IDs, all quiet/highlight settings and every other saved editor field. Reject changed source controls or a newly overlapping saved area. No native map or runtime changes.
+
+- [x] Reproduce the live mismatch and write failing-first migration/admission checks.
+- [x] Implement an opt-in bounded migration; run each targeted test file alone under the memory cap.
+- [x] Prepare against the live WAM, inspect the exact width-only delta and test the reviewed saved area in Chromium, including reload and the third laptop.
+- [ ] Independent review-agent plus code-review, commit, guarded publication, live verification and evidence update.
