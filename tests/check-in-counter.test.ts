@@ -38,7 +38,7 @@ function fixture(map='overworld'){
 describe('Check-in counter',()=>{
  it('creates a clickable local sign only in the plaza and never opens the registration site automatically',async()=>{
   const f=fixture(),dispose=registerCheckInCounter(f.api);f.initial(at);await tick();
-  expect(f.create).toHaveBeenCalledOnce();expect(f.create.mock.calls[0][0]).toMatchObject({allowApi:false,allow:'',origin:'map',position:{x:2272,y:1920,width:96,height:64}});
+  expect(f.create).toHaveBeenCalledTimes(3);expect(f.create.mock.calls[0][0]).toMatchObject({allowApi:false,allow:'',origin:'map',position:{x:2240,y:1920,width:96,height:64}});
   expect(f.create.mock.calls[0][0].url).not.toContain('register.var.camp');expect(f.actions[0].message).toBe(CHECK_IN_MESSAGE);expect(f.openTab).not.toHaveBeenCalled();dispose();
   const elsewhere=fixture('orbit-maze');registerCheckInCounter(elsewhere.api)();expect(elsewhere.create).not.toHaveBeenCalled();expect(elsewhere.openTab).not.toHaveBeenCalled();
  });
@@ -49,15 +49,15 @@ describe('Check-in counter',()=>{
  });
  it('removes prompts on exit and disposes the sign and listener without allowing stale callbacks',async()=>{
   const f=fixture(),dispose=registerCheckInCounter(f.api);f.move(at);f.move({x:0,y:0});expect(f.actions[0].remove).toHaveBeenCalledOnce();f.actions[0].callback();expect(f.openTab).not.toHaveBeenCalled();
-  expect(f.del).toHaveBeenCalledExactlyOnceWith('varcamp-check-in-sign');
-  f.move(at);dispose();dispose();expect(f.unsubscribe).toHaveBeenCalledOnce();expect(f.del).toHaveBeenCalledTimes(2);expect(f.del).toHaveBeenLastCalledWith('varcamp-check-in-sign');f.actions[1].callback();f.initial(at);await tick();expect(f.actions).toHaveLength(2);expect(f.openTab).not.toHaveBeenCalled();
+  expect(f.del).toHaveBeenCalledTimes(3);expect(f.del).toHaveBeenCalledWith('varcamp-check-in-sign');
+  f.move(at);dispose();dispose();expect(f.unsubscribe).toHaveBeenCalledOnce();expect(f.del).toHaveBeenCalledTimes(6);expect(f.del).toHaveBeenLastCalledWith('varcamp-check-in-arrival-east');f.actions[1].callback();f.initial(at);await tick();expect(f.actions).toHaveLength(2);expect(f.openTab).not.toHaveBeenCalled();
  });
  it('ignores a delayed initial position after the visitor has already moved away',async()=>{
   const f=fixture(),dispose=registerCheckInCounter(f.api);f.move({x:0,y:0});f.initial(at);await tick();expect(f.actions).toHaveLength(0);dispose();
  });
  it('does not offer check-in outside the approach or on the desk itself',()=>{
   const f=fixture(),dispose=registerCheckInCounter(f.api);
-  for(const p of [{x:69*32,y:62*32},{x:75*32,y:62*32},{x:72*32,y:61*32},{x:72*32,y:64*32}])f.move(p);
+  for(const p of [{x:66*32,y:62*32},{x:81*32,y:62*32},{x:72*32,y:61*32},{x:72*32,y:64*32}])f.move(p);
   expect(f.actions).toHaveLength(0);dispose();
  });
  it('keeps the click link accessible, isolated from its opener and free from camera permissions',()=>{
@@ -77,7 +77,7 @@ describe('Check-in counter',()=>{
   const a=mask(old),b=mask(map),deskOnly=mask(buildMap(restoreAudienceFootprints(restoreLeoCitadel(restoreCancerCitadel(restoreHornedCitadels(restoreOuterSecurity(restoreRoadsterPhysics(restoreArrivalHospitality(restorePlazaShoreline(restoreArrivalSponsorSpace(restoreSponsorTiers(layout)))),catalog)),catalog),catalog),catalog)),catalog).tmj);expect(deskOnly.flatMap((v,i)=>v!==a[i]?[i]:[])).toEqual([60*128+71,60*128+72,60*128+73,61*128+71,61*128+72,61*128+73]);
   expect(mask(buildMap(layout,catalog).tmj)).toEqual(b);
   const desk=layout.placements.find(p=>p.id==='check-in-counter-desk')!;expect(catalog[desk.sprite].blockingCells).toEqual([[0,0],[1,0],[2,0],[0,1],[1,1],[2,1]]);
-  for(const [x,y]of [[71,59],[72,59],[73,59],[70,60],[70,61],[74,60],[74,61],[71,62],[72,62],[73,62]])expect(b[y*128+x]).toBe(false);
+  for(const [x,y]of [[71,59],[72,59],[73,59],[69,60],[69,61],[79,60],[79,61],[71,62],[72,62],[73,62]])expect(b[y*128+x]).toBe(false);
   for(const t of old.tilesets.filter(t=>t.name!=='standing-captions'))expect(map.tilesets.find(s=>s.name===t.name)).toEqual(t);
   for(let y=62;y<=64;y++)for(let x=71;x<79;x++)expect(b[y*128+x]).toBe(false);
   for(const [x,y]of read('src/bots/lyra-routes.json').allowedCells)expect(b[y*128+x]).toBe(false);

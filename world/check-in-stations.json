@@ -6,15 +6,47 @@
       "id": "arrival",
       "building": "overworld",
       "desk": {
-        "x": 71,
+        "x": 70,
         "y": 60,
         "width": 3,
         "height": 2
       },
       "interaction": {
-        "x": 70,
+        "x": 69,
         "y": 62,
-        "width": 5,
+        "width": 4,
+        "height": 2
+      }
+    },
+    {
+      "id": "arrival-middle",
+      "building": "overworld",
+      "desk": {
+        "x": 73,
+        "y": 60,
+        "width": 3,
+        "height": 2
+      },
+      "interaction": {
+        "x": 73,
+        "y": 62,
+        "width": 3,
+        "height": 2
+      }
+    },
+    {
+      "id": "arrival-east",
+      "building": "overworld",
+      "desk": {
+        "x": 76,
+        "y": 60,
+        "width": 3,
+        "height": 2
+      },
+      "interaction": {
+        "x": 76,
+        "y": 62,
+        "width": 4,
         "height": 2
       }
     },

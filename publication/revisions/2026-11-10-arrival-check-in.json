@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "revisions": [
+    {
+      "path": "maps/overworld.tmj",
+      "fromSha256": "f36e6d37d13fcbd2bc59a1b5bf5cb3015e226cb5683e0c0a69f3ed91d5fe91e8",
+      "toSha256": "1554138a8eed622019ad1348c9f322317d2ec0b32bf04e53d8912511fa9797b8",
+      "reason": "Widen the arrival platform and add two solid laptop desks with deliberate check-in links; retain reserved sponsor floor, guide cells, twelve speaker counters, all atlas reservations and saved controls."
+    },
+    {
+      "path": "maps/preview/overworld.tmj",
+      "fromSha256": "8556a9df23fa57dc6e1c1af8dde872521ee67cded10d71c33e7074e2632f075a",
+      "toSha256": "3d6495435a6c6d2d1297262badbb4d81104a508ab75aadf0b8980695f9a152be",
+      "reason": "Widen the arrival platform and add two solid laptop desks with deliberate check-in links; retain reserved sponsor floor, guide cells, twelve speaker counters, all atlas reservations and saved controls."
+    },
+    {
+      "path": "world/layouts/overworld.json",
+      "fromSha256": "9b5451d12cd83429d51dae77d939728929dd2e303184efe672763620c5614ab6",
+      "toSha256": "844d05fe762b3f7aef6a1f8b4ab9210e64028d257390e9cc5dcc4ec51c17c484",
+      "reason": "Widen the arrival platform and add two solid laptop desks with deliberate check-in links; retain reserved sponsor floor, guide cells, twelve speaker counters, all atlas reservations and saved controls."
+    }
+  ]
+}

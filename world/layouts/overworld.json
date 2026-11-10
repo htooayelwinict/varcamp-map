@@ -53988,7 +53988,7 @@
     {
       "id": "check-in-counter-desk",
       "sprite": "check-in-desk-solid",
-      "x": 71,
+      "x": 70,
       "y": 60,
       "width": 3,
       "height": 2,
@@ -53997,7 +53997,7 @@
     {
       "id": "check-in-counter-computer",
       "sprite": "laptop",
-      "x": 72,
+      "x": 71,
       "y": 60,
       "width": 1,
       "height": 1,
@@ -54006,7 +54006,7 @@
     {
       "id": "check-in-floor-label",
       "sprite": "event-check-in-floor-label",
-      "x": 71,
+      "x": 73,
       "y": 62,
       "width": 3,
       "height": 1,
@@ -54647,7 +54647,7 @@
       "sprite": "floor-wood-long",
       "x": 70,
       "y": 59,
-      "width": 6,
+      "width": 9,
       "height": 5,
       "layer": "terrain"
     },
@@ -54656,7 +54656,7 @@
       "sprite": "plaza-grass-02",
       "x": 71,
       "y": 57,
-      "width": 4,
+      "width": 7,
       "height": 1,
       "layer": "terrain"
     },
@@ -54665,7 +54665,7 @@
       "sprite": "plaza-grass-02",
       "x": 71,
       "y": 58,
-      "width": 4,
+      "width": 7,
       "height": 1,
       "layer": "terrain"
     },
@@ -54681,7 +54681,7 @@
     {
       "id": "arrival-hospitality-reception-right",
       "sprite": "plaza-potted-fern",
-      "x": 75,
+      "x": 78,
       "y": 57,
       "width": 1,
       "height": 2,
@@ -54690,7 +54690,7 @@
     {
       "id": "arrival-hospitality-reception-flowers",
       "sprite": "plaza-wildflowers",
-      "x": 72,
+      "x": 73,
       "y": 57,
       "width": 2,
       "height": 2,
@@ -66008,6 +66008,42 @@
       "y": 80,
       "width": 21,
       "height": 2
+    },
+    {
+      "id": "arrival-check-in-middle-desk",
+      "sprite": "check-in-desk-solid",
+      "x": 73,
+      "y": 60,
+      "width": 3,
+      "height": 2,
+      "layer": "props"
+    },
+    {
+      "id": "arrival-check-in-middle-computer",
+      "sprite": "laptop",
+      "x": 74,
+      "y": 60,
+      "width": 1,
+      "height": 1,
+      "layer": "props"
+    },
+    {
+      "id": "arrival-check-in-east-desk",
+      "sprite": "check-in-desk-solid",
+      "x": 76,
+      "y": 60,
+      "width": 3,
+      "height": 2,
+      "layer": "props"
+    },
+    {
+      "id": "arrival-check-in-east-computer",
+      "sprite": "laptop",
+      "x": 77,
+      "y": 60,
+      "width": 1,
+      "height": 1,
+      "layer": "props"
     }
   ],
   "entries": [

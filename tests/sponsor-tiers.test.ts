@@ -7,6 +7,7 @@ import {buildMap} from '../tools/maps/builder';
 import {loadTileCatalog} from '../tools/art/catalog';
 import {assertNativeSourceProjection} from '../tools/maps/native-projection';
 import {applySponsorTiers,restoreSponsorTiers} from '../tools/maps/sponsor-tiers';
+import {restoreArrivalCheckIn} from '../tools/maps/arrival-check-in';
 import type {ObjectLayer} from '../tools/maps/types';
 import type {MapLayout,TiledMap,TileLayer} from '../tools/maps/types';
 
@@ -54,9 +55,11 @@ describe('approved sponsor tier and community layout',()=>{
   expect(b.base.startsWith('428227f')).toBe(true);
   for(const key of ['entries','exits','areas','inspectionZones','animatedOverlays'] as const)expect(isDeepStrictEqual(l[key],b.layout[key]),key).toBe(true);
   const outside=(p:{x:number;y:number;width:number;height:number})=>p.x+p.width<=38||p.x>=90||p.y+p.height<=65||p.y>=90;
-  expect(isDeepStrictEqual(l.placements.filter(outside),b.layout.placements.filter(outside)),'outside furnishings').toBe(true);
+  const predecessor=restoreArrivalCheckIn(l);
+  expect(isDeepStrictEqual(predecessor.placements.filter(outside),b.layout.placements.filter(outside)),'outside furnishings before reception-only successor').toBe(true);
   expect(isDeepStrictEqual(l.images!.filter(outside),b.layout.images!.filter(outside)),'arrival artwork').toBe(true);
-  const a=mask(m),old=mask(b.native);const changes=a.flatMap((gid,i)=>gid!==old[i]?[i]:[]);
+  // Current native projection is checked below. Compare sponsor collisions before the separately tested reception successor.
+  const a=mask(buildMap(predecessor,loadTileCatalog()).tmj),old=mask(b.native);const changes=a.flatMap((gid,i)=>Boolean(gid)!==Boolean(old[i])?[i]:[]);
   expect(changes.length).toBeGreaterThan(0);
   expect(changes.every(i=>i%128>=38&&i%128<90&&Math.floor(i/128)>=65&&Math.floor(i/128)<90)).toBe(true);
   expect(createHash('sha256').update(readFileSync('maps/overworld.wam')).digest('hex')).toBe(b.wamSha256);

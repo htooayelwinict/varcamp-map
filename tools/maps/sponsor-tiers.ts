@@ -2,10 +2,11 @@ import {createHash} from 'node:crypto';
 import {isDeepStrictEqual} from 'node:util';
 import data from '../../world/sponsor-tiers.json';
 import type {MapLayout,Placement} from './types';
+import {applyArrivalCheckIn,restoreArrivalCheckIn,isExpandedArrivalCheckIn} from './arrival-check-in';
 
 const sha=(v:unknown)=>createHash('sha256').update(JSON.stringify(v)).digest('hex');
 const need=(ok:unknown,why:string)=>{if(!ok)throw Error('Sponsor tiers: '+why);};
-export const isSponsorTiers=(l:MapLayout)=>l.id===data.mapId&&sha(l)===data.afterLayoutSha256;
+export const isSponsorTiers=(l:MapLayout)=>isExpandedArrivalCheckIn(l)||(l.id===data.mapId&&sha(l)===data.afterLayoutSha256);
 
 /** One reviewed source transition, reversible without touching arrival or meeting controls. */
 function transform(input:MapLayout,forward:boolean):MapLayout{
@@ -24,5 +25,5 @@ function transform(input:MapLayout,forward:boolean):MapLayout{
  for(const [field,change]of Object.entries(data.fields))Object.assign(l,{[field]:structuredClone(forward?change.after:change.before)});
  need(sha(l)===(forward?data.afterLayoutSha256:data.beforeLayoutSha256),'unexpected source delta');return l;
 }
-export const applySponsorTiers=(l:MapLayout)=>transform(l,true);
-export const restoreSponsorTiers=(l:MapLayout)=>transform(l,false);
+export const applySponsorTiers=(l:MapLayout)=>applyArrivalCheckIn(transform(l,true));
+export const restoreSponsorTiers=(l:MapLayout)=>transform(isExpandedArrivalCheckIn(l)?restoreArrivalCheckIn(l):l,false);

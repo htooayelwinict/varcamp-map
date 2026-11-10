@@ -27,7 +27,7 @@ describe('Check-in beside every zodiac entrance',()=>{
   expect(()=>restoreArrivalHospitality(layout)).toThrow('unreviewed source layout');
  });
  it('offers one deliberate check-in at every station without opening the site on approach',()=>{
-  expect(stations.stations).toHaveLength(13);
+  expect(stations.stations).toHaveLength(15);
   const f=fixture(),dispose=registerCheckInCounter(f.api);
   for(const [count,s] of stations.stations.entries()){
    f.move(s.desk.x+1,s.desk.y+3);expect(f.openTab).toHaveBeenCalledTimes(count);
@@ -38,7 +38,7 @@ describe('Check-in beside every zodiac entrance',()=>{
   dispose();expect(f.unsubscribe).toHaveBeenCalledOnce();
  });
  it('switches desks safely, retires offscreen links and rejects stale prompts',()=>{
-  const f=fixture(),dispose=registerCheckInCounter(f.api),[a,b]=stations.stations;
+  const f=fixture(),dispose=registerCheckInCounter(f.api),a=stations.stations[0],b=stations.stations.find(s=>s.id==='speaker-aries')!;
   f.move(a.desk.x+1,a.desk.y+3);const old=f.actions.at(-1)!;
   f.move(b.desk.x+1,b.desk.y+3);old.callback();expect(f.openTab).not.toHaveBeenCalled();
   expect(old.remove).toHaveBeenCalledOnce();expect(f.del).toHaveBeenCalled();expect(f.create.mock.calls.length).toBeLessThan(stations.stations.length);
@@ -49,7 +49,7 @@ describe('Check-in beside every zodiac entrance',()=>{
   for(const s of stations.stations){
    for(let y=s.desk.y;y<s.desk.y+2;y++)for(let x=s.desk.x;x<s.desk.x+3;x++)expect(Boolean(mask[y*128+x]),s.id+':desk').toBe(true);
    const r=s.interaction;for(let y=r.y;y<r.y+r.height;y++)for(let x=r.x;x<r.x+r.width;x++)expect(Boolean(mask[y*128+x]),s.id+':approach').toBe(false);
-   if(s.id==='arrival')continue;
+   if(s.building==='overworld')continue;
    const e=l.exits.find((e:any)=>e.name===s.id);expect(e).toBeDefined();expect(s.desk.y).toBe(e.y+2);expect(Math.abs(s.desk.x-e.x)).toBeLessThanOrEqual(5);
    for(let y=e.y;y<e.y+4;y++)for(let x=e.x;x<e.x+e.width;x++)expect(Boolean(mask[y*128+x]),s.id+':door').toBe(false);
   }

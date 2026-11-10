@@ -1,15 +1,15 @@
 # Check-in counter
 
-Thirteen small native computer desks serve the overworld: one beside the main arrival logo and one beside each of the twelve zodiac speaker-building entrances. Each is placed to the side of the doorway, with an open approach and a small **CHECK IN** floor label. Click the computer above its **CHECK IN** floor label, or walk into the clear approach and use the Check In action. Both open the official [2026 attendee check-in page](https://register.var.camp/2026/attendee/check-in) in a new tab, leaving WorkAdventure open.
+Fifteen native computer desks serve the overworld: three adjacent stations on the widened arrival platform and one beside each of the twelve zodiac speaker-building entrances. Each is placed to the side of the doorway, with an open approach and a small **CHECK IN** floor label. Click the computer above its **CHECK IN** floor label, or walk into the clear approach and use the Check In action. Both open the official [2026 attendee check-in page](https://register.var.camp/2026/attendee/check-in) in a new tab, leaving WorkAdventure open.
 
 On 2 November 2026 the registration page returned `X-Frame-Options: SAMEORIGIN`, so the map does not iframe that external page. WorkAdventure documents [opening a new tab](https://docs.workadventu.re/developer/map-scripting/references/api-nav/) for this integration. A transparent local link over the computer provides click access with scripting API access and media permissions disabled. Ticket scanning, uploads, opening times, validation and attendance records belong to the registration service; the map neither stores tickets nor marks attendance itself.
 
 ## Future event updates
 
 - Change the official URL in [world/check-in-counter.json](../../world/check-in-counter.json). The clickable computer and action use that same URL.
-- Current desk and approach rectangles are in [check-in-stations.json](../../world/check-in-stations.json). The arrival desk retains its geometry from [check-in-counter-style.json](../../world/check-in-counter-style.json). The twelve additional desks and reception gardens are applied by the reversible [arrival hospitality recipe](../../world/arrival-hospitality.json), after the [event presentation revision](event-presentation.md). Earlier counter recipes remain historical data. Keep current furniture on the 32 px grid, clear of the logo, arrival spawn, guide route and booth entrances. Geometry changes require updating the explicit collision allowance and tests.
-- The [desk physics successor](../../world/check-in-physics.json) introduced the solid 3 × 2 footprint now reused by all thirteen desks through the `check-in-desk-solid` catalog entry. Its artwork is identical to `desk-coding`, whose shared bottom-row collision remains unchanged elsewhere. The three added desktop cells prevent entry from the back and sides; the whole perimeter stays open. Test entry with movement keys from north, south, east and west, including both side rows, as pathfinding alone can hide a collision gap.
-- The [runtime interaction](../../src/check-in/counter.ts) creates the clickable [sign](../../src/check-in/index.html) only for nearby overworld desks and removes it when the visitor moves away. It does not load thirteen frames at startup. It offers an action on approach, removes it on exit and cleans up on scene unload. It never opens a tab automatically.
+- Current desk and approach rectangles are in [check-in-stations.json](../../world/check-in-stations.json). The current arrival expansion is the reversible [arrival check-in successor](../../world/arrival-check-in-expansion.json): three 3 × 2 desks, an 9 × 5 wooden platform and distinct front approaches. The earlier [counter style](../../world/check-in-counter-style.json) remains historical. The twelve additional desks and reception gardens are applied by the reversible [arrival hospitality recipe](../../world/arrival-hospitality.json), after the [event presentation revision](event-presentation.md). Earlier counter recipes remain historical data. Keep current furniture on the 32 px grid, clear of the logo, arrival spawn, guide route and booth entrances. Geometry changes require updating the explicit collision allowance and tests.
+- The [desk physics successor](../../world/check-in-physics.json) introduced the solid 3 × 2 footprint now reused by all fifteen desks through the `check-in-desk-solid` catalog entry. Its artwork is identical to `desk-coding`, whose shared bottom-row collision remains unchanged elsewhere. The three added desktop cells prevent entry from the back and sides; the whole perimeter stays open. Test entry with movement keys from north, south, east and west, including both side rows, as pathfinding alone can hide a collision gap.
+- The [runtime interaction](../../src/check-in/counter.ts) creates the clickable [sign](../../src/check-in/index.html) only for nearby overworld desks and removes it when the visitor moves away. It creates the three arrival links only when nearby; distant speaker stations do not load frames. It offers an action on approach, removes it on exit and cleans up on scene unload. It never opens a tab automatically.
 - Recheck the registration site's frame policy before changing the opening mode. Do not remove security headers or proxy ticket data merely to force embedding.
 - Run the counter and runtime tests, map validation, source qualification and build. Verify the real clickable sign and keyboard action in WorkAdventure, the opened URL, return to the map, desk collision and clear walkway. Test without submitting an attendee's ticket.
 - Regenerate public guide geometry/module receipts after physical map changes; this does not authorize starting the guide services or changing their private release pins.
@@ -17,6 +17,7 @@ On 2 November 2026 the registration page returned `X-Frame-Options: SAMEORIGIN`,
 ```sh
 npm run maps:build
 npm run maps:validate
+systemd-run --user --scope -p MemoryMax=6G -p MemorySwapMax=0 npm test -- tests/arrival-check-in.test.ts
 systemd-run --user --scope -p MemoryMax=6G -p MemorySwapMax=0 npm test -- tests/check-in-counter.test.ts
 systemd-run --user --scope -p MemoryMax=6G -p MemorySwapMax=0 npm test -- tests/check-in-stations.test.ts
 systemd-run --user --scope -p MemoryMax=6G -p MemorySwapMax=0 npm test -- tests/runtime-contract.test.ts
@@ -29,7 +30,7 @@ Run the checks sequentially inside tmux on the devbox. Do not run the test files
 
 ## မြန်မာဘာသာ လွှဲပြောင်းမှတ်စု
 
-Check-in ကောင်တာ စုစုပေါင်း ၁၃ ခု ရှိပါသည်။ ကြိုဆိုရေးနေရာတွင် တစ်ခုနှင့် ရာသီခွင်ဟောပြောပွဲအဆောက်အဦ ၁၂ လုံး၏ ဝင်ပေါက်ဘေးတွင် တစ်ခုစီ ဖြစ်ပါသည်။ တံခါးနှင့် လူသွားလမ်းကို မပိတ်အောင် နေရာချထားပါသည်။
+Check-in စားပွဲ စုစုပေါင်း ၁၅ ခု ရှိပါသည်။ ကြိုဆိုရေးနေရာတွင် စားပွဲသုံးခုကို ဘေးချင်းကပ်ထားပြီး တစ်ခုစီတွင် နှိပ်၍ အသုံးပြုနိုင်သော laptop တစ်လုံးစီ ရှိပါသည်။ ပိုကျယ်သော သစ်သားကြမ်းခင်းပေါ်တွင် ရှေ့ဘက်နှင့် ဘေးနှစ်ဖက်မှ သွားလာနိုင်ပါသည်။ ထို့အပြင် ရာသီခွင်ဟောပြောပွဲအဆောက်အဦ ၁၂ လုံး၏ ဝင်ပေါက်ဘေးတွင် တစ်ခုစီ ဖြစ်ပါသည်။ တံခါးနှင့် လူသွားလမ်းကို မပိတ်အောင် နေရာချထားပါသည်။
 
 နောက်နှစ်ပွဲအတွက် URL ပြောင်းရန် အထက်ပါ `world/check-in-counter.json` ကို ပြင်ပါ။ ကောင်တာစာတန်းနှင့် အနီးကပ်လုပ်ဆောင်ရန်ခလုတ်တို့သည် ထို URL တစ်ခုတည်းကို အသုံးပြုပါသည်။ ကောင်တာ၊ ကွန်ပျူတာနှင့် လူသွားလမ်းနေရာကို ပြောင်းပါက tile collision နှင့် guide လမ်းကြောင်းကိုပါ ပြန်စစ်ပါ။
 
