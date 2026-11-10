@@ -64619,7 +64619,7 @@
       "sprite": "floor-wood",
       "layer": "terrain",
       "x": 39,
-      "y": 85,
+      "y": 82,
       "width": 6,
       "height": 4
     },
@@ -64628,7 +64628,7 @@
       "sprite": "floor-wood",
       "layer": "terrain",
       "x": 47,
-      "y": 85,
+      "y": 82,
       "width": 6,
       "height": 4
     },
@@ -64637,7 +64637,7 @@
       "sprite": "floor-wood",
       "layer": "terrain",
       "x": 55,
-      "y": 85,
+      "y": 82,
       "width": 6,
       "height": 4
     },
@@ -64646,7 +64646,7 @@
       "sprite": "floor-wood",
       "layer": "terrain",
       "x": 69,
-      "y": 85,
+      "y": 82,
       "width": 6,
       "height": 4
     },
@@ -64655,7 +64655,7 @@
       "sprite": "floor-wood",
       "layer": "terrain",
       "x": 81,
-      "y": 85,
+      "y": 82,
       "width": 6,
       "height": 4
     },
@@ -64691,9 +64691,9 @@
       "sprite": "path-stone",
       "layer": "terrain",
       "x": 38,
-      "y": 82,
+      "y": 86,
       "width": 52,
-      "height": 1
+      "height": 4
     },
     {
       "id": "sponsor-tier-main-west-wall",
@@ -65173,168 +65173,6 @@
       "height": 4
     },
     {
-      "id": "sponsor-tier-spark-back-post-west",
-      "sprite": "expo-wall-navy",
-      "layer": "props",
-      "x": 40,
-      "y": 80,
-      "width": 1,
-      "height": 2
-    },
-    {
-      "id": "sponsor-tier-spark-back-post-west-seal",
-      "sprite": "wall-charcoal",
-      "layer": "terrain",
-      "x": 40,
-      "y": 80,
-      "width": 1,
-      "height": 2
-    },
-    {
-      "id": "sponsor-tier-spark-back-glass-41",
-      "sprite": "glass-partition",
-      "layer": "props",
-      "x": 41,
-      "y": 80,
-      "width": 3,
-      "height": 2
-    },
-    {
-      "id": "sponsor-tier-spark-back-glass-41-seal",
-      "sprite": "wall-charcoal",
-      "layer": "terrain",
-      "x": 41,
-      "y": 80,
-      "width": 3,
-      "height": 2
-    },
-    {
-      "id": "sponsor-tier-spark-back-glass-44",
-      "sprite": "glass-partition",
-      "layer": "props",
-      "x": 44,
-      "y": 80,
-      "width": 3,
-      "height": 2
-    },
-    {
-      "id": "sponsor-tier-spark-back-glass-44-seal",
-      "sprite": "wall-charcoal",
-      "layer": "terrain",
-      "x": 44,
-      "y": 80,
-      "width": 3,
-      "height": 2
-    },
-    {
-      "id": "sponsor-tier-spark-back-glass-47",
-      "sprite": "glass-partition",
-      "layer": "props",
-      "x": 47,
-      "y": 80,
-      "width": 3,
-      "height": 2
-    },
-    {
-      "id": "sponsor-tier-spark-back-glass-47-seal",
-      "sprite": "wall-charcoal",
-      "layer": "terrain",
-      "x": 47,
-      "y": 80,
-      "width": 3,
-      "height": 2
-    },
-    {
-      "id": "sponsor-tier-spark-back-glass-50",
-      "sprite": "glass-partition",
-      "layer": "props",
-      "x": 50,
-      "y": 80,
-      "width": 3,
-      "height": 2
-    },
-    {
-      "id": "sponsor-tier-spark-back-glass-50-seal",
-      "sprite": "wall-charcoal",
-      "layer": "terrain",
-      "x": 50,
-      "y": 80,
-      "width": 3,
-      "height": 2
-    },
-    {
-      "id": "sponsor-tier-spark-back-glass-53",
-      "sprite": "glass-partition",
-      "layer": "props",
-      "x": 53,
-      "y": 80,
-      "width": 3,
-      "height": 2
-    },
-    {
-      "id": "sponsor-tier-spark-back-glass-53-seal",
-      "sprite": "wall-charcoal",
-      "layer": "terrain",
-      "x": 53,
-      "y": 80,
-      "width": 3,
-      "height": 2
-    },
-    {
-      "id": "sponsor-tier-spark-back-infill",
-      "sprite": "expo-wall-navy",
-      "layer": "props",
-      "x": 56,
-      "y": 80,
-      "width": 1,
-      "height": 2
-    },
-    {
-      "id": "sponsor-tier-spark-back-infill-seal",
-      "sprite": "wall-charcoal",
-      "layer": "terrain",
-      "x": 56,
-      "y": 80,
-      "width": 1,
-      "height": 2
-    },
-    {
-      "id": "sponsor-tier-spark-back-post-east",
-      "sprite": "expo-wall-navy",
-      "layer": "props",
-      "x": 57,
-      "y": 80,
-      "width": 1,
-      "height": 2
-    },
-    {
-      "id": "sponsor-tier-spark-back-post-east-seal",
-      "sprite": "wall-charcoal",
-      "layer": "terrain",
-      "x": 57,
-      "y": 80,
-      "width": 1,
-      "height": 2
-    },
-    {
-      "id": "sponsor-tier-spark-east-cap",
-      "sprite": "expo-wall-navy",
-      "layer": "props",
-      "x": 58,
-      "y": 80,
-      "width": 1,
-      "height": 2
-    },
-    {
-      "id": "sponsor-tier-spark-east-cap-seal",
-      "sprite": "wall-charcoal",
-      "layer": "terrain",
-      "x": 58,
-      "y": 80,
-      "width": 1,
-      "height": 2
-    },
-    {
       "id": "sponsor-tier-mini-east",
       "sprite": "expo-wall-navy",
       "layer": "props",
@@ -65351,132 +65189,6 @@
       "y": 77,
       "width": 1,
       "height": 4
-    },
-    {
-      "id": "sponsor-tier-mini-back-post-west",
-      "sprite": "expo-wall-navy",
-      "layer": "props",
-      "x": 74,
-      "y": 80,
-      "width": 1,
-      "height": 2
-    },
-    {
-      "id": "sponsor-tier-mini-back-post-west-seal",
-      "sprite": "wall-charcoal",
-      "layer": "terrain",
-      "x": 74,
-      "y": 80,
-      "width": 1,
-      "height": 2
-    },
-    {
-      "id": "sponsor-tier-mini-back-glass-75",
-      "sprite": "glass-partition",
-      "layer": "props",
-      "x": 75,
-      "y": 80,
-      "width": 3,
-      "height": 2
-    },
-    {
-      "id": "sponsor-tier-mini-back-glass-75-seal",
-      "sprite": "wall-charcoal",
-      "layer": "terrain",
-      "x": 75,
-      "y": 80,
-      "width": 3,
-      "height": 2
-    },
-    {
-      "id": "sponsor-tier-mini-back-glass-78",
-      "sprite": "glass-partition",
-      "layer": "props",
-      "x": 78,
-      "y": 80,
-      "width": 3,
-      "height": 2
-    },
-    {
-      "id": "sponsor-tier-mini-back-glass-78-seal",
-      "sprite": "wall-charcoal",
-      "layer": "terrain",
-      "x": 78,
-      "y": 80,
-      "width": 3,
-      "height": 2
-    },
-    {
-      "id": "sponsor-tier-mini-back-glass-81",
-      "sprite": "glass-partition",
-      "layer": "props",
-      "x": 81,
-      "y": 80,
-      "width": 3,
-      "height": 2
-    },
-    {
-      "id": "sponsor-tier-mini-back-glass-81-seal",
-      "sprite": "wall-charcoal",
-      "layer": "terrain",
-      "x": 81,
-      "y": 80,
-      "width": 3,
-      "height": 2
-    },
-    {
-      "id": "sponsor-tier-mini-back-glass-84",
-      "sprite": "glass-partition",
-      "layer": "props",
-      "x": 84,
-      "y": 80,
-      "width": 3,
-      "height": 2
-    },
-    {
-      "id": "sponsor-tier-mini-back-glass-84-seal",
-      "sprite": "wall-charcoal",
-      "layer": "terrain",
-      "x": 84,
-      "y": 80,
-      "width": 3,
-      "height": 2
-    },
-    {
-      "id": "sponsor-tier-mini-back-post-east",
-      "sprite": "expo-wall-navy",
-      "layer": "props",
-      "x": 87,
-      "y": 80,
-      "width": 1,
-      "height": 2
-    },
-    {
-      "id": "sponsor-tier-mini-back-post-east-seal",
-      "sprite": "wall-charcoal",
-      "layer": "terrain",
-      "x": 87,
-      "y": 80,
-      "width": 1,
-      "height": 2
-    },
-    {
-      "id": "sponsor-tier-mini-west-cap",
-      "sprite": "expo-wall-navy",
-      "layer": "props",
-      "x": 73,
-      "y": 80,
-      "width": 1,
-      "height": 2
-    },
-    {
-      "id": "sponsor-tier-mini-west-cap-seal",
-      "sprite": "wall-charcoal",
-      "layer": "terrain",
-      "x": 73,
-      "y": 80,
-      "width": 1,
-      "height": 2
     },
     {
       "id": "sponsor-tier-spark-threshold",
@@ -65591,115 +65303,43 @@
       "sprite": "expo-wall-navy",
       "layer": "props",
       "x": 38,
-      "y": 83,
+      "y": 82,
       "width": 1,
-      "height": 6
+      "height": 4
     },
     {
       "id": "sponsor-tier-aws-west-seal",
       "sprite": "wall-charcoal",
       "layer": "terrain",
       "x": 38,
-      "y": 83,
+      "y": 82,
       "width": 1,
-      "height": 6
+      "height": 4
     },
     {
       "id": "sponsor-tier-aws-east",
       "sprite": "expo-wall-navy",
       "layer": "props",
       "x": 45,
-      "y": 83,
+      "y": 82,
       "width": 1,
-      "height": 6
+      "height": 4
     },
     {
       "id": "sponsor-tier-aws-east-seal",
       "sprite": "wall-charcoal",
       "layer": "terrain",
       "x": 45,
-      "y": 83,
+      "y": 82,
       "width": 1,
-      "height": 6
-    },
-    {
-      "id": "sponsor-tier-aws-back-post-west",
-      "sprite": "expo-wall-navy",
-      "layer": "props",
-      "x": 39,
-      "y": 83,
-      "width": 1,
-      "height": 2
-    },
-    {
-      "id": "sponsor-tier-aws-back-post-west-seal",
-      "sprite": "wall-charcoal",
-      "layer": "terrain",
-      "x": 39,
-      "y": 83,
-      "width": 1,
-      "height": 2
-    },
-    {
-      "id": "sponsor-tier-aws-back-glass-40",
-      "sprite": "glass-partition",
-      "layer": "props",
-      "x": 40,
-      "y": 83,
-      "width": 3,
-      "height": 2
-    },
-    {
-      "id": "sponsor-tier-aws-back-glass-40-seal",
-      "sprite": "wall-charcoal",
-      "layer": "terrain",
-      "x": 40,
-      "y": 83,
-      "width": 3,
-      "height": 2
-    },
-    {
-      "id": "sponsor-tier-aws-back-infill",
-      "sprite": "expo-wall-navy",
-      "layer": "props",
-      "x": 43,
-      "y": 83,
-      "width": 1,
-      "height": 2
-    },
-    {
-      "id": "sponsor-tier-aws-back-infill-seal",
-      "sprite": "wall-charcoal",
-      "layer": "terrain",
-      "x": 43,
-      "y": 83,
-      "width": 1,
-      "height": 2
-    },
-    {
-      "id": "sponsor-tier-aws-back-post-east",
-      "sprite": "expo-wall-navy",
-      "layer": "props",
-      "x": 44,
-      "y": 83,
-      "width": 1,
-      "height": 2
-    },
-    {
-      "id": "sponsor-tier-aws-back-post-east-seal",
-      "sprite": "wall-charcoal",
-      "layer": "terrain",
-      "x": 44,
-      "y": 83,
-      "width": 1,
-      "height": 2
+      "height": 4
     },
     {
       "id": "sponsor-tier-aws-desk",
       "sprite": "check-in-desk-solid",
       "layer": "props",
       "x": 39,
-      "y": 85,
+      "y": 82,
       "width": 3,
       "height": 2
     },
@@ -65708,7 +65348,7 @@
       "sprite": "laptop",
       "layer": "props",
       "x": 40,
-      "y": 85,
+      "y": 82,
       "width": 1,
       "height": 1
     },
@@ -65717,7 +65357,7 @@
       "sprite": "plaza-potted-lavender",
       "layer": "props",
       "x": 44,
-      "y": 86,
+      "y": 83,
       "width": 1,
       "height": 1
     },
@@ -65726,115 +65366,43 @@
       "sprite": "expo-wall-navy",
       "layer": "props",
       "x": 46,
-      "y": 83,
+      "y": 82,
       "width": 1,
-      "height": 6
+      "height": 4
     },
     {
       "id": "sponsor-tier-bsides-west-seal",
       "sprite": "wall-charcoal",
       "layer": "terrain",
       "x": 46,
-      "y": 83,
+      "y": 82,
       "width": 1,
-      "height": 6
+      "height": 4
     },
     {
       "id": "sponsor-tier-bsides-east",
       "sprite": "expo-wall-navy",
       "layer": "props",
       "x": 53,
-      "y": 83,
+      "y": 82,
       "width": 1,
-      "height": 6
+      "height": 4
     },
     {
       "id": "sponsor-tier-bsides-east-seal",
       "sprite": "wall-charcoal",
       "layer": "terrain",
       "x": 53,
-      "y": 83,
+      "y": 82,
       "width": 1,
-      "height": 6
-    },
-    {
-      "id": "sponsor-tier-bsides-back-post-west",
-      "sprite": "expo-wall-navy",
-      "layer": "props",
-      "x": 47,
-      "y": 83,
-      "width": 1,
-      "height": 2
-    },
-    {
-      "id": "sponsor-tier-bsides-back-post-west-seal",
-      "sprite": "wall-charcoal",
-      "layer": "terrain",
-      "x": 47,
-      "y": 83,
-      "width": 1,
-      "height": 2
-    },
-    {
-      "id": "sponsor-tier-bsides-back-glass-48",
-      "sprite": "glass-partition",
-      "layer": "props",
-      "x": 48,
-      "y": 83,
-      "width": 3,
-      "height": 2
-    },
-    {
-      "id": "sponsor-tier-bsides-back-glass-48-seal",
-      "sprite": "wall-charcoal",
-      "layer": "terrain",
-      "x": 48,
-      "y": 83,
-      "width": 3,
-      "height": 2
-    },
-    {
-      "id": "sponsor-tier-bsides-back-infill",
-      "sprite": "expo-wall-navy",
-      "layer": "props",
-      "x": 51,
-      "y": 83,
-      "width": 1,
-      "height": 2
-    },
-    {
-      "id": "sponsor-tier-bsides-back-infill-seal",
-      "sprite": "wall-charcoal",
-      "layer": "terrain",
-      "x": 51,
-      "y": 83,
-      "width": 1,
-      "height": 2
-    },
-    {
-      "id": "sponsor-tier-bsides-back-post-east",
-      "sprite": "expo-wall-navy",
-      "layer": "props",
-      "x": 52,
-      "y": 83,
-      "width": 1,
-      "height": 2
-    },
-    {
-      "id": "sponsor-tier-bsides-back-post-east-seal",
-      "sprite": "wall-charcoal",
-      "layer": "terrain",
-      "x": 52,
-      "y": 83,
-      "width": 1,
-      "height": 2
+      "height": 4
     },
     {
       "id": "sponsor-tier-bsides-desk",
       "sprite": "check-in-desk-solid",
       "layer": "props",
       "x": 47,
-      "y": 85,
+      "y": 82,
       "width": 3,
       "height": 2
     },
@@ -65843,7 +65411,7 @@
       "sprite": "laptop",
       "layer": "props",
       "x": 48,
-      "y": 85,
+      "y": 82,
       "width": 1,
       "height": 1
     },
@@ -65852,7 +65420,7 @@
       "sprite": "plaza-potted-lavender",
       "layer": "props",
       "x": 52,
-      "y": 86,
+      "y": 83,
       "width": 1,
       "height": 1
     },
@@ -65861,115 +65429,43 @@
       "sprite": "expo-wall-navy",
       "layer": "props",
       "x": 54,
-      "y": 83,
+      "y": 82,
       "width": 1,
-      "height": 6
+      "height": 4
     },
     {
       "id": "sponsor-tier-vibes-west-seal",
       "sprite": "wall-charcoal",
       "layer": "terrain",
       "x": 54,
-      "y": 83,
+      "y": 82,
       "width": 1,
-      "height": 6
+      "height": 4
     },
     {
       "id": "sponsor-tier-vibes-east",
       "sprite": "expo-wall-navy",
       "layer": "props",
       "x": 61,
-      "y": 83,
+      "y": 82,
       "width": 1,
-      "height": 6
+      "height": 4
     },
     {
       "id": "sponsor-tier-vibes-east-seal",
       "sprite": "wall-charcoal",
       "layer": "terrain",
       "x": 61,
-      "y": 83,
+      "y": 82,
       "width": 1,
-      "height": 6
-    },
-    {
-      "id": "sponsor-tier-vibes-back-post-west",
-      "sprite": "expo-wall-navy",
-      "layer": "props",
-      "x": 55,
-      "y": 83,
-      "width": 1,
-      "height": 2
-    },
-    {
-      "id": "sponsor-tier-vibes-back-post-west-seal",
-      "sprite": "wall-charcoal",
-      "layer": "terrain",
-      "x": 55,
-      "y": 83,
-      "width": 1,
-      "height": 2
-    },
-    {
-      "id": "sponsor-tier-vibes-back-glass-56",
-      "sprite": "glass-partition",
-      "layer": "props",
-      "x": 56,
-      "y": 83,
-      "width": 3,
-      "height": 2
-    },
-    {
-      "id": "sponsor-tier-vibes-back-glass-56-seal",
-      "sprite": "wall-charcoal",
-      "layer": "terrain",
-      "x": 56,
-      "y": 83,
-      "width": 3,
-      "height": 2
-    },
-    {
-      "id": "sponsor-tier-vibes-back-infill",
-      "sprite": "expo-wall-navy",
-      "layer": "props",
-      "x": 59,
-      "y": 83,
-      "width": 1,
-      "height": 2
-    },
-    {
-      "id": "sponsor-tier-vibes-back-infill-seal",
-      "sprite": "wall-charcoal",
-      "layer": "terrain",
-      "x": 59,
-      "y": 83,
-      "width": 1,
-      "height": 2
-    },
-    {
-      "id": "sponsor-tier-vibes-back-post-east",
-      "sprite": "expo-wall-navy",
-      "layer": "props",
-      "x": 60,
-      "y": 83,
-      "width": 1,
-      "height": 2
-    },
-    {
-      "id": "sponsor-tier-vibes-back-post-east-seal",
-      "sprite": "wall-charcoal",
-      "layer": "terrain",
-      "x": 60,
-      "y": 83,
-      "width": 1,
-      "height": 2
+      "height": 4
     },
     {
       "id": "sponsor-tier-vibes-desk",
       "sprite": "check-in-desk-solid",
       "layer": "props",
       "x": 55,
-      "y": 85,
+      "y": 82,
       "width": 3,
       "height": 2
     },
@@ -65978,7 +65474,7 @@
       "sprite": "laptop",
       "layer": "props",
       "x": 56,
-      "y": 85,
+      "y": 82,
       "width": 1,
       "height": 1
     },
@@ -65987,7 +65483,7 @@
       "sprite": "plaza-potted-lavender",
       "layer": "props",
       "x": 60,
-      "y": 86,
+      "y": 83,
       "width": 1,
       "height": 1
     },
@@ -65996,115 +65492,43 @@
       "sprite": "expo-wall-navy",
       "layer": "props",
       "x": 68,
-      "y": 83,
+      "y": 82,
       "width": 1,
-      "height": 6
+      "height": 4
     },
     {
       "id": "sponsor-tier-osrfm-west-seal",
       "sprite": "wall-charcoal",
       "layer": "terrain",
       "x": 68,
-      "y": 83,
+      "y": 82,
       "width": 1,
-      "height": 6
+      "height": 4
     },
     {
       "id": "sponsor-tier-osrfm-east",
       "sprite": "expo-wall-navy",
       "layer": "props",
       "x": 75,
-      "y": 83,
+      "y": 82,
       "width": 1,
-      "height": 6
+      "height": 4
     },
     {
       "id": "sponsor-tier-osrfm-east-seal",
       "sprite": "wall-charcoal",
       "layer": "terrain",
       "x": 75,
-      "y": 83,
+      "y": 82,
       "width": 1,
-      "height": 6
-    },
-    {
-      "id": "sponsor-tier-osrfm-back-post-west",
-      "sprite": "expo-wall-navy",
-      "layer": "props",
-      "x": 69,
-      "y": 83,
-      "width": 1,
-      "height": 2
-    },
-    {
-      "id": "sponsor-tier-osrfm-back-post-west-seal",
-      "sprite": "wall-charcoal",
-      "layer": "terrain",
-      "x": 69,
-      "y": 83,
-      "width": 1,
-      "height": 2
-    },
-    {
-      "id": "sponsor-tier-osrfm-back-glass-70",
-      "sprite": "glass-partition",
-      "layer": "props",
-      "x": 70,
-      "y": 83,
-      "width": 3,
-      "height": 2
-    },
-    {
-      "id": "sponsor-tier-osrfm-back-glass-70-seal",
-      "sprite": "wall-charcoal",
-      "layer": "terrain",
-      "x": 70,
-      "y": 83,
-      "width": 3,
-      "height": 2
-    },
-    {
-      "id": "sponsor-tier-osrfm-back-infill",
-      "sprite": "expo-wall-navy",
-      "layer": "props",
-      "x": 73,
-      "y": 83,
-      "width": 1,
-      "height": 2
-    },
-    {
-      "id": "sponsor-tier-osrfm-back-infill-seal",
-      "sprite": "wall-charcoal",
-      "layer": "terrain",
-      "x": 73,
-      "y": 83,
-      "width": 1,
-      "height": 2
-    },
-    {
-      "id": "sponsor-tier-osrfm-back-post-east",
-      "sprite": "expo-wall-navy",
-      "layer": "props",
-      "x": 74,
-      "y": 83,
-      "width": 1,
-      "height": 2
-    },
-    {
-      "id": "sponsor-tier-osrfm-back-post-east-seal",
-      "sprite": "wall-charcoal",
-      "layer": "terrain",
-      "x": 74,
-      "y": 83,
-      "width": 1,
-      "height": 2
+      "height": 4
     },
     {
       "id": "sponsor-tier-osrfm-desk",
       "sprite": "check-in-desk-solid",
       "layer": "props",
       "x": 69,
-      "y": 85,
+      "y": 82,
       "width": 3,
       "height": 2
     },
@@ -66113,7 +65537,7 @@
       "sprite": "laptop",
       "layer": "props",
       "x": 70,
-      "y": 85,
+      "y": 82,
       "width": 1,
       "height": 1
     },
@@ -66122,7 +65546,7 @@
       "sprite": "plaza-potted-lavender",
       "layer": "props",
       "x": 74,
-      "y": 86,
+      "y": 83,
       "width": 1,
       "height": 1
     },
@@ -66131,115 +65555,43 @@
       "sprite": "expo-wall-navy",
       "layer": "props",
       "x": 80,
-      "y": 83,
+      "y": 82,
       "width": 1,
-      "height": 6
+      "height": 4
     },
     {
       "id": "sponsor-tier-ten-ten-west-seal",
       "sprite": "wall-charcoal",
       "layer": "terrain",
       "x": 80,
-      "y": 83,
+      "y": 82,
       "width": 1,
-      "height": 6
+      "height": 4
     },
     {
       "id": "sponsor-tier-ten-ten-east",
       "sprite": "expo-wall-navy",
       "layer": "props",
       "x": 87,
-      "y": 83,
+      "y": 82,
       "width": 1,
-      "height": 6
+      "height": 4
     },
     {
       "id": "sponsor-tier-ten-ten-east-seal",
       "sprite": "wall-charcoal",
       "layer": "terrain",
       "x": 87,
-      "y": 83,
+      "y": 82,
       "width": 1,
-      "height": 6
-    },
-    {
-      "id": "sponsor-tier-ten-ten-back-post-west",
-      "sprite": "expo-wall-navy",
-      "layer": "props",
-      "x": 81,
-      "y": 83,
-      "width": 1,
-      "height": 2
-    },
-    {
-      "id": "sponsor-tier-ten-ten-back-post-west-seal",
-      "sprite": "wall-charcoal",
-      "layer": "terrain",
-      "x": 81,
-      "y": 83,
-      "width": 1,
-      "height": 2
-    },
-    {
-      "id": "sponsor-tier-ten-ten-back-glass-82",
-      "sprite": "glass-partition",
-      "layer": "props",
-      "x": 82,
-      "y": 83,
-      "width": 3,
-      "height": 2
-    },
-    {
-      "id": "sponsor-tier-ten-ten-back-glass-82-seal",
-      "sprite": "wall-charcoal",
-      "layer": "terrain",
-      "x": 82,
-      "y": 83,
-      "width": 3,
-      "height": 2
-    },
-    {
-      "id": "sponsor-tier-ten-ten-back-infill",
-      "sprite": "expo-wall-navy",
-      "layer": "props",
-      "x": 85,
-      "y": 83,
-      "width": 1,
-      "height": 2
-    },
-    {
-      "id": "sponsor-tier-ten-ten-back-infill-seal",
-      "sprite": "wall-charcoal",
-      "layer": "terrain",
-      "x": 85,
-      "y": 83,
-      "width": 1,
-      "height": 2
-    },
-    {
-      "id": "sponsor-tier-ten-ten-back-post-east",
-      "sprite": "expo-wall-navy",
-      "layer": "props",
-      "x": 86,
-      "y": 83,
-      "width": 1,
-      "height": 2
-    },
-    {
-      "id": "sponsor-tier-ten-ten-back-post-east-seal",
-      "sprite": "wall-charcoal",
-      "layer": "terrain",
-      "x": 86,
-      "y": 83,
-      "width": 1,
-      "height": 2
+      "height": 4
     },
     {
       "id": "sponsor-tier-ten-ten-desk",
       "sprite": "check-in-desk-solid",
       "layer": "props",
       "x": 81,
-      "y": 85,
+      "y": 82,
       "width": 3,
       "height": 2
     },
@@ -66248,7 +65600,7 @@
       "sprite": "laptop",
       "layer": "props",
       "x": 82,
-      "y": 85,
+      "y": 82,
       "width": 1,
       "height": 1
     },
@@ -66257,7 +65609,7 @@
       "sprite": "plaza-potted-lavender",
       "layer": "props",
       "x": 86,
-      "y": 86,
+      "y": 83,
       "width": 1,
       "height": 1
     },
@@ -66412,6 +65764,249 @@
       "x": 88,
       "y": 71,
       "width": 1,
+      "height": 2
+    },
+    {
+      "id": "sponsor-tier-shared-west-38",
+      "sprite": "expo-wall-navy",
+      "layer": "props",
+      "x": 38,
+      "y": 80,
+      "width": 1,
+      "height": 2
+    },
+    {
+      "id": "sponsor-tier-shared-west-39",
+      "sprite": "glass-partition",
+      "layer": "props",
+      "x": 39,
+      "y": 80,
+      "width": 3,
+      "height": 2
+    },
+    {
+      "id": "sponsor-tier-shared-west-42",
+      "sprite": "glass-partition",
+      "layer": "props",
+      "x": 42,
+      "y": 80,
+      "width": 3,
+      "height": 2
+    },
+    {
+      "id": "sponsor-tier-shared-west-45",
+      "sprite": "expo-wall-navy",
+      "layer": "props",
+      "x": 45,
+      "y": 80,
+      "width": 1,
+      "height": 2
+    },
+    {
+      "id": "sponsor-tier-shared-west-46",
+      "sprite": "expo-wall-navy",
+      "layer": "props",
+      "x": 46,
+      "y": 80,
+      "width": 1,
+      "height": 2
+    },
+    {
+      "id": "sponsor-tier-shared-west-47",
+      "sprite": "glass-partition",
+      "layer": "props",
+      "x": 47,
+      "y": 80,
+      "width": 3,
+      "height": 2
+    },
+    {
+      "id": "sponsor-tier-shared-west-50",
+      "sprite": "glass-partition",
+      "layer": "props",
+      "x": 50,
+      "y": 80,
+      "width": 3,
+      "height": 2
+    },
+    {
+      "id": "sponsor-tier-shared-west-53",
+      "sprite": "expo-wall-navy",
+      "layer": "props",
+      "x": 53,
+      "y": 80,
+      "width": 1,
+      "height": 2
+    },
+    {
+      "id": "sponsor-tier-shared-west-54",
+      "sprite": "expo-wall-navy",
+      "layer": "props",
+      "x": 54,
+      "y": 80,
+      "width": 1,
+      "height": 2
+    },
+    {
+      "id": "sponsor-tier-shared-west-55",
+      "sprite": "glass-partition",
+      "layer": "props",
+      "x": 55,
+      "y": 80,
+      "width": 3,
+      "height": 2
+    },
+    {
+      "id": "sponsor-tier-shared-west-58",
+      "sprite": "glass-partition",
+      "layer": "props",
+      "x": 58,
+      "y": 80,
+      "width": 3,
+      "height": 2
+    },
+    {
+      "id": "sponsor-tier-shared-west-61",
+      "sprite": "expo-wall-navy",
+      "layer": "props",
+      "x": 61,
+      "y": 80,
+      "width": 1,
+      "height": 2
+    },
+    {
+      "id": "sponsor-tier-shared-west-seal",
+      "sprite": "wall-charcoal",
+      "layer": "terrain",
+      "x": 38,
+      "y": 80,
+      "width": 24,
+      "height": 2
+    },
+    {
+      "id": "sponsor-tier-shared-east-68",
+      "sprite": "expo-wall-navy",
+      "layer": "props",
+      "x": 68,
+      "y": 80,
+      "width": 1,
+      "height": 2
+    },
+    {
+      "id": "sponsor-tier-shared-east-69",
+      "sprite": "glass-partition",
+      "layer": "props",
+      "x": 69,
+      "y": 80,
+      "width": 3,
+      "height": 2
+    },
+    {
+      "id": "sponsor-tier-shared-east-72",
+      "sprite": "glass-partition",
+      "layer": "props",
+      "x": 72,
+      "y": 80,
+      "width": 3,
+      "height": 2
+    },
+    {
+      "id": "sponsor-tier-shared-east-75",
+      "sprite": "expo-wall-navy",
+      "layer": "props",
+      "x": 75,
+      "y": 80,
+      "width": 1,
+      "height": 2
+    },
+    {
+      "id": "sponsor-tier-shared-east-76",
+      "sprite": "expo-wall-navy",
+      "layer": "props",
+      "x": 76,
+      "y": 80,
+      "width": 1,
+      "height": 2
+    },
+    {
+      "id": "sponsor-tier-shared-east-77",
+      "sprite": "expo-wall-navy",
+      "layer": "props",
+      "x": 77,
+      "y": 80,
+      "width": 1,
+      "height": 2
+    },
+    {
+      "id": "sponsor-tier-shared-east-78",
+      "sprite": "expo-wall-navy",
+      "layer": "props",
+      "x": 78,
+      "y": 80,
+      "width": 1,
+      "height": 2
+    },
+    {
+      "id": "sponsor-tier-shared-east-79",
+      "sprite": "expo-wall-navy",
+      "layer": "props",
+      "x": 79,
+      "y": 80,
+      "width": 1,
+      "height": 2
+    },
+    {
+      "id": "sponsor-tier-shared-east-80",
+      "sprite": "expo-wall-navy",
+      "layer": "props",
+      "x": 80,
+      "y": 80,
+      "width": 1,
+      "height": 2
+    },
+    {
+      "id": "sponsor-tier-shared-east-81",
+      "sprite": "glass-partition",
+      "layer": "props",
+      "x": 81,
+      "y": 80,
+      "width": 3,
+      "height": 2
+    },
+    {
+      "id": "sponsor-tier-shared-east-84",
+      "sprite": "glass-partition",
+      "layer": "props",
+      "x": 84,
+      "y": 80,
+      "width": 3,
+      "height": 2
+    },
+    {
+      "id": "sponsor-tier-shared-east-87",
+      "sprite": "expo-wall-navy",
+      "layer": "props",
+      "x": 87,
+      "y": 80,
+      "width": 1,
+      "height": 2
+    },
+    {
+      "id": "sponsor-tier-shared-east-88",
+      "sprite": "expo-wall-navy",
+      "layer": "props",
+      "x": 88,
+      "y": 80,
+      "width": 1,
+      "height": 2
+    },
+    {
+      "id": "sponsor-tier-shared-east-seal",
+      "sprite": "wall-charcoal",
+      "layer": "terrain",
+      "x": 68,
+      "y": 80,
+      "width": 21,
       "height": 2
     }
   ],
@@ -67034,7 +66629,7 @@
       "name": "sponsor-tier-communities",
       "text": "COMMUNITY CORNER",
       "x": 60,
-      "y": 89,
+      "y": 87,
       "width": 8,
       "height": 1,
       "fontSize": 17,
@@ -67046,7 +66641,7 @@
       "name": "sponsor-tier-aws-name",
       "text": "AWS UG\nMYANMAR",
       "x": 42,
-      "y": 85,
+      "y": 82,
       "width": 3,
       "height": 1,
       "fontSize": 11,
@@ -67058,7 +66653,7 @@
       "name": "sponsor-tier-bsides-name",
       "text": "BSIDES\nMYANMAR",
       "x": 50,
-      "y": 85,
+      "y": 82,
       "width": 3,
       "height": 1,
       "fontSize": 11,
@@ -67070,7 +66665,7 @@
       "name": "sponsor-tier-vibes-name",
       "text": "VIBE CODE\nTOURS",
       "x": 58,
-      "y": 85,
+      "y": 82,
       "width": 3,
       "height": 1,
       "fontSize": 11,
@@ -67082,7 +66677,7 @@
       "name": "sponsor-tier-osrfm-name",
       "text": "OSRFM",
       "x": 72,
-      "y": 85,
+      "y": 82,
       "width": 3,
       "height": 1,
       "fontSize": 14,
@@ -67094,7 +66689,7 @@
       "name": "sponsor-tier-ten-ten-name",
       "text": "TEN TEN",
       "x": 84,
-      "y": 85,
+      "y": 82,
       "width": 3,
       "height": 1,
       "fontSize": 14,
@@ -67117,7 +66712,7 @@
       "name": "Expo / BSides Myanmar",
       "image": "assets/sponsors/partner-bsides-mm.png",
       "x": 48,
-      "y": 87,
+      "y": 84,
       "width": 4,
       "height": 2,
       "standing": false
@@ -67162,7 +66757,7 @@
       "name": "Expo / Vibe Code Tours",
       "image": "assets/sponsors/vibecode-tours.png",
       "x": 56,
-      "y": 87,
+      "y": 84,
       "width": 4,
       "height": 2
     },
@@ -67170,7 +66765,7 @@
       "name": "Expo / AWS User Group Myanmar",
       "image": "assets/sponsors/partner-aws-ug-mm.png",
       "x": 40,
-      "y": 87,
+      "y": 84,
       "width": 4,
       "height": 2,
       "standing": false
@@ -67179,7 +66774,7 @@
       "name": "Expo / OSRFM",
       "image": "assets/sponsors/partner-osrfm.png",
       "x": 70,
-      "y": 87,
+      "y": 84,
       "width": 4,
       "height": 2,
       "standing": false
@@ -67188,7 +66783,7 @@
       "name": "Expo / Ten Ten",
       "image": "assets/sponsors/partner-ten-ten.png",
       "x": 82,
-      "y": 87,
+      "y": 84,
       "width": 4,
       "height": 2,
       "standing": false

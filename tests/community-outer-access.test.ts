@@ -13,8 +13,8 @@ describe('community booths entered from the outer road',()=>{
   for(const id of communities){
    const floor=layout.placements.find(p=>p.id===`sponsor-tier-${id}-floor`)!;
    for(let x=floor.x;x<floor.x+floor.width;x++){
-    for(const y of [87,88,89])expect(collision[y*map.width+x],`${id} outer entry ${x},${y}`).toBe(0);
-    for(const y of [83,84])expect(collision[y*map.width+x],`${id} north back ${x},${y}`).not.toBe(0);
+    for(const y of [84,85,86])expect(collision[y*map.width+x],`${id} outer entry ${x},${y}`).toBe(0);
+    for(const y of [80,81])expect(collision[y*map.width+x],`${id} shared back ${x},${y}`).not.toBe(0);
    }
   }
  });
@@ -29,7 +29,7 @@ describe('community booths entered from the outer road',()=>{
   for(let i=0;i<queue.length;i++){
    const at=queue[i];if(visited.has(at)||collision[at])continue;visited.add(at);
    const x=at%map.width,y=Math.floor(at/map.width);
-   for(const [dx,dy]of [[1,0],[-1,0],[0,1],[0,-1]])if(x+dx>=38&&x+dx<90&&y+dy>=83&&y+dy<=90)queue.push(at+dy*map.width+dx);
+   for(const [dx,dy]of [[1,0],[-1,0],[0,1],[0,-1]])if(x+dx>=38&&x+dx<90&&y+dy>=82&&y+dy<=90)queue.push(at+dy*map.width+dx);
   }
   for(const id of communities){
    const desk=layout.placements.find(p=>p.id===`sponsor-tier-${id}-desk`)!;
@@ -40,7 +40,25 @@ describe('community booths entered from the outer road',()=>{
  it('places the Community Corner label on the outer approach without obstructing it',()=>{
   const layout=read('world/layouts/overworld.json') as MapLayout;
   const sign=layout.signs!.find(s=>s.name==='sponsor-tier-communities')!;
-  expect(sign.y).toBeGreaterThanOrEqual(89);
+  expect(sign.y).toBeGreaterThanOrEqual(86);
   expect(layout.placements.filter(p=>p.layer==='props'&&p.x<sign.x+sign.width&&sign.x<p.x+p.width&&p.y<sign.y+sign.height&&sign.y<p.y+p.height)).toEqual([]);
+ });
+
+ it('joins both room rows against one wall, without an alley or doubled wall',()=>{
+  const layout=read('world/layouts/overworld.json') as MapLayout;
+  const walls=layout.placements.filter(p=>p.layer==='props'&&['glass-partition','expo-wall-navy'].includes(p.sprite));
+  for(const [sponsor,id]of [['spark','aws'],['spark','bsides'],['spark','vibes'],['mini','osrfm'],['mini','ten-ten']]){
+   const floor=layout.placements.find(p=>p.id===`sponsor-tier-${id}-floor`)!;
+   const other=layout.placements.find(p=>p.id===`sponsor-tier-${sponsor}-floor`)!;
+   // The existing wall art is two tiles high. Both floors must meet that
+   // same band; another wall or a passage would increase this separation.
+   expect(floor.y-(other.y+other.height),id+' gap between room floors').toBe(2);
+   for(let x=floor.x;x<floor.x+floor.width;x++){
+    // Count horizontal divider segments. Existing perpendicular sponsor
+    // sidewalls join the same band at its corners, not as a second back wall.
+    for(let y=80;y<82;y++)expect(walls.filter(p=>p.y===80&&x>=p.x&&x<p.x+p.width&&y<p.y+p.height),id+` shared wall at ${x},${y}`).toHaveLength(1);
+    for(let y=82;y<86;y++)expect(walls.filter(p=>x>=p.x&&x<p.x+p.width&&y>=p.y&&y<p.y+p.height),id+` second wall inside ${x},${y}`).toHaveLength(0);
+   }
+  }
  });
 });

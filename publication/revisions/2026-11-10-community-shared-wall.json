@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "revisions": [
+    {
+      "path": "maps/overworld.tmj",
+      "fromSha256": "940f1a85b01424853cbf3f2ef5fd30e64e3b375a46e170d4bfe2c7b154349336",
+      "toSha256": "57a2627c0568bbbbc65c522d1d0deeb3b9c102a5e1ce5b1500b7acf415c43ca8",
+      "reason": "Join sponsor and community booths against one shared wall, remove the alley and duplicate walls, retain equal booth areas, approved brands, atlas reservations and unrelated controls."
+    },
+    {
+      "path": "maps/preview/overworld.tmj",
+      "fromSha256": "29eb37bb8c813aa9064f511928021bc13d5db98a77f7fb86fa78d70d11a29d73",
+      "toSha256": "cdb805b16996c5638ab25283587f584da007115f2c3df4d8acf8c24e93c686d7",
+      "reason": "Join sponsor and community booths against one shared wall, remove the alley and duplicate walls, retain equal booth areas, approved brands, atlas reservations and unrelated controls."
+    },
+    {
+      "path": "world/layouts/overworld.json",
+      "fromSha256": "eb7d5040b25bf2c7865ca3692da6d1416b8b8d3ab139c178ab2451e6fa0a2c9c",
+      "toSha256": "687714f7dff7e76e4209397c1c9369526bd99cdf10ffb1360bf28789d6fb515c",
+      "reason": "Join sponsor and community booths against one shared wall, remove the alley and duplicate walls, retain equal booth areas, approved brands, atlas reservations and unrelated controls."
+    }
+  ]
+}
