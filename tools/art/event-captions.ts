@@ -24,7 +24,7 @@ export function eventCaptionResource(layout:MapLayout){
  if(meta.producerSha256!==sha(readFileSync('tools/art/event-captions.ts'))||meta.sourceSha256!==sha(readFileSync('world/event-presentation.json'))||meta.pngSha256!==sha(png)||meta.svgSha256!==sha(r.svg)||readFileSync(svgPath,'utf8')!==r.svg||png.readUInt32BE(16)!==512||png.readUInt32BE(20)!==128)throw Error('Event caption provenance changed');
  const actual=(layout.standingSigns??[]).filter(l=>l.text!==undefined).map(l=>({map:layout.id,face:l.face,sign:layout.signs!.find(s=>s.name===l.text)!}));
  if(!isDeepStrictEqual(actual,specs()))throw Error('Event caption source changed');
- const rows=tiers?r.rows.map(row=>({...row,sign:structuredClone(current.signs!.find(s=>s.name===row.sign.name)!)})):r.rows;
+ const rows=tiers?r.rows.filter(row=>current.standingSigns?.some(s=>s.face===row.face&&s.text===row.sign.name)).map(row=>({...row,sign:structuredClone(current.signs!.find(s=>s.name===row.sign.name)!)})):r.rows;
  return{rows,width:512,height:128,image:EVENT_CAPTION_IMAGE,pngSha256:meta.pngSha256};
 }
 export async function checkEventCaptions(){const r=artwork(),png=await sharp(Buffer.from(r.svg)).png().toBuffer();if(!readFileSync(EVENT_CAPTION_IMAGE).equals(png))throw Error('Event caption pixels changed');await checkEventFloorLabels();}

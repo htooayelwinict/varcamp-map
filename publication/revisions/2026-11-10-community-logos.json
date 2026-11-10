@@ -1,0 +1,101 @@
+{
+  "schemaVersion": 1,
+  "revisions": [
+    {
+      "path": "art/sources.json",
+      "fromSha256": "03a7fd6cfb2231222a22f11ae27f830bde0d7e9b79a54ff7fcfb9ca3bdb577d3",
+      "toSha256": "35c836f1bb53f8553c78ff76a7fbdf29bde9a8f14559193dcb2b489fa9caa914",
+      "reason": "Integrate approved PR9 community marks and five equal expo booths; preserve original native atlas reservations and refresh exact shared-code fingerprints only in unrelated room descriptors."
+    },
+    {
+      "path": "art/sponsors.json",
+      "fromSha256": "67f7e179953298f316bfdd442f5553a1397caf3547f6b5f5db8d5af5a15874b7",
+      "toSha256": "1eb357e9cbf37d77a34f1aa5eb649b0abd509ce92556e104867f1f50c5f8fb64",
+      "reason": "Integrate approved PR9 community marks and five equal expo booths; preserve original native atlas reservations and refresh exact shared-code fingerprints only in unrelated room descriptors."
+    },
+    {
+      "path": "maps/overworld.tmj",
+      "fromSha256": "8a782e9fdd9f971352cae8050c141ab55c98d5cbb333e459441b0e78bc409b7f",
+      "toSha256": "98b5860bc42769d8d2832e77a185f6a8ea44c32463a0dc2feaf3dd32e29e6ae6",
+      "reason": "Integrate approved PR9 community marks and five equal expo booths; preserve original native atlas reservations and refresh exact shared-code fingerprints only in unrelated room descriptors."
+    },
+    {
+      "path": "maps/preview/overworld.tmj",
+      "fromSha256": "bbdd60204c964d4912f97b6e668f6f9fe19aa1b7abb5500b9e21109138f29699",
+      "toSha256": "6d9a4e1b3b0b5d8c88f21b95310c32d9d1da88811ee40a1fb3eeb89048dcb048",
+      "reason": "Integrate approved PR9 community marks and five equal expo booths; preserve original native atlas reservations and refresh exact shared-code fingerprints only in unrelated room descriptors."
+    },
+    {
+      "path": "world/layouts/air-district.json",
+      "fromSha256": "a0740f3d3187bc0b2a27bc94a18f05d56f530de2c4eaf7bf45d4854daf729564",
+      "toSha256": "c3dccc91e343c06368c7d0fb91df5105b7d25ed404b1c038c3e4831ef5aa1050",
+      "reason": "Integrate approved PR9 community marks and five equal expo booths; preserve original native atlas reservations and refresh exact shared-code fingerprints only in unrelated room descriptors."
+    },
+    {
+      "path": "world/layouts/comet-maze.json",
+      "fromSha256": "277ce3172183c600a18a2fb48cbff3ccedac652c18cb9110b22afbac60c081cf",
+      "toSha256": "c373b938e86d365b6059678729a0834eb028d307b4d9adc78126853ceeda43eb",
+      "reason": "Integrate approved PR9 community marks and five equal expo booths; preserve original native atlas reservations and refresh exact shared-code fingerprints only in unrelated room descriptors."
+    },
+    {
+      "path": "world/layouts/earth-district.json",
+      "fromSha256": "83ce927e8431f76e4868f3bf851b516ed67f6a330e0b4f3013052096e1bd0e99",
+      "toSha256": "50ffd9d44680757aaee5c4953d15624bd47ec90680342ae97bba86fb3bc8ffad",
+      "reason": "Integrate approved PR9 community marks and five equal expo booths; preserve original native atlas reservations and refresh exact shared-code fingerprints only in unrelated room descriptors."
+    },
+    {
+      "path": "world/layouts/fa-ship.json",
+      "fromSha256": "936cbcd2a0fa5b930f10013fdca852e6c8c3400fb4334d151b3742c86caa64fc",
+      "toSha256": "69cf9204a212bbfcfe8c73ea2794ec308cf1ef293e323e1b990fe999b9da7137",
+      "reason": "Integrate approved PR9 community marks and five equal expo booths; preserve original native atlas reservations and refresh exact shared-code fingerprints only in unrelated room descriptors."
+    },
+    {
+      "path": "world/layouts/fire-district.json",
+      "fromSha256": "bc4e77f2e8cb983b6b50932e8cbc3756c537fabdf35fa4aceb26bf51326f821f",
+      "toSha256": "50aa5a6b4b8187b9145c7dcfe3470455e2a8a43b7523d7ffe184205a2ce35aba",
+      "reason": "Integrate approved PR9 community marks and five equal expo booths; preserve original native atlas reservations and refresh exact shared-code fingerprints only in unrelated room descriptors."
+    },
+    {
+      "path": "world/layouts/hidden-observatory.json",
+      "fromSha256": "4da03c86e3fe302b502c85b1ad9226db06e929c68d94d00508d7332a5ff0190f",
+      "toSha256": "5c22033cfd60df1beae8451bab11f8e6a1f4e3271c617b54ba8c44ffac608439",
+      "reason": "Integrate approved PR9 community marks and five equal expo booths; preserve original native atlas reservations and refresh exact shared-code fingerprints only in unrelated room descriptors."
+    },
+    {
+      "path": "world/layouts/nebula-arcade.json",
+      "fromSha256": "cc88760848728ba14e3e7f5d7f854ce3023fccb7f49126238e39f3ab4086bf91",
+      "toSha256": "244cca4fd776fee1f77c754bbcd4cc80547c9ad5d2c78d7df19354eb78c4240f",
+      "reason": "Integrate approved PR9 community marks and five equal expo booths; preserve original native atlas reservations and refresh exact shared-code fingerprints only in unrelated room descriptors."
+    },
+    {
+      "path": "world/layouts/orbit-maze.json",
+      "fromSha256": "cc3b682cde92d85a6707a5b9caa2c16a5ddd79bf48beed1efaac79ea455d66a2",
+      "toSha256": "20446fd27b9742a7c8da9794a847b8893e1e716fc76c84d8a55b21f3105dfaac",
+      "reason": "Integrate approved PR9 community marks and five equal expo booths; preserve original native atlas reservations and refresh exact shared-code fingerprints only in unrelated room descriptors."
+    },
+    {
+      "path": "world/layouts/orbit-playground.json",
+      "fromSha256": "762ad382e66ad785de35af05da4cbe755866a579447050fecc4b84a5637b633c",
+      "toSha256": "24187016c752a43a4677f638b0c3215169332b49bf750bcb1bcc94d0e17f6337",
+      "reason": "Integrate approved PR9 community marks and five equal expo booths; preserve original native atlas reservations and refresh exact shared-code fingerprints only in unrelated room descriptors."
+    },
+    {
+      "path": "world/layouts/overworld.json",
+      "fromSha256": "c2acf1a1a6228fb5983934384d69416d9d5b8170ad677200af7b19d20cd51a7f",
+      "toSha256": "58fa881fbf82daf0ece742392258b0651c373dc5e64f5e2c5d8a6071476857f1",
+      "reason": "Integrate approved PR9 community marks and five equal expo booths; preserve original native atlas reservations and refresh exact shared-code fingerprints only in unrelated room descriptors."
+    },
+    {
+      "path": "world/layouts/water-district.json",
+      "fromSha256": "254cc62e3706a86ccad0a0d0d7c57625f286607c88a050cf5450d263ea93685b",
+      "toSha256": "97df9003631ee2639120513d34c98afe06afc01e7bfc29938b640c8ea9c53381",
+      "reason": "Integrate approved PR9 community marks and five equal expo booths; preserve original native atlas reservations and refresh exact shared-code fingerprints only in unrelated room descriptors."
+    },
+    {
+      "path": "world/layouts/zodiac-festival-park.json",
+      "fromSha256": "03fdcaf649834dddae96639f03b90b7aa404e8539a2a4818343a74dac432d087",
+      "toSha256": "abe86d2719c3be4eab62faa0901f8f47831414c8b72cd2a281a8d60ec2996a60",
+      "reason": "Integrate approved PR9 community marks and five equal expo booths; preserve original native atlas reservations and refresh exact shared-code fingerprints only in unrelated room descriptors."
+    }
+  ]
+}

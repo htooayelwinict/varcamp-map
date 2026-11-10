@@ -1,4 +1,5 @@
 import {sponsorTierProtectedLayers} from './sponsor-tier-context';
+import {communityExpoAtlases} from './community-expo-context';
 import {shorelineAtlases} from './plaza-shoreline';
 import {navigationProtectedLayers,navigationAtlases} from './harbour-navigation-context';
 import {parkArcadeProtectedLayers,parkArcadeAtlases,isParkLampSource} from './park-arcade-context';
@@ -230,6 +231,10 @@ function protectedContext(actual:TiledMap,row:ContextRow,author=false,source:Til
 interface Epoch{expo:boolean;brand:boolean;roadsterV2:boolean}
 const CURRENT:Epoch={expo:true,brand:true,roadsterV2:true},PRE_ROADSTER_V2:Epoch={expo:true,brand:true,roadsterV2:false},PRE_BRAND:Epoch={expo:true,brand:false,roadsterV2:false},PRE_EXPO:Epoch={expo:false,brand:false,roadsterV2:false};
 function currentAtlases(row:ContextRow,source:TiledMap,epoch:Epoch=CURRENT,includeCove=true,includeZodiac=true,includeHall=true,includeArrival=true,includePatrol=true,includeFountain=true,includeLeo=true,includeBuildings=true):TiledTileset[]{
+ const community=communityExpoAtlases(source,0);
+ // The event adapter restores retired historical logos. Keep the new family
+ // outside that old roster so none of its reserved GIDs shift.
+ if(community.length)source={...source,tilesets:source.tilesets.filter(t=>!community.some(p=>p.name===t.name))};
  source=leoCitadelContextSource(eventAtlasContextSource(source));
  const retired=new Set(row.retired.map(t=>t.firstgid));
  const expected=structuredClone(row.atlases.filter(t=>!retired.has(t.firstgid)));
@@ -297,6 +302,8 @@ function currentAtlases(row:ContextRow,source:TiledMap,epoch:Epoch=CURRENT,inclu
  expected.push(...hornedCitadelAtlases(source,Math.max(...expected.map(t=>t.firstgid+t.tilecount!))));
  expected.push(...securityAtlases(source,Math.max(...expected.map(t=>t.firstgid+t.tilecount!))));
  expected.push(...shorelineAtlases(source,Math.max(...expected.map(t=>t.firstgid+t.tilecount!))));
+ const communityStart=Math.max(...expected.map(t=>t.firstgid+t.tilecount!));
+ expected.push(...community.map((t,i)=>({...t,firstgid:communityStart+i*8})));
  return expected;
 }
 /** Mandatory final current context: complete atlas roster/order/bodies/ranges,
@@ -317,6 +324,11 @@ export function assertNativeAuthoringContext(actual:TiledMap,source:TiledMap):vo
  const expected=currentAtlases(row,source);
  if(isDeepStrictEqual(actual.tilesets,row.atlases))return;
  if(isDeepStrictEqual(actual.tilesets,expected))return;
+ const communityCount=communityExpoAtlases(source,0).length;
+ if(communityCount){
+  need(isDeepStrictEqual(actual.tilesets,expected.slice(0,-communityCount)),'author input must retain the exact pre-community atlas roster');
+  return;
+ }
  const shorelineCount=shorelineAtlases(source,0).length;
  if(shorelineCount===1&&isDeepStrictEqual(actual.tilesets,expected.slice(0,-1)))return;
  const securityCount=securityAtlases(source,0).length;

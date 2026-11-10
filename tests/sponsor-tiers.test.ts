@@ -18,10 +18,10 @@ const baseline=()=>{
 };
 const current=()=>({layout:read('world/layouts/overworld.json') as MapLayout,native:read('maps/overworld.tmj') as TiledMap});
 const mask=(m:TiledMap)=>(m.layers.find(l=>l.name==='physical-collisions') as TileLayer).data;
-const floors=['main','spark','mini','aws','bsides','osrfm','vibes'];
+const floors=['main','spark','mini','aws','bsides','vibes','osrfm','ten-ten'];
 
 describe('approved sponsor tier and community layout',()=>{
- it('provides one prominent main pavilion, two smaller sponsor tiers and four equal community booths',()=>{
+ it('provides one prominent main pavilion, two smaller sponsor tiers and five equal community booths',()=>{
   const {layout:l}=current();
   const areas=floors.map(id=>{const p=l.placements.find(p=>p.id===`sponsor-tier-${id}-floor`);expect(p,id+' usable floor').toBeDefined();return p!.width*p!.height;});
   expect(areas[0]).toBeGreaterThanOrEqual(areas[1]*2);
@@ -30,10 +30,10 @@ describe('approved sponsor tier and community layout',()=>{
   const p=(id:string)=>l.placements.find(p=>p.id===`sponsor-tier-${id}-floor`)!;
   expect(p('main').y).toBeLessThan(p('spark').y);expect(p('spark').y).toBe(p('mini').y);
   expect(p('spark').x).toBeLessThan(p('main').x);expect(p('mini').x).toBeGreaterThan(p('main').x);
-  expect(floors.slice(3).map(id=>p(id).y)).toEqual([83,83,83,83]);
-  expect(floors.slice(3).map(id=>p(id).x)).toEqual([40,52,68,80]);
+  expect(floors.slice(3).map(id=>p(id).y)).toEqual([83,83,83,83,83]);
+  expect(floors.slice(3).map(id=>p(id).x)).toEqual([39,47,55,69,81]);
   const text=l.signs!.map(s=>s.text).join('\n');
-  for(const name of ['DIGISEC LAB','NEWNESS','LOKAL ZAYTANN','AWS USER GROUP','MYANMAR','OSRFM','OPEN SOURCE ROBOTICS','VIBES CODE','INFO DESK'])expect(text).toContain(name);
+  for(const name of ['DIGISEC LAB','NEWNESS','LOKAL ZAYTANN','AWS UG','MYANMAR','OSRFM','BSIDES','VIBE CODE','TOURS','TEN TEN','INFO DESK'])expect(text).toContain(name);
  });
 
  it('keeps a four-tile through route and reachable visitor space at every desk',()=>{
@@ -61,16 +61,16 @@ describe('approved sponsor tier and community layout',()=>{
   expect(changes.every(i=>i%128>=38&&i%128<90&&Math.floor(i/128)>=65&&Math.floor(i/128)<90)).toBe(true);
   expect(createHash('sha256').update(readFileSync('maps/overworld.wam')).digest('hex')).toBe(b.wamSha256);
   expect(isDeepStrictEqual(m.properties,b.native.properties)).toBe(true);
-  expect(isDeepStrictEqual(m.tilesets,b.native.tilesets),'existing atlas reservations').toBe(true);
+  expect(isDeepStrictEqual(m.tilesets.slice(0,-2),b.native.tilesets),'existing atlas reservations').toBe(true);
   for(const layer of b.native.layers.filter(l=>l.type==='objectgroup'&&l.name!=='wayfinding-text'))expect(isDeepStrictEqual(m.layers.find(l=>l.id===layer.id),layer),layer.name).toBe(true);
  });
 
  it('reuses approved logo identities in their new booths and matches source physics',()=>{
   const {layout:l,native:m}=current(),b=baseline();
-  expect(l.images!.filter(i=>i.name!=='Expo / AWS User Group Myanmar').map(i=>i.name)).toEqual(b.layout.images!.map(i=>i.name));
-  expect(l.images!.find(i=>i.name==='Expo / AWS User Group Myanmar')).toMatchObject({image:'assets/sponsors/partner-aws-ug-mm.png',x:43,y:84,width:4,height:2});
-  expect(l.images!.find(i=>i.name==='Expo / BSides Myanmar')).toMatchObject({x:55,y:84,width:4,height:2});
-  expect(l.images!.find(i=>i.name==='Expo / Vibe Code Tours')).toMatchObject({x:83,y:84,width:4,height:2});
+  expect(l.images!.filter(i=>!['Expo / AWS User Group Myanmar','Expo / OSRFM','Expo / Ten Ten'].includes(i.name)).map(i=>i.name)).toEqual(b.layout.images!.map(i=>i.name));
+  expect(l.images!.find(i=>i.name==='Expo / AWS User Group Myanmar')).toMatchObject({image:'assets/sponsors/partner-aws-ug-mm.png',x:40,y:85,width:4,height:2});
+  expect(l.images!.find(i=>i.name==='Expo / BSides Myanmar')).toMatchObject({x:48,y:85,width:4,height:2});
+  expect(l.images!.find(i=>i.name==='Expo / Vibe Code Tours')).toMatchObject({x:56,y:85,width:4,height:2});
   expect(()=>assertNativeSourceProjection(m,buildMap(l,loadTileCatalog()).tmj)).not.toThrow();
  });
 

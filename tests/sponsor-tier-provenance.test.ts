@@ -7,7 +7,7 @@ const bytes=readFileSync('tests/fixtures/sponsor-tiers/provenance.json');
 const receipt=JSON.parse(bytes.toString()) as {inputs:Record<string,[string,string]>;files:Record<string,string>;native:Record<string,string>;art:Record<string,string>;registry:{beforeSha256:string;records:Record<string,string>}};
 describe('sponsor integration provenance refresh',()=>{
  it('updates only the two reviewed shared-code dependencies in existing animation descriptors',()=>{
-  expect(hash(bytes)).toBe('8dd587a8855d1f5c266aabdd0562862c65f652abf5bdbde3bc1759dc927ad8f0');
+  expect(hash(bytes)).toBe('6e902c287fc230968d62a2a568fe2a0efa18d279410462de56d222c049d5d87f');
   for(const [path,pair]of Object.entries(receipt.inputs))expect(hash(readFileSync(path)),path).toBe(pair[1]);
   for(const [path,prior]of Object.entries(receipt.files)){
    const value=JSON.parse(readFileSync(path,'utf8'));
