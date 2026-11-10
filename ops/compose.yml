@@ -64,6 +64,11 @@
         "ENABLE_TUTORIAL": "false",
         "ENABLE_OPENAPI_ENDPOINT": "false",
         "ROOM_API_SECRET_KEY": "${ROOM_API_SECRET_KEY:?required}",
+        "STUN_SERVER": "${STUN_SERVER:-}",
+        "TURN_SERVER": "${TURN_SERVER:-}",
+        "TURN_USER": "${TURN_USER:-}",
+        "TURN_PASSWORD": "${TURN_PASSWORD:-}",
+        "TURN_STATIC_AUTH_SECRET": "${TURN_STATIC_AUTH_SECRET:-}",
         "UPLOADER_URL": ""
       },
       "pull_policy": "never"
