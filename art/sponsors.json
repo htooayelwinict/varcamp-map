@@ -232,7 +232,7 @@
       "owner": "AWS User Group Myanmar",
       "permission": "Submitted by YamonAyeKyaw with event approval confirmed in https://github.com/htooayelwinict/varcamp-map/pull/9; approved by organizer Lewis for the 2026 community expo. Brand and artwork rights retained by their owners.",
       "license": "Organizer-approved event use; owner rights retained",
-      "changes": "Trimmed fully transparent outer padding only; original colours and aspect ratio retained, Lanczos3 fit inside120x56 and centred in128x64. Added a light backing for contrast; mark pixels not recoloured.",
+      "changes": "Exported from the unchanged original PNG with tools/art/community-logo-export.mjs. Visible alpha32 bounds plus a1% safety margin remove faint outer padding; pixels inside the crop, original colours and aspect ratio retained. Lanczos3 fit inside120x56, centred in a transparent128x64 canvas; no backing or recolouring.",
       "eyebrow": "COMMUNITY PARTNER"
     },
     {
@@ -252,7 +252,7 @@
       "owner": "BSides Myanmar",
       "permission": "Submitted by YamonAyeKyaw with event approval confirmed in https://github.com/htooayelwinict/varcamp-map/pull/9; approved by organizer Lewis for the 2026 community expo. Brand and artwork rights retained by their owners.",
       "license": "Organizer-approved event use; owner rights retained",
-      "changes": "Trimmed fully transparent outer padding only; original colours and aspect ratio retained, Lanczos3 fit inside120x56 and centred in128x64. Transparent backing retained.",
+      "changes": "Exported from the unchanged original PNG with tools/art/community-logo-export.mjs. Visible alpha32 bounds plus a1% safety margin remove faint outer padding; pixels inside the crop, original colours and aspect ratio retained. Lanczos3 fit inside120x56, centred in a transparent128x64 canvas; no backing or recolouring.",
       "eyebrow": "COMMUNITY PARTNER"
     },
     {
@@ -403,7 +403,7 @@
       "owner": "Open Source Robotics Foundation For Myanmar",
       "permission": "Submitted by YamonAyeKyaw with event approval confirmed in https://github.com/htooayelwinict/varcamp-map/pull/9; approved by organizer Lewis for the 2026 community expo. Brand and artwork rights retained by their owners.",
       "license": "Organizer-approved event use; owner rights retained",
-      "changes": "Trimmed fully transparent outer padding only; original colours and aspect ratio retained, Lanczos3 fit inside120x56 and centred in128x64. Added a light backing for contrast; mark pixels not recoloured.",
+      "changes": "Exported from the unchanged original PNG with tools/art/community-logo-export.mjs. Visible alpha32 bounds plus a1% safety margin remove faint outer padding; pixels inside the crop, original colours and aspect ratio retained. Lanczos3 fit inside120x56, centred in a transparent128x64 canvas; no backing or recolouring.",
       "eyebrow": "COMMUNITY PARTNER"
     },
     {
@@ -423,7 +423,7 @@
       "owner": "Ten Ten",
       "permission": "Submitted by YamonAyeKyaw with event approval confirmed in https://github.com/htooayelwinict/varcamp-map/pull/9; approved by organizer Lewis for the 2026 community expo. Brand and artwork rights retained by their owners.",
       "license": "Organizer-approved event use; owner rights retained",
-      "changes": "Trimmed fully transparent outer padding only; original colours and aspect ratio retained, Lanczos3 fit inside120x56 and centred in128x64. Transparent backing retained.",
+      "changes": "Exported from the unchanged original PNG with tools/art/community-logo-export.mjs. Visible alpha32 bounds plus a1% safety margin remove faint outer padding; pixels inside the crop, original colours and aspect ratio retained. Lanczos3 fit inside120x56, centred in a transparent128x64 canvas; no backing or recolouring.",
       "eyebrow": "COMMUNITY PARTNER"
     }
   ],

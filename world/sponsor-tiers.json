@@ -2,7 +2,7 @@
   "version": 1,
   "mapId": "overworld",
   "beforeLayoutSha256": "d62e9ed7744469e389ed36c5b0fbd12deb7e0185b81f3dde7e023f194d16aec7",
-  "afterLayoutSha256": "cb5b946c0fc76d60cf33a28f1eb739dc3891c494bf536a74b155532c9cd4ff67",
+  "afterLayoutSha256": "2a76bc59bba454d22083098b8164449b5e6b5a3a66af5ddb3aa59f26e042fcc4",
   "bounds": {
     "x": 38,
     "y": 65,
@@ -4350,63 +4350,63 @@
         },
         {
           "name": "sponsor-tier-aws-name",
-          "text": "AWS UG\nMYANMAR",
-          "x": 42,
-          "y": 82,
-          "width": 3,
+          "text": "AWS UG MYANMAR",
+          "x": 39,
+          "y": 86,
+          "width": 6,
           "height": 1,
-          "fontSize": 11,
+          "fontSize": 16,
           "color": "#f1d9a0",
           "align": "center",
-          "padding": 1
+          "padding": 4
         },
         {
           "name": "sponsor-tier-bsides-name",
-          "text": "BSIDES\nMYANMAR",
-          "x": 50,
-          "y": 82,
-          "width": 3,
+          "text": "BSIDES MYANMAR",
+          "x": 47,
+          "y": 86,
+          "width": 6,
           "height": 1,
-          "fontSize": 11,
+          "fontSize": 16,
           "color": "#f1d9a0",
           "align": "center",
-          "padding": 1
+          "padding": 4
         },
         {
           "name": "sponsor-tier-vibes-name",
-          "text": "VIBE CODE\nTOURS",
-          "x": 58,
-          "y": 82,
-          "width": 3,
+          "text": "VIBE CODE TOURS",
+          "x": 55,
+          "y": 86,
+          "width": 6,
           "height": 1,
-          "fontSize": 11,
+          "fontSize": 16,
           "color": "#f1d9a0",
           "align": "center",
-          "padding": 1
+          "padding": 4
         },
         {
           "name": "sponsor-tier-osrfm-name",
           "text": "OSRFM",
-          "x": 72,
-          "y": 82,
-          "width": 3,
+          "x": 69,
+          "y": 86,
+          "width": 6,
           "height": 1,
-          "fontSize": 14,
+          "fontSize": 16,
           "color": "#f1d9a0",
           "align": "center",
-          "padding": 1
+          "padding": 4
         },
         {
           "name": "sponsor-tier-ten-ten-name",
           "text": "TEN TEN",
-          "x": 84,
-          "y": 82,
-          "width": 3,
+          "x": 81,
+          "y": 86,
+          "width": 6,
           "height": 1,
-          "fontSize": 14,
+          "fontSize": 16,
           "color": "#f1d9a0",
           "align": "center",
-          "padding": 1
+          "padding": 4
         }
       ]
     },
@@ -4769,17 +4769,17 @@
           {
             "id": 30,
             "name": "sponsor-tier-aws-name",
-            "x": 1345,
-            "y": 2625,
-            "width": 94,
-            "height": 30,
+            "x": 1269,
+            "y": 2756,
+            "width": 167,
+            "height": 24,
             "rotation": 0,
             "visible": true,
             "text": {
-              "text": "AWS UG\nMYANMAR",
+              "text": "AWS UG MYANMAR",
               "color": "#f1d9a0",
               "fontfamily": "Arial",
-              "pixelsize": 11,
+              "pixelsize": 16,
               "bold": false,
               "wrap": true,
               "halign": "center",
@@ -4789,17 +4789,17 @@
           {
             "id": 31,
             "name": "sponsor-tier-bsides-name",
-            "x": 1601,
-            "y": 2625,
-            "width": 94,
-            "height": 30,
+            "x": 1528,
+            "y": 2756,
+            "width": 164,
+            "height": 24,
             "rotation": 0,
             "visible": true,
             "text": {
-              "text": "BSIDES\nMYANMAR",
+              "text": "BSIDES MYANMAR",
               "color": "#f1d9a0",
               "fontfamily": "Arial",
-              "pixelsize": 11,
+              "pixelsize": 16,
               "bold": false,
               "wrap": true,
               "halign": "center",
@@ -4809,17 +4809,17 @@
           {
             "id": 32,
             "name": "sponsor-tier-vibes-name",
-            "x": 1857,
-            "y": 2625,
-            "width": 94,
-            "height": 30,
+            "x": 1782,
+            "y": 2756,
+            "width": 166,
+            "height": 24,
             "rotation": 0,
             "visible": true,
             "text": {
-              "text": "VIBE CODE\nTOURS",
+              "text": "VIBE CODE TOURS",
               "color": "#f1d9a0",
               "fontfamily": "Arial",
-              "pixelsize": 11,
+              "pixelsize": 16,
               "bold": false,
               "wrap": true,
               "halign": "center",
@@ -4829,17 +4829,17 @@
           {
             "id": 33,
             "name": "sponsor-tier-osrfm-name",
-            "x": 2305,
-            "y": 2625,
-            "width": 94,
-            "height": 30,
+            "x": 2275,
+            "y": 2756,
+            "width": 121,
+            "height": 24,
             "rotation": 0,
             "visible": true,
             "text": {
               "text": "OSRFM",
               "color": "#f1d9a0",
               "fontfamily": "Arial",
-              "pixelsize": 14,
+              "pixelsize": 16,
               "bold": false,
               "wrap": true,
               "halign": "center",
@@ -4849,17 +4849,17 @@
           {
             "id": 34,
             "name": "sponsor-tier-ten-ten-name",
-            "x": 2689,
-            "y": 2625,
-            "width": 94,
-            "height": 30,
+            "x": 2654,
+            "y": 2756,
+            "width": 126,
+            "height": 24,
             "rotation": 0,
             "visible": true,
             "text": {
               "text": "TEN TEN",
               "color": "#f1d9a0",
               "fontfamily": "Arial",
-              "pixelsize": 14,
+              "pixelsize": 16,
               "bold": false,
               "wrap": true,
               "halign": "center",
@@ -4880,6 +4880,28 @@
       }
     ],
     "beforeSha256": "e98242907b2d88eac0ae3cf762a2066dff36ae3ec1103723c176ccd554173c35",
-    "afterSha256": "3720e613ba93e4c23bb7a2a13068350757f4ee4a3edddd74e558f5dcafedd0b6"
+    "afterSha256": "c698ff13a8eb53e7df59b8338e01d9a8d6d5318a80a9f094b7d432a350f0185b",
+    "captionInsets": [
+      {
+        "name": "sponsor-tier-aws-name",
+        "pixels": 17
+      },
+      {
+        "name": "sponsor-tier-bsides-name",
+        "pixels": 20
+      },
+      {
+        "name": "sponsor-tier-vibes-name",
+        "pixels": 18
+      },
+      {
+        "name": "sponsor-tier-osrfm-name",
+        "pixels": 63
+      },
+      {
+        "name": "sponsor-tier-ten-ten-name",
+        "pixels": 58
+      }
+    ]
   }
 }

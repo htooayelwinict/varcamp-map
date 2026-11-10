@@ -66639,63 +66639,63 @@
     },
     {
       "name": "sponsor-tier-aws-name",
-      "text": "AWS UG\nMYANMAR",
-      "x": 42,
-      "y": 82,
-      "width": 3,
+      "text": "AWS UG MYANMAR",
+      "x": 39,
+      "y": 86,
+      "width": 6,
       "height": 1,
-      "fontSize": 11,
+      "fontSize": 16,
       "color": "#f1d9a0",
       "align": "center",
-      "padding": 1
+      "padding": 4
     },
     {
       "name": "sponsor-tier-bsides-name",
-      "text": "BSIDES\nMYANMAR",
-      "x": 50,
-      "y": 82,
-      "width": 3,
+      "text": "BSIDES MYANMAR",
+      "x": 47,
+      "y": 86,
+      "width": 6,
       "height": 1,
-      "fontSize": 11,
+      "fontSize": 16,
       "color": "#f1d9a0",
       "align": "center",
-      "padding": 1
+      "padding": 4
     },
     {
       "name": "sponsor-tier-vibes-name",
-      "text": "VIBE CODE\nTOURS",
-      "x": 58,
-      "y": 82,
-      "width": 3,
+      "text": "VIBE CODE TOURS",
+      "x": 55,
+      "y": 86,
+      "width": 6,
       "height": 1,
-      "fontSize": 11,
+      "fontSize": 16,
       "color": "#f1d9a0",
       "align": "center",
-      "padding": 1
+      "padding": 4
     },
     {
       "name": "sponsor-tier-osrfm-name",
       "text": "OSRFM",
-      "x": 72,
-      "y": 82,
-      "width": 3,
+      "x": 69,
+      "y": 86,
+      "width": 6,
       "height": 1,
-      "fontSize": 14,
+      "fontSize": 16,
       "color": "#f1d9a0",
       "align": "center",
-      "padding": 1
+      "padding": 4
     },
     {
       "name": "sponsor-tier-ten-ten-name",
       "text": "TEN TEN",
-      "x": 84,
-      "y": 82,
-      "width": 3,
+      "x": 81,
+      "y": 86,
+      "width": 6,
       "height": 1,
-      "fontSize": 14,
+      "fontSize": 16,
       "color": "#f1d9a0",
       "align": "center",
-      "padding": 1
+      "padding": 4
     }
   ],
   "images": [

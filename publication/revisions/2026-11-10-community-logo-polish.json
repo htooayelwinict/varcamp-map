@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "revisions": [
+    {
+      "path": "art/sponsors.json",
+      "fromSha256": "1eb357e9cbf37d77a34f1aa5eb649b0abd509ce92556e104867f1f50c5f8fb64",
+      "toSha256": "f0f806d08a7f3c82bb5088df7a7de4a9dddcdf3ee9c7e276699ecbbb2866c36b",
+      "reason": "Remove export backings and faint logo padding using unchanged official PNGs; align five readable booth captions below the logos while retaining shared walls, furniture, collisions, atlas reservations and controls."
+    },
+    {
+      "path": "maps/overworld.tmj",
+      "fromSha256": "57a2627c0568bbbbc65c522d1d0deeb3b9c102a5e1ce5b1500b7acf415c43ca8",
+      "toSha256": "f36e6d37d13fcbd2bc59a1b5bf5cb3015e226cb5683e0c0a69f3ed91d5fe91e8",
+      "reason": "Remove export backings and faint logo padding using unchanged official PNGs; align five readable booth captions below the logos while retaining shared walls, furniture, collisions, atlas reservations and controls."
+    },
+    {
+      "path": "maps/preview/overworld.tmj",
+      "fromSha256": "cdb805b16996c5638ab25283587f584da007115f2c3df4d8acf8c24e93c686d7",
+      "toSha256": "8556a9df23fa57dc6e1c1af8dde872521ee67cded10d71c33e7074e2632f075a",
+      "reason": "Remove export backings and faint logo padding using unchanged official PNGs; align five readable booth captions below the logos while retaining shared walls, furniture, collisions, atlas reservations and controls."
+    },
+    {
+      "path": "world/layouts/overworld.json",
+      "fromSha256": "687714f7dff7e76e4209397c1c9369526bd99cdf10ffb1360bf28789d6fb515c",
+      "toSha256": "9b5451d12cd83429d51dae77d939728929dd2e303184efe672763620c5614ab6",
+      "reason": "Remove export backings and faint logo padding using unchanged official PNGs; align five readable booth captions below the logos while retaining shared walls, furniture, collisions, atlas reservations and controls."
+    }
+  ]
+}
