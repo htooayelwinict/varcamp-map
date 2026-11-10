@@ -292,11 +292,11 @@
         },
         {
           "path": "tools/maps/native-projection.ts",
-          "sha256": "82853c147bc1ef49ddb5ee662d410eef8f58daa96ac768108ffb422b226fe5bf"
+          "sha256": "94543099d9aaf9ca9bbd6dc3809ba7182767f5ed0d91d630d0d38456bde83687"
         },
         {
           "path": "tools/maps/native-ownership-context.ts",
-          "sha256": "7acadecf9534085b360f132dbbc5d84ad83be6d3ca9931b4078f6d24c1810ec1"
+          "sha256": "336e72d77c845f36c85d998993db10befcc718552054677715b62f2267d693e5"
         },
         {
           "path": "art/source/native-ownership-context.json",

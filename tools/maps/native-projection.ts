@@ -1,3 +1,4 @@
+import {authorSponsorTierContext} from './sponsor-tier-context';
 import {authorNavigationContext,navigationAtlases} from './harbour-navigation-context';
 import {authorParkArcadeContext,parkArcadeAtlases} from './park-arcade-context';
 import {authorPlaygroundContext} from './playground-context';
@@ -86,6 +87,7 @@ export function reconcileNativeProjection(native:TiledMap,rawSource:TiledMap):Ti
  authorNavigationContext(result);
  authorParkArcadeContext(result);
  authorPlaygroundContext(result);
+ authorSponsorTierContext(result,source);
  const paint=source.layers.filter(l=>l.type==='tilelayer'&&l.visible!==false&&l.opacity!==0),owned=new Set(paint.map(l=>l.name)),sourceNames=new Set(source.layers.map(l=>l.name));
  need(result.layers.every(l=>l.type!=='tilelayer'||sourceNames.has(l.name)),'unknown native layer cannot be retired');
  const originalSets=structuredClone(result.tilesets),originalMax=Math.max(...originalSets.map(t=>t.firstgid+t.tilecount!));let next=originalMax;

@@ -1,0 +1,95 @@
+{
+  "schemaVersion": 1,
+  "revisions": [
+    {
+      "path": "art/sources.json",
+      "fromSha256": "9643511c0b62366de54c2ee39a59eb3b48b35e690bcc4d29e487351649994ec3",
+      "toSha256": "03a7fd6cfb2231222a22f11ae27f830bde0d7e9b79a54ff7fcfb9ca3bdb577d3",
+      "reason": "Refresh exactly two shared map-code provenance dependencies and their metadata registrations; native maps, artwork and geometry remain unchanged."
+    },
+    {
+      "path": "maps/overworld.tmj",
+      "fromSha256": "06c80839468923cc4e9747786f9acc19802154df607150788f1e805f0fe78888",
+      "toSha256": "fccb6c0149efe380b8026fead4f8b1cb0f1533612970067d4deb2c8693c27e58",
+      "reason": "Apply the approved tiered sponsor and community expo layout, preserving all controls, exterior geometry and artwork."
+    },
+    {
+      "path": "maps/preview/overworld.tmj",
+      "fromSha256": "88fe4b85fc8f1c713cf873f0d3c0e3efd6ead3eaab44d446536cf6a7e623c91f",
+      "toSha256": "6277258bb23008d84e819ed24aac9723d077358a1de4918bbae44e159d77c624",
+      "reason": "Apply the approved tiered sponsor and community expo layout, preserving all controls, exterior geometry and artwork."
+    },
+    {
+      "path": "world/layouts/air-district.json",
+      "fromSha256": "7de4347a1a8db4ea3dfec3042e03e31f8377820b87a7aaf4027286372e99e7e7",
+      "toSha256": "a0740f3d3187bc0b2a27bc94a18f05d56f530de2c4eaf7bf45d4854daf729564",
+      "reason": "Refresh exactly two shared map-code provenance dependencies and their metadata registrations; native maps, artwork and geometry remain unchanged."
+    },
+    {
+      "path": "world/layouts/comet-maze.json",
+      "fromSha256": "9b3c69adb4d932d879bf93451939098af76f0cb6a28b45208658dc98d3efa683",
+      "toSha256": "277ce3172183c600a18a2fb48cbff3ccedac652c18cb9110b22afbac60c081cf",
+      "reason": "Refresh exactly two shared map-code provenance dependencies and their metadata registrations; native maps, artwork and geometry remain unchanged."
+    },
+    {
+      "path": "world/layouts/earth-district.json",
+      "fromSha256": "f37d8e9bbdd9eff3f1c782c1850c148974ec812ab1f92e353394ac49062acb72",
+      "toSha256": "83ce927e8431f76e4868f3bf851b516ed67f6a330e0b4f3013052096e1bd0e99",
+      "reason": "Refresh exactly two shared map-code provenance dependencies and their metadata registrations; native maps, artwork and geometry remain unchanged."
+    },
+    {
+      "path": "world/layouts/fa-ship.json",
+      "fromSha256": "aed00ddb730b54ae5db1ec213bd9644fb2758a43a58484b7abea84de456c532a",
+      "toSha256": "936cbcd2a0fa5b930f10013fdca852e6c8c3400fb4334d151b3742c86caa64fc",
+      "reason": "Refresh exactly two shared map-code provenance dependencies and their metadata registrations; native maps, artwork and geometry remain unchanged."
+    },
+    {
+      "path": "world/layouts/fire-district.json",
+      "fromSha256": "b67efe73601690abbe3fdc98d878f5509f9b1a89ef95cc9106106643371799f0",
+      "toSha256": "bc4e77f2e8cb983b6b50932e8cbc3756c537fabdf35fa4aceb26bf51326f821f",
+      "reason": "Refresh exactly two shared map-code provenance dependencies and their metadata registrations; native maps, artwork and geometry remain unchanged."
+    },
+    {
+      "path": "world/layouts/hidden-observatory.json",
+      "fromSha256": "e6ad9c3294ab6099888904a09a6ac6be78bf5cae58e7ac5e3f353fde0d474e70",
+      "toSha256": "4da03c86e3fe302b502c85b1ad9226db06e929c68d94d00508d7332a5ff0190f",
+      "reason": "Refresh exactly two shared map-code provenance dependencies and their metadata registrations; native maps, artwork and geometry remain unchanged."
+    },
+    {
+      "path": "world/layouts/nebula-arcade.json",
+      "fromSha256": "55bce378f53d3965f92d2d9a8770e360f2168a852233882ba4744b43fd2feceb",
+      "toSha256": "cc88760848728ba14e3e7f5d7f854ce3023fccb7f49126238e39f3ab4086bf91",
+      "reason": "Refresh exactly two shared map-code provenance dependencies and their metadata registrations; native maps, artwork and geometry remain unchanged."
+    },
+    {
+      "path": "world/layouts/orbit-maze.json",
+      "fromSha256": "779b6b8b299389eebe4296723a0b159a79d67b3f8b318741eed7cd9de8f8e1ce",
+      "toSha256": "cc3b682cde92d85a6707a5b9caa2c16a5ddd79bf48beed1efaac79ea455d66a2",
+      "reason": "Refresh exactly two shared map-code provenance dependencies and their metadata registrations; native maps, artwork and geometry remain unchanged."
+    },
+    {
+      "path": "world/layouts/orbit-playground.json",
+      "fromSha256": "e9ed08c486a72095bdeb19feeeae53ed5c2680cd7c25abff3f1bec38218fa5cd",
+      "toSha256": "762ad382e66ad785de35af05da4cbe755866a579447050fecc4b84a5637b633c",
+      "reason": "Refresh exactly two shared map-code provenance dependencies and their metadata registrations; native maps, artwork and geometry remain unchanged."
+    },
+    {
+      "path": "world/layouts/overworld.json",
+      "fromSha256": "76aa41a7cd940d4747c40482eb6a704f2273f7e8e869068da2ba4e740d37a73b",
+      "toSha256": "3aa437c333b08d0f87fdf946eca34770d1527cd7569b1dbc16eb08f4b4b106cc",
+      "reason": "Apply the approved tiered sponsor and community expo layout, preserving all controls, exterior geometry and artwork."
+    },
+    {
+      "path": "world/layouts/water-district.json",
+      "fromSha256": "e3d87a4fbf9a839f1946b387e991cc9849bb00582c005810d452ca5925ae8d35",
+      "toSha256": "254cc62e3706a86ccad0a0d0d7c57625f286607c88a050cf5450d263ea93685b",
+      "reason": "Refresh exactly two shared map-code provenance dependencies and their metadata registrations; native maps, artwork and geometry remain unchanged."
+    },
+    {
+      "path": "world/layouts/zodiac-festival-park.json",
+      "fromSha256": "09a2d6269645599d8d8d3be944ef3bd6b6a276f18307975089ceec961451078c",
+      "toSha256": "03fdcaf649834dddae96639f03b90b7aa404e8539a2a4818343a74dac432d087",
+      "reason": "Refresh exactly two shared map-code provenance dependencies and their metadata registrations; native maps, artwork and geometry remain unchanged."
+    }
+  ]
+}

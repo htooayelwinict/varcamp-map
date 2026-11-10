@@ -1,3 +1,5 @@
+import {restoreSponsorTiers} from '../tools/maps/sponsor-tiers';
+import {beforeSponsorTierNative} from './helpers/sponsor-tier-history';
 import {readFileSync} from 'node:fs';
 import {gunzipSync} from 'node:zlib';
 import {createHash} from 'node:crypto';
@@ -40,7 +42,7 @@ describe('arrival space reserved for main sponsors', () => {
   });
 
   it('preserves every other object, artwork, control and collision, and translates native panels without changing GIDs', () => {
-    const {layout, native} = current(), before=baseline();
+    const now=current(), layout=restoreSponsorTiers(now.layout), native=beforeSponsorTierNative(now.native), before=baseline();
     const restored=structuredClone(layout);
     for (const p of panels(restored)) p.y+=6;
     restored.placements.find(p => p.id === 'arrival-hospitality-central-walk')!.height=8;
@@ -61,7 +63,7 @@ describe('arrival space reserved for main sponsors', () => {
   });
 
   it('round-trips the approved predecessor and rejects additional edits to either epoch', () => {
-    const {layout}=current(), before=baseline().layout;
+    const layout=restoreSponsorTiers(current().layout), before=baseline().layout;
     expect(isDeepStrictEqual(applyArrivalSponsorSpace(before),layout)).toBe(true);
     expect(isDeepStrictEqual(restoreArrivalSponsorSpace(layout),before)).toBe(true);
     panels(before)[0].x++;

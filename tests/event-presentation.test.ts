@@ -1,3 +1,4 @@
+import {restoreSponsorTiers} from '../tools/maps/sponsor-tiers';
 import {readFileSync} from 'node:fs';
 import {isDeepStrictEqual} from 'node:util';
 import {restoreAuditoriumSpacing} from '../tools/maps/auditorium-spacing';
@@ -11,8 +12,8 @@ import type {MapLayout} from '../tools/maps/types';
 const read=(p:string)=>JSON.parse(readFileSync(p,'utf8'));
 const current=(id:string):MapLayout=>read(`world/layouts/${id}.json`);
 describe('Event branding and audience presentation',()=>{
- it('clears the plaza demo marks, keeps the info desk, and places Vibe Code beside BSides',()=>{
-  const l=current('overworld');
+ it('preserves the original demo cleanup as the sponsor-tier predecessor',()=>{
+  const l=restoreSponsorTiers(current('overworld'));
   expect(l.images!.map(i=>i.name)).toEqual(['Expo / VarCamp','Expo / BSides Myanmar','Arrival / VarCamp NW','Arrival / VarCamp NE','Arrival / VarCamp SW','Arrival / VarCamp SE','Expo / Vibe Code Tours']);
   expect(l.images!.find(i=>i.name==='Expo / Vibe Code Tours')).toMatchObject({x:56,y:85});
   expect(l.placements.filter(p=>['community-corner-floor','sponsor-expo-floor'].includes(p.id)).map(p=>p.sprite)).toEqual(['event-community-floor-label','event-sponsor-floor-label']);

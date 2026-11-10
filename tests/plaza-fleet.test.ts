@@ -1,3 +1,4 @@
+import {restoreSponsorTiers} from '../tools/maps/sponsor-tiers';
 import{existsSync,readFileSync}from'node:fs';
 import{expect,it}from'vitest';
 import{createRequire}from'node:module';
@@ -24,7 +25,7 @@ it('keeps current lanes clear and preserves the original floor-versus-raised arr
  expect(()=>assertFleetSafety(current,r)).not.toThrow();
  // The relocated logo no longer lies under this camera lane. Replay the exact
  // predecessor for the floor/raised comparison so the protected overlap is real.
- const l=restoreArrivalSponsorSpace(current);
+ const l=restoreArrivalSponsorSpace(restoreSponsorTiers(current));
  expect(()=>assertFleetSafety(l,r)).not.toThrow();
  l.images!.find(i=>i.name==='Arrival / VarCamp SW')!.standing=true;
  expect(()=>assertFleetSafety(l,r)).toThrow(/logo/);
@@ -48,7 +49,7 @@ it('has three distinctly readable silhouettes, twelve actual native poses and re
 it('uses whole-box clear lanes without props, raised/unrelated logos, entrances, exits or activity overlap',()=>{
  const layout=read('world/layouts/overworld.json')as MapLayout,recipe=read('art/source/plaza-fleet-recipe.json');expect(()=>assertFleetSafety(layout,recipe)).not.toThrow();
  for(const[name,mutate]of[
-  ['sponsor',(r:typeof recipe)=>{r.aircraft[0].rect={x:61,y:67,width:6,height:2};}],
+  ['sponsor',(r:typeof recipe)=>{const logo=layout.images!.find(i=>i.name==='Expo / BSides Myanmar')!;r.aircraft[0].rect={x:logo.x,y:logo.y,width:logo.width,height:logo.height};}],
   ['welcome',(r:typeof recipe)=>{r.aircraft[0].rect={x:62,y:65,width:4,height:2};}],
   ['room door',(r:typeof recipe)=>{r.aircraft[0].rect={x:101,y:69,width:2,height:2};}],
   ['fountain',(r:typeof recipe)=>{r.aircraft[0].rect={x:49,y:70,width:4,height:3};}],

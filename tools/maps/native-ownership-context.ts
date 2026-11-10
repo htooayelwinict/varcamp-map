@@ -1,3 +1,4 @@
+import {sponsorTierProtectedLayers} from './sponsor-tier-context';
 import {shorelineAtlases} from './plaza-shoreline';
 import {navigationProtectedLayers,navigationAtlases} from './harbour-navigation-context';
 import {parkArcadeProtectedLayers,parkArcadeAtlases,isParkLampSource} from './park-arcade-context';
@@ -214,13 +215,14 @@ function context(actual:TiledMap,source:TiledMap):ContextRow|undefined{
  need(actualIds.length===1&&sourceIds.length===1&&actualIds[0]===sourceIds[0]&&Object.hasOwn(rows,actualIds[0]),'current identity missing or contradictory');
  return rows[actualIds[0]];
 }
-function protectedContext(actual:TiledMap,row:ContextRow,author=false):void{
+function protectedContext(actual:TiledMap,row:ContextRow,author=false,source:TiledMap=actual):void{
  const layers=actual.layers.filter(l=>l.type!=='tilelayer'&&l.name!=='floorLayer');
  const preceding=cafeArrivalProtectedLayers(identities(actual)[0],row.protectedLayers);
  const maze=mazeGateProtectedLayers(identities(actual)[0],preceding);
  const navigation=navigationProtectedLayers(identities(actual)[0],maze);
  const current=playgroundProtectedLayers(identities(actual)[0],parkArcadeProtectedLayers(identities(actual)[0],navigation));
- need(isDeepStrictEqual(layers,current)||(author&&[navigation,maze,preceding,row.protectedLayers].some(prior=>isDeepStrictEqual(layers,prior))),'protected nonfloor layer bodies/roster changed');
+ const sponsor=sponsorTierProtectedLayers(current,source);
+ need(isDeepStrictEqual(layers,sponsor)||(author&&[current,navigation,maze,preceding,row.protectedLayers].some(prior=>isDeepStrictEqual(layers,prior))),'protected nonfloor layer bodies/roster changed');
  need(isDeepStrictEqual(actual.layers.filter(l=>l.type!=='tilelayer').map(l=>l.name),row.protectedNonfloorOrder),'protected nonfloor order changed');
 }
 /** Reviewed epochs on the overworld, each admitted only after every earlier one: the fleet is
@@ -301,7 +303,7 @@ function currentAtlases(row:ContextRow,source:TiledMap,epoch:Epoch=CURRENT,inclu
  * including unused historical reservations and all protected native owners. */
 export function assertNativeOwnershipContext(actual:TiledMap,source:TiledMap):void{
  const row=context(actual,source);if(!row)return;
- protectedContext(actual,row);
+ protectedContext(actual,row,false,source);
  need(isDeepStrictEqual(actual.tilesets,currentAtlases(row,source)),'historical atlas bodies/roster/reservations changed');
 }
 /** Explicit finite author migration. Only the exact independently registered
@@ -309,7 +311,7 @@ export function assertNativeOwnershipContext(actual:TiledMap,source:TiledMap):vo
  * The final current release gate never admits the pre-epoch representation. */
 export function assertNativeAuthoringContext(actual:TiledMap,source:TiledMap):void{
  const row=context(actual,source);if(!row)return;
- protectedContext(actual,row,true);
+ protectedContext(actual,row,true,source);
  // Required current source closure is validated even for a genuine historical
  // native input; old reservations do not opt the new source family out.
  const expected=currentAtlases(row,source);

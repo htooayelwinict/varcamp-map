@@ -11110,1893 +11110,6 @@
       "layer": "props"
     },
     {
-      "id": "expo-hall-floor-west",
-      "sprite": "floor-charcoal",
-      "layer": "terrain",
-      "x": 38,
-      "y": 66,
-      "width": 24,
-      "height": 24
-    },
-    {
-      "id": "expo-hall-floor-east",
-      "sprite": "floor-charcoal",
-      "layer": "terrain",
-      "x": 66,
-      "y": 66,
-      "width": 24,
-      "height": 24
-    },
-    {
-      "id": "expo-n1-carpet",
-      "sprite": "floor-cosmic",
-      "layer": "terrain",
-      "x": 39,
-      "y": 67,
-      "width": 6,
-      "height": 6
-    },
-    {
-      "id": "expo-n2-carpet",
-      "sprite": "floor-cosmic",
-      "layer": "terrain",
-      "x": 47,
-      "y": 67,
-      "width": 6,
-      "height": 6
-    },
-    {
-      "id": "expo-n3-carpet",
-      "sprite": "floor-cosmic",
-      "layer": "terrain",
-      "x": 55,
-      "y": 67,
-      "width": 6,
-      "height": 6
-    },
-    {
-      "id": "expo-n4-carpet",
-      "sprite": "floor-cosmic",
-      "layer": "terrain",
-      "x": 67,
-      "y": 67,
-      "width": 6,
-      "height": 6
-    },
-    {
-      "id": "expo-n5-carpet",
-      "sprite": "floor-cosmic",
-      "layer": "terrain",
-      "x": 75,
-      "y": 67,
-      "width": 6,
-      "height": 6
-    },
-    {
-      "id": "expo-n6-carpet",
-      "sprite": "floor-cosmic",
-      "layer": "terrain",
-      "x": 83,
-      "y": 67,
-      "width": 6,
-      "height": 6
-    },
-    {
-      "id": "expo-s1-carpet",
-      "sprite": "floor-wood",
-      "layer": "terrain",
-      "x": 39,
-      "y": 81,
-      "width": 6,
-      "height": 6
-    },
-    {
-      "id": "expo-s2-carpet",
-      "sprite": "floor-wood",
-      "layer": "terrain",
-      "x": 47,
-      "y": 81,
-      "width": 6,
-      "height": 6
-    },
-    {
-      "id": "expo-s3-carpet",
-      "sprite": "floor-wood",
-      "layer": "terrain",
-      "x": 55,
-      "y": 81,
-      "width": 6,
-      "height": 6
-    },
-    {
-      "id": "expo-s4-carpet",
-      "sprite": "floor-wood",
-      "layer": "terrain",
-      "x": 67,
-      "y": 81,
-      "width": 6,
-      "height": 6
-    },
-    {
-      "id": "expo-s5-carpet",
-      "sprite": "floor-wood",
-      "layer": "terrain",
-      "x": 75,
-      "y": 81,
-      "width": 6,
-      "height": 6
-    },
-    {
-      "id": "expo-s6-carpet",
-      "sprite": "floor-wood",
-      "layer": "terrain",
-      "x": 83,
-      "y": 81,
-      "width": 6,
-      "height": 6
-    },
-    {
-      "id": "expo-n1-wall-0",
-      "sprite": "expo-wall-navy",
-      "layer": "props",
-      "x": 39,
-      "y": 65,
-      "width": 1,
-      "height": 2
-    },
-    {
-      "id": "expo-n1-wall-5",
-      "sprite": "expo-wall-navy",
-      "layer": "props",
-      "x": 44,
-      "y": 65,
-      "width": 1,
-      "height": 2
-    },
-    {
-      "id": "expo-n1-poster",
-      "sprite": "poster-night-city",
-      "layer": "props",
-      "x": 39,
-      "y": 66,
-      "width": 1,
-      "height": 1
-    },
-    {
-      "id": "expo-n1-chair",
-      "sprite": "chair-presentation",
-      "layer": "props",
-      "x": 44,
-      "y": 71,
-      "width": 1,
-      "height": 2
-    },
-    {
-      "id": "expo-n1-counter",
-      "sprite": "desk-curved",
-      "layer": "props",
-      "x": 40,
-      "y": 71,
-      "width": 4,
-      "height": 3,
-      "flipY": true
-    },
-    {
-      "id": "expo-n2-wall-0",
-      "sprite": "expo-wall-navy",
-      "layer": "props",
-      "x": 47,
-      "y": 65,
-      "width": 1,
-      "height": 2
-    },
-    {
-      "id": "expo-n2-wall-5",
-      "sprite": "expo-wall-navy",
-      "layer": "props",
-      "x": 52,
-      "y": 65,
-      "width": 1,
-      "height": 2
-    },
-    {
-      "id": "expo-n2-poster",
-      "sprite": "poster-night-city",
-      "layer": "props",
-      "x": 47,
-      "y": 66,
-      "width": 1,
-      "height": 1
-    },
-    {
-      "id": "expo-n2-chair",
-      "sprite": "chair-presentation",
-      "layer": "props",
-      "x": 52,
-      "y": 71,
-      "width": 1,
-      "height": 2
-    },
-    {
-      "id": "expo-n2-counter",
-      "sprite": "desk-curved",
-      "layer": "props",
-      "x": 48,
-      "y": 71,
-      "width": 4,
-      "height": 3,
-      "flipY": true
-    },
-    {
-      "id": "expo-n3-wall-0",
-      "sprite": "expo-wall-navy",
-      "layer": "props",
-      "x": 55,
-      "y": 65,
-      "width": 1,
-      "height": 2
-    },
-    {
-      "id": "expo-n3-wall-5",
-      "sprite": "expo-wall-navy",
-      "layer": "props",
-      "x": 60,
-      "y": 65,
-      "width": 1,
-      "height": 2
-    },
-    {
-      "id": "expo-n3-poster",
-      "sprite": "poster-night-city",
-      "layer": "props",
-      "x": 55,
-      "y": 66,
-      "width": 1,
-      "height": 1
-    },
-    {
-      "id": "expo-n3-chair",
-      "sprite": "chair-presentation",
-      "layer": "props",
-      "x": 60,
-      "y": 71,
-      "width": 1,
-      "height": 2
-    },
-    {
-      "id": "expo-n3-counter",
-      "sprite": "desk-curved",
-      "layer": "props",
-      "x": 56,
-      "y": 71,
-      "width": 4,
-      "height": 3,
-      "flipY": true
-    },
-    {
-      "id": "expo-n4-wall-0",
-      "sprite": "expo-wall-navy",
-      "layer": "props",
-      "x": 67,
-      "y": 65,
-      "width": 1,
-      "height": 2
-    },
-    {
-      "id": "expo-n4-wall-5",
-      "sprite": "expo-wall-navy",
-      "layer": "props",
-      "x": 72,
-      "y": 65,
-      "width": 1,
-      "height": 2
-    },
-    {
-      "id": "expo-n4-poster",
-      "sprite": "poster-night-city",
-      "layer": "props",
-      "x": 72,
-      "y": 66,
-      "width": 1,
-      "height": 1
-    },
-    {
-      "id": "expo-n4-chair",
-      "sprite": "chair-presentation",
-      "layer": "props",
-      "x": 67,
-      "y": 71,
-      "width": 1,
-      "height": 2
-    },
-    {
-      "id": "expo-n4-counter",
-      "sprite": "desk-curved",
-      "layer": "props",
-      "x": 68,
-      "y": 71,
-      "width": 4,
-      "height": 3,
-      "flipY": true
-    },
-    {
-      "id": "expo-n5-wall-0",
-      "sprite": "expo-wall-navy",
-      "layer": "props",
-      "x": 75,
-      "y": 65,
-      "width": 1,
-      "height": 2
-    },
-    {
-      "id": "expo-n5-wall-5",
-      "sprite": "expo-wall-navy",
-      "layer": "props",
-      "x": 80,
-      "y": 65,
-      "width": 1,
-      "height": 2
-    },
-    {
-      "id": "expo-n5-poster",
-      "sprite": "poster-night-city",
-      "layer": "props",
-      "x": 80,
-      "y": 66,
-      "width": 1,
-      "height": 1
-    },
-    {
-      "id": "expo-n5-chair",
-      "sprite": "chair-presentation",
-      "layer": "props",
-      "x": 75,
-      "y": 71,
-      "width": 1,
-      "height": 2
-    },
-    {
-      "id": "expo-n5-counter",
-      "sprite": "desk-curved",
-      "layer": "props",
-      "x": 76,
-      "y": 71,
-      "width": 4,
-      "height": 3,
-      "flipY": true
-    },
-    {
-      "id": "expo-n6-wall-0",
-      "sprite": "expo-wall-navy",
-      "layer": "props",
-      "x": 83,
-      "y": 65,
-      "width": 1,
-      "height": 2
-    },
-    {
-      "id": "expo-n6-wall-5",
-      "sprite": "expo-wall-navy",
-      "layer": "props",
-      "x": 88,
-      "y": 65,
-      "width": 1,
-      "height": 2
-    },
-    {
-      "id": "expo-n6-poster",
-      "sprite": "poster-night-city",
-      "layer": "props",
-      "x": 88,
-      "y": 66,
-      "width": 1,
-      "height": 1
-    },
-    {
-      "id": "expo-n6-chair",
-      "sprite": "chair-presentation",
-      "layer": "props",
-      "x": 83,
-      "y": 71,
-      "width": 1,
-      "height": 2
-    },
-    {
-      "id": "expo-n6-counter",
-      "sprite": "desk-curved",
-      "layer": "props",
-      "x": 84,
-      "y": 71,
-      "width": 4,
-      "height": 3,
-      "flipY": true
-    },
-    {
-      "id": "expo-s1-seal-cap",
-      "sprite": "wall-charcoal",
-      "layer": "terrain",
-      "x": 39,
-      "y": 87,
-      "width": 6,
-      "height": 1
-    },
-    {
-      "id": "expo-s1-chair",
-      "sprite": "chair-presentation",
-      "layer": "props",
-      "x": 44,
-      "y": 84,
-      "width": 1,
-      "height": 2
-    },
-    {
-      "id": "expo-s1-counter",
-      "sprite": "desk-curved",
-      "layer": "props",
-      "x": 40,
-      "y": 80,
-      "width": 4,
-      "height": 3
-    },
-    {
-      "id": "expo-s2-seal-cap",
-      "sprite": "wall-charcoal",
-      "layer": "terrain",
-      "x": 47,
-      "y": 87,
-      "width": 6,
-      "height": 1
-    },
-    {
-      "id": "expo-s2-chair",
-      "sprite": "chair-presentation",
-      "layer": "props",
-      "x": 52,
-      "y": 84,
-      "width": 1,
-      "height": 2
-    },
-    {
-      "id": "expo-s2-counter",
-      "sprite": "desk-curved",
-      "layer": "props",
-      "x": 48,
-      "y": 80,
-      "width": 4,
-      "height": 3
-    },
-    {
-      "id": "expo-s3-seal-cap",
-      "sprite": "wall-charcoal",
-      "layer": "terrain",
-      "x": 55,
-      "y": 87,
-      "width": 6,
-      "height": 1
-    },
-    {
-      "id": "expo-s3-wall-0",
-      "sprite": "expo-wall-navy",
-      "layer": "props",
-      "x": 55,
-      "y": 87,
-      "width": 1,
-      "height": 2
-    },
-    {
-      "id": "expo-s3-wall-5",
-      "sprite": "expo-wall-navy",
-      "layer": "props",
-      "x": 60,
-      "y": 87,
-      "width": 1,
-      "height": 2
-    },
-    {
-      "id": "expo-s3-poster",
-      "sprite": "poster-night-city",
-      "layer": "props",
-      "x": 55,
-      "y": 88,
-      "width": 1,
-      "height": 1
-    },
-    {
-      "id": "expo-s3-chair",
-      "sprite": "chair-presentation",
-      "layer": "props",
-      "x": 60,
-      "y": 84,
-      "width": 1,
-      "height": 2
-    },
-    {
-      "id": "expo-s3-counter",
-      "sprite": "desk-curved",
-      "layer": "props",
-      "x": 56,
-      "y": 80,
-      "width": 4,
-      "height": 3
-    },
-    {
-      "id": "expo-s4-seal-cap",
-      "sprite": "wall-charcoal",
-      "layer": "terrain",
-      "x": 67,
-      "y": 87,
-      "width": 6,
-      "height": 1
-    },
-    {
-      "id": "expo-s4-wall-0",
-      "sprite": "expo-wall-navy",
-      "layer": "props",
-      "x": 67,
-      "y": 87,
-      "width": 1,
-      "height": 2
-    },
-    {
-      "id": "expo-s4-wall-5",
-      "sprite": "expo-wall-navy",
-      "layer": "props",
-      "x": 72,
-      "y": 87,
-      "width": 1,
-      "height": 2
-    },
-    {
-      "id": "expo-s4-poster",
-      "sprite": "poster-night-city",
-      "layer": "props",
-      "x": 72,
-      "y": 88,
-      "width": 1,
-      "height": 1
-    },
-    {
-      "id": "expo-s4-chair",
-      "sprite": "chair-presentation",
-      "layer": "props",
-      "x": 67,
-      "y": 84,
-      "width": 1,
-      "height": 2
-    },
-    {
-      "id": "expo-s4-counter",
-      "sprite": "desk-curved",
-      "layer": "props",
-      "x": 68,
-      "y": 80,
-      "width": 4,
-      "height": 3
-    },
-    {
-      "id": "expo-s5-seal-cap",
-      "sprite": "wall-charcoal",
-      "layer": "terrain",
-      "x": 75,
-      "y": 87,
-      "width": 6,
-      "height": 1
-    },
-    {
-      "id": "expo-s5-wall-0",
-      "sprite": "expo-wall-navy",
-      "layer": "props",
-      "x": 75,
-      "y": 87,
-      "width": 1,
-      "height": 2
-    },
-    {
-      "id": "expo-s5-wall-5",
-      "sprite": "expo-wall-navy",
-      "layer": "props",
-      "x": 80,
-      "y": 87,
-      "width": 1,
-      "height": 2
-    },
-    {
-      "id": "expo-s5-poster",
-      "sprite": "poster-night-city",
-      "layer": "props",
-      "x": 80,
-      "y": 88,
-      "width": 1,
-      "height": 1
-    },
-    {
-      "id": "expo-s5-chair",
-      "sprite": "chair-presentation",
-      "layer": "props",
-      "x": 75,
-      "y": 84,
-      "width": 1,
-      "height": 2
-    },
-    {
-      "id": "expo-s5-counter",
-      "sprite": "desk-curved",
-      "layer": "props",
-      "x": 76,
-      "y": 80,
-      "width": 4,
-      "height": 3
-    },
-    {
-      "id": "expo-s6-seal-cap",
-      "sprite": "wall-charcoal",
-      "layer": "terrain",
-      "x": 83,
-      "y": 87,
-      "width": 6,
-      "height": 1
-    },
-    {
-      "id": "expo-s6-chair",
-      "sprite": "chair-presentation",
-      "layer": "props",
-      "x": 83,
-      "y": 84,
-      "width": 1,
-      "height": 2
-    },
-    {
-      "id": "expo-s6-counter",
-      "sprite": "desk-curved",
-      "layer": "props",
-      "x": 84,
-      "y": 80,
-      "width": 4,
-      "height": 3
-    },
-    {
-      "id": "expo-n1-nameplate-fascia",
-      "sprite": "expo-fascia",
-      "layer": "props",
-      "x": 40,
-      "y": 65,
-      "width": 4,
-      "height": 1
-    },
-    {
-      "id": "expo-n1-nameplate-fascia-post-0",
-      "sprite": "expo-fascia-post",
-      "layer": "props",
-      "x": 40,
-      "y": 66,
-      "width": 1,
-      "height": 1
-    },
-    {
-      "id": "expo-n1-nameplate-fascia-post-1",
-      "sprite": "expo-fascia-post",
-      "layer": "props",
-      "x": 41,
-      "y": 66,
-      "width": 1,
-      "height": 1
-    },
-    {
-      "id": "expo-n1-nameplate-fascia-post-2",
-      "sprite": "expo-fascia-post",
-      "layer": "props",
-      "x": 42,
-      "y": 66,
-      "width": 1,
-      "height": 1
-    },
-    {
-      "id": "expo-n1-nameplate-fascia-post-3",
-      "sprite": "expo-fascia-post",
-      "layer": "props",
-      "x": 43,
-      "y": 66,
-      "width": 1,
-      "height": 1
-    },
-    {
-      "id": "expo-n2-nameplate-fascia",
-      "sprite": "expo-fascia",
-      "layer": "props",
-      "x": 48,
-      "y": 65,
-      "width": 4,
-      "height": 1
-    },
-    {
-      "id": "expo-n2-nameplate-fascia-post-0",
-      "sprite": "expo-fascia-post",
-      "layer": "props",
-      "x": 48,
-      "y": 66,
-      "width": 1,
-      "height": 1
-    },
-    {
-      "id": "expo-n2-nameplate-fascia-post-1",
-      "sprite": "expo-fascia-post",
-      "layer": "props",
-      "x": 49,
-      "y": 66,
-      "width": 1,
-      "height": 1
-    },
-    {
-      "id": "expo-n2-nameplate-fascia-post-2",
-      "sprite": "expo-fascia-post",
-      "layer": "props",
-      "x": 50,
-      "y": 66,
-      "width": 1,
-      "height": 1
-    },
-    {
-      "id": "expo-n2-nameplate-fascia-post-3",
-      "sprite": "expo-fascia-post",
-      "layer": "props",
-      "x": 51,
-      "y": 66,
-      "width": 1,
-      "height": 1
-    },
-    {
-      "id": "expo-n3-nameplate-fascia",
-      "sprite": "expo-fascia",
-      "layer": "props",
-      "x": 56,
-      "y": 65,
-      "width": 4,
-      "height": 1
-    },
-    {
-      "id": "expo-n3-nameplate-fascia-post-0",
-      "sprite": "expo-fascia-post",
-      "layer": "props",
-      "x": 56,
-      "y": 66,
-      "width": 1,
-      "height": 1
-    },
-    {
-      "id": "expo-n3-nameplate-fascia-post-1",
-      "sprite": "expo-fascia-post",
-      "layer": "props",
-      "x": 57,
-      "y": 66,
-      "width": 1,
-      "height": 1
-    },
-    {
-      "id": "expo-n3-nameplate-fascia-post-2",
-      "sprite": "expo-fascia-post",
-      "layer": "props",
-      "x": 58,
-      "y": 66,
-      "width": 1,
-      "height": 1
-    },
-    {
-      "id": "expo-n3-nameplate-fascia-post-3",
-      "sprite": "expo-fascia-post",
-      "layer": "props",
-      "x": 59,
-      "y": 66,
-      "width": 1,
-      "height": 1
-    },
-    {
-      "id": "expo-n4-nameplate-fascia",
-      "sprite": "expo-fascia",
-      "layer": "props",
-      "x": 68,
-      "y": 65,
-      "width": 4,
-      "height": 1
-    },
-    {
-      "id": "expo-n4-nameplate-fascia-post-0",
-      "sprite": "expo-fascia-post",
-      "layer": "props",
-      "x": 68,
-      "y": 66,
-      "width": 1,
-      "height": 1
-    },
-    {
-      "id": "expo-n4-nameplate-fascia-post-1",
-      "sprite": "expo-fascia-post",
-      "layer": "props",
-      "x": 69,
-      "y": 66,
-      "width": 1,
-      "height": 1
-    },
-    {
-      "id": "expo-n4-nameplate-fascia-post-2",
-      "sprite": "expo-fascia-post",
-      "layer": "props",
-      "x": 70,
-      "y": 66,
-      "width": 1,
-      "height": 1
-    },
-    {
-      "id": "expo-n4-nameplate-fascia-post-3",
-      "sprite": "expo-fascia-post",
-      "layer": "props",
-      "x": 71,
-      "y": 66,
-      "width": 1,
-      "height": 1
-    },
-    {
-      "id": "expo-n5-nameplate-fascia",
-      "sprite": "expo-fascia",
-      "layer": "props",
-      "x": 76,
-      "y": 65,
-      "width": 4,
-      "height": 1
-    },
-    {
-      "id": "expo-n5-nameplate-fascia-post-0",
-      "sprite": "expo-fascia-post",
-      "layer": "props",
-      "x": 76,
-      "y": 66,
-      "width": 1,
-      "height": 1
-    },
-    {
-      "id": "expo-n5-nameplate-fascia-post-1",
-      "sprite": "expo-fascia-post",
-      "layer": "props",
-      "x": 77,
-      "y": 66,
-      "width": 1,
-      "height": 1
-    },
-    {
-      "id": "expo-n5-nameplate-fascia-post-2",
-      "sprite": "expo-fascia-post",
-      "layer": "props",
-      "x": 78,
-      "y": 66,
-      "width": 1,
-      "height": 1
-    },
-    {
-      "id": "expo-n5-nameplate-fascia-post-3",
-      "sprite": "expo-fascia-post",
-      "layer": "props",
-      "x": 79,
-      "y": 66,
-      "width": 1,
-      "height": 1
-    },
-    {
-      "id": "expo-n6-nameplate-fascia",
-      "sprite": "expo-fascia",
-      "layer": "props",
-      "x": 84,
-      "y": 65,
-      "width": 4,
-      "height": 1
-    },
-    {
-      "id": "expo-n6-nameplate-fascia-post-0",
-      "sprite": "expo-fascia-post",
-      "layer": "props",
-      "x": 84,
-      "y": 66,
-      "width": 1,
-      "height": 1
-    },
-    {
-      "id": "expo-n6-nameplate-fascia-post-1",
-      "sprite": "expo-fascia-post",
-      "layer": "props",
-      "x": 85,
-      "y": 66,
-      "width": 1,
-      "height": 1
-    },
-    {
-      "id": "expo-n6-nameplate-fascia-post-2",
-      "sprite": "expo-fascia-post",
-      "layer": "props",
-      "x": 86,
-      "y": 66,
-      "width": 1,
-      "height": 1
-    },
-    {
-      "id": "expo-n6-nameplate-fascia-post-3",
-      "sprite": "expo-fascia-post",
-      "layer": "props",
-      "x": 87,
-      "y": 66,
-      "width": 1,
-      "height": 1
-    },
-    {
-      "id": "expo-s1-nameplate-fascia",
-      "sprite": "expo-fascia",
-      "layer": "props",
-      "x": 39,
-      "y": 87,
-      "width": 6,
-      "height": 1
-    },
-    {
-      "id": "expo-s1-nameplate-fascia-post-0",
-      "sprite": "expo-fascia-post",
-      "layer": "props",
-      "x": 39,
-      "y": 88,
-      "width": 1,
-      "height": 1
-    },
-    {
-      "id": "expo-s1-nameplate-fascia-post-1",
-      "sprite": "expo-fascia-post",
-      "layer": "props",
-      "x": 40,
-      "y": 88,
-      "width": 1,
-      "height": 1
-    },
-    {
-      "id": "expo-s1-nameplate-fascia-post-2",
-      "sprite": "expo-fascia-post",
-      "layer": "props",
-      "x": 41,
-      "y": 88,
-      "width": 1,
-      "height": 1
-    },
-    {
-      "id": "expo-s1-nameplate-fascia-post-3",
-      "sprite": "expo-fascia-post",
-      "layer": "props",
-      "x": 42,
-      "y": 88,
-      "width": 1,
-      "height": 1
-    },
-    {
-      "id": "expo-s1-nameplate-fascia-post-4",
-      "sprite": "expo-fascia-post",
-      "layer": "props",
-      "x": 43,
-      "y": 88,
-      "width": 1,
-      "height": 1
-    },
-    {
-      "id": "expo-s1-nameplate-fascia-post-5",
-      "sprite": "expo-fascia-post",
-      "layer": "props",
-      "x": 44,
-      "y": 88,
-      "width": 1,
-      "height": 1
-    },
-    {
-      "id": "expo-s2-nameplate-fascia",
-      "sprite": "expo-fascia",
-      "layer": "props",
-      "x": 47,
-      "y": 87,
-      "width": 6,
-      "height": 1
-    },
-    {
-      "id": "expo-s2-nameplate-fascia-post-0",
-      "sprite": "expo-fascia-post",
-      "layer": "props",
-      "x": 47,
-      "y": 88,
-      "width": 1,
-      "height": 1
-    },
-    {
-      "id": "expo-s2-nameplate-fascia-post-1",
-      "sprite": "expo-fascia-post",
-      "layer": "props",
-      "x": 48,
-      "y": 88,
-      "width": 1,
-      "height": 1
-    },
-    {
-      "id": "expo-s2-nameplate-fascia-post-2",
-      "sprite": "expo-fascia-post",
-      "layer": "props",
-      "x": 49,
-      "y": 88,
-      "width": 1,
-      "height": 1
-    },
-    {
-      "id": "expo-s2-nameplate-fascia-post-3",
-      "sprite": "expo-fascia-post",
-      "layer": "props",
-      "x": 50,
-      "y": 88,
-      "width": 1,
-      "height": 1
-    },
-    {
-      "id": "expo-s2-nameplate-fascia-post-4",
-      "sprite": "expo-fascia-post",
-      "layer": "props",
-      "x": 51,
-      "y": 88,
-      "width": 1,
-      "height": 1
-    },
-    {
-      "id": "expo-s2-nameplate-fascia-post-5",
-      "sprite": "expo-fascia-post",
-      "layer": "props",
-      "x": 52,
-      "y": 88,
-      "width": 1,
-      "height": 1
-    },
-    {
-      "id": "expo-s3-nameplate-fascia",
-      "sprite": "expo-fascia",
-      "layer": "props",
-      "x": 56,
-      "y": 87,
-      "width": 4,
-      "height": 1
-    },
-    {
-      "id": "expo-s3-nameplate-fascia-post-0",
-      "sprite": "expo-fascia-post",
-      "layer": "props",
-      "x": 56,
-      "y": 88,
-      "width": 1,
-      "height": 1
-    },
-    {
-      "id": "expo-s3-nameplate-fascia-post-1",
-      "sprite": "expo-fascia-post",
-      "layer": "props",
-      "x": 57,
-      "y": 88,
-      "width": 1,
-      "height": 1
-    },
-    {
-      "id": "expo-s3-nameplate-fascia-post-2",
-      "sprite": "expo-fascia-post",
-      "layer": "props",
-      "x": 58,
-      "y": 88,
-      "width": 1,
-      "height": 1
-    },
-    {
-      "id": "expo-s3-nameplate-fascia-post-3",
-      "sprite": "expo-fascia-post",
-      "layer": "props",
-      "x": 59,
-      "y": 88,
-      "width": 1,
-      "height": 1
-    },
-    {
-      "id": "expo-s4-nameplate-fascia",
-      "sprite": "expo-fascia",
-      "layer": "props",
-      "x": 68,
-      "y": 87,
-      "width": 4,
-      "height": 1
-    },
-    {
-      "id": "expo-s4-nameplate-fascia-post-0",
-      "sprite": "expo-fascia-post",
-      "layer": "props",
-      "x": 68,
-      "y": 88,
-      "width": 1,
-      "height": 1
-    },
-    {
-      "id": "expo-s4-nameplate-fascia-post-1",
-      "sprite": "expo-fascia-post",
-      "layer": "props",
-      "x": 69,
-      "y": 88,
-      "width": 1,
-      "height": 1
-    },
-    {
-      "id": "expo-s4-nameplate-fascia-post-2",
-      "sprite": "expo-fascia-post",
-      "layer": "props",
-      "x": 70,
-      "y": 88,
-      "width": 1,
-      "height": 1
-    },
-    {
-      "id": "expo-s4-nameplate-fascia-post-3",
-      "sprite": "expo-fascia-post",
-      "layer": "props",
-      "x": 71,
-      "y": 88,
-      "width": 1,
-      "height": 1
-    },
-    {
-      "id": "expo-s5-nameplate-fascia",
-      "sprite": "expo-fascia",
-      "layer": "props",
-      "x": 76,
-      "y": 87,
-      "width": 4,
-      "height": 1
-    },
-    {
-      "id": "expo-s5-nameplate-fascia-post-0",
-      "sprite": "expo-fascia-post",
-      "layer": "props",
-      "x": 76,
-      "y": 88,
-      "width": 1,
-      "height": 1
-    },
-    {
-      "id": "expo-s5-nameplate-fascia-post-1",
-      "sprite": "expo-fascia-post",
-      "layer": "props",
-      "x": 77,
-      "y": 88,
-      "width": 1,
-      "height": 1
-    },
-    {
-      "id": "expo-s5-nameplate-fascia-post-2",
-      "sprite": "expo-fascia-post",
-      "layer": "props",
-      "x": 78,
-      "y": 88,
-      "width": 1,
-      "height": 1
-    },
-    {
-      "id": "expo-s5-nameplate-fascia-post-3",
-      "sprite": "expo-fascia-post",
-      "layer": "props",
-      "x": 79,
-      "y": 88,
-      "width": 1,
-      "height": 1
-    },
-    {
-      "id": "expo-s6-nameplate-fascia",
-      "sprite": "expo-fascia",
-      "layer": "props",
-      "x": 83,
-      "y": 87,
-      "width": 6,
-      "height": 1
-    },
-    {
-      "id": "expo-s6-nameplate-fascia-post-0",
-      "sprite": "expo-fascia-post",
-      "layer": "props",
-      "x": 83,
-      "y": 88,
-      "width": 1,
-      "height": 1
-    },
-    {
-      "id": "expo-s6-nameplate-fascia-post-1",
-      "sprite": "expo-fascia-post",
-      "layer": "props",
-      "x": 84,
-      "y": 88,
-      "width": 1,
-      "height": 1
-    },
-    {
-      "id": "expo-s6-nameplate-fascia-post-2",
-      "sprite": "expo-fascia-post",
-      "layer": "props",
-      "x": 85,
-      "y": 88,
-      "width": 1,
-      "height": 1
-    },
-    {
-      "id": "expo-s6-nameplate-fascia-post-3",
-      "sprite": "expo-fascia-post",
-      "layer": "props",
-      "x": 86,
-      "y": 88,
-      "width": 1,
-      "height": 1
-    },
-    {
-      "id": "expo-s6-nameplate-fascia-post-4",
-      "sprite": "expo-fascia-post",
-      "layer": "props",
-      "x": 87,
-      "y": 88,
-      "width": 1,
-      "height": 1
-    },
-    {
-      "id": "expo-s6-nameplate-fascia-post-5",
-      "sprite": "expo-fascia-post",
-      "layer": "props",
-      "x": 88,
-      "y": 88,
-      "width": 1,
-      "height": 1
-    },
-    {
-      "id": "expo-spaced-west-north-38-wall",
-      "sprite": "expo-wall-navy",
-      "layer": "props",
-      "x": 38,
-      "y": 65,
-      "width": 1,
-      "height": 8
-    },
-    {
-      "id": "expo-spaced-west-north-38-seal-67",
-      "sprite": "wall-charcoal",
-      "layer": "terrain",
-      "x": 38,
-      "y": 67,
-      "width": 1,
-      "height": 1
-    },
-    {
-      "id": "expo-spaced-west-north-38-seal-69",
-      "sprite": "wall-charcoal",
-      "layer": "terrain",
-      "x": 38,
-      "y": 69,
-      "width": 1,
-      "height": 1
-    },
-    {
-      "id": "expo-spaced-west-north-38-seal-71",
-      "sprite": "wall-charcoal",
-      "layer": "terrain",
-      "x": 38,
-      "y": 71,
-      "width": 1,
-      "height": 1
-    },
-    {
-      "id": "expo-spaced-west-north-45-wall",
-      "sprite": "expo-wall-navy",
-      "layer": "props",
-      "x": 45,
-      "y": 65,
-      "width": 2,
-      "height": 8
-    },
-    {
-      "id": "expo-spaced-west-north-45-seal-67",
-      "sprite": "wall-charcoal",
-      "layer": "terrain",
-      "x": 45,
-      "y": 67,
-      "width": 2,
-      "height": 1
-    },
-    {
-      "id": "expo-spaced-west-north-45-seal-69",
-      "sprite": "wall-charcoal",
-      "layer": "terrain",
-      "x": 45,
-      "y": 69,
-      "width": 2,
-      "height": 1
-    },
-    {
-      "id": "expo-spaced-west-north-45-seal-71",
-      "sprite": "wall-charcoal",
-      "layer": "terrain",
-      "x": 45,
-      "y": 71,
-      "width": 2,
-      "height": 1
-    },
-    {
-      "id": "expo-spaced-west-north-53-wall",
-      "sprite": "expo-wall-navy",
-      "layer": "props",
-      "x": 53,
-      "y": 65,
-      "width": 2,
-      "height": 8
-    },
-    {
-      "id": "expo-spaced-west-north-53-seal-67",
-      "sprite": "wall-charcoal",
-      "layer": "terrain",
-      "x": 53,
-      "y": 67,
-      "width": 2,
-      "height": 1
-    },
-    {
-      "id": "expo-spaced-west-north-53-seal-69",
-      "sprite": "wall-charcoal",
-      "layer": "terrain",
-      "x": 53,
-      "y": 69,
-      "width": 2,
-      "height": 1
-    },
-    {
-      "id": "expo-spaced-west-north-53-seal-71",
-      "sprite": "wall-charcoal",
-      "layer": "terrain",
-      "x": 53,
-      "y": 71,
-      "width": 2,
-      "height": 1
-    },
-    {
-      "id": "expo-spaced-west-north-61-wall",
-      "sprite": "expo-wall-navy",
-      "layer": "props",
-      "x": 61,
-      "y": 65,
-      "width": 1,
-      "height": 8
-    },
-    {
-      "id": "expo-spaced-west-north-61-seal-67",
-      "sprite": "wall-charcoal",
-      "layer": "terrain",
-      "x": 61,
-      "y": 67,
-      "width": 1,
-      "height": 1
-    },
-    {
-      "id": "expo-spaced-west-north-61-seal-69",
-      "sprite": "wall-charcoal",
-      "layer": "terrain",
-      "x": 61,
-      "y": 69,
-      "width": 1,
-      "height": 1
-    },
-    {
-      "id": "expo-spaced-west-north-61-seal-71",
-      "sprite": "wall-charcoal",
-      "layer": "terrain",
-      "x": 61,
-      "y": 71,
-      "width": 1,
-      "height": 1
-    },
-    {
-      "id": "expo-spaced-west-south-38-wall",
-      "sprite": "expo-wall-navy",
-      "layer": "props",
-      "x": 38,
-      "y": 81,
-      "width": 1,
-      "height": 8
-    },
-    {
-      "id": "expo-spaced-west-south-38-seal-81",
-      "sprite": "wall-charcoal",
-      "layer": "terrain",
-      "x": 38,
-      "y": 81,
-      "width": 1,
-      "height": 1
-    },
-    {
-      "id": "expo-spaced-west-south-38-seal-83",
-      "sprite": "wall-charcoal",
-      "layer": "terrain",
-      "x": 38,
-      "y": 83,
-      "width": 1,
-      "height": 1
-    },
-    {
-      "id": "expo-spaced-west-south-38-seal-85",
-      "sprite": "wall-charcoal",
-      "layer": "terrain",
-      "x": 38,
-      "y": 85,
-      "width": 1,
-      "height": 1
-    },
-    {
-      "id": "expo-spaced-west-south-38-seal-87",
-      "sprite": "wall-charcoal",
-      "layer": "terrain",
-      "x": 38,
-      "y": 87,
-      "width": 1,
-      "height": 1
-    },
-    {
-      "id": "expo-spaced-west-south-45-wall",
-      "sprite": "expo-wall-navy",
-      "layer": "props",
-      "x": 45,
-      "y": 81,
-      "width": 2,
-      "height": 8
-    },
-    {
-      "id": "expo-spaced-west-south-45-seal-81",
-      "sprite": "wall-charcoal",
-      "layer": "terrain",
-      "x": 45,
-      "y": 81,
-      "width": 2,
-      "height": 1
-    },
-    {
-      "id": "expo-spaced-west-south-45-seal-83",
-      "sprite": "wall-charcoal",
-      "layer": "terrain",
-      "x": 45,
-      "y": 83,
-      "width": 2,
-      "height": 1
-    },
-    {
-      "id": "expo-spaced-west-south-45-seal-85",
-      "sprite": "wall-charcoal",
-      "layer": "terrain",
-      "x": 45,
-      "y": 85,
-      "width": 2,
-      "height": 1
-    },
-    {
-      "id": "expo-spaced-west-south-45-seal-87",
-      "sprite": "wall-charcoal",
-      "layer": "terrain",
-      "x": 45,
-      "y": 87,
-      "width": 2,
-      "height": 1
-    },
-    {
-      "id": "expo-spaced-west-south-53-wall",
-      "sprite": "expo-wall-navy",
-      "layer": "props",
-      "x": 53,
-      "y": 81,
-      "width": 2,
-      "height": 8
-    },
-    {
-      "id": "expo-spaced-west-south-53-seal-81",
-      "sprite": "wall-charcoal",
-      "layer": "terrain",
-      "x": 53,
-      "y": 81,
-      "width": 2,
-      "height": 1
-    },
-    {
-      "id": "expo-spaced-west-south-53-seal-83",
-      "sprite": "wall-charcoal",
-      "layer": "terrain",
-      "x": 53,
-      "y": 83,
-      "width": 2,
-      "height": 1
-    },
-    {
-      "id": "expo-spaced-west-south-53-seal-85",
-      "sprite": "wall-charcoal",
-      "layer": "terrain",
-      "x": 53,
-      "y": 85,
-      "width": 2,
-      "height": 1
-    },
-    {
-      "id": "expo-spaced-west-south-53-seal-87",
-      "sprite": "wall-charcoal",
-      "layer": "terrain",
-      "x": 53,
-      "y": 87,
-      "width": 2,
-      "height": 1
-    },
-    {
-      "id": "expo-spaced-west-south-61-wall",
-      "sprite": "expo-wall-navy",
-      "layer": "props",
-      "x": 61,
-      "y": 81,
-      "width": 1,
-      "height": 8
-    },
-    {
-      "id": "expo-spaced-west-south-61-seal-81",
-      "sprite": "wall-charcoal",
-      "layer": "terrain",
-      "x": 61,
-      "y": 81,
-      "width": 1,
-      "height": 1
-    },
-    {
-      "id": "expo-spaced-west-south-61-seal-83",
-      "sprite": "wall-charcoal",
-      "layer": "terrain",
-      "x": 61,
-      "y": 83,
-      "width": 1,
-      "height": 1
-    },
-    {
-      "id": "expo-spaced-west-south-61-seal-85",
-      "sprite": "wall-charcoal",
-      "layer": "terrain",
-      "x": 61,
-      "y": 85,
-      "width": 1,
-      "height": 1
-    },
-    {
-      "id": "expo-spaced-west-south-61-seal-87",
-      "sprite": "wall-charcoal",
-      "layer": "terrain",
-      "x": 61,
-      "y": 87,
-      "width": 1,
-      "height": 1
-    },
-    {
-      "id": "expo-spaced-east-north-66-wall",
-      "sprite": "expo-wall-navy",
-      "layer": "props",
-      "x": 66,
-      "y": 65,
-      "width": 1,
-      "height": 8
-    },
-    {
-      "id": "expo-spaced-east-north-66-seal-67",
-      "sprite": "wall-charcoal",
-      "layer": "terrain",
-      "x": 66,
-      "y": 67,
-      "width": 1,
-      "height": 1
-    },
-    {
-      "id": "expo-spaced-east-north-66-seal-69",
-      "sprite": "wall-charcoal",
-      "layer": "terrain",
-      "x": 66,
-      "y": 69,
-      "width": 1,
-      "height": 1
-    },
-    {
-      "id": "expo-spaced-east-north-66-seal-71",
-      "sprite": "wall-charcoal",
-      "layer": "terrain",
-      "x": 66,
-      "y": 71,
-      "width": 1,
-      "height": 1
-    },
-    {
-      "id": "expo-spaced-east-north-73-wall",
-      "sprite": "expo-wall-navy",
-      "layer": "props",
-      "x": 73,
-      "y": 65,
-      "width": 2,
-      "height": 8
-    },
-    {
-      "id": "expo-spaced-east-north-73-seal-67",
-      "sprite": "wall-charcoal",
-      "layer": "terrain",
-      "x": 73,
-      "y": 67,
-      "width": 2,
-      "height": 1
-    },
-    {
-      "id": "expo-spaced-east-north-73-seal-69",
-      "sprite": "wall-charcoal",
-      "layer": "terrain",
-      "x": 73,
-      "y": 69,
-      "width": 2,
-      "height": 1
-    },
-    {
-      "id": "expo-spaced-east-north-73-seal-71",
-      "sprite": "wall-charcoal",
-      "layer": "terrain",
-      "x": 73,
-      "y": 71,
-      "width": 2,
-      "height": 1
-    },
-    {
-      "id": "expo-spaced-east-north-81-wall",
-      "sprite": "expo-wall-navy",
-      "layer": "props",
-      "x": 81,
-      "y": 65,
-      "width": 2,
-      "height": 8
-    },
-    {
-      "id": "expo-spaced-east-north-81-seal-67",
-      "sprite": "wall-charcoal",
-      "layer": "terrain",
-      "x": 81,
-      "y": 67,
-      "width": 2,
-      "height": 1
-    },
-    {
-      "id": "expo-spaced-east-north-81-seal-69",
-      "sprite": "wall-charcoal",
-      "layer": "terrain",
-      "x": 81,
-      "y": 69,
-      "width": 2,
-      "height": 1
-    },
-    {
-      "id": "expo-spaced-east-north-81-seal-71",
-      "sprite": "wall-charcoal",
-      "layer": "terrain",
-      "x": 81,
-      "y": 71,
-      "width": 2,
-      "height": 1
-    },
-    {
-      "id": "expo-spaced-east-north-89-wall",
-      "sprite": "expo-wall-navy",
-      "layer": "props",
-      "x": 89,
-      "y": 65,
-      "width": 1,
-      "height": 8
-    },
-    {
-      "id": "expo-spaced-east-north-89-seal-67",
-      "sprite": "wall-charcoal",
-      "layer": "terrain",
-      "x": 89,
-      "y": 67,
-      "width": 1,
-      "height": 1
-    },
-    {
-      "id": "expo-spaced-east-north-89-seal-69",
-      "sprite": "wall-charcoal",
-      "layer": "terrain",
-      "x": 89,
-      "y": 69,
-      "width": 1,
-      "height": 1
-    },
-    {
-      "id": "expo-spaced-east-north-89-seal-71",
-      "sprite": "wall-charcoal",
-      "layer": "terrain",
-      "x": 89,
-      "y": 71,
-      "width": 1,
-      "height": 1
-    },
-    {
-      "id": "expo-spaced-east-south-66-wall",
-      "sprite": "expo-wall-navy",
-      "layer": "props",
-      "x": 66,
-      "y": 81,
-      "width": 1,
-      "height": 8
-    },
-    {
-      "id": "expo-spaced-east-south-66-seal-81",
-      "sprite": "wall-charcoal",
-      "layer": "terrain",
-      "x": 66,
-      "y": 81,
-      "width": 1,
-      "height": 1
-    },
-    {
-      "id": "expo-spaced-east-south-66-seal-83",
-      "sprite": "wall-charcoal",
-      "layer": "terrain",
-      "x": 66,
-      "y": 83,
-      "width": 1,
-      "height": 1
-    },
-    {
-      "id": "expo-spaced-east-south-66-seal-85",
-      "sprite": "wall-charcoal",
-      "layer": "terrain",
-      "x": 66,
-      "y": 85,
-      "width": 1,
-      "height": 1
-    },
-    {
-      "id": "expo-spaced-east-south-66-seal-87",
-      "sprite": "wall-charcoal",
-      "layer": "terrain",
-      "x": 66,
-      "y": 87,
-      "width": 1,
-      "height": 1
-    },
-    {
-      "id": "expo-spaced-east-south-73-wall",
-      "sprite": "expo-wall-navy",
-      "layer": "props",
-      "x": 73,
-      "y": 81,
-      "width": 2,
-      "height": 8
-    },
-    {
-      "id": "expo-spaced-east-south-73-seal-81",
-      "sprite": "wall-charcoal",
-      "layer": "terrain",
-      "x": 73,
-      "y": 81,
-      "width": 2,
-      "height": 1
-    },
-    {
-      "id": "expo-spaced-east-south-73-seal-83",
-      "sprite": "wall-charcoal",
-      "layer": "terrain",
-      "x": 73,
-      "y": 83,
-      "width": 2,
-      "height": 1
-    },
-    {
-      "id": "expo-spaced-east-south-73-seal-85",
-      "sprite": "wall-charcoal",
-      "layer": "terrain",
-      "x": 73,
-      "y": 85,
-      "width": 2,
-      "height": 1
-    },
-    {
-      "id": "expo-spaced-east-south-73-seal-87",
-      "sprite": "wall-charcoal",
-      "layer": "terrain",
-      "x": 73,
-      "y": 87,
-      "width": 2,
-      "height": 1
-    },
-    {
-      "id": "expo-spaced-east-south-81-wall",
-      "sprite": "expo-wall-navy",
-      "layer": "props",
-      "x": 81,
-      "y": 81,
-      "width": 2,
-      "height": 8
-    },
-    {
-      "id": "expo-spaced-east-south-81-seal-81",
-      "sprite": "wall-charcoal",
-      "layer": "terrain",
-      "x": 81,
-      "y": 81,
-      "width": 2,
-      "height": 1
-    },
-    {
-      "id": "expo-spaced-east-south-81-seal-83",
-      "sprite": "wall-charcoal",
-      "layer": "terrain",
-      "x": 81,
-      "y": 83,
-      "width": 2,
-      "height": 1
-    },
-    {
-      "id": "expo-spaced-east-south-81-seal-85",
-      "sprite": "wall-charcoal",
-      "layer": "terrain",
-      "x": 81,
-      "y": 85,
-      "width": 2,
-      "height": 1
-    },
-    {
-      "id": "expo-spaced-east-south-81-seal-87",
-      "sprite": "wall-charcoal",
-      "layer": "terrain",
-      "x": 81,
-      "y": 87,
-      "width": 2,
-      "height": 1
-    },
-    {
-      "id": "expo-spaced-east-south-89-wall",
-      "sprite": "expo-wall-navy",
-      "layer": "props",
-      "x": 89,
-      "y": 81,
-      "width": 1,
-      "height": 8
-    },
-    {
-      "id": "expo-spaced-east-south-89-seal-81",
-      "sprite": "wall-charcoal",
-      "layer": "terrain",
-      "x": 89,
-      "y": 81,
-      "width": 1,
-      "height": 1
-    },
-    {
-      "id": "expo-spaced-east-south-89-seal-83",
-      "sprite": "wall-charcoal",
-      "layer": "terrain",
-      "x": 89,
-      "y": 83,
-      "width": 1,
-      "height": 1
-    },
-    {
-      "id": "expo-spaced-east-south-89-seal-85",
-      "sprite": "wall-charcoal",
-      "layer": "terrain",
-      "x": 89,
-      "y": 85,
-      "width": 1,
-      "height": 1
-    },
-    {
-      "id": "expo-spaced-east-south-89-seal-87",
-      "sprite": "wall-charcoal",
-      "layer": "terrain",
-      "x": 89,
-      "y": 87,
-      "width": 1,
-      "height": 1
-    },
-    {
       "id": "plaza-fountain",
       "sprite": "plaza-fountain",
       "x": 49,
@@ -13004,60 +11117,6 @@
       "width": 4,
       "height": 3,
       "layer": "props"
-    },
-    {
-      "id": "plaza-lamp-62-74",
-      "sprite": "grounded-plaza-lamp",
-      "layer": "props",
-      "x": 62,
-      "y": 72,
-      "width": 1,
-      "height": 3
-    },
-    {
-      "id": "plaza-lamp-62-79",
-      "sprite": "grounded-plaza-lamp",
-      "layer": "props",
-      "x": 62,
-      "y": 77,
-      "width": 1,
-      "height": 3
-    },
-    {
-      "id": "plaza-lamp-62-84",
-      "sprite": "grounded-plaza-lamp",
-      "layer": "props",
-      "x": 62,
-      "y": 82,
-      "width": 1,
-      "height": 3
-    },
-    {
-      "id": "plaza-lamp-65-74",
-      "sprite": "grounded-plaza-lamp",
-      "layer": "props",
-      "x": 65,
-      "y": 72,
-      "width": 1,
-      "height": 3
-    },
-    {
-      "id": "plaza-lamp-65-79",
-      "sprite": "grounded-plaza-lamp",
-      "layer": "props",
-      "x": 65,
-      "y": 77,
-      "width": 1,
-      "height": 3
-    },
-    {
-      "id": "plaza-lamp-65-84",
-      "sprite": "grounded-plaza-lamp",
-      "layer": "props",
-      "x": 65,
-      "y": 82,
-      "width": 1,
-      "height": 3
     },
     {
       "id": "aries-zodiac-threshold",
@@ -55945,24 +54004,6 @@
       "layer": "props"
     },
     {
-      "id": "community-corner-floor",
-      "sprite": "event-community-floor-label",
-      "x": 44,
-      "y": 76,
-      "width": 12,
-      "height": 2,
-      "layer": "props"
-    },
-    {
-      "id": "sponsor-expo-floor",
-      "sprite": "event-sponsor-floor-label",
-      "x": 72,
-      "y": 76,
-      "width": 12,
-      "height": 2,
-      "layer": "props"
-    },
-    {
       "id": "check-in-floor-label",
       "sprite": "event-check-in-floor-label",
       "x": 71,
@@ -66536,6 +64577,951 @@
       "width": 1,
       "height": 1,
       "layer": "props"
+    },
+    {
+      "id": "expo-hall-floor-west",
+      "sprite": "floor-charcoal",
+      "layer": "terrain",
+      "x": 38,
+      "y": 65,
+      "width": 52,
+      "height": 25
+    },
+    {
+      "id": "sponsor-tier-main-floor",
+      "sprite": "floor-wood-long",
+      "layer": "terrain",
+      "x": 50,
+      "y": 65,
+      "width": 28,
+      "height": 8
+    },
+    {
+      "id": "sponsor-tier-spark-floor",
+      "sprite": "floor-wood",
+      "layer": "terrain",
+      "x": 40,
+      "y": 76,
+      "width": 18,
+      "height": 4
+    },
+    {
+      "id": "sponsor-tier-mini-floor",
+      "sprite": "floor-wood",
+      "layer": "terrain",
+      "x": 74,
+      "y": 76,
+      "width": 14,
+      "height": 4
+    },
+    {
+      "id": "sponsor-tier-aws-floor",
+      "sprite": "floor-wood",
+      "layer": "terrain",
+      "x": 40,
+      "y": 83,
+      "width": 8,
+      "height": 4
+    },
+    {
+      "id": "sponsor-tier-bsides-floor",
+      "sprite": "floor-wood",
+      "layer": "terrain",
+      "x": 52,
+      "y": 83,
+      "width": 8,
+      "height": 4
+    },
+    {
+      "id": "sponsor-tier-osrfm-floor",
+      "sprite": "floor-wood",
+      "layer": "terrain",
+      "x": 68,
+      "y": 83,
+      "width": 8,
+      "height": 4
+    },
+    {
+      "id": "sponsor-tier-vibes-floor",
+      "sprite": "floor-wood",
+      "layer": "terrain",
+      "x": 80,
+      "y": 83,
+      "width": 8,
+      "height": 4
+    },
+    {
+      "id": "sponsor-tier-info-floor",
+      "sprite": "floor-blue",
+      "layer": "terrain",
+      "x": 83,
+      "y": 67,
+      "width": 6,
+      "height": 6
+    },
+    {
+      "id": "sponsor-tier-central-walk",
+      "sprite": "path-stone",
+      "layer": "terrain",
+      "x": 62,
+      "y": 72,
+      "width": 4,
+      "height": 18
+    },
+    {
+      "id": "sponsor-tier-cross-walk-north",
+      "sprite": "path-stone",
+      "layer": "terrain",
+      "x": 38,
+      "y": 74,
+      "width": 52,
+      "height": 2
+    },
+    {
+      "id": "sponsor-tier-cross-walk-south",
+      "sprite": "path-stone",
+      "layer": "terrain",
+      "x": 38,
+      "y": 82,
+      "width": 52,
+      "height": 1
+    },
+    {
+      "id": "sponsor-tier-main-west-wall",
+      "sprite": "expo-wall-navy",
+      "layer": "props",
+      "x": 49,
+      "y": 65,
+      "width": 1,
+      "height": 8
+    },
+    {
+      "id": "sponsor-tier-main-west-wall-seal",
+      "sprite": "wall-charcoal",
+      "layer": "terrain",
+      "x": 49,
+      "y": 65,
+      "width": 1,
+      "height": 8
+    },
+    {
+      "id": "sponsor-tier-main-east-wall",
+      "sprite": "expo-wall-navy",
+      "layer": "props",
+      "x": 78,
+      "y": 65,
+      "width": 1,
+      "height": 8
+    },
+    {
+      "id": "sponsor-tier-main-east-wall-seal",
+      "sprite": "wall-charcoal",
+      "layer": "terrain",
+      "x": 78,
+      "y": 65,
+      "width": 1,
+      "height": 8
+    },
+    {
+      "id": "sponsor-tier-main-rear-west",
+      "sprite": "wall-charcoal",
+      "layer": "props",
+      "x": 50,
+      "y": 73,
+      "width": 12,
+      "height": 1
+    },
+    {
+      "id": "sponsor-tier-main-rear-west-seal",
+      "sprite": "wall-charcoal",
+      "layer": "terrain",
+      "x": 50,
+      "y": 73,
+      "width": 12,
+      "height": 1
+    },
+    {
+      "id": "sponsor-tier-main-rear-east",
+      "sprite": "wall-charcoal",
+      "layer": "props",
+      "x": 66,
+      "y": 73,
+      "width": 12,
+      "height": 1
+    },
+    {
+      "id": "sponsor-tier-main-rear-east-seal",
+      "sprite": "wall-charcoal",
+      "layer": "terrain",
+      "x": 66,
+      "y": 73,
+      "width": 12,
+      "height": 1
+    },
+    {
+      "id": "sponsor-tier-main-desk",
+      "sprite": "check-in-desk-solid",
+      "layer": "props",
+      "x": 50,
+      "y": 68,
+      "width": 3,
+      "height": 2
+    },
+    {
+      "id": "sponsor-tier-main-laptop",
+      "sprite": "laptop",
+      "layer": "props",
+      "x": 51,
+      "y": 68,
+      "width": 1,
+      "height": 1
+    },
+    {
+      "id": "sponsor-tier-main-demo-desk",
+      "sprite": "check-in-desk-solid",
+      "layer": "props",
+      "x": 74,
+      "y": 68,
+      "width": 3,
+      "height": 2
+    },
+    {
+      "id": "sponsor-tier-main-demo-laptop",
+      "sprite": "laptop",
+      "layer": "props",
+      "x": 75,
+      "y": 68,
+      "width": 1,
+      "height": 1
+    },
+    {
+      "id": "sponsor-tier-main-sofa-west",
+      "sprite": "sofa-cream",
+      "layer": "props",
+      "x": 55,
+      "y": 67,
+      "width": 3,
+      "height": 2
+    },
+    {
+      "id": "sponsor-tier-main-sofa-east",
+      "sprite": "sofa-cream",
+      "layer": "props",
+      "x": 70,
+      "y": 67,
+      "width": 3,
+      "height": 2
+    },
+    {
+      "id": "sponsor-tier-main-fern-west",
+      "sprite": "plaza-potted-fern",
+      "layer": "props",
+      "x": 50,
+      "y": 65,
+      "width": 1,
+      "height": 2
+    },
+    {
+      "id": "sponsor-tier-main-fern-east",
+      "sprite": "plaza-potted-fern",
+      "layer": "props",
+      "x": 77,
+      "y": 65,
+      "width": 1,
+      "height": 2
+    },
+    {
+      "id": "sponsor-tier-lamp-west",
+      "sprite": "grounded-plaza-lamp",
+      "layer": "props",
+      "x": 46,
+      "y": 68,
+      "width": 1,
+      "height": 3
+    },
+    {
+      "id": "sponsor-tier-lamp-east",
+      "sprite": "grounded-plaza-lamp",
+      "layer": "props",
+      "x": 81,
+      "y": 68,
+      "width": 1,
+      "height": 3
+    },
+    {
+      "id": "sponsor-tier-spark-west",
+      "sprite": "expo-wall-navy",
+      "layer": "props",
+      "x": 39,
+      "y": 77,
+      "width": 1,
+      "height": 4
+    },
+    {
+      "id": "sponsor-tier-spark-west-seal",
+      "sprite": "wall-charcoal",
+      "layer": "terrain",
+      "x": 39,
+      "y": 77,
+      "width": 1,
+      "height": 4
+    },
+    {
+      "id": "sponsor-tier-spark-east",
+      "sprite": "expo-wall-navy",
+      "layer": "props",
+      "x": 58,
+      "y": 77,
+      "width": 1,
+      "height": 4
+    },
+    {
+      "id": "sponsor-tier-spark-east-seal",
+      "sprite": "wall-charcoal",
+      "layer": "terrain",
+      "x": 58,
+      "y": 77,
+      "width": 1,
+      "height": 4
+    },
+    {
+      "id": "sponsor-tier-spark-rear",
+      "sprite": "expo-wall-navy",
+      "layer": "props",
+      "x": 40,
+      "y": 80,
+      "width": 18,
+      "height": 2
+    },
+    {
+      "id": "sponsor-tier-spark-rear-seal",
+      "sprite": "wall-charcoal",
+      "layer": "terrain",
+      "x": 40,
+      "y": 80,
+      "width": 18,
+      "height": 2
+    },
+    {
+      "id": "sponsor-tier-spark-desk",
+      "sprite": "check-in-desk-solid",
+      "layer": "props",
+      "x": 41,
+      "y": 77,
+      "width": 3,
+      "height": 2
+    },
+    {
+      "id": "sponsor-tier-spark-laptop",
+      "sprite": "laptop",
+      "layer": "props",
+      "x": 42,
+      "y": 77,
+      "width": 1,
+      "height": 1
+    },
+    {
+      "id": "sponsor-tier-mini-west",
+      "sprite": "expo-wall-navy",
+      "layer": "props",
+      "x": 73,
+      "y": 77,
+      "width": 1,
+      "height": 4
+    },
+    {
+      "id": "sponsor-tier-mini-west-seal",
+      "sprite": "wall-charcoal",
+      "layer": "terrain",
+      "x": 73,
+      "y": 77,
+      "width": 1,
+      "height": 4
+    },
+    {
+      "id": "sponsor-tier-mini-east",
+      "sprite": "expo-wall-navy",
+      "layer": "props",
+      "x": 88,
+      "y": 77,
+      "width": 1,
+      "height": 4
+    },
+    {
+      "id": "sponsor-tier-mini-east-seal",
+      "sprite": "wall-charcoal",
+      "layer": "terrain",
+      "x": 88,
+      "y": 77,
+      "width": 1,
+      "height": 4
+    },
+    {
+      "id": "sponsor-tier-mini-rear",
+      "sprite": "expo-wall-navy",
+      "layer": "props",
+      "x": 74,
+      "y": 80,
+      "width": 14,
+      "height": 2
+    },
+    {
+      "id": "sponsor-tier-mini-rear-seal",
+      "sprite": "wall-charcoal",
+      "layer": "terrain",
+      "x": 74,
+      "y": 80,
+      "width": 14,
+      "height": 2
+    },
+    {
+      "id": "sponsor-tier-mini-desk",
+      "sprite": "check-in-desk-solid",
+      "layer": "props",
+      "x": 75,
+      "y": 77,
+      "width": 3,
+      "height": 2
+    },
+    {
+      "id": "sponsor-tier-mini-laptop",
+      "sprite": "laptop",
+      "layer": "props",
+      "x": 76,
+      "y": 77,
+      "width": 1,
+      "height": 1
+    },
+    {
+      "id": "sponsor-tier-aws-west",
+      "sprite": "expo-wall-navy",
+      "layer": "props",
+      "x": 39,
+      "y": 83,
+      "width": 1,
+      "height": 6
+    },
+    {
+      "id": "sponsor-tier-aws-west-seal",
+      "sprite": "wall-charcoal",
+      "layer": "terrain",
+      "x": 39,
+      "y": 83,
+      "width": 1,
+      "height": 6
+    },
+    {
+      "id": "sponsor-tier-aws-east",
+      "sprite": "expo-wall-navy",
+      "layer": "props",
+      "x": 48,
+      "y": 83,
+      "width": 1,
+      "height": 6
+    },
+    {
+      "id": "sponsor-tier-aws-east-seal",
+      "sprite": "wall-charcoal",
+      "layer": "terrain",
+      "x": 48,
+      "y": 83,
+      "width": 1,
+      "height": 6
+    },
+    {
+      "id": "sponsor-tier-aws-rear",
+      "sprite": "expo-wall-navy",
+      "layer": "props",
+      "x": 40,
+      "y": 87,
+      "width": 8,
+      "height": 2
+    },
+    {
+      "id": "sponsor-tier-aws-rear-seal",
+      "sprite": "wall-charcoal",
+      "layer": "terrain",
+      "x": 40,
+      "y": 87,
+      "width": 8,
+      "height": 2
+    },
+    {
+      "id": "sponsor-tier-aws-desk",
+      "sprite": "check-in-desk-solid",
+      "layer": "props",
+      "x": 40,
+      "y": 84,
+      "width": 3,
+      "height": 2
+    },
+    {
+      "id": "sponsor-tier-aws-laptop",
+      "sprite": "laptop",
+      "layer": "props",
+      "x": 41,
+      "y": 84,
+      "width": 1,
+      "height": 1
+    },
+    {
+      "id": "sponsor-tier-bsides-west",
+      "sprite": "expo-wall-navy",
+      "layer": "props",
+      "x": 51,
+      "y": 83,
+      "width": 1,
+      "height": 6
+    },
+    {
+      "id": "sponsor-tier-bsides-west-seal",
+      "sprite": "wall-charcoal",
+      "layer": "terrain",
+      "x": 51,
+      "y": 83,
+      "width": 1,
+      "height": 6
+    },
+    {
+      "id": "sponsor-tier-bsides-east",
+      "sprite": "expo-wall-navy",
+      "layer": "props",
+      "x": 60,
+      "y": 83,
+      "width": 1,
+      "height": 6
+    },
+    {
+      "id": "sponsor-tier-bsides-east-seal",
+      "sprite": "wall-charcoal",
+      "layer": "terrain",
+      "x": 60,
+      "y": 83,
+      "width": 1,
+      "height": 6
+    },
+    {
+      "id": "sponsor-tier-bsides-rear",
+      "sprite": "expo-wall-navy",
+      "layer": "props",
+      "x": 52,
+      "y": 87,
+      "width": 8,
+      "height": 2
+    },
+    {
+      "id": "sponsor-tier-bsides-rear-seal",
+      "sprite": "wall-charcoal",
+      "layer": "terrain",
+      "x": 52,
+      "y": 87,
+      "width": 8,
+      "height": 2
+    },
+    {
+      "id": "sponsor-tier-bsides-desk",
+      "sprite": "check-in-desk-solid",
+      "layer": "props",
+      "x": 52,
+      "y": 84,
+      "width": 3,
+      "height": 2
+    },
+    {
+      "id": "sponsor-tier-bsides-laptop",
+      "sprite": "laptop",
+      "layer": "props",
+      "x": 53,
+      "y": 84,
+      "width": 1,
+      "height": 1
+    },
+    {
+      "id": "sponsor-tier-osrfm-west",
+      "sprite": "expo-wall-navy",
+      "layer": "props",
+      "x": 67,
+      "y": 83,
+      "width": 1,
+      "height": 6
+    },
+    {
+      "id": "sponsor-tier-osrfm-west-seal",
+      "sprite": "wall-charcoal",
+      "layer": "terrain",
+      "x": 67,
+      "y": 83,
+      "width": 1,
+      "height": 6
+    },
+    {
+      "id": "sponsor-tier-osrfm-east",
+      "sprite": "expo-wall-navy",
+      "layer": "props",
+      "x": 76,
+      "y": 83,
+      "width": 1,
+      "height": 6
+    },
+    {
+      "id": "sponsor-tier-osrfm-east-seal",
+      "sprite": "wall-charcoal",
+      "layer": "terrain",
+      "x": 76,
+      "y": 83,
+      "width": 1,
+      "height": 6
+    },
+    {
+      "id": "sponsor-tier-osrfm-rear",
+      "sprite": "expo-wall-navy",
+      "layer": "props",
+      "x": 68,
+      "y": 87,
+      "width": 8,
+      "height": 2
+    },
+    {
+      "id": "sponsor-tier-osrfm-rear-seal",
+      "sprite": "wall-charcoal",
+      "layer": "terrain",
+      "x": 68,
+      "y": 87,
+      "width": 8,
+      "height": 2
+    },
+    {
+      "id": "sponsor-tier-osrfm-desk",
+      "sprite": "check-in-desk-solid",
+      "layer": "props",
+      "x": 68,
+      "y": 84,
+      "width": 3,
+      "height": 2
+    },
+    {
+      "id": "sponsor-tier-osrfm-laptop",
+      "sprite": "laptop",
+      "layer": "props",
+      "x": 69,
+      "y": 84,
+      "width": 1,
+      "height": 1
+    },
+    {
+      "id": "sponsor-tier-vibes-west",
+      "sprite": "expo-wall-navy",
+      "layer": "props",
+      "x": 79,
+      "y": 83,
+      "width": 1,
+      "height": 6
+    },
+    {
+      "id": "sponsor-tier-vibes-west-seal",
+      "sprite": "wall-charcoal",
+      "layer": "terrain",
+      "x": 79,
+      "y": 83,
+      "width": 1,
+      "height": 6
+    },
+    {
+      "id": "sponsor-tier-vibes-east",
+      "sprite": "expo-wall-navy",
+      "layer": "props",
+      "x": 88,
+      "y": 83,
+      "width": 1,
+      "height": 6
+    },
+    {
+      "id": "sponsor-tier-vibes-east-seal",
+      "sprite": "wall-charcoal",
+      "layer": "terrain",
+      "x": 88,
+      "y": 83,
+      "width": 1,
+      "height": 6
+    },
+    {
+      "id": "sponsor-tier-vibes-rear",
+      "sprite": "expo-wall-navy",
+      "layer": "props",
+      "x": 80,
+      "y": 87,
+      "width": 8,
+      "height": 2
+    },
+    {
+      "id": "sponsor-tier-vibes-rear-seal",
+      "sprite": "wall-charcoal",
+      "layer": "terrain",
+      "x": 80,
+      "y": 87,
+      "width": 8,
+      "height": 2
+    },
+    {
+      "id": "sponsor-tier-vibes-desk",
+      "sprite": "check-in-desk-solid",
+      "layer": "props",
+      "x": 80,
+      "y": 84,
+      "width": 3,
+      "height": 2
+    },
+    {
+      "id": "sponsor-tier-vibes-laptop",
+      "sprite": "laptop",
+      "layer": "props",
+      "x": 81,
+      "y": 84,
+      "width": 1,
+      "height": 1
+    },
+    {
+      "id": "expo-n6-nameplate-fascia",
+      "sprite": "expo-fascia",
+      "layer": "props",
+      "x": 84,
+      "y": 65,
+      "width": 4,
+      "height": 1
+    },
+    {
+      "id": "expo-n6-nameplate-fascia-post-0",
+      "sprite": "expo-fascia-post",
+      "layer": "props",
+      "x": 84,
+      "y": 66,
+      "width": 1,
+      "height": 1
+    },
+    {
+      "id": "expo-n6-nameplate-fascia-post-1",
+      "sprite": "expo-fascia-post",
+      "layer": "props",
+      "x": 85,
+      "y": 66,
+      "width": 1,
+      "height": 1
+    },
+    {
+      "id": "expo-n6-nameplate-fascia-post-2",
+      "sprite": "expo-fascia-post",
+      "layer": "props",
+      "x": 86,
+      "y": 66,
+      "width": 1,
+      "height": 1
+    },
+    {
+      "id": "expo-n6-nameplate-fascia-post-3",
+      "sprite": "expo-fascia-post",
+      "layer": "props",
+      "x": 87,
+      "y": 66,
+      "width": 1,
+      "height": 1
+    },
+    {
+      "id": "expo-s2-nameplate-fascia",
+      "sprite": "expo-fascia",
+      "layer": "props",
+      "x": 53,
+      "y": 87,
+      "width": 6,
+      "height": 1
+    },
+    {
+      "id": "expo-s2-nameplate-fascia-post-0",
+      "sprite": "expo-fascia-post",
+      "layer": "props",
+      "x": 53,
+      "y": 88,
+      "width": 1,
+      "height": 1
+    },
+    {
+      "id": "expo-s2-nameplate-fascia-post-1",
+      "sprite": "expo-fascia-post",
+      "layer": "props",
+      "x": 54,
+      "y": 88,
+      "width": 1,
+      "height": 1
+    },
+    {
+      "id": "expo-s2-nameplate-fascia-post-2",
+      "sprite": "expo-fascia-post",
+      "layer": "props",
+      "x": 55,
+      "y": 88,
+      "width": 1,
+      "height": 1
+    },
+    {
+      "id": "expo-s2-nameplate-fascia-post-3",
+      "sprite": "expo-fascia-post",
+      "layer": "props",
+      "x": 56,
+      "y": 88,
+      "width": 1,
+      "height": 1
+    },
+    {
+      "id": "expo-s2-nameplate-fascia-post-4",
+      "sprite": "expo-fascia-post",
+      "layer": "props",
+      "x": 57,
+      "y": 88,
+      "width": 1,
+      "height": 1
+    },
+    {
+      "id": "expo-s2-nameplate-fascia-post-5",
+      "sprite": "expo-fascia-post",
+      "layer": "props",
+      "x": 58,
+      "y": 88,
+      "width": 1,
+      "height": 1
+    },
+    {
+      "id": "expo-s3-nameplate-fascia",
+      "sprite": "expo-fascia",
+      "layer": "props",
+      "x": 82,
+      "y": 87,
+      "width": 4,
+      "height": 1
+    },
+    {
+      "id": "expo-s3-nameplate-fascia-post-0",
+      "sprite": "expo-fascia-post",
+      "layer": "props",
+      "x": 82,
+      "y": 88,
+      "width": 1,
+      "height": 1
+    },
+    {
+      "id": "expo-s3-nameplate-fascia-post-1",
+      "sprite": "expo-fascia-post",
+      "layer": "props",
+      "x": 83,
+      "y": 88,
+      "width": 1,
+      "height": 1
+    },
+    {
+      "id": "expo-s3-nameplate-fascia-post-2",
+      "sprite": "expo-fascia-post",
+      "layer": "props",
+      "x": 84,
+      "y": 88,
+      "width": 1,
+      "height": 1
+    },
+    {
+      "id": "expo-s3-nameplate-fascia-post-3",
+      "sprite": "expo-fascia-post",
+      "layer": "props",
+      "x": 85,
+      "y": 88,
+      "width": 1,
+      "height": 1
+    },
+    {
+      "id": "sponsor-tier-info-west",
+      "sprite": "expo-wall-navy",
+      "layer": "props",
+      "x": 82,
+      "y": 65,
+      "width": 1,
+      "height": 8
+    },
+    {
+      "id": "sponsor-tier-info-west-seal",
+      "sprite": "wall-charcoal",
+      "layer": "terrain",
+      "x": 82,
+      "y": 65,
+      "width": 1,
+      "height": 8
+    },
+    {
+      "id": "sponsor-tier-info-east",
+      "sprite": "expo-wall-navy",
+      "layer": "props",
+      "x": 89,
+      "y": 65,
+      "width": 1,
+      "height": 8
+    },
+    {
+      "id": "sponsor-tier-info-east-seal",
+      "sprite": "wall-charcoal",
+      "layer": "terrain",
+      "x": 89,
+      "y": 65,
+      "width": 1,
+      "height": 8
+    },
+    {
+      "id": "sponsor-tier-info-back-west",
+      "sprite": "expo-wall-navy",
+      "layer": "props",
+      "x": 83,
+      "y": 65,
+      "width": 1,
+      "height": 2
+    },
+    {
+      "id": "sponsor-tier-info-back-west-seal",
+      "sprite": "wall-charcoal",
+      "layer": "terrain",
+      "x": 83,
+      "y": 65,
+      "width": 1,
+      "height": 2
+    },
+    {
+      "id": "sponsor-tier-info-back-east",
+      "sprite": "expo-wall-navy",
+      "layer": "props",
+      "x": 88,
+      "y": 65,
+      "width": 1,
+      "height": 2
+    },
+    {
+      "id": "sponsor-tier-info-back-east-seal",
+      "sprite": "wall-charcoal",
+      "layer": "terrain",
+      "x": 88,
+      "y": 65,
+      "width": 1,
+      "height": 2
+    },
+    {
+      "id": "sponsor-tier-info-desk",
+      "sprite": "check-in-desk-solid",
+      "layer": "props",
+      "x": 84,
+      "y": 70,
+      "width": 3,
+      "height": 2
+    },
+    {
+      "id": "sponsor-tier-info-laptop",
+      "sprite": "laptop",
+      "layer": "props",
+      "x": 85,
+      "y": 70,
+      "width": 1,
+      "height": 1
     }
   ],
   "entries": [
@@ -67084,7 +66070,7 @@
     {
       "name": "expo-s2-nameplate",
       "text": "BSIDES MYANMAR",
-      "x": 47,
+      "x": 53,
       "y": 87,
       "width": 6,
       "height": 1,
@@ -67096,12 +66082,144 @@
     {
       "name": "expo-s3-nameplate",
       "text": "VIBE CODE TOURS",
-      "x": 56,
+      "x": 82,
       "y": 87,
       "width": 4,
       "height": 1,
       "fontSize": 12,
       "color": "#f1d9a0",
+      "align": "center",
+      "padding": 1
+    },
+    {
+      "name": "sponsor-tier-main-tier",
+      "text": "MAIN SPONSOR",
+      "x": 62,
+      "y": 65,
+      "width": 8,
+      "height": 1,
+      "fontSize": 15,
+      "color": "#f1d9a0",
+      "align": "center",
+      "padding": 1
+    },
+    {
+      "name": "sponsor-tier-main-name",
+      "text": "DIGISEC LAB",
+      "x": 61,
+      "y": 66,
+      "width": 10,
+      "height": 1,
+      "fontSize": 28,
+      "color": "#f1d9a0",
+      "align": "center",
+      "padding": 1
+    },
+    {
+      "name": "sponsor-tier-spark-tier",
+      "text": "SPARK SPONSOR",
+      "x": 47,
+      "y": 76,
+      "width": 10,
+      "height": 1,
+      "fontSize": 13,
+      "color": "#f1d9a0",
+      "align": "center",
+      "padding": 1
+    },
+    {
+      "name": "sponsor-tier-spark-name",
+      "text": "NEWNESS",
+      "x": 47,
+      "y": 77,
+      "width": 10,
+      "height": 1,
+      "fontSize": 23,
+      "color": "#f1d9a0",
+      "align": "center",
+      "padding": 1
+    },
+    {
+      "name": "sponsor-tier-mini-tier",
+      "text": "MINI SPONSOR",
+      "x": 80,
+      "y": 76,
+      "width": 8,
+      "height": 1,
+      "fontSize": 12,
+      "color": "#f1d9a0",
+      "align": "center",
+      "padding": 1
+    },
+    {
+      "name": "sponsor-tier-mini-name",
+      "text": "LOKAL ZAYTANN",
+      "x": 79,
+      "y": 77,
+      "width": 9,
+      "height": 1,
+      "fontSize": 17,
+      "color": "#f1d9a0",
+      "align": "center",
+      "padding": 1
+    },
+    {
+      "name": "sponsor-tier-communities",
+      "text": "COMMUNITY CORNER",
+      "x": 61,
+      "y": 80,
+      "width": 12,
+      "height": 1,
+      "fontSize": 17,
+      "color": "#cdebf2",
+      "align": "center",
+      "padding": 1
+    },
+    {
+      "name": "sponsor-tier-aws-name",
+      "text": "AWS USER GROUP MYANMAR",
+      "x": 40,
+      "y": 83,
+      "width": 8,
+      "height": 1,
+      "fontSize": 12,
+      "color": "#f1d9a0",
+      "align": "center",
+      "padding": 1
+    },
+    {
+      "name": "sponsor-tier-osrfm-name",
+      "text": "OSRFM",
+      "x": 71,
+      "y": 83,
+      "width": 5,
+      "height": 1,
+      "fontSize": 18,
+      "color": "#f1d9a0",
+      "align": "center",
+      "padding": 1
+    },
+    {
+      "name": "sponsor-tier-osrfm-full",
+      "text": "OPEN SOURCE ROBOTICS\nFOUNDATION FOR MYANMAR",
+      "x": 71,
+      "y": 84,
+      "width": 5,
+      "height": 2,
+      "fontSize": 11,
+      "color": "#cdebf2",
+      "align": "center",
+      "padding": 1
+    },
+    {
+      "name": "sponsor-tier-vibes-name",
+      "text": "VIBES CODE",
+      "x": 82,
+      "y": 83,
+      "width": 6,
+      "height": 1,
+      "fontSize": 13,
+      "color": "#cdebf2",
       "align": "center",
       "padding": 1
     }
@@ -67119,8 +66237,8 @@
     {
       "name": "Expo / BSides Myanmar",
       "image": "assets/sponsors/partner-bsides-mm.png",
-      "x": 48,
-      "y": 85,
+      "x": 55,
+      "y": 84,
       "width": 4,
       "height": 2,
       "standing": false
@@ -67164,10 +66282,19 @@
     {
       "name": "Expo / Vibe Code Tours",
       "image": "assets/sponsors/vibecode-tours.png",
-      "x": 56,
-      "y": 85,
+      "x": 83,
+      "y": 84,
       "width": 4,
       "height": 2
+    },
+    {
+      "name": "Expo / AWS User Group Myanmar",
+      "image": "assets/sponsors/partner-aws-ug-mm.png",
+      "x": 43,
+      "y": 84,
+      "width": 4,
+      "height": 2,
+      "standing": false
     }
   ],
   "animatedOverlays": [
@@ -264464,51 +263591,6 @@
       ]
     },
     {
-      "face": "expo-n1-nameplate-fascia",
-      "supports": [
-        "expo-n1-nameplate-fascia-post-0",
-        "expo-n1-nameplate-fascia-post-1",
-        "expo-n1-nameplate-fascia-post-2",
-        "expo-n1-nameplate-fascia-post-3"
-      ]
-    },
-    {
-      "face": "expo-n2-nameplate-fascia",
-      "supports": [
-        "expo-n2-nameplate-fascia-post-0",
-        "expo-n2-nameplate-fascia-post-1",
-        "expo-n2-nameplate-fascia-post-2",
-        "expo-n2-nameplate-fascia-post-3"
-      ]
-    },
-    {
-      "face": "expo-n3-nameplate-fascia",
-      "supports": [
-        "expo-n3-nameplate-fascia-post-0",
-        "expo-n3-nameplate-fascia-post-1",
-        "expo-n3-nameplate-fascia-post-2",
-        "expo-n3-nameplate-fascia-post-3"
-      ]
-    },
-    {
-      "face": "expo-n4-nameplate-fascia",
-      "supports": [
-        "expo-n4-nameplate-fascia-post-0",
-        "expo-n4-nameplate-fascia-post-1",
-        "expo-n4-nameplate-fascia-post-2",
-        "expo-n4-nameplate-fascia-post-3"
-      ]
-    },
-    {
-      "face": "expo-n5-nameplate-fascia",
-      "supports": [
-        "expo-n5-nameplate-fascia-post-0",
-        "expo-n5-nameplate-fascia-post-1",
-        "expo-n5-nameplate-fascia-post-2",
-        "expo-n5-nameplate-fascia-post-3"
-      ]
-    },
-    {
       "face": "expo-n6-nameplate-fascia",
       "supports": [
         "expo-n6-nameplate-fascia-post-0",
@@ -264517,17 +263599,6 @@
         "expo-n6-nameplate-fascia-post-3"
       ],
       "text": "expo-n6-nameplate"
-    },
-    {
-      "face": "expo-s1-nameplate-fascia",
-      "supports": [
-        "expo-s1-nameplate-fascia-post-0",
-        "expo-s1-nameplate-fascia-post-1",
-        "expo-s1-nameplate-fascia-post-2",
-        "expo-s1-nameplate-fascia-post-3",
-        "expo-s1-nameplate-fascia-post-4",
-        "expo-s1-nameplate-fascia-post-5"
-      ]
     },
     {
       "face": "expo-s2-nameplate-fascia",
@@ -264550,35 +263621,6 @@
         "expo-s3-nameplate-fascia-post-3"
       ],
       "text": "expo-s3-nameplate"
-    },
-    {
-      "face": "expo-s4-nameplate-fascia",
-      "supports": [
-        "expo-s4-nameplate-fascia-post-0",
-        "expo-s4-nameplate-fascia-post-1",
-        "expo-s4-nameplate-fascia-post-2",
-        "expo-s4-nameplate-fascia-post-3"
-      ]
-    },
-    {
-      "face": "expo-s5-nameplate-fascia",
-      "supports": [
-        "expo-s5-nameplate-fascia-post-0",
-        "expo-s5-nameplate-fascia-post-1",
-        "expo-s5-nameplate-fascia-post-2",
-        "expo-s5-nameplate-fascia-post-3"
-      ]
-    },
-    {
-      "face": "expo-s6-nameplate-fascia",
-      "supports": [
-        "expo-s6-nameplate-fascia-post-0",
-        "expo-s6-nameplate-fascia-post-1",
-        "expo-s6-nameplate-fascia-post-2",
-        "expo-s6-nameplate-fascia-post-3",
-        "expo-s6-nameplate-fascia-post-4",
-        "expo-s6-nameplate-fascia-post-5"
-      ]
     }
   ]
 }
