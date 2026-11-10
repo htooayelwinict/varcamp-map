@@ -1316,7 +1316,7 @@
     "assets/tilesets/zodiac-exteriors/ATTRIBUTION.md": "b142b2ea696e340dcdba6b15a4df9f81dba0de05b73df7b14c7d8eb755af9892",
     "assets/tilesets/zodiac-exteriors/LICENSE.txt": "7dd9977e106869d0e9f53a4db99306bf67bc4f3c33811db8da033a8ed272bd53",
     "buildmap.vite.config.ts": "0724661a5ef44659b7d25fdf2b20780942fd51306a3f4296ebf2ec01dfdf0fbf",
-    "docs/current-release-facts.md": "98639074ac3f92de93eecd53a5eb83d98fb3b4285947720d291269a2106e899d",
+    "docs/current-release-facts.md": "88acf00d4166475929c32cb74ee1f29f9e7d6f8b29dd2a0c00f2027afe24c763",
     "docs/dependencies.md": "ba0a896ab5d1f1b53ba728db7ea51da061eee139fa38af413892a2ef3072597e",
     "docs/entity-editor-catalogs.md": "ab575b70290ee67a5c91022396c40b2bcbf64c9c326068709ed0541054212e2c",
     "docs/operating/arrival-sponsor-space.md": "e1e6e459de2a9b9a52270c06c4e497e36e91ad8c4a08987f27c0289a4e013db6",
@@ -1561,7 +1561,7 @@
     "publication/revisions/2026-11-09-event-identity.json": "e8879ed51f0d1a36a04bf894a041831d2fd5f3f552220eb650ecaf38a90c16cf",
     "publication/revisions/2026-11-10-arrival-sponsor-space.json": "7b53ee0b4dd9e307b402bf52860cb0dd70efce5130d3f56248681a205076e8ea",
     "publication/revisions/README.md": "3e3e2de7ffb3cee827ac613837fda846aca14fbfda4528175905662f78893e0d",
-    "publication/verify-source.mjs": "f4ed89934833088cb32d96f585dcc64ddde8ee06c3f934d994426bf0e9c85eb5",
+    "publication/verify-source.mjs": "3bdb547e55992023c078e44e90d34c63ebc8532a17fc96356603ae47623c4350",
     "src/adventure/content.ts": "3f6070d72710010ac4843dddd9a39d0f53eb032bc60653713e325cf9e7a67e6b",
     "src/adventure/index.html": "5858958f6212ae4f9ee9f2261327ed530a31d7c1d0e87b826784d3cb9e9db329",
     "src/adventure/interactions.ts": "b54c6a0b7a16ccd92433dd047d269e92b17b84cfa4ad89484d7abefddcb201f9",
@@ -2165,13 +2165,16 @@
     "publication/revisions/2026-11-10-sponsor-tiers.json": "22d07316d3bc04e6efe0208ee91840b93475ead975f5f319c18b6812fb1bd872",
     "tests/fixtures/sponsor-tiers/before.json.gz": "aace51d98ba5d1470220d7b265865145341bd9cbd46f999a1d6d8c769ff12037",
     "tests/fixtures/sponsor-tiers/provenance.json": "8dd587a8855d1f5c266aabdd0562862c65f652abf5bdbde3bc1759dc927ad8f0",
-    "tests/fixtures/sponsor-tiers/transitions.json": "0b81ea5750dafc2bd04c120e53096146b84d1fd0b22e4ff12436f6e9828a2360",
+    "tests/fixtures/sponsor-tiers/transitions.json": "c8c2ed0588009547110e8903fa73c6e31b1ed8e85ab7fbee7ec0ecf5dd6efe9b",
     "tests/helpers/sponsor-tier-history.ts": "60162cb24a9cbea7f3b90d75cfa76929d2a667d523fb126868920d37287507b7",
-    "tests/helpers/sponsor-tier-successor.ts": "97986a1351f745e743772ed70da700b0054f0c8971f806adb144f047ea04d8c4",
+    "tests/helpers/sponsor-tier-successor.ts": "d3b6407656ab06a634797420918837c752cb47f50164a6182fb368080cb88a44",
     "tests/sponsor-tier-provenance.test.ts": "1f48cf4ca9e68ab2c9f02fc50bc57e678d807beb5319dcddf8f13029dd298be7",
     "tests/sponsor-tiers.test.ts": "4b1d1911f062209d31d88020409d545625a6cc01f51d8f1338709672d5a7e75a",
     "tools/maps/sponsor-tier-context.ts": "e64ca08b570b2ac1abafc35a8d47efa1d25fe2a21be839dc7841fb109b70013b",
     "tools/maps/sponsor-tiers.ts": "8b3e577f9ea2e928ddb5efc0b6faa187e2ff4c92d90cf79a4a362016a9a4daad",
-    "world/sponsor-tiers.json": "3e0b2b3b690c2f41138f16319702075e7cd5ac228f70bf87b15c3d85f1b03555"
+    "world/sponsor-tiers.json": "11277fae62c68cfcaf7c09b1dce9085b97ee76e66fa0c97733fa9b8071a93125",
+    "docs/superpowers/plans/2026-11-10-sponsor-court.md": "abcdd5c214fc264060501aa27d433cf0047697e3e9978225b03ec7389a8dd12e",
+    "publication/revisions/2026-11-10-sponsor-court.json": "27b25b755d2ed3af5ff09bb9bee99e00ae989bf2f366cd07748975c4ca67e40d",
+    "tests/sponsor-court.test.ts": "831327b029281cd1d5611a421b031423a3639639bb0dd5b18a2444d6d084e1dc"
   }
 }

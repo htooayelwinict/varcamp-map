@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "revisions": [
+    {
+      "path": "maps/overworld.tmj",
+      "fromSha256": "fccb6c0149efe380b8026fead4f8b1cb0f1533612970067d4deb2c8693c27e58",
+      "toSha256": "8a782e9fdd9f971352cae8050c141ab55c98d5cbb333e459441b0e78bc409b7f",
+      "reason": "Refine the approved sponsor court with inward-facing entrances, framed glass walls and existing furniture and planting; preserve tier sizes, map controls and the exterior."
+    },
+    {
+      "path": "maps/preview/overworld.tmj",
+      "fromSha256": "6277258bb23008d84e819ed24aac9723d077358a1de4918bbae44e159d77c624",
+      "toSha256": "bbdd60204c964d4912f97b6e668f6f9fe19aa1b7abb5500b9e21109138f29699",
+      "reason": "Refine the approved sponsor court with inward-facing entrances, framed glass walls and existing furniture and planting; preserve tier sizes, map controls and the exterior."
+    },
+    {
+      "path": "world/layouts/overworld.json",
+      "fromSha256": "3aa437c333b08d0f87fdf946eca34770d1527cd7569b1dbc16eb08f4b4b106cc",
+      "toSha256": "c2acf1a1a6228fb5983934384d69416d9d5b8170ad677200af7b19d20cd51a7f",
+      "reason": "Refine the approved sponsor court with inward-facing entrances, framed glass walls and existing furniture and planting; preserve tier sizes, map controls and the exterior."
+    }
+  ]
+}
