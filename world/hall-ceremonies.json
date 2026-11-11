@@ -1,0 +1,139 @@
+{
+  "version": 1,
+  "maps": {
+    "solar-hall": {
+      "beforeSha256": "92e51d05b8e83250e6eb4cc52613b1eb856cd6066e77158dbf43c02ec3bdbcfb",
+      "afterSha256": "0b752aabad11aa47cbd16afb5da34d7f6f61d744b3084682b1829041f736d47d",
+      "removedImages": [
+        {
+          "index": 1,
+          "value": {
+            "name": "Solar / BSides Myanmar",
+            "image": "assets/sponsors/partner-bsides-mm.png",
+            "x": 25,
+            "y": 3,
+            "width": 4,
+            "height": 2
+          }
+        },
+        {
+          "index": 2,
+          "value": {
+            "name": "Solar / Vibe Code Tours",
+            "image": "assets/sponsors/vibecode-tours.png",
+            "x": 35,
+            "y": 3,
+            "width": 4,
+            "height": 2
+          }
+        }
+      ],
+      "removedHeading": {
+        "index": 8,
+        "value": {
+          "name": "solar-hall-style-partners",
+          "text": "COMMUNITY PARTNERS",
+          "x": 30,
+          "y": 2,
+          "width": 12,
+          "height": 1,
+          "fontSize": 12,
+          "color": "#f1d9a0",
+          "align": "left",
+          "padding": 0
+        }
+      },
+      "stage": {
+        "before": {
+          "name": "stage-label",
+          "text": "PRESENTATION STAGE",
+          "x": 25,
+          "y": 15,
+          "width": 14,
+          "height": 1,
+          "fontSize": 15,
+          "color": "#f1d9a0",
+          "align": "left"
+        },
+        "after": {
+          "name": "stage-label",
+          "text": "OPENING CEREMONY",
+          "x": 25,
+          "y": 15,
+          "width": 14,
+          "height": 1,
+          "fontSize": 15,
+          "color": "#f1d9a0",
+          "align": "left"
+        }
+      }
+    },
+    "lunar-hall": {
+      "beforeSha256": "9099634818fb0ba2775e2a8b21af93ecd3f28ccbe34e0aff7fac54e8d51c3203",
+      "afterSha256": "68995326fe4ca6c1f74e3e03243c0bde1830661db9255fd02c5bd8ac83b4ca36",
+      "removedImages": [
+        {
+          "index": 1,
+          "value": {
+            "name": "Lunar / BSides Myanmar",
+            "image": "assets/sponsors/partner-bsides-mm.png",
+            "x": 25,
+            "y": 3,
+            "width": 4,
+            "height": 2
+          }
+        },
+        {
+          "index": 2,
+          "value": {
+            "name": "Lunar / Vibe Code Tours",
+            "image": "assets/sponsors/vibecode-tours.png",
+            "x": 35,
+            "y": 3,
+            "width": 4,
+            "height": 2
+          }
+        }
+      ],
+      "removedHeading": {
+        "index": 8,
+        "value": {
+          "name": "lunar-hall-style-partners",
+          "text": "COMMUNITY PARTNERS",
+          "x": 30,
+          "y": 2,
+          "width": 12,
+          "height": 1,
+          "fontSize": 12,
+          "color": "#f1d9a0",
+          "align": "left",
+          "padding": 0
+        }
+      },
+      "stage": {
+        "before": {
+          "name": "stage-label",
+          "text": "PRESENTATION STAGE",
+          "x": 25,
+          "y": 15,
+          "width": 14,
+          "height": 1,
+          "fontSize": 15,
+          "color": "#f1d9a0",
+          "align": "left"
+        },
+        "after": {
+          "name": "stage-label",
+          "text": "CLOSING CEREMONY",
+          "x": 25,
+          "y": 15,
+          "width": 14,
+          "height": 1,
+          "fontSize": 15,
+          "color": "#f1d9a0",
+          "align": "left"
+        }
+      }
+    }
+  }
+}

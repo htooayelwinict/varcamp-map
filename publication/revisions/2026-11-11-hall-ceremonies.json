@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "revisions": [
+    {
+      "path": "maps/lunar-hall.tmj",
+      "fromSha256": "b96e2f0c81660c17c70bdf0ca6ee4ab983738f4c5db7e58d4afb3e8ae2ba5a9e",
+      "toSha256": "135168ab7ea01355b4e6f25002aca07d4bb423ee41ad713c8f3c2d0c9e6f9b5a",
+      "reason": "Solar opening ceremony and Lunar closing ceremony captions; remove community images/headings, preserve physical rooms, VarCamp branding and saved controls."
+    },
+    {
+      "path": "maps/preview/lunar-hall.tmj",
+      "fromSha256": "8ca5fe4568d1872ad8b371b0e750d1d7bb974cb7f030db1930627d0f3d3485b8",
+      "toSha256": "3dc4663b5590ed47524a5f94ade33947ac72b613e62c74e0b70ad914adf04a9a",
+      "reason": "Solar opening ceremony and Lunar closing ceremony captions; remove community images/headings, preserve physical rooms, VarCamp branding and saved controls."
+    },
+    {
+      "path": "maps/preview/solar-hall.tmj",
+      "fromSha256": "fcc4f8b3f14d6abc6111c4c44c9c305cb8638437604dca3e44fcc6d4571c783f",
+      "toSha256": "28df95f014a7135e5c9cf7fecb77ca7deb93e2ce795d0bbaa7bde80b4b07b3ba",
+      "reason": "Solar opening ceremony and Lunar closing ceremony captions; remove community images/headings, preserve physical rooms, VarCamp branding and saved controls."
+    },
+    {
+      "path": "maps/solar-hall.tmj",
+      "fromSha256": "346d45d3a95a0045ccb73eb3f5ee592facea0426010ec0e493a3474198666ce4",
+      "toSha256": "e9d5fa466a7f99d64fd93480059373ebe291b7be806c66a8e5a9f8891844bb19",
+      "reason": "Solar opening ceremony and Lunar closing ceremony captions; remove community images/headings, preserve physical rooms, VarCamp branding and saved controls."
+    },
+    {
+      "path": "world/layouts/lunar-hall.json",
+      "fromSha256": "98041931d66f7ae452f81c3e564bd111fdd9fb64d87bb93021c3c62b6b921242",
+      "toSha256": "c896bfbdd211f0c4b40eef77f34113c3fc62e48dd9d51d35cd85622259a29a00",
+      "reason": "Solar opening ceremony and Lunar closing ceremony captions; remove community images/headings, preserve physical rooms, VarCamp branding and saved controls."
+    },
+    {
+      "path": "world/layouts/solar-hall.json",
+      "fromSha256": "e5f03f62387616f93a3f34443bff9741c3350c9f3286bd92c235866496a5e23d",
+      "toSha256": "3d54f4aff39dec6fd77594598c19bd7d1aca71e76a097c3066671718bd685dfe",
+      "reason": "Solar opening ceremony and Lunar closing ceremony captions; remove community images/headings, preserve physical rooms, VarCamp branding and saved controls."
+    }
+  ]
+}

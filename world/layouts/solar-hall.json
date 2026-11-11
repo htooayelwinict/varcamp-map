@@ -1688,7 +1688,7 @@
     },
     {
       "name": "stage-label",
-      "text": "PRESENTATION STAGE",
+      "text": "OPENING CEREMONY",
       "x": 25,
       "y": 15,
       "width": 14,
@@ -1740,18 +1740,6 @@
       "fontSize": 13,
       "color": "#253546",
       "align": "left"
-    },
-    {
-      "name": "solar-hall-style-partners",
-      "text": "COMMUNITY PARTNERS",
-      "x": 30,
-      "y": 2,
-      "width": 12,
-      "height": 1,
-      "fontSize": 12,
-      "color": "#f1d9a0",
-      "align": "left",
-      "padding": 0
     },
     {
       "name": "solar-hall-style-listeners",
@@ -2487,22 +2475,6 @@
       "x": 29,
       "y": 0,
       "width": 6,
-      "height": 2
-    },
-    {
-      "name": "Solar / BSides Myanmar",
-      "image": "assets/sponsors/partner-bsides-mm.png",
-      "x": 25,
-      "y": 3,
-      "width": 4,
-      "height": 2
-    },
-    {
-      "name": "Solar / Vibe Code Tours",
-      "image": "assets/sponsors/vibecode-tours.png",
-      "x": 35,
-      "y": 3,
-      "width": 4,
       "height": 2
     }
   ]

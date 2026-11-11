@@ -3,6 +3,7 @@ import {describe,it,expect} from 'vitest';
 import {SIGN_IDS} from '../src/world/catalog';
 import {restoreStageSideAccess} from '../tools/maps/stage-side-access';
 import {restoreSpeakerOfficeWings} from '../tools/maps/speaker-office-wings';
+import {restoreHallCeremonies} from '../tools/maps/hall-ceremonies';
 const read=(p:string)=>JSON.parse(readFileSync(p,'utf8'));
 describe.each([...SIGN_IDS.map(s=>'speaker-'+s),'solar-hall','lunar-hall'])('%s side stage access',id=>{
  it('blocks the complete front and leaves only a right-hand stair route',()=>{
@@ -14,7 +15,7 @@ describe.each([...SIGN_IDS.map(s=>'speaker-'+s),'solar-hall','lunar-hall'])('%s 
   for(let y=steps.y-2;y<steps.y;y++)expect(solid(steps.x-1,y)).toBe(false);
  });
  it('preserves audience seats, saved zones and all unrelated room fields',()=>{
-  const l=restoreSpeakerOfficeWings(read(`world/layouts/${id}.json`)),before=restoreStageSideAccess(l),strip=(v:any)=>{const {placements,signs,...rest}=v;return rest;};
+  const l=restoreSpeakerOfficeWings(restoreHallCeremonies(read(`world/layouts/${id}.json`))),before=restoreStageSideAccess(l),strip=(v:any)=>{const {placements,signs,...rest}=v;return rest;};
   expect(JSON.stringify(strip(l))).toBe(JSON.stringify(strip(before)));
   expect(l.placements.filter((p:any)=>p.id.startsWith(id.startsWith('speaker-')?'audience-chair-':'seat-')).length).toBe(id.startsWith('speaker-')?48:60);
  });

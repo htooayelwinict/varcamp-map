@@ -1,10 +1,11 @@
 import {restoreStageSideAccess} from '../tools/maps/stage-side-access';
+import {restoreHallCeremonies} from '../tools/maps/hall-ceremonies';
 import {restoreSpeakerOfficeWings} from '../tools/maps/speaker-office-wings';
 import{readFileSync}from'node:fs';import{isDeepStrictEqual}from'node:util';import{describe,it,expect}from'vitest';import data from'../world/auditorium-spacing.json';import{applyAuditoriumSpacing,restoreAuditoriumSpacing,auditoriumFunctional}from'../tools/maps/auditorium-spacing';
 const read=(p:string)=>JSON.parse(readFileSync(p,'utf8'));
 describe('Twelve enlarged auditoriums',()=>{
  for(const[id,row]of Object.entries(data.maps))it(id+': exact reversible scope, saved zones and physical stage access',()=>{
- const l=read(`world/layouts/${id}.json`),auditorium=restoreSpeakerOfficeWings(l),prior=restoreStageSideAccess(auditorium),before=restoreAuditoriumSpacing(prior);
+ const l=read(`world/layouts/${id}.json`),auditorium=restoreSpeakerOfficeWings(restoreHallCeremonies(l)),prior=restoreStageSideAccess(auditorium),before=restoreAuditoriumSpacing(prior);
  expect(isDeepStrictEqual(applyAuditoriumSpacing(before),prior)).toBe(true);
  expect(isDeepStrictEqual(auditoriumFunctional(id,row.beforeFunctional as Parameters<typeof auditoriumFunctional>[1]),row.afterFunctional)).toBe(true);
  if(id.endsWith('-hall')){expect(Object.keys(row.fields)).toEqual(['animatedOverlays']);return;}

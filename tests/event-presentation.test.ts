@@ -1,4 +1,5 @@
 import {restoreSponsorTiers} from '../tools/maps/sponsor-tiers';
+import {restoreHallCeremonies} from '../tools/maps/hall-ceremonies';
 import {readFileSync} from 'node:fs';
 import {isDeepStrictEqual} from 'node:util';
 import {restoreAuditoriumSpacing} from '../tools/maps/auditorium-spacing';
@@ -25,9 +26,9 @@ describe('Event branding and audience presentation',()=>{
  });
  it.each(EVENT_MAP_IDS.filter(id=>id!=='overworld'))('%s retains only the approved brands and preserves controls',id=>{
   const l=current(id),before=restoreEventPresentation(l);
-  expect(l.images!.map(i=>i.image.split('/').at(-1))).toEqual(id.startsWith('speaker-')?['varcamp-2026.png']:['varcamp-2026.png','partner-bsides-mm.png','vibecode-tours.png']);
+  expect(l.images!.map(i=>i.image.split('/').at(-1))).toEqual(['varcamp-2026.png']);
   expect(l.placements.some(p=>p.sprite==='speaker-style-logo-card')).toBe(false);
-  for(const key of ['entries','exits','areas','inspectionZones','animatedOverlays']as const)expect(isDeepStrictEqual(restoreAuditoriumSpacing(restoreStageSideAccess(restoreSpeakerOfficeWings(l)))[key],before[key])).toBe(true);
+  for(const key of ['entries','exits','areas','inspectionZones','animatedOverlays']as const)expect(isDeepStrictEqual(restoreAuditoriumSpacing(restoreStageSideAccess(restoreSpeakerOfficeWings(restoreHallCeremonies(l))))[key],before[key])).toBe(true);
   if(id.startsWith('speaker-')){
    expect(l.placements.filter(p=>p.id.startsWith('audience-chair-'))).toHaveLength(48);
    expect(l.placements.some(p=>p.id.endsWith('-style-partner-wallpaper')||p.id.endsWith('-style-partner-rule'))).toBe(false);
