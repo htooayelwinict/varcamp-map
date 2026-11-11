@@ -23,7 +23,7 @@ async function boldLetters():Promise<Buffer[]> {
   need(sha(readFileSync(EVENT_FONT))==='bc0abcc660bd8b7ad3000ecb2898a27c58a29a50f7ec81652fa12e75148d09df','bundled Russo One font changed');
   need(sha(readFileSync(EVENT_FONT_LICENSE))==='3ac1301549523d9861fedca12871f24e575fbd26d520632fc00ba849b471d275','font license changed');
   const master=await sharp({text:{text:'<span foreground="white">VARCAMP</span>',font:'Russo One 160',fontfile:EVENT_FONT,rgba:true}}).png().toBuffer();
-  return Promise.all([282,141,94].map(async width=>{
+  return Promise.all([266,133,88].map(async width=>{
     const {data,info}=await sharp(master).resize({width}).ensureAlpha().raw().toBuffer({resolveWithObject:true});
     // Keep the requested white ink exact after premultiplied-alpha resampling.
     for(let i=0;i<data.length;i+=4)if(data[i+3])data.fill(255,i,i+3);
@@ -43,8 +43,8 @@ async function stampWordmark(png:Buffer,width:number,height:number,left:number,t
   return sharp(base,{raw:{width,height,channels:4}}).png().toBuffer();
 }
 
-/** Preserve supplied flame pixels, native footprints and the existing subtitle;
- * replace only the organizer-selected VarCamp lettering. */
+/** Balance the approved flame and lettering within the existing native footprints.
+ * The subtitle keeps its original glyphs, centered beneath the wordmark. */
 export async function renderEventIdentity() {
   const source = readFileSync(EVENT_MARK), original = readFileSync(WORDMARK, 'utf8');
   need(sha(source) === 'ffb579d7e977790707d29abaf7f86c0451703973a6f2ff1805f31aa4442a1aa2', 'owner-supplied master changed');
@@ -60,33 +60,30 @@ export async function renderEventIdentity() {
   const crop = {left, top, width:right-left+1, height:bottom-top+1};
   // Alpha trim is only an export crop; the supplied source file stays byte-exact.
   const mark = await sharp(source).extract(crop).png().toBuffer();
-  const paths = original.match(/<path class="cls-1"[^>]*\/>/g);
-  need(paths?.length === 2, 'expected separate flame and wordmark vector paths');
-  const flameSvg = original.replace(paths![0], `<image x="0" y="0" width="28" height="32" preserveAspectRatio="xMidYMid meet" xlink:href="data:image/png;base64,${mark.toString('base64')}"/>`).replace(paths![1],'');
-  const flameLockup = await sharp(Buffer.from(flameSvg)).resize(376,85,{fit:'inside'}).png().toBuffer();
+  const flame = await sharp(mark).resize({height:74}).png().toBuffer();
   const [arrivalLetters,roomLetters,boothLetters]=await boldLetters();
-  const svg=`<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="376" height="85" viewBox="0 0 376 85"><image width="376" height="85" xlink:href="data:image/png;base64,${flameLockup.toString('base64')}"/><image data-wordmark="VARCAMP" x="84" y="25" width="282" height="${arrivalLetters.readUInt32BE(20)}" xlink:href="data:image/png;base64,${arrivalLetters.toString('base64')}"/></svg>`;
   const glyphs = read('art/source/hub-nameplates.json').glyphs as Record<string,string[]>;
-  const text='MYANMAR 2026', scale=2, advance=16, x0=99;
+  const text='MYANMAR 2026', scale=2, advance=16, x0=138;
   let letters='';
   for (const [i,c] of [...text].entries()) for (const [y,row] of glyphs[c].entries()) for(let x=0;x<5;x++) {
-    if(row[x]==='1') letters+=`<rect x="${x0+i*advance+x*scale}" y="${110+y*scale}" width="2" height="2" fill="#ffffff"/>`;
+    if(row[x]==='1') letters+=`<rect x="${x0+i*advance+x*scale}" y="${80+y*scale}" width="2" height="2" fill="#ffffff"/>`;
   }
   const subtitle=Buffer.from(`<svg xmlns="http://www.w3.org/2000/svg" width="384" height="128" shape-rendering="crispEdges">${letters}</svg>`);
   const flamePanel=await sharp({create:{width:384,height:128,channels:4,background:{r:0,g:0,b:0,alpha:0}}})
-    .composite([{input:flameLockup,left:4,top:21},{input:subtitle,left:0,top:0}]).png().toBuffer();
-  const panel=await stampWordmark(flamePanel,384,128,88,46,arrivalLetters);
+    .composite([{input:flame,left:20,top:26},{input:subtitle,left:0,top:0}]).png().toBuffer();
+  const panel=await stampWordmark(flamePanel,384,128,98,32,arrivalLetters);
   const brandBase=await sharp(flamePanel).resize(192,64).png().toBuffer();
-  const brand=await stampWordmark(brandBase,192,64,44,23,roomLetters);
-  const boothLockup=await sharp(Buffer.from(flameSvg)).resize(128,29,{fit:'inside'}).png().toBuffer();
+  const brand=await stampWordmark(brandBase,192,64,49,16,roomLetters);
+  const boothFlame=await sharp(mark).resize({height:28}).png().toBuffer();
   const boothBase=await sharp({create:{width:128,height:64,channels:4,background:{r:0,g:0,b:0,alpha:0}}})
-    .composite([{input:boothLockup,left:0,top:17}]).png().toBuffer();
-  const booth=await stampWordmark(boothBase,128,64,30,24,boothLetters);
+    .composite([{input:boothFlame,left:5,top:18}]).png().toBuffer();
+  const booth=await stampWordmark(boothBase,128,64,35,26,boothLetters);
+  const svg=`<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="128" height="64" viewBox="0 0 128 64"><image data-wordmark="VARCAMP" width="128" height="64" xlink:href="data:image/png;base64,${booth.toString('base64')}"/></svg>`;
   const logos=[];
   for(const [i,key] of ['nw','ne','sw','se'].entries()) logos.push({path:`assets/sponsors/varcamp-arrival-${key}.png`,png:await sharp(panel).extract({left:i%2*192,top:Math.floor(i/2)*64,width:192,height:64}).png().toBuffer()});
   const outputs=[{path:'assets/sponsors/varcamp-2026.png',png:brand},{path:'assets/sponsors/varcamp-horizontal.png',png:booth},...logos];
-  const metadata={version:3,operation:'Owner-supplied pink flame and MYANMAR 2026 subtitle retained; uppercase VARCAMP uses reference-style bold squared lettering baked into native PNGs',
-    typography:{text:'VARCAMP',style:'bold-squared',family:'Russo One',source:EVENT_FONT,license:EVENT_FONT_LICENSE,widths:{arrival:282,room:141,booth:94}},
+  const metadata={version:4,operation:'Approved pink flame and Russo One lettering balanced within the existing native footprints; original MYANMAR 2026 glyphs centered beneath VARCAMP with tighter spacing',
+    typography:{text:'VARCAMP',style:'bold-squared',family:'Russo One',source:EVENT_FONT,license:EVENT_FONT_LICENSE,widths:{arrival:266,room:133,booth:88}},
     inputs:[EVENT_MARK,WORDMARK,EVENT_FONT,EVENT_FONT_LICENSE,'art/source/hub-nameplates.json','tools/art/event-identity.ts'].map(path=>({path,sha256:sha(readFileSync(path))})),crop,
     outputs:outputs.map(({path,png})=>({path,width:png.readUInt32BE(16),height:png.readUInt32BE(20),sha256:sha(png)}))};
   return {svg,panel,brand,booth,logos,outputs,metadata};

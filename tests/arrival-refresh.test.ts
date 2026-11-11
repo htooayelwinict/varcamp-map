@@ -23,8 +23,17 @@ describe('current colourful arrival and topmost drones',()=>{
   expect(l.standingSigns!.some(s=>s.face==='arrival-direction-crosspost'||s.supports.includes('arrival-crosspost-pole'))).toBe(false);
  });
  it('uses the supplied pink flame and retains the white wordmark',async()=>{
-  let pink=0,white=0;for(const[i,p]of panels.entries()){const b=await sharp(p.image).ensureAlpha().raw().toBuffer();for(let n=0;n<b.length;n+=4)if(b[n+3]>=192){if(b[n]>110&&b[n+1]<80&&b[n+2]>50){pink++;expect(i%2*192+n/4%192).toBeLessThan(80);}if(b[n]===255&&b[n+1]===255&&b[n+2]===255)white++;}}
+  let pink=0,white=0,rightmostFlame=-1,leftmostText=384;
+  for(const[i,p]of panels.entries()){
+   const b=await sharp(p.image).ensureAlpha().raw().toBuffer();
+   for(let n=0;n<b.length;n+=4)if(b[n+3]>=192){
+    const x=i%2*192+n/4%192;
+    if(b[n]>110&&b[n+1]<80&&b[n+2]>50){pink++;rightmostFlame=Math.max(rightmostFlame,x);}
+    if(b[n]===255&&b[n+1]===255&&b[n+2]===255){white++;leftmostText=Math.min(leftmostText,x);}
+   }
+  }
   expect(pink).toBeGreaterThan(500);expect(white).toBeGreaterThan(1500);
+  expect(leftmostText-rightmostFlame-1,'clear gap between flame and lettering').toBeGreaterThanOrEqual(10);
  });
  it('clears the actual former pole collision cell68,64 without inventing a replacement blocker',()=>{
   const m=read<TiledMap>('maps/overworld.tmj');expect((m.layers.find(l=>l.name==='physical-collisions')as TileLayer).data[64*128+68]).toBe(0);

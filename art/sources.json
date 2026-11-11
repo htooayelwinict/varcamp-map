@@ -1241,7 +1241,7 @@
     "url": "https://var.camp/",
     "license": "Project artwork; organizer-approved event use; brand rights retained by owners",
     "licenseFile": "assets/tilesets/zodiac-emblems/LICENSE.txt",
-    "changes": "New generated and organizer-approved masters retained byte-exact. Uniform nearest-neighbor native exports only, source alpha preserved. Original sponsor/brand assets and all earlier catalog rows are unchanged. 2026-11-09: original master and zodiac emblems retained; current VarCamp panel uses the supplied pink event mark and original vector wordmark (see varcamp-event-identity). 2026-11-11: current VarCamp panel uses the organizer-selected pixel wordmark; zodiac emblems and supplied flame remain unchanged. 2026-11-11: event panel lettering changed to reference-style bold uppercase VARCAMP; zodiac artwork and supplied flame unchanged.",
+    "changes": "New generated and organizer-approved masters retained byte-exact. Uniform nearest-neighbor native exports only, source alpha preserved. Original sponsor/brand assets and all earlier catalog rows are unchanged. 2026-11-09: original master and zodiac emblems retained; current VarCamp panel uses the supplied pink event mark and original vector wordmark (see varcamp-event-identity). 2026-11-11: current VarCamp panel uses the organizer-selected pixel wordmark; zodiac emblems and supplied flame remain unchanged. 2026-11-11: event panel lettering changed to reference-style bold uppercase VARCAMP; zodiac artwork and supplied flame unchanged. 2026-11-11: shared event lockup proportions and alignment refined; zodiac artwork unchanged.",
     "files": [
       {
         "path": "art/source/plaza-original/zodiac-approved-master.png",
@@ -1257,7 +1257,7 @@
       },
       {
         "path": "assets/sponsors/varcamp-2026.png",
-        "sha256": "3d7b6c65a9035897f729b76b44d90c79506cde8cb83506e49a54323e0fed846d"
+        "sha256": "d54c3534d7d16d9300916114ad81cc481b80c7d4ce6a484f1b225d245977b62a"
       }
     ]
   },
@@ -1882,7 +1882,7 @@
     "url": "https://var.camp/",
     "license": "Supplied by the VarCamp organiser for the 2026 event; event-use permission, all rights retained by the owner; not CC0",
     "licenseFile": "assets/tilesets/varcamp-organiser/LICENSE.txt",
-    "changes": "Alpha-bounding-box crop and aspect-preserving Lanczos3 downscale of the supplied masters to the native tile footprint (fountain 128x96 / 4x3 tiles, lamp 32x96 / 1x3 tiles), centred on the transparent grid, alpha thresholded to binary. Master hashes are recorded in ATTRIBUTION.md; the masters are not redistributed. No other registry row changed. 2026-11-09: current booth and arrival logos use the owner-supplied pink event mark; original vector wordmark and arrival subtitle retained. 2026-11-11: current VarCamp lettering uses the organizer-selected pixel wordmark; supplied flame and subtitle remain unchanged. 2026-11-11: organizer reference now uses bold uppercase VARCAMP in Russo One; flame, subtitle and placements unchanged.",
+    "changes": "Alpha-bounding-box crop and aspect-preserving Lanczos3 downscale of the supplied masters to the native tile footprint (fountain 128x96 / 4x3 tiles, lamp 32x96 / 1x3 tiles), centred on the transparent grid, alpha thresholded to binary. Master hashes are recorded in ATTRIBUTION.md; the masters are not redistributed. No other registry row changed. 2026-11-09: current booth and arrival logos use the owner-supplied pink event mark; original vector wordmark and arrival subtitle retained. 2026-11-11: current VarCamp lettering uses the organizer-selected pixel wordmark; supplied flame and subtitle remain unchanged. 2026-11-11: organizer reference now uses bold uppercase VARCAMP in Russo One; flame, subtitle and placements unchanged. 2026-11-11: shared logo proportions and alignment refined within existing map footprints; original masters and approved typography retained.",
     "files": [
       {
         "path": "assets/tilesets/original/plaza-fountain.png",
@@ -1898,19 +1898,19 @@
       },
       {
         "path": "assets/sponsors/varcamp-arrival-nw.png",
-        "sha256": "8e96cfdee37820f1d8d78e96972889b5df0cd2a1033b7e77bde6db871f1331e6"
+        "sha256": "4ac6b70aeea033722be85b8ade52c9f1a13b1260ea755dba36d234cc273df0af"
       },
       {
         "path": "assets/sponsors/varcamp-arrival-ne.png",
-        "sha256": "7bd322bc95c61536796816d2a31e4385635444ba02fc0367e14a32769eab6481"
+        "sha256": "f41faa50438d04a0ff890f3c2856a151d3d77a23f7aabef867da70d58c7bc9e8"
       },
       {
         "path": "assets/sponsors/varcamp-arrival-sw.png",
-        "sha256": "21072a0da7fefb24f129b96f506ee18c8b7bef1c4181e3fb011c12fc4890f0b0"
+        "sha256": "b1430430a79758bcc839c4ec120c434a669600b1162a99df0383b67180d1b389"
       },
       {
         "path": "assets/sponsors/varcamp-arrival-se.png",
-        "sha256": "9bfb53a33e159567ffeecd937766915087adf0ca27881976e7e1c65767b54970"
+        "sha256": "cd12a0ee2993582a0d59a2d62292823619b23ed75932a590c0c6b54e9cd82cca"
       }
     ]
   },
@@ -2739,7 +2739,7 @@
     "url": "https://var.camp/",
     "license": "Organizer-approved event use",
     "licenseFile": "assets/tilesets/varcamp-event-identity/NOTICE.txt",
-    "changes": "Exact supplied PNG retained. Alpha-only export crop, aspect-fit placement with original vector wordmark, transparent native panels, and existing MYANMAR 2026 pixel subtitle. No generated replacement artwork. 2026-11-11: organizer selected readable titlecase pixel lettering; the six transparent exports now use the original bitmap recipe in pixel-wordmark.json. The supplied flame, subtitle and export footprints are preserved. 2026-11-11: the subsequent organizer reference replaces the pixel selection with bold uppercase VARCAMP in Russo One, baked into six transparent PNGs; flame, subtitle and footprints retained. Font by Jovanny Lemonad under SIL OFL 1.1, bundled with its license.",
+    "changes": "Exact supplied PNG retained. Alpha-only export crop, aspect-fit placement with original vector wordmark, transparent native panels, and existing MYANMAR 2026 pixel subtitle. No generated replacement artwork. 2026-11-11: organizer selected readable titlecase pixel lettering; the six transparent exports now use the original bitmap recipe in pixel-wordmark.json. The supplied flame, subtitle and export footprints are preserved. 2026-11-11: the subsequent organizer reference replaces the pixel selection with bold uppercase VARCAMP in Russo One, baked into six transparent PNGs; flame, subtitle and footprints retained. Font by Jovanny Lemonad under SIL OFL 1.1, bundled with its license. 2026-11-11: rebalance the approved flame and Russo One lettering; center the unchanged subtitle glyphs below the title, tighten line spacing and center each native composition. Original masters, font and map footprints remain unchanged.",
     "files": [
       {
         "path": "art/source/event-identity/supplied-flame.png",
@@ -2747,39 +2747,39 @@
       },
       {
         "path": "art/source/event-identity/horizontal.svg",
-        "sha256": "8832118f9185582c4b10d41fe2dbc6c1e4c780eb1fece4d47b5a7c65f7c73502"
+        "sha256": "9c94ac57b13cdbfa61cd216246bc80d16dec939b321c18fd9ff207ecfa6b1443"
       },
       {
         "path": "art/source/event-identity/exports.json",
-        "sha256": "7b2d1f320723cf787e459eb63e4d03389f73249ab702c77c9b9b80f5ef3a49af"
+        "sha256": "4a3869de2411707a5988a3e9fcecc32271b4447618ef9933e49a08b4b3b20042"
       },
       {
         "path": "tools/art/event-identity.ts",
-        "sha256": "5d9df32b3796b843d038d45b7540ebf8fea86d804977fbef39eb9e90eab083b8"
+        "sha256": "260ae462caeee006a07879473063ebf67ca49b4fb341c967a6a9b46a31525e0d"
       },
       {
         "path": "assets/sponsors/varcamp-2026.png",
-        "sha256": "3d7b6c65a9035897f729b76b44d90c79506cde8cb83506e49a54323e0fed846d"
+        "sha256": "d54c3534d7d16d9300916114ad81cc481b80c7d4ce6a484f1b225d245977b62a"
       },
       {
         "path": "assets/sponsors/varcamp-horizontal.png",
-        "sha256": "22fe367e5bb62da86260e84870957877cac301afce5aad8f042df06c43f6a037"
+        "sha256": "d305aee0e706b206edf5d3806abf8912a1c58626d08a0a78483e90d02bf9c6ef"
       },
       {
         "path": "assets/sponsors/varcamp-arrival-nw.png",
-        "sha256": "8e96cfdee37820f1d8d78e96972889b5df0cd2a1033b7e77bde6db871f1331e6"
+        "sha256": "4ac6b70aeea033722be85b8ade52c9f1a13b1260ea755dba36d234cc273df0af"
       },
       {
         "path": "assets/sponsors/varcamp-arrival-ne.png",
-        "sha256": "7bd322bc95c61536796816d2a31e4385635444ba02fc0367e14a32769eab6481"
+        "sha256": "f41faa50438d04a0ff890f3c2856a151d3d77a23f7aabef867da70d58c7bc9e8"
       },
       {
         "path": "assets/sponsors/varcamp-arrival-sw.png",
-        "sha256": "21072a0da7fefb24f129b96f506ee18c8b7bef1c4181e3fb011c12fc4890f0b0"
+        "sha256": "b1430430a79758bcc839c4ec120c434a669600b1162a99df0383b67180d1b389"
       },
       {
         "path": "assets/sponsors/varcamp-arrival-se.png",
-        "sha256": "9bfb53a33e159567ffeecd937766915087adf0ca27881976e7e1c65767b54970"
+        "sha256": "cd12a0ee2993582a0d59a2d62292823619b23ed75932a590c0c6b54e9cd82cca"
       },
       {
         "path": "art/source/event-identity/pixel-wordmark.json",

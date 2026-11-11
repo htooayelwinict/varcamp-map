@@ -32,12 +32,14 @@ it('adds six travelling camera patrols above every old layer, preserving the89ol
   const set=m.tilesets.find(t=>t.name===id)!;expect(set.tiles!.every(t=>t.properties!.some(p=>p.name==='collides'&&p.value===false))).toBe(true);
  }
 });
-it('prints every MYANMAR2026 glyph in the transparent lower logo band at native pixel scale',async()=>{
+it('prints every MYANMAR2026 glyph beneath the aligned wordmark at native pixel scale',async()=>{
  const rgba=Buffer.alloc(384*128*4);
  for(const[i,key]of ['nw','ne','sw','se'].entries()){const b=await sharp(`assets/sponsors/varcamp-arrival-${key}.png`).ensureAlpha().raw().toBuffer();for(let y=0;y<64;y++)b.copy(rgba,((Math.floor(i/2)*64+y)*384+i%2*192)*4,y*192*4,(y+1)*192*4);}
- const glyphs=read('art/source/hub-nameplates.json').glyphs,text='MYANMAR 2026',left=99;
- for(const[i,c]of [...text].entries())for(let y=0;y<7;y++)for(let x=0;x<5;x++)if(glyphs[c][y][x]==='1')for(let sy=0;sy<2;sy++)for(let sx=0;sx<2;sx++){
-  const offset=((110+y*2+sy)*384+left+i*16+x*2+sx)*4;expect([...rgba.subarray(offset,offset+4)],c+' native subtitle pixel').toEqual([255,255,255,255]);
+ const glyphs=read('art/source/hub-nameplates.json').glyphs,text='MYANMAR 2026',left=138;
+ for(const[i,c]of [...text].entries())for(let y=0;y<7;y++)for(let x=0;x<5;x++)for(let sy=0;sy<2;sy++)for(let sx=0;sx<2;sx++){
+  const offset=((80+y*2+sy)*384+left+i*16+x*2+sx)*4;
+  if(glyphs[c][y][x]==='1')expect([...rgba.subarray(offset,offset+4)],c+' native subtitle pixel').toEqual([255,255,255,255]);
+  else expect(rgba[offset+3],c+' transparent glyph space').toBe(0);
  }
 });
 it('the actual native carrier frames show one visible24px camera moving around each complete loop',async()=>{

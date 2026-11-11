@@ -19,15 +19,18 @@ it('retains the exact supplied transparent logo and reproduces every current nat
   expect(await checkEventIdentityArt()).toEqual([]);
 });
 
-it('keeps the arrival subtitle pixel-exact and the four panels seamless',async()=>{
+it('keeps the original subtitle glyphs at the aligned position and the four panels seamless',async()=>{
   const [current,previous]=await Promise.all([renderEventIdentity(),renderArrivalRefresh()]);
   const old=await sharp(previous.panel).ensureAlpha().raw().toBuffer();
   const now=await sharp(current.panel).ensureAlpha().raw().toBuffer();
   let pink=0;
   for(let y=0;y<128;y++) for(let x=0;x<384;x++) {
     const i=(y*384+x)*4;
-    if(y>=106) expect(now.subarray(i,i+4).equals(old.subarray(i,i+4)),`retained subtitle at ${x},${y}`).toBe(true);
     if(now[i]>110 && now[i+1]<80 && now[i+2]>50 && now[i+3]>=192) pink++;
+  }
+  for(let y=0;y<14;y++)for(let x=0;x<186;x++){
+    const from=((110+y)*384+99+x)*4,to=((80+y)*384+138+x)*4;
+    expect(now.subarray(to,to+4).equals(old.subarray(from,from+4)),`retained subtitle glyph at ${x},${y}`).toBe(true);
   }
   expect(pink).toBeGreaterThan(1000);
   const joined=Buffer.alloc(now.length);

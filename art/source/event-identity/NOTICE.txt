@@ -7,12 +7,13 @@ The event organizer requested its use for every VarCamp map logo. Rights in
 the brand and supplied artwork remain with their respective owners. This is
 organizer-approved event use, not a CC0 dedication or a general sublicense.
 
-The derived horizontal SVG embeds the supplied flame pixels with an alpha-only
-export crop. Current exports use white uppercase VARCAMP in Russo One, matching
-the organizer's later bold squared reference on 2026-11-11. The previous pixel
-recipe and original vector master are retained as historical sources.
-The flame, MYANMAR 2026 subtitle, transparency and native map footprints remain
-unchanged. No font download is required by the map browser.
+The derived horizontal SVG embeds the current transparent booth lockup.
+Current exports use white uppercase VARCAMP in Russo One, matching the
+organizer's bold squared reference on 2026-11-11. The subsequent alignment
+refinement scales the flame and lettering proportionally, centers the original
+MYANMAR 2026 glyphs under the title and tightens the line gap. Original masters,
+the previous pixel recipe and native map footprints are retained.
+No font download is required by the map browser.
 
 Russo One: copyright (c) 2011-2012, Jovanny Lemonad (jovanny.ru), with Reserved
 Font Name "Russo". Unmodified font from the Google Fonts repository:

@@ -1,0 +1,70 @@
+{
+  "base": "598c3b5d0b91729a01bae9e1c9af9c81f3e985c2",
+  "transitions": {
+    "art/source/event-identity/NOTICE.txt": [
+      "29fa551f43662317638ea0fbf46ac8c6be3e97ff10d2ee932b3696fa3300b464",
+      "3ac95a0f60f9bd4ea98c06de55b660196c933143620a0f5a5ce5f57453edd7df"
+    ],
+    "art/source/event-identity/exports.json": [
+      "7b2d1f320723cf787e459eb63e4d03389f73249ab702c77c9b9b80f5ef3a49af",
+      "4a3869de2411707a5988a3e9fcecc32271b4447618ef9933e49a08b4b3b20042"
+    ],
+    "art/source/event-identity/horizontal.svg": [
+      "8832118f9185582c4b10d41fe2dbc6c1e4c780eb1fece4d47b5a7c65f7c73502",
+      "9c94ac57b13cdbfa61cd216246bc80d16dec939b321c18fd9ff207ecfa6b1443"
+    ],
+    "art/source/plaza-generated.json": [
+      "377adb78418a3737f22f7172d6681eed868718b79b0e77fdae134ab13d33bd52",
+      "ec66992dc0b2600a04f1c63c8f3b94a796809e3edaef4508ee3f16b8e7c31144"
+    ],
+    "art/sources.json": [
+      "4e925f0afde2724aed325e739fb0966291e5c8d8801698e86f2b232c8ac045d7",
+      "3351f896f104ae119ef5317aa6f615a6ea10b8d39d90f826ba44d64f8397e839"
+    ],
+    "art/sponsors.json": [
+      "ce2843055fd66b81a7276ebcf523a06ea6c7e03d7ad5e2a37e3e69692020de7f",
+      "b9f41ee43eb559e4ebc0806a79b9632ee81e2c70c21b16910676709785cf1a51"
+    ],
+    "assets/sponsors/varcamp-2026.png": [
+      "3d7b6c65a9035897f729b76b44d90c79506cde8cb83506e49a54323e0fed846d",
+      "d54c3534d7d16d9300916114ad81cc481b80c7d4ce6a484f1b225d245977b62a"
+    ],
+    "assets/sponsors/varcamp-arrival-ne.png": [
+      "7bd322bc95c61536796816d2a31e4385635444ba02fc0367e14a32769eab6481",
+      "f41faa50438d04a0ff890f3c2856a151d3d77a23f7aabef867da70d58c7bc9e8"
+    ],
+    "assets/sponsors/varcamp-arrival-nw.png": [
+      "8e96cfdee37820f1d8d78e96972889b5df0cd2a1033b7e77bde6db871f1331e6",
+      "4ac6b70aeea033722be85b8ade52c9f1a13b1260ea755dba36d234cc273df0af"
+    ],
+    "assets/sponsors/varcamp-arrival-se.png": [
+      "9bfb53a33e159567ffeecd937766915087adf0ca27881976e7e1c65767b54970",
+      "cd12a0ee2993582a0d59a2d62292823619b23ed75932a590c0c6b54e9cd82cca"
+    ],
+    "assets/sponsors/varcamp-arrival-sw.png": [
+      "21072a0da7fefb24f129b96f506ee18c8b7bef1c4181e3fb011c12fc4890f0b0",
+      "b1430430a79758bcc839c4ec120c434a669600b1162a99df0383b67180d1b389"
+    ],
+    "assets/sponsors/varcamp-horizontal.png": [
+      "22fe367e5bb62da86260e84870957877cac301afce5aad8f042df06c43f6a037",
+      "d305aee0e706b206edf5d3806abf8912a1c58626d08a0a78483e90d02bf9c6ef"
+    ],
+    "assets/tilesets/varcamp-event-identity/ATTRIBUTION.md": [
+      "75fb83765c4bf56b127f669e14cfc1fe9d0130c3a3b1a185a5c61821b7ba0efa",
+      "64e91566d3a78e58aef10b42d85fd22edcca9373ef396331c319ba29bcb8039f"
+    ],
+    "assets/tilesets/varcamp-event-identity/NOTICE.txt": [
+      "29fa551f43662317638ea0fbf46ac8c6be3e97ff10d2ee932b3696fa3300b464",
+      "3ac95a0f60f9bd4ea98c06de55b660196c933143620a0f5a5ce5f57453edd7df"
+    ],
+    "tools/art/event-identity.ts": [
+      "5d9df32b3796b843d038d45b7540ebf8fea86d804977fbef39eb9e90eab083b8",
+      "260ae462caeee006a07879473063ebf67ca49b4fb341c967a6a9b46a31525e0d"
+    ]
+  },
+  "registryNotes": {
+    "varcamp-event-identity": " 2026-11-11: rebalance the approved flame and Russo One lettering; center the unchanged subtitle glyphs below the title, tighten line spacing and center each native composition. Original masters, font and map footprints remain unchanged.",
+    "varcamp-organiser": " 2026-11-11: shared logo proportions and alignment refined within existing map footprints; original masters and approved typography retained.",
+    "zodiac-emblems": " 2026-11-11: shared event lockup proportions and alignment refined; zodiac artwork unchanged."
+  }
+}

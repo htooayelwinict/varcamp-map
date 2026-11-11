@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "revisions": [
+    {
+      "path": "art/sources.json",
+      "fromSha256": "4e925f0afde2724aed325e739fb0966291e5c8d8801698e86f2b232c8ac045d7",
+      "toSha256": "3351f896f104ae119ef5317aa6f615a6ea10b8d39d90f826ba44d64f8397e839",
+      "reason": "Refine approved VarCamp logo proportions and alignment: proportionally resize the flame and wordmark, center original subtitle glyphs, and tighten spacing. Preserve original source files, map dimensions and saved controls; update exact artwork provenance."
+    },
+    {
+      "path": "art/sponsors.json",
+      "fromSha256": "ce2843055fd66b81a7276ebcf523a06ea6c7e03d7ad5e2a37e3e69692020de7f",
+      "toSha256": "b9f41ee43eb559e4ebc0806a79b9632ee81e2c70c21b16910676709785cf1a51",
+      "reason": "Refine approved VarCamp logo proportions and alignment: proportionally resize the flame and wordmark, center original subtitle glyphs, and tighten spacing. Preserve original source files, map dimensions and saved controls; update exact artwork provenance."
+    }
+  ]
+}
