@@ -426,6 +426,82 @@
       "license": "Organizer-approved event use; owner rights retained",
       "changes": "Exported from the unchanged original PNG with tools/art/community-logo-export.mjs. Visible alpha32 bounds plus a1% safety margin remove faint outer padding; pixels inside the crop, original colours and aspect ratio retained. Lanczos3 fit inside120x56, centred in a transparent128x64 canvas; no backing or recolouring.",
       "eyebrow": "COMMUNITY PARTNER"
+    },
+    {
+      "name": "DigiSec Lab",
+      "kind": "event-sponsor",
+      "tier": "Main",
+      "image": "assets/sponsors/sponsor-digisec-north.png",
+      "source": "art/source/sponsors/tier-logos/DigSecLab_Secondary.png",
+      "sourceSha256": "855d08daa0c09a0205e142d48ef9c32ed0a53043b204929fd8484c62e1451c4d",
+      "sourceUrl": "https://drive.google.com/file/d/1AESwtaTQrEX7sxBpTl1Qw1xvF-8lpg3U/view",
+      "size": {
+        "width": 192,
+        "height": 64,
+        "tileWidth": 6,
+        "tileHeight": 2
+      },
+      "owner": "DigiSec Lab",
+      "permission": "Supplied by organizer Lewis via the Sponsor Assets Google Drive folder for the VarCamp 2026 map on 2026-11-11. Artwork and brand rights retained by their owners.",
+      "license": "Organizer-approved event use; owner rights retained",
+      "changes": "Original colours, proportions and lettering retained. Transparent padding cropped, Lanczos3 resized and centred; no recolouring or generated artwork. Main logo is split losslessly into two native panels. See art/source/sponsors/tier-logos/exports.json and NOTICE.md."
+    },
+    {
+      "name": "DigiSec Lab",
+      "kind": "event-sponsor",
+      "tier": "Main",
+      "image": "assets/sponsors/sponsor-digisec-south.png",
+      "source": "art/source/sponsors/tier-logos/DigSecLab_Secondary.png",
+      "sourceSha256": "855d08daa0c09a0205e142d48ef9c32ed0a53043b204929fd8484c62e1451c4d",
+      "sourceUrl": "https://drive.google.com/file/d/1AESwtaTQrEX7sxBpTl1Qw1xvF-8lpg3U/view",
+      "size": {
+        "width": 192,
+        "height": 64,
+        "tileWidth": 6,
+        "tileHeight": 2
+      },
+      "owner": "DigiSec Lab",
+      "permission": "Supplied by organizer Lewis via the Sponsor Assets Google Drive folder for the VarCamp 2026 map on 2026-11-11. Artwork and brand rights retained by their owners.",
+      "license": "Organizer-approved event use; owner rights retained",
+      "changes": "Original colours, proportions and lettering retained. Transparent padding cropped, Lanczos3 resized and centred; no recolouring or generated artwork. Main logo is split losslessly into two native panels. See art/source/sponsors/tier-logos/exports.json and NOTICE.md."
+    },
+    {
+      "name": "Newness",
+      "kind": "event-sponsor",
+      "tier": "Spark",
+      "image": "assets/sponsors/sponsor-newness.png",
+      "source": "art/source/sponsors/tier-logos/newness-white.png",
+      "sourceSha256": "7bae96dd4356e95c8bd9ce720ef4f38ef5a13b5f860065e34f263fbd09a9a3a5",
+      "sourceUrl": "https://drive.google.com/file/d/1ODDC3h0vmgEFtFfoxlRpImpTmatcHIXK/view",
+      "size": {
+        "width": 192,
+        "height": 64,
+        "tileWidth": 6,
+        "tileHeight": 2
+      },
+      "owner": "Newness",
+      "permission": "Supplied by organizer Lewis via the Sponsor Assets Google Drive folder for the VarCamp 2026 map on 2026-11-11. Artwork and brand rights retained by their owners.",
+      "license": "Organizer-approved event use; owner rights retained",
+      "changes": "Original colours, proportions and lettering retained. Transparent padding cropped, Lanczos3 resized and centred; no recolouring or generated artwork. Main logo is split losslessly into two native panels. See art/source/sponsors/tier-logos/exports.json and NOTICE.md."
+    },
+    {
+      "name": "Lokal Zaytann",
+      "kind": "event-sponsor",
+      "tier": "Mini",
+      "image": "assets/sponsors/sponsor-lokal-zaytann.png",
+      "source": "art/source/sponsors/tier-logos/Lokal-Zaytann.png",
+      "sourceSha256": "a0b5aca8de858941dd52caae880c9cf0e2d156e09c5857cc4faf63d58591fc87",
+      "sourceUrl": "https://drive.google.com/file/d/1xAoLcd_zu6ilUAjOEMARNU70nqJ1EcVl/view",
+      "size": {
+        "width": 128,
+        "height": 64,
+        "tileWidth": 4,
+        "tileHeight": 2
+      },
+      "owner": "Lokal Zaytann",
+      "permission": "Supplied by organizer Lewis via the Sponsor Assets Google Drive folder for the VarCamp 2026 map on 2026-11-11. Artwork and brand rights retained by their owners.",
+      "license": "Organizer-approved event use; owner rights retained",
+      "changes": "Original colours, proportions and lettering retained. Transparent padding cropped, Lanczos3 resized and centred; no recolouring or generated artwork. Main logo is split losslessly into two native panels. See art/source/sponsors/tier-logos/exports.json and NOTICE.md."
     }
   ],
   "replacement": {

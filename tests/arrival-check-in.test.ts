@@ -6,6 +6,7 @@ import {describe,it,expect,vi} from 'vitest';
 import stations from '../world/check-in-stations.json';
 import {registerCheckInCounter,type CheckInApi} from '../src/check-in/counter';
 import {applySponsorTiers,restoreSponsorTiers} from '../tools/maps/sponsor-tiers';
+import {restoreSponsorLogos} from '../tools/maps/sponsor-logos';
 
 const read=(p:string)=>JSON.parse(readFileSync(p,'utf8'));
 const baseline=readFileSync('tests/fixtures/arrival-check-in/before.json.gz');
@@ -61,16 +62,19 @@ describe('expanded arrival check-in',()=>{
  });
 
  it('preserves all twelve door stations, controls, sponsor furnishings and collision outside reception',()=>{
-  const l=read('world/layouts/overworld.json'),m=read('maps/overworld.tmj');
+  // Undo only the finite official-logo successor, independently covered by sponsor-logos.test.ts.
+  const l=restoreSponsorLogos(read('world/layouts/overworld.json')),m=read('maps/overworld.tmj');
   const prior=before['world/layouts/overworld.json'],old=before['maps/overworld.tmj'];
   expect(stations.stations.filter(s=>s.building!=='overworld')).toEqual(before['world/check-in-stations.json'].stations.filter((s:any)=>s.building!=='overworld'));
-  for(const key of ['entries','exits','areas','inspectionZones','animatedOverlays','images','signs','standingSigns'])expect(isDeepStrictEqual(l[key],prior[key]),key).toBe(true);
+  for(const key of ['entries','exits','areas','inspectionZones','animatedOverlays','images','signs','standingSigns'] as const)expect(isDeepStrictEqual(l[key],prior[key]),key).toBe(true);
   const outside=(p:any)=>p.x+p.width<=70||p.x>=79||p.y+p.height<=57||p.y>=64;
   expect(isDeepStrictEqual(l.placements.filter(outside),prior.placements.filter(outside))).toBe(true);
   const mask=(v:any)=>v.layers.find((q:any)=>q.name==='physical-collisions').data;
-  const a=mask(m),b=mask(old);
+  const a=mask(m),b=[...mask(old)];
+  // The approved Spark table moves one tile; every other non-reception collision stays exact.
+  [b[79*128+51],b[79*128+52]]=[b[79*128+52],b[79*128+51]];
   for(let i=0;i<a.length;i++)if(i%128<70||i%128>=79||Math.floor(i/128)<57||Math.floor(i/128)>=64)expect(a[i],`outside collision ${i}`).toBe(b[i]);
-  expect(isDeepStrictEqual(m.tilesets,old.tilesets)).toBe(true);
+  expect(isDeepStrictEqual(m.tilesets.slice(0,-4),old.tilesets)).toBe(true);
   expect(isDeepStrictEqual(m.properties,old.properties)).toBe(true);
   expect(isDeepStrictEqual(m.layers.filter((q:any)=>q.type==='objectgroup'),old.layers.filter((q:any)=>q.type==='objectgroup'))).toBe(true);
   expect(read('maps/overworld.wam')).toEqual(before['maps/overworld.wam']);

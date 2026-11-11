@@ -1,0 +1,67 @@
+{
+  "version": 1,
+  "mapId": "overworld",
+  "beforeLayoutSha256": "977b2e29e027e579e8eee25204ab09773663bb638806a4b40b944b2a5cee6416",
+  "afterLayoutSha256": "2321b047ff1c9a86b93852e7dc573a21f204a0e8847e030d41fcb61fdf2b13c8",
+  "changes": [
+    {
+      "index": 7250,
+      "before": {
+        "id": "sponsor-tier-spark-table",
+        "sprite": "table-small-white",
+        "layer": "props",
+        "x": 51,
+        "y": 79,
+        "width": 1,
+        "height": 1
+      },
+      "after": {
+        "id": "sponsor-tier-spark-table",
+        "sprite": "table-small-white",
+        "layer": "props",
+        "x": 52,
+        "y": 79,
+        "width": 1,
+        "height": 1
+      }
+    }
+  ],
+  "added": [
+    {
+      "name": "Expo / DigiSec Lab North",
+      "image": "assets/sponsors/sponsor-digisec-north.png",
+      "x": 61,
+      "y": 69,
+      "width": 6,
+      "height": 2,
+      "standing": false
+    },
+    {
+      "name": "Expo / DigiSec Lab South",
+      "image": "assets/sponsors/sponsor-digisec-south.png",
+      "x": 61,
+      "y": 71,
+      "width": 6,
+      "height": 2,
+      "standing": false
+    },
+    {
+      "name": "Expo / Newness",
+      "image": "assets/sponsors/sponsor-newness.png",
+      "x": 46,
+      "y": 78,
+      "width": 6,
+      "height": 2,
+      "standing": false
+    },
+    {
+      "name": "Expo / Lokal Zaytann",
+      "image": "assets/sponsors/sponsor-lokal-zaytann.png",
+      "x": 79,
+      "y": 78,
+      "width": 4,
+      "height": 2,
+      "standing": false
+    }
+  ]
+}

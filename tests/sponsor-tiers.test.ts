@@ -8,6 +8,7 @@ import {loadTileCatalog} from '../tools/art/catalog';
 import {assertNativeSourceProjection} from '../tools/maps/native-projection';
 import {applySponsorTiers,restoreSponsorTiers} from '../tools/maps/sponsor-tiers';
 import {restoreArrivalCheckIn} from '../tools/maps/arrival-check-in';
+import {restoreSponsorLogos} from '../tools/maps/sponsor-logos';
 import type {ObjectLayer} from '../tools/maps/types';
 import type {MapLayout,TiledMap,TileLayer} from '../tools/maps/types';
 
@@ -64,13 +65,14 @@ describe('approved sponsor tier and community layout',()=>{
   expect(changes.every(i=>i%128>=38&&i%128<90&&Math.floor(i/128)>=65&&Math.floor(i/128)<90)).toBe(true);
   expect(createHash('sha256').update(readFileSync('maps/overworld.wam')).digest('hex')).toBe(b.wamSha256);
   expect(isDeepStrictEqual(m.properties,b.native.properties)).toBe(true);
-  expect(isDeepStrictEqual(m.tilesets.slice(0,-2),b.native.tilesets),'existing atlas reservations').toBe(true);
+  // Two community panels followed by the four separately tested official sponsor panels.
+  expect(isDeepStrictEqual(m.tilesets.slice(0,-6),b.native.tilesets),'existing atlas reservations').toBe(true);
   for(const layer of b.native.layers.filter(l=>l.type==='objectgroup'&&l.name!=='wayfinding-text'))expect(isDeepStrictEqual(m.layers.find(l=>l.id===layer.id),layer),layer.name).toBe(true);
  });
 
  it('reuses approved logo identities in their new booths and matches source physics',()=>{
   const {layout:l,native:m}=current(),b=baseline();
-  expect(l.images!.filter(i=>!['Expo / AWS User Group Myanmar','Expo / OSRFM','Expo / Ten Ten'].includes(i.name)).map(i=>i.name)).toEqual(b.layout.images!.map(i=>i.name));
+  expect(restoreSponsorLogos(l).images!.filter(i=>!['Expo / AWS User Group Myanmar','Expo / OSRFM','Expo / Ten Ten'].includes(i.name)).map(i=>i.name)).toEqual(b.layout.images!.map(i=>i.name));
   expect(l.images!.find(i=>i.name==='Expo / AWS User Group Myanmar')).toMatchObject({image:'assets/sponsors/partner-aws-ug-mm.png',x:40,y:84,width:4,height:2});
   expect(l.images!.find(i=>i.name==='Expo / BSides Myanmar')).toMatchObject({x:48,y:84,width:4,height:2});
   expect(l.images!.find(i=>i.name==='Expo / Vibe Code Tours')).toMatchObject({x:56,y:84,width:4,height:2});

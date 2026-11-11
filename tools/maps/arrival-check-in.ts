@@ -1,9 +1,10 @@
 import {createHash} from 'node:crypto';
+import {applySponsorLogos,restoreSponsorLogos,isSponsorLogos} from './sponsor-logos';
 import data from '../../world/arrival-check-in-expansion.json';
 import type {MapLayout,Placement} from './types';
 
 const sha=(value:unknown)=>createHash('sha256').update(JSON.stringify(value)).digest('hex');
-export const isExpandedArrivalCheckIn=(layout:MapLayout)=>layout.id===data.mapId&&sha(layout)===data.afterLayoutSha256;
+export const isExpandedArrivalCheckIn=(layout:MapLayout)=>isSponsorLogos(layout)||(layout.id===data.mapId&&sha(layout)===data.afterLayoutSha256);
 
 /** Exact reception-only successor; other map controls and historical recipes stay intact. */
 function transform(input:MapLayout,forward:boolean):MapLayout{
@@ -18,5 +19,5 @@ function transform(input:MapLayout,forward:boolean):MapLayout{
  if(sha(layout)!==after)throw Error('Arrival check-in: unexpected source delta');
  return layout;
 }
-export const applyArrivalCheckIn=(layout:MapLayout)=>transform(layout,true);
-export const restoreArrivalCheckIn=(layout:MapLayout)=>transform(layout,false);
+export const applyArrivalCheckIn=(layout:MapLayout)=>applySponsorLogos(transform(layout,true));
+export const restoreArrivalCheckIn=(layout:MapLayout)=>transform(isSponsorLogos(layout)?restoreSponsorLogos(layout):layout,false);

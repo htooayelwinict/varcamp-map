@@ -1,0 +1,101 @@
+{
+  "schemaVersion": 1,
+  "revisions": [
+    {
+      "path": "art/sources.json",
+      "fromSha256": "3351f896f104ae119ef5317aa6f615a6ea10b8d39d90f826ba44d64f8397e839",
+      "toSha256": "a7c024339e9dc96f709dac95ee836c2d446fc665a767cb290d26cd5f8470d7bc",
+      "reason": "Place organizer-supplied DigiSec Lab (Main), Newness (Spark), and Lokal Zaytann (Mini) marks in the existing expo, moving one small Spark table clear of its mark. Preserve Duwun, all community logos, all WAM controls and other native maps. Refresh only shared atlas-checker fingerprints in dependent animation metadata."
+    },
+    {
+      "path": "art/sponsors.json",
+      "fromSha256": "b9f41ee43eb559e4ebc0806a79b9632ee81e2c70c21b16910676709785cf1a51",
+      "toSha256": "e7a3055c06e8e4e1be0ac34c349f8f95c527592a41cbbf56f03eb850a2189eda",
+      "reason": "Place organizer-supplied DigiSec Lab (Main), Newness (Spark), and Lokal Zaytann (Mini) marks in the existing expo, moving one small Spark table clear of its mark. Preserve Duwun, all community logos, all WAM controls and other native maps. Refresh only shared atlas-checker fingerprints in dependent animation metadata."
+    },
+    {
+      "path": "maps/overworld.tmj",
+      "fromSha256": "1554138a8eed622019ad1348c9f322317d2ec0b32bf04e53d8912511fa9797b8",
+      "toSha256": "58e4c40dfdf58e20f5620bcd968bec4fe1ed35494c4ee552c30e94de46f30ee2",
+      "reason": "Place organizer-supplied DigiSec Lab (Main), Newness (Spark), and Lokal Zaytann (Mini) marks in the existing expo, moving one small Spark table clear of its mark. Preserve Duwun, all community logos, all WAM controls and other native maps. Refresh only shared atlas-checker fingerprints in dependent animation metadata."
+    },
+    {
+      "path": "maps/preview/overworld.tmj",
+      "fromSha256": "3d6495435a6c6d2d1297262badbb4d81104a508ab75aadf0b8980695f9a152be",
+      "toSha256": "4e33beff0cde41e734520b4119603a19892019542d883c1fd946791a3d32faf9",
+      "reason": "Place organizer-supplied DigiSec Lab (Main), Newness (Spark), and Lokal Zaytann (Mini) marks in the existing expo, moving one small Spark table clear of its mark. Preserve Duwun, all community logos, all WAM controls and other native maps. Refresh only shared atlas-checker fingerprints in dependent animation metadata."
+    },
+    {
+      "path": "world/layouts/air-district.json",
+      "fromSha256": "c3dccc91e343c06368c7d0fb91df5105b7d25ed404b1c038c3e4831ef5aa1050",
+      "toSha256": "aaae430937c462e4cc6cc36023ea0ddbb2589e98a05e8e607c8d99cc04eeff52",
+      "reason": "Place organizer-supplied DigiSec Lab (Main), Newness (Spark), and Lokal Zaytann (Mini) marks in the existing expo, moving one small Spark table clear of its mark. Preserve Duwun, all community logos, all WAM controls and other native maps. Refresh only shared atlas-checker fingerprints in dependent animation metadata."
+    },
+    {
+      "path": "world/layouts/comet-maze.json",
+      "fromSha256": "c373b938e86d365b6059678729a0834eb028d307b4d9adc78126853ceeda43eb",
+      "toSha256": "887a862485a547aaff4796e8e3cc8f818a981c1da276818f9c1963b15938805c",
+      "reason": "Place organizer-supplied DigiSec Lab (Main), Newness (Spark), and Lokal Zaytann (Mini) marks in the existing expo, moving one small Spark table clear of its mark. Preserve Duwun, all community logos, all WAM controls and other native maps. Refresh only shared atlas-checker fingerprints in dependent animation metadata."
+    },
+    {
+      "path": "world/layouts/earth-district.json",
+      "fromSha256": "50ffd9d44680757aaee5c4953d15624bd47ec90680342ae97bba86fb3bc8ffad",
+      "toSha256": "aa3daf7cd791beb03fe2b88c6ae95286afec040957c3d723b255d5f973b00da7",
+      "reason": "Place organizer-supplied DigiSec Lab (Main), Newness (Spark), and Lokal Zaytann (Mini) marks in the existing expo, moving one small Spark table clear of its mark. Preserve Duwun, all community logos, all WAM controls and other native maps. Refresh only shared atlas-checker fingerprints in dependent animation metadata."
+    },
+    {
+      "path": "world/layouts/fa-ship.json",
+      "fromSha256": "69cf9204a212bbfcfe8c73ea2794ec308cf1ef293e323e1b990fe999b9da7137",
+      "toSha256": "1840cb560785e97da2ec5275274e36c232e5645a37e7782794cd46da990bcc5d",
+      "reason": "Place organizer-supplied DigiSec Lab (Main), Newness (Spark), and Lokal Zaytann (Mini) marks in the existing expo, moving one small Spark table clear of its mark. Preserve Duwun, all community logos, all WAM controls and other native maps. Refresh only shared atlas-checker fingerprints in dependent animation metadata."
+    },
+    {
+      "path": "world/layouts/fire-district.json",
+      "fromSha256": "50aa5a6b4b8187b9145c7dcfe3470455e2a8a43b7523d7ffe184205a2ce35aba",
+      "toSha256": "565a6a5499f70c0df9fad0aa8592a628e2a426591c2b5424e3ea7d3aa827e7c6",
+      "reason": "Place organizer-supplied DigiSec Lab (Main), Newness (Spark), and Lokal Zaytann (Mini) marks in the existing expo, moving one small Spark table clear of its mark. Preserve Duwun, all community logos, all WAM controls and other native maps. Refresh only shared atlas-checker fingerprints in dependent animation metadata."
+    },
+    {
+      "path": "world/layouts/hidden-observatory.json",
+      "fromSha256": "5c22033cfd60df1beae8451bab11f8e6a1f4e3271c617b54ba8c44ffac608439",
+      "toSha256": "6fe4201fcee953d910178ccc6a89093e814d3d502b7188c3e17eb1c9c33c5703",
+      "reason": "Place organizer-supplied DigiSec Lab (Main), Newness (Spark), and Lokal Zaytann (Mini) marks in the existing expo, moving one small Spark table clear of its mark. Preserve Duwun, all community logos, all WAM controls and other native maps. Refresh only shared atlas-checker fingerprints in dependent animation metadata."
+    },
+    {
+      "path": "world/layouts/nebula-arcade.json",
+      "fromSha256": "244cca4fd776fee1f77c754bbcd4cc80547c9ad5d2c78d7df19354eb78c4240f",
+      "toSha256": "378799ef8d534f35f6512626e8b61325a4f1c3fbdf18787a266e8e6cb44e8a58",
+      "reason": "Place organizer-supplied DigiSec Lab (Main), Newness (Spark), and Lokal Zaytann (Mini) marks in the existing expo, moving one small Spark table clear of its mark. Preserve Duwun, all community logos, all WAM controls and other native maps. Refresh only shared atlas-checker fingerprints in dependent animation metadata."
+    },
+    {
+      "path": "world/layouts/orbit-maze.json",
+      "fromSha256": "20446fd27b9742a7c8da9794a847b8893e1e716fc76c84d8a55b21f3105dfaac",
+      "toSha256": "b76dc89a7e8f3529cf59c303fea4508e7042d510800b5d849928836c7e5d2836",
+      "reason": "Place organizer-supplied DigiSec Lab (Main), Newness (Spark), and Lokal Zaytann (Mini) marks in the existing expo, moving one small Spark table clear of its mark. Preserve Duwun, all community logos, all WAM controls and other native maps. Refresh only shared atlas-checker fingerprints in dependent animation metadata."
+    },
+    {
+      "path": "world/layouts/orbit-playground.json",
+      "fromSha256": "24187016c752a43a4677f638b0c3215169332b49bf750bcb1bcc94d0e17f6337",
+      "toSha256": "1acb27686c9c5f045eb77dda93753045ed43df649029b2b2b36c8de40c7255ab",
+      "reason": "Place organizer-supplied DigiSec Lab (Main), Newness (Spark), and Lokal Zaytann (Mini) marks in the existing expo, moving one small Spark table clear of its mark. Preserve Duwun, all community logos, all WAM controls and other native maps. Refresh only shared atlas-checker fingerprints in dependent animation metadata."
+    },
+    {
+      "path": "world/layouts/overworld.json",
+      "fromSha256": "844d05fe762b3f7aef6a1f8b4ab9210e64028d257390e9cc5dcc4ec51c17c484",
+      "toSha256": "3a0d0686ff081d685affeeac1e89577fff05823b656533346c4128da2df07942",
+      "reason": "Place organizer-supplied DigiSec Lab (Main), Newness (Spark), and Lokal Zaytann (Mini) marks in the existing expo, moving one small Spark table clear of its mark. Preserve Duwun, all community logos, all WAM controls and other native maps. Refresh only shared atlas-checker fingerprints in dependent animation metadata."
+    },
+    {
+      "path": "world/layouts/water-district.json",
+      "fromSha256": "97df9003631ee2639120513d34c98afe06afc01e7bfc29938b640c8ea9c53381",
+      "toSha256": "4e1551c22b95b4c0bcb95e3dae0c185e6b211a20b40054416b4b6759032bf353",
+      "reason": "Place organizer-supplied DigiSec Lab (Main), Newness (Spark), and Lokal Zaytann (Mini) marks in the existing expo, moving one small Spark table clear of its mark. Preserve Duwun, all community logos, all WAM controls and other native maps. Refresh only shared atlas-checker fingerprints in dependent animation metadata."
+    },
+    {
+      "path": "world/layouts/zodiac-festival-park.json",
+      "fromSha256": "abe86d2719c3be4eab62faa0901f8f47831414c8b72cd2a281a8d60ec2996a60",
+      "toSha256": "1cd604b2d7c71df5e352fd8ffeeb6a7d6c9ed8bddd5e31e7c39744ae79d6bb39",
+      "reason": "Place organizer-supplied DigiSec Lab (Main), Newness (Spark), and Lokal Zaytann (Mini) marks in the existing expo, moving one small Spark table clear of its mark. Preserve Duwun, all community logos, all WAM controls and other native maps. Refresh only shared atlas-checker fingerprints in dependent animation metadata."
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "version": 1,
+  "logos": [
+    {
+      "source": "DigSecLab_Secondary.png",
+      "width": 192,
+      "height": 128,
+      "contentWidth": 184,
+      "contentHeight": 120,
+      "panels": [
+        {
+          "file": "sponsor-digisec-north.png",
+          "top": 0
+        },
+        {
+          "file": "sponsor-digisec-south.png",
+          "top": 64
+        }
+      ],
+      "name": "DigiSec Lab",
+      "tier": "Main",
+      "sourceUrl": "https://drive.google.com/file/d/1AESwtaTQrEX7sxBpTl1Qw1xvF-8lpg3U/view",
+      "sourceSha256": "855d08daa0c09a0205e142d48ef9c32ed0a53043b204929fd8484c62e1451c4d",
+      "crop": {
+        "left": 577,
+        "top": 1085,
+        "width": 7161,
+        "height": 6369
+      }
+    },
+    {
+      "source": "newness-white.png",
+      "width": 192,
+      "height": 64,
+      "contentWidth": 176,
+      "contentHeight": 44,
+      "panels": [
+        {
+          "file": "sponsor-newness.png",
+          "top": 0
+        }
+      ],
+      "name": "Newness",
+      "tier": "Spark",
+      "sourceUrl": "https://drive.google.com/file/d/1ODDC3h0vmgEFtFfoxlRpImpTmatcHIXK/view",
+      "sourceSha256": "7bae96dd4356e95c8bd9ce720ef4f38ef5a13b5f860065e34f263fbd09a9a3a5",
+      "crop": {
+        "left": 0,
+        "top": 0,
+        "width": 1828,
+        "height": 469
+      }
+    },
+    {
+      "source": "Lokal-Zaytann.png",
+      "width": 128,
+      "height": 64,
+      "contentWidth": 120,
+      "contentHeight": 56,
+      "panels": [
+        {
+          "file": "sponsor-lokal-zaytann.png",
+          "top": 0
+        }
+      ],
+      "name": "Lokal Zaytann",
+      "tier": "Mini",
+      "sourceUrl": "https://drive.google.com/file/d/1xAoLcd_zu6ilUAjOEMARNU70nqJ1EcVl/view",
+      "sourceSha256": "a0b5aca8de858941dd52caae880c9cf0e2d156e09c5857cc4faf63d58591fc87",
+      "crop": {
+        "left": 14,
+        "top": 9,
+        "width": 837,
+        "height": 664
+      }
+    }
+  ]
+}

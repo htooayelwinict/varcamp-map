@@ -1,4 +1,14 @@
-# Replace the first-arrival sponsor logos
+# Sponsor artwork
+
+## Current official tiers (2026-11-11)
+
+The central Main pavilion displays DigiSec Lab, the Spark booth displays Newness, and the Mini booth displays Lokal Zaytann. Duwun is reserved as a media sponsor and is not added by this change. The five community logos and the Info Desk remain unchanged.
+
+The official originals, permission notes, source links and deterministic export recipe are in `art/source/sponsors/tier-logos/`. See its `NOTICE.md` before replacing artwork. Run `node tools/art/sponsor-logo-export.mjs` to regenerate only these tier panels, or add `--out <directory>` to compare exports without overwriting assets. DigiSec uses two adjoining 192×64 panels, Newness one 192×64 panel and Lokal Zaytann one 128×64 panel. Colours, lettering and proportions are preserved; logos are walkable floor inlays. The one-tile shift of Spark's small table keeps its logo unobscured.
+
+`world/sponsor-logos.json` records the exact source transition; `tools/maps/sponsor-logo-context.ts` appends its four atlas reservations after the previous roster. Existing controls, collision outside the table's two cells, booth entrances and shared walls are preserved. `tests/sponsor-logos.test.ts` covers the originals, export reproducibility, complete native rendering, restricted scope and rejected malformed variants. Run tests individually under the 6 GB memory/no-swap scope documented for this devbox.
+
+## Historical first-arrival placeholders
 
 The arrival uses three independent visible Tiled tile layers. Each complete PNG is a standalone embedded 6×2 tileset with 32px cells, separate from shared furniture atlases, painted below avatars as walkable floor inlays. This representation is rendered by the pinned WorkAdventure engine; its image layers are unsupported. DEMO ORBIT, DEMO NOVA and DEMO ATLAS are original fictional placeholders with no sponsor links or affiliation claims. Their original artwork is dedicated under CC0; provenance and replacement records are in `art/sponsors.json` and included in release credits.
 
