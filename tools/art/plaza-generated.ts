@@ -21,7 +21,7 @@ export async function renderPlazaIdentity(){
  }
  const zodiac=await sharp(inputs.zodiac.path).resize(512,384,{kernel:'nearest'}).png().toBuffer();
  const brand=(await renderEventIdentity()).brand;
- const metadata={version:2,operation:'Original zodiac nearest-neighbor export retained; event lockup uses the owner-supplied pink flame and readable pixel wordmark',inputs:{...source,eventMark:{path:EVENT_MARK,sha256:hash(readFileSync(EVENT_MARK))}},
+ const metadata={version:2,operation:'Original zodiac nearest-neighbor export retained; event lockup uses the owner-supplied pink flame and reference-style bold uppercase wordmark',inputs:{...source,eventMark:{path:EVENT_MARK,sha256:hash(readFileSync(EVENT_MARK))}},
   exports:{zodiac:{path:'assets/tilesets/original/zodiac-emblems.png',width:512,height:384,cellWidth:128,cellHeight:128,sha256:hash(zodiac)},brand:{path:'assets/sponsors/varcamp-2026.png',width:192,height:64,sha256:hash(brand)}}};
  return {zodiac,brand,metadata};
 }

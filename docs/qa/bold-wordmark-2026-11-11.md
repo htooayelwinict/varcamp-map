@@ -1,0 +1,15 @@
+# Reference-style bold wordmark — 11 November 2026
+
+Scope: the user's new screenshot supersedes the pixel choice with bold squared uppercase lettering. Russo One is a close visual match, not an asserted exact identification. Its original font and SIL OFL attribution are bundled. Only the six shared logo images and their exporter/provenance change; native maps, layouts, saved controls, flame and subtitle remain protected.
+
+Failing-first evidence: tests initially rejected the old titlecase/pixel metadata and unchanged lettering. A separate check rejected missing font attribution. The frozen predecessor binds all six prior PNGs and 141 protected files at base `4aa4790c7c9ba1fa4478aa9b1287d94cb152ce65`; fixture SHA-256 `00b915f1aa9fe14f43819e4ab2072950609447902bd349016a4153ff73cb3f47`.
+
+The renderer checks the exact font bytes to prevent Sharp's silent fallback when a font file is missing. Tests check uppercase/bundled-font provenance, heavier white ink with seven separate letter shapes at all three sizes, exact RGBA preservation outside wordmark bounds, unchanged dimensions and quadrant seams, protected source bytes, reproducible exports and finite artwork successor receipts. Existing kerning may overlap glyph bounding columns, so the test counts connected ink shapes instead of imposing rectangular gaps.
+
+Five typography/provenance tests, three applicable event-identity tests and three plaza original-art tests passed. The full artwork check passed for all 3,067 sprites; TypeScript, Vite and all 34 maps passed validation. All tests run one file at a time inside tmux with MemoryMax=6G and MemorySwapMax=0. The historical hall-map pin in event-identity.test.ts predates this work and remains outside this font change; applicable tests run by explicit names. No full-suite success is claimed.
+
+The candidate native Chromium check passed at the entrance, info desk and Solar hall, both initially and after reload: exact prepared map/WAM data, all six reviewed logo files, reachable viewing positions and zero page errors. The hall toolbar partially covers its header; fetched logo bytes and native artwork are also verified. Independent code review and live deployment remain separate gates. Evidence is retained under `.orca/bold-wordmark-20261111` and `.qa/release-20261111-bold-wordmark`; the final local verification receipt records actual deployment status.
+
+The first build caught a credit-packaging integration mismatch from a separate font category. The font now remains within the existing VarCamp artwork source entry, with its original OFL included in that entry's published credit files. A failing-first check binds those published license bytes to the original. The release engine and closed source-category roster are unchanged.
+
+The prepared package preserves all 34 maps except script/logo version URLs and all 34 live saved WAMs except map URL version tokens. It includes the exact original font license in the existing credits directory. Expected live inventory: 1,139 files; package SHA-256 `2fcf895ec597c8deeecd91735f11286f54e54487bbf3b90b5a2d8045e1f82710`.

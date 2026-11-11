@@ -1,12 +1,26 @@
-VarCamp organizer-supplied pink event identity
+# VarCamp event identity
 
-Lewis supplied the exact flame artwork on 2026-11-09 and requested its use in
-every VarCamp map logo. Artwork and trademark rights remain with their owners.
-See NOTICE.txt for the event-use permission and retained source hash.
+VarCamp event identity, supplied by Lewis on 2026-11-09.
 
-The horizontal lockup uses the readable titlecase VarCamp pixel wordmark
-selected by Lewis on 2026-11-11 and retains the MYANMAR 2026 subtitle. The
-bitmap glyph source is art/source/event-identity/pixel-wordmark.json; no
-external fonts are used. The original upload is kept byte-for-byte at
-art/source/event-identity/supplied-flame.png in the source repository.
-tools/art/event-identity.ts produces the transparent native map exports.
+supplied-flame.png is the exact uploaded logo (1).png, retained byte-for-byte.
+SHA-256: ffb579d7e977790707d29abaf7f86c0451703973a6f2ff1805f31aa4442a1aa2
+
+The event organizer requested its use for every VarCamp map logo. Rights in
+the brand and supplied artwork remain with their respective owners. This is
+organizer-approved event use, not a CC0 dedication or a general sublicense.
+
+The derived horizontal SVG embeds the supplied flame pixels with an alpha-only
+export crop. Current exports use white uppercase VARCAMP in Russo One, matching
+the organizer's later bold squared reference on 2026-11-11. The previous pixel
+recipe and original vector master are retained as historical sources.
+The flame, MYANMAR 2026 subtitle, transparency and native map footprints remain
+unchanged. No font download is required by the map browser.
+
+Russo One: copyright (c) 2011-2012, Jovanny Lemonad (jovanny.ru), with Reserved
+Font Name "Russo". Unmodified font from the Google Fonts repository:
+https://github.com/google/fonts/tree/main/ofl/russoone
+Font SHA-256: bc0abcc660bd8b7ad3000ecb2898a27c58a29a50f7ec81652fa12e75148d09df
+Font and full SIL Open Font License 1.1: art/source/event-identity/RussoOne-Regular.ttf
+and art/source/event-identity/OFL.txt (also included beside the published credits).
+The font license is separate from rights
+in the VarCamp brand. Current native exports are recorded in exports.json.

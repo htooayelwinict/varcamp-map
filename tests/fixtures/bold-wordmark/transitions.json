@@ -1,0 +1,84 @@
+{
+  "base": "4aa4790c7c9ba1fa4478aa9b1287d94cb152ce65",
+  "transitions": {
+    "art/source/event-identity/NOTICE.txt": [
+      "d58dd24a6ac45178e580f66fb60e71d69340690c88053924d2988c7d05581ad1",
+      "29fa551f43662317638ea0fbf46ac8c6be3e97ff10d2ee932b3696fa3300b464"
+    ],
+    "art/source/event-identity/exports.json": [
+      "0179b0297006ca17c66d548d6f33fc838d00a02fe75ca1af748474ee75d69cbf",
+      "7b2d1f320723cf787e459eb63e4d03389f73249ab702c77c9b9b80f5ef3a49af"
+    ],
+    "art/source/event-identity/horizontal.svg": [
+      "c73393d7bf3e7f35ccfe5dd97814eb1fe21d8c2e0a98e5a2a9ea65f5592e0b9e",
+      "8832118f9185582c4b10d41fe2dbc6c1e4c780eb1fece4d47b5a7c65f7c73502"
+    ],
+    "art/source/plaza-generated.json": [
+      "34b69a5be7e436de22d98326f178542ccf44631a49292bf1bdc6b9231701cc91",
+      "377adb78418a3737f22f7172d6681eed868718b79b0e77fdae134ab13d33bd52"
+    ],
+    "art/sources.json": [
+      "f54c9abd93ff2b4f1bed454865b37044e702b7dc1f7c5d0594faf765900dfbf0",
+      "4e925f0afde2724aed325e739fb0966291e5c8d8801698e86f2b232c8ac045d7"
+    ],
+    "art/sponsors.json": [
+      "eb5719af825d007d3acd3203c739e4447fe8761fd61ba557ac0426cf16ef847f",
+      "ce2843055fd66b81a7276ebcf523a06ea6c7e03d7ad5e2a37e3e69692020de7f"
+    ],
+    "assets/sponsors/varcamp-2026.png": [
+      "71eff83f6f473a440c8befb66815b08c06743d68bc7611122c779cc4e272756b",
+      "3d7b6c65a9035897f729b76b44d90c79506cde8cb83506e49a54323e0fed846d"
+    ],
+    "assets/sponsors/varcamp-arrival-ne.png": [
+      "601c86ad58cd74e872f80e52326803a548ca34fab3083388fecf6b048f4214a2",
+      "7bd322bc95c61536796816d2a31e4385635444ba02fc0367e14a32769eab6481"
+    ],
+    "assets/sponsors/varcamp-arrival-nw.png": [
+      "7a61504d53b019ab627c15f14b26d5bf3f5918f8999aea65f0d51d3119d0eaf9",
+      "8e96cfdee37820f1d8d78e96972889b5df0cd2a1033b7e77bde6db871f1331e6"
+    ],
+    "assets/sponsors/varcamp-arrival-se.png": [
+      "be239738450c7831eadd8df3fc554918137a34e3b0182e4f4e730a310d46a891",
+      "9bfb53a33e159567ffeecd937766915087adf0ca27881976e7e1c65767b54970"
+    ],
+    "assets/sponsors/varcamp-arrival-sw.png": [
+      "8ef1972a4522f778dc30232f5e286320200dd68ad4eed9896437817c12be5f20",
+      "21072a0da7fefb24f129b96f506ee18c8b7bef1c4181e3fb011c12fc4890f0b0"
+    ],
+    "assets/sponsors/varcamp-horizontal.png": [
+      "00fe1410c936e70cfc28918b1015ad2131fccc04e82c8d8dcb36948f310ae18a",
+      "22fe367e5bb62da86260e84870957877cac301afce5aad8f042df06c43f6a037"
+    ],
+    "assets/tilesets/varcamp-event-identity/ATTRIBUTION.md": [
+      "f1ef3a47da8a7f5d216f2a475b415bd3de642d6bd7e932ea5f3c21ae6d011675",
+      "75fb83765c4bf56b127f669e14cfc1fe9d0130c3a3b1a185a5c61821b7ba0efa"
+    ],
+    "assets/tilesets/varcamp-event-identity/NOTICE.txt": [
+      "d58dd24a6ac45178e580f66fb60e71d69340690c88053924d2988c7d05581ad1",
+      "29fa551f43662317638ea0fbf46ac8c6be3e97ff10d2ee932b3696fa3300b464"
+    ],
+    "tools/art/event-identity.ts": [
+      "ad482988d6d2e625e8d44c48a7b766606e578055d83c64d919c6a43be6632b3e",
+      "5d9df32b3796b843d038d45b7540ebf8fea86d804977fbef39eb9e90eab083b8"
+    ],
+    "tools/art/plaza-generated.ts": [
+      "1ef2b9b37da89b047d73520f401b9a4b3da38309dd53f013f1be99cce4172fad",
+      "949272547ce3dd6f54f459c032f575cd0edfb1b0de5c3f0024089afe649d9cd6"
+    ]
+  },
+  "fontFiles": [
+    {
+      "path": "art/source/event-identity/RussoOne-Regular.ttf",
+      "sha256": "bc0abcc660bd8b7ad3000ecb2898a27c58a29a50f7ec81652fa12e75148d09df"
+    },
+    {
+      "path": "art/source/event-identity/OFL.txt",
+      "sha256": "3ac1301549523d9861fedca12871f24e575fbd26d520632fc00ba849b471d275"
+    }
+  ],
+  "registryNotes": {
+    "varcamp-event-identity": " 2026-11-11: the subsequent organizer reference replaces the pixel selection with bold uppercase VARCAMP in Russo One, baked into six transparent PNGs; flame, subtitle and footprints retained. Font by Jovanny Lemonad under SIL OFL 1.1, bundled with its license.",
+    "varcamp-organiser": " 2026-11-11: organizer reference now uses bold uppercase VARCAMP in Russo One; flame, subtitle and placements unchanged.",
+    "zodiac-emblems": " 2026-11-11: event panel lettering changed to reference-style bold uppercase VARCAMP; zodiac artwork and supplied flame unchanged."
+  }
+}

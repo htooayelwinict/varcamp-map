@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "revisions": [
+    {
+      "path": "art/sources.json",
+      "fromSha256": "f54c9abd93ff2b4f1bed454865b37044e702b7dc1f7c5d0594faf765900dfbf0",
+      "toSha256": "4e925f0afde2724aed325e739fb0966291e5c8d8801698e86f2b232c8ac045d7",
+      "reason": "Organizer reference-style bold uppercase VARCAMP in Russo One; preserve supplied magenta flame, subtitle, map dimensions and all saved controls. Update exact owner artwork provenance."
+    },
+    {
+      "path": "art/sponsors.json",
+      "fromSha256": "eb5719af825d007d3acd3203c739e4447fe8761fd61ba557ac0426cf16ef847f",
+      "toSha256": "ce2843055fd66b81a7276ebcf523a06ea6c7e03d7ad5e2a37e3e69692020de7f",
+      "reason": "Organizer reference-style bold uppercase VARCAMP in Russo One; preserve supplied magenta flame, subtitle, map dimensions and all saved controls. Update exact owner artwork provenance."
+    }
+  ]
+}
