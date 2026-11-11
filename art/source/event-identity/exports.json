@@ -1,6 +1,16 @@
 {
-  "version": 1,
-  "operation": "Owner-supplied pink flame, alpha-only crop and aspect-fit native export; retained vector wordmark and MYANMAR 2026 pixel subtitle",
+  "version": 2,
+  "operation": "Owner-supplied pink flame and MYANMAR 2026 subtitle retained; VarCamp wordmark exported as white integer-grid pixel lettering at each native size",
+  "typography": {
+    "text": "VarCamp",
+    "style": "pixel",
+    "source": "art/source/event-identity/pixel-wordmark.json",
+    "scales": {
+      "arrival": 6,
+      "room": 3,
+      "booth": 2
+    }
+  },
   "inputs": [
     {
       "path": "art/source/event-identity/supplied-flame.png",
@@ -11,12 +21,16 @@
       "sha256": "05f5ea29e8635156bf4ed74f9e39a6067bb2121ac266db514d7918703924250f"
     },
     {
+      "path": "art/source/event-identity/pixel-wordmark.json",
+      "sha256": "295eb8b6aadd452db2378094e243d80ceca97368ddbb74c3c0697ea20582bce1"
+    },
+    {
       "path": "art/source/hub-nameplates.json",
       "sha256": "84ca7be058c64921726f0879e148c4900444621aae75f427e24c0014ae4e9293"
     },
     {
       "path": "tools/art/event-identity.ts",
-      "sha256": "9b7cdd4ad43fc90de8151b1c9622675c59443c45e5d6ddf5e9db9db73ebf5a47"
+      "sha256": "ad482988d6d2e625e8d44c48a7b766606e578055d83c64d919c6a43be6632b3e"
     }
   ],
   "crop": {
@@ -30,37 +44,37 @@
       "path": "assets/sponsors/varcamp-2026.png",
       "width": 192,
       "height": 64,
-      "sha256": "8180921d45eaf6c20fabfe686e1f8db7fabb2448f5114f6b1d90d6d6ab42ef21"
+      "sha256": "71eff83f6f473a440c8befb66815b08c06743d68bc7611122c779cc4e272756b"
     },
     {
       "path": "assets/sponsors/varcamp-horizontal.png",
       "width": 128,
       "height": 64,
-      "sha256": "a60b7ab8452d46a364a6bf724abff5b6d912c24234b7e383c2a5efaf2cf7c04c"
+      "sha256": "00fe1410c936e70cfc28918b1015ad2131fccc04e82c8d8dcb36948f310ae18a"
     },
     {
       "path": "assets/sponsors/varcamp-arrival-nw.png",
       "width": 192,
       "height": 64,
-      "sha256": "ae3443d8044ce4b02c443bb2331c0fd2ef892cd0ecd0f41ed54209ce9a2c8eb6"
+      "sha256": "7a61504d53b019ab627c15f14b26d5bf3f5918f8999aea65f0d51d3119d0eaf9"
     },
     {
       "path": "assets/sponsors/varcamp-arrival-ne.png",
       "width": 192,
       "height": 64,
-      "sha256": "b92a08c65e2ee75c7526dabf9421f6febc3ebb9ba233d635d7155be421f41fcb"
+      "sha256": "601c86ad58cd74e872f80e52326803a548ca34fab3083388fecf6b048f4214a2"
     },
     {
       "path": "assets/sponsors/varcamp-arrival-sw.png",
       "width": 192,
       "height": 64,
-      "sha256": "b8f805bc4ccff3e7bdd63f55752077b6f5b4aceaf415693a25b75624f71b6841"
+      "sha256": "8ef1972a4522f778dc30232f5e286320200dd68ad4eed9896437817c12be5f20"
     },
     {
       "path": "assets/sponsors/varcamp-arrival-se.png",
       "width": 192,
       "height": 64,
-      "sha256": "3ae566a36e376acdde669780af34241a83aedef2ed54b3ff33db186faef98717"
+      "sha256": "be239738450c7831eadd8df3fc554918137a34e3b0182e4f4e730a310d46a891"
     }
   ]
 }

@@ -1,0 +1,78 @@
+{
+  "base": "34f52ccb8c43c9683a1e43d7b71750f7601ff34b",
+  "transitions": {
+    "art/source/event-identity/NOTICE.txt": [
+      "6bc55b1cf48b918357a6e6c3d5d7ab2b4553245bfc75d2699c8c43da276fee42",
+      "d58dd24a6ac45178e580f66fb60e71d69340690c88053924d2988c7d05581ad1"
+    ],
+    "art/source/event-identity/exports.json": [
+      "8fd6ad67b3b76aa0d2c6697b56b68402ccfd2a66d58bd45cbd6fa987d850f5fe",
+      "0179b0297006ca17c66d548d6f33fc838d00a02fe75ca1af748474ee75d69cbf"
+    ],
+    "art/source/event-identity/horizontal.svg": [
+      "7dc8631e1e824e8641438e8c3aa1de4b45ff00affb23ffa7983ea54af7073139",
+      "c73393d7bf3e7f35ccfe5dd97814eb1fe21d8c2e0a98e5a2a9ea65f5592e0b9e"
+    ],
+    "art/source/plaza-generated.json": [
+      "8a292b7cef9c027a84f517fc430ca17835b23a6a2eeb16d1b6da29c98f3a85a9",
+      "34b69a5be7e436de22d98326f178542ccf44631a49292bf1bdc6b9231701cc91"
+    ],
+    "art/sources.json": [
+      "35c836f1bb53f8553c78ff76a7fbdf29bde9a8f14559193dcb2b489fa9caa914",
+      "f54c9abd93ff2b4f1bed454865b37044e702b7dc1f7c5d0594faf765900dfbf0"
+    ],
+    "art/sponsors.json": [
+      "f0f806d08a7f3c82bb5088df7a7de4a9dddcdf3ee9c7e276699ecbbb2866c36b",
+      "eb5719af825d007d3acd3203c739e4447fe8761fd61ba557ac0426cf16ef847f"
+    ],
+    "assets/sponsors/varcamp-2026.png": [
+      "8180921d45eaf6c20fabfe686e1f8db7fabb2448f5114f6b1d90d6d6ab42ef21",
+      "71eff83f6f473a440c8befb66815b08c06743d68bc7611122c779cc4e272756b"
+    ],
+    "assets/sponsors/varcamp-arrival-ne.png": [
+      "b92a08c65e2ee75c7526dabf9421f6febc3ebb9ba233d635d7155be421f41fcb",
+      "601c86ad58cd74e872f80e52326803a548ca34fab3083388fecf6b048f4214a2"
+    ],
+    "assets/sponsors/varcamp-arrival-nw.png": [
+      "ae3443d8044ce4b02c443bb2331c0fd2ef892cd0ecd0f41ed54209ce9a2c8eb6",
+      "7a61504d53b019ab627c15f14b26d5bf3f5918f8999aea65f0d51d3119d0eaf9"
+    ],
+    "assets/sponsors/varcamp-arrival-se.png": [
+      "3ae566a36e376acdde669780af34241a83aedef2ed54b3ff33db186faef98717",
+      "be239738450c7831eadd8df3fc554918137a34e3b0182e4f4e730a310d46a891"
+    ],
+    "assets/sponsors/varcamp-arrival-sw.png": [
+      "b8f805bc4ccff3e7bdd63f55752077b6f5b4aceaf415693a25b75624f71b6841",
+      "8ef1972a4522f778dc30232f5e286320200dd68ad4eed9896437817c12be5f20"
+    ],
+    "assets/sponsors/varcamp-horizontal.png": [
+      "a60b7ab8452d46a364a6bf724abff5b6d912c24234b7e383c2a5efaf2cf7c04c",
+      "00fe1410c936e70cfc28918b1015ad2131fccc04e82c8d8dcb36948f310ae18a"
+    ],
+    "assets/tilesets/varcamp-event-identity/ATTRIBUTION.md": [
+      "c477e9e5b5e32019c43986b961a2c039fc458e494f5ec934d4cab09ae2850475",
+      "f1ef3a47da8a7f5d216f2a475b415bd3de642d6bd7e932ea5f3c21ae6d011675"
+    ],
+    "assets/tilesets/varcamp-event-identity/NOTICE.txt": [
+      "6bc55b1cf48b918357a6e6c3d5d7ab2b4553245bfc75d2699c8c43da276fee42",
+      "d58dd24a6ac45178e580f66fb60e71d69340690c88053924d2988c7d05581ad1"
+    ],
+    "tools/art/event-identity.ts": [
+      "9b7cdd4ad43fc90de8151b1c9622675c59443c45e5d6ddf5e9db9db73ebf5a47",
+      "ad482988d6d2e625e8d44c48a7b766606e578055d83c64d919c6a43be6632b3e"
+    ],
+    "tools/art/plaza-generated.ts": [
+      "79dda1b8d05a18ce0762971fc51507f4a48cc2c6401a304ecdd80e65aec07ea3",
+      "1ef2b9b37da89b047d73520f401b9a4b3da38309dd53f013f1be99cce4172fad"
+    ]
+  },
+  "fontFile": {
+    "path": "art/source/event-identity/pixel-wordmark.json",
+    "sha256": "295eb8b6aadd452db2378094e243d80ceca97368ddbb74c3c0697ea20582bce1"
+  },
+  "registryNotes": {
+    "varcamp-event-identity": " 2026-11-11: organizer selected readable titlecase pixel lettering; the six transparent exports now use the original bitmap recipe in pixel-wordmark.json. The supplied flame, subtitle and export footprints are preserved.",
+    "varcamp-organiser": " 2026-11-11: current VarCamp lettering uses the organizer-selected pixel wordmark; supplied flame and subtitle remain unchanged.",
+    "zodiac-emblems": " 2026-11-11: current VarCamp panel uses the organizer-selected pixel wordmark; zodiac emblems and supplied flame remain unchanged."
+  }
+}

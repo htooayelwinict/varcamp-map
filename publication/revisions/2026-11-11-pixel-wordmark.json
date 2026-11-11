@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "revisions": [
+    {
+      "path": "art/sources.json",
+      "fromSha256": "35c836f1bb53f8553c78ff76a7fbdf29bde9a8f14559193dcb2b489fa9caa914",
+      "toSha256": "f54c9abd93ff2b4f1bed454865b37044e702b7dc1f7c5d0594faf765900dfbf0",
+      "reason": "Organizer-selected readable VarCamp pixel wordmark; preserve supplied magenta flame, subtitle, map dimensions and all saved controls. Update exact owner artwork provenance."
+    },
+    {
+      "path": "art/sponsors.json",
+      "fromSha256": "f0f806d08a7f3c82bb5088df7a7de4a9dddcdf3ee9c7e276699ecbbb2866c36b",
+      "toSha256": "eb5719af825d007d3acd3203c739e4447fe8761fd61ba557ac0426cf16ef847f",
+      "reason": "Organizer-selected readable VarCamp pixel wordmark; preserve supplied magenta flame, subtitle, map dimensions and all saved controls. Update exact owner artwork provenance."
+    }
+  ]
+}

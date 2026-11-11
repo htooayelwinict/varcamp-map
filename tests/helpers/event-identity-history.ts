@@ -6,15 +6,22 @@ const bytes=readFileSync('tests/fixtures/event-identity/transitions.json');
 assert.equal(createHash('sha256').update(bytes).digest('hex'),'c6e9de195a6efebb7815d74de64d1129afcb0c1c03e8b918099018c8323b08c5');
 const receipt=JSON.parse(bytes.toString());
 assert.equal(receipt.base,'5de44ff7f79b90fe00242970d98dea930fa68dc5');
+const wordmarkBytes=readFileSync('tests/fixtures/pixel-wordmark/transitions.json');
+assert.equal(createHash('sha256').update(wordmarkBytes).digest('hex'),'8505ac11a022984bf23c9faa64ed238fdd7af7bbcedc8ff7b582762e898a1653');
+const wordmark=JSON.parse(wordmarkBytes.toString());
+assert.equal(wordmark.base,'34f52ccb8c43c9683a1e43d7b71750f7601ff34b');
 export function eventIdentitySuccessorSha(path:string,pin:string):string {
   const pair=receipt.transitions[path];
-  return arrivalSponsorSpaceSuccessorSha(path, pair && pair[0]===pin ? pair[1] : pin);
+  const prior=arrivalSponsorSpaceSuccessorSha(path, pair && pair[0]===pin ? pair[1] : pin);
+  const next=wordmark.transitions[path];
+  return next && next[0]===prior ? next[1] : prior;
 }
 
-export const eventIdentityRegistration=receipt.registration;
+export const eventIdentityRegistration={...receipt.registration,files:[...receipt.registration.files,wordmark.fontFile]};
 export function eventIdentityRegistrySuccessor(id:string, record:any):any {
   const next=structuredClone(record);
   if(receipt.registryNotes[id]) next.changes+=receipt.registryNotes[id];
+  if(wordmark.registryNotes[id]) next.changes+=wordmark.registryNotes[id];
   if(next.files) next.files=next.files.map((r:any)=>({...r,sha256:eventIdentitySuccessorSha(r.path,r.sha256)}));
   return next;
 }

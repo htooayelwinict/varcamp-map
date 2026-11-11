@@ -2,7 +2,7 @@
   "version": 1,
   "license": "CC0-1.0",
   "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
-  "attribution": "Original fictional DEMO ORBIT, DEMO NOVA, DEMO ATLAS, DEMO VECTOR and DEMO LUMEN sponsor marks, their 4×2 compact variants, and the CODE CIRCLE, DESIGN GUILD, DATA CLUB, GAME JAM and OPEN SOURCE community hub marks authored for the VarCamp demo by the VarCamp map contributors with Codex and Claude assistance.",
+  "attribution": "Original fictional DEMO ORBIT, DEMO NOVA, DEMO ATLAS, DEMO VECTOR and DEMO LUMEN sponsor marks, their 4\u00d72 compact variants, and the CODE CIRCLE, DESIGN GUILD, DATA CLUB, GAME JAM and OPEN SOURCE community hub marks authored for the VarCamp demo by the VarCamp map contributors with Codex and Claude assistance.",
   "dedication": "To the extent possible under law, the contributors waive all copyright and related or neighboring rights in these thirteen original SVG marks and their PNG exports under CC0 1.0 Universal.",
   "purpose": "Fictional, unlinked demo sponsor and community hub placeholders. These marks make no real sponsorship, organization or affiliation claim.",
   "nativeSize": {
@@ -286,7 +286,7 @@
       "owner": "VarCamp event organizers",
       "permission": "Owner supplied this artwork for every VarCamp map logo on 2026-11-09. Brand and artwork rights retained; see art/source/event-identity/NOTICE.txt.",
       "license": "Organizer-approved event use",
-      "changes": "Horizontal lockup rendered from the supplied SVG with the flame in the brand orange of masters/varcamp_logo_square_dark.svg (#f96216) and the wordmark white, fitted to 120px wide (Lanczos3) and centred in the 128x64 panel",
+      "changes": "Original organizer-supplied magenta flame and existing footprint retained; readable white titlecase VarCamp pixel lettering exported at native integer scale. MYANMAR 2026 subtitle retained where present; transparent background, no runtime font dependency. See art/source/event-identity/exports.json.",
       "stall": "expo n6 INFO DESK"
     },
     {
@@ -303,7 +303,7 @@
       "owner": "VarCamp event organizers",
       "permission": "Owner supplied this artwork for every VarCamp map logo on 2026-11-09. Brand and artwork rights retained; see art/source/event-identity/NOTICE.txt.",
       "license": "Organizer-approved event use",
-      "changes": "Native SVG quadrant of one384x128floor lockup; booth treatment retained: flame#f96216, wordmark white; aspect preserved."
+      "changes": "Original organizer-supplied magenta flame and existing footprint retained; readable white titlecase VarCamp pixel lettering exported at native integer scale. MYANMAR 2026 subtitle retained where present; transparent background, no runtime font dependency. See art/source/event-identity/exports.json."
     },
     {
       "name": "VARCAMP ARRIVAL NE",
@@ -319,7 +319,7 @@
       "owner": "VarCamp event organizers",
       "permission": "Owner supplied this artwork for every VarCamp map logo on 2026-11-09. Brand and artwork rights retained; see art/source/event-identity/NOTICE.txt.",
       "license": "Organizer-approved event use",
-      "changes": "Native SVG quadrant of one384x128floor lockup; booth treatment retained: flame#f96216, wordmark white; aspect preserved."
+      "changes": "Original organizer-supplied magenta flame and existing footprint retained; readable white titlecase VarCamp pixel lettering exported at native integer scale. MYANMAR 2026 subtitle retained where present; transparent background, no runtime font dependency. See art/source/event-identity/exports.json."
     },
     {
       "name": "VARCAMP ARRIVAL SW",
@@ -335,7 +335,7 @@
       "owner": "VarCamp event organizers",
       "permission": "Owner supplied this artwork for every VarCamp map logo on 2026-11-09. Brand and artwork rights retained; see art/source/event-identity/NOTICE.txt.",
       "license": "Organizer-approved event use",
-      "changes": "Native SVG quadrant of one384x128floor lockup; booth treatment retained: flame#f96216, wordmark white; aspect preserved."
+      "changes": "Original organizer-supplied magenta flame and existing footprint retained; readable white titlecase VarCamp pixel lettering exported at native integer scale. MYANMAR 2026 subtitle retained where present; transparent background, no runtime font dependency. See art/source/event-identity/exports.json."
     },
     {
       "name": "VARCAMP ARRIVAL SE",
@@ -351,7 +351,7 @@
       "owner": "VarCamp event organizers",
       "permission": "Owner supplied this artwork for every VarCamp map logo on 2026-11-09. Brand and artwork rights retained; see art/source/event-identity/NOTICE.txt.",
       "license": "Organizer-approved event use",
-      "changes": "Native SVG quadrant of one384x128floor lockup; booth treatment retained: flame#f96216, wordmark white; aspect preserved."
+      "changes": "Original organizer-supplied magenta flame and existing footprint retained; readable white titlecase VarCamp pixel lettering exported at native integer scale. MYANMAR 2026 subtitle retained where present; transparent background, no runtime font dependency. See art/source/event-identity/exports.json."
     },
     {
       "name": "Vibe Code Tours",
@@ -384,7 +384,8 @@
       "source": "art/source/event-identity/horizontal.svg",
       "owner": "VarCamp event organizers",
       "permission": "Owner supplied this artwork for every VarCamp map logo on 2026-11-09. Brand and artwork rights retained; see art/source/event-identity/NOTICE.txt.",
-      "license": "Organizer-approved event use"
+      "license": "Organizer-approved event use",
+      "changes": "Original organizer-supplied magenta flame and existing footprint retained; readable white titlecase VarCamp pixel lettering exported at native integer scale. MYANMAR 2026 subtitle retained where present; transparent background, no runtime font dependency. See art/source/event-identity/exports.json."
     },
     {
       "name": "Open Source Robotics Foundation For Myanmar",
@@ -428,11 +429,11 @@
     }
   ],
   "replacement": {
-    "instructions": "Replace the chosen assets/sponsors/demo-0N.png with an authorized transparent 192×64 PNG at the identical path. Run npm run maps:build to refresh previews, then npm run buildmap to package the current bytes. No code edit, atlas generation or SVG rasterization is needed. PNG assets are intentionally not hash-frozen. Logos are walkable floor inlays below avatars; do not add mounting posts or frames. Expo-plaza booth marks (compact sponsor variants, DEMO VECTOR, DEMO LUMEN and the community hub marks) are replaced the same way at their own identical paths as transparent 128×64 PNGs; keep each record’s size.",
+    "instructions": "Replace the chosen assets/sponsors/demo-0N.png with an authorized transparent 192\u00d764 PNG at the identical path. Run npm run maps:build to refresh previews, then npm run buildmap to package the current bytes. No code edit, atlas generation or SVG rasterization is needed. PNG assets are intentionally not hash-frozen. Logos are walkable floor inlays below avatars; do not add mounting posts or frames. Expo-plaza booth marks (compact sponsor variants, DEMO VECTOR, DEMO LUMEN and the community hub marks) are replaced the same way at their own identical paths as transparent 128\u00d764 PNGs; keep each record\u2019s size.",
     "licenseNote": "CC0 applies to the original fictional demo marks only. Record the replacement artwork owner, permission and applicable terms here when replacing a mark; replacing a file does not relicense the new artwork.",
     "documentation": "docs/operating/sponsors.md"
   },
-  "nativeRepresentation": "Each unchanged 192×64 PNG is an embedded 32px tileset with 6 columns and 12 cells, drawn in row-major order by an ordinary visible 6×2 sponsor tile-layer footprint. This is compatible with the pinned WorkAdventure renderer; image-only layers are unsupported.",
+  "nativeRepresentation": "Each unchanged 192\u00d764 PNG is an embedded 32px tileset with 6 columns and 12 cells, drawn in row-major order by an ordinary visible 6\u00d72 sponsor tile-layer footprint. This is compatible with the pinned WorkAdventure renderer; image-only layers are unsupported.",
   "eventIdentity": {
     "name": "VarCamp Myanmar 2026",
     "image": "assets/sponsors/varcamp-2026.png",
@@ -446,7 +447,7 @@
     "height": 64,
     "tileWidth": 4,
     "tileHeight": 2,
-    "note": "Expo-plaza booth marks: compact sponsor variants, DEMO VECTOR, DEMO LUMEN and the five community hub marks are native 128×64 transparent PNGs drawn as a 4×2 tile footprint."
+    "note": "Expo-plaza booth marks: compact sponsor variants, DEMO VECTOR, DEMO LUMEN and the five community hub marks are native 128\u00d764 transparent PNGs drawn as a 4\u00d72 tile footprint."
   },
   "ownerProvided": {
     "note": "The community-partner records and the VARCAMP event-identity panel are owner-provided 2026 marks placed on expo stalls s1-s3 and n6 (tools/maps/expo-plaza.ts). They are not fictional placeholders and the CC0 dedication above does not apply to them; each record carries its own owner and permission."

@@ -8,7 +8,9 @@ the brand and supplied artwork remain with their respective owners. This is
 organizer-approved event use, not a CC0 dedication or a general sublicense.
 
 The derived horizontal SVG embeds the supplied flame pixels with an alpha-only
-export crop and preserves the existing VarCamp vector wordmark. Native exports
+export crop and uses the organizer-selected readable VarCamp pixel wordmark. Native exports
 retain transparent backgrounds and existing map footprints. MYANMAR 2026 uses
-the project's existing pixel lettering. The old SVG and approved master remain
+the project's existing pixel lettering. On 2026-11-11, the organizer selected
+a readable titlecase pixel font for VarCamp; pixel-wordmark.json records its
+integer-grid glyphs. The flame and subtitle pixels are retained. The old SVG and approved master remain
 available as historical sources; current exports are recorded in exports.json.

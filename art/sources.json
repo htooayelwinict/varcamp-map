@@ -2,7 +2,7 @@
   "workadventure": {
     "attribution": "WorkAdventure / The Coding Machine; preserve all authors and terms in LICENSE.assets",
     "url": "https://github.com/workadventure/map-starter-kit/tree/1143646a9c02c3928eac4acbb123642c62a48a85/tilesets",
-    "license": "WorkAdventure assets license — redistribution only with a WorkAdventure map; not a standalone asset pack",
+    "license": "WorkAdventure assets license \u2014 redistribution only with a WorkAdventure map; not a standalone asset pack",
     "licenseFile": "assets/tilesets/workadventure/LICENSE.assets",
     "changes": "None. Six complete source sheets copied byte-for-byte. Catalog only selects tile rectangles.",
     "files": [
@@ -66,7 +66,7 @@
     ]
   },
   "lpc-space": {
-    "attribution": "Baŝto/Basxto, Hyptosis, FunwithPixels and Skorpio",
+    "attribution": "Ba\u015dto/Basxto, Hyptosis, FunwithPixels and Skorpio",
     "url": "https://opengameart.org/content/lpc-goes-to-space",
     "license": "CC-BY-SA 4.0",
     "licenseFile": "assets/tilesets/lpc-space/LICENSE-CC-BY-SA-4.0.txt",
@@ -1241,7 +1241,7 @@
     "url": "https://var.camp/",
     "license": "Project artwork; organizer-approved event use; brand rights retained by owners",
     "licenseFile": "assets/tilesets/zodiac-emblems/LICENSE.txt",
-    "changes": "New generated and organizer-approved masters retained byte-exact. Uniform nearest-neighbor native exports only, source alpha preserved. Original sponsor/brand assets and all earlier catalog rows are unchanged. 2026-11-09: original master and zodiac emblems retained; current VarCamp panel uses the supplied pink event mark and original vector wordmark (see varcamp-event-identity).",
+    "changes": "New generated and organizer-approved masters retained byte-exact. Uniform nearest-neighbor native exports only, source alpha preserved. Original sponsor/brand assets and all earlier catalog rows are unchanged. 2026-11-09: original master and zodiac emblems retained; current VarCamp panel uses the supplied pink event mark and original vector wordmark (see varcamp-event-identity). 2026-11-11: current VarCamp panel uses the organizer-selected pixel wordmark; zodiac emblems and supplied flame remain unchanged.",
     "files": [
       {
         "path": "art/source/plaza-original/zodiac-approved-master.png",
@@ -1257,7 +1257,7 @@
       },
       {
         "path": "assets/sponsors/varcamp-2026.png",
-        "sha256": "8180921d45eaf6c20fabfe686e1f8db7fabb2448f5114f6b1d90d6d6ab42ef21"
+        "sha256": "71eff83f6f473a440c8befb66815b08c06743d68bc7611122c779cc4e272756b"
       }
     ]
   },
@@ -1882,7 +1882,7 @@
     "url": "https://var.camp/",
     "license": "Supplied by the VarCamp organiser for the 2026 event; event-use permission, all rights retained by the owner; not CC0",
     "licenseFile": "assets/tilesets/varcamp-organiser/LICENSE.txt",
-    "changes": "Alpha-bounding-box crop and aspect-preserving Lanczos3 downscale of the supplied masters to the native tile footprint (fountain 128x96 / 4x3 tiles, lamp 32x96 / 1x3 tiles), centred on the transparent grid, alpha thresholded to binary. Master hashes are recorded in ATTRIBUTION.md; the masters are not redistributed. No other registry row changed. 2026-11-09: current booth and arrival logos use the owner-supplied pink event mark; original vector wordmark and arrival subtitle retained.",
+    "changes": "Alpha-bounding-box crop and aspect-preserving Lanczos3 downscale of the supplied masters to the native tile footprint (fountain 128x96 / 4x3 tiles, lamp 32x96 / 1x3 tiles), centred on the transparent grid, alpha thresholded to binary. Master hashes are recorded in ATTRIBUTION.md; the masters are not redistributed. No other registry row changed. 2026-11-09: current booth and arrival logos use the owner-supplied pink event mark; original vector wordmark and arrival subtitle retained. 2026-11-11: current VarCamp lettering uses the organizer-selected pixel wordmark; supplied flame and subtitle remain unchanged.",
     "files": [
       {
         "path": "assets/tilesets/original/plaza-fountain.png",
@@ -1898,19 +1898,19 @@
       },
       {
         "path": "assets/sponsors/varcamp-arrival-nw.png",
-        "sha256": "ae3443d8044ce4b02c443bb2331c0fd2ef892cd0ecd0f41ed54209ce9a2c8eb6"
+        "sha256": "7a61504d53b019ab627c15f14b26d5bf3f5918f8999aea65f0d51d3119d0eaf9"
       },
       {
         "path": "assets/sponsors/varcamp-arrival-ne.png",
-        "sha256": "b92a08c65e2ee75c7526dabf9421f6febc3ebb9ba233d635d7155be421f41fcb"
+        "sha256": "601c86ad58cd74e872f80e52326803a548ca34fab3083388fecf6b048f4214a2"
       },
       {
         "path": "assets/sponsors/varcamp-arrival-sw.png",
-        "sha256": "b8f805bc4ccff3e7bdd63f55752077b6f5b4aceaf415693a25b75624f71b6841"
+        "sha256": "8ef1972a4522f778dc30232f5e286320200dd68ad4eed9896437817c12be5f20"
       },
       {
         "path": "assets/sponsors/varcamp-arrival-se.png",
-        "sha256": "3ae566a36e376acdde669780af34241a83aedef2ed54b3ff33db186faef98717"
+        "sha256": "be239738450c7831eadd8df3fc554918137a34e3b0182e4f4e730a310d46a891"
       }
     ]
   },
@@ -2739,7 +2739,7 @@
     "url": "https://var.camp/",
     "license": "Organizer-approved event use",
     "licenseFile": "assets/tilesets/varcamp-event-identity/NOTICE.txt",
-    "changes": "Exact supplied PNG retained. Alpha-only export crop, aspect-fit placement with original vector wordmark, transparent native panels, and existing MYANMAR 2026 pixel subtitle. No generated replacement artwork.",
+    "changes": "Exact supplied PNG retained. Alpha-only export crop, aspect-fit placement with original vector wordmark, transparent native panels, and existing MYANMAR 2026 pixel subtitle. No generated replacement artwork. 2026-11-11: organizer selected readable titlecase pixel lettering; the six transparent exports now use the original bitmap recipe in pixel-wordmark.json. The supplied flame, subtitle and export footprints are preserved.",
     "files": [
       {
         "path": "art/source/event-identity/supplied-flame.png",
@@ -2747,39 +2747,43 @@
       },
       {
         "path": "art/source/event-identity/horizontal.svg",
-        "sha256": "7dc8631e1e824e8641438e8c3aa1de4b45ff00affb23ffa7983ea54af7073139"
+        "sha256": "c73393d7bf3e7f35ccfe5dd97814eb1fe21d8c2e0a98e5a2a9ea65f5592e0b9e"
       },
       {
         "path": "art/source/event-identity/exports.json",
-        "sha256": "8fd6ad67b3b76aa0d2c6697b56b68402ccfd2a66d58bd45cbd6fa987d850f5fe"
+        "sha256": "0179b0297006ca17c66d548d6f33fc838d00a02fe75ca1af748474ee75d69cbf"
       },
       {
         "path": "tools/art/event-identity.ts",
-        "sha256": "9b7cdd4ad43fc90de8151b1c9622675c59443c45e5d6ddf5e9db9db73ebf5a47"
+        "sha256": "ad482988d6d2e625e8d44c48a7b766606e578055d83c64d919c6a43be6632b3e"
       },
       {
         "path": "assets/sponsors/varcamp-2026.png",
-        "sha256": "8180921d45eaf6c20fabfe686e1f8db7fabb2448f5114f6b1d90d6d6ab42ef21"
+        "sha256": "71eff83f6f473a440c8befb66815b08c06743d68bc7611122c779cc4e272756b"
       },
       {
         "path": "assets/sponsors/varcamp-horizontal.png",
-        "sha256": "a60b7ab8452d46a364a6bf724abff5b6d912c24234b7e383c2a5efaf2cf7c04c"
+        "sha256": "00fe1410c936e70cfc28918b1015ad2131fccc04e82c8d8dcb36948f310ae18a"
       },
       {
         "path": "assets/sponsors/varcamp-arrival-nw.png",
-        "sha256": "ae3443d8044ce4b02c443bb2331c0fd2ef892cd0ecd0f41ed54209ce9a2c8eb6"
+        "sha256": "7a61504d53b019ab627c15f14b26d5bf3f5918f8999aea65f0d51d3119d0eaf9"
       },
       {
         "path": "assets/sponsors/varcamp-arrival-ne.png",
-        "sha256": "b92a08c65e2ee75c7526dabf9421f6febc3ebb9ba233d635d7155be421f41fcb"
+        "sha256": "601c86ad58cd74e872f80e52326803a548ca34fab3083388fecf6b048f4214a2"
       },
       {
         "path": "assets/sponsors/varcamp-arrival-sw.png",
-        "sha256": "b8f805bc4ccff3e7bdd63f55752077b6f5b4aceaf415693a25b75624f71b6841"
+        "sha256": "8ef1972a4522f778dc30232f5e286320200dd68ad4eed9896437817c12be5f20"
       },
       {
         "path": "assets/sponsors/varcamp-arrival-se.png",
-        "sha256": "3ae566a36e376acdde669780af34241a83aedef2ed54b3ff33db186faef98717"
+        "sha256": "be239738450c7831eadd8df3fc554918137a34e3b0182e4f4e730a310d46a891"
+      },
+      {
+        "path": "art/source/event-identity/pixel-wordmark.json",
+        "sha256": "295eb8b6aadd452db2378094e243d80ceca97368ddbb74c3c0697ea20582bce1"
       }
     ]
   }

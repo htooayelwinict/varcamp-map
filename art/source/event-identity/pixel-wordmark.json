@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "text": "VarCamp",
+  "description": "Original readable 5x9 bitmap lettering for the organizer-selected pixel wordmark. Capitals use seven rows; lowercase p has a two-row descender. White ink, square pixels and two-cell tracking; no external font or runtime font dependency.",
+  "width": 5,
+  "height": 9,
+  "gap": 2,
+  "glyphs": {
+    "V": ["10001", "10001", "10001", "10001", "10001", "01010", "00100", "00000", "00000"],
+    "a": ["00000", "00000", "01110", "00001", "01111", "10001", "01111", "00000", "00000"],
+    "r": ["00000", "00000", "10110", "11001", "10000", "10000", "10000", "00000", "00000"],
+    "C": ["01111", "10000", "10000", "10000", "10000", "10000", "01111", "00000", "00000"],
+    "m": ["00000", "00000", "11010", "10101", "10101", "10101", "10101", "00000", "00000"],
+    "p": ["00000", "00000", "11110", "10001", "10001", "11110", "10000", "10000", "10000"]
+  }
+}
