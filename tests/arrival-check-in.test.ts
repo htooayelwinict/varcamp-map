@@ -1,3 +1,4 @@
+import {beforeExpoRosterNative} from './helpers/expo-roster-history';
 import {readFileSync} from 'node:fs';
 import {gunzipSync} from 'node:zlib';
 import {isDeepStrictEqual} from 'node:util';
@@ -63,7 +64,7 @@ describe('expanded arrival check-in',()=>{
 
  it('preserves all twelve door stations, controls, sponsor furnishings and collision outside reception',()=>{
   // Undo only the finite official-logo successor, independently covered by sponsor-logos.test.ts.
-  const l=restoreSponsorLogos(read('world/layouts/overworld.json')),m=read('maps/overworld.tmj');
+  const l=restoreSponsorLogos(read('world/layouts/overworld.json')),m=beforeExpoRosterNative(read('maps/overworld.tmj'));
   const prior=before['world/layouts/overworld.json'],old=before['maps/overworld.tmj'];
   expect(stations.stations.filter(s=>s.building!=='overworld')).toEqual(before['world/check-in-stations.json'].stations.filter((s:any)=>s.building!=='overworld'));
   for(const key of ['entries','exits','areas','inspectionZones','animatedOverlays','images','signs','standingSigns'] as const)expect(isDeepStrictEqual(l[key],prior[key]),key).toBe(true);

@@ -13,7 +13,7 @@ describe('decorated sponsor court',()=>{
  });
  it('keeps tiered usable floor space after walls and furnishings are placed',()=>{
   const l=layout(),c=collision();
-  const free=['main','spark','mini','aws','bsides','vibes','osrfm','ten-ten'].map(id=>{
+  const free=['main','spark','mini','aws','bsides','vibes','osrfm','duwun','open-taxi'].map(id=>{
    const p=l.placements.find(p=>p.id===`sponsor-tier-${id}-floor`)!;let n=0;
    for(let y=p.y;y<p.y+p.height;y++)for(let x=p.x;x<p.x+p.width;x++)if(c[y*128+x]===0)n++;
    return n;
@@ -38,7 +38,7 @@ describe('decorated sponsor court',()=>{
    expect(props.some(p=>p.sprite.startsWith('table-small-')),id+' table').toBe(true);
    expect(props.some(p=>p.sprite.startsWith('plaza-potted-')),id+' greenery').toBe(true);
   }
-  for(const x of [39,47,55,69,81])expect(l.placements.some(p=>p.sprite.startsWith('plaza-potted-')&&inside(p,x,82,6,4)),'community greenery').toBe(true);
+  for(const x of [39,47,55,69,76,83])expect(l.placements.some(p=>p.sprite.startsWith('plaza-potted-')&&inside(p,x,82,6,4)),'community greenery').toBe(true);
   const props=l.placements.filter(p=>p.layer==='props'&&p.id.startsWith('sponsor-tier-'));
   for(const i of l.images!.filter(i=>i.name.startsWith('Expo /'))){
    expect(props.filter(p=>p.x<i.x+i.width&&i.x<p.x+p.width&&p.y<i.y+i.height&&i.y<p.y+p.height).map(p=>p.id),i.name+' covered').toEqual([]);

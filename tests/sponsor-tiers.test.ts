@@ -20,10 +20,10 @@ const baseline=()=>{
 };
 const current=()=>({layout:read('world/layouts/overworld.json') as MapLayout,native:read('maps/overworld.tmj') as TiledMap});
 const mask=(m:TiledMap)=>(m.layers.find(l=>l.name==='physical-collisions') as TileLayer).data;
-const floors=['main','spark','mini','aws','bsides','vibes','osrfm','ten-ten'];
+const floors=['main','spark','mini','aws','bsides','vibes','osrfm','duwun','open-taxi'];
 
 describe('approved sponsor tier and community layout',()=>{
- it('provides one prominent main pavilion, two smaller sponsor tiers and five equal community booths',()=>{
+ it('provides one prominent main pavilion, two smaller sponsor tiers and six equal community and media booths',()=>{
   const {layout:l}=current();
   const areas=floors.map(id=>{const p=l.placements.find(p=>p.id===`sponsor-tier-${id}-floor`);expect(p,id+' usable floor').toBeDefined();return p!.width*p!.height;});
   expect(areas[0]).toBeGreaterThanOrEqual(areas[1]*2);
@@ -32,10 +32,10 @@ describe('approved sponsor tier and community layout',()=>{
   const p=(id:string)=>l.placements.find(p=>p.id===`sponsor-tier-${id}-floor`)!;
   expect(p('main').y).toBeLessThan(p('spark').y);expect(p('spark').y).toBe(p('mini').y);
   expect(p('spark').x).toBeLessThan(p('main').x);expect(p('mini').x).toBeGreaterThan(p('main').x);
-  expect(floors.slice(3).map(id=>p(id).y)).toEqual([82,82,82,82,82]);
-  expect(floors.slice(3).map(id=>p(id).x)).toEqual([39,47,55,69,81]);
+  expect(floors.slice(3).map(id=>p(id).y)).toEqual([82,82,82,82,82,82]);
+  expect(floors.slice(3).map(id=>p(id).x)).toEqual([39,47,55,69,76,83]);
   const text=l.signs!.map(s=>s.text).join('\n');
-  for(const name of ['DIGISEC LAB','NEWNESS','LOKAL ZAYTANN','AWS UG','MYANMAR','OSRFM','BSIDES','VIBE CODE','TOURS','TEN TEN','INFO DESK'])expect(text).toContain(name);
+  for(const name of ['DigiSec Lab','Digital Safety Partner','Newness','Spark Sponsor','AWS USER GROUP','MYANMAR','OSRFM','BSides Myanmar','Vibes Code Tours','Duwun','Open Taxi','Media Partner','INFO DESK'])expect(text).toContain(name);
  });
 
  it('keeps a four-tile through route and reachable visitor space at every desk',()=>{
@@ -66,7 +66,7 @@ describe('approved sponsor tier and community layout',()=>{
   expect(createHash('sha256').update(readFileSync('maps/overworld.wam')).digest('hex')).toBe(b.wamSha256);
   expect(isDeepStrictEqual(m.properties,b.native.properties)).toBe(true);
   // Two community panels followed by the four separately tested official sponsor panels.
-  expect(isDeepStrictEqual(m.tilesets.slice(0,-6),b.native.tilesets),'existing atlas reservations').toBe(true);
+  expect(isDeepStrictEqual(m.tilesets.slice(0,-9),b.native.tilesets),'existing atlas reservations').toBe(true);
   for(const layer of b.native.layers.filter(l=>l.type==='objectgroup'&&l.name!=='wayfinding-text'))expect(isDeepStrictEqual(m.layers.find(l=>l.id===layer.id),layer),layer.name).toBe(true);
  });
 

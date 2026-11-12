@@ -13,7 +13,7 @@ const panels=[
  ['partner-ten-ten',530/612],
 ] as const;
 const read=(p:string)=>JSON.parse(readFileSync(p,'utf8'));
-const ids=['aws','bsides','vibes','osrfm','ten-ten'];
+const ids=['aws','bsides','vibes','osrfm'];
 
 describe('community logos and readable booth captions',()=>{
  it('preserves transparent backgrounds instead of flattening marks onto rectangular cards',async()=>{
@@ -47,25 +47,25 @@ describe('community logos and readable booth captions',()=>{
   }finally{rmSync(dir,{recursive:true,force:true});}
  });
 
- it('uses one readable single-line caption style beneath each logo, away from desks',()=>{
+ it('keeps all community captions readable beneath their marks, away from desks',()=>{
   const l=read('world/layouts/overworld.json') as MapLayout,m=read('maps/overworld.tmj') as TiledMap;
   const labels=(m.layers.find(l=>l.name==='wayfinding-text') as ObjectLayer).objects;
   const hit=(a:{x:number;y:number;width:number;height:number},b:typeof a)=>a.x<b.x+b.width&&b.x<a.x+a.width&&a.y<b.y+b.height&&b.y<a.y+a.height;
   for(const id of ids){
    const floor=l.placements.find(p=>p.id===`sponsor-tier-${id}-floor`)!;
    const sign=l.signs!.find(s=>s.name===`sponsor-tier-${id}-name`)!;
-   expect(sign).toMatchObject({x:floor.x,y:86,width:6,height:1,fontSize:16,align:'center',padding:4,color:'#f1d9a0'});
-   expect(sign.text).not.toContain('\n');
+   expect(sign).toMatchObject({x:floor.x,y:86,width:6,align:'center',color:'#f1d9a0'});
+   expect(sign.fontSize).toBeGreaterThanOrEqual(12);expect(sign.fontSize).toBeLessThanOrEqual(16);
    expect(l.placements.filter(p=>p.layer==='props'&&hit(p,sign)).map(p=>p.id)).toEqual([]);
    expect(l.images!.filter(i=>hit(i,sign)).map(i=>i.name)).toEqual([]);
-   expect(labels.find(o=>o.name===sign.name)?.text).toMatchObject({fontfamily:'Arial',pixelsize:16,halign:'center',color:'#f1d9a0',text:sign.text});
+   expect(labels.find(o=>o.name===sign.name)?.text).toMatchObject({fontfamily:'Arial',pixelsize:sign.fontSize,halign:'center',color:'#f1d9a0',text:sign.text});
   }
  });
 
- it('centers the actual single-line glyphs with the pinned WorkAdventure renderer',()=>{
+ it('centers the actual widest caption line with the pinned WorkAdventure renderer',()=>{
   // TextUtils uses width for wrapping, not fixedWidth. halign alone cannot
   // center a single line. These are the native Chromium 16px Arial metrics.
-  const widths=[149.3359375,143.7265625,147.2890625,57.7734375,68.4453125];
+  const widths=[129.3837890625,121.8203125,126,134.724609375];
   const l=read('world/layouts/overworld.json') as MapLayout,m=read('maps/overworld.tmj') as TiledMap;
   const labels=(m.layers.find(l=>l.name==='wayfinding-text') as ObjectLayer).objects;
   for(const [index,id]of ids.entries()){

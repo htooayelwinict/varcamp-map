@@ -1,3 +1,5 @@
+import {restoreExpoRoster} from '../tools/maps/expo-roster';
+import {beforeExpoRosterNative} from './helpers/expo-roster-history';
 import {existsSync,readFileSync,mkdtempSync,rmSync} from 'node:fs';
 import {execFileSync} from 'node:child_process';
 import {tmpdir} from 'node:os';
@@ -86,7 +88,7 @@ describe('official sponsor logos',()=>{
  });
 
  it('adds only the three sponsors and moves one small table clear of the Spark logo',()=>{
-  const {layout:l,native:m}=current(),b=before(),restored=structuredClone(l);
+  const actual=current(),l=restoreExpoRoster(actual.layout),m=beforeExpoRosterNative(actual.native),b=before(),restored=structuredClone(l);
   expect(l.images!.slice(b.layout.images!.length).map(i=>i.name)).toEqual(panels.map(p=>p[0]));
   restored.images=restored.images!.slice(0,b.layout.images!.length);
   const table=restored.placements.find(p=>p.id==='sponsor-tier-spark-table')!;

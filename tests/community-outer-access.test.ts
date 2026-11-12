@@ -3,7 +3,7 @@ import {describe,it,expect} from 'vitest';
 import type {MapLayout,TiledMap,TileLayer} from '../tools/maps/types';
 
 const read=(path:string)=>JSON.parse(readFileSync(path,'utf8'));
-const communities=['aws','bsides','vibes','osrfm','ten-ten'];
+const communities=['aws','bsides','vibes','osrfm','duwun','open-taxi'];
 
 describe('community booths entered from the outer road',()=>{
  it('opens every southern frontage and puts solid backs toward the sponsor row',()=>{
@@ -47,7 +47,7 @@ describe('community booths entered from the outer road',()=>{
  it('joins both room rows against one wall, without an alley or doubled wall',()=>{
   const layout=read('world/layouts/overworld.json') as MapLayout;
   const walls=layout.placements.filter(p=>p.layer==='props'&&['glass-partition','expo-wall-navy'].includes(p.sprite));
-  for(const [sponsor,id]of [['spark','aws'],['spark','bsides'],['spark','vibes'],['mini','osrfm'],['mini','ten-ten']]){
+  for(const [sponsor,id]of [['spark','aws'],['spark','bsides'],['spark','vibes'],['mini','osrfm'],['mini','duwun'],['mini','open-taxi']]){
    const floor=layout.placements.find(p=>p.id===`sponsor-tier-${id}-floor`)!;
    const other=layout.placements.find(p=>p.id===`sponsor-tier-${sponsor}-floor`)!;
    // The existing wall art is two tiles high. Both floors must meet that

@@ -1,0 +1,101 @@
+{
+  "schemaVersion": 1,
+  "revisions": [
+    {
+      "path": "art/sources.json",
+      "fromSha256": "a7c024339e9dc96f709dac95ee836c2d446fc665a767cb290d26cd5f8470d7bc",
+      "toSha256": "23d1bdfd986c2e242eee0e06c1400171d8c332bfa471202f9c99ce24e036622d",
+      "reason": "Apply the precise organizer-approved sponsor titles and four-community roster; retire Ten Ten and furnish separate Duwun and Open Taxi Media Partner booths using supplied originals. Render the corrected Myanmar name with a pinned licensed font. Preserve arrival, existing sponsor artwork, saved WAM controls and all other native maps. Refresh only the shared atlas-checker fingerprint in dependent animation metadata."
+    },
+    {
+      "path": "art/sponsors.json",
+      "fromSha256": "e7a3055c06e8e4e1be0ac34c349f8f95c527592a41cbbf56f03eb850a2189eda",
+      "toSha256": "dd705dc0b0d3e0bbf118c6f574c8e41510971dd86d23418bcbde338e0e08e758",
+      "reason": "Apply the precise organizer-approved sponsor titles and four-community roster; retire Ten Ten and furnish separate Duwun and Open Taxi Media Partner booths using supplied originals. Render the corrected Myanmar name with a pinned licensed font. Preserve arrival, existing sponsor artwork, saved WAM controls and all other native maps. Refresh only the shared atlas-checker fingerprint in dependent animation metadata."
+    },
+    {
+      "path": "maps/overworld.tmj",
+      "fromSha256": "58e4c40dfdf58e20f5620bcd968bec4fe1ed35494c4ee552c30e94de46f30ee2",
+      "toSha256": "cf534169c683759fe9bbc3ebf735357bb9a122d818ee9b63ce149dc44256e261",
+      "reason": "Apply the precise organizer-approved sponsor titles and four-community roster; retire Ten Ten and furnish separate Duwun and Open Taxi Media Partner booths using supplied originals. Render the corrected Myanmar name with a pinned licensed font. Preserve arrival, existing sponsor artwork, saved WAM controls and all other native maps. Refresh only the shared atlas-checker fingerprint in dependent animation metadata."
+    },
+    {
+      "path": "maps/preview/overworld.tmj",
+      "fromSha256": "4e33beff0cde41e734520b4119603a19892019542d883c1fd946791a3d32faf9",
+      "toSha256": "fe1183269f1baedcf353411bf77f1065f1beeb3e7c70a2fe60d7c24799d038dd",
+      "reason": "Apply the precise organizer-approved sponsor titles and four-community roster; retire Ten Ten and furnish separate Duwun and Open Taxi Media Partner booths using supplied originals. Render the corrected Myanmar name with a pinned licensed font. Preserve arrival, existing sponsor artwork, saved WAM controls and all other native maps. Refresh only the shared atlas-checker fingerprint in dependent animation metadata."
+    },
+    {
+      "path": "world/layouts/air-district.json",
+      "fromSha256": "aaae430937c462e4cc6cc36023ea0ddbb2589e98a05e8e607c8d99cc04eeff52",
+      "toSha256": "85ee9ed3e0a1bf67762619bdc26529c0760b7acbeebda2534cf23a850288c82d",
+      "reason": "Apply the precise organizer-approved sponsor titles and four-community roster; retire Ten Ten and furnish separate Duwun and Open Taxi Media Partner booths using supplied originals. Render the corrected Myanmar name with a pinned licensed font. Preserve arrival, existing sponsor artwork, saved WAM controls and all other native maps. Refresh only the shared atlas-checker fingerprint in dependent animation metadata."
+    },
+    {
+      "path": "world/layouts/comet-maze.json",
+      "fromSha256": "887a862485a547aaff4796e8e3cc8f818a981c1da276818f9c1963b15938805c",
+      "toSha256": "b6fb1d18881de8c497e06043c830c034168888174df4f3817eb90b1b8d987c5e",
+      "reason": "Apply the precise organizer-approved sponsor titles and four-community roster; retire Ten Ten and furnish separate Duwun and Open Taxi Media Partner booths using supplied originals. Render the corrected Myanmar name with a pinned licensed font. Preserve arrival, existing sponsor artwork, saved WAM controls and all other native maps. Refresh only the shared atlas-checker fingerprint in dependent animation metadata."
+    },
+    {
+      "path": "world/layouts/earth-district.json",
+      "fromSha256": "aa3daf7cd791beb03fe2b88c6ae95286afec040957c3d723b255d5f973b00da7",
+      "toSha256": "ca9035d528de76c8d4e113549aa462d79bb3bf6b57befcced5a5d9962da30f4a",
+      "reason": "Apply the precise organizer-approved sponsor titles and four-community roster; retire Ten Ten and furnish separate Duwun and Open Taxi Media Partner booths using supplied originals. Render the corrected Myanmar name with a pinned licensed font. Preserve arrival, existing sponsor artwork, saved WAM controls and all other native maps. Refresh only the shared atlas-checker fingerprint in dependent animation metadata."
+    },
+    {
+      "path": "world/layouts/fa-ship.json",
+      "fromSha256": "1840cb560785e97da2ec5275274e36c232e5645a37e7782794cd46da990bcc5d",
+      "toSha256": "0bd76f1ab4634b826cf24f4d1ca3468ccbbeb67957bc4c15a9493a35ad53a906",
+      "reason": "Apply the precise organizer-approved sponsor titles and four-community roster; retire Ten Ten and furnish separate Duwun and Open Taxi Media Partner booths using supplied originals. Render the corrected Myanmar name with a pinned licensed font. Preserve arrival, existing sponsor artwork, saved WAM controls and all other native maps. Refresh only the shared atlas-checker fingerprint in dependent animation metadata."
+    },
+    {
+      "path": "world/layouts/fire-district.json",
+      "fromSha256": "565a6a5499f70c0df9fad0aa8592a628e2a426591c2b5424e3ea7d3aa827e7c6",
+      "toSha256": "bf2bd743892d391a5bbb4dca7822fb7681e110f8c6e3c20b1796b96769278e07",
+      "reason": "Apply the precise organizer-approved sponsor titles and four-community roster; retire Ten Ten and furnish separate Duwun and Open Taxi Media Partner booths using supplied originals. Render the corrected Myanmar name with a pinned licensed font. Preserve arrival, existing sponsor artwork, saved WAM controls and all other native maps. Refresh only the shared atlas-checker fingerprint in dependent animation metadata."
+    },
+    {
+      "path": "world/layouts/hidden-observatory.json",
+      "fromSha256": "6fe4201fcee953d910178ccc6a89093e814d3d502b7188c3e17eb1c9c33c5703",
+      "toSha256": "5321b588145ae20489b8bc953ae2376069a7eed6a19f7ece8b2ca8c9cffa400c",
+      "reason": "Apply the precise organizer-approved sponsor titles and four-community roster; retire Ten Ten and furnish separate Duwun and Open Taxi Media Partner booths using supplied originals. Render the corrected Myanmar name with a pinned licensed font. Preserve arrival, existing sponsor artwork, saved WAM controls and all other native maps. Refresh only the shared atlas-checker fingerprint in dependent animation metadata."
+    },
+    {
+      "path": "world/layouts/nebula-arcade.json",
+      "fromSha256": "378799ef8d534f35f6512626e8b61325a4f1c3fbdf18787a266e8e6cb44e8a58",
+      "toSha256": "649d0dd10183af2ec5ffdbb2927aa93de6da51ef73dc627dba741b0351e0401e",
+      "reason": "Apply the precise organizer-approved sponsor titles and four-community roster; retire Ten Ten and furnish separate Duwun and Open Taxi Media Partner booths using supplied originals. Render the corrected Myanmar name with a pinned licensed font. Preserve arrival, existing sponsor artwork, saved WAM controls and all other native maps. Refresh only the shared atlas-checker fingerprint in dependent animation metadata."
+    },
+    {
+      "path": "world/layouts/orbit-maze.json",
+      "fromSha256": "b76dc89a7e8f3529cf59c303fea4508e7042d510800b5d849928836c7e5d2836",
+      "toSha256": "acbb066724091b3297743c9399791e676684485eaedb4f6ba5e24722087f0f66",
+      "reason": "Apply the precise organizer-approved sponsor titles and four-community roster; retire Ten Ten and furnish separate Duwun and Open Taxi Media Partner booths using supplied originals. Render the corrected Myanmar name with a pinned licensed font. Preserve arrival, existing sponsor artwork, saved WAM controls and all other native maps. Refresh only the shared atlas-checker fingerprint in dependent animation metadata."
+    },
+    {
+      "path": "world/layouts/orbit-playground.json",
+      "fromSha256": "1acb27686c9c5f045eb77dda93753045ed43df649029b2b2b36c8de40c7255ab",
+      "toSha256": "7ec2c6a06c8dc15c05aaf03b23f040b440899bae6dfa722e111e6c573519c0d8",
+      "reason": "Apply the precise organizer-approved sponsor titles and four-community roster; retire Ten Ten and furnish separate Duwun and Open Taxi Media Partner booths using supplied originals. Render the corrected Myanmar name with a pinned licensed font. Preserve arrival, existing sponsor artwork, saved WAM controls and all other native maps. Refresh only the shared atlas-checker fingerprint in dependent animation metadata."
+    },
+    {
+      "path": "world/layouts/overworld.json",
+      "fromSha256": "3a0d0686ff081d685affeeac1e89577fff05823b656533346c4128da2df07942",
+      "toSha256": "8d9197424c7be690432851d7cc5b70aa6283c8d026035970d2dd4d9ba2e0f8a9",
+      "reason": "Apply the precise organizer-approved sponsor titles and four-community roster; retire Ten Ten and furnish separate Duwun and Open Taxi Media Partner booths using supplied originals. Render the corrected Myanmar name with a pinned licensed font. Preserve arrival, existing sponsor artwork, saved WAM controls and all other native maps. Refresh only the shared atlas-checker fingerprint in dependent animation metadata."
+    },
+    {
+      "path": "world/layouts/water-district.json",
+      "fromSha256": "4e1551c22b95b4c0bcb95e3dae0c185e6b211a20b40054416b4b6759032bf353",
+      "toSha256": "e9be9d27917927e66833373842ff67f76269d632b5ad3a02b2199e5adc43545f",
+      "reason": "Apply the precise organizer-approved sponsor titles and four-community roster; retire Ten Ten and furnish separate Duwun and Open Taxi Media Partner booths using supplied originals. Render the corrected Myanmar name with a pinned licensed font. Preserve arrival, existing sponsor artwork, saved WAM controls and all other native maps. Refresh only the shared atlas-checker fingerprint in dependent animation metadata."
+    },
+    {
+      "path": "world/layouts/zodiac-festival-park.json",
+      "fromSha256": "1cd604b2d7c71df5e352fd8ffeeb6a7d6c9ed8bddd5e31e7c39744ae79d6bb39",
+      "toSha256": "1e75c8400e8894044f6f0ed2e0e443125b3fdc962353fd26929452b95368378c",
+      "reason": "Apply the precise organizer-approved sponsor titles and four-community roster; retire Ten Ten and furnish separate Duwun and Open Taxi Media Partner booths using supplied originals. Render the corrected Myanmar name with a pinned licensed font. Preserve arrival, existing sponsor artwork, saved WAM controls and all other native maps. Refresh only the shared atlas-checker fingerprint in dependent animation metadata."
+    }
+  ]
+}

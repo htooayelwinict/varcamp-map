@@ -33,9 +33,9 @@ describe('approved community marks in the expo',()=>{
    expect(credit.permission).toContain('pull/9');expect(credit.license).not.toBe('CC0-1.0');
   }
  });
- it('draws all four submitted marks plus Vibe Code Tours with every native cell present',()=>{
+ it('draws the three current submitted community marks plus Vibe Code Tours with every native cell present',()=>{
   const l=read('world/layouts/overworld.json') as MapLayout,m=read('maps/overworld.tmj') as TiledMap;
-  for(const [panel,name]of [...supplied.map(r=>[r[2],r[3]]),['vibecode-tours','Expo / Vibe Code Tours']]){
+  for(const [panel,name]of [...supplied.filter(r=>r[0]!=='Ten-Ten').map(r=>[r[2],r[3]]),['vibecode-tours','Expo / Vibe Code Tours']]){
    const image=l.images!.find(i=>i.name===name);expect(image,name+' absent').toBeDefined();
    expect(image).toMatchObject({image:`assets/sponsors/${panel}.png`,width:4,height:2});
    expect(image!.standing).not.toBe(true);
@@ -45,9 +45,9 @@ describe('approved community marks in the expo',()=>{
    for(let y=0;y<2;y++)for(let x=0;x<4;x++)expect(layer.data[(image!.y+y)*m.width+image!.x+x]).toBe(set.firstgid+y*4+x);
   }
  });
- it('gives five equal communities reachable desks and unobscured logos',()=>{
+ it('gives four equal communities reachable desks and unobscured logos',()=>{
   const l=read('world/layouts/overworld.json') as MapLayout,m=read('maps/overworld.tmj') as TiledMap,c=(m.layers.find(t=>t.name==='physical-collisions') as TileLayer).data;
-  const ids=['aws','bsides','vibes','osrfm','ten-ten'];
+  const ids=['aws','bsides','vibes','osrfm'];
   const floors=ids.map(id=>l.placements.find(p=>p.id===`sponsor-tier-${id}-floor`));
   expect(floors.every(Boolean),'missing community floor').toBe(true);
   expect(new Set(floors.map(p=>p!.width*p!.height)).size).toBe(1);

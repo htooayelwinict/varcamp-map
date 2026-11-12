@@ -1,6 +1,7 @@
 import {createHash} from 'node:crypto';
 import data from '../../world/sponsor-tiers.json';
 import type {TiledMap,TiledLayer,ObjectLayer} from './types';
+import {hasExpoRoster,expoRosterLabels,authorExpoRosterLabels} from './expo-roster-context';
 
 const sha=(v:unknown)=>createHash('sha256').update(JSON.stringify(v)).digest('hex');
 const active=(source:TiledMap)=>source.properties?.some(p=>p.name==='worldMapId'&&p.value==='overworld')&&source.layers.some(l=>l.type==='objectgroup'&&l.name==='wayfinding-text'&&l.objects.some(o=>o.name==='sponsor-tier-main-name'));
@@ -20,6 +21,10 @@ export function centerSponsorTierCaptions(layer:ObjectLayer):ObjectLayer{
 
 /** The existing label layer receives only the reviewed sponsor captions; controls retain their IDs. */
 export function sponsorTierProtectedLayers(prior:TiledLayer[],source:TiledMap):TiledLayer[]{
+ if(hasExpoRoster(source)){
+  const labels=expoRosterLabels(source);
+  return prior.map(l=>l.name===labels.name?labels:l);
+ }
  if(!active(source))return prior;
  const sourceLabels=centerSponsorTierCaptions(source.layers.find(l=>l.name===data.native.layer.after.name) as ObjectLayer);
  const bodies=(l:ObjectLayer)=>l.objects.map(o=>({...o,id:0}));
@@ -31,7 +36,13 @@ export function sponsorTierProtectedLayers(prior:TiledLayer[],source:TiledMap):T
   return structuredClone(data.native.layer.after) as ObjectLayer;
  });
 }
+/** Only the previously reviewed labels may enter the explicit roster migration. */
+export function precedingSponsorTierLayers(prior:TiledLayer[],source:TiledMap):TiledLayer[]{
+ if(!hasExpoRoster(source))return prior;
+ return prior.map(l=>l.name===data.native.layer.after.name?structuredClone(data.native.layer.after) as ObjectLayer:l);
+}
 export function authorSponsorTierContext(map:TiledMap,source:TiledMap):void{
+ if(hasExpoRoster(source)){authorExpoRosterLabels(map,source);return;}
  if(!active(source))return;
  const at=map.layers.findIndex(l=>l.name===data.native.layer.after.name);
  if(at<0||![data.native.layer.beforeSha256,sha(data.native.layer.after)].includes(sha(map.layers[at])))throw Error('Sponsor label author input changed');

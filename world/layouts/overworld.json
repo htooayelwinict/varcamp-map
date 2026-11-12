@@ -64651,10 +64651,10 @@
       "height": 4
     },
     {
-      "id": "sponsor-tier-ten-ten-floor",
+      "id": "sponsor-tier-open-taxi-floor",
       "sprite": "floor-wood",
       "layer": "terrain",
-      "x": 81,
+      "x": 83,
       "y": 82,
       "width": 6,
       "height": 4
@@ -65551,64 +65551,64 @@
       "height": 1
     },
     {
-      "id": "sponsor-tier-ten-ten-west",
+      "id": "sponsor-tier-open-taxi-west",
       "sprite": "expo-wall-navy",
       "layer": "props",
-      "x": 80,
+      "x": 82,
       "y": 82,
       "width": 1,
       "height": 4
     },
     {
-      "id": "sponsor-tier-ten-ten-west-seal",
+      "id": "sponsor-tier-open-taxi-west-seal",
       "sprite": "wall-charcoal",
       "layer": "terrain",
-      "x": 80,
+      "x": 82,
       "y": 82,
       "width": 1,
       "height": 4
     },
     {
-      "id": "sponsor-tier-ten-ten-east",
+      "id": "sponsor-tier-open-taxi-east",
       "sprite": "expo-wall-navy",
       "layer": "props",
-      "x": 87,
+      "x": 89,
       "y": 82,
       "width": 1,
       "height": 4
     },
     {
-      "id": "sponsor-tier-ten-ten-east-seal",
+      "id": "sponsor-tier-open-taxi-east-seal",
       "sprite": "wall-charcoal",
       "layer": "terrain",
-      "x": 87,
+      "x": 89,
       "y": 82,
       "width": 1,
       "height": 4
     },
     {
-      "id": "sponsor-tier-ten-ten-desk",
+      "id": "sponsor-tier-open-taxi-desk",
       "sprite": "check-in-desk-solid",
       "layer": "props",
-      "x": 81,
+      "x": 83,
       "y": 82,
       "width": 3,
       "height": 2
     },
     {
-      "id": "sponsor-tier-ten-ten-laptop",
+      "id": "sponsor-tier-open-taxi-laptop",
       "sprite": "laptop",
       "layer": "props",
-      "x": 82,
+      "x": 84,
       "y": 82,
       "width": 1,
       "height": 1
     },
     {
-      "id": "sponsor-tier-ten-ten-flowers",
+      "id": "sponsor-tier-open-taxi-flowers",
       "sprite": "plaza-potted-lavender",
       "layer": "props",
-      "x": 86,
+      "x": 88,
       "y": 83,
       "width": 1,
       "height": 1
@@ -65884,132 +65884,6 @@
       "height": 2
     },
     {
-      "id": "sponsor-tier-shared-east-68",
-      "sprite": "expo-wall-navy",
-      "layer": "props",
-      "x": 68,
-      "y": 80,
-      "width": 1,
-      "height": 2
-    },
-    {
-      "id": "sponsor-tier-shared-east-69",
-      "sprite": "glass-partition",
-      "layer": "props",
-      "x": 69,
-      "y": 80,
-      "width": 3,
-      "height": 2
-    },
-    {
-      "id": "sponsor-tier-shared-east-72",
-      "sprite": "glass-partition",
-      "layer": "props",
-      "x": 72,
-      "y": 80,
-      "width": 3,
-      "height": 2
-    },
-    {
-      "id": "sponsor-tier-shared-east-75",
-      "sprite": "expo-wall-navy",
-      "layer": "props",
-      "x": 75,
-      "y": 80,
-      "width": 1,
-      "height": 2
-    },
-    {
-      "id": "sponsor-tier-shared-east-76",
-      "sprite": "expo-wall-navy",
-      "layer": "props",
-      "x": 76,
-      "y": 80,
-      "width": 1,
-      "height": 2
-    },
-    {
-      "id": "sponsor-tier-shared-east-77",
-      "sprite": "expo-wall-navy",
-      "layer": "props",
-      "x": 77,
-      "y": 80,
-      "width": 1,
-      "height": 2
-    },
-    {
-      "id": "sponsor-tier-shared-east-78",
-      "sprite": "expo-wall-navy",
-      "layer": "props",
-      "x": 78,
-      "y": 80,
-      "width": 1,
-      "height": 2
-    },
-    {
-      "id": "sponsor-tier-shared-east-79",
-      "sprite": "expo-wall-navy",
-      "layer": "props",
-      "x": 79,
-      "y": 80,
-      "width": 1,
-      "height": 2
-    },
-    {
-      "id": "sponsor-tier-shared-east-80",
-      "sprite": "expo-wall-navy",
-      "layer": "props",
-      "x": 80,
-      "y": 80,
-      "width": 1,
-      "height": 2
-    },
-    {
-      "id": "sponsor-tier-shared-east-81",
-      "sprite": "glass-partition",
-      "layer": "props",
-      "x": 81,
-      "y": 80,
-      "width": 3,
-      "height": 2
-    },
-    {
-      "id": "sponsor-tier-shared-east-84",
-      "sprite": "glass-partition",
-      "layer": "props",
-      "x": 84,
-      "y": 80,
-      "width": 3,
-      "height": 2
-    },
-    {
-      "id": "sponsor-tier-shared-east-87",
-      "sprite": "expo-wall-navy",
-      "layer": "props",
-      "x": 87,
-      "y": 80,
-      "width": 1,
-      "height": 2
-    },
-    {
-      "id": "sponsor-tier-shared-east-88",
-      "sprite": "expo-wall-navy",
-      "layer": "props",
-      "x": 88,
-      "y": 80,
-      "width": 1,
-      "height": 2
-    },
-    {
-      "id": "sponsor-tier-shared-east-seal",
-      "sprite": "wall-charcoal",
-      "layer": "terrain",
-      "x": 68,
-      "y": 80,
-      "width": 21,
-      "height": 2
-    },
-    {
       "id": "arrival-check-in-middle-desk",
       "sprite": "check-in-desk-solid",
       "x": 73,
@@ -66044,6 +65918,141 @@
       "width": 1,
       "height": 1,
       "layer": "props"
+    },
+    {
+      "id": "sponsor-tier-duwun-floor",
+      "sprite": "floor-wood",
+      "layer": "terrain",
+      "x": 76,
+      "y": 82,
+      "width": 6,
+      "height": 4
+    },
+    {
+      "id": "sponsor-tier-duwun-desk",
+      "sprite": "check-in-desk-solid",
+      "layer": "props",
+      "x": 76,
+      "y": 82,
+      "width": 3,
+      "height": 2
+    },
+    {
+      "id": "sponsor-tier-duwun-laptop",
+      "sprite": "laptop",
+      "layer": "props",
+      "x": 77,
+      "y": 82,
+      "width": 1,
+      "height": 1
+    },
+    {
+      "id": "sponsor-tier-duwun-flowers",
+      "sprite": "plaza-potted-lavender",
+      "layer": "props",
+      "x": 81,
+      "y": 83,
+      "width": 1,
+      "height": 1
+    },
+    {
+      "id": "sponsor-tier-shared-east-68",
+      "sprite": "expo-wall-navy",
+      "layer": "props",
+      "x": 68,
+      "y": 80,
+      "width": 1,
+      "height": 2
+    },
+    {
+      "id": "sponsor-tier-shared-east-75",
+      "sprite": "expo-wall-navy",
+      "layer": "props",
+      "x": 75,
+      "y": 80,
+      "width": 1,
+      "height": 2
+    },
+    {
+      "id": "sponsor-tier-shared-east-82",
+      "sprite": "expo-wall-navy",
+      "layer": "props",
+      "x": 82,
+      "y": 80,
+      "width": 1,
+      "height": 2
+    },
+    {
+      "id": "sponsor-tier-shared-east-89",
+      "sprite": "expo-wall-navy",
+      "layer": "props",
+      "x": 89,
+      "y": 80,
+      "width": 1,
+      "height": 2
+    },
+    {
+      "id": "sponsor-tier-shared-east-69",
+      "sprite": "glass-partition",
+      "layer": "props",
+      "x": 69,
+      "y": 80,
+      "width": 3,
+      "height": 2
+    },
+    {
+      "id": "sponsor-tier-shared-east-72",
+      "sprite": "glass-partition",
+      "layer": "props",
+      "x": 72,
+      "y": 80,
+      "width": 3,
+      "height": 2
+    },
+    {
+      "id": "sponsor-tier-shared-east-76",
+      "sprite": "glass-partition",
+      "layer": "props",
+      "x": 76,
+      "y": 80,
+      "width": 3,
+      "height": 2
+    },
+    {
+      "id": "sponsor-tier-shared-east-79",
+      "sprite": "glass-partition",
+      "layer": "props",
+      "x": 79,
+      "y": 80,
+      "width": 3,
+      "height": 2
+    },
+    {
+      "id": "sponsor-tier-shared-east-83",
+      "sprite": "glass-partition",
+      "layer": "props",
+      "x": 83,
+      "y": 80,
+      "width": 3,
+      "height": 2
+    },
+    {
+      "id": "sponsor-tier-shared-east-86",
+      "sprite": "glass-partition",
+      "layer": "props",
+      "x": 86,
+      "y": 80,
+      "width": 3,
+      "height": 2
+    },
+    {
+      "id": "sponsor-tier-shared-east-seal",
+      "sprite": "wall-charcoal",
+      "layer": "terrain",
+      "x": 68,
+      "y": 80,
+      "width": 22,
+      "height": 2
     }
   ],
   "entries": [
@@ -66591,10 +66600,10 @@
     },
     {
       "name": "sponsor-tier-main-tier",
-      "text": "MAIN SPONSOR",
-      "x": 62,
+      "text": "Digital Safety Partner",
+      "x": 60,
       "y": 67,
-      "width": 5,
+      "width": 9,
       "height": 1,
       "fontSize": 15,
       "color": "#f1d9a0",
@@ -66603,7 +66612,7 @@
     },
     {
       "name": "sponsor-tier-main-name",
-      "text": "DIGISEC LAB",
+      "text": "DigiSec Lab",
       "x": 61,
       "y": 68,
       "width": 7,
@@ -66615,7 +66624,7 @@
     },
     {
       "name": "sponsor-tier-spark-tier",
-      "text": "SPARK SPONSOR",
+      "text": "Spark Sponsor",
       "x": 46,
       "y": 76,
       "width": 6,
@@ -66627,7 +66636,7 @@
     },
     {
       "name": "sponsor-tier-spark-name",
-      "text": "NEWNESS",
+      "text": "Newness",
       "x": 46,
       "y": 77,
       "width": 6,
@@ -66638,56 +66647,32 @@
       "padding": 1
     },
     {
-      "name": "sponsor-tier-mini-tier",
-      "text": "MINI SPONSOR",
-      "x": 78,
-      "y": 76,
-      "width": 6,
-      "height": 1,
-      "fontSize": 12,
-      "color": "#f1d9a0",
-      "align": "center",
-      "padding": 1
-    },
-    {
-      "name": "sponsor-tier-mini-name",
-      "text": "LOKAL ZAYTANN",
-      "x": 78,
-      "y": 77,
-      "width": 6,
-      "height": 1,
-      "fontSize": 17,
-      "color": "#f1d9a0",
-      "align": "center",
-      "padding": 1
-    },
-    {
       "name": "sponsor-tier-communities",
-      "text": "COMMUNITY CORNER",
-      "x": 60,
-      "y": 87,
-      "width": 8,
+      "text": "Community & Media Partners",
+      "x": 57,
+      "y": 89,
+      "width": 14,
       "height": 1,
-      "fontSize": 17,
+      "fontSize": 16,
       "color": "#cdebf2",
       "align": "center",
       "padding": 1
     },
     {
       "name": "sponsor-tier-aws-name",
-      "text": "AWS UG MYANMAR",
+      "text": "AWS USER GROUP\nMYANMAR",
       "x": 39,
       "y": 86,
       "width": 6,
-      "height": 1,
-      "fontSize": 16,
+      "height": 2,
+      "fontSize": 14,
       "color": "#f1d9a0",
       "align": "center",
       "padding": 4
     },
     {
       "name": "sponsor-tier-bsides-name",
-      "text": "BSIDES MYANMAR",
+      "text": "BSides Myanmar",
       "x": 47,
       "y": 86,
       "width": 6,
@@ -66699,7 +66684,7 @@
     },
     {
       "name": "sponsor-tier-vibes-name",
-      "text": "VIBE CODE TOURS",
+      "text": "Vibes Code Tours",
       "x": 55,
       "y": 86,
       "width": 6,
@@ -66711,24 +66696,36 @@
     },
     {
       "name": "sponsor-tier-osrfm-name",
-      "text": "OSRFM",
+      "text": "Open Source Robotics\nFoundation For Myanmar\n(OSRFM)",
       "x": 69,
       "y": 86,
       "width": 6,
-      "height": 1,
-      "fontSize": 16,
+      "height": 2,
+      "fontSize": 12,
+      "color": "#f1d9a0",
+      "align": "center",
+      "padding": 2
+    },
+    {
+      "name": "sponsor-tier-duwun-name",
+      "text": "Duwun\nMedia Partner",
+      "x": 76,
+      "y": 86,
+      "width": 6,
+      "height": 2,
+      "fontSize": 15,
       "color": "#f1d9a0",
       "align": "center",
       "padding": 4
     },
     {
-      "name": "sponsor-tier-ten-ten-name",
-      "text": "TEN TEN",
-      "x": 81,
+      "name": "sponsor-tier-open-taxi-name",
+      "text": "Open Taxi\nMedia Partner",
+      "x": 83,
       "y": 86,
       "width": 6,
-      "height": 1,
-      "fontSize": 16,
+      "height": 2,
+      "fontSize": 15,
       "color": "#f1d9a0",
       "align": "center",
       "padding": 4
@@ -66816,15 +66813,6 @@
       "standing": false
     },
     {
-      "name": "Expo / Ten Ten",
-      "image": "assets/sponsors/partner-ten-ten.png",
-      "x": 82,
-      "y": 84,
-      "width": 4,
-      "height": 2,
-      "standing": false
-    },
-    {
       "name": "Expo / DigiSec Lab North",
       "image": "assets/sponsors/sponsor-digisec-north.png",
       "x": 61,
@@ -66857,6 +66845,33 @@
       "x": 79,
       "y": 78,
       "width": 4,
+      "height": 2,
+      "standing": false
+    },
+    {
+      "name": "Expo / Duwun",
+      "image": "assets/sponsors/partner-duwun.png",
+      "x": 76,
+      "y": 84,
+      "width": 6,
+      "height": 2,
+      "standing": false
+    },
+    {
+      "name": "Expo / Open Taxi",
+      "image": "assets/sponsors/partner-open-taxi.png",
+      "x": 83,
+      "y": 84,
+      "width": 6,
+      "height": 2,
+      "standing": false
+    },
+    {
+      "name": "Expo / Lokal Name",
+      "image": "assets/sponsors/expo-lokal-name.png",
+      "x": 78,
+      "y": 76,
+      "width": 6,
       "height": 2,
       "standing": false
     }

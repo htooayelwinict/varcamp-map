@@ -1,3 +1,4 @@
+import {beforeExpoRosterNative} from './expo-roster-history';
 import {readFileSync} from 'node:fs';
 import {gunzipSync} from 'node:zlib';
 import {createHash} from 'node:crypto';
@@ -9,6 +10,7 @@ import type {TiledMap} from '../../tools/maps/types';
 const sha=(v:unknown)=>createHash('sha256').update(JSON.stringify(v)).digest('hex');
 /** Historical tests replay their original epoch only after verifying the exact new native map. */
 export function beforeSponsorTierNative(current:TiledMap):TiledMap{
+ current=beforeExpoRosterNative(current);
  if(sha(current)==='8ef2f9655277975b43f864346ef482f4c41c462ea18c6a3cd3b6a6369fa1990d'){
   const logos=readFileSync('tests/fixtures/sponsor-logos/before.json.gz');
   assert.equal(createHash('sha256').update(logos).digest('hex'),'4cdbd8417abf8b5632022536180dfcbec1fe7408e9f5a1674a27c376d1d5bccc');

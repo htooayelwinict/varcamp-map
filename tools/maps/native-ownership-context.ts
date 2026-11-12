@@ -1,6 +1,7 @@
-import {sponsorTierProtectedLayers} from './sponsor-tier-context';
+import {sponsorTierProtectedLayers,precedingSponsorTierLayers} from './sponsor-tier-context';
 import {communityExpoAtlases} from './community-expo-context';
 import {sponsorLogoAtlases} from './sponsor-logo-context';
+import {expoRosterAtlases,communityRosterSource} from './expo-roster-context';
 import {shorelineAtlases} from './plaza-shoreline';
 import {navigationProtectedLayers,navigationAtlases} from './harbour-navigation-context';
 import {parkArcadeProtectedLayers,parkArcadeAtlases,isParkLampSource} from './park-arcade-context';
@@ -224,7 +225,7 @@ function protectedContext(actual:TiledMap,row:ContextRow,author=false,source:Til
  const navigation=navigationProtectedLayers(identities(actual)[0],maze);
  const current=playgroundProtectedLayers(identities(actual)[0],parkArcadeProtectedLayers(identities(actual)[0],navigation));
  const sponsor=sponsorTierProtectedLayers(current,source);
- need(isDeepStrictEqual(layers,sponsor)||(author&&[current,navigation,maze,preceding,row.protectedLayers].some(prior=>isDeepStrictEqual(layers,prior))),'protected nonfloor layer bodies/roster changed');
+ need(isDeepStrictEqual(layers,sponsor)||(author&&[precedingSponsorTierLayers(current,source),current,navigation,maze,preceding,row.protectedLayers].some(prior=>isDeepStrictEqual(layers,prior))),'protected nonfloor layer bodies/roster changed');
  need(isDeepStrictEqual(actual.layers.filter(l=>l.type!=='tilelayer').map(l=>l.name),row.protectedNonfloorOrder),'protected nonfloor order changed');
 }
 /** Reviewed epochs on the overworld, each admitted only after every earlier one: the fleet is
@@ -232,6 +233,9 @@ function protectedContext(actual:TiledMap,row:ContextRow,author=false,source:Til
 interface Epoch{expo:boolean;brand:boolean;roadsterV2:boolean}
 const CURRENT:Epoch={expo:true,brand:true,roadsterV2:true},PRE_ROADSTER_V2:Epoch={expo:true,brand:true,roadsterV2:false},PRE_BRAND:Epoch={expo:true,brand:false,roadsterV2:false},PRE_EXPO:Epoch={expo:false,brand:false,roadsterV2:false};
 function currentAtlases(row:ContextRow,source:TiledMap,epoch:Epoch=CURRENT,includeCove=true,includeZodiac=true,includeHall=true,includeArrival=true,includePatrol=true,includeFountain=true,includeLeo=true,includeBuildings=true):TiledTileset[]{
+ const roster=expoRosterAtlases(source,0);
+ if(roster.length)source={...source,tilesets:source.tilesets.filter(t=>!roster.some(p=>p.name===t.name))};
+ source=communityRosterSource(source);
  const sponsors=sponsorLogoAtlases(source,0);
  if(sponsors.length)source={...source,tilesets:source.tilesets.filter(t=>!sponsors.some(p=>p.name===t.name))};
  const community=communityExpoAtlases(source,0);
@@ -309,6 +313,7 @@ function currentAtlases(row:ContextRow,source:TiledMap,epoch:Epoch=CURRENT,inclu
  expected.push(...community.map((t,i)=>({...t,firstgid:communityStart+i*8})));
  let sponsorStart=Math.max(...expected.map(t=>t.firstgid+t.tilecount!));
  for(const t of sponsors){expected.push({...t,firstgid:sponsorStart});sponsorStart+=t.tilecount!;}
+ for(const t of roster){expected.push({...t,firstgid:sponsorStart});sponsorStart+=t.tilecount!;}
  return expected;
 }
 /** Mandatory final current context: complete atlas roster/order/bodies/ranges,
@@ -329,6 +334,11 @@ export function assertNativeAuthoringContext(actual:TiledMap,source:TiledMap):vo
  const expected=currentAtlases(row,source);
  if(isDeepStrictEqual(actual.tilesets,row.atlases))return;
  if(isDeepStrictEqual(actual.tilesets,expected))return;
+ const rosterCount=expoRosterAtlases(source,0).length;
+ if(rosterCount){
+  need(isDeepStrictEqual(actual.tilesets,expected.slice(0,-rosterCount)),'author input must retain the exact pre-roster atlas reservations');
+  return;
+ }
  const sponsorCount=sponsorLogoAtlases(source,0).length;
  if(sponsorCount){
   need(isDeepStrictEqual(actual.tilesets,expected.slice(0,-sponsorCount)),'author input must retain the exact pre-sponsor-logo atlas roster');

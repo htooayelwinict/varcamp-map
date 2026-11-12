@@ -1,0 +1,59 @@
+{
+  "version": 1,
+  "logos": [
+    {
+      "source": "Duwun-Tech-Primary.png",
+      "sourceSha256": "46342514130283c1befcc72576ae00f5ec89faed753b42b25676d670710bf7fe",
+      "file": "partner-duwun.png",
+      "crop": {
+        "left": 141,
+        "top": 141,
+        "width": 1219,
+        "height": 353
+      },
+      "width": 192,
+      "height": 64,
+      "contentWidth": 180,
+      "contentHeight": 56
+    },
+    {
+      "source": "OpenTaxi-Transparent.png",
+      "sourceSha256": "a324053ec83a6fd85d5c263abe542fdcc9378e699ddb60e69fa48fa80c338cc4",
+      "file": "partner-open-taxi.png",
+      "crop": {
+        "left": 195,
+        "top": 121,
+        "width": 1727,
+        "height": 396
+      },
+      "width": 192,
+      "height": 64,
+      "contentWidth": 180,
+      "contentHeight": 56
+    }
+  ],
+  "caption": {
+    "font": "NotoSansMyanmar-Regular.ttf",
+    "fontSha256": "9dd2bc76a822a974efce803a4b07302d14d01d5c1fa9e33a258d15a9cb513a7d",
+    "file": "expo-lokal-name.png",
+    "width": 192,
+    "height": 64,
+    "lines": [
+      {
+        "text": "Mini Sponsor",
+        "size": 12,
+        "y": 2
+      },
+      {
+        "text": "Lokal Zaytann",
+        "size": 16,
+        "y": 18
+      },
+      {
+        "text": "ဒေသစျေးတန်း",
+        "size": 17,
+        "y": 36
+      }
+    ]
+  }
+}
