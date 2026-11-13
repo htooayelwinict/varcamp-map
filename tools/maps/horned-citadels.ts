@@ -3,6 +3,7 @@ import {isDeepStrictEqual} from 'node:util';
 import recipe from '../../world/horned-citadels.json';
 import type {MapLayout,TiledMap,TiledTileset} from './types';
 import type {TileCatalog} from '../art/catalog';
+import {currentBuildingFrontSprite} from './building-front-edges';
 const sha=(v:unknown)=>createHash('sha256').update(JSON.stringify(v)).digest('hex');
 const need=(v:unknown,s:string)=>{if(!v)throw Error('Horned citadels: '+s);};
 export const isHornedCitadels=(l:MapLayout)=>l.id==='overworld'&&sha(l)===recipe.afterLayoutSha256;
@@ -22,10 +23,7 @@ export function restoreHornedCitadels(input:MapLayout,catalog?:TileCatalog):MapL
  const l=structuredClone(input);
  for(const b of recipe.buildings){
   if(catalog){
-   // Capricorn's lowest row is its front wall. Keep approaching Wokas in
-   // front of it while retaining the original canopy and collision mask.
-   const currentSprite=b.sign==='capricorn'
-    ?{...b.sprite,upperCells:Array.from({length:132},(_,i)=>[i%12,Math.floor(i/12)])}:b.sprite;
+   const currentSprite=currentBuildingFrontSprite(b.after.sprite,b.sprite);
    need(isDeepStrictEqual(catalog[b.after.sprite],currentSprite),'new footprint or depth changed: '+b.sign);
    need(isDeepStrictEqual(catalog[b.after.sprite].blockingCells,catalog[b.before.sprite].blockingCells),'grounded walls changed: '+b.sign);
   }

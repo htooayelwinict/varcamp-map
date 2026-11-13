@@ -8,6 +8,14 @@ import type {MapLayout,TiledMap} from '../tools/maps/types';
 const read=(p:string)=>JSON.parse(readFileSync(p,'utf8'));
 const hash=(v:unknown)=>createHash('sha256').update(JSON.stringify(v)).digest('hex');
 const expectedUpper=Array.from({length:132},(_,i)=>[i%12,Math.floor(i/12)]);
+// The subsequent all-building repair owns these rows. Its own literal-roster
+// tests pin the layout and their exact deltas; normalize them for this older receipt.
+const laterFronts=()=>(read('world/layouts/overworld.json') as MapLayout).placements.filter(p=>p.id!=='capricorn-building'&&(p.id.endsWith('-building')||['exterior-gate-solar','exterior-gate-lunar'].includes(p.id)));
+function restoreLaterFronts(m:TiledMap){
+ const above=m.layers.find(l=>l.name==='scenery-aboveAvatar-0'),below=m.layers.find(l=>l.name==='scenery-belowAvatar-1');
+ if(above?.type!=='tilelayer'||below?.type!=='tilelayer')throw Error('Missing scenery layers');
+ for(const p of laterFronts())for(let x=0;x<12;x++){const at=(p.y+11)*128+p.x+x;above.data[at]=below.data[at];below.data[at]=0;}
+}
 function checkDepth(map:TiledMap){
  const set=map.tilesets.find(t=>t.image?.endsWith('/capricorn-citadel.png'))!;
  expect(set).toBeDefined();
@@ -22,7 +30,7 @@ function checkDepth(map:TiledMap){
 describe('Capricorn front edge keeps approaching Wokas visible',()=>{
  it('places only the bottom sprite row below avatars in the native map',()=>checkDepth(read('maps/overworld.tmj')));
  it('preserves preview boards and every field outside the approved front row',()=>{
-  const m=read('maps/preview/overworld.tmj') as TiledMap;checkDepth(m);
+  const m=read('maps/preview/overworld.tmj') as TiledMap;checkDepth(m);restoreLaterFronts(m);
   for(const l of m.layers)if(l.type==='tilelayer'&&['scenery-belowAvatar-1','scenery-aboveAvatar-0'].includes(l.name))for(let x=58;x<70;x++)l.data[25*128+x]=0;
   expect(hash(m)).toBe('710e4f64a8e23b3f0d8722fb69ac2a7f6cf30f8c2026d04b9c7d843bc3dbaf15');
  });
@@ -35,7 +43,7 @@ describe('Capricorn front edge keeps approaching Wokas visible',()=>{
   expect(hash(m.layers.find(l=>l.name==='physical-collisions'))).toBe('1d22f15655ca280751b8f625472c42a103704bbe1d186fba20cbf8d1b3bcd5ae');
   const {layers,...envelope}=m;expect(hash(envelope)).toBe('f93c9e5c6d33606c831390441f60ac9b78dc581dc95588d6c4cf8719677331e0');
   expect(hash(layers.filter(l=>!['scenery-belowAvatar-1','scenery-aboveAvatar-0'].includes(l.name)))).toBe('ed4dfaf681b5602f706cf1b00dddf18acaca65ebd500c4cff9146b842bbdaf6a');
-  const original=structuredClone(c);delete original['capricorn-citadel'].upperCells;expect(hash(original)).toBe('e0d581ba768e5df6c4e52f9610dbc57be84517b8b8947a77dca6f9c123b47401');
+  const original=structuredClone(c);for(const p of laterFronts())delete original[p.sprite].upperCells;delete original['capricorn-citadel'].upperCells;expect(hash(original)).toBe('e0d581ba768e5df6c4e52f9610dbc57be84517b8b8947a77dca6f9c123b47401');
  });
  it('validates the current native export and rejects restoring the occluding front row',()=>{
   const m=read('maps/overworld.tmj') as TiledMap,l=read('world/layouts/overworld.json'),c=loadTileCatalog();

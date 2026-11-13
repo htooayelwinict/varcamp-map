@@ -6,10 +6,11 @@ import {resolve} from 'node:path';
 import sharp from 'sharp';
 import recipe from '../../world/horned-citadels.json';
 import type {TileCatalog} from './catalog';
+import {currentBuildingFrontSprite} from '../maps/building-front-edges';
 const sha=(b:Buffer|string)=>createHash('sha256').update(b).digest('hex');
 const need=(v:unknown,s:string)=>{if(!v)throw Error('Horned citadel art: '+s);};
 export const HORNED_CITADELS_METADATA='art/source/horned-citadels.json';
-export const HORNED_CITADELS_SOURCES=['world/horned-citadels.json','tools/art/horned-citadels.ts','tools/maps/horned-citadels.ts','art/source/horned-citadels/prompts.json',...recipe.buildings.map(b=>b.master.path),HORNED_CITADELS_METADATA,...recipe.buildings.map(b=>b.image)];
+export const HORNED_CITADELS_SOURCES=['world/horned-citadels.json','tools/art/horned-citadels.ts','tools/maps/horned-citadels.ts','tools/maps/building-front-edges.ts','art/source/horned-citadels/prompts.json',...recipe.buildings.map(b=>b.master.path),HORNED_CITADELS_METADATA,...recipe.buildings.map(b=>b.image)];
 
 /** Fit each complete transparent subject uniformly to its native footprint. */
 export async function renderHornedCitadels(){
@@ -33,7 +34,7 @@ export async function checkHornedCitadelArt(catalog:TileCatalog,sources:Record<s
  const r=await renderHornedCitadels(),s=sources['horned-citadels'];
  need(s&&isDeepStrictEqual(s.files.map((f:any)=>f.path),HORNED_CITADELS_SOURCES),'source family missing');
  need(HORNED_CITADELS_SOURCES.every(p=>s.files.find((f:any)=>f.path===p)?.sha256===sha(readFileSync(p))),'source hash changed');
- for(const b of r.rendered){need(readFileSync(b.metadata.image.path).equals(b.png),'PNG differs from master compiler: '+b.sign);need(isDeepStrictEqual(catalog[b.sign+'-citadel'],b.metadata.sprite),'catalog changed: '+b.sign);}
+ for(const b of r.rendered){need(readFileSync(b.metadata.image.path).equals(b.png),'PNG differs from master compiler: '+b.sign);need(isDeepStrictEqual(catalog[b.sign+'-citadel'],currentBuildingFrontSprite(b.sign+'-citadel',b.metadata.sprite)),'catalog changed: '+b.sign);}
  need(isDeepStrictEqual(JSON.parse(readFileSync(HORNED_CITADELS_METADATA,'utf8')),r.metadata),'metadata changed');
 }
 if(process.argv[1]&&import.meta.url===pathToFileURL(resolve(process.argv[1])).href){const r=await renderHornedCitadels();for(const b of r.rendered)writeFileSync(b.metadata.image.path,b.png);writeFileSync(HORNED_CITADELS_METADATA,JSON.stringify(r.metadata,null,2)+'\n');}

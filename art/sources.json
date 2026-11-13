@@ -2097,7 +2097,7 @@
     "url": "https://var.camp/",
     "license": "Original project artwork; permitted project distribution",
     "licenseFile": "assets/tilesets/leo-citadel/LICENSE.txt",
-    "changes": "Complete new stone lion citadel architecture. Uniform nearest-neighbor fit of the retained transparent master into the existing 384px footprint. Retain original Leo and Solar masters, atlases, positions, doorways and physics.",
+    "changes": "Complete new stone lion citadel architecture. Uniform nearest-neighbor fit of the retained transparent master into the existing 384px footprint. Retain original Leo and Solar masters, atlases, positions, doorways and physics. The current catalog renders the bottom front row below avatars; artwork, retained masters and render metadata are unchanged.",
     "files": [
       {
         "path": "world/leo-citadel.json",
@@ -2105,11 +2105,15 @@
       },
       {
         "path": "tools/art/leo-citadel.ts",
-        "sha256": "f32e7ff13a73e0ad77c1b3b57f3e1c47f85e722af4ce294aadb12ac337848426"
+        "sha256": "df529b55af90ade71ecae15d56dc9e585a8c79b21b6a224f60633296fad9c35e"
       },
       {
         "path": "tools/maps/leo-citadel.ts",
-        "sha256": "55efd78b3b03f3ad217aaa96481b5744e4de3cdb00e139d3bb47941809b284dc"
+        "sha256": "6e49987209e4cb018d292c0e0570a523d3837759a40cc25d98759420a077868d"
+      },
+      {
+        "path": "tools/maps/building-front-edges.ts",
+        "sha256": "eb63a39d3c0616f0de1136479ef94c35779bf3551b965b3299300cebfbc5b6fb"
       },
       {
         "path": "art/source/leo-citadel/prompt.json",
@@ -2134,7 +2138,7 @@
     "url": "https://var.camp/",
     "license": "Original project artwork; permitted project distribution",
     "licenseFile": "assets/tilesets/cancer-citadel/LICENSE.txt",
-    "changes": "Replace the scallop pavilion with a coastal crab citadel. Uniform nearest-neighbor fit of the retained transparent master into the existing 384px footprint. Preserve all other architecture, original atlases, positions, doorways and physics.",
+    "changes": "Replace the scallop pavilion with a coastal crab citadel. Uniform nearest-neighbor fit of the retained transparent master into the existing 384px footprint. Preserve all other architecture, original atlases, positions, doorways and physics. The current catalog renders the bottom front row below avatars; artwork, retained masters and render metadata are unchanged.",
     "files": [
       {
         "path": "world/cancer-citadel.json",
@@ -2142,11 +2146,15 @@
       },
       {
         "path": "tools/art/cancer-citadel.ts",
-        "sha256": "c94ae7d7c05ca8302b4458cae97e0fd7b17ba9f44d07368c4cca3c87d6044d1e"
+        "sha256": "a6b62e9d771b31552837b4af339b0ebcd9f7ae27d4076c3115f1967072d212ae"
       },
       {
         "path": "tools/maps/cancer-citadel.ts",
-        "sha256": "6ae78e027caf68f5555265a5f1a485e7df4ddb14aab7a43943a158d710ded787"
+        "sha256": "bd6b80b8137f940e8b3f43ae1243a864e08294dec7721b0444f784ec8ce5ac96"
+      },
+      {
+        "path": "tools/maps/building-front-edges.ts",
+        "sha256": "eb63a39d3c0616f0de1136479ef94c35779bf3551b965b3299300cebfbc5b6fb"
       },
       {
         "path": "art/source/cancer-citadel/prompt.json",
@@ -2171,7 +2179,7 @@
     "url": "art/source/horned-citadels/prompts.json",
     "license": "Original project artwork; permitted project distribution",
     "licenseFile": "assets/tilesets/horned-citadels/LICENSE.txt",
-    "changes": "Whole-building Aries and Capricorn architecture derived from approved Leo and Cancer style; Taurus stays original at owner request.",
+    "changes": "Whole-building Aries and Capricorn architecture derived from approved Leo and Cancer style; Taurus stays original at owner request. The current catalog renders the bottom front row below avatars; artwork, retained masters and render metadata are unchanged.",
     "files": [
       {
         "path": "world/horned-citadels.json",
@@ -2179,11 +2187,15 @@
       },
       {
         "path": "tools/art/horned-citadels.ts",
-        "sha256": "5a9bba169bd1ea69af88ed1de1ed499201d431b95af2947d84c0a373954eeeb6"
+        "sha256": "1f5b106d9448f1830bfb36f0d8ad2daf3e921fbea634221839534f880e8842de"
       },
       {
         "path": "tools/maps/horned-citadels.ts",
-        "sha256": "421066c4800c8cd9ef97f6b7468de41b756da62b690d306d63fe45dcf6ebaaca"
+        "sha256": "7c9eb483a9b1cb566cdd312aa00388e278c5ce25fddd97dae78b3712a6756024"
+      },
+      {
+        "path": "tools/maps/building-front-edges.ts",
+        "sha256": "eb63a39d3c0616f0de1136479ef94c35779bf3551b965b3299300cebfbc5b6fb"
       },
       {
         "path": "art/source/horned-citadels/prompts.json",

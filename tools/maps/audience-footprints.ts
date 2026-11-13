@@ -3,6 +3,7 @@ import {isDeepStrictEqual} from 'node:util';
 import data from '../../world/audience-footprints.json';
 import type {MapLayout,Placement,LayoutSign} from './types';
 import type {TileCatalog} from '../art/catalog';
+import {currentBuildingFrontSprite} from './building-front-edges';
 type Item=Placement|LayoutSign;
 type Delta={replacements:{index:number;before:Item;after:Item}[];insertions:{index:number;value:Item}[]};
 type Row={beforeLayoutSha256:string;afterLayoutSha256:string;fields:Partial<Record<'placements'|'signs',Delta>>};
@@ -29,7 +30,7 @@ export function assertAudienceFootprintCatalog(catalog:TileCatalog):void{
  const expected=Object.keys(data.aliases).sort();
  need(isDeepStrictEqual(Object.keys(catalog).filter(k=>k.startsWith('grounded-')).sort(),expected),'closed grounded alias family changed');
  for(const[id,row]of Object.entries(data.aliases)){
-  need(isDeepStrictEqual(catalog[id],row.sprite),'footprint/depth changed: '+id);
+  need(isDeepStrictEqual(catalog[id],currentBuildingFrontSprite(id,row.sprite)),'footprint/depth changed: '+id);
   for(const key of ['sheet','rect','sourceId']as const)need(isDeepStrictEqual(catalog[id][key],catalog[row.original][key]),'native artwork changed: '+id);
  }
 }

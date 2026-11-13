@@ -3,6 +3,7 @@ import {isDeepStrictEqual} from 'node:util';
 import recipe from '../../world/leo-citadel.json';
 import type {MapLayout,TiledMap,TiledTileset} from './types';
 import type {TileCatalog} from '../art/catalog';
+import {currentBuildingFrontSprite} from './building-front-edges';
 const sha=(v:unknown)=>createHash('sha256').update(JSON.stringify(v)).digest('hex');
 const need=(v:unknown,s:string)=>{if(!v)throw Error('Leo citadel: '+s);};
 const image='../assets/tilesets/original/leo-citadel.png';
@@ -22,7 +23,7 @@ export function restoreLeoCitadel(input:MapLayout,catalog?:TileCatalog):MapLayou
  if(input.id!=='overworld')return input;
  need(recipe.version===1&&sha(input)===recipe.afterLayoutSha256,'unreviewed campus source');
  if(catalog){
-  need(isDeepStrictEqual(catalog['leo-citadel'],recipe.sprite),'new building footprint or depth changed');
+  need(isDeepStrictEqual(catalog['leo-citadel'],currentBuildingFrontSprite('leo-citadel',recipe.sprite)),'new building footprint or depth changed');
   need(isDeepStrictEqual(catalog['leo-citadel'].blockingCells,catalog['grounded-zodiac-physical-leo'].blockingCells),'grounded walls changed');
  }
  const l=structuredClone(input),b=recipe.building,o=recipe.retiredOrnament;

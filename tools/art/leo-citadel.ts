@@ -6,10 +6,11 @@ import {resolve} from 'node:path';
 import sharp from 'sharp';
 import recipe from '../../world/leo-citadel.json';
 import type {TileCatalog} from './catalog';
+import {currentBuildingFrontSprite} from '../maps/building-front-edges';
 const sha=(b:Buffer|string)=>createHash('sha256').update(b).digest('hex');
 const need=(v:unknown,s:string)=>{if(!v)throw Error('Leo citadel art: '+s);};
 export const LEO_CITADEL_METADATA='art/source/leo-citadel.json';
-export const LEO_CITADEL_SOURCES=['world/leo-citadel.json','tools/art/leo-citadel.ts','tools/maps/leo-citadel.ts','art/source/leo-citadel/prompt.json',recipe.master.path,LEO_CITADEL_METADATA,recipe.image];
+export const LEO_CITADEL_SOURCES=['world/leo-citadel.json','tools/art/leo-citadel.ts','tools/maps/leo-citadel.ts','tools/maps/building-front-edges.ts','art/source/leo-citadel/prompt.json',recipe.master.path,LEO_CITADEL_METADATA,recipe.image];
 /** Complete transparent subject, uniformly fitted to the existing 12x12 tile
  * footprint. Original atlas and ornament remain immutable recovery assets. */
 export async function renderLeoCitadel(){
@@ -31,6 +32,6 @@ export async function checkLeoCitadelArt(catalog:TileCatalog,sources:Record<stri
  need(LEO_CITADEL_SOURCES.every(p=>s.files.find((f:any)=>f.path===p)?.sha256===sha(readFileSync(p))),'source hash changed');
  need(readFileSync(recipe.image).equals(r.png),'PNG differs from retained master compiler');
  need(isDeepStrictEqual(JSON.parse(readFileSync(LEO_CITADEL_METADATA,'utf8')),r.metadata),'metadata changed');
- need(isDeepStrictEqual(catalog['leo-citadel'],recipe.sprite),'catalog changed');
+ need(isDeepStrictEqual(catalog['leo-citadel'],currentBuildingFrontSprite('leo-citadel',recipe.sprite)),'catalog changed');
 }
 if(process.argv[1]&&import.meta.url===pathToFileURL(resolve(process.argv[1])).href){const r=await renderLeoCitadel();writeFileSync(recipe.image,r.png);writeFileSync(LEO_CITADEL_METADATA,JSON.stringify(r.metadata,null,2)+'\n');}

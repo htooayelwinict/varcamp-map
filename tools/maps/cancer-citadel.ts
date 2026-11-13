@@ -3,6 +3,7 @@ import {isDeepStrictEqual} from 'node:util';
 import recipe from '../../world/cancer-citadel.json';
 import type {MapLayout,TiledMap,TiledTileset} from './types';
 import type {TileCatalog} from '../art/catalog';
+import {currentBuildingFrontSprite} from './building-front-edges';
 const sha=(v:unknown)=>createHash('sha256').update(JSON.stringify(v)).digest('hex');
 const need=(v:unknown,s:string)=>{if(!v)throw Error('Cancer citadel: '+s);};
 const image='../assets/tilesets/original/cancer-citadel.png';
@@ -21,7 +22,7 @@ export function restoreCancerCitadel(input:MapLayout,catalog?:TileCatalog):MapLa
  if(input.id!=='overworld')return input;
  need(recipe.version===1&&sha(input)===recipe.afterLayoutSha256,'unreviewed campus source');
  if(catalog){
-  need(isDeepStrictEqual(catalog['cancer-citadel'],recipe.sprite),'new building footprint or depth changed');
+  need(isDeepStrictEqual(catalog['cancer-citadel'],currentBuildingFrontSprite('cancer-citadel',recipe.sprite)),'new building footprint or depth changed');
   need(isDeepStrictEqual(catalog['cancer-citadel'].blockingCells,catalog['grounded-zodiac-physical-cancer'].blockingCells),'grounded walls changed');
  }
  const l=structuredClone(input),b=recipe.building;

@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "revisions": [
+    {
+      "path": "art/tile-catalog.json",
+      "fromSha256": "d35bd86a1367b37cc0060e0328e8f666d426c0286b6528dd75e2cfaa08ccb788",
+      "toSha256": "d0954a2f5dfeaa855e919b1795a8656d03765447ba15abfb999abe665257946b",
+      "reason": "Extend the validated front-edge partition to the remaining eleven speaker buildings and two halls. Preserve Capricorn, artwork, collision, doors, boards and all unrelated content."
+    },
+    {
+      "path": "maps/overworld.tmj",
+      "fromSha256": "bebcbadd53b8fd046c1e43ed0c91efcfeea1ac35e8c3bce22a8ca01c02343d8d",
+      "toSha256": "776598d8b69c90e4643c5990f60297692604727a6854a4e7693ec63367c0c52b",
+      "reason": "Extend the validated front-edge partition to the remaining eleven speaker buildings and two halls. Preserve Capricorn, artwork, collision, doors, boards and all unrelated content."
+    },
+    {
+      "path": "maps/preview/overworld.tmj",
+      "fromSha256": "e85f784c19af1206529491c6ab9b411181d340673bdd6bbabffa4593507934e6",
+      "toSha256": "6d10fecaf52928a5f271b2a719de0aaa63283af665224ee6c88d18c6849b0874",
+      "reason": "Extend the validated front-edge partition to the remaining eleven speaker buildings and two halls. Preserve Capricorn, artwork, collision, doors, boards and all unrelated content."
+    },
+    {
+      "path": "art/sources.json",
+      "fromSha256": "23d1bdfd986c2e242eee0e06c1400171d8c332bfa471202f9c99ce24e036622d",
+      "toSha256": "3ad01f3b9f6f8a32b322843b68032d23833b82985a65a092c5a34272db14b58d",
+      "reason": "Update only current Leo, Cancer and horned-citadel validation source hashes and shared depth-rule provenance; retain every original master, PNG, recipe and render metadata."
+    }
+  ]
+}
