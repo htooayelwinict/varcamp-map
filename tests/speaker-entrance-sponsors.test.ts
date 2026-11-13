@@ -15,7 +15,7 @@ const before=JSON.parse(gunzipSync(readFileSync('tests/fixtures/speaker-entrance
 const catalog=loadTileCatalog();
 const name='Entrance / DigiSec Lab',caption='entrance-digital-safety-partner';
 describe('approved DigiSec Lab branding inside every zodiac entrance',()=>{
- it('combines the unaltered full mark and quiet role lettering in one compact framed plaque',async()=>{
+ it('enlarges the complete official mark while preserving the frame and role lettering',async()=>{
   const approved=readFileSync('art/source/sponsors/tier-logos/DigSecLab_Secondary.png');
   expect(createHash('sha256').update(approved).digest('hex')).toBe('855d08daa0c09a0205e142d48ef9c32ed0a53043b204929fd8484c62e1451c4d');
   const actual=await sharp('assets/sponsors/sponsor-digisec-entrance.png').ensureAlpha().raw().toBuffer({resolveWithObject:true});
@@ -25,13 +25,21 @@ describe('approved DigiSec Lab branding inside every zodiac entrance',()=>{
   for(let y=0;y<64;y++)for(let x=0;x<192;x++)if(x<6||x>=186||y<6||y>=60)expect(pixel(x,y)[3]).toBe(0);
   expect(pixel(6,6)).toEqual([164,139,92,255]);
   expect(pixel(70,22)).toEqual([19,37,54,255]);
-  const original=await sharp(approved).extract({left:577,top:1085,width:7161,height:6369}).resize(52,44,{fit:'inside',kernel:'lanczos3'}).ensureAlpha().raw().toBuffer({resolveWithObject:true});
+  const original=await sharp(approved).extract({left:577,top:1085,width:7161,height:6369}).resize(56,50,{fit:'inside',kernel:'lanczos3'}).ensureAlpha().raw().toBuffer({resolveWithObject:true});
   let opaqueMarkPixels=0;
   for(let y=0;y<original.info.height;y++)for(let x=0;x<original.info.width;x++){
    const i=(y*original.info.width+x)*4;
-   if(original.data[i+3]===255){expect(pixel(x+18,y+10).slice(0,3)).toEqual([...original.data.subarray(i,i+3)]);opaqueMarkPixels++;}
+   if(original.data[i+3]===255){expect(pixel(x+14,y+7).slice(0,3)).toEqual([...original.data.subarray(i,i+3)]);opaqueMarkPixels++;}
   }
   expect(opaqueMarkPixels).toBeGreaterThan(200);
+  const prior=await sharp('tests/fixtures/sponsor-digisec-entrance-plaque-before.png').ensureAlpha().raw().toBuffer();
+  let enlargedPixels=0;
+  for(let y=0;y<64;y++)for(let x=0;x<192;x++){
+   const i=(y*192+x)*4,changed=!actual.data.subarray(i,i+4).equals(prior.subarray(i,i+4));
+   if(x<14||x>=70||y<7||y>=57)expect(changed,`unchanged frame/title at ${x},${y}`).toBe(false);
+   else if(changed)enlargedPixels++;
+  }
+  expect(enlargedPixels).toBeGreaterThan(600);
   const recipe=read('art/source/sponsors/tier-logos/exports.json').logos.find((l:any)=>l.panels.some((p:any)=>p.file==='sponsor-digisec-entrance.png'));
   expect(recipe.presentation.lines).toEqual(['DIGITAL SAFETY','PARTNER']);
   // Role text must actually be rendered on both lines, inside the frame.

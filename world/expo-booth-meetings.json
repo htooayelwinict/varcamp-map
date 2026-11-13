@@ -1,0 +1,174 @@
+{
+  "version": 1,
+  "mapId": "overworld",
+  "areas": [
+    {
+      "id": "expo-booth-aws",
+      "name": "AWS USER GROUP MYANMAR",
+      "x": 1248,
+      "y": 2624,
+      "width": 192,
+      "height": 128,
+      "visible": true,
+      "properties": [
+        {
+          "id": "expo-booth-aws-meeting",
+          "type": "livekitRoomProperty",
+          "roomName": "AWS USER GROUP MYANMAR",
+          "livekitRoomConfig": {
+            "startWithAudioMuted": true,
+            "startWithVideoMuted": true,
+            "disableChat": false,
+            "raiseHandEnabled": true
+          },
+          "livekitRoomAdminTag": ""
+        },
+        {
+          "id": "expo-booth-aws-capacity",
+          "type": "maxUsersInAreaPropertyData",
+          "maxUsers": 8
+        }
+      ]
+    },
+    {
+      "id": "expo-booth-bsides",
+      "name": "BSides Myanmar",
+      "x": 1504,
+      "y": 2624,
+      "width": 192,
+      "height": 128,
+      "visible": true,
+      "properties": [
+        {
+          "id": "expo-booth-bsides-meeting",
+          "type": "livekitRoomProperty",
+          "roomName": "BSides Myanmar",
+          "livekitRoomConfig": {
+            "startWithAudioMuted": true,
+            "startWithVideoMuted": true,
+            "disableChat": false,
+            "raiseHandEnabled": true
+          },
+          "livekitRoomAdminTag": ""
+        },
+        {
+          "id": "expo-booth-bsides-capacity",
+          "type": "maxUsersInAreaPropertyData",
+          "maxUsers": 8
+        }
+      ]
+    },
+    {
+      "id": "expo-booth-vibes",
+      "name": "Vibes Code Tours",
+      "x": 1760,
+      "y": 2624,
+      "width": 192,
+      "height": 128,
+      "visible": true,
+      "properties": [
+        {
+          "id": "expo-booth-vibes-meeting",
+          "type": "livekitRoomProperty",
+          "roomName": "Vibes Code Tours",
+          "livekitRoomConfig": {
+            "startWithAudioMuted": true,
+            "startWithVideoMuted": true,
+            "disableChat": false,
+            "raiseHandEnabled": true
+          },
+          "livekitRoomAdminTag": ""
+        },
+        {
+          "id": "expo-booth-vibes-capacity",
+          "type": "maxUsersInAreaPropertyData",
+          "maxUsers": 8
+        }
+      ]
+    },
+    {
+      "id": "expo-booth-osrfm",
+      "name": "OSRFM",
+      "x": 2208,
+      "y": 2624,
+      "width": 192,
+      "height": 128,
+      "visible": true,
+      "properties": [
+        {
+          "id": "expo-booth-osrfm-meeting",
+          "type": "livekitRoomProperty",
+          "roomName": "OSRFM",
+          "livekitRoomConfig": {
+            "startWithAudioMuted": true,
+            "startWithVideoMuted": true,
+            "disableChat": false,
+            "raiseHandEnabled": true
+          },
+          "livekitRoomAdminTag": ""
+        },
+        {
+          "id": "expo-booth-osrfm-capacity",
+          "type": "maxUsersInAreaPropertyData",
+          "maxUsers": 8
+        }
+      ]
+    },
+    {
+      "id": "expo-booth-duwun",
+      "name": "Duwun",
+      "x": 2432,
+      "y": 2624,
+      "width": 192,
+      "height": 128,
+      "visible": true,
+      "properties": [
+        {
+          "id": "expo-booth-duwun-meeting",
+          "type": "livekitRoomProperty",
+          "roomName": "Duwun",
+          "livekitRoomConfig": {
+            "startWithAudioMuted": true,
+            "startWithVideoMuted": true,
+            "disableChat": false,
+            "raiseHandEnabled": true
+          },
+          "livekitRoomAdminTag": ""
+        },
+        {
+          "id": "expo-booth-duwun-capacity",
+          "type": "maxUsersInAreaPropertyData",
+          "maxUsers": 8
+        }
+      ]
+    },
+    {
+      "id": "expo-booth-open-taxi",
+      "name": "Open Taxi",
+      "x": 2656,
+      "y": 2624,
+      "width": 192,
+      "height": 128,
+      "visible": true,
+      "properties": [
+        {
+          "id": "expo-booth-open-taxi-meeting",
+          "type": "livekitRoomProperty",
+          "roomName": "Open Taxi",
+          "livekitRoomConfig": {
+            "startWithAudioMuted": true,
+            "startWithVideoMuted": true,
+            "disableChat": false,
+            "raiseHandEnabled": true
+          },
+          "livekitRoomAdminTag": ""
+        },
+        {
+          "id": "expo-booth-open-taxi-capacity",
+          "type": "maxUsersInAreaPropertyData",
+          "maxUsers": 8
+        }
+      ]
+    }
+  ]
+}

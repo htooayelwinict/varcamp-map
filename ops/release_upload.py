@@ -21,6 +21,7 @@ from arrival_check_in_zone import is_arrival_check_in_wam_change
 from aries_shared_chat import is_aries_shared_chat_wam_change
 from speaker_shared_chat import is_speaker_shared_chat_wam_change
 from plaza_sponsor_meetings import is_plaza_sponsor_meetings_wam_change
+from expo_booth_meetings import is_expo_booth_meetings_wam_change
 
 
 def wam_reference(path, data):
@@ -215,6 +216,8 @@ def wam_dependencies(release, baseline, reviewed_wams=None):
                     named_migration = 'speaker-shared-chat-v1'
                 elif is_plaza_sponsor_meetings_wam_change(path, baseline[path], candidate):
                     named_migration = 'plaza-sponsor-meetings-v1'
+                elif is_expo_booth_meetings_wam_change(path, baseline[path], candidate):
+                    named_migration = 'expo-booth-meetings-v1'
             if protected != original_protected and not named_migration:
                 raise ValueError(f'{path}: reviewed migration must preserve every byte outside the mapUrl version token')
         dependencies[path] = {

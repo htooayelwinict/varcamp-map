@@ -12,7 +12,7 @@ const input=join(root,'art/source/sponsors/tier-logos');
 const recipe=JSON.parse(await readFile(join(input,'exports.json'),'utf8'));
 
 async function entrancePlaque(logo,mark,width,height){
- if(logo.presentation.kind!=='entrance-plaque'||logo.width!==192||logo.height!==64||width>52||height>44)throw Error('Invalid entrance plaque geometry');
+ if(logo.presentation.kind!=='entrance-plaque'||logo.width!==192||logo.height!==64||width>56||height>50)throw Error('Invalid entrance plaque geometry');
  const bytes=await readFile(join(root,'art/source/hub-nameplates.json'));
  if(createHash('sha256').update(bytes).digest('hex')!==logo.presentation.glyphSha256)throw Error('Entrance lettering source changed');
  const {glyphs}=JSON.parse(bytes),lines=logo.presentation.lines;
@@ -28,7 +28,7 @@ async function entrancePlaque(logo,mark,width,height){
   }
  }
  const frame=Buffer.from(`<svg xmlns="http://www.w3.org/2000/svg" width="192" height="64">${shapes.join('')}</svg>`);
- return sharp(frame).composite([{input:mark,left:18,top:Math.floor((64-height)/2)}]).png().toBuffer();
+ return sharp(frame).composite([{input:mark,left:14,top:Math.floor((64-height)/2)}]).png().toBuffer();
 }
 
 await mkdir(output,{recursive:true});

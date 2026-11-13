@@ -49,7 +49,7 @@ describe('official sponsor logos',()=>{
   const dir=mkdtempSync(join(tmpdir(),'varcamp-tier-logos-'));
   try{
    execFileSync(process.execPath,['tools/art/sponsor-logo-export.mjs','--out',dir],{stdio:'pipe'});
-   for(const [,file]of panels)expect(sha(readFileSync(join(dir,file+'.png')))).toBe(sha(readFileSync('assets/sponsors/'+file+'.png')));
+   for(const file of [...panels.map(([,file])=>file),'sponsor-digisec-entrance'])expect(sha(readFileSync(join(dir,file+'.png')))).toBe(sha(readFileSync('assets/sponsors/'+file+'.png')));
   }finally{rmSync(dir,{recursive:true,force:true});}
  },20000);
 

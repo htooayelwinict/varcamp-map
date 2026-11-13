@@ -78,8 +78,8 @@
       "source": "DigSecLab_Secondary.png",
       "width": 192,
       "height": 64,
-      "contentWidth": 52,
-      "contentHeight": 44,
+      "contentWidth": 56,
+      "contentHeight": 50,
       "panels": [
         {
           "file": "sponsor-digisec-entrance.png",
