@@ -73,6 +73,29 @@
         "width": 837,
         "height": 664
       }
+    },
+    {
+      "source": "DigSecLab_Secondary.png",
+      "width": 128,
+      "height": 64,
+      "contentWidth": 120,
+      "contentHeight": 56,
+      "panels": [
+        {
+          "file": "sponsor-digisec-entrance.png",
+          "top": 0
+        }
+      ],
+      "name": "DigiSec Lab",
+      "tier": "Main",
+      "sourceUrl": "https://drive.google.com/file/d/1AESwtaTQrEX7sxBpTl1Qw1xvF-8lpg3U/view",
+      "sourceSha256": "855d08daa0c09a0205e142d48ef9c32ed0a53043b204929fd8484c62e1451c4d",
+      "crop": {
+        "left": 577,
+        "top": 1085,
+        "width": 7161,
+        "height": 6369
+      }
     }
   ]
 }

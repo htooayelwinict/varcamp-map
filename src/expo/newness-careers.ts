@@ -5,7 +5,7 @@ export interface NewnessApi {
  ui: Pick<typeof WA.ui,'displayActionMessage'>;
 }
 
-/** Offer the sponsor's careers site at the front of its existing laptop.
+/** Offer the sponsor's careers site from every walkable side of its laptop.
  * Opening it requires an attendee action; no embedded forms or auto-open. */
 export function registerNewnessCareers(api:NewnessApi):()=>void {
  let id:string|undefined;
@@ -17,7 +17,7 @@ export function registerNewnessCareers(api:NewnessApi):()=>void {
  const remove=()=>{const old=action;action=undefined;if(old)void old.remove().catch(()=>{});};
  const update=({x,y}:{x:number;y:number})=>{
   if(!alive)return;
-  const next=x>=41*32&&x<44*32&&y>=79*32&&y<80*32;
+  const next=x>=40*32&&x<45*32&&y>=76*32&&y<80*32;
   if(next!==inside){remove();inside=next;consumed=false;}
   if(!inside||action||consumed)return;
   const offered=api.ui.displayActionMessage({message:'Newness careers · explore opportunities in a new tab',callback:()=>{

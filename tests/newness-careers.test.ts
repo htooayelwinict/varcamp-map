@@ -23,8 +23,12 @@ it.each(['https://play.workadventu.re/@/varcamp/world/varcamp-2026/maps/overworl
  expect(h.openTab).not.toHaveBeenCalled();h.move(42.6,79.6);expect(h.prompts).toHaveLength(1);
  h.prompts[0].callback();h.prompts[0].callback();expect(h.openTab).toHaveBeenCalledExactlyOnceWith('https://career.newness.com.mm/');h.dispose();
 });
-it('does not advertise from another booth, the aisle, or behind the desk',()=>{
- const h=harness();for(const [x,y]of [[40.9,79.5],[44,79.5],[42.5,78.9],[42.5,80],[70,79.5]])h.move(x,y);
+it.each([[42.5,76],[40.5,78],[44.5,78],[42.5,79.5]])('offers the careers action from the walkable desk approach %s,%s', (x,y)=>{
+ const h=harness();h.move(x,y);expect(h.prompts).toHaveLength(1);
+ expect(h.openTab).not.toHaveBeenCalled();h.prompts[0].callback();expect(h.openTab).toHaveBeenCalledExactlyOnceWith('https://career.newness.com.mm/');h.dispose();
+});
+it('does not advertise from another booth or outside the desk approach',()=>{
+ const h=harness();for(const [x,y]of [[39.9,78],[45,78],[42.5,75.9],[42.5,80],[70,79.5]])h.move(x,y);
  expect(h.prompts).toHaveLength(0);h.move(42.5,79.5);const old=h.prompts[0];h.move(60,79.5);expect(old.remove).toHaveBeenCalledOnce();old.callback();expect(h.openTab).not.toHaveBeenCalled();
  h.move(42.5,79.5);expect(h.prompts).toHaveLength(2);old.callback();expect(h.openTab).not.toHaveBeenCalled();h.dispose();
 });

@@ -1,3 +1,4 @@
+import {applySpeakerEntranceSponsor,isSpeakerEntranceSponsor,restoreSpeakerEntranceSponsor} from './speaker-entrance-sponsors';
 import {applySponsorTiers,isSponsorTiers,restoreSponsorTiers} from './sponsor-tiers';
 import {applyArrivalSponsorSpace,isArrivalSponsorSpace,restoreArrivalSponsorSpace} from './arrival-sponsor-space';
 import {applyPlazaShoreline,isPlazaShoreline,restorePlazaShoreline} from './plaza-shoreline';
@@ -24,8 +25,9 @@ const rows=data.maps as unknown as Record<string,Row>;
 const sha=(v:unknown)=>createHash('sha256').update(JSON.stringify(v)).digest('hex');
 const need=(ok:unknown,message:string)=>{if(!ok)throw Error('Event presentation: '+message);};
 export const EVENT_MAP_IDS=Object.keys(rows);
-export function isEventPresentation(l:MapLayout):boolean{return isHallCeremonies(l)||isSponsorTiers(l)||isArrivalSponsorSpace(l)||isPlazaShoreline(l)||isArrivalHospitality(l)||isRoadsterPhysics(l)||isOuterSecurity(l)||isHornedCitadels(l)||isCancerCitadel(l)||isLeoCitadel(l)||isSpeakerOfficeWings(l)||isStageSideAccess(l)||isAuditoriumSpacing(l)||isRoomRefinement(l)||isAudienceFootprints(l)||(l.id.startsWith('speaker-')?isSpeakerCommunity(l):rows[l.id]?.afterLayoutSha256===sha(l)||isCheckInPhysics(l));}
+export function isEventPresentation(l:MapLayout):boolean{return isSpeakerEntranceSponsor(l)||isHallCeremonies(l)||isSponsorTiers(l)||isArrivalSponsorSpace(l)||isPlazaShoreline(l)||isArrivalHospitality(l)||isRoadsterPhysics(l)||isOuterSecurity(l)||isHornedCitadels(l)||isCancerCitadel(l)||isLeoCitadel(l)||isSpeakerOfficeWings(l)||isStageSideAccess(l)||isAuditoriumSpacing(l)||isRoomRefinement(l)||isAudienceFootprints(l)||(l.id.startsWith('speaker-')?isSpeakerCommunity(l):rows[l.id]?.afterLayoutSha256===sha(l)||isCheckInPhysics(l));}
 export function transformEventPresentation(input:MapLayout,forward:boolean):MapLayout{
+ if(!forward&&isSpeakerEntranceSponsor(input))input=restoreSpeakerEntranceSponsor(input);
  if(!forward&&isHallCeremonies(input))input=restoreHallCeremonies(input);
  if(!forward&&isSponsorTiers(input))input=restoreSponsorTiers(input);
  if(!forward&&isArrivalSponsorSpace(input))input=restoreArrivalSponsorSpace(input);
@@ -62,7 +64,7 @@ export function transformEventPresentation(input:MapLayout,forward:boolean):MapL
  }
  need(sha(l)===(forward?row.afterLayoutSha256:row.beforeLayoutSha256),'transaction output changed');
  const presentation=forward?applyLeoCitadel(applySpeakerOfficeWings(applyStageSideAccess(applyAuditoriumSpacing(applyRoomRefinement(applyAudienceFootprints(l.id==='overworld'?applyCheckInPhysics(l):l.id.startsWith('speaker-')?applySpeakerCommunity(l):l)))))):l;
- return forward?applyHallCeremonies(applySponsorTiers(applyArrivalSponsorSpace(applyPlazaShoreline(applyArrivalHospitality(applyRoadsterPhysics(applyOuterSecurity(applyHornedCitadels(applyCancerCitadel(presentation))))))))):presentation;
+ return forward?applySpeakerEntranceSponsor(applyHallCeremonies(applySponsorTiers(applyArrivalSponsorSpace(applyPlazaShoreline(applyArrivalHospitality(applyRoadsterPhysics(applyOuterSecurity(applyHornedCitadels(applyCancerCitadel(presentation)))))))))):presentation;
 }
 export const applyEventPresentation=(l:MapLayout)=>transformEventPresentation(l,true);
 export const restoreEventPresentation=(l:MapLayout)=>transformEventPresentation(l,false);

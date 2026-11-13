@@ -1,3 +1,4 @@
+import {restoreSpeakerEntranceSponsor} from './speaker-entrance-sponsors';
 import {restoreVibeCodeBranding} from './vibecode-branding';
 import {restoreEventPresentation} from './event-presentation';
 import {assertRoomMaterials} from './room-refinement';
@@ -34,7 +35,7 @@ export function assertNativeReferenceInterior(map:TiledMap,layout:MapLayout,cata
  if(!IDS.includes(layout.id))return;
  assertRoomMaterials(catalog);
  assertOfficeMaterials(catalog);
- const prior=restoreSpeakerOfficeWings(restoreHallCeremonies(layout));
+ const prior=restoreSpeakerOfficeWings(restoreHallCeremonies(restoreSpeakerEntranceSponsor(layout)));
  assertAuditoriumSpacing(restoreStageSideAccess(prior),catalog);
  need(contract.version===1&&isDeepStrictEqual(Object.keys(contract.maps).sort(),IDS.slice().sort()),'contract must cover exactly the known fourteen rooms');
  const row=contract.maps[layout.id],functional=officeWingFunctional(layout.id,auditoriumFunctional(layout.id,ariesPresentationFunctional(layout.id,row.functional)));

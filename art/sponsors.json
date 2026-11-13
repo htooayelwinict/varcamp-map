@@ -563,6 +563,26 @@
       "fontSource": "https://github.com/notofonts/noto-fonts/tree/main/hinted/ttf/NotoSansMyanmar",
       "fontLicense": "art/source/sponsors/media/OFL.txt",
       "changes": "Pinned Noto Sans Myanmar shapes the exact corrected Myanmar text during export; browser font availability cannot alter the label."
+    },
+    {
+      "name": "DigiSec Lab",
+      "kind": "event-sponsor",
+      "tier": "Main",
+      "image": "assets/sponsors/sponsor-digisec-entrance.png",
+      "source": "art/source/sponsors/tier-logos/DigSecLab_Secondary.png",
+      "sourceSha256": "855d08daa0c09a0205e142d48ef9c32ed0a53043b204929fd8484c62e1451c4d",
+      "sourceUrl": "https://drive.google.com/file/d/1AESwtaTQrEX7sxBpTl1Qw1xvF-8lpg3U/view",
+      "size": {
+        "width": 128,
+        "height": 64,
+        "tileWidth": 4,
+        "tileHeight": 2
+      },
+      "owner": "DigiSec Lab",
+      "permission": "Supplied by organizer Lewis via the Sponsor Assets Google Drive folder for the VarCamp 2026 map on 2026-11-11. Artwork and brand rights retained by their owners.",
+      "license": "Organizer-approved event use; owner rights retained",
+      "changes": "Complete original logo, colours, proportions and lettering retained. Approved transparent crop resized with Lanczos3 and centred in a 128x64 native entrance panel. No recolouring or generated artwork. See art/source/sponsors/tier-logos/exports.json and NOTICE.md.",
+      "title": "Digital Safety Partner"
     }
   ],
   "replacement": {

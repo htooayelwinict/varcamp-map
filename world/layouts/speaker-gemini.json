@@ -2178,6 +2178,18 @@
       "fontSize": 12,
       "color": "#334552",
       "align": "left"
+    },
+    {
+      "name": "entrance-digital-safety-partner",
+      "text": "DigiSec Lab\nDigital Safety\nPartner",
+      "x": 17,
+      "y": 35,
+      "width": 6,
+      "height": 2,
+      "fontSize": 13,
+      "color": "#253546",
+      "align": "left",
+      "padding": 4
     }
   ],
   "animatedOverlays": [
@@ -2612,6 +2624,15 @@
       "y": 0,
       "width": 6,
       "height": 2
+    },
+    {
+      "name": "Entrance / DigiSec Lab",
+      "image": "assets/sponsors/sponsor-digisec-entrance.png",
+      "x": 13,
+      "y": 35,
+      "width": 4,
+      "height": 2,
+      "standing": false
     }
   ]
 }
