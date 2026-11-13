@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "mapId": "speaker-aries",
+  "areas": [
+    {
+      "areaId": "meeting-aries",
+      "geometry": {
+        "x": 160,
+        "y": 160,
+        "width": 832,
+        "height": 224
+      },
+      "property": {
+        "id": "aries-stage-broadcast",
+        "type": "speakerMegaphone",
+        "name": "varcamp-aries-talk",
+        "chatEnabled": true,
+        "seeAttendees": false
+      },
+      "detachMatrixPropertyId": "59d55034-e1e6-419c-b5cb-45ba1c37ed8c"
+    },
+    {
+      "areaId": "aries-audience",
+      "geometry": {
+        "x": 64,
+        "y": 512,
+        "width": 1024,
+        "height": 576
+      },
+      "property": {
+        "id": "aries-listener",
+        "type": "listenerMegaphone",
+        "speakerZoneName": "meeting-aries",
+        "chatEnabled": true,
+        "allowTalking": false,
+        "raiseHandEnabled": true
+      },
+      "detachMatrixPropertyId": "1df20358-7eb5-4252-aac8-25e989966b1e"
+    }
+  ]
+}

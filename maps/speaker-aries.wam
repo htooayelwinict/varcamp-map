@@ -16,7 +16,7 @@
           "id": "aries-stage-broadcast",
           "type": "speakerMegaphone",
           "name": "varcamp-aries-talk",
-          "chatEnabled": false,
+          "chatEnabled": true,
           "seeAttendees": false
         }
       ]
@@ -44,7 +44,7 @@
           "id": "aries-listener",
           "type": "listenerMegaphone",
           "speakerZoneName": "meeting-aries",
-          "chatEnabled": false,
+          "chatEnabled": true,
           "allowTalking": false,
           "raiseHandEnabled": true
         }

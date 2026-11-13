@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "revisions": [
+    {
+      "path": "maps/speaker-aries.wam",
+      "fromSha256": "11e10878b613ecdb18465164fb62add6d569c11782c504623113589667574eeb",
+      "toSha256": "2a2d0e89f32608c28196fe530ca6cfdb74bcec2ccc112fef221e0eb8cb600c4a",
+      "reason": "Enable the approved native shared stage and audience chat in Aries only. Preserve geometry, other areas, saved metadata and audio permissions; detach only the two reviewed separate Matrix bindings."
+    },
+    {
+      "path": "tools/maps/author.ts",
+      "fromSha256": "7591382f9ee49e2e13ccfdfc8550ca92bd42df8196545b09eb4fce69c20c1d21",
+      "toSha256": "84a6a20749ecf275ab615d67ef422d424d04c5e6229b7d67a4c853f321444743",
+      "reason": "Enable the approved native shared stage and audience chat in Aries only. Preserve geometry, other areas, saved metadata and audio permissions; detach only the two reviewed separate Matrix bindings."
+    }
+  ]
+}
