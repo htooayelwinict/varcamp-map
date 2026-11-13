@@ -1,304 +1,160 @@
 {
-  "version": 1,
+  "version": 2,
   "maps": {
     "speaker-aquarius": {
       "beforeSha256": "9a423ec06ae8326ebc42cbedc188d81c966389472d27d202d8031f33150d7282",
-      "afterSha256": "7e69e466aea0a025535d50afdf7ac820da12a136a8abd178805b8874b1a8ddad",
-      "image": {
-        "name": "Entrance / DigiSec Lab",
-        "image": "assets/sponsors/sponsor-digisec-entrance.png",
-        "x": 13,
-        "y": 35,
-        "width": 4,
-        "height": 2,
-        "standing": false
-      },
-      "caption": {
-        "name": "entrance-digital-safety-partner",
-        "text": "DigiSec Lab\nDigital Safety\nPartner",
-        "x": 17,
-        "y": 35,
-        "width": 6,
-        "height": 2,
-        "fontSize": 13,
-        "color": "#253546",
-        "align": "left",
-        "padding": 4
-      }
-    },
-    "speaker-aries": {
-      "beforeSha256": "2a917c8b3f76c2f871058f17f13fef1a90573bc5dff66f51365371f9d70cac71",
-      "afterSha256": "03ec4de970f6409f2b4effd819c621a35dca25fd2916b761059be018ddcbb5bb",
-      "image": {
-        "name": "Entrance / DigiSec Lab",
-        "image": "assets/sponsors/sponsor-digisec-entrance.png",
-        "x": 13,
-        "y": 35,
-        "width": 4,
-        "height": 2,
-        "standing": false
-      },
-      "caption": {
-        "name": "entrance-digital-safety-partner",
-        "text": "DigiSec Lab\nDigital Safety\nPartner",
-        "x": 17,
-        "y": 35,
-        "width": 6,
-        "height": 2,
-        "fontSize": 13,
-        "color": "#253546",
-        "align": "left",
-        "padding": 4
-      }
-    },
-    "speaker-cancer": {
-      "beforeSha256": "9a7ad3f9d0de394d6015756915fca0473f0c1c78cd096347c3df87a4b516e8b8",
-      "afterSha256": "bee19e3368214d04965d6293ef8d538a3f831510041ec6d12af153122b1b3055",
-      "image": {
-        "name": "Entrance / DigiSec Lab",
-        "image": "assets/sponsors/sponsor-digisec-entrance.png",
-        "x": 13,
-        "y": 35,
-        "width": 4,
-        "height": 2,
-        "standing": false
-      },
-      "caption": {
-        "name": "entrance-digital-safety-partner",
-        "text": "DigiSec Lab\nDigital Safety\nPartner",
-        "x": 17,
-        "y": 35,
-        "width": 6,
-        "height": 2,
-        "fontSize": 13,
-        "color": "#253546",
-        "align": "left",
-        "padding": 4
-      }
-    },
-    "speaker-capricorn": {
-      "beforeSha256": "ba0f35adb5eace7f5f7dfe991eae90c63805454e23761fb4bc475a075174cb84",
-      "afterSha256": "68b0134a46c97bdb98b589b05f32caed25949646696af9146ec13d49845468eb",
-      "image": {
-        "name": "Entrance / DigiSec Lab",
-        "image": "assets/sponsors/sponsor-digisec-entrance.png",
-        "x": 13,
-        "y": 35,
-        "width": 4,
-        "height": 2,
-        "standing": false
-      },
-      "caption": {
-        "name": "entrance-digital-safety-partner",
-        "text": "DigiSec Lab\nDigital Safety\nPartner",
-        "x": 17,
-        "y": 35,
-        "width": 6,
-        "height": 2,
-        "fontSize": 13,
-        "color": "#253546",
-        "align": "left",
-        "padding": 4
-      }
-    },
-    "speaker-gemini": {
-      "beforeSha256": "3244e7ce118279cc7a7180f5f2ab5f2feb4f6eecc994de93079cf9172c310d78",
-      "afterSha256": "fb5ea72679fe47409df4a2cad0a43b85f7b02d5102b796e5bee8728d1f674b2b",
-      "image": {
-        "name": "Entrance / DigiSec Lab",
-        "image": "assets/sponsors/sponsor-digisec-entrance.png",
-        "x": 13,
-        "y": 35,
-        "width": 4,
-        "height": 2,
-        "standing": false
-      },
-      "caption": {
-        "name": "entrance-digital-safety-partner",
-        "text": "DigiSec Lab\nDigital Safety\nPartner",
-        "x": 17,
-        "y": 35,
-        "width": 6,
-        "height": 2,
-        "fontSize": 13,
-        "color": "#253546",
-        "align": "left",
-        "padding": 4
-      }
-    },
-    "speaker-leo": {
-      "beforeSha256": "d656c2c37d58afdf3ba04a84c09d53f1da493919dea9c2f9c59142497d26622f",
-      "afterSha256": "a040997b463a9230feaad089696cbc4d3bfe26fe6ce118805c07c96f15fc92e2",
-      "image": {
-        "name": "Entrance / DigiSec Lab",
-        "image": "assets/sponsors/sponsor-digisec-entrance.png",
-        "x": 13,
-        "y": 35,
-        "width": 4,
-        "height": 2,
-        "standing": false
-      },
-      "caption": {
-        "name": "entrance-digital-safety-partner",
-        "text": "DigiSec Lab\nDigital Safety\nPartner",
-        "x": 17,
-        "y": 35,
-        "width": 6,
-        "height": 2,
-        "fontSize": 13,
-        "color": "#253546",
-        "align": "left",
-        "padding": 4
-      }
-    },
-    "speaker-libra": {
-      "beforeSha256": "753e0645a3845cc47d6c327309355bfccee6071ed941e7a0be39c01c404f1b46",
-      "afterSha256": "8ccf5f650fd2e98ed4cedc3bddd5ee5bee4c89c0b1b90efc0ba09018cc3bac1e",
-      "image": {
-        "name": "Entrance / DigiSec Lab",
-        "image": "assets/sponsors/sponsor-digisec-entrance.png",
-        "x": 13,
-        "y": 35,
-        "width": 4,
-        "height": 2,
-        "standing": false
-      },
-      "caption": {
-        "name": "entrance-digital-safety-partner",
-        "text": "DigiSec Lab\nDigital Safety\nPartner",
-        "x": 17,
-        "y": 35,
-        "width": 6,
-        "height": 2,
-        "fontSize": 13,
-        "color": "#253546",
-        "align": "left",
-        "padding": 4
-      }
-    },
-    "speaker-pisces": {
-      "beforeSha256": "d59ef2173e168650aa921ce79c4d5054af4e732b65b32eb7a68ecbedc33e55ba",
-      "afterSha256": "e73d23e230d3974fb8279a332754a284a668303ea285f5c50c126123c1235f16",
-      "image": {
-        "name": "Entrance / DigiSec Lab",
-        "image": "assets/sponsors/sponsor-digisec-entrance.png",
-        "x": 13,
-        "y": 35,
-        "width": 4,
-        "height": 2,
-        "standing": false
-      },
-      "caption": {
-        "name": "entrance-digital-safety-partner",
-        "text": "DigiSec Lab\nDigital Safety\nPartner",
-        "x": 17,
-        "y": 35,
-        "width": 6,
-        "height": 2,
-        "fontSize": 13,
-        "color": "#253546",
-        "align": "left",
-        "padding": 4
-      }
-    },
-    "speaker-sagittarius": {
-      "beforeSha256": "f0b1269288a2144009049d818c204dd057f9ec304d1049415506350a259f94ba",
-      "afterSha256": "2495a70c064ad62e52439eb167e23af271e143521a11d7a40fc029a751bfd602",
+      "afterSha256": "549975de8eb236faa210332db993274bdef6b877472d174d58b9047bed1a5728",
       "image": {
         "name": "Entrance / DigiSec Lab",
         "image": "assets/sponsors/sponsor-digisec-entrance.png",
         "x": 15,
         "y": 35,
-        "width": 4,
+        "width": 6,
         "height": 2,
         "standing": false
-      },
-      "caption": {
-        "name": "entrance-digital-safety-partner",
-        "text": "DigiSec Lab\nDigital Safety\nPartner",
-        "x": 19,
+      }
+    },
+    "speaker-aries": {
+      "beforeSha256": "2a917c8b3f76c2f871058f17f13fef1a90573bc5dff66f51365371f9d70cac71",
+      "afterSha256": "e2f459ca0bdd044e217b7561a8685ef65346fe3487936a1f5665d168659b2aef",
+      "image": {
+        "name": "Entrance / DigiSec Lab",
+        "image": "assets/sponsors/sponsor-digisec-entrance.png",
+        "x": 15,
         "y": 35,
         "width": 6,
         "height": 2,
-        "fontSize": 13,
-        "color": "#253546",
-        "align": "left",
-        "padding": 4
+        "standing": false
+      }
+    },
+    "speaker-cancer": {
+      "beforeSha256": "9a7ad3f9d0de394d6015756915fca0473f0c1c78cd096347c3df87a4b516e8b8",
+      "afterSha256": "4086e430e9aa15d6bd1b08f70659c93d51985d9b57260add9db34d0d61e94f28",
+      "image": {
+        "name": "Entrance / DigiSec Lab",
+        "image": "assets/sponsors/sponsor-digisec-entrance.png",
+        "x": 15,
+        "y": 35,
+        "width": 6,
+        "height": 2,
+        "standing": false
+      }
+    },
+    "speaker-capricorn": {
+      "beforeSha256": "ba0f35adb5eace7f5f7dfe991eae90c63805454e23761fb4bc475a075174cb84",
+      "afterSha256": "8e1f878fb57931ad9f813aaf856a60e9df7b0da7ffa75b6832befe677caeeaa8",
+      "image": {
+        "name": "Entrance / DigiSec Lab",
+        "image": "assets/sponsors/sponsor-digisec-entrance.png",
+        "x": 15,
+        "y": 35,
+        "width": 6,
+        "height": 2,
+        "standing": false
+      }
+    },
+    "speaker-gemini": {
+      "beforeSha256": "3244e7ce118279cc7a7180f5f2ab5f2feb4f6eecc994de93079cf9172c310d78",
+      "afterSha256": "e0cfede9a69329c5613e6b9ef9ae0dbae92f2b4b36997df0fb590a1f0fa4d818",
+      "image": {
+        "name": "Entrance / DigiSec Lab",
+        "image": "assets/sponsors/sponsor-digisec-entrance.png",
+        "x": 15,
+        "y": 35,
+        "width": 6,
+        "height": 2,
+        "standing": false
+      }
+    },
+    "speaker-leo": {
+      "beforeSha256": "d656c2c37d58afdf3ba04a84c09d53f1da493919dea9c2f9c59142497d26622f",
+      "afterSha256": "545ef40b64c0afffa49ed14cd06d7a1594f4b2c2dedaed3ddab8be645207fc4f",
+      "image": {
+        "name": "Entrance / DigiSec Lab",
+        "image": "assets/sponsors/sponsor-digisec-entrance.png",
+        "x": 15,
+        "y": 35,
+        "width": 6,
+        "height": 2,
+        "standing": false
+      }
+    },
+    "speaker-libra": {
+      "beforeSha256": "753e0645a3845cc47d6c327309355bfccee6071ed941e7a0be39c01c404f1b46",
+      "afterSha256": "59e64e139403f8d72b6f2992a6c36442f85a1b84ee6119525c132c2771c1e42e",
+      "image": {
+        "name": "Entrance / DigiSec Lab",
+        "image": "assets/sponsors/sponsor-digisec-entrance.png",
+        "x": 15,
+        "y": 35,
+        "width": 6,
+        "height": 2,
+        "standing": false
+      }
+    },
+    "speaker-pisces": {
+      "beforeSha256": "d59ef2173e168650aa921ce79c4d5054af4e732b65b32eb7a68ecbedc33e55ba",
+      "afterSha256": "8b8c03a017594cec93c1f1a76060f9cc33f8615e3a60a45109f947289d08b224",
+      "image": {
+        "name": "Entrance / DigiSec Lab",
+        "image": "assets/sponsors/sponsor-digisec-entrance.png",
+        "x": 15,
+        "y": 35,
+        "width": 6,
+        "height": 2,
+        "standing": false
+      }
+    },
+    "speaker-sagittarius": {
+      "beforeSha256": "f0b1269288a2144009049d818c204dd057f9ec304d1049415506350a259f94ba",
+      "afterSha256": "ab3f9f37bb897ba0728b0080bd97cf29a674151a14ce39e308314bece6ce4956",
+      "image": {
+        "name": "Entrance / DigiSec Lab",
+        "image": "assets/sponsors/sponsor-digisec-entrance.png",
+        "x": 17,
+        "y": 35,
+        "width": 6,
+        "height": 2,
+        "standing": false
       }
     },
     "speaker-scorpio": {
       "beforeSha256": "e8e1be975413c5b36011dcf483742af2d8d45ade5515e321113749e4049863de",
-      "afterSha256": "847389b285573ea95cc32eaa389b2ac121a2e665006b2762948fa43d2874d7b0",
+      "afterSha256": "2b2558fc33dd694c194cc10563aea1dbe93de1e935008d8196c26621c3a3cbfe",
       "image": {
         "name": "Entrance / DigiSec Lab",
         "image": "assets/sponsors/sponsor-digisec-entrance.png",
-        "x": 13,
-        "y": 35,
-        "width": 4,
-        "height": 2,
-        "standing": false
-      },
-      "caption": {
-        "name": "entrance-digital-safety-partner",
-        "text": "DigiSec Lab\nDigital Safety\nPartner",
-        "x": 17,
+        "x": 15,
         "y": 35,
         "width": 6,
         "height": 2,
-        "fontSize": 13,
-        "color": "#253546",
-        "align": "left",
-        "padding": 4
+        "standing": false
       }
     },
     "speaker-taurus": {
       "beforeSha256": "f6b2a69851f4dc2d25fae0ec097092312cf755da81d1a7595c6ab90c28de1087",
-      "afterSha256": "6f36c4f397976c2498ae63a4306b65ad7a17f90f91763eb66efede4f35ad75da",
+      "afterSha256": "8624d0a08c114617502bb5e6e6d54a3245765d6855496bb659430e79630f1fee",
       "image": {
         "name": "Entrance / DigiSec Lab",
         "image": "assets/sponsors/sponsor-digisec-entrance.png",
-        "x": 13,
-        "y": 35,
-        "width": 4,
-        "height": 2,
-        "standing": false
-      },
-      "caption": {
-        "name": "entrance-digital-safety-partner",
-        "text": "DigiSec Lab\nDigital Safety\nPartner",
-        "x": 17,
+        "x": 15,
         "y": 35,
         "width": 6,
         "height": 2,
-        "fontSize": 13,
-        "color": "#253546",
-        "align": "left",
-        "padding": 4
+        "standing": false
       }
     },
     "speaker-virgo": {
       "beforeSha256": "31449796f714b4860700e856377958850c38aa13cdc66482b48d5f70967bb917",
-      "afterSha256": "f67b8d23de40e7452385ea817bd66a48f05720e28dcc543cf17d0233a5472c13",
+      "afterSha256": "da6b6a2be8fbe2e247e69cf7281dfbe83351bb7e47c11507b163b60a9341c3c8",
       "image": {
         "name": "Entrance / DigiSec Lab",
         "image": "assets/sponsors/sponsor-digisec-entrance.png",
-        "x": 13,
-        "y": 35,
-        "width": 4,
-        "height": 2,
-        "standing": false
-      },
-      "caption": {
-        "name": "entrance-digital-safety-partner",
-        "text": "DigiSec Lab\nDigital Safety\nPartner",
-        "x": 17,
+        "x": 15,
         "y": 35,
         "width": 6,
         "height": 2,
-        "fontSize": 13,
-        "color": "#253546",
-        "align": "left",
-        "padding": 4
+        "standing": false
       }
     }
   }

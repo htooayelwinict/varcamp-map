@@ -15,26 +15,37 @@ const before=JSON.parse(gunzipSync(readFileSync('tests/fixtures/speaker-entrance
 const catalog=loadTileCatalog();
 const name='Entrance / DigiSec Lab',caption='entrance-digital-safety-partner';
 describe('approved DigiSec Lab branding inside every zodiac entrance',()=>{
- it('keeps the original mark colors readable on a dark backing over the pale foyer floor',async()=>{
-  const approved=readFileSync('tests/fixtures/sponsor-digisec-entrance-transparent.png');
-  expect(createHash('sha256').update(approved).digest('hex')).toBe('adeadc8ae1c963c5d2d0eef702d67a92db6f477fc57d54ba412f0b101fe7a4fb');
-  const original=await sharp(approved).ensureAlpha().raw().toBuffer();
+ it('combines the unaltered full mark and quiet role lettering in one compact framed plaque',async()=>{
+  const approved=readFileSync('art/source/sponsors/tier-logos/DigSecLab_Secondary.png');
+  expect(createHash('sha256').update(approved).digest('hex')).toBe('855d08daa0c09a0205e142d48ef9c32ed0a53043b204929fd8484c62e1451c4d');
   const actual=await sharp('assets/sponsors/sponsor-digisec-entrance.png').ensureAlpha().raw().toBuffer({resolveWithObject:true});
-  expect(actual.info).toMatchObject({width:128,height:64,channels:4});
+  expect(actual.info).toMatchObject({width:192,height:64,channels:4});
+  const pixel=(x:number,y:number)=>[...actual.data.subarray((y*192+x)*4,(y*192+x)*4+4)];
+  // The old full-bleed block is gone: six-pixel margins let the foyer show through.
+  for(let y=0;y<64;y++)for(let x=0;x<192;x++)if(x<6||x>=186||y<6||y>=60)expect(pixel(x,y)[3]).toBe(0);
+  expect(pixel(6,6)).toEqual([164,139,92,255]);
+  expect(pixel(70,22)).toEqual([19,37,54,255]);
+  const original=await sharp(approved).extract({left:577,top:1085,width:7161,height:6369}).resize(52,44,{fit:'inside',kernel:'lanczos3'}).ensureAlpha().raw().toBuffer({resolveWithObject:true});
   let opaqueMarkPixels=0;
-  for(let i=0;i<original.length;i+=4){
-   expect(actual.data[i+3],`pixel ${i/4} has a solid backing`).toBe(255);
-   if(original[i+3]===0)expect([...actual.data.subarray(i,i+3)]).toEqual([27,44,64]);
-   if(original[i+3]===255){expect([...actual.data.subarray(i,i+3)]).toEqual([...original.subarray(i,i+3)]);opaqueMarkPixels++;}
+  for(let y=0;y<original.info.height;y++)for(let x=0;x<original.info.width;x++){
+   const i=(y*original.info.width+x)*4;
+   if(original.data[i+3]===255){expect(pixel(x+18,y+10).slice(0,3)).toEqual([...original.data.subarray(i,i+3)]);opaqueMarkPixels++;}
   }
-  expect(opaqueMarkPixels).toBeGreaterThan(500);
+  expect(opaqueMarkPixels).toBeGreaterThan(200);
+  const recipe=read('art/source/sponsors/tier-logos/exports.json').logos.find((l:any)=>l.panels.some((p:any)=>p.file==='sponsor-digisec-entrance.png'));
+  expect(recipe.presentation.lines).toEqual(['DIGITAL SAFETY','PARTNER']);
+  // Role text must actually be rendered on both lines, inside the frame.
+  for(const [top,bottom] of [[22,29],[35,42]]){
+   let ink=0;for(let y=top;y<bottom;y++)for(let x=82;x<174;x++)if(pixel(x,y).join(',')==='225,203,157,255')ink++;
+   expect(ink).toBeGreaterThan(80);
+  }
  });
  for(const sign of SIGN_IDS)it(sign+' displays the full mark and official title with its entrance and meeting controls intact',()=>{
   const id='speaker-'+sign,l=read(`world/layouts/${id}.json`) as MapLayout,m=read(`maps/${id}.tmj`) as TiledMap;
   const old=before[id],door=l.placements.find(p=>p.id==='south-door')!;
-  expect(l.images?.find(i=>i.name===name)).toEqual({name,image:'assets/sponsors/sponsor-digisec-entrance.png',x:door.x-3,y:35,width:4,height:2,standing:false});
-  expect(l.signs?.find(s=>s.name===caption)).toMatchObject({text:'DigiSec Lab\nDigital Safety\nPartner',x:door.x+1,y:35,width:6,height:2});
-  expect({...l,images:l.images!.filter(i=>i.name!==name),signs:l.signs!.filter(s=>s.name!==caption)}).toEqual(old.layout);
+  expect(l.images?.filter(i=>i.name===name)).toEqual([{name,image:'assets/sponsors/sponsor-digisec-entrance.png',x:door.x-1,y:35,width:6,height:2,standing:false}]);
+  expect(l.signs?.find(s=>s.name===caption)).toBeUndefined();
+  expect({...l,images:l.images!.filter(i=>i.name!==name)}).toEqual(old.layout);
   expect(readFileSync(`maps/${id}.wam`,'utf8')).toBe(old.wam);
   const mask=m.layers.find(l=>l.name==='physical-collisions')!;
   expect({...mask,id:0}).toEqual({...old.collision,id:0});
@@ -49,7 +60,7 @@ describe('approved DigiSec Lab branding inside every zodiac entrance',()=>{
  it('uses the organizer-provided full logo and keeps the existing hall branding',()=>{
   expect(existsSync('assets/sponsors/sponsor-digisec-entrance.png')).toBe(true);
   const art=read('art/sponsors.json').assets.find((s:any)=>s.image==='assets/sponsors/sponsor-digisec-entrance.png');
-  expect(art).toMatchObject({name:'DigiSec Lab',source:'art/source/sponsors/tier-logos/DigSecLab_Secondary.png',title:'Digital Safety Partner'});
+  expect(art).toMatchObject({name:'DigiSec Lab',source:'art/source/sponsors/tier-logos/DigSecLab_Secondary.png',title:'Digital Safety Partner',size:{width:192,height:64,tileWidth:6,tileHeight:2}});
   for(const id of ['solar-hall','lunar-hall'])expect(read(`world/layouts/${id}.json`).images.some((i:any)=>i.name===name)).toBe(false);
  });
 });

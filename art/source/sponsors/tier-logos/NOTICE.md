@@ -13,3 +13,5 @@ uv run --with pypdfium2==5.15.2 --with pillow python -c 'import pypdfium2 as p; 
 Native exports use the existing Sharp 0.34.5 dependency and `node tools/art/sponsor-logo-export.mjs`. Visible alpha bounds (threshold 32) plus a 1% safety margin were recorded once as crop rectangles. All visible interior pixels, original lettering and aspect ratios are retained. The marks are scaled with Lanczos3 and centred on transparent canvases. DigiSec's 192×128 canvas is split into two contiguous 192×64 native panels; Newness uses 192×64 and Lokal Zaytann uses 128×64. These are walkable floor displays with no added collision.
 
 The export script also accepts `--out <directory>` for a non-mutating regeneration check. No runtime font loading, remote image fetching or new browser dependencies are required.
+
+Speaker entrances use a separate 192×64 plaque: the complete original DigiSec mark is proportionately reduced beside “Digital Safety Partner” in the map’s original pixel alphabet. A navy face, thin gold trim and transparent outer margin keep this entrance display legible on the pale floor. The original logo colours and lettering are retained; the plaque adds no collision.

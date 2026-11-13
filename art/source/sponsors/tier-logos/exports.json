@@ -76,10 +76,10 @@
     },
     {
       "source": "DigSecLab_Secondary.png",
-      "width": 128,
+      "width": 192,
       "height": 64,
-      "contentWidth": 120,
-      "contentHeight": 56,
+      "contentWidth": 52,
+      "contentHeight": 44,
       "panels": [
         {
           "file": "sponsor-digisec-entrance.png",
@@ -96,7 +96,14 @@
         "width": 7161,
         "height": 6369
       },
-      "background": "#1b2c40"
+      "presentation": {
+        "kind": "entrance-plaque",
+        "lines": [
+          "DIGITAL SAFETY",
+          "PARTNER"
+        ],
+        "glyphSha256": "84ca7be058c64921726f0879e148c4900444621aae75f427e24c0014ae4e9293"
+      }
     }
   ]
 }

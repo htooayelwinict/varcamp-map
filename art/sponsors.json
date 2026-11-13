@@ -573,15 +573,15 @@
       "sourceSha256": "855d08daa0c09a0205e142d48ef9c32ed0a53043b204929fd8484c62e1451c4d",
       "sourceUrl": "https://drive.google.com/file/d/1AESwtaTQrEX7sxBpTl1Qw1xvF-8lpg3U/view",
       "size": {
-        "width": 128,
+        "width": 192,
         "height": 64,
-        "tileWidth": 4,
+        "tileWidth": 6,
         "tileHeight": 2
       },
       "owner": "DigiSec Lab",
       "permission": "Supplied by organizer Lewis via the Sponsor Assets Google Drive folder for the VarCamp 2026 map on 2026-11-11. Artwork and brand rights retained by their owners.",
       "license": "Organizer-approved event use; owner rights retained",
-      "changes": "Complete original logo, colours, proportions and lettering retained. Approved crop resized with Lanczos3 and centred on a navy 128x64 entrance panel so its white lettering remains readable on the pale foyer floor. No recolouring or generated artwork. See art/source/sponsors/tier-logos/exports.json and NOTICE.md.",
+      "changes": "Complete original logo, colours, proportions and lettering retained. Approved crop resized with Lanczos3 on a compact navy entrance plaque with thin gold trim and the official role in original map pixel lettering. No recolouring or generated brand artwork. See art/source/sponsors/tier-logos/exports.json and NOTICE.md.",
       "title": "Digital Safety Partner"
     }
   ],

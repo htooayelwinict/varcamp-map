@@ -1,0 +1,227 @@
+{
+  "schemaVersion": 1,
+  "revisions": [
+    {
+      "path": "art/sponsors.json",
+      "fromSha256": "0d1b4edca6200e38d79fb96db07eb166422cc3b1e2ef2a86cac3f5aab031d520",
+      "toSha256": "47fb6314d7b88e139b101fe1e4656caf0239327a5f7c5751e3e2baa89cb03886",
+      "reason": "Replace the oversized entrance lockup with a compact centered plaque using the original full DigiSec logo and map pixel lettering. Preserve all non-branding layout fields, collision masks and saved room controls."
+    },
+    {
+      "path": "maps/preview/speaker-aquarius.tmj",
+      "fromSha256": "178201cd8e9a133d2b4f82680e9b6c22f90f9d34c8fc5d22323b1ee38c98bc7c",
+      "toSha256": "bc9c81931d8e1f2583884db1dcc8ac33a67bc85000b5d0f174934b54c2f260ad",
+      "reason": "Replace the oversized entrance lockup with a compact centered plaque using the original full DigiSec logo and map pixel lettering. Preserve all non-branding layout fields, collision masks and saved room controls."
+    },
+    {
+      "path": "maps/preview/speaker-aries.tmj",
+      "fromSha256": "f880c70764c835192f3ea9587baaed973cb4f0835f797ac09c63da6f3b65ce36",
+      "toSha256": "044c4eca86e4d919dc064387e01667dfdd07b8387a319c8954c85e19efd2f233",
+      "reason": "Replace the oversized entrance lockup with a compact centered plaque using the original full DigiSec logo and map pixel lettering. Preserve all non-branding layout fields, collision masks and saved room controls."
+    },
+    {
+      "path": "maps/preview/speaker-cancer.tmj",
+      "fromSha256": "fe57998cb102d66f287be5103b5d10d92c195f144e4f931fae99c96ba8c09735",
+      "toSha256": "639fc1063f3195f6f9174a57bea51763b6b4bfb92a97859f7d7201b5bd095db3",
+      "reason": "Replace the oversized entrance lockup with a compact centered plaque using the original full DigiSec logo and map pixel lettering. Preserve all non-branding layout fields, collision masks and saved room controls."
+    },
+    {
+      "path": "maps/preview/speaker-capricorn.tmj",
+      "fromSha256": "2fd7eeae57b7ef9513d22e2f1eb5284fe6c300ad0a7089b8e18892b2f27bda4d",
+      "toSha256": "5163226c1d4d4e3b21d524758a7add6421cfa29568be8892e2fed9905d0cf00b",
+      "reason": "Replace the oversized entrance lockup with a compact centered plaque using the original full DigiSec logo and map pixel lettering. Preserve all non-branding layout fields, collision masks and saved room controls."
+    },
+    {
+      "path": "maps/preview/speaker-gemini.tmj",
+      "fromSha256": "7700c3a9b88ad1c0bbf7b998ca43d23296f7c99e0b1f7abd1ac6aa6fd17a39d4",
+      "toSha256": "01442bea04852459f8ec567d019cd79b176e9c342ae16691e69f7da964b6f083",
+      "reason": "Replace the oversized entrance lockup with a compact centered plaque using the original full DigiSec logo and map pixel lettering. Preserve all non-branding layout fields, collision masks and saved room controls."
+    },
+    {
+      "path": "maps/preview/speaker-leo.tmj",
+      "fromSha256": "3b529151e868cca3c581d62bc70cee350625159766395a1cb6f11628098f6f0a",
+      "toSha256": "6dbcc56090501ab5ec9f78f07b4bd6ec4b91cb80069915144de813ed80e1d002",
+      "reason": "Replace the oversized entrance lockup with a compact centered plaque using the original full DigiSec logo and map pixel lettering. Preserve all non-branding layout fields, collision masks and saved room controls."
+    },
+    {
+      "path": "maps/preview/speaker-libra.tmj",
+      "fromSha256": "f83011e872705fb04cad83f6e85df3c6b46247b499c43d8289e21016f4bad0cb",
+      "toSha256": "5528d7726621271c7e32827d8f8cc7beec0ed5d32846d4bc63689568f7f7cbb8",
+      "reason": "Replace the oversized entrance lockup with a compact centered plaque using the original full DigiSec logo and map pixel lettering. Preserve all non-branding layout fields, collision masks and saved room controls."
+    },
+    {
+      "path": "maps/preview/speaker-pisces.tmj",
+      "fromSha256": "dac7c89672d29e6ece1a61c4fa2ec971e0e53569975d2375e4e8d11a58902f68",
+      "toSha256": "633848e19015cb99e6a36c3c03afd02285bb9df1ad56620d6828f7c96a60f0f7",
+      "reason": "Replace the oversized entrance lockup with a compact centered plaque using the original full DigiSec logo and map pixel lettering. Preserve all non-branding layout fields, collision masks and saved room controls."
+    },
+    {
+      "path": "maps/preview/speaker-sagittarius.tmj",
+      "fromSha256": "6522da184b7f7385b3815c1360a58559f055c11c2da93e60764b5f6eeb5c5b0e",
+      "toSha256": "d86a6be8fd5da5e1e1d5dcd495d0f6f749afc06a74048142b8cd84aa9e45b53e",
+      "reason": "Replace the oversized entrance lockup with a compact centered plaque using the original full DigiSec logo and map pixel lettering. Preserve all non-branding layout fields, collision masks and saved room controls."
+    },
+    {
+      "path": "maps/preview/speaker-scorpio.tmj",
+      "fromSha256": "6a90a347d637e91b07046625f30c2a7a1974eab4dd6616d090f93a2d5d876b6a",
+      "toSha256": "57262772fd61df3db289f7908c37ea78d7749384c155fa69f262d259f9d1cd45",
+      "reason": "Replace the oversized entrance lockup with a compact centered plaque using the original full DigiSec logo and map pixel lettering. Preserve all non-branding layout fields, collision masks and saved room controls."
+    },
+    {
+      "path": "maps/preview/speaker-taurus.tmj",
+      "fromSha256": "5bb6c191458d558a9dc76246339999fdb6fdacd805f578026cbb5aa1d94daa44",
+      "toSha256": "a41404f544dcead48b50a62e1ee2852302db17f654aa9937d30bf61d9261e078",
+      "reason": "Replace the oversized entrance lockup with a compact centered plaque using the original full DigiSec logo and map pixel lettering. Preserve all non-branding layout fields, collision masks and saved room controls."
+    },
+    {
+      "path": "maps/preview/speaker-virgo.tmj",
+      "fromSha256": "1dbf4376a5fd4b2ab0fdc7315ac268d9ddedbcd2fef5ef946e578fc21426fc7c",
+      "toSha256": "c567be27a65034479348a7283bc908f5d651084672a136e3c9393a493c94b5ec",
+      "reason": "Replace the oversized entrance lockup with a compact centered plaque using the original full DigiSec logo and map pixel lettering. Preserve all non-branding layout fields, collision masks and saved room controls."
+    },
+    {
+      "path": "maps/speaker-aquarius.tmj",
+      "fromSha256": "af479323eb8565c935c6ae7c6789ce0d265c0c26e1cf46029c58200e3bb976b0",
+      "toSha256": "150666b7da5dbb1ff45078669a424d5b91e7ff7fc9c1ed3851320e6f2d2a9830",
+      "reason": "Replace the oversized entrance lockup with a compact centered plaque using the original full DigiSec logo and map pixel lettering. Preserve all non-branding layout fields, collision masks and saved room controls."
+    },
+    {
+      "path": "maps/speaker-aries.tmj",
+      "fromSha256": "fce8dff9d34de1a67e29289c09d7509d788b4f8de943acd45776ad890abd2c1b",
+      "toSha256": "94d2ed9700ef7c99e9ae086f5f0b562882bc79db9aac8d9f94bfd91a5e676112",
+      "reason": "Replace the oversized entrance lockup with a compact centered plaque using the original full DigiSec logo and map pixel lettering. Preserve all non-branding layout fields, collision masks and saved room controls."
+    },
+    {
+      "path": "maps/speaker-cancer.tmj",
+      "fromSha256": "e1dc06d5e8234644ce46ecd38ae90aec2b3c02e0cb2bd9ed2eb7e50c6eb41b75",
+      "toSha256": "a24b99328ccb8792011f98af1a60c03445d25b000176ef313a6ed35f2787d2be",
+      "reason": "Replace the oversized entrance lockup with a compact centered plaque using the original full DigiSec logo and map pixel lettering. Preserve all non-branding layout fields, collision masks and saved room controls."
+    },
+    {
+      "path": "maps/speaker-capricorn.tmj",
+      "fromSha256": "62083c0eacd546cd8f4887228c8e8f555f6278b83cf2d9ceaafdb3c4a45b212c",
+      "toSha256": "27063404f5c55fd7a85efefc032a1394b58c54f27b7cd83208e660c98617e19d",
+      "reason": "Replace the oversized entrance lockup with a compact centered plaque using the original full DigiSec logo and map pixel lettering. Preserve all non-branding layout fields, collision masks and saved room controls."
+    },
+    {
+      "path": "maps/speaker-gemini.tmj",
+      "fromSha256": "9591d8bba9b4da52cde28ce5471616fe47e936949c8e9593a2fcad078e9c9d1a",
+      "toSha256": "16374629a1eda18854d112567cb0b7e321af0481a7bac03b84c2533da778eb87",
+      "reason": "Replace the oversized entrance lockup with a compact centered plaque using the original full DigiSec logo and map pixel lettering. Preserve all non-branding layout fields, collision masks and saved room controls."
+    },
+    {
+      "path": "maps/speaker-leo.tmj",
+      "fromSha256": "cfff17694e8a8659596ed1617b8672c0b8957db380a21a69f151e9308402c266",
+      "toSha256": "a229a6d0c301b286042dd53b9b1ee3dd455d0d637c42a7102a8be6580bac192a",
+      "reason": "Replace the oversized entrance lockup with a compact centered plaque using the original full DigiSec logo and map pixel lettering. Preserve all non-branding layout fields, collision masks and saved room controls."
+    },
+    {
+      "path": "maps/speaker-libra.tmj",
+      "fromSha256": "f39c8a12b3e4c13249a5d41ca0101b734d4ce47e55279bbbf02d3abd3ff33209",
+      "toSha256": "92045eb8ed02f100bb9ae3e31dbea09a44d9a73da26b278e2e23ed97e541391d",
+      "reason": "Replace the oversized entrance lockup with a compact centered plaque using the original full DigiSec logo and map pixel lettering. Preserve all non-branding layout fields, collision masks and saved room controls."
+    },
+    {
+      "path": "maps/speaker-pisces.tmj",
+      "fromSha256": "d6e2364fe741ca82084fa619a7eb0e8b92e41768c3bb28ff073975d0f71eba23",
+      "toSha256": "d1025006770377b99a7d5b7edabfea14ab057cebff8b2b01d1607cbc1d1f4063",
+      "reason": "Replace the oversized entrance lockup with a compact centered plaque using the original full DigiSec logo and map pixel lettering. Preserve all non-branding layout fields, collision masks and saved room controls."
+    },
+    {
+      "path": "maps/speaker-sagittarius.tmj",
+      "fromSha256": "70565ba6f6197e175e1cf2419c5daf3725fdcfa2bd4d7d4883ef4ee6f1559f25",
+      "toSha256": "2d0bda36221fd85ec3aea7bd89cdd8421cce7e0807a71098e0590cdea3947ae6",
+      "reason": "Replace the oversized entrance lockup with a compact centered plaque using the original full DigiSec logo and map pixel lettering. Preserve all non-branding layout fields, collision masks and saved room controls."
+    },
+    {
+      "path": "maps/speaker-scorpio.tmj",
+      "fromSha256": "1e75d3e89c2c91ff787a253ce5c9a882b5fff92aa7c86699de0a4adfe83db8f7",
+      "toSha256": "519dd999da1efec7f4d4194264d3a2739e14228720f9b2494ebca6f87c2a8971",
+      "reason": "Replace the oversized entrance lockup with a compact centered plaque using the original full DigiSec logo and map pixel lettering. Preserve all non-branding layout fields, collision masks and saved room controls."
+    },
+    {
+      "path": "maps/speaker-taurus.tmj",
+      "fromSha256": "a34626b1ea9928e375588396183d7730ed57899bdf6f52b423cd4d2e59912474",
+      "toSha256": "8a99fd4482996584ce1f9057cef57db11d9b094f292d06ec0ccf3e41a52b9de5",
+      "reason": "Replace the oversized entrance lockup with a compact centered plaque using the original full DigiSec logo and map pixel lettering. Preserve all non-branding layout fields, collision masks and saved room controls."
+    },
+    {
+      "path": "maps/speaker-virgo.tmj",
+      "fromSha256": "bef9a2e956b7c436bb373109002f774ebe1b1fc85a9185cb20c92d91f26d8a6e",
+      "toSha256": "84d6461dc303b87fc1ebaa25a18331cfdef9c080d5ee9ea4a6801b2225a02fc5",
+      "reason": "Replace the oversized entrance lockup with a compact centered plaque using the original full DigiSec logo and map pixel lettering. Preserve all non-branding layout fields, collision masks and saved room controls."
+    },
+    {
+      "path": "world/layouts/speaker-aquarius.json",
+      "fromSha256": "02bf74311a908377aee18174052b1994b39fc7056e7d746bdc82b28579d1221f",
+      "toSha256": "82b4828d65adc25514515558d06076e8dfdc88f1dd13213707f4edd464025115",
+      "reason": "Replace the oversized entrance lockup with a compact centered plaque using the original full DigiSec logo and map pixel lettering. Preserve all non-branding layout fields, collision masks and saved room controls."
+    },
+    {
+      "path": "world/layouts/speaker-aries.json",
+      "fromSha256": "26b84c8361351cc28ea3523fb358923e36ad9aad664cb6b54671b1999c1ec1d3",
+      "toSha256": "a2ce4b621ca96354a7b2c32f0eb7fad629a7ef64d5b5afe42c90e25b30f2a761",
+      "reason": "Replace the oversized entrance lockup with a compact centered plaque using the original full DigiSec logo and map pixel lettering. Preserve all non-branding layout fields, collision masks and saved room controls."
+    },
+    {
+      "path": "world/layouts/speaker-cancer.json",
+      "fromSha256": "8faf99c1b3081e807c63d5d9543e3f87269cc69dc2c9dd0c069693f776545e56",
+      "toSha256": "f74caa40d39acd9eba4645a41aa21db288fee625ce27bbe8d2cc7566e936ac29",
+      "reason": "Replace the oversized entrance lockup with a compact centered plaque using the original full DigiSec logo and map pixel lettering. Preserve all non-branding layout fields, collision masks and saved room controls."
+    },
+    {
+      "path": "world/layouts/speaker-capricorn.json",
+      "fromSha256": "a1b3a398e3a60f5edfd1aa052192df036861b39b135999c029bb9fdda6a439bf",
+      "toSha256": "dbccb7f4ed604bb9c8081ca82153146157bc21c66461ff79dd01d853b5167b17",
+      "reason": "Replace the oversized entrance lockup with a compact centered plaque using the original full DigiSec logo and map pixel lettering. Preserve all non-branding layout fields, collision masks and saved room controls."
+    },
+    {
+      "path": "world/layouts/speaker-gemini.json",
+      "fromSha256": "85e20d282d15c8db3c2f13b6a70d5ca62474bb5d7fcff45488d935b9fadf7e04",
+      "toSha256": "fd5176cd1c7bf0a706e65d1dc06f894ea8ec848d86b064537c4189f38994c314",
+      "reason": "Replace the oversized entrance lockup with a compact centered plaque using the original full DigiSec logo and map pixel lettering. Preserve all non-branding layout fields, collision masks and saved room controls."
+    },
+    {
+      "path": "world/layouts/speaker-leo.json",
+      "fromSha256": "5ad75ee078adfdd4a6a7727759e4d6f42fa6d9718a4524a5a20139e79a2b1c53",
+      "toSha256": "4e22739fdd521024f85d679706dc53d27e0733a64587589cbae394d65b1f69eb",
+      "reason": "Replace the oversized entrance lockup with a compact centered plaque using the original full DigiSec logo and map pixel lettering. Preserve all non-branding layout fields, collision masks and saved room controls."
+    },
+    {
+      "path": "world/layouts/speaker-libra.json",
+      "fromSha256": "323499060f31d5f4a0aa9a142ef9cd5c2750feffe207f1e582ca1bb585333edb",
+      "toSha256": "417caf5b135bcbc6df6f3737e11369f14ab716d09ab695108ce3fb246ce0fa17",
+      "reason": "Replace the oversized entrance lockup with a compact centered plaque using the original full DigiSec logo and map pixel lettering. Preserve all non-branding layout fields, collision masks and saved room controls."
+    },
+    {
+      "path": "world/layouts/speaker-pisces.json",
+      "fromSha256": "7f6dfb6601124090efe3952fd562d97d7e310509b1479937fb1ddd98112503e3",
+      "toSha256": "e1a1c6ab3f4e64fab29ebe81901a2d9a45412e392c318a3d293758e4805cefd9",
+      "reason": "Replace the oversized entrance lockup with a compact centered plaque using the original full DigiSec logo and map pixel lettering. Preserve all non-branding layout fields, collision masks and saved room controls."
+    },
+    {
+      "path": "world/layouts/speaker-sagittarius.json",
+      "fromSha256": "b22878edcfad21935d3bf15ccf4ef5f677a57b3f44998df86b0b6acc4841e333",
+      "toSha256": "212dfa5ad964b0fd481ab7dc2411c743c57cdc8970ec0038dac8bae9d894d836",
+      "reason": "Replace the oversized entrance lockup with a compact centered plaque using the original full DigiSec logo and map pixel lettering. Preserve all non-branding layout fields, collision masks and saved room controls."
+    },
+    {
+      "path": "world/layouts/speaker-scorpio.json",
+      "fromSha256": "7f9ff347f741e9683632e881b412b4130e9540e6327b3a07e74a82e6a35c16b0",
+      "toSha256": "2a5fd56d87980c5be12203377ec57e72b054c36c750e540f006dd68ae0e8a118",
+      "reason": "Replace the oversized entrance lockup with a compact centered plaque using the original full DigiSec logo and map pixel lettering. Preserve all non-branding layout fields, collision masks and saved room controls."
+    },
+    {
+      "path": "world/layouts/speaker-taurus.json",
+      "fromSha256": "acc0b082b71fb9d229bb9b5bc3a3fdde511ba89e759e31be7f305f2529d1473a",
+      "toSha256": "96ec40a153c6f2b6aba093373ae6b8e1efda54ad7a7bf3fbcd1c1e203d1d45cd",
+      "reason": "Replace the oversized entrance lockup with a compact centered plaque using the original full DigiSec logo and map pixel lettering. Preserve all non-branding layout fields, collision masks and saved room controls."
+    },
+    {
+      "path": "world/layouts/speaker-virgo.json",
+      "fromSha256": "1a77714f39dddcd47c535c1f1014f60b08510c3d5c73702991204826bf311624",
+      "toSha256": "19f5a23d32e0ef12f006c805e10586442c98d498a23293461de6662f89ba82e8",
+      "reason": "Replace the oversized entrance lockup with a compact centered plaque using the original full DigiSec logo and map pixel lettering. Preserve all non-branding layout fields, collision masks and saved room controls."
+    }
+  ]
+}
