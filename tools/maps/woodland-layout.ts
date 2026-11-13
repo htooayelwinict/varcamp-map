@@ -3,6 +3,7 @@ import type {MapLayout,TileRect} from './types';
 import type {TileCatalog} from '../art/catalog';
 import type {MapId} from '../../src/world/catalog';
 import type {ExplorationId} from './exploration';
+import {markExplorationExits} from './exploration-wayfinding';
 
 const W=64,H=56;
 const hit=(a:TileRect,b:TileRect)=>a.x<b.x+b.width&&a.x+a.width>b.x&&a.y<b.y+b.height&&a.y+a.height>b.y;
@@ -173,5 +174,7 @@ export function woodlandLayout(id:ExplorationId,catalog:TileCatalog):MapLayout{
   const sprite=choices[n%choices.length],s=catalog[sprite];if(available({...r,width:s.rect.width,height:s.rect.height}))prop(sprite,x,y);
  }
  for(let y=0;y<H;y++)for(let x=0;x<W;x++)if((x===0||y===0||x===W-1||y===H-1)&&!paths.has(y*W+x))prop('exp-boundary',x,y,`boundary-${x}-${y}`);
- l.inspectionZones=[{name:'enchanted-exploration',kind:'landmark',x:1,y:1,width:62,height:54}];return l;
+ l.inspectionZones=[{name:'enchanted-exploration',kind:'landmark',x:1,y:1,width:62,height:54}];
+ markExplorationExits(l);
+ return l;
 }

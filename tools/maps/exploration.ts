@@ -6,6 +6,7 @@ import {loadTileCatalog,type TileCatalog} from '../art/catalog';
 import type {MapLayout,TiledMap,WamFile,TileRect} from './types';
 import sprites from '../../art/exploration-sprites.json';
 import {woodlandLayout} from './woodland-layout';
+import {explorationExitLabelName} from './exploration-wayfinding';
 export const EXPLORATION_IDS=['campus-exploration','star-garden','moon-grotto','moon-cafe','stargazer-terrace'] as const;
 export type ExplorationId=typeof EXPLORATION_IDS[number];
 export const isExplorationId=(id:string):id is ExplorationId=>(EXPLORATION_IDS as readonly string[]).includes(id);
@@ -44,5 +45,6 @@ export function assertExplorationMap(map:TiledMap,layout:MapLayout,wam:WamFile,c
  for(const target of [...layout.entries,...layout.exits,...layout.areas])for(let y=target.y;y<target.y+target.height;y++)for(let x=target.x;x<target.x+target.width;x++)need(seen.has(y*map.width+x),`${layout.id}: blocked ${target.name} at ${x},${y}`);
  for(const e of layout.entries)need(!layout.exits.some(x=>intersects(e,x)),'spawn overlaps exit '+e.name);
  for(const a of layout.areas){const saved=wam.areas.find(s=>s.id===a.id);need(saved&&saved.name===a.name&&saved.x===a.x*32&&saved.y===a.y*32&&saved.width===a.width*32&&saved.height===a.height*32&&isDeepStrictEqual(saved.properties,a.properties),'saved area '+a.id);}
- need(!layout.signs?.some(s=>s.height>1||s.fontSize!>14),'oversized signage');
+ const exits=new Set(layout.exits.map(e=>explorationExitLabelName(layout,e)));
+ need(!layout.signs?.some(s=>s.height>1||s.fontSize!>(exits.has(s.name)?18:14)),'oversized signage');
 }

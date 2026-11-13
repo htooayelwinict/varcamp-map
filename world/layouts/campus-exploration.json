@@ -14330,6 +14330,411 @@
       "width": 1,
       "height": 1,
       "layer": "props"
+    },
+    {
+      "id": "exit-guide-fire-face",
+      "sprite": "sign-board-face",
+      "layer": "props",
+      "x": 6,
+      "y": 9,
+      "width": 8,
+      "height": 1
+    },
+    {
+      "id": "exit-guide-fire-top",
+      "sprite": "sign-board-north",
+      "layer": "props",
+      "x": 6,
+      "y": 9,
+      "width": 8,
+      "height": 1
+    },
+    {
+      "id": "exit-guide-fire-bottom",
+      "sprite": "sign-board-south",
+      "layer": "props",
+      "x": 6,
+      "y": 9,
+      "width": 8,
+      "height": 1
+    },
+    {
+      "id": "exit-guide-fire-trigger",
+      "sprite": "arrow-north",
+      "layer": "props",
+      "x": 10,
+      "y": 7,
+      "width": 1,
+      "height": 1
+    },
+    {
+      "id": "exit-guide-fire-approach",
+      "sprite": "arrow-north",
+      "layer": "props",
+      "x": 10,
+      "y": 8,
+      "width": 1,
+      "height": 1
+    },
+    {
+      "id": "exit-guide-air-face",
+      "sprite": "sign-board-face",
+      "layer": "props",
+      "x": 20,
+      "y": 9,
+      "width": 8,
+      "height": 1
+    },
+    {
+      "id": "exit-guide-air-top",
+      "sprite": "sign-board-north",
+      "layer": "props",
+      "x": 20,
+      "y": 9,
+      "width": 8,
+      "height": 1
+    },
+    {
+      "id": "exit-guide-air-bottom",
+      "sprite": "sign-board-south",
+      "layer": "props",
+      "x": 20,
+      "y": 9,
+      "width": 8,
+      "height": 1
+    },
+    {
+      "id": "exit-guide-air-trigger",
+      "sprite": "arrow-north",
+      "layer": "props",
+      "x": 24,
+      "y": 7,
+      "width": 1,
+      "height": 1
+    },
+    {
+      "id": "exit-guide-air-approach",
+      "sprite": "arrow-north",
+      "layer": "props",
+      "x": 24,
+      "y": 8,
+      "width": 1,
+      "height": 1
+    },
+    {
+      "id": "exit-guide-earth-face",
+      "sprite": "sign-board-face",
+      "layer": "props",
+      "x": 35,
+      "y": 9,
+      "width": 8,
+      "height": 1
+    },
+    {
+      "id": "exit-guide-earth-top",
+      "sprite": "sign-board-north",
+      "layer": "props",
+      "x": 35,
+      "y": 9,
+      "width": 8,
+      "height": 1
+    },
+    {
+      "id": "exit-guide-earth-bottom",
+      "sprite": "sign-board-south",
+      "layer": "props",
+      "x": 35,
+      "y": 9,
+      "width": 8,
+      "height": 1
+    },
+    {
+      "id": "exit-guide-earth-trigger",
+      "sprite": "arrow-north",
+      "layer": "props",
+      "x": 39,
+      "y": 7,
+      "width": 1,
+      "height": 1
+    },
+    {
+      "id": "exit-guide-earth-approach",
+      "sprite": "arrow-north",
+      "layer": "props",
+      "x": 39,
+      "y": 8,
+      "width": 1,
+      "height": 1
+    },
+    {
+      "id": "exit-guide-water-face",
+      "sprite": "sign-board-face",
+      "layer": "props",
+      "x": 50,
+      "y": 9,
+      "width": 8,
+      "height": 1
+    },
+    {
+      "id": "exit-guide-water-top",
+      "sprite": "sign-board-north",
+      "layer": "props",
+      "x": 50,
+      "y": 9,
+      "width": 8,
+      "height": 1
+    },
+    {
+      "id": "exit-guide-water-bottom",
+      "sprite": "sign-board-south",
+      "layer": "props",
+      "x": 50,
+      "y": 9,
+      "width": 8,
+      "height": 1
+    },
+    {
+      "id": "exit-guide-water-trigger",
+      "sprite": "arrow-north",
+      "layer": "props",
+      "x": 54,
+      "y": 7,
+      "width": 1,
+      "height": 1
+    },
+    {
+      "id": "exit-guide-water-approach",
+      "sprite": "arrow-north",
+      "layer": "props",
+      "x": 54,
+      "y": 8,
+      "width": 1,
+      "height": 1
+    },
+    {
+      "id": "exit-guide-star-garden-face",
+      "sprite": "sign-board-face",
+      "layer": "props",
+      "x": 4,
+      "y": 27,
+      "width": 8,
+      "height": 1
+    },
+    {
+      "id": "exit-guide-star-garden-top",
+      "sprite": "sign-board-north",
+      "layer": "props",
+      "x": 4,
+      "y": 27,
+      "width": 8,
+      "height": 1
+    },
+    {
+      "id": "exit-guide-star-garden-bottom",
+      "sprite": "sign-board-south",
+      "layer": "props",
+      "x": 4,
+      "y": 27,
+      "width": 8,
+      "height": 1
+    },
+    {
+      "id": "exit-guide-star-garden-trigger",
+      "sprite": "arrow-north",
+      "layer": "props",
+      "x": 8,
+      "y": 25,
+      "width": 1,
+      "height": 1
+    },
+    {
+      "id": "exit-guide-star-garden-approach",
+      "sprite": "arrow-north",
+      "layer": "props",
+      "x": 8,
+      "y": 26,
+      "width": 1,
+      "height": 1
+    },
+    {
+      "id": "exit-guide-moon-cafe-face",
+      "sprite": "sign-board-face",
+      "layer": "props",
+      "x": 51,
+      "y": 27,
+      "width": 8,
+      "height": 1
+    },
+    {
+      "id": "exit-guide-moon-cafe-top",
+      "sprite": "sign-board-north",
+      "layer": "props",
+      "x": 51,
+      "y": 27,
+      "width": 8,
+      "height": 1
+    },
+    {
+      "id": "exit-guide-moon-cafe-bottom",
+      "sprite": "sign-board-south",
+      "layer": "props",
+      "x": 51,
+      "y": 27,
+      "width": 8,
+      "height": 1
+    },
+    {
+      "id": "exit-guide-moon-cafe-trigger",
+      "sprite": "arrow-north",
+      "layer": "props",
+      "x": 55,
+      "y": 25,
+      "width": 1,
+      "height": 1
+    },
+    {
+      "id": "exit-guide-moon-cafe-approach",
+      "sprite": "arrow-north",
+      "layer": "props",
+      "x": 55,
+      "y": 26,
+      "width": 1,
+      "height": 1
+    },
+    {
+      "id": "exit-guide-moon-grotto-face",
+      "sprite": "sign-board-face",
+      "layer": "props",
+      "x": 4,
+      "y": 44,
+      "width": 8,
+      "height": 1
+    },
+    {
+      "id": "exit-guide-moon-grotto-top",
+      "sprite": "sign-board-north",
+      "layer": "props",
+      "x": 4,
+      "y": 44,
+      "width": 8,
+      "height": 1
+    },
+    {
+      "id": "exit-guide-moon-grotto-bottom",
+      "sprite": "sign-board-south",
+      "layer": "props",
+      "x": 4,
+      "y": 44,
+      "width": 8,
+      "height": 1
+    },
+    {
+      "id": "exit-guide-moon-grotto-trigger",
+      "sprite": "arrow-north",
+      "layer": "props",
+      "x": 8,
+      "y": 42,
+      "width": 1,
+      "height": 1
+    },
+    {
+      "id": "exit-guide-moon-grotto-approach",
+      "sprite": "arrow-north",
+      "layer": "props",
+      "x": 8,
+      "y": 43,
+      "width": 1,
+      "height": 1
+    },
+    {
+      "id": "exit-guide-stargazer-terrace-face",
+      "sprite": "sign-board-face",
+      "layer": "props",
+      "x": 51,
+      "y": 44,
+      "width": 8,
+      "height": 1
+    },
+    {
+      "id": "exit-guide-stargazer-terrace-top",
+      "sprite": "sign-board-north",
+      "layer": "props",
+      "x": 51,
+      "y": 44,
+      "width": 8,
+      "height": 1
+    },
+    {
+      "id": "exit-guide-stargazer-terrace-bottom",
+      "sprite": "sign-board-south",
+      "layer": "props",
+      "x": 51,
+      "y": 44,
+      "width": 8,
+      "height": 1
+    },
+    {
+      "id": "exit-guide-stargazer-terrace-trigger",
+      "sprite": "arrow-north",
+      "layer": "props",
+      "x": 55,
+      "y": 42,
+      "width": 1,
+      "height": 1
+    },
+    {
+      "id": "exit-guide-stargazer-terrace-approach",
+      "sprite": "arrow-north",
+      "layer": "props",
+      "x": 55,
+      "y": 43,
+      "width": 1,
+      "height": 1
+    },
+    {
+      "id": "exit-guide-plaza-return-face",
+      "sprite": "sign-board-face",
+      "layer": "props",
+      "x": 28,
+      "y": 52,
+      "width": 8,
+      "height": 1
+    },
+    {
+      "id": "exit-guide-plaza-return-top",
+      "sprite": "sign-board-north",
+      "layer": "props",
+      "x": 28,
+      "y": 52,
+      "width": 8,
+      "height": 1
+    },
+    {
+      "id": "exit-guide-plaza-return-bottom",
+      "sprite": "sign-board-south",
+      "layer": "props",
+      "x": 28,
+      "y": 52,
+      "width": 8,
+      "height": 1
+    },
+    {
+      "id": "exit-guide-plaza-return-trigger",
+      "sprite": "arrow-south",
+      "layer": "props",
+      "x": 32,
+      "y": 54,
+      "width": 1,
+      "height": 1
+    },
+    {
+      "id": "exit-guide-plaza-return-approach",
+      "sprite": "arrow-south",
+      "layer": "props",
+      "x": 32,
+      "y": 53,
+      "width": 1,
+      "height": 1
     }
   ],
   "entries": [
@@ -14588,91 +14993,99 @@
   "signs": [
     {
       "name": "fire-label",
-      "text": "FIRE",
+      "text": "EXIT: FIRE",
       "x": 6,
       "y": 9,
       "width": 8,
       "height": 1,
-      "fontSize": 13,
-      "color": "#fff0c8",
-      "align": "center"
+      "fontSize": 18,
+      "color": "#fff1c4",
+      "align": "center",
+      "padding": 6
     },
     {
       "name": "air-label",
-      "text": "AIR",
+      "text": "EXIT: AIR",
       "x": 20,
       "y": 9,
       "width": 8,
       "height": 1,
-      "fontSize": 13,
-      "color": "#fff0c8",
-      "align": "center"
+      "fontSize": 18,
+      "color": "#fff1c4",
+      "align": "center",
+      "padding": 6
     },
     {
       "name": "earth-label",
-      "text": "EARTH",
+      "text": "EXIT: EARTH",
       "x": 35,
       "y": 9,
       "width": 8,
       "height": 1,
-      "fontSize": 13,
-      "color": "#fff0c8",
-      "align": "center"
+      "fontSize": 18,
+      "color": "#fff1c4",
+      "align": "center",
+      "padding": 6
     },
     {
       "name": "water-label",
-      "text": "WATER",
+      "text": "EXIT: WATER",
       "x": 50,
       "y": 9,
       "width": 8,
       "height": 1,
-      "fontSize": 13,
-      "color": "#fff0c8",
-      "align": "center"
+      "fontSize": 18,
+      "color": "#fff1c4",
+      "align": "center",
+      "padding": 6
     },
     {
       "name": "star-garden-label",
-      "text": "STAR GARDEN",
+      "text": "EXIT: STAR GARDEN",
       "x": 4,
       "y": 27,
       "width": 8,
       "height": 1,
-      "fontSize": 13,
-      "color": "#fff0c8",
-      "align": "center"
+      "fontSize": 18,
+      "color": "#fff1c4",
+      "align": "center",
+      "padding": 6
     },
     {
       "name": "moon-cafe-label",
-      "text": "MOON CAFE",
+      "text": "EXIT: MOON CAFE",
       "x": 51,
       "y": 27,
       "width": 8,
       "height": 1,
-      "fontSize": 13,
-      "color": "#fff0c8",
-      "align": "center"
+      "fontSize": 18,
+      "color": "#fff1c4",
+      "align": "center",
+      "padding": 6
     },
     {
       "name": "moon-grotto-label",
-      "text": "MOON GROTTO",
+      "text": "EXIT: MOON GROTTO",
       "x": 4,
       "y": 44,
       "width": 8,
       "height": 1,
-      "fontSize": 13,
-      "color": "#fff0c8",
-      "align": "center"
+      "fontSize": 18,
+      "color": "#fff1c4",
+      "align": "center",
+      "padding": 6
     },
     {
       "name": "stargazer-terrace-label",
-      "text": "STARGAZER TERRACE",
+      "text": "EXIT: STARGAZER TERRACE",
       "x": 51,
       "y": 44,
       "width": 8,
       "height": 1,
-      "fontSize": 13,
-      "color": "#fff0c8",
-      "align": "center"
+      "fontSize": 17,
+      "color": "#fff1c4",
+      "align": "center",
+      "padding": 6
     },
     {
       "name": "Trailkeeper",
@@ -14709,14 +15122,15 @@
     },
     {
       "name": "plaza-label",
-      "text": "ZODIAC PLAZA",
+      "text": "EXIT: ZODIAC PLAZA",
       "x": 28,
       "y": 52,
       "width": 8,
       "height": 1,
-      "fontSize": 13,
-      "color": "#fff0c8",
-      "align": "center"
+      "fontSize": 18,
+      "color": "#fff1c4",
+      "align": "center",
+      "padding": 6
     }
   ],
   "images": [],

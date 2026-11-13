@@ -1,0 +1,101 @@
+{
+  "schemaVersion": 1,
+  "revisions": [
+    {
+      "path": "maps/campus-exploration.tmj",
+      "fromSha256": "79c403e15c5c94c29a6213ca20baf40c5512c9f131b4e75b6c6a1129d9781c06",
+      "toSha256": "ab2c86af39be5049b050fd99bb1ea067ca781fab353e0cc4c5a6235748345612",
+      "reason": "Add the requested opt-in Newness careers action and readable exploration exit labels with arrows. Preserve routes, saved editor areas, collision masks and existing scenery."
+    },
+    {
+      "path": "maps/moon-cafe.tmj",
+      "fromSha256": "f04072ca8beeafbef5331638a3fafd6d11a2845b249bc1efc562cade230775ea",
+      "toSha256": "b62ef920076b5edb4c24479e53283ed080ba23cffb788e897e319d8e9658a4c6",
+      "reason": "Add the requested opt-in Newness careers action and readable exploration exit labels with arrows. Preserve routes, saved editor areas, collision masks and existing scenery."
+    },
+    {
+      "path": "maps/moon-grotto.tmj",
+      "fromSha256": "d2bdcea70d4336d68efd3ecdc9bc49ec0bada9a13def849e521d647300576536",
+      "toSha256": "2c5665de3f83e041a97dd814846c57cee2c258cd39e80dc33d1ba20526901f7c",
+      "reason": "Add the requested opt-in Newness careers action and readable exploration exit labels with arrows. Preserve routes, saved editor areas, collision masks and existing scenery."
+    },
+    {
+      "path": "maps/preview/campus-exploration.tmj",
+      "fromSha256": "88b2514e46dd751bd8cea4ae29f11e7510aef29376851ff60772a7660d3bea9e",
+      "toSha256": "e825f0ddbf5a26d093bf9fe79490654b5604ebc6aac62239d903f6d63d048c87",
+      "reason": "Add the requested opt-in Newness careers action and readable exploration exit labels with arrows. Preserve routes, saved editor areas, collision masks and existing scenery."
+    },
+    {
+      "path": "maps/preview/moon-cafe.tmj",
+      "fromSha256": "8e31cf75b29acc64d9b2bb91abbdac415e748135ddbb133b6debc95ccb8dfe91",
+      "toSha256": "2c528c9f3fb1812b3fc0404508b11ce2d97e7a00307ac9ff27553a9a99e73117",
+      "reason": "Add the requested opt-in Newness careers action and readable exploration exit labels with arrows. Preserve routes, saved editor areas, collision masks and existing scenery."
+    },
+    {
+      "path": "maps/preview/moon-grotto.tmj",
+      "fromSha256": "f3456e85c0a6732e03522368698b8337dcf3c7dc96fa7b11c7ee9304da823ae4",
+      "toSha256": "4010ad8b97dddaf24cd27cf515fa47ddef36401201cdba75025b70a0814b1d21",
+      "reason": "Add the requested opt-in Newness careers action and readable exploration exit labels with arrows. Preserve routes, saved editor areas, collision masks and existing scenery."
+    },
+    {
+      "path": "maps/preview/star-garden.tmj",
+      "fromSha256": "730dd21f8de12f89f2e33deac7574d0a487b7c46d02ce61f0099b9113ce89623",
+      "toSha256": "c3a6c82fbec3eccfebca454b9b503b9bbd8dda2a2b3557f7dcb74ee932041af9",
+      "reason": "Add the requested opt-in Newness careers action and readable exploration exit labels with arrows. Preserve routes, saved editor areas, collision masks and existing scenery."
+    },
+    {
+      "path": "maps/preview/stargazer-terrace.tmj",
+      "fromSha256": "a7ccb8d5e0bfadbc16e17906b300f96c96cc946183da301ad0e06547617d889a",
+      "toSha256": "ac26c823c5eb786fee7e1f51fb0f909935e94449b9564c64decfd17bcd285300",
+      "reason": "Add the requested opt-in Newness careers action and readable exploration exit labels with arrows. Preserve routes, saved editor areas, collision masks and existing scenery."
+    },
+    {
+      "path": "maps/star-garden.tmj",
+      "fromSha256": "5e04f62035ccf38341dba72266eddb586bc076e5cfcdbe8c6f57f47381b2ee11",
+      "toSha256": "0928fc9a745ed335ad665784ff67a2bcf0e5ae2c529b87c20306e2cb431023f9",
+      "reason": "Add the requested opt-in Newness careers action and readable exploration exit labels with arrows. Preserve routes, saved editor areas, collision masks and existing scenery."
+    },
+    {
+      "path": "maps/stargazer-terrace.tmj",
+      "fromSha256": "fac9aa8652f4b28836990fde18ffb6875a89592c0ac752a355be811a9c9ded57",
+      "toSha256": "89e4bb9f2d90befc63eeada12d41ec73365abe170b6d41657ed4f68afedebf65",
+      "reason": "Add the requested opt-in Newness careers action and readable exploration exit labels with arrows. Preserve routes, saved editor areas, collision masks and existing scenery."
+    },
+    {
+      "path": "src/main.ts",
+      "fromSha256": "c6693937eadf730ae04153ea251011c05092df3a631957ad093790cf928f1585",
+      "toSha256": "3efeee23b8491fb72aeae7b8d8b3955a8285b47bfcecac278d583d76ccf56d01",
+      "reason": "Add the requested opt-in Newness careers action and readable exploration exit labels with arrows. Preserve routes, saved editor areas, collision masks and existing scenery."
+    },
+    {
+      "path": "world/layouts/campus-exploration.json",
+      "fromSha256": "1b9632536d6f55eab2ad2de523c3cef88317d49d0776af40caa04695d104f1ac",
+      "toSha256": "5c8f92fa51f4d5ef78eabebe0beddb5dd9d0097fe326e42defdd2e4aa6380b8c",
+      "reason": "Add the requested opt-in Newness careers action and readable exploration exit labels with arrows. Preserve routes, saved editor areas, collision masks and existing scenery."
+    },
+    {
+      "path": "world/layouts/moon-cafe.json",
+      "fromSha256": "5f78e4a8656a5ed01d40f53ddcc79b66a6c15acc57857bb7e2a2ab2958ac0ebe",
+      "toSha256": "3a4193457727efe202a5a1f590fd55fb6b036ca9ae0b2df78700e1542ba5f89d",
+      "reason": "Add the requested opt-in Newness careers action and readable exploration exit labels with arrows. Preserve routes, saved editor areas, collision masks and existing scenery."
+    },
+    {
+      "path": "world/layouts/moon-grotto.json",
+      "fromSha256": "b20f12d1061923455ca7157eedef57f58e206d82bad827fbb1c8f1b21cd1df49",
+      "toSha256": "8916a522f334294d27f0da288009eec2c2365bbab4226ea666a6a52d3da444ca",
+      "reason": "Add the requested opt-in Newness careers action and readable exploration exit labels with arrows. Preserve routes, saved editor areas, collision masks and existing scenery."
+    },
+    {
+      "path": "world/layouts/star-garden.json",
+      "fromSha256": "a7cb51de105cffaa2e14e36f3df05e76fddb3e978d8de5a7f0fbf848c96b0a16",
+      "toSha256": "a94f37e1840ab71703742466cb93812127a3bbf663e23a562ba8cdb766b68124",
+      "reason": "Add the requested opt-in Newness careers action and readable exploration exit labels with arrows. Preserve routes, saved editor areas, collision masks and existing scenery."
+    },
+    {
+      "path": "world/layouts/stargazer-terrace.json",
+      "fromSha256": "d160f5997d60a4b7af041bc9eacb9eedfb662a3dff6d73053ef430a1b33ef7ee",
+      "toSha256": "c673899c26f4ee4bb9b3939064c874397999a539dd9274027f6391e723b32fed",
+      "reason": "Add the requested opt-in Newness careers action and readable exploration exit labels with arrows. Preserve routes, saved editor areas, collision masks and existing scenery."
+    }
+  ]
+}

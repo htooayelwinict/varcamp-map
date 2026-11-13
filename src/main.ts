@@ -3,6 +3,7 @@ import { initializeWorld } from './runtime';
 import { registerCheckInCounter } from './check-in/counter';
 import { registerArcadeCabinets } from './arcade/cabinets';
 import { registerOrbitCourse } from './playground/course';
+import { registerNewnessCareers } from './expo/newness-careers';
 void initializeWorld(WA).catch(() => { console.warn('VarCamp scripting unavailable. Physical venue exits remain available.'); });
 void WA.onInit().then(() => {
  const dispose=registerCheckInCounter(WA);
@@ -18,3 +19,7 @@ void WA.onInit().then(() => {
 }).catch(() => { console.warn('VarCamp playground course unavailable.'); });
 
 void WA.onInit().then(()=>{const dispose=registerExpedition(WA);window.addEventListener("pagehide",dispose,{once:true});}).catch(()=>console.warn("VarCamp expedition unavailable; physical trails remain open."));
+void WA.onInit().then(()=>{
+ const dispose=registerNewnessCareers(WA);
+ window.addEventListener('pagehide',dispose,{once:true});
+}).catch(()=>console.warn('VarCamp Newness careers link unavailable.'));

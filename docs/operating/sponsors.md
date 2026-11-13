@@ -2,6 +2,8 @@
 
 DigiSec Lab — **Digital Safety Partner**; Newness — **Spark Sponsor**; Lokal Zaytann (ဒေသစျေးတန်း) — **Mini Sponsor**. The larger DigiSec Lab pavilion remains visible from arrival.
 
+At Newness's laptop, visitors can choose “Newness careers” to open [Careers at Newness](https://career.newness.com.mm/) in a new tab. The prompt appears only at the front of the desk; walking through the booth does not open the site automatically. The map does not collect applications.
+
 The six booths below the sponsors open south onto the outside walkway. West: AWS USER GROUP MYANMAR, BSides Myanmar, Vibes Code Tours. East: Open Source Robotics Foundation For Myanmar (OSRFM), Duwun — Media Partner, Open Taxi — Media Partner. Each booth has the same usable floor space, a solid desk, laptop and flowers. The rows use one shared wall behind the booths. Ten Ten is retired from the visible map; its original source and unused atlas reservation remain solely for provenance and stable GIDs.
 
 Media artwork uses the exact originals supplied in Drive. Run `node tools/art/media-partner-export.mjs` to reproduce their native panels and the font-pinned Myanmar caption. See `art/source/sponsors/media/NOTICE.md` for sources and terms. Existing community artwork is preserved; its visible captions follow the organizer's latest spelling.

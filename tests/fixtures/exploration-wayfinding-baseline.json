@@ -1,0 +1,22 @@
+{
+  "campus-exploration": {
+    "layoutWithoutSignsSha256": "6ec56aebd97ca41a9e42e9cf3f1d9a79d1f801d23e8d0bf811b8dedaec7bfe6c",
+    "collisionSha256": "c1fec656b3cb0c9d03ef1d6dc8170e251b082ca929f273d0d246de19f3bf95d4"
+  },
+  "star-garden": {
+    "layoutWithoutSignsSha256": "2b6937ff66eb5313921a7295a37e6f4e29fe10ff4c73c1f8853ba1e8008e6e67",
+    "collisionSha256": "5dad701be1ae19fc93f55b17d09c94417540fbd4eff2603fcfb1d3f8a7d10b99"
+  },
+  "moon-grotto": {
+    "layoutWithoutSignsSha256": "cc5cb0f061bb291d5be960de92ef04e54cd761a35479fe8eefa810293c838426",
+    "collisionSha256": "53c51caaa1d6d20d5e831c2d5cb2b49b323c9899d94fd3b06e67b7cfe7d55748"
+  },
+  "moon-cafe": {
+    "layoutWithoutSignsSha256": "cd6259a2b43f6a116fbd25d6e36e821c79bded1d40322298240f1e010add2d55",
+    "collisionSha256": "b1b1551b3d07962567bf33f81df6f91183be4130894f3f8feecbbc307659aec9"
+  },
+  "stargazer-terrace": {
+    "layoutWithoutSignsSha256": "a1add6fdfed6d070c05912c5c8d3666087bfedd9188d06c5c26435186f72bbc3",
+    "collisionSha256": "498aa2fd44453b51c220159022f46db1326d8b9a090c71a5bf0790d30f57ba08"
+  }
+}

@@ -14231,6 +14231,186 @@
       "width": 1,
       "height": 1,
       "layer": "props"
+    },
+    {
+      "id": "exit-guide-branch-return-face",
+      "sprite": "sign-board-face",
+      "layer": "props",
+      "x": 27,
+      "y": 52,
+      "width": 8,
+      "height": 1
+    },
+    {
+      "id": "exit-guide-branch-return-top",
+      "sprite": "sign-board-north",
+      "layer": "props",
+      "x": 27,
+      "y": 52,
+      "width": 8,
+      "height": 1
+    },
+    {
+      "id": "exit-guide-branch-return-bottom",
+      "sprite": "sign-board-south",
+      "layer": "props",
+      "x": 27,
+      "y": 52,
+      "width": 8,
+      "height": 1
+    },
+    {
+      "id": "exit-guide-branch-return-trigger",
+      "sprite": "arrow-south",
+      "layer": "props",
+      "x": 31,
+      "y": 54,
+      "width": 1,
+      "height": 1
+    },
+    {
+      "id": "exit-guide-branch-return-approach",
+      "sprite": "arrow-south",
+      "layer": "props",
+      "x": 31,
+      "y": 53,
+      "width": 1,
+      "height": 1
+    },
+    {
+      "id": "exit-guide-plaza-return-face",
+      "sprite": "sign-board-face",
+      "layer": "props",
+      "x": 40,
+      "y": 52,
+      "width": 8,
+      "height": 1
+    },
+    {
+      "id": "exit-guide-plaza-return-top",
+      "sprite": "sign-board-north",
+      "layer": "props",
+      "x": 40,
+      "y": 52,
+      "width": 8,
+      "height": 1
+    },
+    {
+      "id": "exit-guide-plaza-return-bottom",
+      "sprite": "sign-board-south",
+      "layer": "props",
+      "x": 40,
+      "y": 52,
+      "width": 8,
+      "height": 1
+    },
+    {
+      "id": "exit-guide-plaza-return-trigger",
+      "sprite": "arrow-south",
+      "layer": "props",
+      "x": 44,
+      "y": 54,
+      "width": 1,
+      "height": 1
+    },
+    {
+      "id": "exit-guide-plaza-return-approach",
+      "sprite": "arrow-south",
+      "layer": "props",
+      "x": 44,
+      "y": 53,
+      "width": 1,
+      "height": 1
+    },
+    {
+      "id": "exit-guide-trail-west-face",
+      "sprite": "sign-board-face",
+      "layer": "props",
+      "x": 2,
+      "y": 31,
+      "width": 10,
+      "height": 1
+    },
+    {
+      "id": "exit-guide-trail-west-top",
+      "sprite": "sign-board-north",
+      "layer": "props",
+      "x": 2,
+      "y": 31,
+      "width": 10,
+      "height": 1
+    },
+    {
+      "id": "exit-guide-trail-west-bottom",
+      "sprite": "sign-board-south",
+      "layer": "props",
+      "x": 2,
+      "y": 31,
+      "width": 10,
+      "height": 1
+    },
+    {
+      "id": "exit-guide-trail-west-trigger",
+      "sprite": "arrow-west",
+      "layer": "props",
+      "x": 1,
+      "y": 29,
+      "width": 1,
+      "height": 1
+    },
+    {
+      "id": "exit-guide-trail-west-approach",
+      "sprite": "arrow-west",
+      "layer": "props",
+      "x": 2,
+      "y": 29,
+      "width": 1,
+      "height": 1
+    },
+    {
+      "id": "exit-guide-trail-east-face",
+      "sprite": "sign-board-face",
+      "layer": "props",
+      "x": 52,
+      "y": 31,
+      "width": 10,
+      "height": 1
+    },
+    {
+      "id": "exit-guide-trail-east-top",
+      "sprite": "sign-board-north",
+      "layer": "props",
+      "x": 52,
+      "y": 31,
+      "width": 10,
+      "height": 1
+    },
+    {
+      "id": "exit-guide-trail-east-bottom",
+      "sprite": "sign-board-south",
+      "layer": "props",
+      "x": 52,
+      "y": 31,
+      "width": 10,
+      "height": 1
+    },
+    {
+      "id": "exit-guide-trail-east-trigger",
+      "sprite": "arrow-east",
+      "layer": "props",
+      "x": 62,
+      "y": 29,
+      "width": 1,
+      "height": 1
+    },
+    {
+      "id": "exit-guide-trail-east-approach",
+      "sprite": "arrow-east",
+      "layer": "props",
+      "x": 61,
+      "y": 29,
+      "width": 1,
+      "height": 1
     }
   ],
   "entries": [
@@ -14373,47 +14553,51 @@
   "signs": [
     {
       "name": "branch-return-label",
-      "text": "EXPLORATION",
+      "text": "EXIT: EXPLORATION",
       "x": 27,
       "y": 52,
       "width": 8,
       "height": 1,
-      "fontSize": 13,
-      "color": "#d7e3cf",
-      "align": "center"
+      "fontSize": 18,
+      "color": "#fff1c4",
+      "align": "center",
+      "padding": 6
     },
     {
       "name": "plaza-return-label",
-      "text": "ZODIAC PLAZA",
+      "text": "EXIT: ZODIAC PLAZA",
       "x": 40,
       "y": 52,
       "width": 8,
       "height": 1,
-      "fontSize": 13,
-      "color": "#d7e3cf",
-      "align": "center"
+      "fontSize": 18,
+      "color": "#fff1c4",
+      "align": "center",
+      "padding": 6
     },
     {
       "name": "west-trail-label",
-      "text": "MOON GROTTO",
+      "text": "EXIT: MOON GROTTO",
       "x": 2,
       "y": 31,
       "width": 10,
       "height": 1,
-      "fontSize": 13,
-      "color": "#d7e3cf",
-      "align": "center"
+      "fontSize": 18,
+      "color": "#fff1c4",
+      "align": "center",
+      "padding": 6
     },
     {
       "name": "east-trail-label",
-      "text": "MOON CAFE",
+      "text": "EXIT: MOON CAFE",
       "x": 52,
       "y": 31,
       "width": 10,
       "height": 1,
-      "fontSize": 13,
-      "color": "#d7e3cf",
-      "align": "center"
+      "fontSize": 18,
+      "color": "#fff1c4",
+      "align": "center",
+      "padding": 6
     },
     {
       "name": "four-sigil-clue",
