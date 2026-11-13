@@ -9,8 +9,8 @@ export default defineConfig({
     sourcemap: true,
     rollupOptions: {
       preserveEntrySignatures: 'strict',
-      output: { entryFileNames: chunk => chunk.name === 'lyra' ? 'bots/lyra.js' : 'assets/[name]-[hash].js' },
-      input: { expedition: './src/adventure/index.html', journal: './src/journal/index.html', guides: './src/guides/index.html', npc: './src/npc/index.html', 'check-in': './src/check-in/index.html', 'src-main': './src/main.ts' },
+      output: { entryFileNames: 'assets/[name]-[hash].js' },
+      input: { expedition: './src/adventure/index.html', journal: './src/journal/index.html', 'check-in': './src/check-in/index.html', 'src-main': './src/main.ts' },
     },
   },
   preview: { cors: true },

@@ -11,10 +11,10 @@ import {EXTERIOR_GATE_COPY,EXTERIOR_ROAD_COPY} from '../tools/art/exterior-gates
 import { loadTileCatalog } from '../tools/art/catalog';
 import { buildMap } from '../tools/maps/builder';
 import { checkArt } from '../tools/art/check';
-import { addNpcGuides } from '../tools/maps/npc-guides';
+import { retireHistoricalHosts } from './helpers/retired-host-layout';
 import type { MapLayout, TileRect, Placement, TiledMap } from '../tools/maps/types';
 
-const layouts = addNpcGuides(readdirSync('world/layouts').filter(f=>f.endsWith('.json')).map(f=>JSON.parse(readFileSync(`world/layouts/${f}`,'utf8')) as MapLayout));
+const layouts = retireHistoricalHosts(readdirSync('world/layouts').filter(f=>f.endsWith('.json')).map(f=>JSON.parse(readFileSync(`world/layouts/${f}`,'utf8')) as MapLayout));
 // One predicate is used by both fixture cases and the complete production-layout audit.
 const labelCatalog=loadTileCatalog();
 const standingFace=(l:MapLayout,id:string)=>declaredFace(l,labelCatalog,id,id==='welcome-control-sign'?'hub-nav-welcome':`exterior-road-${id.replace('exterior-road-sign-','')}`);

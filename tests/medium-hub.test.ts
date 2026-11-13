@@ -6,12 +6,12 @@ import sharp from 'sharp';
 import { SIGN_IDS, WORLD_CATALOG } from '../src/world/catalog';
 import { buildMap } from '../tools/maps/builder';
 import { loadTileCatalog } from '../tools/art/catalog';
-import { addNpcGuides } from '../tools/maps/npc-guides';
+import { retireHistoricalHosts } from './helpers/retired-host-layout';
 import type { MapLayout, TileLayer, TileRect } from '../tools/maps/types';
 const source=()=>JSON.parse(readFileSync('world/layouts/overworld.json','utf8')) as MapLayout;
 const cells=(r:TileRect,w:number)=>Array.from({length:r.width*r.height},(_,i)=>(r.y+Math.floor(i/r.width))*w+r.x+i%r.width);
 const overlap=(a:TileRect,b:TileRect)=>a.x<b.x+b.width&&a.x+a.width>b.x&&a.y<b.y+b.height&&a.y+a.height>b.y;
-function built(){const l=addNpcGuides([source()])[0],{tmj,wam}=buildMap(l,loadTileCatalog()),mask=(tmj.layers.find(a=>a.name==='physical-collisions') as TileLayer).data;return{l,tmj,wam,mask};}
+function built(){const l=retireHistoricalHosts([source()])[0],{tmj,wam}=buildMap(l,loadTileCatalog()),mask=(tmj.layers.find(a=>a.name==='physical-collisions') as TileLayer).data;return{l,tmj,wam,mask};}
 function distances(l:MapLayout,mask:number[],start:number){const q=[start],d=new Map([[start,0]]);for(let h=0;h<q.length;h++){const n=q[h],x=n%l.width,y=Math.floor(n/l.width);for(const[nx,ny]of[[x-1,y],[x+1,y],[x,y-1],[x,y+1]]){const c=ny*l.width+nx;if(nx>=0&&ny>=0&&nx<l.width&&ny<l.height&&!mask[c]&&!d.has(c)){d.set(c,d.get(n)!+1);q.push(c);}}}return d;}
 describe('medium authored arrival',()=>{
  it('exports the approved128² hub and matching catalog',()=>{const{tmj}=built();expect([tmj.width,tmj.height]).toEqual([128,128]);expect([WORLD_CATALOG.overworld.width,WORLD_CATALOG.overworld.height]).toEqual([128,128]);});

@@ -23,7 +23,6 @@ VarCamp Myanmar သည် **WorkAdventure** ပေါ်တွင် တည်�
 - [မြေပုံနှင့် အနုပညာဖိုင်များ ပြင်ဆင်နည်း](#editing)
 - [စစ်ဆေးခြင်းနှင့် စမ်းသပ်ခြင်း](#testing)
 - [Demo ကို ထုတ်လွှင့်နည်း](#publishing)
-- [Guide bot နှင့် NPC ဝန်ဆောင်မှုများ](#guides)
 - [ပါဝင်ကူညီခြင်းနှင့် နောင်နှစ်များအတွက် လွှဲပြောင်းခြင်း](#handoff)
 - [အဖြစ်များသော ပြဿနာများ](#troubleshooting)
 - [ဆက်လက်ဖတ်ရှုရန်](#documentation)
@@ -172,7 +171,7 @@ npm run maps:build
 npm run buildmap
 ```
 
-ရလဒ်ဖြစ်သော `dist/` တွင် TMJ/WAM အတွဲ ၃၄ တွဲ၊ runtime နှင့် journal ဖိုင်များ၊ guide module၊ အသုံးပြုထားသော artwork နှင့် public credits ပါဝင်ပါသည်။ Private configuration နှင့် development preview များ မပါဝင်ပါ။
+ရလဒ်ဖြစ်သော `dist/` တွင် TMJ/WAM အတွဲ ၃၄ တွဲ၊ runtime နှင့် journal ဖိုင်များ၊ အသုံးပြုထားသော artwork နှင့် public credits ပါဝင်ပါသည်။ Private configuration နှင့် development preview များ မပါဝင်ပါ။
 
 ### မိမိစက်ပေါ်တွင် ကြည့်ရှုခြင်း
 
@@ -345,19 +344,9 @@ Publisher သည် upload မလုပ်မီ live inventory ကို 16 စ
 
 Atomic editor lock သို့မဟုတ် အလိုအလျောက် rollback မရှိပါ။ Upload သို့မဟုတ် verification မအောင်မြင်လျှင် အထောက်အထားကို ထိန်းထားပြီး recovery စီစဉ်မီ လက်ရှိ live state နှင့် saved baseline ကို နှိုင်းယှဉ်ပါ။ `--with-tests` ထည့်လျှင် automated suite နှစ်ခုကို အရင် run ပြီး failure ရှိပါက ရပ်ပါမည်။ လက်ရှိသိထားသော failure များကို အထက်တွင် ဖော်ပြထားပါသည်။
 
-Publication သည် WorkAdventure core သို့မဟုတ် guide service များကို restart မလုပ်ပါ။ ကိရိယာနှင့် service configuration အသေးစိတ်ကို [publication procedure](docs/operating/publication.md) နှင့် [devbox deployment notes](docs/operating/devbox-deployment.md) တွင် ဖတ်ပါ။ ရက်စွဲဟောင်းပါ မှတ်တမ်းများတွင် ထိုအချိန်၏ အရေအတွက်နှင့် deployment ယူဆချက်များ ကျန်ရှိနေသဖြင့် လက်ရှိ command နှင့် status အတွက် ဤ README မှ စတင်ဖတ်ပါ။
+Publication သည် WorkAdventure core ကို restart မလုပ်ပါ။ ကိရိယာနှင့် service configuration အသေးစိတ်ကို [publication procedure](docs/operating/publication.md) နှင့် [devbox deployment notes](docs/operating/devbox-deployment.md) တွင် ဖတ်ပါ။ ရက်စွဲဟောင်းပါ မှတ်တမ်းများတွင် ထိုအချိန်၏ အရေအတွက်နှင့် deployment ယူဆချက်များ ကျန်ရှိနေသဖြင့် လက်ရှိ command နှင့် status အတွက် ဤ README မှ စတင်ဖတ်ပါ။
 
-<a id="guides"></a>
-
-## Guide bot နှင့် NPC ဝန်ဆောင်မှုများ
-
-**Orion၊ Nova နှင့် Lyra တို့ကို လက်ရှိ ရပ်ထားပါသည်။** ရေးသားထားသော guide အပြုအမူနှင့် service source များ ရှိနေသော်လည်း ပြန်ဖွင့်မီ private release pin များကို ပြန်လည်အတည်ပြုရန် လိုပါသည်။
-
-Scripted guide များသည် ကြိုတင်ရေးသားထားသော တုံ့ပြန်ချက်များကို အသုံးပြုသဖြင့် AI-provider key မလိုပါ။ Release တွင် `bots/lyra.js` ပါဝင်ပါသည်။ ဖွင့်မီ ထုတ်လွှင့်ထားသော module byte နှင့် map/collision hash မှတ်တမ်းများကို ပြန်လည်သုံးသပ်ထားသော package နှင့် ကိုက်ညီကြောင်း စစ်ပြီး သီးခြားတက်ရောက်သူနှစ်ဦးဖြင့် အတူတကွအသုံးပြုမှုကို စမ်းသပ်ရပါမည်။
-
-Guide များ ဖွင့်ထားချိန်တွင် avatar menu → **All settings** → **Talk to Nearby Guides** သို့ ဝင်ပါ။ အနီးရှိ guide ကို ရွေးပြီး ရာသီခွင်အမည် သို့မဟုတ် panel command ကို ပေးပါ။ Guide panel သည် သတ်မှတ်ထားသော ဆက်သွယ်နည်း ဖြစ်ပါသည်။ Map သို့မဟုတ် module အသစ်တင်ခြင်းတစ်ခုတည်းဖြင့် guide service ကို ပြန်အတည်ပြုပြီးသား မဖြစ်ပါ။
-
-[Legacy NPC chat server](ops/npc/README.md) သည် server-side OpenRouter configuration ပါသော သီးခြားရွေးချယ်အသုံးပြုနိုင်သည့် integration ဖြစ်ပါသည်။ Provider key ကို private server configuration တွင်သာ ထားပါ။ အသေးစိတ်ကို [Scripted Lyra](docs/operating/scripted-lyra.md)၊ [guide operations](ops/bots/README.md) နှင့် [persistent guide services](ops/bots/persistent-service/README.md) တွင် ဖတ်ပါ။
+Guide bot နှင့် NPC စနစ်များကို source code နှင့် release build မှ ဖယ်ရှားထားပါသည်။ Map အဟောင်းများကို စစ်ဆေးရန် historical fixture နှင့် artwork reservation များသာ ကျန်ရှိပါသည်။
 
 <a id="handoff"></a>
 

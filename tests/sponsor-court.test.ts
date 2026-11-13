@@ -21,7 +21,7 @@ describe('decorated sponsor court',()=>{
   expect(free[0]).toBeGreaterThanOrEqual(2*free[1]);expect(free[1]).toBeGreaterThan(free[2]);expect(free[2]).toBeGreaterThan(free[3]);expect(new Set(free.slice(3)).size).toBe(1);
  });
  it('leaves every existing guide route and reserved spawn cell unblocked',()=>{
-  const c=collision(),routes=read('src/bots/lyra-routes.json');
+  const c=collision(),routes=read('tests/fixtures/plaza-pedestrian-cells.json');
   for(const [x,y]of [...routes.allowedCells,...routes.startupReservedCells])expect(c[y*128+x],`guide route ${x},${y}`).toBe(0);
  });
  it('leaves a clear walking row in front of every new south-facing sofa',()=>{

@@ -186,10 +186,10 @@ describe('publication exact reviewed replacements', () => {
     manifest = {
       maps: catalogIds.length, wams: catalogIds.length, sourceFilesByteExact: 303,
       sourceInventory: Object.fromEntries(originalPaths.map(path => [path, baselineHash])),
-      extensionInventory: { 'src/bots/reviewed.ts': baselineHash },
+      extensionInventory: { 'src/reviewed/extension.ts': baselineHash },
     };
     for (const path of originalPaths) write(path, 'baseline\n');
-    write('src/bots/reviewed.ts', 'baseline\n');
+    write('src/reviewed/extension.ts', 'baseline\n');
     write('src/world/catalog.ts',catalogSource);manifest.sourceInventory['src/world/catalog.ts']=createHash('sha256').update(catalogSource).digest('hex');
     for(const id of catalogIds)for(const ext of ['tmj','wam']){const path=`maps/${id}.${ext}`;if(!Object.hasOwn(manifest.sourceInventory,path)){write(path,'baseline\n');manifest.extensionInventory[path]=baselineHash;}}
     pinRevisions();
@@ -207,6 +207,14 @@ describe('publication exact reviewed replacements', () => {
     pinCurrentRelease();
     pinVerificationRelease();
     pinRetirement();pinAries();pinSpeaker();pinCove();pinHalls();pinZodiac();pinFinal();pinHallExteriors();pinHallValidation();pinPhysics();pinPhysicsValidation();pinArrival();pinPatrol();pinSpacing();pinFountain();pinLeo();pinBuildings();pinCrescent();pinLandscape();pinVibeCode();pinCafeArrival();pinMazeGates();pinMapPhysics();pinMazeInteriors();pinCheckInCounter();pinEventPresentation();pinCheckInPhysics();pinSpeakerCommunity();pinAudienceFootprints();pinNaturalVenues();pinRoomCaption();pinAuditorium();pinNavigationStage();
+
+    // Later reviewed releases may add receipts without changing these synthetic histories.
+    for (const path of Object.keys(JSON.parse(readFileSync('publication/source-manifest.json', 'utf8')).extensionInventory)) {
+      if (/^publication\/revisions\/.*\.json$/.test(path) && !Object.hasOwn(manifest.extensionInventory, path)) {
+        const bytes = JSON.stringify({ schemaVersion: 1, revisions: [] });
+        write(path, bytes); manifest.extensionInventory[path] = createHash('sha256').update(bytes).digest('hex');
+      }
+    }
     baselineManifest=structuredClone(manifest);track=true;
   });
   beforeEach(()=>{expect(touched.size).toBe(0);manifest=structuredClone(baselineManifest);});
@@ -233,7 +241,7 @@ describe('publication exact reviewed replacements', () => {
     write('src/main.ts', replacement);
     const result = verify();
     expect(result.status, result.output).toBe(0);
-    expect(result.output).toContain('302 unchanged source hashes and 1 exact reviewed replacement');
+    expect(result.output).toContain('302 unchanged source hashes, 1 exact reviewed replacements and 0 exact reviewed retirements');
     expect(result.output).not.toContain('No source files were rewritten');
     expect(manifest.sourceInventory['src/main.ts']).toBe(baselineHash);
   });
@@ -303,15 +311,15 @@ describe('publication exact reviewed replacements', () => {
   });
 
   it('rejects a revision of an extension file', () => {
-    pinRevisions({ schemaVersion: 1, revisions: [{ ...reviewed(), path: 'src/bots/reviewed.ts' }] });
+    pinRevisions({ schemaVersion: 1, revisions: [{ ...reviewed(), path: 'src/reviewed/extension.ts' }] });
     rejects('Reviewed revision path is not an exact original source');
   });
 
   it('still rejects changed extensions beside an exact reviewed replacement', () => {
     pinRevisions({ schemaVersion: 1, revisions: [reviewed()] });
     write('src/main.ts', replacement);
-    write('src/bots/reviewed.ts', replacement);
-    rejects('Extension source changed: src/bots/reviewed.ts');
+    write('src/reviewed/extension.ts', replacement);
+    rejects('Extension source changed: src/reviewed/extension.ts');
   });
 
   it('still rejects unlisted additions beside an exact reviewed replacement', () => {

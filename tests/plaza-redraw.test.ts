@@ -18,7 +18,7 @@ import {applyArrivalRefresh,restoreArrivalRefresh} from '../tools/maps/arrival-r
 import {applyPlazaPatrol,restorePlazaPatrol} from '../tools/maps/plaza-patrol';
 import {arrivalFloorPanels} from './helpers/physical-prop-contracts';
 import {expectedPlazaSuccessor,WELCOME_PLAZA_RETIREMENT,WELCOME_SIGN_RETIREMENT} from './helpers/plaza-successor';
-import routes from '../src/bots/lyra-routes.json';
+import routes from './fixtures/plaza-pedestrian-cells.json';
 import type {TiledMap,TileLayer} from '../tools/maps/types';
 import {validateMap} from '../tools/maps/validate';
 import {WORLD_CATALOG} from '../src/world/catalog';

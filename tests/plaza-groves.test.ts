@@ -3,7 +3,7 @@ import {describe,it,expect} from 'vitest';
 import {refineNativePlaza} from '../tools/maps/plaza-native';
 import {loadTileCatalog} from '../tools/art/catalog';
 import {assertCurrentGroves,historicalPlaza,grovePlacements,groveBaseCells} from './helpers/plaza-groves';
-import currentRoutes from '../src/bots/lyra-routes.json';
+import currentRoutes from './fixtures/plaza-pedestrian-cells.json';
 import {preZodiacLayout} from './helpers/pre-zodiac-epoch';
 const json=(p:string)=>JSON.parse(readFileSync(p,'utf8'));
 const current=()=>({layout:json('world/layouts/overworld.json'),map:json('maps/overworld.tmj')});

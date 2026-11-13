@@ -6,16 +6,9 @@ import {EXPO_BOOTHS as HISTORICAL_BOOTHS} from '../tools/maps/expo-plaza';
 import spacing from '../world/expo-spacing.json';
 const EXPO_BOOTHS=HISTORICAL_BOOTHS.map(b=>({...b,interior:spacing.booths.find(s=>s.id===b.id)!}));
 import {buildMap} from '../tools/maps/builder';
-import {auditGuideRoutes} from '../tools/bots/route-audit';
 import type {MapLayout,TileLayer,TiledMap} from '../tools/maps/types';
 const layout=()=>JSON.parse(readFileSync('world/layouts/overworld.json','utf8')) as MapLayout;
 const native=()=>JSON.parse(readFileSync('maps/overworld.tmj','utf8')) as TiledMap;
-it('audits the mirrored counter collision shape against the native tile mask',()=>{
- const l=layout(),catalog=loadTileCatalog();
- for(const p of l.placements.filter(p=>/^expo-n[1-6]-counter$/.test(p.id)))p.flipY=true;
- const result=()=>auditGuideRoutes({layout:l,map:buildMap(l,catalog).tmj,catalog,wam:JSON.parse(readFileSync('maps/overworld.wam','utf8')),routes:JSON.parse(readFileSync('src/bots/lyra-routes.json','utf8'))});
- expect(result).not.toThrow();
-});
 it('retains the dormant expo sticker reservation after every decal is removed, without painting it',()=>{
  const l=layout();l.placements=l.placements.filter(p=>!p.sprite.startsWith('sticker-'));
  const m=buildMap(l,loadTileCatalog()).tmj,s=m.tilesets.find(s=>s.image==='../assets/tilesets/original/booth-stickers.png');
@@ -51,7 +44,7 @@ it('keeps each logo at exact32px tile scale and every guide cell free in the nat
   expect(set).toMatchObject({tilewidth:32,tileheight:32,imagewidth:image.width*32,imageheight:image.height*32});
   for(let y=image.y;y<image.y+image.height;y++)for(let x=image.x;x<image.x+image.width;x++)expect(mask.data[y*128+x],image.name+' remains walkable').toBe(0);
  }
- const routes=JSON.parse(readFileSync('src/bots/lyra-routes.json','utf8'));
+ const routes=JSON.parse(readFileSync('tests/fixtures/plaza-pedestrian-cells.json','utf8'));
  for(const [x,y] of [...routes.allowedCells,...routes.startupReservedCells])expect(mask.data[y*128+x],`guide ${x},${y}`).toBe(0);
 });
 it('mirrors only the north counters so both rows have their closed fronts and collision masks toward the aisle',()=>{

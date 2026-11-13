@@ -6,7 +6,7 @@ import {describe,it,expect} from 'vitest';
 import {buildMap} from '../tools/maps/builder';
 import {validateStandingSigns} from '../tools/maps/solid-props';
 import * as solid from '../tools/maps/solid-props';
-import {addNpcGuides} from '../tools/maps/npc-guides';
+import {retireHistoricalHosts} from './helpers/retired-host-layout';
 import {loadTileCatalog} from '../tools/art/catalog';
 import type {MapLayout} from '../tools/maps/types';
 const base=loadTileCatalog();
@@ -115,7 +115,7 @@ describe('forward native reservation refinement',()=>{
 
 function sceneryTokens(map:any){const floor=map.layers.findIndex((l:any)=>l.name==='floorLayer');return map.layers.flatMap((l:any,index:number)=>l.type==='tilelayer'&&/^scenery-(belowAvatar|aboveAvatar)-\d+$/.test(l.name)?l.data.flatMap((g:number,i:number)=>{if(!g)return[];const gid=(g&0x0fffffff)>>>0;const matches=map.tilesets.filter((t:any)=>gid>=t.firstgid&&gid<t.firstgid+t.tilecount);expect(matches).toHaveLength(1);const t=matches[0];return[JSON.stringify([index>floor?'upper':'lower',i,t.image,gid-t.firstgid,(g&0xf0000000)>>>0])];}):[]).sort();}
 for(const id of ['overworld','constellation-shore','shipyard-beach'])it(`${id} emits every intended native visual tile exactly once at its authored position and depth`,()=>{
- const source=read(`world/layouts/${id}.json`),intended=buildMap(addNpcGuides([source])[0],base).tmj,native=read(`maps/${id}.tmj`),old=read(`tests/fixtures/solid-props/before-${id}.tmj`);
+ const source=read(`world/layouts/${id}.json`),intended=buildMap(retireHistoricalHosts([source])[0],base).tmj,native=read(`maps/${id}.tmj`),old=read(`tests/fixtures/solid-props/before-${id}.tmj`);
  expect(sceneryTokens(native)).toEqual(sceneryTokens(intended));
  const historical=(id==='overworld'?historicalPlaza('native'):read(`tests/fixtures/standing-captions/before-${id}.tmj`));
  for(const layer of old.layers)if(!layer.name.startsWith('scenery-')&&layer.name!=='physical-collisions')expect(historical.layers.find((l:any)=>l.name===layer.name),layer.name).toEqual(layer);

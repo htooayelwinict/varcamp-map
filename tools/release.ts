@@ -1,8 +1,7 @@
 import { createHash } from 'node:crypto';
 import { existsSync, readFileSync, readdirSync } from 'node:fs';
 import { resolve, dirname, relative, basename } from 'node:path';
-import { build as buildVite, type Plugin } from 'vite';
-import * as ts from 'typescript';
+import type { Plugin } from 'vite';
 import { WORLD_CATALOG } from '../src/world/catalog';
 import type { TiledLayer, TiledMap, WamFile } from './maps/types';
 import { isSponsorTileset, readSponsorTileset } from './maps/builder';
@@ -123,43 +122,6 @@ export function emitNativeMapAssets(sourceMaps:readonly NativeMapPackageSource[]
   emit('credits/index.html', `<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width"><title>VarCamp world credits</title><style>body{max-width:55rem;margin:2rem auto;padding:0 1rem;font:18px/1.6 system-ui;color:#17243a}a{color:#164dc4}</style><h1>VarCamp world credits</h1><p>This release is a WorkAdventure map package. Its source sheets remain separate and byte-identical; the release does not repack, combine or rescale them. Map composition selects source tiles. Each work retains its own terms.</p>${sections}<h2>Demo sponsor marks</h2><p>The original fictional DEMO marks are CC0. Replacement artwork retains its recorded owner and terms. <a href="${creditLink('sponsors.json')}">Sponsor provenance and replacement instructions</a>.</p><h2>Code and editable sources</h2><p>Starter code: TheCodingMachine, MIT. <a href="${creditLink('LICENSE.starter')}">Retained notice</a>. Editable maps, semantic layouts and original artwork masters remain in the Git handover. The art is not collectively MIT.</p></html>`);
 }
 
-/** A pinned controller body must contain all executable controller code. Shared
- * human/map chunks cannot become unpinned transitive bot dependencies. */
-export function assertSelfContainedController(code: string): void {
-  const source=ts.createSourceFile('lyra.js',code,ts.ScriptTarget.Latest,true,ts.ScriptKind.JS);
-  if ((source as ts.SourceFile & {parseDiagnostics:readonly unknown[]}).parseDiagnostics.length) throw Error('Invalid dedicated controller JavaScript');
-  const bindings=new Map<string,ts.Node>();let defaultValue:ts.Node|undefined,diagnosticValue:ts.Node|undefined,defaults=0,diagnostics=0;
-  for(const statement of source.statements){
-    if(ts.isVariableStatement(statement))for(const declaration of statement.declarationList.declarations)if(ts.isIdentifier(declaration.name)&&declaration.initializer)bindings.set(declaration.name.text,declaration.initializer);
-    if(ts.isFunctionDeclaration(statement)&&statement.name)bindings.set(statement.name.text,statement);
-    if(ts.isExportAssignment(statement)&&!statement.isExportEquals){defaultValue=statement.expression;defaults++;}
-    if(ts.isExportDeclaration(statement)){
-      if(statement.moduleSpecifier||!statement.exportClause||!ts.isNamedExports(statement.exportClause))throw Error('Dedicated controller has external exports');
-      for(const element of statement.exportClause.elements){if(element.name.text==='default'){defaultValue=element.propertyName??element.name;defaults++;}else if(element.name.text==='writeDiagnostic'){diagnosticValue=element.propertyName??element.name;diagnostics++;}else throw Error('Dedicated controller export API changed');}
-    }
-    if(ts.canHaveModifiers(statement)&&ts.getModifiers(statement)?.some(m=>m.kind===ts.SyntaxKind.ExportKeyword)&&!ts.isExportAssignment(statement)&&!ts.isExportDeclaration(statement)){if(ts.isFunctionDeclaration(statement)&&statement.name?.text==='writeDiagnostic'){diagnosticValue=statement;diagnostics++;}else throw Error('Dedicated controller export API changed');}
-  }
-  const visit=(node:ts.Node):void=>{if(ts.isImportDeclaration(node)||ts.isImportEqualsDeclaration(node)||ts.isCallExpression(node)&&node.expression.kind===ts.SyntaxKind.ImportKeyword)throw Error('Dedicated controller retains an import');ts.forEachChild(node,visit);};visit(source);
-  const resolveBinding=(value:ts.Node|undefined):ts.Node|undefined=>{const seen=new Set<string>();while(value&&ts.isIdentifier(value)){if(seen.has(value.text))throw Error('Cyclic controller default');seen.add(value.text);value=bindings.get(value.text);}return value;};
-  const diagnostic=resolveBinding(diagnosticValue);if(diagnostics!==1||!diagnostic||!(ts.isFunctionDeclaration(diagnostic)||ts.isFunctionExpression(diagnostic)||ts.isArrowFunction(diagnostic)))throw Error('Dedicated controller writeDiagnostic API must be callable');
-  const value=resolveBinding(defaultValue);
-  if(defaults!==1||!value||!ts.isObjectLiteralExpression(value)||value.properties.length!==1)throw Error('Dedicated controller default.run object required');
-  const property=value.properties[0];if(!property.name||property.name.getText(source)!=='run')throw Error('Dedicated controller default.run required');
-  const callable=ts.isMethodDeclaration(property)?property:ts.isPropertyAssignment(property)?resolveBinding(property.initializer):ts.isShorthandPropertyAssignment(property)?resolveBinding(property.name):undefined;
-  if(!callable||!(ts.isFunctionDeclaration(callable)||ts.isFunctionExpression(callable)||ts.isArrowFunction(callable)||ts.isMethodDeclaration(callable)))throw Error('Dedicated controller default.run must be callable');
-}
-export async function buildDedicatedController(root=process.cwd()):Promise<{fileName:string;source:string|Buffer}[]> {
-  const result=await buildVite({root,configFile:false,envFile:false,publicDir:false,logLevel:'silent',build:{write:false,emptyOutDir:false,copyPublicDir:false,sourcemap:true,minify:'esbuild',rollupOptions:{preserveEntrySignatures:'strict',input:{lyra:resolve(root,'src/bots/lyra.ts')},output:{format:'es',inlineDynamicImports:true,entryFileNames:'bots/lyra.js'}}}});
-  if(Array.isArray(result)||!('output'in result))throw Error('Dedicated controller build must have one output');
-  const chunks=result.output.filter(o=>o.type==='chunk'),assets=result.output.filter(o=>o.type==='asset');
-  if(chunks.length!==1||assets.length!==1)throw Error('Dedicated controller requires one self-contained module/map');
-  const chunk=chunks[0],map=assets[0];
-  if(!chunk.isEntry||chunk.name!=='lyra'||chunk.fileName!=='bots/lyra.js'||chunk.imports.length||chunk.dynamicImports.length||JSON.stringify(chunk.exports)!==JSON.stringify(['default','writeDiagnostic'])||map.fileName!=='bots/lyra.js.map')throw Error('Dedicated controller import/default/artifact contract changed');
-  assertSelfContainedController(chunk.code);
-  const parsed=JSON.parse(typeof map.source==='string'?map.source:Buffer.from(map.source).toString('utf8'));if(parsed.version!==3||!Array.isArray(parsed.sources)||!Array.isArray(parsed.sourcesContent))throw Error('Dedicated controller source map invalid');
-  return [{fileName:chunk.fileName,source:chunk.code},{fileName:map.fileName,source:typeof map.source==='string'?map.source:Buffer.from(map.source)}];
-}
-
 /** Faithful release: preserve separate licensed sheets, pixels and embedded credits. */
 export function worldRelease(): Plugin {
   return {
@@ -179,12 +141,8 @@ export function worldRelease(): Plugin {
       const runtime = Object.values(bundle).find(entry => entry.type === 'chunk' && entry.isEntry && entry.name === 'src-main');
       if (!runtime) throw new Error('Missing bundled world runtime');
       const wokaFiles=[...readZodiacWokaPublication(),...readReadableZodiacWokaPublication(),...readPixelZodiacWokaPublication()];
-      // Keep every existing identity/native/Woka preflight synchronous and before
-      // compilation or emission. Only this independent single-entry build is async.
-      return buildDedicatedController().then(controllerFiles=>{
-        for(const asset of controllerFiles)this.emitFile({type:'asset',...asset});
-        emitNativeMapAssets(sourceMaps,runtime.fileName,wokaFiles,asset=>this.emitFile(asset));
-      });
+      // Complete the native map and Woka preflight before emitting any asset.
+      emitNativeMapAssets(sourceMaps,runtime.fileName,wokaFiles,asset=>this.emitFile(asset));
     },
   };
 }

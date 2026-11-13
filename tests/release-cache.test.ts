@@ -51,7 +51,7 @@ afterEach(() => { process.chdir(project); rmSync(fixture, { recursive: true, for
 async function release(directory: string, ui = false): Promise<string> {
   // Vitest sets NODE_ENV=test; exercise the same production URL branch as the Vite CLI.
   await build({ configFile: false, publicDir: false, logLevel: 'silent', define: { 'import.meta.env.DEV': false }, plugins: [syntheticReleasePlugin()], build: {
-    outDir: directory, rollupOptions: { preserveEntrySignatures: 'strict', input: { 'src-main': resolve('src/main.ts'), ...(ui ? { journal: resolve('src/journal/index.html'), npc: resolve('src/npc/index.html') } : {}) } },
+    outDir: directory, rollupOptions: { preserveEntrySignatures: 'strict', input: { 'src-main': resolve('src/main.ts'), ...(ui ? { journal: resolve('src/journal/index.html') } : {}) } },
   } });
   return resolve(directory);
 }
@@ -130,21 +130,20 @@ describe('release TMJ cache identity', () => {
 
 function modalRequests(root: string): URL[] {
   const runtime = json(resolve(root, 'maps/overworld.tmj')).properties.find((p: { name: string }) => p.name === 'script').value;
-  const script = `import { pathToFileURL } from 'node:url'; const module = await import(pathToFileURL(process.argv[1]).href); const urls=[]; const api={ui:{modal:{openModal:({src})=>urls.push(src)}}}; module.openJournal(api,'directory'); for(const id of ['guide','maze-keeper','dockmaster'])module.openNpc(api,id); console.log(JSON.stringify(urls));`;
+  const script = `import { pathToFileURL } from 'node:url'; const module = await import(pathToFileURL(process.argv[1]).href); const urls=[]; const api={ui:{modal:{openModal:({src})=>urls.push(src)}}}; for(const section of ['directory','journal'])module.openJournal(api,section); console.log(JSON.stringify(urls));`;
   return JSON.parse(execFileSync(process.execPath, ['--input-type=module', '-e', script, resolve(root, 'maps', runtime)], { encoding: 'utf8', timeout: 5000 })).map((url: string) => new URL(url));
 }
 
 describe('complete release cache boundaries', () => {
-  it('opens fresh journal and NPC HTML gateways from the real bundle while preserving every section fragment', async () => {
-    writeFileSync('src/main.ts', "export { openJournal } from './runtime'; export { openNpc } from './npc/interactions';");
+  it('opens fresh journal HTML gateways from the real bundle while preserving every section fragment', async () => {
+    writeFileSync('src/main.ts', "export { openJournal } from './runtime';");
     const before = await release('before', true);
     const previous = modalRequests(before);
     const cache = new Map(previous.map(url => [`${url.pathname.replace(before, '')}${url.search}`, 'old HTML']));
     writeFileSync('src/journal/index.html', readFileSync('src/journal/index.html', 'utf8').replace('</head>', '<meta name="fixture-release" content="current"></head>'));
-    writeFileSync('src/npc/index.html', readFileSync('src/npc/index.html', 'utf8').replace('</head>', '<meta name="fixture-release" content="current"></head>'));
     const after = await release('after', true);
     const requests = modalRequests(after);
-    expect(requests.map(url => url.hash)).toEqual(['#directory', '#guide', '#maze-keeper', '#dockmaster']);
+    expect(requests.map(url => url.hash)).toEqual(['#directory', '#journal']);
     for (const url of requests) {
       const key = `${url.pathname.replace(after, '')}${url.search}`;
       const loaded = cache.get(key) ?? readFileSync(url.pathname, 'utf8');
@@ -157,7 +156,7 @@ describe('complete release cache boundaries', () => {
     const identity = (releaseModule as unknown as { uiReleaseIdentity?: (root: string) => string }).uiReleaseIdentity;
     expect(identity).toBeTypeOf('function');
     if (!identity) return;
-    const inputPaths = ['src/runtime.ts', 'src/journal/index.html', 'src/journal/style.css', 'src/journal/view.ts', 'src/world/catalog.ts', 'src/npc/index.html', 'src/npc/style.css', 'world/maze-route.json', 'world/new-import.json', 'buildmap.vite.config.ts', 'tsconfig.json', 'package.json', 'package-lock.json', 'tools/release.ts', 'tools/release-identity.ts'];
+    const inputPaths = ['src/runtime.ts', 'src/journal/index.html', 'src/journal/style.css', 'src/journal/view.ts', 'src/world/catalog.ts', 'src/check-in/index.html', 'src/check-in/style.css', 'world/maze-route.json', 'world/new-import.json', 'buildmap.vite.config.ts', 'tsconfig.json', 'package.json', 'package-lock.json', 'tools/release.ts', 'tools/release-identity.ts'];
     for (const path of inputPaths) {
       mkdirSync(resolve(path, '..'), { recursive: true });
       writeFileSync(path, `fixture input ${path}`);

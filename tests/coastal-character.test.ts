@@ -3,12 +3,12 @@ import { describe, expect, it } from 'vitest';
 import sharp from 'sharp';
 import { loadTileCatalog } from '../tools/art/catalog';
 import { buildMap } from '../tools/maps/builder';
-import { addNpcGuides } from '../tools/maps/npc-guides';
+import { retireHistoricalHosts } from './helpers/retired-host-layout';
 import type { MapLayout, TileLayer, TileRect } from '../tools/maps/types';
 
 const load=(id:string):MapLayout=>JSON.parse(readFileSync(`world/layouts/${id}.json`,'utf8'));
 const cells=(r:TileRect,w:number)=>Array.from({length:r.width*r.height},(_,i)=>(r.y+Math.floor(i/r.width))*w+r.x+i%r.width);
-function walk(l:MapLayout){const {tmj}=buildMap(addNpcGuides([l])[0],loadTileCatalog()),mask=tmj.layers.find(a=>a.name==='physical-collisions') as TileLayer,start=l.entries.find(e=>e.isDefault)!,q=[start.y*l.width+start.x],seen=new Set(q);for(let h=0;h<q.length;h++){const n=q[h],x=n%l.width,y=Math.floor(n/l.width);for(const [nx,ny] of [[x-1,y],[x+1,y],[x,y-1],[x,y+1]]){const c=ny*l.width+nx;if(nx>=0&&ny>=0&&nx<l.width&&ny<l.height&&!mask.data[c]&&!seen.has(c)){seen.add(c);q.push(c);}}}return {tmj,mask,seen};}
+function walk(l:MapLayout){const {tmj}=buildMap(retireHistoricalHosts([l])[0],loadTileCatalog()),mask=tmj.layers.find(a=>a.name==='physical-collisions') as TileLayer,start=l.entries.find(e=>e.isDefault)!,q=[start.y*l.width+start.x],seen=new Set(q);for(let h=0;h<q.length;h++){const n=q[h],x=n%l.width,y=Math.floor(n/l.width);for(const [nx,ny] of [[x-1,y],[x+1,y],[x,y-1],[x,y+1]]){const c=ny*l.width+nx;if(nx>=0&&ny>=0&&nx<l.width&&ny<l.height&&!mask.data[c]&&!seen.has(c)){seen.add(c);q.push(c);}}}return {tmj,mask,seen};}
 
 describe('coastal event character and preserved journeys',()=>{
   it.each(['shipyard-beach','constellation-shore'])('%s has a golden beach rather than a navy office forecourt',async id=>{
@@ -60,7 +60,7 @@ describe('coastal event character and preserved journeys',()=>{
     for(const area of l.areas)for(const n of cells(area,l.width)){expect(mask.data[n],area.name).toBe(0);expect(seen.has(n),area.name).toBe(true);}
   });
   it('retires the dockmaster label and keeps only the three cove direction signs',()=>{
-    const l=addNpcGuides([load('shipyard-beach')])[0];
+    const l=retireHistoricalHosts([load('shipyard-beach')])[0];
     expect(l.signs!.some(s=>s.name==='npc-name-dockmaster')).toBe(false);
     expect(l.signs!.map(s=>s.name).sort()).toEqual(['boarding-label','plaza-return-label','shore-label']);
   });

@@ -1,4 +1,4 @@
-import type { MapLayout } from './types';
+import type { MapLayout } from '../../tools/maps/types';
 
 const retiredHosts = {
   overworld: 'guide',
@@ -7,8 +7,8 @@ const retiredHosts = {
   'shipyard-beach': 'dockmaster',
 } as const;
 
-/** Compatibility for older authoring callers: retire only the four static Q&A hosts. */
-export function addNpcGuides(layouts: MapLayout[]): MapLayout[] {
+/** Test-only adapter for frozen layouts from before the static hosts were retired. */
+export function retireHistoricalHosts(layouts: MapLayout[]): MapLayout[] {
   return layouts.map(source => {
     const npc = retiredHosts[source.id as keyof typeof retiredHosts];
     if (!npc) return source;

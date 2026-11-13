@@ -21,7 +21,6 @@ beforeEach(()=>{
  stageCurrentWorldInputs(project,fixture);
  mkdirSync(resolve(fixture,'art/source/wokas-readable-v2'),{recursive:true});cpSync(resolve(project,'art/source/wokas-readable-v2/native-design.json'),resolve(fixture,'art/source/wokas-readable-v2/native-design.json'));
  mkdirSync(resolve(fixture,'art/source/wokas-pixel-v3'),{recursive:true});cpSync(resolve(project,'art/source/wokas-pixel-v3/native-design.json'),resolve(fixture,'art/source/wokas-pixel-v3/native-design.json'));
- mkdirSync(resolve(fixture,'src'),{recursive:true});cpSync(resolve(project,'src/bots'),resolve(fixture,'src/bots'),{recursive:true});mkdirSync(resolve(fixture,'ops/bots'),{recursive:true});cpSync(resolve(project,'ops/bots/evidence.mjs'),resolve(fixture,'ops/bots/evidence.mjs'));
  process.chdir(fixture);
 });
 afterEach(()=>{process.chdir(project);rmSync(fixture,{recursive:true,force:true});});

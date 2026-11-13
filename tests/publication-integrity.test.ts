@@ -31,9 +31,9 @@ describe('publication source integrity CLI', () => {
       maps: catalogIds.length, wams: catalogIds.length, sourceFilesByteExact: 303,
       sourceInventory: Object.fromEntries(baselinePaths.map(path => [path, baselineHash])),
       extensionInventory: {
-        'src/bots/reviewed.ts': extensionHash,
+        'src/reviewed/extension.ts': extensionHash,
         'buildmap.vite.config.ts': extensionHash,
-        'ops/bots/reviewed-runner.mjs': extensionHash,
+        'ops/reviewed/runner.mjs': extensionHash,
       },
     };
     for (const path of baselinePaths) write(path, 'baseline\n');
@@ -53,6 +53,14 @@ describe('publication source integrity CLI', () => {
     const coastRevision='publication/revisions/2026-10-18-organic-coast.json';write(coastRevision,revisions);manifest.extensionInventory[coastRevision]=createHash('sha256').update(revisions).digest('hex');
     write(combinedRevision, revisions);
     manifest.extensionInventory[combinedRevision] = createHash('sha256').update(revisions).digest('hex');
+    // Later reviewed releases may add receipts without changing these synthetic histories.
+    for (const path of Object.keys(JSON.parse(readFileSync('publication/source-manifest.json', 'utf8')).extensionInventory)) {
+      if (/^publication\/revisions\/.*\.json$/.test(path) && !Object.hasOwn(manifest.extensionInventory, path)) {
+        const bytes = JSON.stringify({ schemaVersion: 1, revisions: [] });
+        write(path, bytes); manifest.extensionInventory[path] = createHash('sha256').update(bytes).digest('hex');
+      }
+    }
+
   });
   afterEach(() => rmSync(root, { recursive: true, force: true }));
 
@@ -67,7 +75,7 @@ describe('publication source integrity CLI', () => {
     expect(result.output).toContain('Frozen source changed: src/main.ts');
   });
 
-  it.each(['src/bots/reviewed.ts', 'buildmap.vite.config.ts', 'ops/bots/reviewed-runner.mjs'])(
+  it.each(['src/reviewed/extension.ts', 'buildmap.vite.config.ts', 'ops/reviewed/runner.mjs'])(
     'rejects extension hash drift at %s', path => {
       write(path, 'tampered\n');
       const result = verify();
@@ -76,7 +84,7 @@ describe('publication source integrity CLI', () => {
     },
   );
 
-  it.each(['src/bots/reviewed.ts', 'buildmap.vite.config.ts', 'ops/bots/reviewed-runner.mjs'])(
+  it.each(['src/reviewed/extension.ts', 'buildmap.vite.config.ts', 'ops/reviewed/runner.mjs'])(
     'rejects a missing extension at %s', path => {
       rmSync(join(root, path));
       const result = verify();
@@ -86,7 +94,7 @@ describe('publication source integrity CLI', () => {
   );
 
   it('rejects unlisted additions in the eight source folders', () => {
-    write('src/bots/unreviewed.ts', 'extension\n');
+    write('src/reviewed/unreviewed.ts', 'extension\n');
     const result = verify();
     expect(result.status).not.toBe(0);
     expect(result.output).toContain('Source inventory has missing or additional files');

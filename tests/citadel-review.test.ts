@@ -15,7 +15,7 @@ describe('Reviewed zodiac citadels and halls',()=>{
  it('connects all fourteen building doors and return pads to the campus walkable floor',()=>{
   const l=read('world/layouts/overworld.json') as MapLayout,m=buildMap(l,loadTileCatalog()).tmj;
   const layer=m.layers.find(l=>l.name==='physical-collisions');if(layer?.type!=='tilelayer')throw Error('missing physics');
-  const [sx,sy]=read('src/bots/lyra-routes.json').startupReservedCells[0];
+  const [sx,sy]=read('tests/fixtures/plaza-pedestrian-cells.json').startupReservedCells[0];
   const visited=new Uint8Array(m.width*m.height),queue=new Int32Array(visited.length);let head=0,tail=0;
   const visit=(i:number)=>{if(i>=0&&i<visited.length&&!visited[i]&&!layer.data[i]){visited[i]=1;queue[tail++]=i;}};
   visit(sy*m.width+sx);

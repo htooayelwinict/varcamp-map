@@ -53,6 +53,6 @@ describe('Check-in beside every zodiac entrance',()=>{
    const e=l.exits.find((e:any)=>e.name===s.id);expect(e).toBeDefined();expect(s.desk.y).toBe(e.y+2);expect(Math.abs(s.desk.x-e.x)).toBeLessThanOrEqual(5);
    for(let y=e.y;y<e.y+4;y++)for(let x=e.x;x<e.x+e.width;x++)expect(Boolean(mask[y*128+x]),s.id+':door').toBe(false);
   }
-  for(const [x,y]of read('src/bots/lyra-routes.json').allowedCells)expect(Boolean(mask[y*128+x]),'guide').toBe(false);
+  for(const [x,y]of read('tests/fixtures/plaza-pedestrian-cells.json').allowedCells)expect(Boolean(mask[y*128+x]),'guide').toBe(false);
  });
 });

@@ -32,7 +32,7 @@ describe('circular plaza shoreline',()=>{
   const pots=new Set(recipe.added.filter(p=>p.sprite==='plaza-potted-lavender').map(p=>p.y*128+p.x));
   for(const c of recipe.collisionChanges)if(c.after&&!c.before)expect(pots.has(c.index),'new blocker must be a visible planter').toBe(true);
   for(let i=0;i<oldGround.length;i++)if(oldGround[i]==='path-stone')expect(ground[i],'existing road '+i).toBe('path-stone');
-  for(const[x,y]of read('src/bots/lyra-routes.json').allowedCells)expect(Boolean(mask[y*128+x]),'guide').toBe(false);
+  for(const[x,y]of read('tests/fixtures/plaza-pedestrian-cells.json').allowedCells)expect(Boolean(mask[y*128+x]),'guide').toBe(false);
  });
  it('connects all four unchanged gateways to the island with broad, walkable landings',()=>{
   const l=layout(),m=map(),mask=layer(m,'physical-collisions').data;

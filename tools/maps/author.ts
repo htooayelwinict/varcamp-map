@@ -3,7 +3,6 @@ import { existsSync } from 'node:fs';
 import { createHash } from 'node:crypto';
 import { buildMap } from './builder';
 import {withOrganizerMeetings} from './organizer-meetings';
-import { addNpcGuides } from './npc-guides';
 import { loadTileCatalog } from '../art/catalog';
 import { validateMap, validateWam } from './validate';
 import { WORLD_CATALOG } from '../../src/world/catalog';
@@ -13,7 +12,7 @@ const initialize=process.argv.includes('--initialize');
 const manifestPath='.qa/authored-map-hashes.json';
 const hash=(bytes:string)=>createHash('sha256').update(bytes).digest('hex');
 const prior:Record<string,string>=existsSync(manifestPath)?JSON.parse(await readFile(manifestPath,'utf8')):{};
-const layouts=addNpcGuides(await Promise.all((await readdir('world/layouts')).filter(f=>f.endsWith('.json')).sort().map(async f=>JSON.parse(await readFile(`world/layouts/${f}`,'utf8')) as MapLayout)));
+const layouts=await Promise.all((await readdir('world/layouts')).filter(f=>f.endsWith('.json')).sort().map(async f=>JSON.parse(await readFile(`world/layouts/${f}`,'utf8')) as MapLayout));
 const outputs:Record<string,string>={};
 for(const layout of layouts){
  const{tmj,wam:baseWam}=buildMap(layout,loadTileCatalog()),wam=withOrganizerMeetings(layout.id,baseWam),issues=[...validateMap(tmj,WORLD_CATALOG),...validateWam(wam)];

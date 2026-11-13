@@ -179,7 +179,7 @@ async function main() {
     await journal.waitFor({ state: 'hidden', timeout: 10_000 });
   });
 
-  await step('avatar menu and nearby guides', async () => {
+  await step('avatar menu without retired guides', async () => {
     // The name sits in a plain div; the clickable ancestor is the chip container itself (class "group bg-contrast/80 ... cursor-pointer").
     const nameChip = page.locator('div[class^="group bg-contrast"][class*="cursor-pointer"]', { hasText: options.name }).first();
     await nameChip.waitFor({ state: 'visible', timeout: 15_000 });
@@ -187,20 +187,14 @@ async function main() {
     const allSettings = page.getByRole('button', { name: 'All settings' });
     await allSettings.waitFor({ state: 'visible', timeout: 10_000 });
     await allSettings.click();
-    for (const label of ['Return to Plaza', 'Quest Journal', 'Talk to Nearby Guides']) {
+    for (const label of ['Return to Plaza', 'Go to Solar Hall', 'Go to Lunar Hall', 'Quest Journal']) {
       await page.getByRole('button', { name: label, exact: true }).first().waitFor({ state: 'visible', timeout: 10_000 });
     }
     await screenshot('full-menu');
-    await page.getByRole('button', { name: 'Talk to Nearby Guides', exact: true }).first().click();
-    const guides = page.locator('iframe[title="Nearby Guides"][src*="/src/guides/index.html"]');
-    await guides.waitFor({ state: 'visible', timeout: 15_000 });
-    await screenshot('nearby-guides-open');
-    await page.keyboard.press('Escape');
-    try { await guides.waitFor({ state: 'hidden', timeout: 5_000 }); }
-    catch {
-      await page.locator('button.btn-danger.btn-square').first().click({ timeout: 10_000 });
-      await guides.waitFor({ state: 'hidden', timeout: 10_000 });
+    if (await page.getByRole('button', { name: 'Talk to Nearby Guides', exact: true }).count()) {
+      throw new Error('Retired guide menu is still registered');
     }
+    await page.keyboard.press('Escape');
   });
 
   await step('second map loads', async () => {

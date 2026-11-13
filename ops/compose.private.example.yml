@@ -1,8 +1,8 @@
 # Private override template for the devbox demo stack. Placeholders only.
 #
 # ops/compose.yml is the public base. The two private bindings below are
-# deliberately absent from the repository (see ops/bots/README.md and
-# ops/preflight_checks.py); fill them in from the private records.
+# deliberately absent from the repository (see ops/preflight_checks.py);
+# fill them in from the private records.
 #
 # Apply on the devbox:
 #   cp ops/compose.private.example.yml /srv/varcamp/compose.private.yml

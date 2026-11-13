@@ -35,8 +35,7 @@ import sharp from 'sharp';
 import { renderRoadster, renderRoadsterV1, ROADSTER_V2_ATLAS_PATH, ROADSTER_V2_METADATA_PATH, type RoadsterFrameReceipt } from '../tools/art/roadster';
 import { buildMap } from '../tools/maps/builder';
 import { loadTileCatalog } from '../tools/art/catalog';
-import { guardMap } from '../src/bots/map-guard';
-import { ROUTES } from '../src/bots/venue';
+import ROUTES from './fixtures/plaza-pedestrian-cells.json';
 import type { MapLayout } from '../tools/maps/types';
 const sha = (b: Buffer | string) => createHash('sha256').update(b).digest('hex');
 const json = (path: string) => JSON.parse(readFileSync(path, 'utf8'));
@@ -83,15 +82,6 @@ it('fits the upper-right blue arrival floor without touching any of the 864 guid
  expect(layout.animatedOverlays!.find(o=>o.name==='roadster')).toEqual(overlay);
  for(const r of [...layout.entries,...layout.exits,...layout.areas,...layout.placements.filter(p=>p.layer==='props'),...(layout.images??[])]) expect(r.x<88&&r.x+r.width>83&&r.y<58&&r.y+r.height>53,'name' in r?r.name:r.id).toBe(false);
  expect(overlay.x).toBeGreaterThanOrEqual(82);expect(overlay.x+5).toBeLessThanOrEqual(90);expect(overlay.y).toBeGreaterThanOrEqual(51);expect(overlay.y+5).toBeLessThanOrEqual(65);
-});
-it('accepts the re-audited native map but still fails closed on moved animation or collision changes', async () => {
- await expect(guardMap(native())).resolves.toBeUndefined();
- const changed=native(), layer=changed.layers.find(l=>l.name==='roadster') as TileLayer;
- const i=layer.data.findIndex(Boolean);layer.data[i+1]=layer.data[i];layer.data[i]=0;
- await expect(guardMap(changed)).rejects.toThrow(/signature mismatch/);
- const collision=native(), mask=collision.layers.find(l=>l.name==='physical-collisions') as TileLayer;
- mask.data[65*128+63]=mask.data.find(Boolean)!;
- await expect(guardMap(collision)).rejects.toThrow(/signature mismatch/);
 });
 it('keeps compiling the frozen v1 epoch byte for byte from the original generated1254px sheet and rejects stale source receipts', async () => {
  const {png,metadata,frames}=await renderRoadsterV1();

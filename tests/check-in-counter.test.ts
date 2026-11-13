@@ -80,7 +80,7 @@ describe('Check-in counter',()=>{
   for(const [x,y]of [[71,59],[72,59],[73,59],[69,60],[69,61],[79,60],[79,61],[71,62],[72,62],[73,62]])expect(b[y*128+x]).toBe(false);
   for(const t of old.tilesets.filter(t=>t.name!=='standing-captions'))expect(map.tilesets.find(s=>s.name===t.name)).toEqual(t);
   for(let y=62;y<=64;y++)for(let x=71;x<79;x++)expect(b[y*128+x]).toBe(false);
-  for(const [x,y]of read('src/bots/lyra-routes.json').allowedCells)expect(b[y*128+x]).toBe(false);
+  for(const [x,y]of read('tests/fixtures/plaza-pedestrian-cells.json').allowedCells)expect(b[y*128+x]).toBe(false);
   expect(()=>assertCurrentNativeMap('overworld',map,layout,read('maps/overworld.wam'),catalog)).not.toThrow();
  },30000);
 });

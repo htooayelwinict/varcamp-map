@@ -3,7 +3,7 @@ import { readFileSync } from 'node:fs';
 import ts from 'typescript';
 import { describe, expect, it } from 'vitest';
 import { buildMap } from '../tools/maps/builder';
-import { addNpcGuides } from '../tools/maps/npc-guides';
+import { retireHistoricalHosts } from './helpers/retired-host-layout';
 import { loadTileCatalog } from '../tools/art/catalog';
 import type { MapLayout, TiledMap, TileLayer } from '../tools/maps/types';
 
@@ -44,7 +44,7 @@ const maps = () => {
   if (mapCache) return structuredClone(mapCache);
   const layout = JSON.parse(readFileSync('world/layouts/overworld.json', 'utf8')) as MapLayout;
   mapCache = {
-    authored: buildMap(addNpcGuides([layout])[0], loadTileCatalog()).tmj,
+    authored: buildMap(retireHistoricalHosts([layout])[0], loadTileCatalog()).tmj,
     exported: JSON.parse(readFileSync('maps/overworld.tmj', 'utf8')) as TiledMap,
   };
   return structuredClone(mapCache);

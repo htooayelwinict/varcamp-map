@@ -3,7 +3,7 @@ import { createHash } from 'node:crypto';
 import { readFileSync, readdirSync } from 'node:fs';
 import { expect, it } from 'vitest';
 import { historicalNative } from './helpers/visibility-history';
-import { addNpcGuides } from '../tools/maps/npc-guides';
+import { retireHistoricalHosts } from './helpers/retired-host-layout';
 import type { MapLayout, TiledMap } from '../tools/maps/types';
 
 function frozenOverworld(kind:'tmj'):TiledMap;
@@ -22,7 +22,7 @@ it.each(hosts)('retires %s robots and conversation areas even when older authore
  input.areas.push({id:area,name:area,x:1,y:1,width:3,height:3,properties:[]});
  input.placements.push({id:`npc-character-${npc}`,sprite:area,x:2,y:0,width:1,height:2,layer:'props'});
  input.signs ??= [];input.signs.push({name:`npc-name-${npc}`,text:'Retired robot',x:1,y:4,width:9,height:1});
- const before=structuredClone(input),once=addNpcGuides([input])[0],twice=addNpcGuides([once])[0];
+ const before=structuredClone(input),once=retireHistoricalHosts([input])[0],twice=retireHistoricalHosts([once])[0];
  expect(input).toEqual(before);expect(twice).toEqual(once);
  expect(once.placements).toEqual(before.placements.filter(p=>p.id!==`npc-character-${npc}`));
  expect(once.signs).toEqual(before.signs!.filter(s=>s.name!==`npc-name-${npc}`));
@@ -31,7 +31,7 @@ it.each(hosts)('retires %s robots and conversation areas even when older authore
 
 it('never recreates the retired robots from any of the 33 authored layouts', () => {
  const layouts=readdirSync('world/layouts').filter(f=>f.endsWith('.json')).map(f=>load(f.slice(0,-5)));
- const output=addNpcGuides(layouts);
+ const output=retireHistoricalHosts(layouts);
  for(const l of output){
   expect(l.placements.filter(p=>p.id.startsWith('npc-character-'))).toEqual([]);
   expect(l.signs?.filter(s=>s.name.startsWith('npc-name-'))??[]).toEqual([]);
@@ -66,8 +66,8 @@ it('applies the actual retirement function to the historical beach layout withou
  // Exact d669f9b source and independently extracted 888dd3c post-retirement
  // authored result; these protect the historical behavior, not current artwork.
  expect(digest(input)).toBe('4c7fb658839bec9b85f05ae6b8bc017c9b721d0d730fa83209f7603e6af8d7a5');
- const before=structuredClone(input),retired=addNpcGuides([input])[0];
- expect(input).toEqual(before);expect(addNpcGuides([retired])[0]).toEqual(retired);
+ const before=structuredClone(input),retired=retireHistoricalHosts([input])[0];
+ expect(input).toEqual(before);expect(retireHistoricalHosts([retired])[0]).toEqual(retired);
  expect(digest(retired)).toBe('2be30eb4c14bc7e19b4513e48d8664ed5531471338f1c7d2c63716a9010e3af7');
  expect(retired.areas.some(a=>a.name==='npc-dockmaster')).toBe(false);
 });

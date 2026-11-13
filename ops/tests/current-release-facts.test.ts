@@ -36,7 +36,7 @@ it('rejects stale generated facts and missing active links while leaving histori
 it('a changed manifest extension inventory invalidates previously generated facts',()=>{
  const {root,put}=fixture();put('README.md','# Readme');put('docs/dependencies.md','## Current tools and release');put('docs/varcamp-map-handoff.md','# Handoff');put('docs/current-release-facts.md',renderFacts(currentFacts(root)));
  // The generated document also links authoritative owners/operating guidance.
- for(const path of ['ops/current-release-facts.mjs','docs/operating/venue-guide.md','docs/operating/scripted-lyra.md'])put(path,'');
+ for(const path of ['ops/current-release-facts.mjs','docs/operating/venue-guide.md'])put(path,'');
  expect(checkCurrentDocs(root)).toEqual([]);
  put('publication/source-manifest.json',JSON.stringify({maps:1,wams:1,extensionInventory:{one:'a'.repeat(64),two:'b'.repeat(64)}}));
  expect(currentFacts(root).extensionCount).toBe(2);expect(checkCurrentDocs(root)).toEqual([expect.stringMatching(/generated facts/)]);

@@ -1,5 +1,0 @@
-PORT=3000
-NPC_ALLOWED_ORIGINS=https://varcamp.3-1-133-135.sslip.io,https://maps.3-1-133-135.sslip.io
-NPC_MAX_DAILY_CALLS=150
-NPC_MAX_MINUTE_CALLS=20
-# Add OPENROUTER_API_KEY privately on devbox when ready. Never put it in maps.

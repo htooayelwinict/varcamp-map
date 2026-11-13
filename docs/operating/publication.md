@@ -10,8 +10,7 @@ The [devbox guest demo](https://varcamp.3-1-133-135.sslip.io/~/varcamp-demo/maps
 
 - `maps/*.tmj` and `maps/*.wam`: the native map pairs listed in [current facts](../current-release-facts.md). The WAMs carry live organiser metadata and are never overwritten blindly.
 - `assets/`: byte-identical source atlases and sponsor artwork.
-- `src/journal` and `src/guides`: the Vite runtime bundles for the Quest Journal and the guide panel.
-- `bots/lyra.js`: the independent guide module, emitted with `default.run(metadata)`. Its stable URL is `https://maps.3-1-133-135.sslip.io/varcamp-demo/bots/lyra.js`; activation uses `?v=<sha256>` of the verified module bytes.
+- `src/journal`, `src/adventure` and `src/check-in`: the Quest Journal, expedition and registration interfaces.
 - `credits/`: the generated credits pages and license records.
 
 The WorkAdventure **custom map URL** is `https://maps.3-1-133-135.sslip.io/varcamp-demo/maps/overworld.tmj`. It is a map asset opened by a WorkAdventure client; the same devbox runs the multiplayer service.
@@ -127,10 +126,11 @@ Editing notes: open `maps/<map-id>.tmj` in Tiled to edit a native map; `npm run 
 
 ## Source-integrity receipts
 
-[publication/source-manifest.json](../../publication/source-manifest.json) freezes the original **303** source receipts in `sourceInventory` (`sourceFilesByteExact: 303`); keep them unchanged. Every reviewed change to an original source file is recorded as a revision file under `publication/revisions/` with `path`, `fromSha256`, `toSha256` and `reason`, and every added or changed non-original file (tooling, tests, documents, `ops/bots/` runner files, `ops/tests/` runner tests, the release build configuration) is pinned by exact SHA-256 in `extensionInventory`. Within `app`, `art`, `assets`, `maps`, `src`, `tools`, `tests` and `world`, the actual files must equal the union of the two inventories; the inventories cannot overlap; missing, unlisted or changed files fail verification. The checker does not discover arbitrary new files outside those eight folders, so review must account for every new operational file explicitly. Do not insert placeholders for future files.
+[publication/source-manifest.json](../../publication/source-manifest.json) freezes the original **303** source receipts in `sourceInventory` (`sourceFilesByteExact: 303`); keep them unchanged. Every reviewed change to an original source file is recorded as a revision file under `publication/revisions/` with `path`, `fromSha256`, `toSha256` and `reason`, and every added or changed non-original file (tooling, tests, documents, operational files and tests, the release build configuration) is pinned by exact SHA-256 in `extensionInventory`. Within `app`, `art`, `assets`, `maps`, `src`, `tools`, `tests` and `world`, the actual files must equal the union of the two inventories, excluding explicitly retired originals; the inventories cannot overlap; missing, unlisted or changed files fail verification. The checker does not discover arbitrary new files outside those eight folders, so review must account for every new operational file explicitly. Do not insert placeholders for future files.
 
 The rule for every release: update `publication/revisions` and the extension digests with every reviewed change, then run `node publication/verify-source.mjs .` and require it to pass before `apply`. Verification does not regenerate artwork. The reviewed extension count is generated in [current facts](../current-release-facts.md); run `node ops/current-release-facts.mjs --check` after touching the manifest.
 
-## Guide module activation
 
-The stable module destination is `https://maps.3-1-133-135.sslip.io/varcamp-demo/bots/lyra.js`. After a devbox publication and a passing verify-source receipt, compare the exact HTTPS module bytes with the reviewed `dist/bots/lyra.js` (`sha256sum dist/bots/lyra.js`), then use `?v=<sha256>` with that verified hash. The query selects a cache version; byte comparison establishes integrity. The guide bots run from a private image whose release pin (map geometry SHA-256 and module SHA-256/URL) must be re-qualified by the project owner after any map or module change before the bots are restarted. [Lyra activation](scripted-lyra.md) additionally requires one dedicated bot session per persona and two independent visitor sessions for shared-avatar acceptance; a build alone is not live acceptance.
+## Explicit source retirements
+
+`publication/retired-source.json` is pinned in the extension inventory. Each retirement names one original path, its final reviewed SHA-256 and the reason for removal. The original 303 receipts and revision chain remain immutable. Verification rejects undeclared deletions, incorrect prior hashes and reappearing retired files. Historical fixtures and reserved tileset slots do not activate any guide system.

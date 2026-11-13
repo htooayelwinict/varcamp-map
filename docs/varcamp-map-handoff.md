@@ -37,7 +37,7 @@ Use `npm run art:check` after changing any art. At the October16 compact-release
 
 ## Current source and verification
 
-Use [generated current facts](current-release-facts.md) for the source inventory and toolchain, and [guide activation requirements](operating/scripted-lyra.md) for remaining native acceptance. Source facts and historical checks do not certify current live deployment.
+Use [generated current facts](current-release-facts.md) for the source inventory and toolchain; the guide systems have been removed. Source facts and historical checks do not certify current live deployment.
 
 ## October16 delivery record (historical)
 

@@ -4,7 +4,7 @@ import {readFileSync} from 'node:fs';
 import {createHash} from 'node:crypto';
 import {describe,it,expect} from 'vitest';
 import {buildMap} from '../tools/maps/builder';
-import {addNpcGuides} from '../tools/maps/npc-guides';
+import {retireHistoricalHosts} from './helpers/retired-host-layout';
 import {loadTileCatalog} from '../tools/art/catalog';
 import {WORLD_CATALOG} from '../src/world/catalog';
 import type {MapLayout,TileRect,TileLayer,TiledMap} from '../tools/maps/types';
@@ -20,7 +20,7 @@ const source=()=>JSON.parse(readFileSync('world/layouts/overworld.json','utf8'))
 const cells=(r:TileRect,w:number)=>Array.from({length:r.width*r.height},(_,i)=>(r.y+Math.floor(i/r.width))*w+r.x+i%r.width);
 const overlap=(a:TileRect,b:TileRect)=>a.x<b.x+b.width&&a.x+a.width>b.x&&a.y<b.y+b.height&&a.y+a.height>b.y;
 const translated=<T extends TileRect>(r:T):T=>({...r,x:r.x+16,y:r.y+16});
-function built(){const l=addNpcGuides([source()])[0],{tmj}=buildMap(l,loadTileCatalog());return{l,tmj,mask:(tmj.layers.find(t=>t.name==='physical-collisions') as TileLayer).data};}
+function built(){const l=retireHistoricalHosts([source()])[0],{tmj}=buildMap(l,loadTileCatalog());return{l,tmj,mask:(tmj.layers.find(t=>t.name==='physical-collisions') as TileLayer).data};}
 function walk(w:number,mask:number[],start:number,forbidden=new Set<number>()){const q=[start],d=new Map([[start,0]]);for(let h=0;h<q.length;h++){const n=q[h],x=n%w,y=Math.floor(n/w);for(const[nx,ny]of[[x-1,y],[x+1,y],[x,y-1],[x,y+1]]){const c=ny*w+nx;if(nx>=0&&ny>=0&&nx<w&&ny<w&&!mask[c]&&!forbidden.has(c)&&!d.has(c)){d.set(c,d.get(n)!+1);q.push(c);}}}return d;}
 const radius=(n:number,w:number)=>Math.hypot(n%w-63.5,Math.floor(n/w)-63.5);
 describe('exterior circle road keeps public destinations out of the speaker plaza',()=>{

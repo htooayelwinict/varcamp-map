@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "retirements": [
+    {
+      "path": "src/npc/index.html",
+      "fromSha256": "07fd5fd813efe53a73fd4d77593ab51a28e0b23ca2d72af8e3f9bc6d691bcc20",
+      "reason": "Remove static NPC implementation and its obsolete tests; retain original receipt for audit."
+    },
+    {
+      "path": "src/npc/interactions.ts",
+      "fromSha256": "fa43672e9b6985a5087bc7146e01ac9850fa98c986b01238c9cde522da985c72",
+      "reason": "Remove static NPC implementation and its obsolete tests; retain original receipt for audit."
+    },
+    {
+      "path": "src/npc/main.ts",
+      "fromSha256": "3a634839d0fd8bee6b814494370b8d9697b93a572c9672cc8df206b4b7297257",
+      "reason": "Remove static NPC implementation and its obsolete tests; retain original receipt for audit."
+    },
+    {
+      "path": "src/npc/style.css",
+      "fromSha256": "011edb1ad3f83c25dfbc431335d2c981b54db02afca427864c71d0c6e9896433",
+      "reason": "Remove static NPC implementation and its obsolete tests; retain original receipt for audit."
+    },
+    {
+      "path": "tests/guide-redraw.test.js",
+      "fromSha256": "5ae5e819f72a63ef95c19411bebaa26c93453f838a25371f85a9b0974575112e",
+      "reason": "Remove static NPC implementation and its obsolete tests; retain original receipt for audit."
+    },
+    {
+      "path": "tests/npc-interactions.test.ts",
+      "fromSha256": "7cbe774045993f7ad9f7cd41ed926ae5635f953dd7b095fdd7865fcb573f5b05",
+      "reason": "Remove static NPC implementation and its obsolete tests; retain original receipt for audit."
+    },
+    {
+      "path": "tests/npc-server.test.js",
+      "fromSha256": "449510f644f3129ba40be5de8cedcbff49c15e383b65fb7f48d78ec3305d3b75",
+      "reason": "Remove static NPC implementation and its obsolete tests; retain original receipt for audit."
+    },
+    {
+      "path": "tools/maps/npc-guides.ts",
+      "fromSha256": "5167bffcfbd3745de9247316680b522adcb6e9b7b5701210d0981d9ead3337d0",
+      "reason": "Remove static NPC implementation and its obsolete tests; retain original receipt for audit."
+    }
+  ]
+}

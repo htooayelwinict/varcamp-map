@@ -6,7 +6,7 @@ import{createHash}from'node:crypto';
 import{describe,it,expect}from'vitest';
 import sharp from'sharp';
 import{buildMap}from'../tools/maps/builder';
-import{addNpcGuides}from'../tools/maps/npc-guides';
+import{retireHistoricalHosts}from'./helpers/retired-host-layout';
 import{loadTileCatalog}from'../tools/art/catalog';
 import type{MapLayout,TileRect,TileLayer,TiledMap}from'../tools/maps/types';
 import{approvedUnchangedLayoutIds,approvedHistoricalRaw,assertApprovedLayoutSuccessor}from'./helpers/approved-world-successor';
@@ -22,7 +22,7 @@ const before=JSON.parse(readFileSync('docs/qa/coastal-reassessment-2026-10-16/im
 const cells=(r:TileRect,w:number)=>Array.from({length:r.width*r.height},(_,i)=>(r.y+Math.floor(i/r.width))*w+r.x+i%r.width);
 const contains=(a:TileRect,b:TileRect)=>b.x>=a.x&&b.y>=a.y&&b.x+b.width<=a.x+a.width&&b.y+b.height<=a.y+a.height;
 const overlap=(a:TileRect,b:TileRect)=>a.x<b.x+b.width&&a.x+a.width>b.x&&a.y<b.y+b.height&&a.y+a.height>b.y;
-function built(id:string){const l=addNpcGuides([source(id)])[0],{tmj}=buildMap(l,loadTileCatalog());return{l,tmj,mask:(tmj.layers.find(t=>t.name==='physical-collisions') as TileLayer).data};}
+function built(id:string){const l=retireHistoricalHosts([source(id)])[0],{tmj}=buildMap(l,loadTileCatalog());return{l,tmj,mask:(tmj.layers.find(t=>t.name==='physical-collisions') as TileLayer).data};}
 function walk(l:MapLayout,mask:number[],size=1){const e=l.entries.find(e=>e.isDefault)!,start=e.y*l.width+e.x,q=[start],seen=new Set(q);const clear=(x:number,y:number)=>x>=0&&y>=0&&x+size<=l.width&&y+size<=l.height&&!cells({x,y,width:size,height:size},l.width).some(n=>mask[n]);expect(clear(e.x,e.y),'default cannot accommodate a clear arrival footprint').toBe(true);for(let h=0;h<q.length;h++){const n=q[h],x=n%l.width,y=Math.floor(n/l.width);for(const[nx,ny]of[[x-1,y],[x+1,y],[x,y-1],[x,y+1]]){const k=ny*l.width+nx;if(clear(nx,ny)&&!seen.has(k)){seen.add(k);q.push(k);}}}return seen;}
 describe('native coastal boarding and nautical proportions',()=>{
  it('preserves other maps/assets except the separately verified start alias and exact robot retirement',()=>{const before=JSON.parse(readFileSync('docs/qa/coastal-reassessment-2026-10-16/implementation/before-sha256.json','utf8')) as Record<string,string>;for(const[path,hash]of Object.entries(before))if((path.startsWith('maps/')&&!/^maps\/(?:shipyard-beach|fa-ship)\.(?:tmj|wam)$/.test(path))||path.startsWith('assets/')||path.startsWith('world/layouts/')&&!['world/layouts/shipyard-beach.json','world/layouts/fa-ship.json'].includes(path)){

@@ -1,0 +1,71 @@
+{
+  "schemaVersion": 1,
+  "revisions": [
+    {
+      "path": "src/main.ts",
+      "fromSha256": "de709e5c57c8ace44f4e30d48c5c70bbdb40d9666a671d16fe7648dedd482bbd",
+      "toSha256": "c6693937eadf730ae04153ea251011c05092df3a631957ad093790cf928f1585",
+      "reason": "Remove guide systems and keep venue behavior and historical map tests independent of them."
+    },
+    {
+      "path": "tests/coastal-boarding.test.ts",
+      "fromSha256": "545b1a27bf11ffb2096cb53ac10b108e892e978d55340818810f218803cd444e",
+      "toSha256": "fa1b12e49bd97b82cb6579f79d1f07f9c9d52d8403394cc94f77a896c72ee9e1",
+      "reason": "Remove guide systems and keep venue behavior and historical map tests independent of them."
+    },
+    {
+      "path": "tests/coastal-character.test.ts",
+      "fromSha256": "a4701b62e7247ceb1be9214526f7af66639255a64538a7d61fcd10230849001f",
+      "toSha256": "f6bc84fd4cf90df9ffc67fa478123c19d445b272895f946d02b9452f6153bfcc",
+      "reason": "Remove guide systems and keep venue behavior and historical map tests independent of them."
+    },
+    {
+      "path": "tests/exterior-gates.test.ts",
+      "fromSha256": "eeaf05f4e7311d7bf8053609a7221d63dbc60d6b0493cfa513278a77339f84da",
+      "toSha256": "7d330eebf5d08bac85794c1b38d7d939b4a7a56ff8770dcfb2e8d3963da2be59",
+      "reason": "Remove guide systems and keep venue behavior and historical map tests independent of them."
+    },
+    {
+      "path": "tests/medium-hub.test.ts",
+      "fromSha256": "b757b6d6280ebfa5161bc83693162caaf7a061ba8848a924c0f378cdbfbf5261",
+      "toSha256": "bba614c096c258537728f6828ca898db3e3d55fc538cafaba4f1234e66f8d16e",
+      "reason": "Remove guide systems and keep venue behavior and historical map tests independent of them."
+    },
+    {
+      "path": "tests/npc-maps.test.ts",
+      "fromSha256": "9e0951890a877421e27e13127a1d2243b057c1e89559276d4e5d43d321c8ea57",
+      "toSha256": "dc3e0e8b1b87822bda418d546235bb9d214c64784086bc4b0d6ef00d301e8b1f",
+      "reason": "Remove guide systems and keep venue behavior and historical map tests independent of them."
+    },
+    {
+      "path": "tests/plaza-start.test.ts",
+      "fromSha256": "e49b9296e5a176687c63e0f27927e8807e391e2bf913a2f0f8b4b1c061f88dc5",
+      "toSha256": "52bb62309a85093c3d39609336cd0500bad29b7a815c86739ac2c2a2950893c5",
+      "reason": "Remove guide systems and keep venue behavior and historical map tests independent of them."
+    },
+    {
+      "path": "tests/release-cache.test.ts",
+      "fromSha256": "87b2fe62f91e917d912438f5540be0896b1a0bd2d2dbe723ac763efc1ad05af5",
+      "toSha256": "fb63651ef7de4cbe6a9fd1ea2b54204004522bc475d770bd429e1ca2f25d9449",
+      "reason": "Remove guide systems and keep venue behavior and historical map tests independent of them."
+    },
+    {
+      "path": "tests/wayfinding-redraw.test.ts",
+      "fromSha256": "24a0c840055dc2c3af0416e16d7bf9331b5b62ee31021b7483b63b959719f337",
+      "toSha256": "33b01f985e3307c05af3d019a8a8849257a9027127358407bbea2b07527027b0",
+      "reason": "Remove guide systems and keep venue behavior and historical map tests independent of them."
+    },
+    {
+      "path": "tools/maps/author.ts",
+      "fromSha256": "1632165ef063c28a88b294c40138eb1d63ee6887120fbd0ba0dffff561e2b586",
+      "toSha256": "7591382f9ee49e2e13ccfdfc8550ca92bd42df8196545b09eb4fce69c20c1d21",
+      "reason": "Remove guide systems and keep venue behavior and historical map tests independent of them."
+    },
+    {
+      "path": "tools/release.ts",
+      "fromSha256": "ca75202b81e12582b17988f1b40363531d2c29a405519565fac3a2e77445d9de",
+      "toSha256": "e35e744d36f3270e7951333e0173c90e99213ce3a524f6f3de3c466c29d2eb92",
+      "reason": "Remove guide systems and keep venue behavior and historical map tests independent of them."
+    }
+  ]
+}
