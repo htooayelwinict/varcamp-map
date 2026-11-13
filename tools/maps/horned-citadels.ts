@@ -22,7 +22,11 @@ export function restoreHornedCitadels(input:MapLayout,catalog?:TileCatalog):MapL
  const l=structuredClone(input);
  for(const b of recipe.buildings){
   if(catalog){
-   need(isDeepStrictEqual(catalog[b.after.sprite],b.sprite),'new footprint or depth changed: '+b.sign);
+   // Capricorn's lowest row is its front wall. Keep approaching Wokas in
+   // front of it while retaining the original canopy and collision mask.
+   const currentSprite=b.sign==='capricorn'
+    ?{...b.sprite,upperCells:Array.from({length:132},(_,i)=>[i%12,Math.floor(i/12)])}:b.sprite;
+   need(isDeepStrictEqual(catalog[b.after.sprite],currentSprite),'new footprint or depth changed: '+b.sign);
    need(isDeepStrictEqual(catalog[b.after.sprite].blockingCells,catalog[b.before.sprite].blockingCells),'grounded walls changed: '+b.sign);
   }
   need(isDeepStrictEqual(l.placements[b.index],b.after),'building changed: '+b.sign);

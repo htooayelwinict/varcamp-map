@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "revisions": [
+    {
+      "path": "art/tile-catalog.json",
+      "fromSha256": "8bfd64817e150e2f6307ded68cd27a922995d126a1b3fd9a1af17bf9a461c80e",
+      "toSha256": "d35bd86a1367b37cc0060e0328e8f666d426c0286b6528dd75e2cfaa08ccb788",
+      "reason": "Draw only Capricorn front-edge tiles behind approaching avatars; retain all collision masks, doorways, boards and other content."
+    },
+    {
+      "path": "maps/overworld.tmj",
+      "fromSha256": "1fe175cb35b01e633f94f9592d3a535dbe4ec205e717189bac55309076f88e05",
+      "toSha256": "bebcbadd53b8fd046c1e43ed0c91efcfeea1ac35e8c3bce22a8ca01c02343d8d",
+      "reason": "Draw only Capricorn front-edge tiles behind approaching avatars; retain all collision masks, doorways, boards and other content."
+    },
+    {
+      "path": "maps/preview/overworld.tmj",
+      "fromSha256": "fe1183269f1baedcf353411bf77f1065f1beeb3e7c70a2fe60d7c24799d038dd",
+      "toSha256": "e85f784c19af1206529491c6ab9b411181d340673bdd6bbabffa4593507934e6",
+      "reason": "Draw only Capricorn front-edge tiles behind approaching avatars; retain all collision masks, doorways, boards and other content."
+    }
+  ]
+}
