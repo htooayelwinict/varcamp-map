@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 1,
+  "revisions": [
+    {
+      "path": "art/sponsors.json",
+      "fromSha256": "1fb01017a4f8731fb7dd2d27c73914dd3343d2851f121fb2e0c2570ab79bd23e",
+      "toSha256": "0d1b4edca6200e38d79fb96db07eb166422cc3b1e2ef2a86cac3f5aab031d520",
+      "reason": "Place the existing approved DigiSec entrance mark on a dark backing so its white lettering is readable on the pale foyer floor. Preserve original mark pixels, all other exports, placements and saved room controls."
+    }
+  ]
+}

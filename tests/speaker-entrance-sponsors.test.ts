@@ -1,5 +1,7 @@
 import {readFileSync,existsSync} from 'node:fs';
 import {gunzipSync} from 'node:zlib';
+import {createHash} from 'node:crypto';
+import sharp from 'sharp';
 import {describe,it,expect} from 'vitest';
 import {SIGN_IDS} from '../src/world/catalog';
 import {loadTileCatalog} from '../tools/art/catalog';
@@ -13,6 +15,20 @@ const before=JSON.parse(gunzipSync(readFileSync('tests/fixtures/speaker-entrance
 const catalog=loadTileCatalog();
 const name='Entrance / DigiSec Lab',caption='entrance-digital-safety-partner';
 describe('approved DigiSec Lab branding inside every zodiac entrance',()=>{
+ it('keeps the original mark colors readable on a dark backing over the pale foyer floor',async()=>{
+  const approved=readFileSync('tests/fixtures/sponsor-digisec-entrance-transparent.png');
+  expect(createHash('sha256').update(approved).digest('hex')).toBe('adeadc8ae1c963c5d2d0eef702d67a92db6f477fc57d54ba412f0b101fe7a4fb');
+  const original=await sharp(approved).ensureAlpha().raw().toBuffer();
+  const actual=await sharp('assets/sponsors/sponsor-digisec-entrance.png').ensureAlpha().raw().toBuffer({resolveWithObject:true});
+  expect(actual.info).toMatchObject({width:128,height:64,channels:4});
+  let opaqueMarkPixels=0;
+  for(let i=0;i<original.length;i+=4){
+   expect(actual.data[i+3],`pixel ${i/4} has a solid backing`).toBe(255);
+   if(original[i+3]===0)expect([...actual.data.subarray(i,i+3)]).toEqual([27,44,64]);
+   if(original[i+3]===255){expect([...actual.data.subarray(i,i+3)]).toEqual([...original.subarray(i,i+3)]);opaqueMarkPixels++;}
+  }
+  expect(opaqueMarkPixels).toBeGreaterThan(500);
+ });
  for(const sign of SIGN_IDS)it(sign+' displays the full mark and official title with its entrance and meeting controls intact',()=>{
   const id='speaker-'+sign,l=read(`world/layouts/${id}.json`) as MapLayout,m=read(`maps/${id}.tmj`) as TiledMap;
   const old=before[id],door=l.placements.find(p=>p.id==='south-door')!;

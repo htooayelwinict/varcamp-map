@@ -16,7 +16,7 @@ for(const logo of recipe.logos){
  if(createHash('sha256').update(bytes).digest('hex')!==logo.sourceSha256)throw Error('Sponsor original changed: '+logo.source);
  const mark=await sharp(bytes).extract(logo.crop).resize(logo.contentWidth,logo.contentHeight,{fit:'inside',kernel:'lanczos3'}).png().toBuffer();
  const {width,height}=await sharp(mark).metadata();
- const canvas=await sharp({create:{width:logo.width,height:logo.height,channels:4,background:{r:0,g:0,b:0,alpha:0}}})
+ const canvas=await sharp({create:{width:logo.width,height:logo.height,channels:4,background:logo.background??{r:0,g:0,b:0,alpha:0}}})
   .composite([{input:mark,left:Math.floor((logo.width-width)/2),top:Math.floor((logo.height-height)/2)}]).png().toBuffer();
  for(const panel of logo.panels)await sharp(canvas).extract({left:0,top:panel.top,width:logo.width,height:64}).png().toFile(join(output,panel.file));
 }
