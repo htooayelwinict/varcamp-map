@@ -8,8 +8,8 @@ afterEach(() => { vi.unstubAllGlobals(); vi.restoreAllMocks(); vi.resetModules()
 
 it.each([
   ['https://play.example/~/varcamp/maps/overworld.wam', 'https://play.example/~/varcamp/maps/solar-hall.wam#solar-entry'],
-  ['https://play.workadventu.re/@/varcamp/world/varcamp-2026/maps/overworld.wam', 'https://play.workadventu.re/@/varcamp/world/varcamp-2026/maps/solar-hall.wam#solar-entry'],
-  ['https://play.workadventu.re/@/varcamp/world/varcamp-2026/maps/overworld', 'https://play.workadventu.re/@/varcamp/world/varcamp-2026/maps/solar-hall.wam#solar-entry'],
+  ['https://play.workadventu.re/@/varcamp/world/varcamp-2026/maps/overworld.wam', 'https://play.workadventu.re/@/varcamp/world/varcamp-2026/maps/solar-hall#solar-entry'],
+  ['https://play.workadventu.re/@/varcamp/world/varcamp-2026/maps/overworld', 'https://play.workadventu.re/@/varcamp/world/varcamp-2026/maps/solar-hall#solar-entry'],
 ])('boots the real plaza entry without guide menus while navigation, quests and registration remain usable: %s', async (roomId, solarDestination) => {
   const menus = new Map<string, () => void>();
   const enters = new Map<string, () => void>();

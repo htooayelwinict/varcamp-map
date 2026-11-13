@@ -34,16 +34,56 @@ def safe_initial_target(target, baseline):
         raise ValueError('Production directory already exists; reconcile live editor state before updating')
 
 
-def cloud_package(release, saved_wams):
+def cloud_exit(owner, reference, release):
+    """Resolve a native door to a hosted room, distinct from its WAM asset."""
+    url = urllib.parse.urlsplit(reference)
+    if url.scheme or url.netloc or url.path.startswith('/'):
+        raise ValueError(f'{owner}: native room destination must remain relative')
+    room = url.path[:-4] if url.path.endswith('.wam') else url.path
+    asset = posixpath.normpath(posixpath.join(posixpath.dirname(owner), room + '.wam'))
+    if asset not in {f'maps/{name}.wam' for name in MAP_IDS} or asset not in release:
+        raise ValueError(f'{owner}: unknown native room destination {reference}')
+    return url._replace(path=room).geturl()
+
+
+def cloud_room_routes(release):
+    """Compile hosted door URLs without changing authored/devbox map artifacts."""
     validate_release_maps(release, MAP_IDS)
+    package = dict(release)
+    for path, raw in release.items():
+        if not path.endswith('.tmj'):
+            continue
+        document = json.loads(raw)
+        changed = False
+
+        def visit(value):
+            nonlocal changed
+            if isinstance(value, dict):
+                if value.get('name') in ('exitUrl', 'exitSceneUrl'):
+                    original = value['value']
+                    value['value'] = cloud_exit(path, original, release)
+                    changed |= value['value'] != original
+                for child in value.values():
+                    visit(child)
+            elif isinstance(value, list):
+                for child in value:
+                    visit(child)
+
+        visit(document)
+        if changed:
+            package[path] = json.dumps(document, ensure_ascii=False, separators=(',', ':')).encode()
+    return package
+
+
+def cloud_package(release, saved_wams):
+    package = cloud_room_routes(release)
     if set(saved_wams) != {f'maps/{name}.wam' for name in MAP_IDS}:
         raise ValueError('Saved WAM roster must contain all 34 rooms')
-    package = dict(release)
     for path, raw in saved_wams.items():
         wam_reference(path, raw)
         wam = json.loads(raw)
         tmj = path[:-4] + '.tmj'
-        wam['mapUrl'] = pathlib.PurePosixPath(tmj).name + '?v=' + hashlib.sha256(release[tmj]).hexdigest()
+        wam['mapUrl'] = pathlib.PurePosixPath(tmj).name + '?v=' + hashlib.sha256(package[tmj]).hexdigest()
         for collection in wam.get('entityCollections', []):
             collection['url'] = COLLECTION_URLS.get(collection['url'], collection['url'])
         package[path] = json.dumps(wam, ensure_ascii=False, separators=(',', ':')).encode()
@@ -61,7 +101,9 @@ def cloud_package(release, saved_wams):
             for key in ('image', 'source'):
                 if isinstance(value.get(key), str):
                     dependency(owner, value[key])
-            if value.get('name') in ('script', 'playAudio', 'exitUrl', 'exitSceneUrl'):
+            if value.get('name') in ('exitUrl', 'exitSceneUrl'):
+                cloud_exit(owner, value['value'], package)
+            elif value.get('name') in ('script', 'playAudio'):
                 dependency(owner, value['value'])
             for child in value.values():
                 map_dependencies(owner, child)

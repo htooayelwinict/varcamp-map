@@ -19,7 +19,7 @@ export function roomDestination(currentRoomId: string, mapId: MapId, entry?: str
   if (!/^https?:$/.test(url.protocol) || !(selfHosted || hosted)) {
     throw new Error('Production navigation requires a hosted world WAM room URL');
   }
-  return sibling(url, mapId, 'wam', arrival(mapId, entry));
+  return sibling(url, mapId, hosted ? '' : 'wam', arrival(mapId, entry));
 }
 
 /** TMJ asset URLs are for preview; they do not establish world-scoped persistence. */
@@ -31,8 +31,8 @@ export function previewDestination(currentMapUrl: string, mapId: MapId, entry?: 
   return sibling(url, mapId, 'tmj', arrival(mapId, entry));
 }
 
-function sibling(url: URL, mapId: MapId, extension: 'wam' | 'tmj', entry: string): string {
-  url.pathname = `${url.pathname.slice(0, url.pathname.lastIndexOf('/') + 1)}${mapId}.${extension}`;
+function sibling(url: URL, mapId: MapId, extension: 'wam' | 'tmj' | '', entry: string): string {
+  url.pathname = `${url.pathname.slice(0, url.pathname.lastIndexOf('/') + 1)}${mapId}${extension ? `.${extension}` : ''}`;
   url.search = '';
   url.hash = entry;
   return url.href;

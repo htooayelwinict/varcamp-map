@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 1,
+  "revisions": [
+    {
+      "path": "src/navigation.ts",
+      "fromSha256": "730858ef30ed94bd3e1b02d31dc0cf30a9acd70ac6cea2ce6f50a5d7ab38a574",
+      "toSha256": "6b8865416d4e0025970e07d733bda8104f3551028a1835e398a512bb7945ebaa",
+      "reason": "Hosted WA room lookup returns ROOM_NOT_FOUND for .wam room identities. Emit canonical extensionless hosted destinations proven by live native-door and scripted travel experiments, while keeping self-hosted and preview formats."
+    }
+  ]
+}

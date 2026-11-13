@@ -53,6 +53,43 @@ class CloudReleaseTests(unittest.TestCase):
         with self.assertRaisesRegex(ValueError, '34|roster'):
             self.module.cloud_package(release, saved)
 
+    def test_hosted_doors_use_canonical_room_ids_and_pin_the_transformed_map(self):
+        release, saved = self.fixture()
+        tilemap = json.loads(release['maps/solar-hall.tmj'])
+        tilemap['layers'] = [{'type': 'group', 'layers': [{
+            'name': 'exit-plaza-return', 'type': 'tilelayer', 'data': [0, 1],
+            'properties': [
+                {'name': 'exitUrl', 'value': 'overworld.wam#from-solar'},
+                {'name': 'exitSceneUrl', 'value': './overworld.wam#welcome'},
+                {'name': 'description', 'value': 'overworld.wam is an asset filename'},
+            ],
+        }]}]
+        release['maps/solar-hall.tmj'] = json.dumps(tilemap).encode()
+        before = copy.deepcopy(release)
+        package = self.module.cloud_package(release, saved)
+        expected = copy.deepcopy(tilemap)
+        props = expected['layers'][0]['layers'][0]['properties']
+        props[0]['value'] = 'overworld#from-solar'
+        props[1]['value'] = './overworld#welcome'
+        self.assertEqual(json.loads(package['maps/solar-hall.tmj']), expected)
+        self.assertEqual(release, before, 'Authored/devbox artifacts must remain unchanged')
+        self.assertIn('maps/overworld.wam', package, 'Storage filenames keep their extension')
+        self.assertEqual(json.loads(package['maps/solar-hall.wam'])['mapUrl'],
+                         'solar-hall.tmj?v=' + hashlib.sha256(package['maps/solar-hall.tmj']).hexdigest())
+        self.assertEqual(json.loads(package['maps/solar-hall.wam'])['areas'], json.loads(saved['maps/solar-hall.wam'])['areas'])
+        self.assertEqual(self.module.cloud_room_routes(package), package, 'Canonicalization must be idempotent')
+
+    def test_unknown_or_external_native_room_destinations_block_publication(self):
+        for destination in ['missing.wam#entry', 'missing#entry', '../assets/main.js',
+                            'https://other.example/room.wam', '/@/other/world/room', '../../escape.wam']:
+            with self.subTest(destination=destination):
+                release, saved = self.fixture()
+                tilemap = json.loads(release['maps/solar-hall.tmj'])
+                tilemap['layers'] = [{'properties': [{'name': 'exitUrl', 'value': destination}]}]
+                release['maps/solar-hall.tmj'] = json.dumps(tilemap).encode()
+                with self.assertRaises(ValueError):
+                    self.module.cloud_package(release, saved)
+
     def test_old_host_and_missing_assets_block_upload(self):
         for mutation in ['missing-runtime', 'old-host', 'old-npc']:
             with self.subTest(mutation=mutation):

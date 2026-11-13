@@ -4,10 +4,10 @@ import { roomDestination, venueDestination } from '../src/navigation';
 
 describe('WA production navigation', () => {
   it.each([
-    ['https://play.workadventu.re/@/varcamp/world/varcamp-2026/maps/overworld', 'https://play.workadventu.re/@/varcamp/world/varcamp-2026/maps/solar-hall.wam#solar-entry'],
-    ['https://event.example/@/varcamp-2026/maps/overworld', 'https://event.example/@/varcamp-2026/maps/solar-hall.wam#solar-entry'],
-    ['https://play.workadventu.re/@/varcamp/world/varcamp-2026/maps/overworld.wam?old=1#welcome', 'https://play.workadventu.re/@/varcamp/world/varcamp-2026/maps/solar-hall.wam#solar-entry'],
-    ['https://event.example/@/varcamp-2026/maps/overworld.wam', 'https://event.example/@/varcamp-2026/maps/solar-hall.wam#solar-entry'],
+    ['https://play.workadventu.re/@/varcamp/world/varcamp-2026/maps/overworld', 'https://play.workadventu.re/@/varcamp/world/varcamp-2026/maps/solar-hall#solar-entry'],
+    ['https://event.example/@/varcamp-2026/maps/overworld', 'https://event.example/@/varcamp-2026/maps/solar-hall#solar-entry'],
+    ['https://play.workadventu.re/@/varcamp/world/varcamp-2026/maps/overworld.wam?old=1#welcome', 'https://play.workadventu.re/@/varcamp/world/varcamp-2026/maps/solar-hall#solar-entry'],
+    ['https://event.example/@/varcamp-2026/maps/overworld.wam', 'https://event.example/@/varcamp-2026/maps/solar-hall#solar-entry'],
     ['https://play.example/~/varcamp/maps/overworld.wam', 'https://play.example/~/varcamp/maps/solar-hall.wam#solar-entry'],
   ])('keeps travel inside the current hosted world: %s', (current, destination) => {
     expect(venueDestination(current, 'solar-hall')).toBe(destination);
@@ -15,7 +15,7 @@ describe('WA production navigation', () => {
 
   it('keeps a journal return inside the production directory after visiting an exploration room', () => {
     expect(venueDestination('https://play.workadventu.re/@/varcamp/world/varcamp-2026/maps/moon-grotto.wam', 'overworld'))
-      .toBe('https://play.workadventu.re/@/varcamp/world/varcamp-2026/maps/overworld.wam#welcome');
+      .toBe('https://play.workadventu.re/@/varcamp/world/varcamp-2026/maps/overworld#welcome');
   });
 
   it.each(['https://storage.example/maps/overworld.wam', 'https://play.example/@/org/world/maps/overworld.tmj', 'file:///@/org/world/maps/overworld.wam'])('refuses asset URLs as production room identity: %s', current => {
