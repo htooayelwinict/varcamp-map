@@ -1,0 +1,390 @@
+{
+  "version": 1,
+  "maps": {
+    "speaker-taurus": [
+      {
+        "areaId": "meeting-taurus",
+        "geometry": {
+          "x": 160,
+          "y": 160,
+          "width": 832,
+          "height": 224
+        },
+        "property": {
+          "id": "taurus-stage-broadcast",
+          "type": "speakerMegaphone",
+          "name": "varcamp-taurus-talk",
+          "chatEnabled": true,
+          "seeAttendees": false
+        }
+      },
+      {
+        "areaId": "taurus-audience",
+        "geometry": {
+          "x": 64,
+          "y": 512,
+          "width": 1024,
+          "height": 576
+        },
+        "property": {
+          "id": "taurus-listener",
+          "type": "listenerMegaphone",
+          "speakerZoneName": "meeting-taurus",
+          "chatEnabled": true,
+          "allowTalking": false,
+          "raiseHandEnabled": true
+        }
+      }
+    ],
+    "speaker-gemini": [
+      {
+        "areaId": "meeting-gemini",
+        "geometry": {
+          "x": 160,
+          "y": 160,
+          "width": 832,
+          "height": 224
+        },
+        "property": {
+          "id": "gemini-stage-broadcast",
+          "type": "speakerMegaphone",
+          "name": "varcamp-gemini-talk",
+          "chatEnabled": true,
+          "seeAttendees": false
+        }
+      },
+      {
+        "areaId": "gemini-audience",
+        "geometry": {
+          "x": 64,
+          "y": 512,
+          "width": 1024,
+          "height": 576
+        },
+        "property": {
+          "id": "gemini-listener",
+          "type": "listenerMegaphone",
+          "speakerZoneName": "meeting-gemini",
+          "chatEnabled": true,
+          "allowTalking": false,
+          "raiseHandEnabled": true
+        }
+      }
+    ],
+    "speaker-cancer": [
+      {
+        "areaId": "meeting-cancer",
+        "geometry": {
+          "x": 160,
+          "y": 160,
+          "width": 832,
+          "height": 224
+        },
+        "property": {
+          "id": "cancer-stage-broadcast",
+          "type": "speakerMegaphone",
+          "name": "varcamp-cancer-talk",
+          "chatEnabled": true,
+          "seeAttendees": false
+        }
+      },
+      {
+        "areaId": "cancer-audience",
+        "geometry": {
+          "x": 64,
+          "y": 512,
+          "width": 1024,
+          "height": 576
+        },
+        "property": {
+          "id": "cancer-listener",
+          "type": "listenerMegaphone",
+          "speakerZoneName": "meeting-cancer",
+          "chatEnabled": true,
+          "allowTalking": false,
+          "raiseHandEnabled": true
+        }
+      }
+    ],
+    "speaker-leo": [
+      {
+        "areaId": "meeting-leo",
+        "geometry": {
+          "x": 160,
+          "y": 160,
+          "width": 832,
+          "height": 224
+        },
+        "property": {
+          "id": "leo-stage-broadcast",
+          "type": "speakerMegaphone",
+          "name": "varcamp-leo-talk",
+          "chatEnabled": true,
+          "seeAttendees": false
+        }
+      },
+      {
+        "areaId": "leo-audience",
+        "geometry": {
+          "x": 64,
+          "y": 512,
+          "width": 1024,
+          "height": 576
+        },
+        "property": {
+          "id": "leo-listener",
+          "type": "listenerMegaphone",
+          "speakerZoneName": "meeting-leo",
+          "chatEnabled": true,
+          "allowTalking": false,
+          "raiseHandEnabled": true
+        }
+      }
+    ],
+    "speaker-virgo": [
+      {
+        "areaId": "meeting-virgo",
+        "geometry": {
+          "x": 160,
+          "y": 160,
+          "width": 832,
+          "height": 224
+        },
+        "property": {
+          "id": "virgo-stage-broadcast",
+          "type": "speakerMegaphone",
+          "name": "varcamp-virgo-talk",
+          "chatEnabled": true,
+          "seeAttendees": false
+        }
+      },
+      {
+        "areaId": "virgo-audience",
+        "geometry": {
+          "x": 64,
+          "y": 512,
+          "width": 1024,
+          "height": 576
+        },
+        "property": {
+          "id": "virgo-listener",
+          "type": "listenerMegaphone",
+          "speakerZoneName": "meeting-virgo",
+          "chatEnabled": true,
+          "allowTalking": false,
+          "raiseHandEnabled": true
+        }
+      }
+    ],
+    "speaker-libra": [
+      {
+        "areaId": "meeting-libra",
+        "geometry": {
+          "x": 160,
+          "y": 160,
+          "width": 832,
+          "height": 224
+        },
+        "property": {
+          "id": "libra-stage-broadcast",
+          "type": "speakerMegaphone",
+          "name": "varcamp-libra-talk",
+          "chatEnabled": true,
+          "seeAttendees": false
+        }
+      },
+      {
+        "areaId": "libra-audience",
+        "geometry": {
+          "x": 64,
+          "y": 512,
+          "width": 1024,
+          "height": 576
+        },
+        "property": {
+          "id": "libra-listener",
+          "type": "listenerMegaphone",
+          "speakerZoneName": "meeting-libra",
+          "chatEnabled": true,
+          "allowTalking": false,
+          "raiseHandEnabled": true
+        }
+      }
+    ],
+    "speaker-scorpio": [
+      {
+        "areaId": "meeting-scorpio",
+        "geometry": {
+          "x": 160,
+          "y": 160,
+          "width": 832,
+          "height": 224
+        },
+        "property": {
+          "id": "scorpio-stage-broadcast",
+          "type": "speakerMegaphone",
+          "name": "varcamp-scorpio-talk",
+          "chatEnabled": true,
+          "seeAttendees": false
+        }
+      },
+      {
+        "areaId": "scorpio-audience",
+        "geometry": {
+          "x": 64,
+          "y": 512,
+          "width": 1024,
+          "height": 576
+        },
+        "property": {
+          "id": "scorpio-listener",
+          "type": "listenerMegaphone",
+          "speakerZoneName": "meeting-scorpio",
+          "chatEnabled": true,
+          "allowTalking": false,
+          "raiseHandEnabled": true
+        }
+      }
+    ],
+    "speaker-sagittarius": [
+      {
+        "areaId": "meeting-sagittarius",
+        "geometry": {
+          "x": 160,
+          "y": 160,
+          "width": 960,
+          "height": 224
+        },
+        "property": {
+          "id": "sagittarius-stage-broadcast",
+          "type": "speakerMegaphone",
+          "name": "varcamp-sagittarius-talk",
+          "chatEnabled": true,
+          "seeAttendees": false
+        }
+      },
+      {
+        "areaId": "sagittarius-audience",
+        "geometry": {
+          "x": 64,
+          "y": 512,
+          "width": 1152,
+          "height": 576
+        },
+        "property": {
+          "id": "sagittarius-listener",
+          "type": "listenerMegaphone",
+          "speakerZoneName": "meeting-sagittarius",
+          "chatEnabled": true,
+          "allowTalking": false,
+          "raiseHandEnabled": true
+        }
+      }
+    ],
+    "speaker-capricorn": [
+      {
+        "areaId": "meeting-capricorn",
+        "geometry": {
+          "x": 160,
+          "y": 160,
+          "width": 832,
+          "height": 224
+        },
+        "property": {
+          "id": "capricorn-stage-broadcast",
+          "type": "speakerMegaphone",
+          "name": "varcamp-capricorn-talk",
+          "chatEnabled": true,
+          "seeAttendees": false
+        }
+      },
+      {
+        "areaId": "capricorn-audience",
+        "geometry": {
+          "x": 64,
+          "y": 512,
+          "width": 1024,
+          "height": 576
+        },
+        "property": {
+          "id": "capricorn-listener",
+          "type": "listenerMegaphone",
+          "speakerZoneName": "meeting-capricorn",
+          "chatEnabled": true,
+          "allowTalking": false,
+          "raiseHandEnabled": true
+        }
+      }
+    ],
+    "speaker-aquarius": [
+      {
+        "areaId": "meeting-aquarius",
+        "geometry": {
+          "x": 160,
+          "y": 160,
+          "width": 832,
+          "height": 224
+        },
+        "property": {
+          "id": "aquarius-stage-broadcast",
+          "type": "speakerMegaphone",
+          "name": "varcamp-aquarius-talk",
+          "chatEnabled": true,
+          "seeAttendees": false
+        }
+      },
+      {
+        "areaId": "aquarius-audience",
+        "geometry": {
+          "x": 64,
+          "y": 512,
+          "width": 1024,
+          "height": 576
+        },
+        "property": {
+          "id": "aquarius-listener",
+          "type": "listenerMegaphone",
+          "speakerZoneName": "meeting-aquarius",
+          "chatEnabled": true,
+          "allowTalking": false,
+          "raiseHandEnabled": true
+        }
+      }
+    ],
+    "speaker-pisces": [
+      {
+        "areaId": "meeting-pisces",
+        "geometry": {
+          "x": 160,
+          "y": 160,
+          "width": 832,
+          "height": 224
+        },
+        "property": {
+          "id": "pisces-stage-broadcast",
+          "type": "speakerMegaphone",
+          "name": "varcamp-pisces-talk",
+          "chatEnabled": true,
+          "seeAttendees": false
+        }
+      },
+      {
+        "areaId": "pisces-audience",
+        "geometry": {
+          "x": 64,
+          "y": 512,
+          "width": 1024,
+          "height": 576
+        },
+        "property": {
+          "id": "pisces-listener",
+          "type": "listenerMegaphone",
+          "speakerZoneName": "meeting-pisces",
+          "chatEnabled": true,
+          "allowTalking": false,
+          "raiseHandEnabled": true
+        }
+      }
+    ]
+  }
+}

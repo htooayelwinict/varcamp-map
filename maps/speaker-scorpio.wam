@@ -16,7 +16,7 @@
           "id": "scorpio-stage-broadcast",
           "type": "speakerMegaphone",
           "name": "varcamp-scorpio-talk",
-          "chatEnabled": false,
+          "chatEnabled": true,
           "seeAttendees": false
         }
       ]
@@ -44,7 +44,7 @@
           "id": "scorpio-listener",
           "type": "listenerMegaphone",
           "speakerZoneName": "meeting-scorpio",
-          "chatEnabled": false,
+          "chatEnabled": true,
           "allowTalking": false,
           "raiseHandEnabled": true
         }

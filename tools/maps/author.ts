@@ -3,7 +3,7 @@ import { existsSync } from 'node:fs';
 import { createHash } from 'node:crypto';
 import { buildMap } from './builder';
 import {withOrganizerMeetings} from './organizer-meetings';
-import {withAriesSharedChat} from './aries-shared-chat';
+import {withSpeakerSharedChat} from './speaker-shared-chat';
 import { loadTileCatalog } from '../art/catalog';
 import { validateMap, validateWam } from './validate';
 import { WORLD_CATALOG } from '../../src/world/catalog';
@@ -16,7 +16,7 @@ const prior:Record<string,string>=existsSync(manifestPath)?JSON.parse(await read
 const layouts=await Promise.all((await readdir('world/layouts')).filter(f=>f.endsWith('.json')).sort().map(async f=>JSON.parse(await readFile(`world/layouts/${f}`,'utf8')) as MapLayout));
 const outputs:Record<string,string>={};
 for(const layout of layouts){
- const{tmj,wam:baseWam}=buildMap(layout,loadTileCatalog()),wam=withAriesSharedChat(layout.id,withOrganizerMeetings(layout.id,baseWam)),issues=[...validateMap(tmj,WORLD_CATALOG),...validateWam(wam)];
+ const{tmj,wam:baseWam}=buildMap(layout,loadTileCatalog()),wam=withSpeakerSharedChat(layout.id,withOrganizerMeetings(layout.id,baseWam)),issues=[...validateMap(tmj,WORLD_CATALOG),...validateWam(wam)];
  if(issues.length)throw Error(`${layout.id}: ${JSON.stringify(issues)}`);
  outputs[`maps/${layout.id}.tmj`]=JSON.stringify(tmj)+'\n';outputs[`maps/${layout.id}.wam`]=JSON.stringify(wam,null,2)+'\n';
 }

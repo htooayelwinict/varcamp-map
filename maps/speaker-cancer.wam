@@ -16,7 +16,7 @@
           "id": "cancer-stage-broadcast",
           "type": "speakerMegaphone",
           "name": "varcamp-cancer-talk",
-          "chatEnabled": false,
+          "chatEnabled": true,
           "seeAttendees": false
         }
       ]
@@ -44,7 +44,7 @@
           "id": "cancer-listener",
           "type": "listenerMegaphone",
           "speakerZoneName": "meeting-cancer",
-          "chatEnabled": false,
+          "chatEnabled": true,
           "allowTalking": false,
           "raiseHandEnabled": true
         }

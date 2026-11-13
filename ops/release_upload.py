@@ -19,6 +19,7 @@ from organizer_meetings import is_organizer_meetings_wam_change, is_sagittarius_
 from enchanted_exploration import is_exploration_wam_change
 from arrival_check_in_zone import is_arrival_check_in_wam_change
 from aries_shared_chat import is_aries_shared_chat_wam_change
+from speaker_shared_chat import is_speaker_shared_chat_wam_change
 
 
 def wam_reference(path, data):
@@ -209,6 +210,8 @@ def wam_dependencies(release, baseline, reviewed_wams=None):
                     named_migration = 'arrival-check-in-width-v1'
                 elif is_aries_shared_chat_wam_change(path, baseline[path], candidate):
                     named_migration = 'aries-shared-chat-v1'
+                elif is_speaker_shared_chat_wam_change(path, baseline[path], candidate):
+                    named_migration = 'speaker-shared-chat-v1'
             if protected != original_protected and not named_migration:
                 raise ValueError(f'{path}: reviewed migration must preserve every byte outside the mapUrl version token')
         dependencies[path] = {

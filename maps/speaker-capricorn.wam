@@ -16,7 +16,7 @@
           "id": "capricorn-stage-broadcast",
           "type": "speakerMegaphone",
           "name": "varcamp-capricorn-talk",
-          "chatEnabled": false,
+          "chatEnabled": true,
           "seeAttendees": false
         }
       ]
@@ -44,7 +44,7 @@
           "id": "capricorn-listener",
           "type": "listenerMegaphone",
           "speakerZoneName": "meeting-capricorn",
-          "chatEnabled": false,
+          "chatEnabled": true,
           "allowTalking": false,
           "raiseHandEnabled": true
         }

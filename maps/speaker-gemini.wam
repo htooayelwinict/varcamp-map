@@ -16,7 +16,7 @@
           "id": "gemini-stage-broadcast",
           "type": "speakerMegaphone",
           "name": "varcamp-gemini-talk",
-          "chatEnabled": false,
+          "chatEnabled": true,
           "seeAttendees": false
         }
       ]
@@ -44,7 +44,7 @@
           "id": "gemini-listener",
           "type": "listenerMegaphone",
           "speakerZoneName": "meeting-gemini",
-          "chatEnabled": false,
+          "chatEnabled": true,
           "allowTalking": false,
           "raiseHandEnabled": true
         }

@@ -16,7 +16,7 @@
           "id": "libra-stage-broadcast",
           "type": "speakerMegaphone",
           "name": "varcamp-libra-talk",
-          "chatEnabled": false,
+          "chatEnabled": true,
           "seeAttendees": false
         }
       ]
@@ -44,7 +44,7 @@
           "id": "libra-listener",
           "type": "listenerMegaphone",
           "speakerZoneName": "meeting-libra",
-          "chatEnabled": false,
+          "chatEnabled": true,
           "allowTalking": false,
           "raiseHandEnabled": true
         }

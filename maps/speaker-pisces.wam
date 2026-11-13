@@ -16,7 +16,7 @@
           "id": "pisces-stage-broadcast",
           "type": "speakerMegaphone",
           "name": "varcamp-pisces-talk",
-          "chatEnabled": false,
+          "chatEnabled": true,
           "seeAttendees": false
         }
       ]
@@ -44,7 +44,7 @@
           "id": "pisces-listener",
           "type": "listenerMegaphone",
           "speakerZoneName": "meeting-pisces",
-          "chatEnabled": false,
+          "chatEnabled": true,
           "allowTalking": false,
           "raiseHandEnabled": true
         }

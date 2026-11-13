@@ -16,7 +16,7 @@
           "id": "virgo-stage-broadcast",
           "type": "speakerMegaphone",
           "name": "varcamp-virgo-talk",
-          "chatEnabled": false,
+          "chatEnabled": true,
           "seeAttendees": false
         }
       ]
@@ -44,7 +44,7 @@
           "id": "virgo-listener",
           "type": "listenerMegaphone",
           "speakerZoneName": "meeting-virgo",
-          "chatEnabled": false,
+          "chatEnabled": true,
           "allowTalking": false,
           "raiseHandEnabled": true
         }

@@ -16,7 +16,7 @@
           "id": "taurus-stage-broadcast",
           "type": "speakerMegaphone",
           "name": "varcamp-taurus-talk",
-          "chatEnabled": false,
+          "chatEnabled": true,
           "seeAttendees": false
         }
       ]
@@ -44,7 +44,7 @@
           "id": "taurus-listener",
           "type": "listenerMegaphone",
           "speakerZoneName": "meeting-taurus",
-          "chatEnabled": false,
+          "chatEnabled": true,
           "allowTalking": false,
           "raiseHandEnabled": true
         }

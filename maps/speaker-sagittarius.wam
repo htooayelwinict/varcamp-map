@@ -16,7 +16,7 @@
           "id": "sagittarius-stage-broadcast",
           "type": "speakerMegaphone",
           "name": "varcamp-sagittarius-talk",
-          "chatEnabled": false,
+          "chatEnabled": true,
           "seeAttendees": false
         }
       ]
@@ -44,7 +44,7 @@
           "id": "sagittarius-listener",
           "type": "listenerMegaphone",
           "speakerZoneName": "meeting-sagittarius",
-          "chatEnabled": false,
+          "chatEnabled": true,
           "allowTalking": false,
           "raiseHandEnabled": true
         }

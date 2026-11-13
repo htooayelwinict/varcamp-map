@@ -5,7 +5,7 @@ import {auditoriumFunctional,assertAuditoriumSpacing} from './auditorium-spacing
 import {restoreStageSideAccess} from './stage-side-access';
 import {restoreSpeakerOfficeWings,officeWingFunctional,assertOfficeMaterials} from './speaker-office-wings';
 import {withOrganizerMeetings} from './organizer-meetings';
-import {withAriesSharedChat} from './aries-shared-chat';
+import {withSpeakerSharedChat} from './speaker-shared-chat';
 import {restoreHallCeremonies} from './hall-ceremonies';
 import{isDeepStrictEqual}from'node:util';
 import{SIGN_IDS}from'../../src/world/catalog';
@@ -26,7 +26,7 @@ export function renderReferenceInterior(layout:MapLayout,catalog:TileCatalog){
  const result=buildMap(layout,catalog);
  for(const layer of result.tmj.layers)if(layer.type==='objectgroup')for(const object of layer.objects)if(object.name==='scene-title')object.text={...(object.text as object),bold:true};
  // Native TMJ is a JSON value: the author serializer omits undefined optional fields.
- return{tmj:JSON.parse(JSON.stringify(result.tmj))as TiledMap,wam:withAriesSharedChat(layout.id,withOrganizerMeetings(layout.id,result.wam))};
+ return{tmj:JSON.parse(JSON.stringify(result.tmj))as TiledMap,wam:withSpeakerSharedChat(layout.id,withOrganizerMeetings(layout.id,result.wam))};
 }
 /** Complete-package callers must first bind filename/native/layout/WAM identity.
  * This guard never writes and does not erase independent organizer WAM content. */

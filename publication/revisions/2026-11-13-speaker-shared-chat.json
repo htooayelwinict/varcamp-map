@@ -1,0 +1,77 @@
+{
+  "schemaVersion": 1,
+  "revisions": [
+    {
+      "path": "maps/speaker-aquarius.wam",
+      "fromSha256": "7f7fd076354d9eece47e66cf0ba4939e91289716142671037afaea7616a09c42",
+      "toSha256": "75eb1cbb58c2c9470b4b79d50e7b7ff4fb20d27d12d8e3b0698ce42392a9580f",
+      "reason": "Extend the accepted Aries native shared presentation chat to the other eleven zodiac rooms. Change only the stage and audience chat flags; preserve distinct room channels, saved metadata, geometry and audio permissions."
+    },
+    {
+      "path": "maps/speaker-cancer.wam",
+      "fromSha256": "5607a8a5beccc808d88e394a448a136bfb727eeff876662fa8bd193f39a13c0b",
+      "toSha256": "f75c5cb669084d9db09c3f70c0177240291ad26c6e4ff04949a1c30b7422f2d7",
+      "reason": "Extend the accepted Aries native shared presentation chat to the other eleven zodiac rooms. Change only the stage and audience chat flags; preserve distinct room channels, saved metadata, geometry and audio permissions."
+    },
+    {
+      "path": "maps/speaker-capricorn.wam",
+      "fromSha256": "82d29df83082126f5f1b8aa82ac338f6ef88589f8197ff765ab934594f18df78",
+      "toSha256": "5cbf8c4085e7ffbf87be882812e61c653e3750cc12ca9bd5754343912e61260b",
+      "reason": "Extend the accepted Aries native shared presentation chat to the other eleven zodiac rooms. Change only the stage and audience chat flags; preserve distinct room channels, saved metadata, geometry and audio permissions."
+    },
+    {
+      "path": "maps/speaker-gemini.wam",
+      "fromSha256": "055449a424fdff2fab9aef4b3352dae3289e8f408a531351210bf65d80a88951",
+      "toSha256": "f94def993f532ec9669687bd480130edf0a9d16cd366289743d7e2d7a48d79d4",
+      "reason": "Extend the accepted Aries native shared presentation chat to the other eleven zodiac rooms. Change only the stage and audience chat flags; preserve distinct room channels, saved metadata, geometry and audio permissions."
+    },
+    {
+      "path": "maps/speaker-leo.wam",
+      "fromSha256": "4741f3fcc1dd5eefe53b297be028d088b9c7ce8f981108c6b069c81aa6ada18d",
+      "toSha256": "ba82e9b41fc54407bf7cc6abd35762da3866227613a67ac8a3fa153d0c2383bc",
+      "reason": "Extend the accepted Aries native shared presentation chat to the other eleven zodiac rooms. Change only the stage and audience chat flags; preserve distinct room channels, saved metadata, geometry and audio permissions."
+    },
+    {
+      "path": "maps/speaker-libra.wam",
+      "fromSha256": "941b51a0a735bd1de5815718648f6e96871c74a98a62d5a06c2668c035552eb2",
+      "toSha256": "0441b46da08cc7e8107980af324f1ff05cb7f43477945f09d20c1b2fdb3e4937",
+      "reason": "Extend the accepted Aries native shared presentation chat to the other eleven zodiac rooms. Change only the stage and audience chat flags; preserve distinct room channels, saved metadata, geometry and audio permissions."
+    },
+    {
+      "path": "maps/speaker-pisces.wam",
+      "fromSha256": "bdb181b684c556f1114e6748c635eb8941e10a0542341a967b610d4932f2751d",
+      "toSha256": "516d1ab61ab9a2d1064a396db2480dcfa7d0a2cacf072335117ff781566656d8",
+      "reason": "Extend the accepted Aries native shared presentation chat to the other eleven zodiac rooms. Change only the stage and audience chat flags; preserve distinct room channels, saved metadata, geometry and audio permissions."
+    },
+    {
+      "path": "maps/speaker-sagittarius.wam",
+      "fromSha256": "20e0c6b97c0b73dc366b482fdfcb4a21da4e019910bfa9b69278414f6f9d9e84",
+      "toSha256": "7f5e6b50fc2b53fa4aa1da0fc63fdddb235721996420c70c7110d8ffe33efd8b",
+      "reason": "Extend the accepted Aries native shared presentation chat to the other eleven zodiac rooms. Change only the stage and audience chat flags; preserve distinct room channels, saved metadata, geometry and audio permissions."
+    },
+    {
+      "path": "maps/speaker-scorpio.wam",
+      "fromSha256": "7a766718e60f5454833255716f59f36911cb94e78f86d19a338e4932e3440dfe",
+      "toSha256": "02832f38fa9cc2cc26a2ad5ae36ab718310a94c96641f81542140c17f4e35c7a",
+      "reason": "Extend the accepted Aries native shared presentation chat to the other eleven zodiac rooms. Change only the stage and audience chat flags; preserve distinct room channels, saved metadata, geometry and audio permissions."
+    },
+    {
+      "path": "maps/speaker-taurus.wam",
+      "fromSha256": "fc82c24f51297102564acc2a43dbca9a18c8b4595a0aba97a9f33c16e54ebfbf",
+      "toSha256": "a2690f6c19929ac447e4c05ca576c1eab9e7b1192326e31b3f744ef867b34b6d",
+      "reason": "Extend the accepted Aries native shared presentation chat to the other eleven zodiac rooms. Change only the stage and audience chat flags; preserve distinct room channels, saved metadata, geometry and audio permissions."
+    },
+    {
+      "path": "maps/speaker-virgo.wam",
+      "fromSha256": "593f5d83a1de0d19aec8bc1ee7236811c5839e2c6153255ee7581ac3cb027c69",
+      "toSha256": "1caae52b8e58e1bc5a99befd80fcf139cfeae79b4a00be2937fed04a1ba557c8",
+      "reason": "Extend the accepted Aries native shared presentation chat to the other eleven zodiac rooms. Change only the stage and audience chat flags; preserve distinct room channels, saved metadata, geometry and audio permissions."
+    },
+    {
+      "path": "tools/maps/author.ts",
+      "fromSha256": "84a6a20749ecf275ab615d67ef422d424d04c5e6229b7d67a4c853f321444743",
+      "toSha256": "72f7d8aecb48a01812e070ec35df5624894a164db1a03fe43f77956e5c999e77",
+      "reason": "Extend the accepted Aries native shared presentation chat to the other eleven zodiac rooms. Change only the stage and audience chat flags; preserve distinct room channels, saved metadata, geometry and audio permissions."
+    }
+  ]
+}
