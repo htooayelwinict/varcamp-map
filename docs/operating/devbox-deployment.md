@@ -20,7 +20,7 @@ cd /srv/varcamp && docker compose --env-file private/environment -f compose.yml 
 
 Never commit the filled-in override, real digests, catalog hashes or operator emails.
 
-The legacy NPC implementation and guide runners were removed from this repository on 2026-11-13. The previously installed `/srv/varcamp/npc` copy is separate: at the start of that removal task, `varcamp-npc-1` was still running. Repository removal does not stop that container or erase older uploaded bundles. Do not treat a source build as a deployment receipt.
+The legacy NPC implementation and guide runners were removed from this repository on 2026-11-13. At 05:07 UTC the separately installed `varcamp-npc-1` and the stopped Lyra, Nova and Orion guide containers were also removed. The standalone NPC Compose definition and installed server were retired; private recovery material is under `/srv/varcamp/private/retired-npc-20261113T050717Z`. All eight core WA service IDs and start times were unchanged. The old NPC health route subsequently returned 404. Older uploaded map bundles are separate from this service retirement; the cloud event package contains no guide or NPC entry points. See [WA event publication](wa-cloud-publication.md).
 
 ## Checking drift
 

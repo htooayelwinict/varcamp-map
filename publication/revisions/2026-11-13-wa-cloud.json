@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "revisions": [
+    {
+      "path": "src/navigation.ts",
+      "fromSha256": "f5ebaa7cefbc1a88c07348f14f443d267f86a75de5184a39450a2b2826739ee3",
+      "toSha256": "a268b98a4055451b5fc7123c96be68294a26ab27ab748daece982460750575cf",
+      "reason": "Publish the approved event to sponsored WorkAdventure SaaS: remove the self-hosted-only navigation restriction and load the official iframe bridge, preserving all room destinations and map artwork."
+    },
+    {
+      "path": "src/journal/index.html",
+      "fromSha256": "e4b1e0eed1f0ba9b52502ee698d5c09fdf40cae79acd2d411a364ef0e5d639c2",
+      "toSha256": "d220b0e0696a6a1b119f29fc06f4e0e915e484888471aa0078d8d3398323559e",
+      "reason": "Publish the approved event to sponsored WorkAdventure SaaS: remove the self-hosted-only navigation restriction and load the official iframe bridge, preserving all room destinations and map artwork."
+    }
+  ]
+}

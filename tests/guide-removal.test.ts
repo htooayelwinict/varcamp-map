@@ -6,7 +6,10 @@ import stations from '../world/check-in-stations.json';
 
 afterEach(() => { vi.unstubAllGlobals(); vi.restoreAllMocks(); vi.resetModules(); });
 
-it('boots the real plaza entry without guide menus while navigation, quests and registration remain usable', async () => {
+it.each([
+  ['https://play.example/~/varcamp/maps/overworld.wam', 'https://play.example/~/varcamp/maps/solar-hall.wam#solar-entry'],
+  ['https://play.workadventu.re/@/varcamp/world/varcamp-2026/maps/overworld.wam', 'https://play.workadventu.re/@/varcamp/world/varcamp-2026/maps/solar-hall.wam#solar-entry'],
+])('boots the real plaza entry without guide menus while navigation, quests and registration remain usable: %s', async (roomId, solarDestination) => {
   const menus = new Map<string, () => void>();
   const enters = new Map<string, () => void>();
   const actions = new Map<string, () => void>();
@@ -14,7 +17,7 @@ it('boots the real plaza entry without guide menus while navigation, quests and 
   const arrival = stations.stations.find(s => s.id === 'arrival')!.interaction;
   const api = {
     onInit: async () => {}, controls: { disableRightClick: vi.fn() },
-    room: { id: 'https://play.example/~/varcamp/maps/overworld.wam', website: { create: vi.fn(async () => {}), delete: vi.fn(async () => {}) } },
+    room: { id: roomId, website: { create: vi.fn(async () => {}), delete: vi.fn(async () => {}) } },
     player: { name: 'Attendee', getPosition: async () => ({ x: (arrival.x + 0.5) * 32, y: (arrival.y + 0.5) * 32 }), onPlayerMove: () => ({ unsubscribe() {} }), state: { loadVariable: () => undefined, saveVariable: vi.fn(async () => {}), onVariableChange: () => ({ subscribe: () => ({ unsubscribe() {} }) }) } },
     mapEditor: { area: { onEnter: subscription(enters), onLeave: subscription(new Map()) } },
     nav: { goToRoom: vi.fn(), openTab: vi.fn() },
@@ -27,7 +30,7 @@ it('boots the real plaza entry without guide menus while navigation, quests and 
   expect(warnings).not.toHaveBeenCalled();
   expect([...menus.keys()].sort()).toEqual(['Go to Lunar Hall', 'Go to Solar Hall', 'Quest Journal', 'Return to Plaza']);
   menus.get('Go to Solar Hall')!();
-  expect(api.nav.goToRoom).toHaveBeenCalledWith('https://play.example/~/varcamp/maps/solar-hall.wam#solar-entry');
+  expect(api.nav.goToRoom).toHaveBeenCalledWith(solarDestination);
   menus.get('Quest Journal')!();
   expect(api.ui.modal.openModal).toHaveBeenCalledWith(expect.objectContaining({ title: 'VarCamp Quest Journal' }));
   expect(enters.has('welcome-directory')).toBe(true);
