@@ -4,6 +4,8 @@ import { roomDestination, venueDestination } from '../src/navigation';
 
 describe('WA production navigation', () => {
   it.each([
+    ['https://play.workadventu.re/@/varcamp/world/varcamp-2026/maps/overworld', 'https://play.workadventu.re/@/varcamp/world/varcamp-2026/maps/solar-hall.wam#solar-entry'],
+    ['https://event.example/@/varcamp-2026/maps/overworld', 'https://event.example/@/varcamp-2026/maps/solar-hall.wam#solar-entry'],
     ['https://play.workadventu.re/@/varcamp/world/varcamp-2026/maps/overworld.wam?old=1#welcome', 'https://play.workadventu.re/@/varcamp/world/varcamp-2026/maps/solar-hall.wam#solar-entry'],
     ['https://event.example/@/varcamp-2026/maps/overworld.wam', 'https://event.example/@/varcamp-2026/maps/solar-hall.wam#solar-entry'],
     ['https://play.example/~/varcamp/maps/overworld.wam', 'https://play.example/~/varcamp/maps/solar-hall.wam#solar-entry'],

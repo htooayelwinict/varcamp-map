@@ -1345,7 +1345,7 @@
     "assets/tilesets/zodiac-exteriors/ATTRIBUTION.md": "b142b2ea696e340dcdba6b15a4df9f81dba0de05b73df7b14c7d8eb755af9892",
     "assets/tilesets/zodiac-exteriors/LICENSE.txt": "7dd9977e106869d0e9f53a4db99306bf67bc4f3c33811db8da033a8ed272bd53",
     "buildmap.vite.config.ts": "baee8d333314699d54ee72af7776209e9f184313b8a004c95676facf1c06e8df",
-    "docs/current-release-facts.md": "1397871708d29602650cdd82b1c589609e87f3ae8d5f66ababf6bf1c841c779a",
+    "docs/current-release-facts.md": "346dbe0e63c20f3191eda0f668126514b5aa48c651c8a71ff66cf73067f364c8",
     "docs/dependencies.md": "33b281b9f6105ead19ecfe1facc6c441f65ef600691845a743da2bb1347c6379",
     "docs/entity-editor-catalogs.md": "ab575b70290ee67a5c91022396c40b2bcbf64c9c326068709ed0541054212e2c",
     "docs/operating/arrival-sponsor-space.md": "e1e6e459de2a9b9a52270c06c4e497e36e91ad8c4a08987f27c0289a4e013db6",
@@ -1571,7 +1571,7 @@
     "publication/revisions/2026-11-12-expo-roster.json": "ea470600220d161284dd13d40b393e801d2e010f4723514223464dab6b9a176c",
     "publication/revisions/2026-11-13-remove-guides.json": "70b7b024b5e8e1a96854134ab8e039473bfa70531f0c52fdc98551b750daba87",
     "publication/revisions/README.md": "3e3e2de7ffb3cee827ac613837fda846aca14fbfda4528175905662f78893e0d",
-    "publication/verify-source.mjs": "2083ac2def03cf50ad117f652dd0da1b7e67fd622c3aeea12b3d61abe5ececc1",
+    "publication/verify-source.mjs": "840b79064c6625f2f590dea9c78d14c70469763f3a317938ee5738495e77e134",
     "src/adventure/content.ts": "3f6070d72710010ac4843dddd9a39d0f53eb032bc60653713e325cf9e7a67e6b",
     "src/adventure/index.html": "5858958f6212ae4f9ee9f2261327ed530a31d7c1d0e87b826784d3cb9e9db329",
     "src/adventure/interactions.ts": "b54c6a0b7a16ccd92433dd047d269e92b17b84cfa4ad89484d7abefddcb201f9",
@@ -1846,7 +1846,7 @@
     "tests/fixtures/zodiac-exteriors/source-registration.json": "db9166a8eac3d1b51c8bbda43040544defe1bac60e28903c8d21953f70378078",
     "tests/fixtures/zodiac-physics/before.json.gz": "36a7afdbffc1f41255ae081491052c65370affdfd42ddafd57a3f5922a993989",
     "tests/fountain-motion.test.ts": "9105af5905ed9b2ba35913103942403fd9d15c7c88ada8ac87ca22cebfd7de3f",
-    "tests/guide-removal.test.ts": "f5d157527ed48a27a57ea6984f46f16d9dfe08aad147c80cadcfbceb4999323f",
+    "tests/guide-removal.test.ts": "c648430ea249ea8c46a8898077457ba5b42851731ab1d2fe2d8143316e6e2f68",
     "tests/hall-buildings.test.ts": "ce2acb2d0dec443d6edf82fcc0beafd1f7622758847158bb48872122929100c8",
     "tests/hall-ceremonies.test.ts": "5b907490930e9d2ed618136c8fc25c8d799ea25c1c92579c862a4b6bee452da2",
     "tests/hall-exteriors.test.ts": "6072439fa8dafaee80516e44b421d72a5dfb9bed5b001d22a46710776fc8c3f6",
@@ -2202,12 +2202,13 @@
     "world/vibecode-branding.json": "9a93006c3f30fd5505263df7be5e1303f3f526e86438549e0f348bdd6ba0abdd",
     "world/zodiac-exteriors.json": "121d69129772ddb8078bdf261eb1991be6a43d1d16bfd7ad8de1cd0ac9e90a9b",
     "world/zodiac-physics.json": "cb2e0080e7a5ee02ce26d0ec8fa93772da120a5d27e75f4168f768456e631978",
-    "tests/wa-cloud-navigation.test.ts": "9411b54d25e1d8846bda10670e21922a033a93f5bac5dec21cf20a61c781a56d",
+    "tests/wa-cloud-navigation.test.ts": "5d522dcb4edfb70e9d516046e45f98cc2daa3ee672811163dc68f2af6c842597",
     "ops/wa_cloud_release.py": "583cfe32a254348fa783a42599866f5b93c2d061c1021e6a7d60de879b9e55e3",
     "ops/tests/wa-cloud-release.test.ts": "344c28eefb721e235342b86f779c2627d918b5675b34f397fd353f38c7965f8b",
     "ops/tests/wa_cloud_release_test.py": "f2663fd1d54c2eb046fb329bc9c0d0b0d16a5a721ec8be5204974e80723ec6be",
     "docs/operating/devbox-deployment.md": "11598a53e5eed7bcac2d16313b474fa65e9ba97572acc353f21943b81c0b292a",
     "docs/operating/wa-cloud-publication.md": "1bdade46ea8dbbbf6d543cd41792e434a91b7596b4c8ea2b57b6a3dd5b699820",
-    "publication/revisions/2026-11-13-wa-cloud.json": "d2e0c1a7da3cd8658d12d0407f48f9a535ebdf965b63e8a2862506aefe1b1508"
+    "publication/revisions/2026-11-13-wa-cloud.json": "d2e0c1a7da3cd8658d12d0407f48f9a535ebdf965b63e8a2862506aefe1b1508",
+    "publication/revisions/2026-11-13-wa-canonical-rooms.json": "50f4fd77eafc8e90786e9cab5acff5504d3cf8fac16d3652421e6253d874a7e6"
   }
 }

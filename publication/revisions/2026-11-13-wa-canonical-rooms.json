@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 1,
+  "revisions": [
+    {
+      "path": "src/navigation.ts",
+      "fromSha256": "a268b98a4055451b5fc7123c96be68294a26ab27ab748daece982460750575cf",
+      "toSha256": "730858ef30ed94bd3e1b02d31dc0cf30a9acd70ac6cea2ce6f50a5d7ab38a574",
+      "reason": "The live SaaS browser and WA.room.id canonicalize hosted rooms without .wam. Accept that observed native address while retaining relative room destinations, map asset rejection and existing self-hosted paths."
+    }
+  ]
+}

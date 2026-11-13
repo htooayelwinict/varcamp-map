@@ -13,7 +13,10 @@ function arrival(mapId: MapId, entry?: string): string {
 /** Keep every production destination in the current map-storage world. */
 export function roomDestination(currentRoomId: string, mapId: MapId, entry?: string): string {
   const url = new URL(currentRoomId);
-  if (!/^https?:$/.test(url.protocol) || !/^\/(?:~|@)\/[^/]+\/.+\.wam$/.test(url.pathname)) {
+  const selfHosted = /^\/~\/[^/]+\/.+\.wam$/.test(url.pathname);
+  // WA SaaS canonicalizes both the address bar and room.id without .wam.
+  const hosted = /^\/@\/(?:[^/]+\/)+[^/.]+(?:\.wam)?$/.test(url.pathname);
+  if (!/^https?:$/.test(url.protocol) || !(selfHosted || hosted)) {
     throw new Error('Production navigation requires a hosted world WAM room URL');
   }
   return sibling(url, mapId, 'wam', arrival(mapId, entry));
