@@ -1,0 +1,129 @@
+{
+  "version": "2.1.0",
+  "mapUrl": "overworld.tmj?v=0000000000000000000000000000000000000000000000000000000000000000",
+  "areas": [
+    {
+      "x": 1575,
+      "y": 2138,
+      "width": 921,
+      "height": 202,
+      "id": "de981144-6b26-4649-b0f1-42a078f4f8cd",
+      "visible": true,
+      "name": "Digisec-Lab",
+      "properties": [
+        {
+          "id": "e9a7340d-0766-4869-a386-ce8f63929851",
+          "type": "areaDescriptionProperties",
+          "description": "",
+          "searchable": false
+        },
+        {
+          "id": "daaf2903-2739-43f2-a28c-0d0619294acb",
+          "type": "livekitRoomProperty",
+          "roomName": "Digisec-Lab",
+          "livekitRoomConfig": {
+            "startWithAudioMuted": false,
+            "startWithVideoMuted": false,
+            "disableChat": true,
+            "raiseHandEnabled": true
+          },
+          "livekitRoomAdminTag": ""
+        },
+        {
+          "id": "47efc936-27d0-4a46-874e-824fd808cd0a",
+          "resourceUrl": "https://pusher.workadventu.re/roomArea",
+          "serverData": {
+            "matrixRoomId": "!fPdVOSeotSxsxYUtdu:chat.workadventu.re"
+          },
+          "type": "matrixRoomPropertyData",
+          "shouldOpenAutomatically": false,
+          "displayName": "Digisec-Lab"
+        }
+      ]
+    },
+    {
+      "x": 1279,
+      "y": 2433,
+      "width": 610,
+      "height": 129,
+      "id": "5a13ce08-51a3-434e-9a2e-ec79f473f6c8",
+      "visible": true,
+      "name": "newness",
+      "properties": [
+        {
+          "id": "869b33c6-e324-4d1a-b08f-ba8a1bbc0fed",
+          "type": "areaDescriptionProperties",
+          "description": "",
+          "searchable": false
+        },
+        {
+          "id": "e088a436-de18-46ec-ae4b-7bbbb247328e",
+          "type": "livekitRoomProperty",
+          "roomName": "newness",
+          "livekitRoomConfig": {
+            "startWithAudioMuted": false,
+            "startWithVideoMuted": false,
+            "disableChat": true,
+            "raiseHandEnabled": true
+          },
+          "livekitRoomAdminTag": ""
+        },
+        {
+          "id": "03582eb3-31da-4e6a-929c-0136a86b1267",
+          "resourceUrl": "https://pusher.workadventu.re/roomArea",
+          "serverData": {
+            "matrixRoomId": "!VmAQPCAfWnZNwDERyc:chat.workadventu.re"
+          },
+          "type": "matrixRoomPropertyData",
+          "shouldOpenAutomatically": true,
+          "displayName": "newness"
+        }
+      ],
+      "modifyProperties": true,
+      "modifyServerData": true
+    },
+    {
+      "x": 2335,
+      "y": 2433,
+      "width": 483,
+      "height": 127,
+      "id": "e1bc2df0-571a-4d1f-84ce-0792ad93cb84",
+      "visible": true,
+      "name": "lokal-zaytann",
+      "properties": [
+        {
+          "id": "11f9285c-d44b-442d-bfcf-6a987c790dcc",
+          "type": "areaDescriptionProperties",
+          "description": "",
+          "searchable": false
+        },
+        {
+          "id": "87e2c6b6-3960-4b8c-b790-ad15c09059fa",
+          "type": "livekitRoomProperty",
+          "roomName": "lokal-zaytann",
+          "livekitRoomConfig": {
+            "startWithAudioMuted": false,
+            "startWithVideoMuted": false,
+            "disableChat": true,
+            "raiseHandEnabled": true
+          },
+          "livekitRoomAdminTag": ""
+        },
+        {
+          "id": "9b703ce4-9e2e-4693-872d-01071813eafe",
+          "resourceUrl": "https://pusher.workadventu.re/roomArea",
+          "serverData": {
+            "matrixRoomId": "!cyPvNJZkVVDRaQwPtV:chat.workadventu.re"
+          },
+          "type": "matrixRoomPropertyData",
+          "shouldOpenAutomatically": false,
+          "displayName": "lokal-zaytann"
+        }
+      ]
+    }
+  ],
+  "entities": {},
+  "metadata": {
+    "fixture": "preserve"
+  }
+}

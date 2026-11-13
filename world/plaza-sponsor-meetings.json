@@ -1,0 +1,99 @@
+{
+  "version": 1,
+  "mapId": "overworld",
+  "areas": [
+    {
+      "areaId": "de981144-6b26-4649-b0f1-42a078f4f8cd",
+      "geometry": {
+        "x": 1575,
+        "y": 2138,
+        "width": 921,
+        "height": 202
+      },
+      "meeting": {
+        "id": "daaf2903-2739-43f2-a28c-0d0619294acb",
+        "type": "livekitRoomProperty",
+        "roomName": "Digisec-Lab",
+        "livekitRoomConfig": {
+          "startWithAudioMuted": false,
+          "startWithVideoMuted": false,
+          "disableChat": true,
+          "raiseHandEnabled": true
+        },
+        "livekitRoomAdminTag": ""
+      },
+      "matrix": {
+        "id": "47efc936-27d0-4a46-874e-824fd808cd0a",
+        "resourceUrl": "https://pusher.workadventu.re/roomArea",
+        "serverData": {
+          "matrixRoomId": "!fPdVOSeotSxsxYUtdu:chat.workadventu.re"
+        },
+        "type": "matrixRoomPropertyData",
+        "shouldOpenAutomatically": false,
+        "displayName": "Digisec-Lab"
+      }
+    },
+    {
+      "areaId": "5a13ce08-51a3-434e-9a2e-ec79f473f6c8",
+      "geometry": {
+        "x": 1279,
+        "y": 2433,
+        "width": 610,
+        "height": 129
+      },
+      "meeting": {
+        "id": "e088a436-de18-46ec-ae4b-7bbbb247328e",
+        "type": "livekitRoomProperty",
+        "roomName": "newness",
+        "livekitRoomConfig": {
+          "startWithAudioMuted": false,
+          "startWithVideoMuted": false,
+          "disableChat": true,
+          "raiseHandEnabled": true
+        },
+        "livekitRoomAdminTag": ""
+      },
+      "matrix": {
+        "id": "03582eb3-31da-4e6a-929c-0136a86b1267",
+        "resourceUrl": "https://pusher.workadventu.re/roomArea",
+        "serverData": {
+          "matrixRoomId": "!VmAQPCAfWnZNwDERyc:chat.workadventu.re"
+        },
+        "type": "matrixRoomPropertyData",
+        "shouldOpenAutomatically": true,
+        "displayName": "newness"
+      }
+    },
+    {
+      "areaId": "e1bc2df0-571a-4d1f-84ce-0792ad93cb84",
+      "geometry": {
+        "x": 2335,
+        "y": 2433,
+        "width": 483,
+        "height": 127
+      },
+      "meeting": {
+        "id": "87e2c6b6-3960-4b8c-b790-ad15c09059fa",
+        "type": "livekitRoomProperty",
+        "roomName": "lokal-zaytann",
+        "livekitRoomConfig": {
+          "startWithAudioMuted": false,
+          "startWithVideoMuted": false,
+          "disableChat": true,
+          "raiseHandEnabled": true
+        },
+        "livekitRoomAdminTag": ""
+      },
+      "matrix": {
+        "id": "9b703ce4-9e2e-4693-872d-01071813eafe",
+        "resourceUrl": "https://pusher.workadventu.re/roomArea",
+        "serverData": {
+          "matrixRoomId": "!cyPvNJZkVVDRaQwPtV:chat.workadventu.re"
+        },
+        "type": "matrixRoomPropertyData",
+        "shouldOpenAutomatically": false,
+        "displayName": "lokal-zaytann"
+      }
+    }
+  ]
+}
