@@ -1,3 +1,4 @@
+import {restoreProgrammeBoards} from '../tools/maps/programme-boards';
 import {readFileSync} from 'node:fs';
 import {gunzipSync} from 'node:zlib';
 import {createHash} from 'node:crypto';
@@ -54,7 +55,7 @@ describe('approved sponsor tier and community layout',()=>{
  it('preserves arrival, buildings, controls and every collision outside the expo',()=>{
   const {layout:l,native:m}=current(),b=baseline();
   expect(b.base.startsWith('428227f')).toBe(true);
-  for(const key of ['entries','exits','areas','inspectionZones','animatedOverlays'] as const)expect(isDeepStrictEqual(l[key],b.layout[key]),key).toBe(true);
+  for(const key of ['entries','exits','areas','inspectionZones','animatedOverlays'] as const)expect(isDeepStrictEqual(restoreProgrammeBoards(l)[key],b.layout[key]),key).toBe(true);
   const outside=(p:{x:number;y:number;width:number;height:number})=>p.x+p.width<=38||p.x>=90||p.y+p.height<=65||p.y>=90;
   const predecessor=restoreArrivalCheckIn(l);
   expect(isDeepStrictEqual(predecessor.placements.filter(outside),b.layout.placements.filter(outside)),'outside furnishings before reception-only successor').toBe(true);

@@ -61127,5 +61127,24 @@
     ],
     "level": "belowAvatar",
     "sourceId": "lpc-exploration"
+  },
+  "programme-board-face": {
+    "sheet": "assets/tilesets/original/wayfinding.png",
+    "rect": {
+      "x": 0,
+      "y": 0,
+      "width": 1,
+      "height": 1
+    },
+    "blockingCells": [],
+    "level": "belowAvatar",
+    "sourceId": "original",
+    "upperCells": [
+      [
+        0,
+        0
+      ]
+    ],
+    "standingRole": "face"
   }
 }

@@ -1,0 +1,77 @@
+{
+  "schemaVersion": 1,
+  "revisions": [
+    {
+      "path": "art/tile-catalog.json",
+      "fromSha256": "1828ae96e97744dd2cfd42acf015b9f5539715c15909d1ae5c71d37c6911543f",
+      "toSha256": "8bfd64817e150e2f6307ded68cd27a922995d126a1b3fd9a1af17bf9a461c80e",
+      "reason": "Add public programme boards and a local schedule panel; remove UI teleport shortcuts while preserving physical doors, sponsor space and saved meeting controls."
+    },
+    {
+      "path": "maps/overworld.tmj",
+      "fromSha256": "cf534169c683759fe9bbc3ebf735357bb9a122d818ee9b63ce149dc44256e261",
+      "toSha256": "1fe175cb35b01e633f94f9592d3a535dbe4ec205e717189bac55309076f88e05",
+      "reason": "Add public programme boards and a local schedule panel; remove UI teleport shortcuts while preserving physical doors, sponsor space and saved meeting controls."
+    },
+    {
+      "path": "src/journal/main.ts",
+      "fromSha256": "b7cac7e1029b7d34833cddead4d33d8bc24295b3d54f2e970ffc380da91dbda9",
+      "toSha256": "13de2054bdc12488c0f150368d26261720d42da4aeff81c29a9729c69dea4df8",
+      "reason": "Add public programme boards and a local schedule panel; remove UI teleport shortcuts while preserving physical doors, sponsor space and saved meeting controls."
+    },
+    {
+      "path": "src/journal/view.ts",
+      "fromSha256": "a5286d754442edf6a18d67e0ec66fcb3e141a596fe6cfac03cfb9dc74ee399ae",
+      "toSha256": "3563b0fdf06405a7430613955ce0644ea91ab6c2b1eac3c31671cf6d3686de87",
+      "reason": "Add public programme boards and a local schedule panel; remove UI teleport shortcuts while preserving physical doors, sponsor space and saved meeting controls."
+    },
+    {
+      "path": "src/main.ts",
+      "fromSha256": "3efeee23b8491fb72aeae7b8d8b3955a8285b47bfcecac278d583d76ccf56d01",
+      "toSha256": "7d6a18cc99f99ecf65fd23bb6e4eb53f792868709e09b86b0edcd5b979a0d865",
+      "reason": "Add public programme boards and a local schedule panel; remove UI teleport shortcuts while preserving physical doors, sponsor space and saved meeting controls."
+    },
+    {
+      "path": "src/runtime.ts",
+      "fromSha256": "64ef4e76e31c4057c0c85c6ee30d98912e68233824c658bb56af957577a68790",
+      "toSha256": "d6c231f2051b4b913210d671e933a635bc9c0de680566bc97bf3f56ee150d41c",
+      "reason": "Add public programme boards and a local schedule panel; remove UI teleport shortcuts while preserving physical doors, sponsor space and saved meeting controls."
+    },
+    {
+      "path": "tests/exterior-gates.test.ts",
+      "fromSha256": "7d330eebf5d08bac85794c1b38d7d939b4a7a56ff8770dcfb2e8d3963da2be59",
+      "toSha256": "183d10779ca81657419542f879c87ddb341aad5e0d7100043b46ca8e62489031",
+      "reason": "Add public programme boards and a local schedule panel; remove UI teleport shortcuts while preserving physical doors, sponsor space and saved meeting controls."
+    },
+    {
+      "path": "tests/journal.test.ts",
+      "fromSha256": "711444f21bb3d7da12dc9ccee58072dee36894dac365f2d8003a52b708c1e353",
+      "toSha256": "6836c86654c6db7585ebc555fc371f06a75d97596a9e0a6f00010b2ab50d9d64",
+      "reason": "Add public programme boards and a local schedule panel; remove UI teleport shortcuts while preserving physical doors, sponsor space and saved meeting controls."
+    },
+    {
+      "path": "tests/medium-hub.test.ts",
+      "fromSha256": "bba614c096c258537728f6828ca898db3e3d55fc538cafaba4f1234e66f8d16e",
+      "toSha256": "dfeff9a0d802894b49a1eee3395c7575133e518c492b5ea71bc941a793046ec6",
+      "reason": "Add public programme boards and a local schedule panel; remove UI teleport shortcuts while preserving physical doors, sponsor space and saved meeting controls."
+    },
+    {
+      "path": "tests/plaza-start.test.ts",
+      "fromSha256": "52bb62309a85093c3d39609336cd0500bad29b7a815c86739ac2c2a2950893c5",
+      "toSha256": "59d3e78f92ab9a5d76d9512124491ba9ed6cef1c50668b1f67d480ac9e705c18",
+      "reason": "Add public programme boards and a local schedule panel; remove UI teleport shortcuts while preserving physical doors, sponsor space and saved meeting controls."
+    },
+    {
+      "path": "tests/runtime-contract.test.ts",
+      "fromSha256": "6f13bdb60b7682307c5aeb21047102e97fb3675ff2c8075c0463db674fc32e13",
+      "toSha256": "086da125042dc7e4493f6e5bffe84c12790fdcc3672cb86ef468aa032645594c",
+      "reason": "Add public programme boards and a local schedule panel; remove UI teleport shortcuts while preserving physical doors, sponsor space and saved meeting controls."
+    },
+    {
+      "path": "world/layouts/overworld.json",
+      "fromSha256": "8d9197424c7be690432851d7cc5b70aa6283c8d026035970d2dd4d9ba2e0f8a9",
+      "toSha256": "32965b20ea3d455a9a8998c72aa4e26758e38a47d7d2f9766ae8bbc1b772d88c",
+      "reason": "Add public programme boards and a local schedule panel; remove UI teleport shortcuts while preserving physical doors, sponsor space and saved meeting controls."
+    }
+  ]
+}

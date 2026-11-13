@@ -66053,6 +66053,357 @@
       "y": 80,
       "width": 22,
       "height": 2
+    },
+    {
+      "id": "programme-face-arrival",
+      "sprite": "programme-board-face",
+      "layer": "scenery",
+      "x": 54,
+      "y": 55,
+      "width": 4,
+      "height": 3
+    },
+    {
+      "id": "programme-support-arrival-0",
+      "sprite": "solid-sign-post",
+      "layer": "scenery",
+      "x": 54,
+      "y": 58,
+      "width": 1,
+      "height": 1
+    },
+    {
+      "id": "programme-support-arrival-1",
+      "sprite": "solid-sign-post",
+      "layer": "scenery",
+      "x": 57,
+      "y": 58,
+      "width": 1,
+      "height": 1
+    },
+    {
+      "id": "programme-face-aries",
+      "sprite": "programme-board-face",
+      "layer": "scenery",
+      "x": 101,
+      "y": 71,
+      "width": 4,
+      "height": 2
+    },
+    {
+      "id": "programme-support-aries-0",
+      "sprite": "solid-sign-post",
+      "layer": "scenery",
+      "x": 101,
+      "y": 73,
+      "width": 1,
+      "height": 1
+    },
+    {
+      "id": "programme-support-aries-1",
+      "sprite": "solid-sign-post",
+      "layer": "scenery",
+      "x": 104,
+      "y": 73,
+      "width": 1,
+      "height": 1
+    },
+    {
+      "id": "programme-face-taurus",
+      "sprite": "programme-board-face",
+      "layer": "scenery",
+      "x": 95,
+      "y": 93,
+      "width": 4,
+      "height": 2
+    },
+    {
+      "id": "programme-support-taurus-0",
+      "sprite": "solid-sign-post",
+      "layer": "scenery",
+      "x": 95,
+      "y": 95,
+      "width": 1,
+      "height": 1
+    },
+    {
+      "id": "programme-support-taurus-1",
+      "sprite": "solid-sign-post",
+      "layer": "scenery",
+      "x": 98,
+      "y": 95,
+      "width": 1,
+      "height": 1
+    },
+    {
+      "id": "programme-face-gemini",
+      "sprite": "programme-board-face",
+      "layer": "scenery",
+      "x": 79,
+      "y": 109,
+      "width": 4,
+      "height": 2
+    },
+    {
+      "id": "programme-support-gemini-0",
+      "sprite": "solid-sign-post",
+      "layer": "scenery",
+      "x": 79,
+      "y": 111,
+      "width": 1,
+      "height": 1
+    },
+    {
+      "id": "programme-support-gemini-1",
+      "sprite": "solid-sign-post",
+      "layer": "scenery",
+      "x": 82,
+      "y": 111,
+      "width": 1,
+      "height": 1
+    },
+    {
+      "id": "programme-face-cancer",
+      "sprite": "programme-board-face",
+      "layer": "scenery",
+      "x": 57,
+      "y": 115,
+      "width": 4,
+      "height": 2
+    },
+    {
+      "id": "programme-support-cancer-0",
+      "sprite": "solid-sign-post",
+      "layer": "scenery",
+      "x": 57,
+      "y": 117,
+      "width": 1,
+      "height": 1
+    },
+    {
+      "id": "programme-support-cancer-1",
+      "sprite": "solid-sign-post",
+      "layer": "scenery",
+      "x": 60,
+      "y": 117,
+      "width": 1,
+      "height": 1
+    },
+    {
+      "id": "programme-face-leo",
+      "sprite": "programme-board-face",
+      "layer": "scenery",
+      "x": 44,
+      "y": 109,
+      "width": 4,
+      "height": 2
+    },
+    {
+      "id": "programme-support-leo-0",
+      "sprite": "solid-sign-post",
+      "layer": "scenery",
+      "x": 44,
+      "y": 111,
+      "width": 1,
+      "height": 1
+    },
+    {
+      "id": "programme-support-leo-1",
+      "sprite": "solid-sign-post",
+      "layer": "scenery",
+      "x": 47,
+      "y": 111,
+      "width": 1,
+      "height": 1
+    },
+    {
+      "id": "programme-face-virgo",
+      "sprite": "programme-board-face",
+      "layer": "scenery",
+      "x": 28,
+      "y": 93,
+      "width": 4,
+      "height": 2
+    },
+    {
+      "id": "programme-support-virgo-0",
+      "sprite": "solid-sign-post",
+      "layer": "scenery",
+      "x": 28,
+      "y": 95,
+      "width": 1,
+      "height": 1
+    },
+    {
+      "id": "programme-support-virgo-1",
+      "sprite": "solid-sign-post",
+      "layer": "scenery",
+      "x": 31,
+      "y": 95,
+      "width": 1,
+      "height": 1
+    },
+    {
+      "id": "programme-face-libra",
+      "sprite": "programme-board-face",
+      "layer": "scenery",
+      "x": 22,
+      "y": 71,
+      "width": 4,
+      "height": 2
+    },
+    {
+      "id": "programme-support-libra-0",
+      "sprite": "solid-sign-post",
+      "layer": "scenery",
+      "x": 22,
+      "y": 73,
+      "width": 1,
+      "height": 1
+    },
+    {
+      "id": "programme-support-libra-1",
+      "sprite": "solid-sign-post",
+      "layer": "scenery",
+      "x": 25,
+      "y": 73,
+      "width": 1,
+      "height": 1
+    },
+    {
+      "id": "programme-face-scorpio",
+      "sprite": "programme-board-face",
+      "layer": "scenery",
+      "x": 28,
+      "y": 49,
+      "width": 4,
+      "height": 2
+    },
+    {
+      "id": "programme-support-scorpio-0",
+      "sprite": "solid-sign-post",
+      "layer": "scenery",
+      "x": 28,
+      "y": 51,
+      "width": 1,
+      "height": 1
+    },
+    {
+      "id": "programme-support-scorpio-1",
+      "sprite": "solid-sign-post",
+      "layer": "scenery",
+      "x": 31,
+      "y": 51,
+      "width": 1,
+      "height": 1
+    },
+    {
+      "id": "programme-face-sagittarius",
+      "sprite": "programme-board-face",
+      "layer": "scenery",
+      "x": 44,
+      "y": 33,
+      "width": 4,
+      "height": 2
+    },
+    {
+      "id": "programme-support-sagittarius-0",
+      "sprite": "solid-sign-post",
+      "layer": "scenery",
+      "x": 44,
+      "y": 35,
+      "width": 1,
+      "height": 1
+    },
+    {
+      "id": "programme-support-sagittarius-1",
+      "sprite": "solid-sign-post",
+      "layer": "scenery",
+      "x": 47,
+      "y": 35,
+      "width": 1,
+      "height": 1
+    },
+    {
+      "id": "programme-face-capricorn",
+      "sprite": "programme-board-face",
+      "layer": "scenery",
+      "x": 57,
+      "y": 27,
+      "width": 4,
+      "height": 2
+    },
+    {
+      "id": "programme-support-capricorn-0",
+      "sprite": "solid-sign-post",
+      "layer": "scenery",
+      "x": 57,
+      "y": 29,
+      "width": 1,
+      "height": 1
+    },
+    {
+      "id": "programme-support-capricorn-1",
+      "sprite": "solid-sign-post",
+      "layer": "scenery",
+      "x": 60,
+      "y": 29,
+      "width": 1,
+      "height": 1
+    },
+    {
+      "id": "programme-face-aquarius",
+      "sprite": "programme-board-face",
+      "layer": "scenery",
+      "x": 79,
+      "y": 33,
+      "width": 4,
+      "height": 2
+    },
+    {
+      "id": "programme-support-aquarius-0",
+      "sprite": "solid-sign-post",
+      "layer": "scenery",
+      "x": 79,
+      "y": 35,
+      "width": 1,
+      "height": 1
+    },
+    {
+      "id": "programme-support-aquarius-1",
+      "sprite": "solid-sign-post",
+      "layer": "scenery",
+      "x": 82,
+      "y": 35,
+      "width": 1,
+      "height": 1
+    },
+    {
+      "id": "programme-face-pisces",
+      "sprite": "programme-board-face",
+      "layer": "scenery",
+      "x": 95,
+      "y": 49,
+      "width": 4,
+      "height": 2
+    },
+    {
+      "id": "programme-support-pisces-0",
+      "sprite": "solid-sign-post",
+      "layer": "scenery",
+      "x": 95,
+      "y": 51,
+      "width": 1,
+      "height": 1
+    },
+    {
+      "id": "programme-support-pisces-1",
+      "sprite": "solid-sign-post",
+      "layer": "scenery",
+      "x": 98,
+      "y": 51,
+      "width": 1,
+      "height": 1
     }
   ],
   "entries": [
@@ -66185,7 +66536,7 @@
     {
       "name": "welcome",
       "x": 63,
-      "y": 65,
+      "y": 55,
       "width": 2,
       "height": 2,
       "isDefault": true
@@ -66235,7 +66586,7 @@
     {
       "name": "start",
       "x": 63,
-      "y": 65,
+      "y": 55,
       "width": 2,
       "height": 2
     }
@@ -264178,6 +264529,97 @@
         "expo-n6-nameplate-fascia-post-3"
       ],
       "text": "expo-n6-nameplate"
+    },
+    {
+      "face": "programme-face-arrival",
+      "supports": [
+        "programme-support-arrival-0",
+        "programme-support-arrival-1"
+      ]
+    },
+    {
+      "face": "programme-face-aries",
+      "supports": [
+        "programme-support-aries-0",
+        "programme-support-aries-1"
+      ]
+    },
+    {
+      "face": "programme-face-taurus",
+      "supports": [
+        "programme-support-taurus-0",
+        "programme-support-taurus-1"
+      ]
+    },
+    {
+      "face": "programme-face-gemini",
+      "supports": [
+        "programme-support-gemini-0",
+        "programme-support-gemini-1"
+      ]
+    },
+    {
+      "face": "programme-face-cancer",
+      "supports": [
+        "programme-support-cancer-0",
+        "programme-support-cancer-1"
+      ]
+    },
+    {
+      "face": "programme-face-leo",
+      "supports": [
+        "programme-support-leo-0",
+        "programme-support-leo-1"
+      ]
+    },
+    {
+      "face": "programme-face-virgo",
+      "supports": [
+        "programme-support-virgo-0",
+        "programme-support-virgo-1"
+      ]
+    },
+    {
+      "face": "programme-face-libra",
+      "supports": [
+        "programme-support-libra-0",
+        "programme-support-libra-1"
+      ]
+    },
+    {
+      "face": "programme-face-scorpio",
+      "supports": [
+        "programme-support-scorpio-0",
+        "programme-support-scorpio-1"
+      ]
+    },
+    {
+      "face": "programme-face-sagittarius",
+      "supports": [
+        "programme-support-sagittarius-0",
+        "programme-support-sagittarius-1"
+      ]
+    },
+    {
+      "face": "programme-face-capricorn",
+      "supports": [
+        "programme-support-capricorn-0",
+        "programme-support-capricorn-1"
+      ]
+    },
+    {
+      "face": "programme-face-aquarius",
+      "supports": [
+        "programme-support-aquarius-0",
+        "programme-support-aquarius-1"
+      ]
+    },
+    {
+      "face": "programme-face-pisces",
+      "supports": [
+        "programme-support-pisces-0",
+        "programme-support-pisces-1"
+      ]
     }
   ]
 }

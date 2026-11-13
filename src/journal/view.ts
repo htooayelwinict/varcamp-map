@@ -6,7 +6,7 @@ export const JOURNAL_KEY = 'varcamp2026.journalView';
 export const SAVE_ERROR = 'Progress could not be saved. Try again.';
 export const emptyJournalView: JournalView = { ready: false, summary: summarizeProgress(normalizeProgress({})), pendingKeys: [] };
 export const DIRECTORY_DESTINATIONS: { id: MapId; label: string }[] = [
- ...SIGN_IDS.map((sign,i)=>({id:`speaker-${sign}` as MapId,label:`${String(i+1).padStart(2,'0')} · ${sign[0].toUpperCase()+sign.slice(1)} Speaker Room`})),
+ ...SIGN_IDS.map((sign,i)=>({id:`speaker-${sign}` as MapId,label:`R${i+1} · ${sign[0].toUpperCase()+sign.slice(1)} Speaker Room`})),
  { id: 'solar-hall', label: 'Solar Hall' },
  { id: 'lunar-hall', label: 'Lunar Hall' },
  { id: 'zodiac-festival-park', label: 'Zodiac Festival Park' },

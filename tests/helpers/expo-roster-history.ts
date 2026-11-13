@@ -3,12 +3,14 @@ import {gunzipSync} from 'node:zlib';
 import {createHash} from 'node:crypto';
 import assert from 'node:assert/strict';
 import type {TiledMap} from '../../tools/maps/types';
+import {beforeProgrammeNative} from './programme-history';
 
 const sha=(b:Buffer|string)=>createHash('sha256').update(b).digest('hex');
 const bytes=readFileSync('tests/fixtures/expo-roster/provenance.json');
 assert.equal(sha(bytes),'c12df57680d0e61cf71fd556b5167c90802b4790443a3b0ce384f2f985eb9b18');
 const receipt=JSON.parse(bytes.toString());
 export function beforeExpoRosterNative(map:TiledMap):TiledMap{
+ map=beforeProgrammeNative(map);
  if(sha(JSON.stringify(map))!=='2b8ab04a965ca2d1dbb1b08e3da45430bd59f3f671563179e5ca856bae86a027')return map;
  const b=readFileSync('tests/fixtures/expo-roster/before.json.gz');
  assert.equal(sha(b),'648a20b52344403b583c4c2f7d95367234891fce947990bc48c176d810446ba2');

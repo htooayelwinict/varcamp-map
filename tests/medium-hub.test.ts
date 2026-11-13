@@ -1,3 +1,4 @@
+import {restoreProgrammeBoards} from '../tools/maps/programme-boards';
 import {arrivalPlaques,arrivalFaces,arrivalFloorPanels,assertVisual,assertSponsorFootprints} from './helpers/physical-prop-contracts';
 import {preArrivalLayout} from './helpers/pre-arrival-epoch';
 import { readFileSync, existsSync } from 'node:fs';
@@ -37,7 +38,7 @@ describe('medium authored arrival',()=>{
  });
 
  it('shows the enlarged colourful floor lockup above the welcome spawn and clears the road crosspost',()=>{
-  const l=source(),spawn=l.entries.find(e=>e.isDefault)!,panels=arrivalFloorPanels.map(p=>({...p,y:p.y-6}));
+  const l=restoreProgrammeBoards(source()),spawn=l.entries.find(e=>e.isDefault)!,panels=arrivalFloorPanels.map(p=>({...p,y:p.y-6}));
   expect(l.images!.filter(i=>i.name.startsWith('Arrival /'))).toEqual(panels);
   expect(l.placements.some(p=>['arrival-direction-crosspost','arrival-crosspost-pole'].includes(p.id))).toBe(false);
   for(const p of panels){expect(p.y+p.height).toBeLessThan(spawn.y);for(const other of l.placements.filter(p=>!['terrain','atmosphere'].includes(p.layer)))expect(overlap(p,other),p.name+' covers '+other.id).toBe(false);}

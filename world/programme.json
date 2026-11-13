@@ -1,0 +1,897 @@
+{
+  "event": "VarCamp 2026",
+  "event_date": "2026-11-15",
+  "timezone": "Asia/Yangon",
+  "utc_offset": "+06:30",
+  "source_url": "https://www.var.camp/",
+  "fetched_at": "2026-11-13T13:03:43.206739+00:00",
+  "room_code_note": "R1–R12 are mapped from the website Room 01–Room 12 labels to match the existing VarCamp map naming.",
+  "sessions": [
+    {
+      "start_time": "10:00",
+      "end_time": "11:00",
+      "start_iso": "2026-11-15T10:00:00+06:30",
+      "end_iso": "2026-11-15T11:00:00+06:30",
+      "room_code": "R1",
+      "room_name": "Aries",
+      "room_id": "aries",
+      "speaker_name": "Chan Nyein Tun",
+      "session_title": "I Accidentally Built a Harness for AI-Authored Lessons",
+      "speaker_url": "https://www.var.camp/speakers/chan-nyein-tun"
+    },
+    {
+      "start_time": "10:00",
+      "end_time": "11:00",
+      "start_iso": "2026-11-15T10:00:00+06:30",
+      "end_iso": "2026-11-15T11:00:00+06:30",
+      "room_code": "R2",
+      "room_name": "Taurus",
+      "room_id": "taurus",
+      "speaker_name": "Lwin Maung Maung",
+      "session_title": "AI with Laravel - How to use daily drive",
+      "speaker_url": "https://www.var.camp/speakers/lwin-maung-maung"
+    },
+    {
+      "start_time": "10:00",
+      "end_time": "11:00",
+      "start_iso": "2026-11-15T10:00:00+06:30",
+      "end_iso": "2026-11-15T11:00:00+06:30",
+      "room_code": "R3",
+      "room_name": "Gemini",
+      "room_id": "gemini",
+      "speaker_name": "Naing Lin",
+      "session_title": "Ship Fast, Break Less: Managing Risks in Software Releases",
+      "speaker_url": "https://www.var.camp/speakers/naing-lin"
+    },
+    {
+      "start_time": "10:00",
+      "end_time": "11:00",
+      "start_iso": "2026-11-15T10:00:00+06:30",
+      "end_iso": "2026-11-15T11:00:00+06:30",
+      "room_code": "R4",
+      "room_name": "Cancer",
+      "room_id": "cancer",
+      "speaker_name": "Htoo Htet Min Eain",
+      "session_title": "Any update to date technology",
+      "speaker_url": "https://www.var.camp/speakers/htoo-htet-min-eain"
+    },
+    {
+      "start_time": "10:00",
+      "end_time": "11:00",
+      "start_iso": "2026-11-15T10:00:00+06:30",
+      "end_iso": "2026-11-15T11:00:00+06:30",
+      "room_code": "R5",
+      "room_name": "Leo",
+      "room_id": "leo",
+      "speaker_name": "Winston Phyo",
+      "session_title": "Experience is the best teacher - but how do we engineer the experiences?",
+      "speaker_url": "https://www.var.camp/speakers/winston-phyo"
+    },
+    {
+      "start_time": "10:00",
+      "end_time": "11:00",
+      "start_iso": "2026-11-15T10:00:00+06:30",
+      "end_iso": "2026-11-15T11:00:00+06:30",
+      "room_code": "R6",
+      "room_name": "Virgo",
+      "room_id": "virgo",
+      "speaker_name": "Khine Lae Hlaing",
+      "session_title": "Projects Currently Run by Thate Pan Hub",
+      "speaker_url": "https://www.var.camp/speakers/khine-lae-hlaing"
+    },
+    {
+      "start_time": "10:00",
+      "end_time": "11:00",
+      "start_iso": "2026-11-15T10:00:00+06:30",
+      "end_iso": "2026-11-15T11:00:00+06:30",
+      "room_code": "R7",
+      "room_name": "Libra",
+      "room_id": "libra",
+      "speaker_name": "Khine Yie Mon Thant (Clara)",
+      "session_title": "From Engineering to Education: A Journey of Learning, Leading, and Inspiring",
+      "speaker_url": "https://www.var.camp/speakers/khine-yie-mon-thant-clara"
+    },
+    {
+      "start_time": "10:00",
+      "end_time": "11:00",
+      "start_iso": "2026-11-15T10:00:00+06:30",
+      "end_iso": "2026-11-15T11:00:00+06:30",
+      "room_code": "R8",
+      "room_name": "Scorpio",
+      "room_id": "scorpio",
+      "speaker_name": "Zaw Lwin Htun",
+      "session_title": "Defensive Cyber Security Career Roadmap: Skills That Actually Matter in Enterprise Security",
+      "speaker_url": "https://www.var.camp/speakers/zaw-lwin-htun"
+    },
+    {
+      "start_time": "10:00",
+      "end_time": "11:00",
+      "start_iso": "2026-11-15T10:00:00+06:30",
+      "end_iso": "2026-11-15T11:00:00+06:30",
+      "room_code": "R9",
+      "room_name": "Sagittarius",
+      "room_id": "sagittarius",
+      "speaker_name": "Micro Vita",
+      "session_title": "Software Architect & Cyber Security",
+      "speaker_url": "https://www.var.camp/speakers/micro-vita"
+    },
+    {
+      "start_time": "10:00",
+      "end_time": "11:00",
+      "start_iso": "2026-11-15T10:00:00+06:30",
+      "end_iso": "2026-11-15T11:00:00+06:30",
+      "room_code": "R10",
+      "room_name": "Capricorn",
+      "room_id": "capricorn",
+      "speaker_name": "Thet Hmuu",
+      "session_title": "My Software Startup after 1 Year and Our AI Workflow",
+      "speaker_url": "https://www.var.camp/speakers/thet-hmuu"
+    },
+    {
+      "start_time": "10:00",
+      "end_time": "11:00",
+      "start_iso": "2026-11-15T10:00:00+06:30",
+      "end_iso": "2026-11-15T11:00:00+06:30",
+      "room_code": "R11",
+      "room_name": "Aquarius",
+      "room_id": "aquarius",
+      "speaker_name": "Nay Oo Wai Yan",
+      "session_title": "Microsoft Copilot Ecosystem",
+      "speaker_url": "https://www.var.camp/speakers/nay-oo-wai-yan"
+    },
+    {
+      "start_time": "10:00",
+      "end_time": "11:00",
+      "start_iso": "2026-11-15T10:00:00+06:30",
+      "end_iso": "2026-11-15T11:00:00+06:30",
+      "room_code": "R12",
+      "room_name": "Pisces",
+      "room_id": "pisces",
+      "speaker_name": "Aung Thu Han",
+      "session_title": "Breaking into Project Management: A Guide for Non-PMs",
+      "speaker_url": "https://www.var.camp/speakers/aung-thu-han"
+    },
+    {
+      "start_time": "11:00",
+      "end_time": "12:00",
+      "start_iso": "2026-11-15T11:00:00+06:30",
+      "end_iso": "2026-11-15T12:00:00+06:30",
+      "room_code": "R1",
+      "room_name": "Aries",
+      "room_id": "aries",
+      "speaker_name": "42 Bangkok",
+      "session_title": "No IELTS, No Tuition, High Standards: Go International Through the 42 Network",
+      "speaker_url": "https://www.var.camp/speakers/42-bangkok"
+    },
+    {
+      "start_time": "11:00",
+      "end_time": "12:00",
+      "start_iso": "2026-11-15T11:00:00+06:30",
+      "end_iso": "2026-11-15T12:00:00+06:30",
+      "room_code": "R2",
+      "room_name": "Taurus",
+      "room_id": "taurus",
+      "speaker_name": "Dr Nikoye",
+      "session_title": "Road to Cisco Network Engineer",
+      "speaker_url": "https://www.var.camp/speakers/dr-nikoye"
+    },
+    {
+      "start_time": "11:00",
+      "end_time": "12:00",
+      "start_iso": "2026-11-15T11:00:00+06:30",
+      "end_iso": "2026-11-15T12:00:00+06:30",
+      "room_code": "R3",
+      "room_name": "Gemini",
+      "room_id": "gemini",
+      "speaker_name": "Hay Mar San",
+      "session_title": "Managing IT Projects: From Business Needs to Successful Delivery",
+      "speaker_url": "https://www.var.camp/speakers/hay-mar-san"
+    },
+    {
+      "start_time": "11:00",
+      "end_time": "12:00",
+      "start_iso": "2026-11-15T11:00:00+06:30",
+      "end_iso": "2026-11-15T12:00:00+06:30",
+      "room_code": "R4",
+      "room_name": "Cancer",
+      "room_id": "cancer",
+      "speaker_name": "Amelia Yeine",
+      "session_title": "Scroll, Watch, Learn: The Power of Digital Storytelling",
+      "speaker_url": "https://www.var.camp/speakers/amelia-yeine"
+    },
+    {
+      "start_time": "11:00",
+      "end_time": "12:00",
+      "start_iso": "2026-11-15T11:00:00+06:30",
+      "end_iso": "2026-11-15T12:00:00+06:30",
+      "room_code": "R5",
+      "room_name": "Leo",
+      "room_id": "leo",
+      "speaker_name": "Aung Ko Oo",
+      "session_title": "ပညာရှင် vs စီးပွားရေး လုပ်ငန်းရှင်",
+      "speaker_url": "https://www.var.camp/speakers/aung-ko-oo"
+    },
+    {
+      "start_time": "11:00",
+      "end_time": "12:00",
+      "start_iso": "2026-11-15T11:00:00+06:30",
+      "end_iso": "2026-11-15T12:00:00+06:30",
+      "room_code": "R6",
+      "room_name": "Virgo",
+      "room_id": "virgo",
+      "speaker_name": "Thar Htet",
+      "session_title": "Staying Sharp in the Loop",
+      "speaker_url": "https://www.var.camp/speakers/thar-htet"
+    },
+    {
+      "start_time": "11:00",
+      "end_time": "12:00",
+      "start_iso": "2026-11-15T11:00:00+06:30",
+      "end_iso": "2026-11-15T12:00:00+06:30",
+      "room_code": "R7",
+      "room_name": "Libra",
+      "room_id": "libra",
+      "speaker_name": "Myo Min Thu",
+      "session_title": "Robotics & AI Engineering",
+      "speaker_url": "https://www.var.camp/speakers/myo-min-thu"
+    },
+    {
+      "start_time": "11:00",
+      "end_time": "12:00",
+      "start_iso": "2026-11-15T11:00:00+06:30",
+      "end_iso": "2026-11-15T12:00:00+06:30",
+      "room_code": "R8",
+      "room_name": "Scorpio",
+      "room_id": "scorpio",
+      "speaker_name": "Ye Htut",
+      "session_title": "AI Agent Engineering Fundamentals",
+      "speaker_url": "https://www.var.camp/speakers/ye-htut"
+    },
+    {
+      "start_time": "11:00",
+      "end_time": "12:00",
+      "start_iso": "2026-11-15T11:00:00+06:30",
+      "end_iso": "2026-11-15T12:00:00+06:30",
+      "room_code": "R9",
+      "room_name": "Sagittarius",
+      "room_id": "sagittarius",
+      "speaker_name": "Nyein Chan Ko Ko",
+      "session_title": "OpenTaxi: Building the open-world game with AI",
+      "speaker_url": "https://www.var.camp/speakers/nyein-chan-ko-ko"
+    },
+    {
+      "start_time": "11:00",
+      "end_time": "12:00",
+      "start_iso": "2026-11-15T11:00:00+06:30",
+      "end_iso": "2026-11-15T12:00:00+06:30",
+      "room_code": "R10",
+      "room_name": "Capricorn",
+      "room_id": "capricorn",
+      "speaker_name": "Burmese classy",
+      "session_title": "Local Brand Fashion တွေကို ဘယ်လိုမြင်လဲ",
+      "speaker_url": "https://www.var.camp/speakers/burmese-classy"
+    },
+    {
+      "start_time": "11:00",
+      "end_time": "12:00",
+      "start_iso": "2026-11-15T11:00:00+06:30",
+      "end_iso": "2026-11-15T12:00:00+06:30",
+      "room_code": "R11",
+      "room_name": "Aquarius",
+      "room_id": "aquarius",
+      "speaker_name": "Saturngod",
+      "session_title": "Software Cloning with AI",
+      "speaker_url": "https://www.var.camp/speakers/saturngod"
+    },
+    {
+      "start_time": "11:00",
+      "end_time": "12:00",
+      "start_iso": "2026-11-15T11:00:00+06:30",
+      "end_iso": "2026-11-15T12:00:00+06:30",
+      "room_code": "R12",
+      "room_name": "Pisces",
+      "room_id": "pisces",
+      "speaker_name": "Zeyar Wint",
+      "session_title": "Beyond AI Coding: Rethinking Software Development with Orbit",
+      "speaker_url": "https://www.var.camp/speakers/zeyar-wint"
+    },
+    {
+      "start_time": "13:00",
+      "end_time": "14:00",
+      "start_iso": "2026-11-15T13:00:00+06:30",
+      "end_iso": "2026-11-15T14:00:00+06:30",
+      "room_code": "R1",
+      "room_name": "Aries",
+      "room_id": "aries",
+      "speaker_name": "C. Dal",
+      "session_title": "Introduction to Health Informatics",
+      "speaker_url": "https://www.var.camp/speakers/c-dal"
+    },
+    {
+      "start_time": "13:00",
+      "end_time": "14:00",
+      "start_iso": "2026-11-15T13:00:00+06:30",
+      "end_iso": "2026-11-15T14:00:00+06:30",
+      "room_code": "R2",
+      "room_name": "Taurus",
+      "room_id": "taurus",
+      "speaker_name": "Naing Lin Latt Victor",
+      "session_title": "အလုပ်အကိုင် အခွင့်အလမ်းတွေ ရှားပါးနေပြီလား? Remote Job Opportunity တွေကို ရရှိနိုင်အောင် ဘယ်လို ပြင်ဆင်ကြမလဲ?",
+      "speaker_url": "https://www.var.camp/speakers/naing-lin-latt-victor"
+    },
+    {
+      "start_time": "13:00",
+      "end_time": "14:00",
+      "start_iso": "2026-11-15T13:00:00+06:30",
+      "end_iso": "2026-11-15T14:00:00+06:30",
+      "room_code": "R3",
+      "room_name": "Gemini",
+      "room_id": "gemini",
+      "speaker_name": "Thomas Hein Thura",
+      "session_title": "Enterprise AI Blueprint",
+      "speaker_url": "https://www.var.camp/speakers/thomas-hein-thura"
+    },
+    {
+      "start_time": "13:00",
+      "end_time": "14:00",
+      "start_iso": "2026-11-15T13:00:00+06:30",
+      "end_iso": "2026-11-15T14:00:00+06:30",
+      "room_code": "R4",
+      "room_name": "Cancer",
+      "room_id": "cancer",
+      "speaker_name": "Thant Zin Phyo",
+      "session_title": "Building Real-World SaaS Projects as a Young Developer",
+      "speaker_url": "https://www.var.camp/speakers/thant-zin-phyo"
+    },
+    {
+      "start_time": "13:00",
+      "end_time": "14:00",
+      "start_iso": "2026-11-15T13:00:00+06:30",
+      "end_iso": "2026-11-15T14:00:00+06:30",
+      "room_code": "R5",
+      "room_name": "Leo",
+      "room_id": "leo",
+      "speaker_name": "Kaung Htet Kyaw",
+      "session_title": "Let's Design Cache Layer from Scratch with Zero Dependencies",
+      "speaker_url": "https://www.var.camp/speakers/kaung-htet-kyaw"
+    },
+    {
+      "start_time": "13:00",
+      "end_time": "14:00",
+      "start_iso": "2026-11-15T13:00:00+06:30",
+      "end_iso": "2026-11-15T14:00:00+06:30",
+      "room_code": "R6",
+      "room_name": "Virgo",
+      "room_id": "virgo",
+      "speaker_name": "Tho",
+      "session_title": "Fin Tech related Data , AI, integrations discussion.",
+      "speaker_url": "https://www.var.camp/speakers/tho"
+    },
+    {
+      "start_time": "13:00",
+      "end_time": "14:00",
+      "start_iso": "2026-11-15T13:00:00+06:30",
+      "end_iso": "2026-11-15T14:00:00+06:30",
+      "room_code": "R7",
+      "room_name": "Libra",
+      "room_id": "libra",
+      "speaker_name": "Kaung Khant Lwin",
+      "session_title": "Youth Empowerment",
+      "speaker_url": "https://www.var.camp/speakers/kaung-khant-lwin"
+    },
+    {
+      "start_time": "13:00",
+      "end_time": "14:00",
+      "start_iso": "2026-11-15T13:00:00+06:30",
+      "end_iso": "2026-11-15T14:00:00+06:30",
+      "room_code": "R8",
+      "room_name": "Scorpio",
+      "room_id": "scorpio",
+      "speaker_name": "phyoe hein kyaw",
+      "session_title": "AI-Powered Cybersecurity: Securing the Future with Artificial Intelligence",
+      "speaker_url": "https://www.var.camp/speakers/phyoe-hein-kyaw"
+    },
+    {
+      "start_time": "13:00",
+      "end_time": "14:00",
+      "start_iso": "2026-11-15T13:00:00+06:30",
+      "end_iso": "2026-11-15T14:00:00+06:30",
+      "room_code": "R9",
+      "room_name": "Sagittarius",
+      "room_id": "sagittarius",
+      "speaker_name": "Fele Aung",
+      "session_title": "UI/UX Design",
+      "speaker_url": "https://www.var.camp/speakers/fele-aung"
+    },
+    {
+      "start_time": "13:00",
+      "end_time": "14:00",
+      "start_iso": "2026-11-15T13:00:00+06:30",
+      "end_iso": "2026-11-15T14:00:00+06:30",
+      "room_code": "R10",
+      "room_name": "Capricorn",
+      "room_id": "capricorn",
+      "speaker_name": "Noel T",
+      "session_title": "Introduction to Scam Ready Project",
+      "speaker_url": "https://www.var.camp/speakers/noel-t"
+    },
+    {
+      "start_time": "13:00",
+      "end_time": "14:00",
+      "start_iso": "2026-11-15T13:00:00+06:30",
+      "end_iso": "2026-11-15T14:00:00+06:30",
+      "room_code": "R11",
+      "room_name": "Aquarius",
+      "room_id": "aquarius",
+      "speaker_name": "Thura Nandar Linn",
+      "session_title": "Green AI: Hype or Hope?",
+      "speaker_url": "https://www.var.camp/speakers/thura-nandar-linn"
+    },
+    {
+      "start_time": "13:00",
+      "end_time": "14:00",
+      "start_iso": "2026-11-15T13:00:00+06:30",
+      "end_iso": "2026-11-15T14:00:00+06:30",
+      "room_code": "R12",
+      "room_name": "Pisces",
+      "room_id": "pisces",
+      "speaker_name": "Kyaw Zay Ya Lin Tun",
+      "session_title": "Growth Hacking 101 for Mobile Developers",
+      "speaker_url": "https://www.var.camp/speakers/kyaw-zay-ya-lin-tun"
+    },
+    {
+      "start_time": "14:00",
+      "end_time": "15:00",
+      "start_iso": "2026-11-15T14:00:00+06:30",
+      "end_iso": "2026-11-15T15:00:00+06:30",
+      "room_code": "R1",
+      "room_name": "Aries",
+      "room_id": "aries",
+      "speaker_name": "Min Khant Ko Ko",
+      "session_title": "A White-Collar Survival Guide in the AI Era",
+      "speaker_url": "https://www.var.camp/speakers/min-khant-ko-ko"
+    },
+    {
+      "start_time": "14:00",
+      "end_time": "15:00",
+      "start_iso": "2026-11-15T14:00:00+06:30",
+      "end_iso": "2026-11-15T15:00:00+06:30",
+      "room_code": "R2",
+      "room_name": "Taurus",
+      "room_id": "taurus",
+      "speaker_name": "Chan Myae Lwin - Kevin",
+      "session_title": "အချစ်မှာ AI သုံးလို့ရပြီလား?",
+      "speaker_url": "https://www.var.camp/speakers/chan-myae-lwin-kevin"
+    },
+    {
+      "start_time": "14:00",
+      "end_time": "15:00",
+      "start_iso": "2026-11-15T14:00:00+06:30",
+      "end_iso": "2026-11-15T15:00:00+06:30",
+      "room_code": "R3",
+      "room_name": "Gemini",
+      "room_id": "gemini",
+      "speaker_name": "Lynn Htet Thant",
+      "session_title": "User Experience and AI Slop",
+      "speaker_url": "https://www.var.camp/speakers/lynn-htet-thant"
+    },
+    {
+      "start_time": "14:00",
+      "end_time": "15:00",
+      "start_iso": "2026-11-15T14:00:00+06:30",
+      "end_iso": "2026-11-15T15:00:00+06:30",
+      "room_code": "R4",
+      "room_name": "Cancer",
+      "room_id": "cancer",
+      "speaker_name": "Aung Khant Moe",
+      "session_title": "Building Autonomous Mobile Robots in Myanmar: Introducing OSRFM",
+      "speaker_url": "https://www.var.camp/speakers/aung-khant-moe"
+    },
+    {
+      "start_time": "14:00",
+      "end_time": "15:00",
+      "start_iso": "2026-11-15T14:00:00+06:30",
+      "end_iso": "2026-11-15T15:00:00+06:30",
+      "room_code": "R5",
+      "room_name": "Leo",
+      "room_id": "leo",
+      "speaker_name": "Le Thinzar Tun@ Honey Zue",
+      "session_title": "Beyond Borders",
+      "speaker_url": "https://www.var.camp/speakers/le-thinzar-tun-honey-zue"
+    },
+    {
+      "start_time": "14:00",
+      "end_time": "15:00",
+      "start_iso": "2026-11-15T14:00:00+06:30",
+      "end_iso": "2026-11-15T15:00:00+06:30",
+      "room_code": "R6",
+      "room_name": "Virgo",
+      "room_id": "virgo",
+      "speaker_name": "Lynn Lynn Htoo",
+      "session_title": "AI-Powered Education: Empowering People, Transforming Futures.",
+      "speaker_url": "https://www.var.camp/speakers/lynn-lynn-htoo"
+    },
+    {
+      "start_time": "14:00",
+      "end_time": "15:00",
+      "start_iso": "2026-11-15T14:00:00+06:30",
+      "end_iso": "2026-11-15T15:00:00+06:30",
+      "room_code": "R7",
+      "room_name": "Libra",
+      "room_id": "libra",
+      "speaker_name": "Mon Mon Ei",
+      "session_title": "Teacher Trainer",
+      "speaker_url": "https://www.var.camp/speakers/mon-mon-ei"
+    },
+    {
+      "start_time": "14:00",
+      "end_time": "15:00",
+      "start_iso": "2026-11-15T14:00:00+06:30",
+      "end_iso": "2026-11-15T15:00:00+06:30",
+      "room_code": "R8",
+      "room_name": "Scorpio",
+      "room_id": "scorpio",
+      "speaker_name": "Htut Wai Phyo",
+      "session_title": "Becoming a Product Engineer in the Age of AI",
+      "speaker_url": "https://www.var.camp/speakers/htut-wai-phyo"
+    },
+    {
+      "start_time": "14:00",
+      "end_time": "15:00",
+      "start_iso": "2026-11-15T14:00:00+06:30",
+      "end_iso": "2026-11-15T15:00:00+06:30",
+      "room_code": "R9",
+      "room_name": "Sagittarius",
+      "room_id": "sagittarius",
+      "speaker_name": "Wai Yan Thwin",
+      "session_title": "AI ခေတ်ရဲ့ Digital Marketing Career ဘယ်လို ဖြစ်သွားနိုင်မလဲ ?",
+      "speaker_url": "https://www.var.camp/speakers/wai-yan-thwin"
+    },
+    {
+      "start_time": "14:00",
+      "end_time": "15:00",
+      "start_iso": "2026-11-15T14:00:00+06:30",
+      "end_iso": "2026-11-15T15:00:00+06:30",
+      "room_code": "R10",
+      "room_name": "Capricorn",
+      "room_id": "capricorn",
+      "speaker_name": "Ko Phoe Kyaw Lumineux",
+      "session_title": "AI ခေါတ်မှာ  Engineer  လုပ်သင့်သေးလား",
+      "speaker_url": "https://www.var.camp/speakers/ko-phoe-kyaw-lumineux"
+    },
+    {
+      "start_time": "14:00",
+      "end_time": "15:00",
+      "start_iso": "2026-11-15T14:00:00+06:30",
+      "end_iso": "2026-11-15T15:00:00+06:30",
+      "room_code": "R11",
+      "room_name": "Aquarius",
+      "room_id": "aquarius",
+      "speaker_name": "Dev KT Ops",
+      "session_title": "Ship with Kiro",
+      "speaker_url": "https://www.var.camp/speakers/dev-kt-ops"
+    },
+    {
+      "start_time": "14:00",
+      "end_time": "15:00",
+      "start_iso": "2026-11-15T14:00:00+06:30",
+      "end_iso": "2026-11-15T15:00:00+06:30",
+      "room_code": "R12",
+      "room_name": "Pisces",
+      "room_id": "pisces",
+      "speaker_name": "Nyi Lynn Htwe",
+      "session_title": "Stablecoins and Blockchain Opportunities in Southeast Asia",
+      "speaker_url": "https://www.var.camp/speakers/nyi-lynn-htwe"
+    },
+    {
+      "start_time": "15:00",
+      "end_time": "16:00",
+      "start_iso": "2026-11-15T15:00:00+06:30",
+      "end_iso": "2026-11-15T16:00:00+06:30",
+      "room_code": "R1",
+      "room_name": "Aries",
+      "room_id": "aries",
+      "speaker_name": "Hannah Kyawt Kyawt Hlaing",
+      "session_title": "Driving Excellence Through IT Service Management & IT Operations Management",
+      "speaker_url": "https://www.var.camp/speakers/hannah-kyawt-kyawt-hlaing"
+    },
+    {
+      "start_time": "15:00",
+      "end_time": "16:00",
+      "start_iso": "2026-11-15T15:00:00+06:30",
+      "end_iso": "2026-11-15T16:00:00+06:30",
+      "room_code": "R2",
+      "room_name": "Taurus",
+      "room_id": "taurus",
+      "speaker_name": "Chan Soe",
+      "session_title": "Business Behind the Work : How to price your work and solve client problems.",
+      "speaker_url": "https://www.var.camp/speakers/chan-soe"
+    },
+    {
+      "start_time": "15:00",
+      "end_time": "16:00",
+      "start_iso": "2026-11-15T15:00:00+06:30",
+      "end_iso": "2026-11-15T16:00:00+06:30",
+      "room_code": "R3",
+      "room_name": "Gemini",
+      "room_id": "gemini",
+      "speaker_name": "Thet Hein Thu",
+      "session_title": "about portfolio knowledge and corporate life knowledge",
+      "speaker_url": "https://www.var.camp/speakers/thet-hein-thu"
+    },
+    {
+      "start_time": "15:00",
+      "end_time": "16:00",
+      "start_iso": "2026-11-15T15:00:00+06:30",
+      "end_iso": "2026-11-15T16:00:00+06:30",
+      "room_code": "R4",
+      "room_name": "Cancer",
+      "room_id": "cancer",
+      "speaker_name": "Aung Thu Myint",
+      "session_title": "\"How It Works\" to \"Why We Build It\" : The Evolution of an System Engineer",
+      "speaker_url": "https://www.var.camp/speakers/aung-thu-myint"
+    },
+    {
+      "start_time": "15:00",
+      "end_time": "16:00",
+      "start_iso": "2026-11-15T15:00:00+06:30",
+      "end_iso": "2026-11-15T16:00:00+06:30",
+      "room_code": "R5",
+      "room_name": "Leo",
+      "room_id": "leo",
+      "speaker_name": "Chan Pyae Aung",
+      "session_title": "Turning Ideas into Real-World IoT Systems",
+      "speaker_url": "https://www.var.camp/speakers/chan-pyae-aung"
+    },
+    {
+      "start_time": "15:00",
+      "end_time": "16:00",
+      "start_iso": "2026-11-15T15:00:00+06:30",
+      "end_iso": "2026-11-15T16:00:00+06:30",
+      "room_code": "R6",
+      "room_name": "Virgo",
+      "room_id": "virgo",
+      "speaker_name": "Nay Htet Khant",
+      "session_title": "​Building Real-time Web Applications with Next.js and Laravel Reverb",
+      "speaker_url": "https://www.var.camp/speakers/nay-htet-khant"
+    },
+    {
+      "start_time": "15:00",
+      "end_time": "16:00",
+      "start_iso": "2026-11-15T15:00:00+06:30",
+      "end_iso": "2026-11-15T16:00:00+06:30",
+      "room_code": "R7",
+      "room_name": "Libra",
+      "room_id": "libra",
+      "speaker_name": "Htoo Aye Lwin",
+      "session_title": "ကဗျာဖတ်ပြမယ်",
+      "speaker_url": "https://www.var.camp/speakers/htoo-aye-lwin"
+    },
+    {
+      "start_time": "15:00",
+      "end_time": "16:00",
+      "start_iso": "2026-11-15T15:00:00+06:30",
+      "end_iso": "2026-11-15T16:00:00+06:30",
+      "room_code": "R8",
+      "room_name": "Scorpio",
+      "room_id": "scorpio",
+      "speaker_name": "Yadanar",
+      "session_title": "From Digital Challenges to Meaningful Solutions",
+      "speaker_url": "https://www.var.camp/speakers/yadanar"
+    }
+  ],
+  "rooms": [
+    {
+      "room_id": "aries",
+      "room_number": 1,
+      "room_code": "R1",
+      "room_name": "Aries",
+      "website_label": "Room 01",
+      "map_label": "R1 Aries",
+      "scheduled_talks": 5,
+      "open_slots": [
+        "16:00"
+      ]
+    },
+    {
+      "room_id": "taurus",
+      "room_number": 2,
+      "room_code": "R2",
+      "room_name": "Taurus",
+      "website_label": "Room 02",
+      "map_label": "R2 Taurus",
+      "scheduled_talks": 5,
+      "open_slots": [
+        "16:00"
+      ]
+    },
+    {
+      "room_id": "gemini",
+      "room_number": 3,
+      "room_code": "R3",
+      "room_name": "Gemini",
+      "website_label": "Room 03",
+      "map_label": "R3 Gemini",
+      "scheduled_talks": 5,
+      "open_slots": [
+        "16:00"
+      ]
+    },
+    {
+      "room_id": "cancer",
+      "room_number": 4,
+      "room_code": "R4",
+      "room_name": "Cancer",
+      "website_label": "Room 04",
+      "map_label": "R4 Cancer",
+      "scheduled_talks": 5,
+      "open_slots": [
+        "16:00"
+      ]
+    },
+    {
+      "room_id": "leo",
+      "room_number": 5,
+      "room_code": "R5",
+      "room_name": "Leo",
+      "website_label": "Room 05",
+      "map_label": "R5 Leo",
+      "scheduled_talks": 5,
+      "open_slots": [
+        "16:00"
+      ]
+    },
+    {
+      "room_id": "virgo",
+      "room_number": 6,
+      "room_code": "R6",
+      "room_name": "Virgo",
+      "website_label": "Room 06",
+      "map_label": "R6 Virgo",
+      "scheduled_talks": 5,
+      "open_slots": [
+        "16:00"
+      ]
+    },
+    {
+      "room_id": "libra",
+      "room_number": 7,
+      "room_code": "R7",
+      "room_name": "Libra",
+      "website_label": "Room 07",
+      "map_label": "R7 Libra",
+      "scheduled_talks": 5,
+      "open_slots": [
+        "16:00"
+      ]
+    },
+    {
+      "room_id": "scorpio",
+      "room_number": 8,
+      "room_code": "R8",
+      "room_name": "Scorpio",
+      "website_label": "Room 08",
+      "map_label": "R8 Scorpio",
+      "scheduled_talks": 5,
+      "open_slots": [
+        "16:00"
+      ]
+    },
+    {
+      "room_id": "sagittarius",
+      "room_number": 9,
+      "room_code": "R9",
+      "room_name": "Sagittarius",
+      "website_label": "Room 09",
+      "map_label": "R9 Sagittarius",
+      "scheduled_talks": 4,
+      "open_slots": [
+        "15:00",
+        "16:00"
+      ]
+    },
+    {
+      "room_id": "capricorn",
+      "room_number": 10,
+      "room_code": "R10",
+      "room_name": "Capricorn",
+      "website_label": "Room 10",
+      "map_label": "R10 Capricorn",
+      "scheduled_talks": 4,
+      "open_slots": [
+        "15:00",
+        "16:00"
+      ]
+    },
+    {
+      "room_id": "aquarius",
+      "room_number": 11,
+      "room_code": "R11",
+      "room_name": "Aquarius",
+      "website_label": "Room 11",
+      "map_label": "R11 Aquarius",
+      "scheduled_talks": 4,
+      "open_slots": [
+        "15:00",
+        "16:00"
+      ]
+    },
+    {
+      "room_id": "pisces",
+      "room_number": 12,
+      "room_code": "R12",
+      "room_name": "Pisces",
+      "website_label": "Room 12",
+      "map_label": "R12 Pisces",
+      "scheduled_talks": 4,
+      "open_slots": [
+        "15:00",
+        "16:00"
+      ]
+    }
+  ],
+  "shared_events": [
+    {
+      "date": "2026-11-15",
+      "timezone": "Asia/Yangon",
+      "start_time": "09:00",
+      "end_time": "10:00",
+      "title": "Opening ceremony · Main stage",
+      "room_id": null,
+      "venue_as_published": "Main stage",
+      "end_time_basis": "published 60-minute slot duration"
+    },
+    {
+      "date": "2026-11-15",
+      "timezone": "Asia/Yangon",
+      "start_time": "12:00",
+      "end_time": "13:00",
+      "title": "Lunch break",
+      "room_id": null,
+      "venue_as_published": null,
+      "end_time_basis": "published 60-minute slot duration"
+    },
+    {
+      "date": "2026-11-15",
+      "timezone": "Asia/Yangon",
+      "start_time": "17:00",
+      "end_time": "18:00",
+      "title": "Closing ceremony",
+      "room_id": null,
+      "venue_as_published": null,
+      "end_time_basis": "published 60-minute slot duration"
+    }
+  ],
+  "unassigned_speakers": [
+    {
+      "speaker_name": "Dr Sitt Paing",
+      "speaker_slug": "dr-sitt-paing",
+      "session_title": "Human Intelligence is more important than ever is the age of AI",
+      "room_code": null,
+      "start_time": null,
+      "end_time": null,
+      "speaker_url": "https://www.var.camp/speakers/dr-sitt-paing",
+      "status": "profile_published_but_no_room_or_time"
+    },
+    {
+      "speaker_name": "Hlaing Min Paing",
+      "speaker_slug": "hlaing-min-paing",
+      "session_title": "From Zero to Cloud Engineer",
+      "room_code": null,
+      "start_time": null,
+      "end_time": null,
+      "speaker_url": "https://www.var.camp/speakers/hlaing-min-paing",
+      "status": "profile_published_but_no_room_or_time"
+    },
+    {
+      "speaker_name": "Thet Paing Myo",
+      "speaker_slug": "thet-paing-myo",
+      "session_title": "Data Engineering 101",
+      "room_code": null,
+      "start_time": null,
+      "end_time": null,
+      "speaker_url": "https://www.var.camp/speakers/thet-paing-myo",
+      "status": "profile_published_but_no_room_or_time"
+    }
+  ]
+}

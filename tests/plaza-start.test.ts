@@ -37,7 +37,8 @@ function startPosition(map: TiledMap, sample: number, name?: string): { x: numbe
   const compute = createCompute(MathUtils, { getLocalUser: () => undefined });
   return compute(wrapper, map, undefined, name);
 }
-const welcome = [{ x: 2032, y: 2096 }, { x: 2064, y: 2096 }, { x: 2032, y: 2128 }, { x: 2064, y: 2128 }];
+// Approved logo arrival: the pinned client must resolve every tile in both markers.
+const welcome = [{ x: 2032, y: 1776 }, { x: 2064, y: 1776 }, { x: 2032, y: 1808 }, { x: 2064, y: 1808 }];
 const aries = [{ x: 3248, y: 2288 }, { x: 3280, y: 2288 }, { x: 3248, y: 2320 }, { x: 3280, y: 2320 }];
 let mapCache: { authored: TiledMap; exported: TiledMap } | undefined;
 const maps = () => {

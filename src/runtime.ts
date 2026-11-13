@@ -1,20 +1,20 @@
+import {registerProgrammeAccess} from './programme/access';
 /// <reference types="@workadventure/iframe-api-typings" />
 /// <reference types="vite/client" />
 import { createProgressStore } from './quests/store';
 import { registerInteractions } from './quests/interactions';
-import { venueDestination } from './navigation';
 import { WORLD_CATALOG } from './world/catalog';
 import { emptyJournalView, JOURNAL_KEY, type JournalView } from './journal/view';
 
 /** Structural subset of the installed 1.32.10 API; no administration metadata. */
 export interface WorkAdventureApi {
  onInit: typeof WA.onInit;
- controls: Pick<typeof WA.controls, 'disableRightClick'>;
+ controls: Pick<typeof WA.controls, 'disableRightClick' | 'disableRoomList'>;
  room: Pick<typeof WA.room, 'id'>;
  mapEditor: { area: Pick<typeof WA.mapEditor.area, 'onEnter' | 'onLeave'> };
  player: { state: Pick<typeof WA.player.state, 'loadVariable' | 'saveVariable' | 'onVariableChange'> };
  nav: Pick<typeof WA.nav, 'goToRoom'>;
- ui: Pick<typeof WA.ui, 'registerMenuCommand' | 'displayActionMessage' | 'modal'>;
+ ui: Pick<typeof WA.ui, 'registerMenuCommand' | 'displayActionMessage' | 'modal' | 'actionBar'>;
 }
 // HTML is a separate Vite entry. Do not import it as a raw URL asset.
 const journalPath = import.meta.env.DEV ? './journal/index.html' : `../src/journal/index.html?v=${import.meta.env.VARCAMP_UI_RELEASE}`;
@@ -31,9 +31,8 @@ export async function initializeWorld(api: WorkAdventureApi): Promise<void> {
  await api.onInit();
  // Keep movement deliberate: keyboard/joystick only; also disables native mobile tap walking.
  api.controls.disableRightClick();
- for (const [label, map] of [['Return to Plaza', 'overworld'], ['Go to Solar Hall', 'solar-hall'], ['Go to Lunar Hall', 'lunar-hall']] as const) {
-  api.ui.registerMenuCommand(label, { key: label, callback: () => api.nav.goToRoom(venueDestination(api.room.id, map)) });
- }
+ api.controls.disableRoomList();
+ registerProgrammeAccess(api);
  api.ui.registerMenuCommand('Quest Journal', { key: 'Quest Journal', callback: () => openJournal(api) });
  const store = createProgressStore({ read: key => api.player.state.loadVariable(key), save: (key, value) => api.player.state.saveVariable(key, value, { public: false, persist: true, scope: 'world' }) });
  publishView(api, emptyJournalView);

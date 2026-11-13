@@ -1,9 +1,13 @@
 import {createHash} from 'node:crypto';
 import data from '../../world/expo-roster.json';
 import type {MapLayout,Placement} from './types';
+import {applyProgrammeBoards,restoreProgrammeBoards} from './programme-boards';
 
 const sha=(v:unknown)=>createHash('sha256').update(JSON.stringify(v)).digest('hex');
-export const isExpoRoster=(l:MapLayout)=>l.id===data.mapId&&sha(l)===data.afterLayoutSha256;
+const hasProgramme=(l:MapLayout)=>l.id===data.mapId&&l.placements.some(p=>p.id.startsWith('programme-'));
+export const isExpoRoster=(l:MapLayout)=>{
+ try{return l.id===data.mapId&&sha(hasProgramme(l)?restoreProgrammeBoards(l):l)===data.afterLayoutSha256;}catch{return false;}
+};
 /** One exact roster revision; unrelated source and controls cannot enter it. */
 function transform(input:MapLayout,forward:boolean):MapLayout{
  if(input.id!==data.mapId)return input;
@@ -22,5 +26,5 @@ function transform(input:MapLayout,forward:boolean):MapLayout{
  if(sha(l)!==(forward?data.afterLayoutSha256:data.beforeLayoutSha256))throw Error('Expo roster: unexpected source delta');
  return l;
 }
-export const applyExpoRoster=(l:MapLayout)=>transform(l,true);
-export const restoreExpoRoster=(l:MapLayout)=>transform(l,false);
+export const applyExpoRoster=(l:MapLayout)=>l.id===data.mapId?applyProgrammeBoards(transform(l,true)):l;
+export const restoreExpoRoster=(l:MapLayout)=>transform(hasProgramme(l)?restoreProgrammeBoards(l):l,false);

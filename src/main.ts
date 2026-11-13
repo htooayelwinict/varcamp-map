@@ -4,7 +4,9 @@ import { registerCheckInCounter } from './check-in/counter';
 import { registerArcadeCabinets } from './arcade/cabinets';
 import { registerOrbitCourse } from './playground/course';
 import { registerNewnessCareers } from './expo/newness-careers';
+import { registerProgrammeBoards } from './programme/boards';
 void initializeWorld(WA).catch(() => { console.warn('VarCamp scripting unavailable. Physical venue exits remain available.'); });
+void WA.onInit().then(()=>{const dispose=registerProgrammeBoards(WA);window.addEventListener('pagehide',dispose,{once:true});}).catch(()=>console.warn('VarCamp programme boards unavailable; use the Programme toolbar.'));
 void WA.onInit().then(() => {
  const dispose=registerCheckInCounter(WA);
  window.addEventListener('pagehide',dispose,{once:true});

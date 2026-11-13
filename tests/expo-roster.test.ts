@@ -1,4 +1,6 @@
 import {applyExpoRoster,restoreExpoRoster} from '../tools/maps/expo-roster';
+import {beforeProgrammeNative} from './helpers/programme-history';
+import {restoreProgrammeBoards} from '../tools/maps/programme-boards';
 import {readFileSync} from 'node:fs';
 import {gunzipSync} from 'node:zlib';
 import {isDeepStrictEqual} from 'node:util';
@@ -65,9 +67,11 @@ describe('organizer-approved expo roster',()=>{
  it('preserves arrival, original sponsor artwork, saved controls and all collisions outside the eastern lower booths',()=>{
   const {layout:l,map:m}=current(),b=before(),old=b['maps/overworld.tmj'] as TiledMap,prior=b['world/layouts/overworld.json'] as MapLayout;
   expect(b.base).toBe('9d61659f49af11666a55478d048e27261534c65f');
-  for(const key of ['entries','exits','areas','inspectionZones'] as const)expect(isDeepStrictEqual(l[key],prior[key]),key).toBe(true);
+  const rosterEpoch=restoreProgrammeBoards(l);
+  for(const key of ['entries','exits','areas','inspectionZones'] as const)expect(isDeepStrictEqual(rosterEpoch[key],prior[key]),key).toBe(true);
   expect(read('maps/overworld.wam')).toEqual(b['maps/overworld.wam']);expect(m.properties).toEqual(old.properties);
-  const mask=(v:TiledMap)=>(v.layers.find(z=>z.name==='physical-collisions') as TileLayer).data,a=mask(m),c=mask(old);
+  // The independently tested programme supports are a later additive epoch.
+  const mask=(v:TiledMap)=>(v.layers.find(z=>z.name==='physical-collisions') as TileLayer).data,a=mask(beforeProgrammeNative(m)),c=mask(old);
   expect(a.flatMap((v,i)=>v!==c[i]?[i]:[]).every(i=>i%m.width>=75&&i%m.width<90&&Math.floor(i/m.width)>=80&&Math.floor(i/m.width)<86)).toBe(true);
   for(const layer of old.layers.filter(z=>z.type==='objectgroup'&&z.name!=='wayfinding-text'))expect(m.layers.find(z=>z.name===layer.name)).toEqual(layer);
   expect(m.tilesets.slice(0,old.tilesets.length)).toEqual(old.tilesets);

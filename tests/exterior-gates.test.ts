@@ -1,3 +1,4 @@
+import {restoreProgrammeBoards} from '../tools/maps/programme-boards';
 import {preVibeCodeLayout} from './helpers/vibecode-history';
 import {assertSponsorFootprints} from './helpers/physical-prop-contracts';
 import {readFileSync} from 'node:fs';
@@ -60,7 +61,7 @@ describe('exterior circle road keeps public destinations out of the speaker plaz
  // Expanding the circle adds at most eight Manhattan tiles to each former doorway approach.
  it('reaches all twelve speaker doors while every non-speaker exit is forbidden',()=>{
   const{l,mask}=built(),portals=new Set(l.exits.filter(e=>!e.destination.startsWith('speaker-')).flatMap(e=>cells(e,l.width)));
-  for(const start of cells(l.entries.find(e=>e.isDefault)!,l.width)){const d=walk(l.width,mask,start,portals);for(const e of l.exits.filter(e=>e.destination.startsWith('speaker-')))expect(Math.min(...cells(e,l.width).map(n=>d.get(n)??Infinity)),e.name).toBeLessThanOrEqual(73);}
+  for(const start of cells(restoreProgrammeBoards(l).entries.find(e=>e.isDefault)!,l.width)){const d=walk(l.width,mask,start,portals);for(const e of l.exits.filter(e=>e.destination.startsWith('speaker-')))expect(Math.min(...cells(e,l.width).map(n=>d.get(n)??Infinity)),e.name).toBeLessThanOrEqual(73);}
  });
  it('keeps every spawn and portal cell clear, reachable, separated and within the exterior walking budget',()=>{
   const{l,mask}=built(),gates=l.exits.filter(e=>!e.destination.startsWith('speaker-'));

@@ -1,0 +1,153 @@
+{
+  "mapId": "overworld",
+  "boards": [
+    {
+      "id": "arrival",
+      "room": "all",
+      "face": {
+        "x": 54,
+        "y": 55,
+        "width": 4,
+        "height": 3
+      }
+    },
+    {
+      "id": "aries",
+      "room": "aries",
+      "face": {
+        "x": 101,
+        "y": 71,
+        "width": 4,
+        "height": 2
+      }
+    },
+    {
+      "id": "taurus",
+      "room": "taurus",
+      "face": {
+        "x": 95,
+        "y": 93,
+        "width": 4,
+        "height": 2
+      }
+    },
+    {
+      "id": "gemini",
+      "room": "gemini",
+      "face": {
+        "x": 79,
+        "y": 109,
+        "width": 4,
+        "height": 2
+      }
+    },
+    {
+      "id": "cancer",
+      "room": "cancer",
+      "face": {
+        "x": 57,
+        "y": 115,
+        "width": 4,
+        "height": 2
+      }
+    },
+    {
+      "id": "leo",
+      "room": "leo",
+      "face": {
+        "x": 44,
+        "y": 109,
+        "width": 4,
+        "height": 2
+      }
+    },
+    {
+      "id": "virgo",
+      "room": "virgo",
+      "face": {
+        "x": 28,
+        "y": 93,
+        "width": 4,
+        "height": 2
+      }
+    },
+    {
+      "id": "libra",
+      "room": "libra",
+      "face": {
+        "x": 22,
+        "y": 71,
+        "width": 4,
+        "height": 2
+      }
+    },
+    {
+      "id": "scorpio",
+      "room": "scorpio",
+      "face": {
+        "x": 28,
+        "y": 49,
+        "width": 4,
+        "height": 2
+      }
+    },
+    {
+      "id": "sagittarius",
+      "room": "sagittarius",
+      "face": {
+        "x": 44,
+        "y": 33,
+        "width": 4,
+        "height": 2
+      }
+    },
+    {
+      "id": "capricorn",
+      "room": "capricorn",
+      "face": {
+        "x": 57,
+        "y": 27,
+        "width": 4,
+        "height": 2
+      }
+    },
+    {
+      "id": "aquarius",
+      "room": "aquarius",
+      "face": {
+        "x": 79,
+        "y": 33,
+        "width": 4,
+        "height": 2
+      }
+    },
+    {
+      "id": "pisces",
+      "room": "pisces",
+      "face": {
+        "x": 95,
+        "y": 49,
+        "width": 4,
+        "height": 2
+      }
+    }
+  ],
+  "arrivalSpawn": {
+    "names": [
+      "welcome",
+      "start"
+    ],
+    "before": {
+      "x": 63,
+      "y": 65,
+      "width": 2,
+      "height": 2
+    },
+    "after": {
+      "x": 63,
+      "y": 55,
+      "width": 2,
+      "height": 2
+    }
+  }
+}

@@ -1,4 +1,5 @@
 import {restoreSponsorTiers} from './sponsor-tiers';
+import {restoreProgrammeBoards} from './programme-boards';
 import {restoreArrivalSponsorSpace} from './arrival-sponsor-space';
 import {restorePlazaShoreline} from './plaza-shoreline';
 import {restoreArrivalHospitality} from './arrival-hospitality';
@@ -73,6 +74,7 @@ export function assertNativePlaza(map:TiledMap,layout:MapLayout,catalog:TileCata
  if(layout.id!=='overworld'&&!identity.some(p=>p.value==='overworld')&&!map.tilesets.some(t=>t.image?.endsWith('/plaza-buildings.png')||t.name?.startsWith('plaza-drone-')))return;
  const need=(ok:unknown,message:string)=>{if(!ok)throw Error('Plaza '+message);};
  need(layout.id==='overworld'&&identity.length===1&&identity[0].type==='string'&&identity[0].value==='overworld'&&map.width===128&&map.height===128,'current map/layout identity changed');
+ restoreProgrammeBoards(layout); // Require the complete current board family before historical replay.
  assertCheckInPhysicsCatalog(catalog);
  assertAudienceFootprintCatalog(catalog);
  restoreLeoCitadel(restoreCancerCitadel(restoreHornedCitadels(restoreOuterSecurity(restoreRoadsterPhysics(restoreArrivalHospitality(restorePlazaShoreline(restoreArrivalSponsorSpace(restoreSponsorTiers(layout)),catalog)),catalog)),catalog),catalog),catalog);

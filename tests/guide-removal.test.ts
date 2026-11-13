@@ -10,28 +10,28 @@ it.each([
   ['https://play.example/~/varcamp/maps/overworld.wam', 'https://play.example/~/varcamp/maps/solar-hall.wam#solar-entry'],
   ['https://play.workadventu.re/@/varcamp/world/varcamp-2026/maps/overworld.wam', 'https://play.workadventu.re/@/varcamp/world/varcamp-2026/maps/solar-hall#solar-entry'],
   ['https://play.workadventu.re/@/varcamp/world/varcamp-2026/maps/overworld', 'https://play.workadventu.re/@/varcamp/world/varcamp-2026/maps/solar-hall#solar-entry'],
-])('boots the real plaza entry without guide menus while navigation, quests and registration remain usable: %s', async (roomId, solarDestination) => {
+])('boots the real plaza entry without guide or jump menus while quests and registration remain usable: %s', async (roomId) => {
   const menus = new Map<string, () => void>();
   const enters = new Map<string, () => void>();
   const actions = new Map<string, () => void>();
   const subscription = (target: Map<string, () => void>) => (name: string) => ({ subscribe: (fn: () => void) => { target.set(name, fn); return { unsubscribe() {} }; } });
   const arrival = stations.stations.find(s => s.id === 'arrival')!.interaction;
   const api = {
-    onInit: async () => {}, controls: { disableRightClick: vi.fn() },
+    onInit: async () => {}, controls: { disableRightClick: vi.fn(), disableRoomList: vi.fn() },
     room: { id: roomId, website: { create: vi.fn(async () => {}), delete: vi.fn(async () => {}) } },
     player: { name: 'Attendee', getPosition: async () => ({ x: (arrival.x + 0.5) * 32, y: (arrival.y + 0.5) * 32 }), onPlayerMove: () => ({ unsubscribe() {} }), state: { loadVariable: () => undefined, saveVariable: vi.fn(async () => {}), onVariableChange: () => ({ subscribe: () => ({ unsubscribe() {} }) }) } },
     mapEditor: { area: { onEnter: subscription(enters), onLeave: subscription(new Map()) } },
     nav: { goToRoom: vi.fn(), openTab: vi.fn() },
-    ui: { registerMenuCommand: (label: string, options: { callback: () => void }) => { menus.set(label, options.callback); return { remove() {} }; }, displayActionMessage: ({ message, callback }: { message: string; callback: () => void }) => { actions.set(message, callback); return { remove: async () => { actions.delete(message); } }; }, modal: { openModal: vi.fn(), closeModal: vi.fn() } },
+    ui: { actionBar: {addButton:vi.fn()}, registerMenuCommand: (label: string, options: { callback: () => void }) => { menus.set(label, options.callback); return { remove() {} }; }, displayActionMessage: ({ message, callback }: { message: string; callback: () => void }) => { actions.set(message, callback); return { remove: async () => { actions.delete(message); } }; }, modal: { openModal: vi.fn(), closeModal: vi.fn() } },
   };
   const warnings = vi.spyOn(console, 'warn').mockImplementation(() => {});
   vi.stubGlobal('WA', api); vi.stubGlobal('window', new EventTarget());
   await import('../src/main');
   await vi.waitFor(() => expect(menus.has('Quest Journal')).toBe(true));
   expect(warnings).not.toHaveBeenCalled();
-  expect([...menus.keys()].sort()).toEqual(['Go to Lunar Hall', 'Go to Solar Hall', 'Quest Journal', 'Return to Plaza']);
-  menus.get('Go to Solar Hall')!();
-  expect(api.nav.goToRoom).toHaveBeenCalledWith(solarDestination);
+  expect([...menus.keys()]).toEqual(['Quest Journal']);
+  expect(api.nav.goToRoom).not.toHaveBeenCalled();
+  expect(api.controls.disableRoomList).toHaveBeenCalledOnce();
   menus.get('Quest Journal')!();
   expect(api.ui.modal.openModal).toHaveBeenCalledWith(expect.objectContaining({ title: 'VarCamp Quest Journal' }));
   expect(enters.has('welcome-directory')).toBe(true);
