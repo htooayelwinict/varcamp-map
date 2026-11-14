@@ -194,7 +194,7 @@
         },
         {
           "path": "art/source/park-arcade-refresh.json",
-          "sha256": "4facd2068f4c15d23e03a96e103e284a4ac12bb632b4b4f3165bafcdbe8adc50"
+          "sha256": "14bb2d77d5692cde4204126f3f4d849faccbff457390a272e08e772958a4b07a"
         },
         {
           "path": "tools/maps/playground-context.ts",

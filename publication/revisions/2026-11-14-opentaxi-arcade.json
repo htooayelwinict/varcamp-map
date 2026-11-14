@@ -1,0 +1,83 @@
+{
+  "schemaVersion": 1,
+  "revisions": [
+    {
+      "path": "maps/nebula-arcade.tmj",
+      "fromSha256": "7d47c4d57343871da5a0a3e8ba2695eabe2fb8dcd628ae85801f37f0be074c49",
+      "toSha256": "b6dee9d2a74b4a72d3a85fa4477c7d643fa435daf2f0e3105ff54f037fa374bb",
+      "reason": "Replace the duplicate northwest arcade cabinet with OpenTaxi and matching title/type labels; refresh only required animation input checksums with identical image and geometry bytes. Preserve all other games, map geometry and saved WAM data."
+    },
+    {
+      "path": "maps/preview/nebula-arcade.tmj",
+      "fromSha256": "4d1ac767b917155bd2604110e7d035ee6796f350b362c2bad621d1a4c6c88f41",
+      "toSha256": "d01c082c06ca10296abc0c9cefe8948ee678c2ee402817822abf1da91c271f76",
+      "reason": "Replace the duplicate northwest arcade cabinet with OpenTaxi and matching title/type labels; refresh only required animation input checksums with identical image and geometry bytes. Preserve all other games, map geometry and saved WAM data."
+    },
+    {
+      "path": "world/layouts/air-district.json",
+      "fromSha256": "85ee9ed3e0a1bf67762619bdc26529c0760b7acbeebda2534cf23a850288c82d",
+      "toSha256": "7cc10bd1e9005030cccb20401235b94863b39c85f14e907789c65e56d91d2b9d",
+      "reason": "Replace the duplicate northwest arcade cabinet with OpenTaxi and matching title/type labels; refresh only required animation input checksums with identical image and geometry bytes. Preserve all other games, map geometry and saved WAM data."
+    },
+    {
+      "path": "world/layouts/comet-maze.json",
+      "fromSha256": "b6fb1d18881de8c497e06043c830c034168888174df4f3817eb90b1b8d987c5e",
+      "toSha256": "c31f01c8eb3c8946500687058b96f344d7eb5c128576837b2a2115cb60b741be",
+      "reason": "Replace the duplicate northwest arcade cabinet with OpenTaxi and matching title/type labels; refresh only required animation input checksums with identical image and geometry bytes. Preserve all other games, map geometry and saved WAM data."
+    },
+    {
+      "path": "world/layouts/earth-district.json",
+      "fromSha256": "ca9035d528de76c8d4e113549aa462d79bb3bf6b57befcced5a5d9962da30f4a",
+      "toSha256": "7eb388ff2c1328a9e8190439c458dc1907b2b02a90f8c94a123aec8918451258",
+      "reason": "Replace the duplicate northwest arcade cabinet with OpenTaxi and matching title/type labels; refresh only required animation input checksums with identical image and geometry bytes. Preserve all other games, map geometry and saved WAM data."
+    },
+    {
+      "path": "world/layouts/fa-ship.json",
+      "fromSha256": "0bd76f1ab4634b826cf24f4d1ca3468ccbbeb67957bc4c15a9493a35ad53a906",
+      "toSha256": "1ee6560e46a03944dff5a974bb49dbf4254aa4cf3cb4374e0cf839210068db50",
+      "reason": "Replace the duplicate northwest arcade cabinet with OpenTaxi and matching title/type labels; refresh only required animation input checksums with identical image and geometry bytes. Preserve all other games, map geometry and saved WAM data."
+    },
+    {
+      "path": "world/layouts/fire-district.json",
+      "fromSha256": "bf2bd743892d391a5bbb4dca7822fb7681e110f8c6e3c20b1796b96769278e07",
+      "toSha256": "f1c86f3e21598301b1b78b46f653c2d44fe96ddf3d181c50b55afc63d8ebb745",
+      "reason": "Replace the duplicate northwest arcade cabinet with OpenTaxi and matching title/type labels; refresh only required animation input checksums with identical image and geometry bytes. Preserve all other games, map geometry and saved WAM data."
+    },
+    {
+      "path": "world/layouts/hidden-observatory.json",
+      "fromSha256": "5321b588145ae20489b8bc953ae2376069a7eed6a19f7ece8b2ca8c9cffa400c",
+      "toSha256": "5f6f21b3a18b77c1732e9ef64b93c76baad58805c17924d84bf2b8141f167306",
+      "reason": "Replace the duplicate northwest arcade cabinet with OpenTaxi and matching title/type labels; refresh only required animation input checksums with identical image and geometry bytes. Preserve all other games, map geometry and saved WAM data."
+    },
+    {
+      "path": "world/layouts/nebula-arcade.json",
+      "fromSha256": "649d0dd10183af2ec5ffdbb2927aa93de6da51ef73dc627dba741b0351e0401e",
+      "toSha256": "8dc08f0cf3b7f2bab026cadea5823ed990a82a35cf07771d1b72e74daa90ea61",
+      "reason": "Replace the duplicate northwest arcade cabinet with OpenTaxi and matching title/type labels; refresh only required animation input checksums with identical image and geometry bytes. Preserve all other games, map geometry and saved WAM data."
+    },
+    {
+      "path": "world/layouts/orbit-maze.json",
+      "fromSha256": "acbb066724091b3297743c9399791e676684485eaedb4f6ba5e24722087f0f66",
+      "toSha256": "2dd485b1fa490778d9543ff8e976ea1cfc81e72745074e4e5b8e8f6e3a51024b",
+      "reason": "Replace the duplicate northwest arcade cabinet with OpenTaxi and matching title/type labels; refresh only required animation input checksums with identical image and geometry bytes. Preserve all other games, map geometry and saved WAM data."
+    },
+    {
+      "path": "world/layouts/orbit-playground.json",
+      "fromSha256": "7ec2c6a06c8dc15c05aaf03b23f040b440899bae6dfa722e111e6c573519c0d8",
+      "toSha256": "d37d7009da0fc1208f00f4d0a182e4e30620853e491af23fd238e49cbbde3ad4",
+      "reason": "Replace the duplicate northwest arcade cabinet with OpenTaxi and matching title/type labels; refresh only required animation input checksums with identical image and geometry bytes. Preserve all other games, map geometry and saved WAM data."
+    },
+    {
+      "path": "world/layouts/water-district.json",
+      "fromSha256": "e9be9d27917927e66833373842ff67f76269d632b5ad3a02b2199e5adc43545f",
+      "toSha256": "075b322aedfaf689e3badadf28baec37814850b13742113f5f7c5ce1ac89c77b",
+      "reason": "Replace the duplicate northwest arcade cabinet with OpenTaxi and matching title/type labels; refresh only required animation input checksums with identical image and geometry bytes. Preserve all other games, map geometry and saved WAM data."
+    },
+    {
+      "path": "world/layouts/zodiac-festival-park.json",
+      "fromSha256": "1e75c8400e8894044f6f0ed2e0e443125b3fdc962353fd26929452b95368378c",
+      "toSha256": "77fade33a671510202a8e91bb6c4f96b12a87537ac8d716a78dfc0e54c3a4eaf",
+      "reason": "Replace the duplicate northwest arcade cabinet with OpenTaxi and matching title/type labels; refresh only required animation input checksums with identical image and geometry bytes. Preserve all other games, map geometry and saved WAM data."
+    }
+  ]
+}

@@ -4,11 +4,12 @@ The park has a continuous lawn, curved gravel paths, a pond walk, four flower ga
 
 The arcade has six cabinets, in three facing pairs:
 
-| Pair | Game | Play |
+| Cabinet | Game | Play |
 | --- | --- | --- |
-| North | [War Brokers](https://warbrokers.io/) | Team FPS |
-| Middle | [DEADSHOT](https://deadshot.io/) | Arena FPS |
-| South | [HaxBall](https://www.haxball.com/play) | Team PvP football |
+| North-west | [OpenTaxi](https://myanmar.opentaxi.world/opentaxi/) | Taxi game |
+| North-east | [War Brokers](https://warbrokers.io/) | Team FPS |
+| Middle pair | [DEADSHOT](https://deadshot.io/) | Arena FPS |
+| South pair | [HaxBall](https://www.haxball.com/play) | Team PvP football |
 
 Stand on the mat immediately in front of a cabinet and press **Space**, or click its action prompt. The game opens on its official website in a **new browser tab**. Return to the VarCamp tab to continue exploring. Each game controls its own matches, accounts and room selection; the map does not automatically put attendees into the same match. To play together, use the game's own room or party controls. Orbit Playground now has a Woka walking course. Walk onto START, press Space, visit pads 1–7 in order and return to FINISH. The action prompt shows progress, then elapsed time and your private personal best. Space cancels a run; runs expire after three minutes. [Course and side-wing guide](coast-office-playground.md).
 
@@ -45,6 +46,6 @@ Then use the normal source receipts and demo deployment procedure. Walk every en
 
 ပန်းခြံတွင် မြက်ခင်း၊ ကျောက်စရစ်လမ်းကွေ့များ၊ ရေကန်ပတ်လမ်း၊ ပန်းဥယျာဉ်လေးခု၊ အရိပ်ရသစ်ပင်များနှင့် ထိုင်ခုံများ ပါဝင်ပါသည်။ အနောက်မြောက်ဘက်လမ်းမှ Arcade သို့၊ အရှေ့မြောက်ဘက်လမ်းမှ Playground သို့ ဝင်နိုင်ပြီး တောင်ဘက်လမ်းမှ Plaza သို့ ပြန်နိုင်ပါသည်။ မူလတွေ့ဆုံစကားပြောနေရာများနှင့် ပြန်ဝင်ရာနေရာများကို ထိန်းသိမ်းထားပါသည်။
 
-Arcade စက်ရှေ့ရှိ ဖျာပေါ်တွင် ရပ်ပြီး **Space** နှိပ်ပါ၊ သို့မဟုတ် ပေါ်လာသော စာတန်းကို နှိပ်ပါ။ သက်ဆိုင်ရာဂိမ်း၏ တရားဝင်ဝက်ဘ်ဆိုက်ကို **browser tab အသစ်** တွင် ဖွင့်ပေးပါမည်။ မြေပုံသို့ ပြန်လာလိုလျှင် VarCamp tab ကို ပြန်ရွေးပါ။ မြောက်ဘက်စက်နှစ်လုံးမှာ War Brokers၊ အလယ်နှစ်လုံးမှာ DEADSHOT၊ တောင်ဘက်နှစ်လုံးမှာ HaxBall ဖြစ်ပါသည်။ အတူတူကစားလိုလျှင် ဂိမ်းအတွင်းရှိ room သို့မဟုတ် party စနစ်ကို အသုံးပြုရပါမည်။ မြေပုံက ကစားသူအားလုံးကို ပွဲတစ်ပွဲတည်းသို့ အလိုအလျောက် ထည့်ပေးခြင်း မရှိပါ။
+Arcade စက်ရှေ့ရှိ ဖျာပေါ်တွင် ရပ်ပြီး **Space** နှိပ်ပါ၊ သို့မဟုတ် ပေါ်လာသော စာတန်းကို နှိပ်ပါ။ သက်ဆိုင်ရာဂိမ်း၏ တရားဝင်ဝက်ဘ်ဆိုက်ကို **browser tab အသစ်** တွင် ဖွင့်ပေးပါမည်။ မြေပုံသို့ ပြန်လာလိုလျှင် VarCamp tab ကို ပြန်ရွေးပါ။ မြောက်ဘက် ဘယ်စက်မှာ OpenTaxi၊ ညာစက်မှာ War Brokers၊ အလယ်နှစ်လုံးမှာ DEADSHOT၊ တောင်ဘက်နှစ်လုံးမှာ HaxBall ဖြစ်ပါသည်။ အတူတူကစားလိုလျှင် ဂိမ်းအတွင်းရှိ room သို့မဟုတ် party စနစ်ကို အသုံးပြုရပါမည်။ မြေပုံက ကစားသူအားလုံးကို ပွဲတစ်ပွဲတည်းသို့ အလိုအလျောက် ထည့်ပေးခြင်း မရှိပါ။
 
 နောက်နှစ်အတွက် ပြင်ဆင်သူများသည် `world/arcade-games.json` တွင် ဂိမ်းလင့်ခ်နှင့် စက်ရှေ့ရပ်ရမည့် နေရာကို ပြင်နိုင်ပါသည်။ မြေပုံပေါ်ရှိ ဂိမ်းအမည်ကိုလည်း ကိုက်ညီအောင် ပြင်ပါ။ သစ်ပင်အမြစ်နှင့် မီးတိုင်အောက်ခြေကိုသာ တိုက်မိရပ်တန့်စေပြီး အပေါ်ပိုင်းပုံရိပ်တစ်ခုလုံးကို လမ်းပိတ်အတားအဆီး မလုပ်ပါနှင့်။ အသုံးပြုထားသော ပုံများ၏ မူပိုင်ခွင့်လိုင်စင်နှင့် ဖန်တီးသူစာရင်းကို မဖျက်ပါနှင့်။ စမ်းသပ်မှုတစ်ဖိုင်စီကို RAM 6 GB ကန့်သတ်ချက်ဖြင့်သာ run ပါ။

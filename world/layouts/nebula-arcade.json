@@ -730,7 +730,7 @@
     },
     {
       "name": "game-west-0",
-      "text": "WAR BROKERS",
+      "text": "OPENTAXI",
       "x": 6,
       "y": 9,
       "width": 6,
@@ -741,7 +741,7 @@
     },
     {
       "name": "kind-west-0",
-      "text": "TEAM FPS",
+      "text": "TAXI GAME",
       "x": 5,
       "y": 13,
       "width": 5,
@@ -1423,7 +1423,7 @@
           },
           {
             "path": "art/source/park-arcade-refresh.json",
-            "sha256": "4facd2068f4c15d23e03a96e103e284a4ac12bb632b4b4f3165bafcdbe8adc50"
+            "sha256": "14bb2d77d5692cde4204126f3f4d849faccbff457390a272e08e772958a4b07a"
           },
           {
             "path": "tools/maps/playground-context.ts",
@@ -1851,7 +1851,7 @@
           },
           {
             "path": "art/source/park-arcade-refresh.json",
-            "sha256": "4facd2068f4c15d23e03a96e103e284a4ac12bb632b4b4f3165bafcdbe8adc50"
+            "sha256": "14bb2d77d5692cde4204126f3f4d849faccbff457390a272e08e772958a4b07a"
           },
           {
             "path": "tools/maps/playground-context.ts",
@@ -2279,7 +2279,7 @@
           },
           {
             "path": "art/source/park-arcade-refresh.json",
-            "sha256": "4facd2068f4c15d23e03a96e103e284a4ac12bb632b4b4f3165bafcdbe8adc50"
+            "sha256": "14bb2d77d5692cde4204126f3f4d849faccbff457390a272e08e772958a4b07a"
           },
           {
             "path": "tools/maps/playground-context.ts",

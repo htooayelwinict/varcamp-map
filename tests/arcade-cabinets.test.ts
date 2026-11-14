@@ -1,6 +1,5 @@
 import {describe, expect, it, vi} from 'vitest';
 import {registerArcadeCabinets, type ArcadeApi} from '../src/arcade/cabinets';
-import roster from '../world/arcade-games.json';
 
 function harness(room='https://example.org/~/demo/maps/nebula-arcade.wam') {
  let move:(position:{x:number;y:number})=>void=()=>{};
@@ -23,8 +22,15 @@ describe('arcade cabinet actions',()=>{
    const h=harness(id);expect(h.api.player.getPosition).not.toHaveBeenCalled();expect(h.api.player.onPlayerMove).not.toHaveBeenCalled();h.dispose();
   }
  });
- it.each(roster.cabinets)('offers $placementId only at its front and opens its official game once',cabinet=>{
-  const h=harness(),r=cabinet.interaction,game=roster.games.find(g=>g.id===cabinet.gameId)!;
+ it.each([
+  {placementId:'cabinet-west0',x:4,y:13,name:'OpenTaxi',url:'https://myanmar.opentaxi.world/opentaxi/'},
+  {placementId:'cabinet-east0',x:30,y:13,name:'War Brokers',url:'https://warbrokers.io/'},
+  {placementId:'cabinet-west1',x:4,y:20,name:'DEADSHOT',url:'https://deadshot.io/'},
+  {placementId:'cabinet-east1',x:30,y:20,name:'DEADSHOT',url:'https://deadshot.io/'},
+  {placementId:'cabinet-west2',x:4,y:27,name:'HaxBall',url:'https://www.haxball.com/play'},
+  {placementId:'cabinet-east2',x:30,y:27,name:'HaxBall',url:'https://www.haxball.com/play'},
+ ])('offers $placementId only at its front and opens its assigned game once',game=>{
+  const h=harness(),r=game;
   h.move(r.x+.5,r.y-.5);expect(h.prompts).toHaveLength(0);
   h.move(r.x+.5,r.y+.5);expect(h.prompts).toHaveLength(1);expect(h.prompts[0].message).toContain(game.name);expect(h.prompts[0].message).toContain('new tab');
   expect(h.openTab).not.toHaveBeenCalled();h.move(r.x+1,r.y+1);expect(h.prompts).toHaveLength(1);
