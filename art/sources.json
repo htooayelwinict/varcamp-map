@@ -2033,7 +2033,7 @@
       },
       {
         "path": "art/source/natural-shipyard-beach.json",
-        "sha256": "06848f8d654388d6c8688ff7afcaafd643e8d81cce64619a6b70185a9623d277"
+        "sha256": "2f98b6136633c956482643d714d5851b837479047a461d3cfb39682f47797ff3"
       },
       {
         "path": "assets/tilesets/original/natural-constellation-shore-dunes.png",
@@ -2041,7 +2041,7 @@
       },
       {
         "path": "art/source/natural-constellation-shore.json",
-        "sha256": "b8c9d4833c7d375ed3691d4fb8ad7485ee24c65113d2e22aa7207a2b62f7a3b2"
+        "sha256": "44c3b0700079b7c623b2183c3e21e4c568a40272469d92b937a10fd9ee51dcce"
       }
     ]
   },
@@ -2829,6 +2829,10 @@
       {
         "path": "assets/tilesets/harbour-sponsor/ATTRIBUTION.md",
         "sha256": "d50112d36fae54050c297f880e95c7eaaf2f3be3573b5bff4ad4231622bbac59"
+      },
+      {
+        "path": "art/source/shore-plane.json",
+        "sha256": "dd9c1e86c7cb6671d84b23c28ad5c6a700ebc8fdabedb89e0fd32edc166fda9f"
       }
     ]
   }

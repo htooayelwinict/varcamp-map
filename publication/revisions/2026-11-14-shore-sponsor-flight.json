@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "revisions": [
+    {
+      "path": "art/sources.json",
+      "fromSha256": "3154417ec487075afff571bfbffa98c158b3122e4f27e627840d2d8ad3c4d91b",
+      "toSha256": "30c877c83631986bb92057baebcac71fc375984beab224cce88d32bf839cac3f",
+      "reason": "Authorized DigiSec Lab flag flight above the Constellation Shore beach bar approach; shared original aircraft artwork, saved areas and walking routes preserved."
+    },
+    {
+      "path": "maps/constellation-shore.tmj",
+      "fromSha256": "e80f047648349d5dead9c79a8f0b693fa6e64843e015f3461ae12c2800b36531",
+      "toSha256": "f8ace5f4fe2e167cceb9e348ade5e8157e49a7425193db29d10180a238126586",
+      "reason": "Authorized DigiSec Lab flag flight above the Constellation Shore beach bar approach; shared original aircraft artwork, saved areas and walking routes preserved."
+    },
+    {
+      "path": "maps/preview/constellation-shore.tmj",
+      "fromSha256": "8217f6052ff04b78715994ba97eca34d18e232148627d8ad441336357b06925e",
+      "toSha256": "bbbbf19cd019c9a5e90d85b6f7acbb4ac45e7e056697722da8b19ea90fe7e99b",
+      "reason": "Authorized DigiSec Lab flag flight above the Constellation Shore beach bar approach; shared original aircraft artwork, saved areas and walking routes preserved."
+    },
+    {
+      "path": "world/layouts/constellation-shore.json",
+      "fromSha256": "1410372b15128bf6e9345a1f11e04ce5bc6d7052b57a6eea3aa8f4b9eb181ee0",
+      "toSha256": "04192e08d2b3a85954d77215e77ade4fd1d95d0fe744b5642f17f657c6c0287d",
+      "reason": "Authorized DigiSec Lab flag flight above the Constellation Shore beach bar approach; shared original aircraft artwork, saved areas and walking routes preserved."
+    }
+  ]
+}
