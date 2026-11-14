@@ -1,0 +1,134 @@
+{
+  "functional": {
+    "entries": [
+      {
+        "name": "arrival",
+        "x": 19,
+        "y": 8,
+        "width": 2,
+        "height": 2,
+        "isDefault": true
+      },
+      {
+        "name": "from-harbor",
+        "x": 4,
+        "y": 12,
+        "width": 2,
+        "height": 2
+      }
+    ],
+    "exits": [
+      {
+        "name": "plaza-return",
+        "destination": "overworld",
+        "entry": "from-shipyard",
+        "x": 18,
+        "y": 3,
+        "width": 4,
+        "height": 1
+      },
+      {
+        "name": "harbor-return",
+        "destination": "shipyard-beach",
+        "entry": "from-constellation-shore",
+        "x": 1,
+        "y": 12,
+        "width": 1,
+        "height": 3
+      }
+    ],
+    "areas": [
+      {
+        "id": "beach-games",
+        "name": "beach-games",
+        "properties": [],
+        "x": 6,
+        "y": 24,
+        "width": 5,
+        "height": 3
+      },
+      {
+        "id": "picnic-bay",
+        "name": "picnic-bay",
+        "properties": [],
+        "x": 26,
+        "y": 25,
+        "width": 6,
+        "height": 3
+      },
+      {
+        "id": "shore-lounge",
+        "name": "shore-lounge",
+        "properties": [],
+        "x": 17,
+        "y": 25,
+        "width": 6,
+        "height": 3
+      }
+    ]
+  },
+  "existingSigns": [
+    {
+      "name": "shore-plaza-way",
+      "text": "\u2191 PLAZA",
+      "x": 18,
+      "y": 5,
+      "width": 4,
+      "height": 1,
+      "fontSize": 13,
+      "color": "#fff2c7",
+      "align": "center"
+    },
+    {
+      "name": "shore-harbour-way",
+      "text": "\u2190 HARBOUR",
+      "x": 2,
+      "y": 11,
+      "width": 5,
+      "height": 1,
+      "fontSize": 13,
+      "color": "#283c45",
+      "align": "center"
+    }
+  ],
+  "sourceWamSha256": "e1bde7a0ac049c0217219f3c7d98a2981c13303d734ac6d8ffff7c24d642ab1f",
+  "sharedPropsSha256": "9a5406671f0b4327181a06a071f1a809121a152ba7b06e65b7e7fd8d9a74cfc8",
+  "otherMaps": {
+    "maps/campus-exploration.tmj": "ab2c86af39be5049b050fd99bb1ea067ca781fab353e0cc4c5a6235748345612",
+    "maps/nebula-arcade.tmj": "b6dee9d2a74b4a72d3a85fa4477c7d643fa435daf2f0e3105ff54f037fa374bb",
+    "maps/zodiac-festival-park.tmj": "cf691227af47095e8adebda36e3e8e8f113d4cb0de57b042aa12dbb342fe46b4",
+    "maps/overworld.tmj": "776598d8b69c90e4643c5990f60297692604727a6854a4e7693ec63367c0c52b",
+    "maps/speaker-aquarius.tmj": "150666b7da5dbb1ff45078669a424d5b91e7ff7fc9c1ed3851320e6f2d2a9830",
+    "maps/fa-ship-interior.tmj": "877a1b1ffca9693f487b3838f228eef2f78d64172fb0ab32d86e372ca1330802",
+    "maps/comet-maze.tmj": "3a806054f548e831ee18a5af275818238eda8a3ca59cbe4165e8b66990e81e04",
+    "maps/fire-district.tmj": "a6c95c207137132eed5191a37ac38cf65e7786f58d07649b835a3d389f2654f0",
+    "maps/air-district.tmj": "ff6a9d48463d88e5f52965aeb34d273329fe27796cba93d3be8a21e348190b16",
+    "maps/speaker-libra.tmj": "92045eb8ed02f100bb9ae3e31dbea09a44d9a73da26b278e2e23ed97e541391d",
+    "maps/fa-ship.tmj": "04d1c228766c0ebc227a6923c432f4b4ef2931225bd902c90e7c9f9f09542bf0",
+    "maps/lunar-hall.tmj": "135168ab7ea01355b4e6f25002aca07d4bb423ee41ad713c8f3c2d0c9e6f9b5a",
+    "maps/speaker-aries.tmj": "94d2ed9700ef7c99e9ae086f5f0b562882bc79db9aac8d9f94bfd91a5e676112",
+    "maps/speaker-leo.tmj": "a229a6d0c301b286042dd53b9b1ee3dd455d0d637c42a7102a8be6580bac192a",
+    "maps/orbit-maze.tmj": "680b833c67faede8443a70711da91ef60435f45455a52fa340def10861d2d204",
+    "maps/speaker-sagittarius.tmj": "2d0bda36221fd85ec3aea7bd89cdd8421cce7e0807a71098e0590cdea3947ae6",
+    "maps/star-garden.tmj": "0928fc9a745ed335ad665784ff67a2bcf0e5ae2c529b87c20306e2cb431023f9",
+    "maps/speaker-scorpio.tmj": "519dd999da1efec7f4d4194264d3a2739e14228720f9b2494ebca6f87c2a8971",
+    "maps/solar-hall.tmj": "e9d5fa466a7f99d64fd93480059373ebe291b7be806c66a8e5a9f8891844bb19",
+    "maps/moon-cafe.tmj": "b62ef920076b5edb4c24479e53283ed080ba23cffb788e897e319d8e9658a4c6",
+    "maps/orbit-playground.tmj": "14b4ec30956eb0cc3f47433d9f30fd307b8473bfdd9cb42ee955c7f3e2f9f8e8",
+    "maps/speaker-taurus.tmj": "8a99fd4482996584ce1f9057cef57db11d9b094f292d06ec0ccf3e41a52b9de5",
+    "maps/speaker-gemini.tmj": "16374629a1eda18854d112567cb0b7e321af0481a7bac03b84c2533da778eb87",
+    "maps/moon-grotto.tmj": "2c5665de3f83e041a97dd814846c57cee2c258cd39e80dc33d1ba20526901f7c",
+    "maps/speaker-capricorn.tmj": "27063404f5c55fd7a85efefc032a1394b58c54f27b7cd83208e660c98617e19d",
+    "maps/speaker-virgo.tmj": "84d6461dc303b87fc1ebaa25a18331cfdef9c080d5ee9ea4a6801b2225a02fc5",
+    "maps/water-district.tmj": "65d1956802181b705b7cc1437aefaf71804a072cfcc8cff69ac435c030c00b1b",
+    "maps/stargazer-terrace.tmj": "89e4bb9f2d90befc63eeada12d41ec73365abe170b6d41657ed4f68afedebf65",
+    "maps/speaker-cancer.tmj": "a24b99328ccb8792011f98af1a60c03445d25b000176ef313a6ed35f2787d2be",
+    "maps/earth-district.tmj": "30dd5052459951acf66baee4045e6ba4d5dc0c104620946db801fdf97ab92d00",
+    "maps/shipyard-beach.tmj": "78808ffec7769c1e0754ae32c10adb2e41e72d616e31207bd31b1364d758fcab",
+    "maps/hidden-observatory.tmj": "80557f39481bc4cfbc69d8ce63a9643a40b00e8a98041f7c0ac07d3f3de1be58",
+    "maps/speaker-pisces.tmj": "d1025006770377b99a7d5b7edabfea14ab057cebff8b2b01d1607cbc1d1f4063"
+  },
+  "collisionMaskSha256": "a0de213b8cbee1a199ef4c427aac248b2beabd08544f13c4e7d51d96ecbe4298",
+  "existingPropsSha256": "64425838e73e224e228feee5b308408a47983ec84633562c4161c5dba7c0daa8",
+  "wildlifeOverlaysSha256": "0ba576a40b1bbbc4fbc7951c403a2efa2965cdc0e7ce2206ea9943feeaca4d75"
+}

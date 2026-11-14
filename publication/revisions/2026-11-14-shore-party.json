@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "revisions": [
+    {
+      "path": "art/sources.json",
+      "fromSha256": "30c877c83631986bb92057baebcac71fc375984beab224cce88d32bf839cac3f",
+      "toSha256": "259734d8ee590ab4fe4fb7eaba9dcfb25b663d989047b7b870c46bcc57dcffb1",
+      "reason": "Authorized replacement of the Constellation Shore liquor kiosk with an original animated DJ stage and nonblocking beach-party markers; sponsor plane moved to the lower shoreline. Existing walking routes, collision occupancy, source WAM and other rooms preserved."
+    },
+    {
+      "path": "art/tile-catalog.json",
+      "fromSha256": "d0954a2f5dfeaa855e919b1795a8656d03765447ba15abfb999abe665257946b",
+      "toSha256": "69bb8ff87f9c67c923133195d7dc647357f3417d8ab48b531f53c3f6459d9927",
+      "reason": "Authorized replacement of the Constellation Shore liquor kiosk with an original animated DJ stage and nonblocking beach-party markers; sponsor plane moved to the lower shoreline. Existing walking routes, collision occupancy, source WAM and other rooms preserved."
+    },
+    {
+      "path": "maps/constellation-shore.tmj",
+      "fromSha256": "f8ace5f4fe2e167cceb9e348ade5e8157e49a7425193db29d10180a238126586",
+      "toSha256": "397195513928c6d999a25147f0be3b7f312b3ef67e6cd58328b7139ef4d458a8",
+      "reason": "Authorized replacement of the Constellation Shore liquor kiosk with an original animated DJ stage and nonblocking beach-party markers; sponsor plane moved to the lower shoreline. Existing walking routes, collision occupancy, source WAM and other rooms preserved."
+    },
+    {
+      "path": "maps/preview/constellation-shore.tmj",
+      "fromSha256": "bbbbf19cd019c9a5e90d85b6f7acbb4ac45e7e056697722da8b19ea90fe7e99b",
+      "toSha256": "70d544bfb07649bfe358d1765cc84b325557206fef6a2a17a82e7b47d4bd2e04",
+      "reason": "Authorized replacement of the Constellation Shore liquor kiosk with an original animated DJ stage and nonblocking beach-party markers; sponsor plane moved to the lower shoreline. Existing walking routes, collision occupancy, source WAM and other rooms preserved."
+    },
+    {
+      "path": "world/layouts/constellation-shore.json",
+      "fromSha256": "04192e08d2b3a85954d77215e77ade4fd1d95d0fe744b5642f17f657c6c0287d",
+      "toSha256": "7ee056fc2c3c6bd233df1221b9ee3009a42323156e312c2bf41f166b98c8a9e0",
+      "reason": "Authorized replacement of the Constellation Shore liquor kiosk with an original animated DJ stage and nonblocking beach-party markers; sponsor plane moved to the lower shoreline. Existing walking routes, collision occupancy, source WAM and other rooms preserved."
+    }
+  ]
+}

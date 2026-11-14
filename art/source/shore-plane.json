@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "description": "Approved DigiSec Lab flag aircraft above the Constellation Shore beach bar approach; shared original pixels and clocks.",
+  "description": "Approved DigiSec Lab flag aircraft above the Constellation Shore open shoreline sand; shared original pixels and clocks.",
   "inputs": [
     {
       "path": "art/source/coastal-flight-plane.png",
@@ -24,7 +24,7 @@
     },
     {
       "path": "tools/art/shore-plane.ts",
-      "sha256": "c5f8ed495b545d1c5ac34e6fff27be7a31b0401d999c056d5bb2996996f63bfa"
+      "sha256": "39dfb3e22bb8e058e2121c12142dc0126aa13de05efd12903a27df0bc1096e80"
     }
   ],
   "overlay": {
@@ -33,7 +33,7 @@
     "sourceId": "harbour-sponsor",
     "level": "aboveScenery",
     "x": 0,
-    "y": 12,
+    "y": 23,
     "width": 48,
     "height": 3,
     "carrierTileIds": [
@@ -26518,7 +26518,7 @@
         },
         {
           "path": "tools/art/shore-plane.ts",
-          "sha256": "c5f8ed495b545d1c5ac34e6fff27be7a31b0401d999c056d5bb2996996f63bfa"
+          "sha256": "39dfb3e22bb8e058e2121c12142dc0126aa13de05efd12903a27df0bc1096e80"
         }
       ]
     }

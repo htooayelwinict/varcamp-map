@@ -12,7 +12,7 @@
   "inputs": [
     {
       "path": "world/natural-coast.json",
-      "sha256": "2b4d7b9979320662976b25e9806d166d513425b9c4bc1fdfdb79d8f6b5a700be"
+      "sha256": "3184c05f16c4037eac630e6fab2ead0bb0bfd44568290c6cc4b8aa7053a199cf"
     },
     {
       "path": "tools/art/natural-coast.ts",

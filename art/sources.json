@@ -1028,6 +1028,38 @@
       {
         "path": "assets/tilesets/original/arcade-screen.png",
         "sha256": "3ebea85415b088e6a1924cac15fa251ac28f192b94ff432a17cfa82e05cfbeda"
+      },
+      {
+        "path": "art/source/shore-dj-stage-master.png",
+        "sha256": "c7d771fdb824f0035b2b8711c199343928e14f6e8092ec0d0503485562e54a51"
+      },
+      {
+        "path": "art/source/shore-party-generation.json",
+        "sha256": "fd6fe637942a5bfff3ef2ef64aebea3f9033b148e945e72ea80a3d17de449d36"
+      },
+      {
+        "path": "art/source/shore-party.json",
+        "sha256": "86f05f4ec8c6f8ed8f2fdbad5d0f258c80eb7da7465180e70eaddc00394828ad"
+      },
+      {
+        "path": "assets/tilesets/original/shore-party.png",
+        "sha256": "b0748a7d322089dca9126cef90c22668cf3b627d633746f2b4ecca8408c521e8"
+      },
+      {
+        "path": "assets/tilesets/original/shore-dj-lights.png",
+        "sha256": "15f690d35e385c368ee7c85a4c1d82d0ae5e8b6dc9ebe2417b547113aa129133"
+      },
+      {
+        "path": "assets/tilesets/original/shore-dj-stage-lights.png",
+        "sha256": "77a1489c0bd7cc8afe8425c9b48c673f76dab9f8384e36789ce8926dd73060b4"
+      },
+      {
+        "path": "art/source/shore-dj-lights.json",
+        "sha256": "45f22e228cf935468200f0d86b04da3256e42e53b3f06e0d20cf49cc1a887e2b"
+      },
+      {
+        "path": "art/source/shore-dj-stage-lights.json",
+        "sha256": "b5dc20f1b02ad67677d5ee642cecc2a2191284e375d95bd6274957762d093748"
       }
     ]
   },
@@ -2033,7 +2065,7 @@
       },
       {
         "path": "art/source/natural-shipyard-beach.json",
-        "sha256": "2f98b6136633c956482643d714d5851b837479047a461d3cfb39682f47797ff3"
+        "sha256": "613229200bc023c7dbbf770bcffa35db3247848ec1c7720d58116b5a9c785d8e"
       },
       {
         "path": "assets/tilesets/original/natural-constellation-shore-dunes.png",
@@ -2041,7 +2073,7 @@
       },
       {
         "path": "art/source/natural-constellation-shore.json",
-        "sha256": "44c3b0700079b7c623b2183c3e21e4c568a40272469d92b937a10fd9ee51dcce"
+        "sha256": "ac53ab2e99e0050cff34be439ce12e8e7f0d752502a68d10d68e76f7f232d74a"
       }
     ]
   },
@@ -2832,7 +2864,7 @@
       },
       {
         "path": "art/source/shore-plane.json",
-        "sha256": "dd9c1e86c7cb6671d84b23c28ad5c6a700ebc8fdabedb89e0fd32edc166fda9f"
+        "sha256": "8daa77897b56a47bf279741d7d028979d82927c10937b5a3a385171d3c0bc7a6"
       }
     ]
   }

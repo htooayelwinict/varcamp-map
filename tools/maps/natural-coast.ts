@@ -41,9 +41,19 @@ export function assertNaturalCoast(map:TiledMap,layout:MapLayout,wam:WamFile,cat
  for(const a of layout.areas){const saved=wam.areas.find(v=>v.id===a.id);need(saved&&saved.name===a.name&&saved.x===a.x*32&&saved.y===a.y*32&&saved.width===a.width*32&&saved.height===a.height*32&&isDeepStrictEqual(saved.properties,a.properties),'saved area changed '+a.id);}
  const tracks=read('art/source/coast-life-tracks.json').maps[id];
  const families=id==='shipyard-beach'?['fish-west','fish-east','dolphin','gull-north','gull-south'].map(n=>'coast-life-harbor-'+n):['fish-west','dolphin','seal','gull-north','gull-south'].map(n=>'coast-life-shore-'+n);
- const roster=[...families,'coastal-flight'];
- need(isDeepStrictEqual(layout.animatedOverlays?.map(o=>o.name),roster),'closed wildlife and aircraft roster changed');
+ const party=id==='constellation-shore'?['shore-dj-lights','shore-dj-stage-lights']:[];
+ const roster=[...families,...party,'coastal-flight'];
+ need(isDeepStrictEqual(layout.animatedOverlays?.map(o=>o.name),roster),'closed wildlife, party and aircraft roster changed');
  for(const o of layout.animatedOverlays??[]) {
+  if(party.includes(o.name)){
+   const meta=read('art/source/shore-party.json');
+   need(isDeepStrictEqual(meta.overlays.find((v:{name:string})=>v.name===o.name),o),'DJ animation descriptor changed');
+   need(o.level===(o.name==='shore-dj-lights'?'belowAvatar':'aboveAvatar'),'DJ animation depth changed');
+   for(const input of meta.inputs)need(sha(input.path)===input.sha256,'DJ input changed: '+input.path);
+   need(sha(meta.atlas.path)===meta.atlas.sha256&&sha(o.image)===o.provenance?.atlasSha256,'DJ artwork changed');
+   for(const[name,sprite]of Object.entries(meta.catalog))need(isDeepStrictEqual(catalog[name],sprite),'DJ collision/depth changed '+name);
+   continue;
+  }
   if(o.name==='coastal-flight'){
    const meta=read(id==='shipyard-beach'?'art/source/harbour-plane.json':SHORE_PLANE_META);
    if(id==='constellation-shore')need(isDeepStrictEqual(meta,shorePlaneMetadata()),'shore aircraft placement changed');

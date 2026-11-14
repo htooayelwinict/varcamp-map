@@ -1,0 +1,22 @@
+{
+  "version": 1,
+  "source": "art/source/shore-dj-stage-master.png",
+  "sourceSha256": "c7d771fdb824f0035b2b8711c199343928e14f6e8092ec0d0503485562e54a51",
+  "method": "Original image-generation output for the requested tropical DJ stage. Transparent master retained unchanged; export uses alpha bounds and proportional resize only.",
+  "generatedFeatures": [
+    "DJ decks",
+    "speaker stacks",
+    "lighting truss",
+    "disco ball",
+    "tropical bunting"
+  ],
+  "nativeShapes": [
+    "walkable wood deck",
+    "low beach bunting",
+    "small sign panel",
+    "slow colored floor pools",
+    "disco glints and meter lights"
+  ],
+  "externalAssets": [],
+  "producer": "tools/art/shore-party.ts"
+}

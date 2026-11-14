@@ -1,0 +1,620 @@
+{
+  "version": 1,
+  "overlay": {
+    "name": "shore-dj-stage-lights",
+    "image": "assets/tilesets/original/shore-dj-stage-lights.png",
+    "sourceId": "original",
+    "level": "aboveAvatar",
+    "x": 28,
+    "y": 9,
+    "width": 6,
+    "height": 5,
+    "carrierTileIds": [
+      73,
+      74,
+      75,
+      76,
+      77,
+      78,
+      79,
+      80,
+      81,
+      82,
+      83,
+      84,
+      85,
+      86,
+      87,
+      88,
+      89,
+      90,
+      91,
+      92,
+      93,
+      94,
+      95,
+      96,
+      97,
+      98,
+      99,
+      100,
+      101,
+      102
+    ],
+    "animations": [
+      {
+        "id": 73,
+        "frames": [
+          {
+            "tileid": 0,
+            "duration": 6000
+          }
+        ]
+      },
+      {
+        "id": 74,
+        "frames": [
+          {
+            "tileid": 0,
+            "duration": 6000
+          }
+        ]
+      },
+      {
+        "id": 75,
+        "frames": [
+          {
+            "tileid": 0,
+            "duration": 6000
+          }
+        ]
+      },
+      {
+        "id": 76,
+        "frames": [
+          {
+            "tileid": 0,
+            "duration": 6000
+          }
+        ]
+      },
+      {
+        "id": 77,
+        "frames": [
+          {
+            "tileid": 0,
+            "duration": 6000
+          }
+        ]
+      },
+      {
+        "id": 78,
+        "frames": [
+          {
+            "tileid": 0,
+            "duration": 6000
+          }
+        ]
+      },
+      {
+        "id": 79,
+        "frames": [
+          {
+            "tileid": 0,
+            "duration": 6000
+          }
+        ]
+      },
+      {
+        "id": 80,
+        "frames": [
+          {
+            "tileid": 1,
+            "duration": 500
+          },
+          {
+            "tileid": 7,
+            "duration": 500
+          },
+          {
+            "tileid": 13,
+            "duration": 500
+          },
+          {
+            "tileid": 19,
+            "duration": 500
+          },
+          {
+            "tileid": 25,
+            "duration": 500
+          },
+          {
+            "tileid": 31,
+            "duration": 500
+          },
+          {
+            "tileid": 37,
+            "duration": 500
+          },
+          {
+            "tileid": 43,
+            "duration": 500
+          },
+          {
+            "tileid": 49,
+            "duration": 500
+          },
+          {
+            "tileid": 55,
+            "duration": 500
+          },
+          {
+            "tileid": 61,
+            "duration": 500
+          },
+          {
+            "tileid": 67,
+            "duration": 500
+          }
+        ]
+      },
+      {
+        "id": 81,
+        "frames": [
+          {
+            "tileid": 2,
+            "duration": 500
+          },
+          {
+            "tileid": 8,
+            "duration": 500
+          },
+          {
+            "tileid": 14,
+            "duration": 500
+          },
+          {
+            "tileid": 20,
+            "duration": 500
+          },
+          {
+            "tileid": 26,
+            "duration": 500
+          },
+          {
+            "tileid": 32,
+            "duration": 500
+          },
+          {
+            "tileid": 38,
+            "duration": 500
+          },
+          {
+            "tileid": 44,
+            "duration": 500
+          },
+          {
+            "tileid": 50,
+            "duration": 500
+          },
+          {
+            "tileid": 56,
+            "duration": 500
+          },
+          {
+            "tileid": 62,
+            "duration": 500
+          },
+          {
+            "tileid": 68,
+            "duration": 500
+          }
+        ]
+      },
+      {
+        "id": 82,
+        "frames": [
+          {
+            "tileid": 3,
+            "duration": 500
+          },
+          {
+            "tileid": 9,
+            "duration": 500
+          },
+          {
+            "tileid": 15,
+            "duration": 500
+          },
+          {
+            "tileid": 21,
+            "duration": 500
+          },
+          {
+            "tileid": 27,
+            "duration": 500
+          },
+          {
+            "tileid": 33,
+            "duration": 500
+          },
+          {
+            "tileid": 39,
+            "duration": 500
+          },
+          {
+            "tileid": 45,
+            "duration": 500
+          },
+          {
+            "tileid": 51,
+            "duration": 500
+          },
+          {
+            "tileid": 57,
+            "duration": 500
+          },
+          {
+            "tileid": 63,
+            "duration": 500
+          },
+          {
+            "tileid": 69,
+            "duration": 500
+          }
+        ]
+      },
+      {
+        "id": 83,
+        "frames": [
+          {
+            "tileid": 4,
+            "duration": 500
+          },
+          {
+            "tileid": 10,
+            "duration": 500
+          },
+          {
+            "tileid": 16,
+            "duration": 500
+          },
+          {
+            "tileid": 22,
+            "duration": 500
+          },
+          {
+            "tileid": 28,
+            "duration": 500
+          },
+          {
+            "tileid": 34,
+            "duration": 500
+          },
+          {
+            "tileid": 40,
+            "duration": 500
+          },
+          {
+            "tileid": 46,
+            "duration": 500
+          },
+          {
+            "tileid": 52,
+            "duration": 500
+          },
+          {
+            "tileid": 58,
+            "duration": 500
+          },
+          {
+            "tileid": 64,
+            "duration": 500
+          },
+          {
+            "tileid": 70,
+            "duration": 500
+          }
+        ]
+      },
+      {
+        "id": 84,
+        "frames": [
+          {
+            "tileid": 0,
+            "duration": 6000
+          }
+        ]
+      },
+      {
+        "id": 85,
+        "frames": [
+          {
+            "tileid": 0,
+            "duration": 6000
+          }
+        ]
+      },
+      {
+        "id": 86,
+        "frames": [
+          {
+            "tileid": 0,
+            "duration": 6000
+          }
+        ]
+      },
+      {
+        "id": 87,
+        "frames": [
+          {
+            "tileid": 0,
+            "duration": 6000
+          }
+        ]
+      },
+      {
+        "id": 88,
+        "frames": [
+          {
+            "tileid": 0,
+            "duration": 6000
+          }
+        ]
+      },
+      {
+        "id": 89,
+        "frames": [
+          {
+            "tileid": 0,
+            "duration": 6000
+          }
+        ]
+      },
+      {
+        "id": 90,
+        "frames": [
+          {
+            "tileid": 0,
+            "duration": 6000
+          }
+        ]
+      },
+      {
+        "id": 91,
+        "frames": [
+          {
+            "tileid": 0,
+            "duration": 6000
+          }
+        ]
+      },
+      {
+        "id": 92,
+        "frames": [
+          {
+            "tileid": 0,
+            "duration": 6000
+          }
+        ]
+      },
+      {
+        "id": 93,
+        "frames": [
+          {
+            "tileid": 5,
+            "duration": 500
+          },
+          {
+            "tileid": 11,
+            "duration": 500
+          },
+          {
+            "tileid": 17,
+            "duration": 500
+          },
+          {
+            "tileid": 23,
+            "duration": 500
+          },
+          {
+            "tileid": 29,
+            "duration": 500
+          },
+          {
+            "tileid": 35,
+            "duration": 500
+          },
+          {
+            "tileid": 41,
+            "duration": 500
+          },
+          {
+            "tileid": 47,
+            "duration": 500
+          },
+          {
+            "tileid": 53,
+            "duration": 500
+          },
+          {
+            "tileid": 59,
+            "duration": 500
+          },
+          {
+            "tileid": 65,
+            "duration": 500
+          },
+          {
+            "tileid": 71,
+            "duration": 500
+          }
+        ]
+      },
+      {
+        "id": 94,
+        "frames": [
+          {
+            "tileid": 6,
+            "duration": 500
+          },
+          {
+            "tileid": 12,
+            "duration": 500
+          },
+          {
+            "tileid": 18,
+            "duration": 500
+          },
+          {
+            "tileid": 24,
+            "duration": 500
+          },
+          {
+            "tileid": 30,
+            "duration": 500
+          },
+          {
+            "tileid": 36,
+            "duration": 500
+          },
+          {
+            "tileid": 42,
+            "duration": 500
+          },
+          {
+            "tileid": 48,
+            "duration": 500
+          },
+          {
+            "tileid": 54,
+            "duration": 500
+          },
+          {
+            "tileid": 60,
+            "duration": 500
+          },
+          {
+            "tileid": 66,
+            "duration": 500
+          },
+          {
+            "tileid": 72,
+            "duration": 500
+          }
+        ]
+      },
+      {
+        "id": 95,
+        "frames": [
+          {
+            "tileid": 0,
+            "duration": 6000
+          }
+        ]
+      },
+      {
+        "id": 96,
+        "frames": [
+          {
+            "tileid": 0,
+            "duration": 6000
+          }
+        ]
+      },
+      {
+        "id": 97,
+        "frames": [
+          {
+            "tileid": 0,
+            "duration": 6000
+          }
+        ]
+      },
+      {
+        "id": 98,
+        "frames": [
+          {
+            "tileid": 0,
+            "duration": 6000
+          }
+        ]
+      },
+      {
+        "id": 99,
+        "frames": [
+          {
+            "tileid": 0,
+            "duration": 6000
+          }
+        ]
+      },
+      {
+        "id": 100,
+        "frames": [
+          {
+            "tileid": 0,
+            "duration": 6000
+          }
+        ]
+      },
+      {
+        "id": 101,
+        "frames": [
+          {
+            "tileid": 0,
+            "duration": 6000
+          }
+        ]
+      },
+      {
+        "id": 102,
+        "frames": [
+          {
+            "tileid": 0,
+            "duration": 6000
+          }
+        ]
+      }
+    ],
+    "provenance": {
+      "metadataPath": "art/source/shore-dj-stage-lights.json",
+      "atlasSha256": "77a1489c0bd7cc8afe8425c9b48c673f76dab9f8384e36789ce8926dd73060b4",
+      "inputs": [
+        {
+          "path": "art/source/shore-dj-stage-master.png",
+          "sha256": "c7d771fdb824f0035b2b8711c199343928e14f6e8092ec0d0503485562e54a51"
+        },
+        {
+          "path": "tools/art/shore-party.ts",
+          "sha256": "ce696729636445860d3e272d7c796a0270fa18eb2eec9b3063e0c5971d60d243"
+        },
+        {
+          "path": "tools/art/native-motion.ts",
+          "sha256": "4e6f0d41813fefc8a40dd5bf211866e5cd51eed882182bd97b93b220e13acf1a"
+        }
+      ]
+    }
+  },
+  "diagnostics": {
+    "phaseCount": 12,
+    "periodMs": 6000,
+    "stepMs": 500,
+    "sharedFrameTiles": 73,
+    "decodedRgbaBytes": 458752,
+    "atlas": {
+      "width": 512,
+      "height": 224,
+      "columns": 16,
+      "tilecount": 112
+    },
+    "tracks": [
+      {
+        "id": "shore-dj-stage-lights",
+        "visiblePhases": 12,
+        "positionCount": 1,
+        "poseCount": 12
+      }
+    ]
+  }
+}

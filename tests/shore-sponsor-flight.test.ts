@@ -3,18 +3,28 @@ import {describe,expect,it} from 'vitest';
 import {assertAirborneSource,isCurrentAircraft} from '../tools/maps/airborne';
 import {assertCurrentNativeMap} from '../tools/maps/current-native';
 import {loadTileCatalog} from '../tools/art/catalog';
+import {shorePlaneMetadata} from '../tools/art/shore-plane';
 import type {MapLayout,TiledMap,TileLayer} from '../tools/maps/types';
 
 const read=(path:string)=>JSON.parse(readFileSync(path,'utf8'));
 const layout=()=>read('world/layouts/constellation-shore.json') as MapLayout;
 const map=()=>read('maps/constellation-shore.tmj') as TiledMap;
 
-describe('DigiSec flag above the Constellation Shore beach bar',()=>{
- it('flies just above the attendee position south of the tiki bar using the approved existing artwork',()=>{
+describe('DigiSec flag above the Constellation Shore shoreline sand',()=>{
+ it('places the route over the open shoreline sand while preserving the approved aircraft pixels and clocks',()=>{
+  const flight=shorePlaneMetadata().overlay;
+  const parent=read('art/source/harbour-plane.json').overlay;
+  expect([flight.x,flight.y,flight.width,flight.height]).toEqual([0,23,48,3]);
+  expect(flight.image).toBe(parent.image);expect(flight.level).toBe('aboveScenery');
+  expect(flight.carrierTileIds).toEqual(parent.carrierTileIds);expect(flight.animations).toEqual(parent.animations);
+  expect(flight.provenance!.atlasSha256).toBe(parent.provenance.atlasSha256);
+ });
+
+ it('flies over the open sand near the shoreline using the approved existing artwork',()=>{
   const l=layout(),m=map();
   const flight=l.animatedOverlays!.find(o=>o.name==='coastal-flight');
   expect(flight,'shore must publish the requested plane').toBeDefined();
-  expect([flight!.x,flight!.y,flight!.width,flight!.height]).toEqual([0,12,48,3]);
+  expect([flight!.x,flight!.y,flight!.width,flight!.height]).toEqual([0,23,48,3]);
   expect(flight!.image).toBe('assets/tilesets/original/harbour-plane.png');
   expect(flight!.sourceId).toBe('harbour-sponsor');expect(flight!.level).toBe('aboveScenery');
   const layer=m.layers.find(x=>x.name==='coastal-flight') as TileLayer;
@@ -24,7 +34,7 @@ describe('DigiSec flag above the Constellation Shore beach bar',()=>{
   expect(set.image).toBe(harbor.image);expect(set.tiles).toEqual(harbor.tiles);
   expect(layer.data.filter(Boolean)).toHaveLength(144);
   for(let y=0;y<m.height;y++)for(let x=0;x<m.width;x++){
-   const expected=x<48&&y>=12&&y<15?set.firstgid+flight!.carrierTileIds[(y-12)*48+x]:0;
+   const expected=x<48&&y>=23&&y<26?set.firstgid+flight!.carrierTileIds[(y-23)*48+x]:0;
    expect(layer.data[y*m.width+x],`${x},${y}`).toBe(expected);
   }
  });
@@ -32,7 +42,7 @@ describe('DigiSec flag above the Constellation Shore beach bar',()=>{
  it('admits the requested shore aircraft while still rejecting unregistered airborne overlays',()=>{
   const l=layout();
   if(!l.animatedOverlays!.some(o=>o.name==='coastal-flight')){
-   const flight=read('art/source/harbour-plane.json').overlay;l.animatedOverlays!.push({...flight,y:12});
+   const flight=read('art/source/harbour-plane.json').overlay;l.animatedOverlays!.push({...flight,y:23});
   }
   expect(()=>assertAirborneSource(l)).not.toThrow();
   expect(isCurrentAircraft('constellation-shore','coastal-flight')).toBe(true);
