@@ -36,7 +36,7 @@ describe('Constellation Shore DJ stage and beach-party boundary',()=>{
   expect(pixels.hasAlpha).toBe(true);
   expect(pixels.width!*pixels.height!*4).toBeLessThanOrEqual(4*1024*1024);
   const layer=map.layers.find(l=>l.name===o!.name) as TileLayer;
-  expect(layer.data.filter(Boolean)).toHaveLength(48);
+  expect(layer.data.filter(Boolean)).toHaveLength(336); // Seven patches reuse the same 48 native clocks.
   expect(map.layers.indexOf(layer)).toBeLessThan(map.layers.findIndex(l=>l.name==='floorLayer'));
   const stageFx=layout.animatedOverlays?.find(o=>o.name==='shore-dj-stage-lights');
   expect(stageFx,'Disco ball and equipment need animated highlights').toMatchObject({x:28,y:9,width:6,height:5,level:'aboveAvatar'});

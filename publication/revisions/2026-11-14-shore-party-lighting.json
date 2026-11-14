@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "revisions": [
+    {
+      "path": "maps/preview/constellation-shore.tmj",
+      "fromSha256": "4cb857c1921c8e89d2540646ac141d9d579a09bc8b98d7808c4ce0c2714c56c8",
+      "toSha256": "0fcf999a023d94e1b8630ed23d31cd093347d385cf29122b5bf108e8ad13d813",
+      "reason": "Extend the existing Constellation Shore disco-light tile layer into six additional dry-sand patches; reuse the exact existing texture and native clocks. Preserve all other map fields, collisions, aircraft, runtime, assets and live WAM settings."
+    },
+    {
+      "path": "maps/constellation-shore.tmj",
+      "fromSha256": "38155fbd23bc29eb3a6706a421517daf00c5c07dbd8f9f0021bd7ffc24a29969",
+      "toSha256": "8c734dbd623ae2756edc4e746da2545c086a05bf9e42686b58a6606b47aab851",
+      "reason": "Extend the existing Constellation Shore disco-light tile layer into six additional dry-sand patches; reuse the exact existing texture and native clocks. Preserve all other map fields, collisions, aircraft, runtime, assets and live WAM settings."
+    }
+  ]
+}

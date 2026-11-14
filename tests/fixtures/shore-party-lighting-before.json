@@ -1,0 +1,10 @@
+{
+  "baseCommit": "d8fb7b3",
+  "mapOutsideFloorLightDataSha256": "d3cc46cdcf10bee1538bd80dcdfe1345f6e1b6f23a09cd0fa73557cb5558f1a4",
+  "unchangedFiles": {
+    "maps/constellation-shore.wam": "e1bde7a0ac049c0217219f3c7d98a2981c13303d734ac6d8ffff7c24d642ab1f",
+    "assets/tilesets/original/shore-dj-lights.png": "15f690d35e385c368ee7c85a4c1d82d0ae5e8b6dc9ebe2417b547113aa129133",
+    "assets/tilesets/original/shore-dj-stage-lights.png": "77a1489c0bd7cc8afe8425c9b48c673f76dab9f8384e36789ce8926dd73060b4",
+    "world/layouts/constellation-shore.json": "28c074e7a78b4f76dfff99c5a7ca8c3f525ff46b0127499a8260a01a7eb39222"
+  }
+}

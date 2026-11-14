@@ -8,6 +8,7 @@ import {coastMetadata,NATURAL_COAST_IDS,type NaturalCoastId} from '../art/natura
 import {assertCoastLifeHabitat} from './coast-life-habitat';
 import {assertNativeAirborne} from './airborne';
 import {shorePlaneMetadata} from '../art/shore-plane';
+import {applyShorePartyLighting} from './shore-party-lighting';
 import type {MapLayout,TiledMap,WamFile} from './types';
 import type {TileCatalog} from '../art/catalog';
 const read=(p:string)=>JSON.parse(readFileSync(p,'utf8'));
@@ -25,6 +26,7 @@ export function renderNaturalCoastMap(layout:MapLayout,catalog:TileCatalog):Tile
  const water=map.tilesets.find(t=>t.image==='../assets/tilesets/lpc-water/water.png')!;
  water.tiles=ocean.waterTileIds.map((id,phase)=>({id,animation:ocean.waterTileIds.map((_,i)=>({tileid:ocean.waterTileIds[(phase+i)%3],duration:ocean.waterFrameMs}))}));
  map.layers.find(l=>l.name==='terrain')!.properties=Object.entries(ocean.audio).map(([name,value])=>({name,type:typeof value==='boolean'?'bool':typeof value==='number'?'float':'string',value}));
+ if(layout.id==='constellation-shore')applyShorePartyLighting(map);
  return JSON.parse(JSON.stringify(map));
 }
 /** A complete successor contract replaces the retired island composition only
