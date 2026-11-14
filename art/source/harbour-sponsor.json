@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "name": "DigiSec Lab",
+  "title": "Digital Safety Partner",
+  "source": "art/source/sponsors/tier-logos/DigSecLab_Secondary.png",
+  "sourceSha256": "855d08daa0c09a0205e142d48ef9c32ed0a53043b204929fd8484c62e1451c4d",
+  "crop": {"left": 577, "top": 1085, "width": 7161, "height": 6369},
+  "contentWidth": 100,
+  "contentHeight": 80,
+  "rights": "DigiSec Lab logo: organizer-approved event use; rights retained by its owner."
+}

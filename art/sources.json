@@ -1026,14 +1026,6 @@
         "sha256": "ae94aaa16f05153292811c4cfd790d3fa40ca3447fe3ef92ade05f593b00a30f"
       },
       {
-        "path": "assets/tilesets/original/harbour-plane.png",
-        "sha256": "88f0d5651a26e8f5fd778b5380dc20e7cac622a9f687e5f573dbc67b9cb6e756"
-      },
-      {
-        "path": "art/source/harbour-plane.json",
-        "sha256": "e1cf17c4b92e2e440ca91003811e82646cf79bbb6dedbd42b28009419ba89321"
-      },
-      {
         "path": "assets/tilesets/original/arcade-screen.png",
         "sha256": "3ebea85415b088e6a1924cac15fa251ac28f192b94ff432a17cfa82e05cfbeda"
       }
@@ -2041,7 +2033,7 @@
       },
       {
         "path": "art/source/natural-shipyard-beach.json",
-        "sha256": "23a5c4906c1786bdd8b19588e75a7fbec583d25361525a2e01bc90051c44c3c0"
+        "sha256": "06848f8d654388d6c8688ff7afcaafd643e8d81cce64619a6b70185a9623d277"
       },
       {
         "path": "assets/tilesets/original/natural-constellation-shore-dunes.png",
@@ -2049,7 +2041,7 @@
       },
       {
         "path": "art/source/natural-constellation-shore.json",
-        "sha256": "9bbb48008c69666997c091d8a65558c55d122af5a60bfceeaa6575151114d403"
+        "sha256": "b8c9d4833c7d375ed3691d4fb8ad7485ee24c65113d2e22aa7207a2b62f7a3b2"
       }
     ]
   },
@@ -2804,6 +2796,39 @@
       {
         "path": "art/source/event-identity/OFL.txt",
         "sha256": "3ac1301549523d9861fedca12871f24e575fbd26d520632fc00ba849b471d275"
+      }
+    ]
+  },
+  "harbour-sponsor": {
+    "attribution": "DigiSec Lab, Digital Safety Partner: official logo rights retained by its owner. Aircraft and flag cloth: original VarCamp art (CC0 1.0).",
+    "url": "https://drive.google.com/file/d/1AESwtaTQrEX7sxBpTl1Qw1xvF-8lpg3U/view",
+    "license": "Organizer-approved event use for DigiSec Lab logo; original aircraft and flag cloth CC0 1.0",
+    "licenseFile": "assets/tilesets/harbour-sponsor/NOTICE.txt",
+    "changes": "Official secondary logo cropped and proportionally fitted to a navy towed flag; original aircraft pixels and native flight corridor retained. No browser media or collision changes.",
+    "files": [
+      {
+        "path": "assets/tilesets/original/harbour-plane.png",
+        "sha256": "f92d06ff7d6afc9338bf468512e3122f0a446daf8ce5af2bedb123edbc788f62"
+      },
+      {
+        "path": "art/source/harbour-plane.json",
+        "sha256": "3a7bbc7b3ba9d32b0de13bd234d68cc79a64e8f7caf61548d7b5856a3e2f1efe"
+      },
+      {
+        "path": "art/source/harbour-sponsor.json",
+        "sha256": "746ad404f6de6b555dcc91be4729e36c8268e01021317a29f4b315a994feffcf"
+      },
+      {
+        "path": "art/source/sponsors/tier-logos/DigSecLab_Secondary.png",
+        "sha256": "855d08daa0c09a0205e142d48ef9c32ed0a53043b204929fd8484c62e1451c4d"
+      },
+      {
+        "path": "assets/tilesets/harbour-sponsor/NOTICE.txt",
+        "sha256": "27810250b07ff2964735541f2edf084dd306bf0913c590f4bf2362e566fb8c54"
+      },
+      {
+        "path": "assets/tilesets/harbour-sponsor/ATTRIBUTION.md",
+        "sha256": "d50112d36fae54050c297f880e95c7eaaf2f3be3573b5bff4ad4231622bbac59"
       }
     ]
   }

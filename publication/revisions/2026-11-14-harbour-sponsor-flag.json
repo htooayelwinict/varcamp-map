@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "revisions": [
+    {
+      "path": "art/sources.json",
+      "fromSha256": "3ad01f3b9f6f8a32b322843b68032d23833b82985a65a092c5a34272db14b58d",
+      "toSha256": "3154417ec487075afff571bfbffa98c158b3122e4f27e627840d2d8ad3c4d91b",
+      "reason": "Authorized DigiSec Lab beach flag: exact official logo, native synchronized flight and owner-rights attribution; map geometry and saved editor data retained."
+    },
+    {
+      "path": "maps/preview/shipyard-beach.tmj",
+      "fromSha256": "30de6153c2c698c28bb1cf141cc8b7b8362980f7c9e7c5b0005be45f7aa66bc8",
+      "toSha256": "c25ad89bd1ab8e97ee4a5a0a8b45a5bdbcc92c0000cbf4449bd9c3d77294be03",
+      "reason": "Authorized DigiSec Lab beach flag: exact official logo, native synchronized flight and owner-rights attribution; map geometry and saved editor data retained."
+    },
+    {
+      "path": "maps/shipyard-beach.tmj",
+      "fromSha256": "038df72df0cc96e265d7fa3650adb4ce5f985de03e0961092a00182808842f35",
+      "toSha256": "78808ffec7769c1e0754ae32c10adb2e41e72d616e31207bd31b1364d758fcab",
+      "reason": "Authorized DigiSec Lab beach flag: exact official logo, native synchronized flight and owner-rights attribution; map geometry and saved editor data retained."
+    },
+    {
+      "path": "tools/release.ts",
+      "fromSha256": "e35e744d36f3270e7951333e0173c90e99213ce3a524f6f3de3c466c29d2eb92",
+      "toSha256": "b3b4bc8ed770960600877ab1fa1de09fdba04b66f63820f9777ff5b5eb965043",
+      "reason": "Authorized DigiSec Lab beach flag: exact official logo, native synchronized flight and owner-rights attribution; map geometry and saved editor data retained."
+    },
+    {
+      "path": "world/layouts/shipyard-beach.json",
+      "fromSha256": "ebf96c00078185e304e0614a6f02eccff8aacc15c708ab80e4fd702235c32e0d",
+      "toSha256": "d0f02b7da5786ad4e3700da94bbbb38501f29753ed6114759daf1c926356ca3d",
+      "reason": "Authorized DigiSec Lab beach flag: exact official logo, native synchronized flight and owner-rights attribution; map geometry and saved editor data retained."
+    }
+  ]
+}

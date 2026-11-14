@@ -22,7 +22,10 @@ it('restores the original sailing ship and a purely decorative flight without de
  const l=read('world/layouts/shipyard-beach.json'),flight=l.animatedOverlays.find((o:any)=>o.name==='coastal-flight');
  expect(l.placements.filter((p:any)=>p.id.startsWith('lpc-')).length).toBe(1119);
  expect(flight.image).toBe('assets/tilesets/original/harbour-plane.png');expect(flight.level).toBe('aboveScenery');
- const m=read('art/source/harbour-plane.json');expect(m.diagnostics.tracks[0].positionCount).toBeGreaterThan(100);expect(m.inputs.some((p:any)=>p.path.includes('sponsor'))).toBe(false);
+ const m=read('art/source/harbour-plane.json');expect(m.diagnostics.tracks[0].positionCount).toBeGreaterThan(100);
+ expect(m.sponsor.name).toBe('DigiSec Lab');expect(m.sponsor.title).toBe('Digital Safety Partner');
+ expect(flight.sourceId).toBe('harbour-sponsor');
+ expect(m.inputs.some((p:any)=>p.path.includes('demo-'))).toBe(false);
 });
 it('uses a narrow native ladder on both decks and a grounded timber helm',()=>{
  for(const id of ['fa-ship','fa-ship-interior']){
