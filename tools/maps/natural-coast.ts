@@ -7,7 +7,7 @@ import {buildMap} from './builder';
 import {coastMetadata,NATURAL_COAST_IDS,type NaturalCoastId} from '../art/natural-coast';
 import {assertCoastLifeHabitat} from './coast-life-habitat';
 import {assertNativeAirborne} from './airborne';
-import {shorePlaneMetadata,SHORE_PLANE_META} from '../art/shore-plane';
+import {shorePlaneMetadata} from '../art/shore-plane';
 import type {MapLayout,TiledMap,WamFile} from './types';
 import type {TileCatalog} from '../art/catalog';
 const read=(p:string)=>JSON.parse(readFileSync(p,'utf8'));
@@ -42,7 +42,8 @@ export function assertNaturalCoast(map:TiledMap,layout:MapLayout,wam:WamFile,cat
  const tracks=read('art/source/coast-life-tracks.json').maps[id];
  const families=id==='shipyard-beach'?['fish-west','fish-east','dolphin','gull-north','gull-south'].map(n=>'coast-life-harbor-'+n):['fish-west','dolphin','seal','gull-north','gull-south'].map(n=>'coast-life-shore-'+n);
  const party=id==='constellation-shore'?['shore-dj-lights','shore-dj-stage-lights']:[];
- const roster=[...families,...party,'coastal-flight'];
+ const flights=['coastal-flight','coastal-flight-east'];
+ const roster=[...families,...party,...flights];
  need(isDeepStrictEqual(layout.animatedOverlays?.map(o=>o.name),roster),'closed wildlife, party and aircraft roster changed');
  for(const o of layout.animatedOverlays??[]) {
   if(party.includes(o.name)){
@@ -54,10 +55,11 @@ export function assertNaturalCoast(map:TiledMap,layout:MapLayout,wam:WamFile,cat
    for(const[name,sprite]of Object.entries(meta.catalog))need(isDeepStrictEqual(catalog[name],sprite),'DJ collision/depth changed '+name);
    continue;
   }
-  if(o.name==='coastal-flight'){
-   const meta=read(id==='shipyard-beach'?'art/source/harbour-plane.json':SHORE_PLANE_META);
-   if(id==='constellation-shore')need(isDeepStrictEqual(meta,shorePlaneMetadata()),'shore aircraft placement changed');
-   need(o.image==='assets/tilesets/original/harbour-plane.png'&&o.level==='aboveScenery'&&isDeepStrictEqual(o,meta.overlay),'restored aircraft source changed');
+  if(flights.includes(o.name)){
+   const suffix=o.name==='coastal-flight-east'?'-east':'';
+   const meta=read(`art/source/${id==='shipyard-beach'?'harbour':'shore'}-plane${suffix}.json`);
+   if(id==='constellation-shore')need(isDeepStrictEqual(o,shorePlaneMetadata().overlays.find(v=>v.name===o.name)),'shore aircraft placement changed');
+   need(o.image===`assets/tilesets/original/harbour-plane${suffix}.png`&&o.level==='aboveScenery'&&isDeepStrictEqual(o,meta.overlay),'restored aircraft source changed');
    for(const input of meta.inputs)need(sha(input.path)===input.sha256,'aircraft input changed');
    need(sha(o.image)===o.provenance?.atlasSha256,'aircraft pixels changed');
    continue;

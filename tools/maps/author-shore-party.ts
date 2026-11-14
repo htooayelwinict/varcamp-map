@@ -47,7 +47,7 @@ const signs=[
 for(const sign of signs)added.push({id:sign.name+'-panel',sprite:'shore-party-sign',x:sign.x,y:sign.y,width:5,height:1,layer:'scenery'});
 row.props=[...existing,...added];
 row.signs=[...row.signs.filter((s:{name:string})=>!s.name.startsWith('shore-party-')),...signs.map(s=>({...s,width:5,height:1,fontSize:12,color:'#fff0c9',align:'center'}))];
-row.animatedOverlays=[...row.animatedOverlays.filter((o:{name:string})=>!['coastal-flight','shore-dj-lights','shore-dj-stage-lights'].includes(o.name)),...art.metadata.overlays,shorePlaneMetadata().overlay];
+row.animatedOverlays=[...row.animatedOverlays.filter((o:{name:string})=>!o.name.startsWith('coastal-flight')&&!['shore-dj-lights','shore-dj-stage-lights'].includes(o.name)),...art.metadata.overlays,...shorePlaneMetadata().overlays];
 write('world/natural-coast.json',recipe);
 const catalog=read('art/tile-catalog.json');Object.assign(catalog,art.catalog);write('art/tile-catalog.json',catalog);
 // Both metadata receipts hash the shared recipe; terrain pixels are unchanged.

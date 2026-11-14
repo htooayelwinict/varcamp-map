@@ -1,6 +1,6 @@
 {
-  "version": 1,
-  "description": "Approved DigiSec Lab flag aircraft above the Constellation Shore open shoreline sand; shared original pixels and clocks.",
+  "version": 2,
+  "description": "Approved DigiSec Lab flag aircraft above the Constellation Shore open shoreline sand; shared original pixels and synchronized full-width clocks.",
   "inputs": [
     {
       "path": "art/source/coastal-flight-plane.png",
@@ -12,7 +12,7 @@
     },
     {
       "path": "tools/art/harbour-plane.ts",
-      "sha256": "c668f34d49f32023fa6d1f7c9de05ad51f2f60e78e39fa4dbddc1b800ddcb556"
+      "sha256": "298d50cc207461ff612538839559b0abd6b2cb74b2aa01668e4db8280f65bcf2"
     },
     {
       "path": "tools/art/native-motion.ts",
@@ -20,11 +20,11 @@
     },
     {
       "path": "art/source/harbour-plane.json",
-      "sha256": "3a7bbc7b3ba9d32b0de13bd234d68cc79a64e8f7caf61548d7b5856a3e2f1efe"
+      "sha256": "6c291b96e42b1089c91236e0a1c4b3c7099ddfe11c3500da3bb3ca828b5a7ec3"
     },
     {
       "path": "tools/art/shore-plane.ts",
-      "sha256": "39dfb3e22bb8e058e2121c12142dc0126aa13de05efd12903a27df0bc1096e80"
+      "sha256": "3b0c6f07b417e24673453bd9e7ea73745cce40955cb3ea341899891ae902ad31"
     }
   ],
   "overlay": {
@@ -188,7 +188,7 @@
         "frames": [
           {
             "tileid": 0,
-            "duration": 17700
+            "duration": 36900
           },
           {
             "tileid": 42,
@@ -369,7 +369,7 @@
         "frames": [
           {
             "tileid": 0,
-            "duration": 18100
+            "duration": 37300
           },
           {
             "tileid": 42,
@@ -550,7 +550,7 @@
         "frames": [
           {
             "tileid": 0,
-            "duration": 18500
+            "duration": 37700
           },
           {
             "tileid": 42,
@@ -731,7 +731,7 @@
         "frames": [
           {
             "tileid": 0,
-            "duration": 18900
+            "duration": 38100
           },
           {
             "tileid": 42,
@@ -912,7 +912,7 @@
         "frames": [
           {
             "tileid": 0,
-            "duration": 19300
+            "duration": 38500
           },
           {
             "tileid": 42,
@@ -1105,7 +1105,7 @@
           },
           {
             "tileid": 0,
-            "duration": 19300
+            "duration": 38500
           },
           {
             "tileid": 42,
@@ -1298,7 +1298,7 @@
           },
           {
             "tileid": 0,
-            "duration": 19300
+            "duration": 38500
           },
           {
             "tileid": 42,
@@ -1491,7 +1491,7 @@
           },
           {
             "tileid": 0,
-            "duration": 19300
+            "duration": 38500
           },
           {
             "tileid": 42,
@@ -1684,7 +1684,7 @@
           },
           {
             "tileid": 0,
-            "duration": 19300
+            "duration": 38500
           },
           {
             "tileid": 42,
@@ -1877,7 +1877,7 @@
           },
           {
             "tileid": 0,
-            "duration": 19300
+            "duration": 38500
           },
           {
             "tileid": 42,
@@ -2066,7 +2066,7 @@
           },
           {
             "tileid": 0,
-            "duration": 19300
+            "duration": 38500
           },
           {
             "tileid": 42,
@@ -2259,7 +2259,7 @@
           },
           {
             "tileid": 0,
-            "duration": 19300
+            "duration": 38500
           },
           {
             "tileid": 42,
@@ -2452,7 +2452,7 @@
           },
           {
             "tileid": 0,
-            "duration": 19300
+            "duration": 38500
           },
           {
             "tileid": 42,
@@ -2645,7 +2645,7 @@
           },
           {
             "tileid": 0,
-            "duration": 19300
+            "duration": 38500
           },
           {
             "tileid": 42,
@@ -2838,7 +2838,7 @@
           },
           {
             "tileid": 0,
-            "duration": 19300
+            "duration": 38500
           },
           {
             "tileid": 42,
@@ -3031,7 +3031,7 @@
           },
           {
             "tileid": 0,
-            "duration": 19200
+            "duration": 38400
           }
         ]
       },
@@ -3212,7 +3212,7 @@
           },
           {
             "tileid": 0,
-            "duration": 18800
+            "duration": 38000
           }
         ]
       },
@@ -3393,7 +3393,7 @@
           },
           {
             "tileid": 0,
-            "duration": 18400
+            "duration": 37600
           }
         ]
       },
@@ -3574,7 +3574,7 @@
           },
           {
             "tileid": 0,
-            "duration": 18000
+            "duration": 37200
           }
         ]
       },
@@ -3755,7 +3755,7 @@
           },
           {
             "tileid": 0,
-            "duration": 17600
+            "duration": 36800
           }
         ]
       },
@@ -3936,7 +3936,7 @@
           },
           {
             "tileid": 0,
-            "duration": 17200
+            "duration": 36400
           }
         ]
       },
@@ -4117,7 +4117,7 @@
           },
           {
             "tileid": 0,
-            "duration": 16800
+            "duration": 36000
           }
         ]
       },
@@ -4298,7 +4298,7 @@
           },
           {
             "tileid": 0,
-            "duration": 16400
+            "duration": 35600
           }
         ]
       },
@@ -4479,7 +4479,7 @@
           },
           {
             "tileid": 0,
-            "duration": 16000
+            "duration": 35200
           }
         ]
       },
@@ -4660,7 +4660,7 @@
           },
           {
             "tileid": 0,
-            "duration": 15600
+            "duration": 34800
           }
         ]
       },
@@ -4841,7 +4841,7 @@
           },
           {
             "tileid": 0,
-            "duration": 15200
+            "duration": 34400
           }
         ]
       },
@@ -5022,7 +5022,7 @@
           },
           {
             "tileid": 0,
-            "duration": 14800
+            "duration": 34000
           }
         ]
       },
@@ -5203,7 +5203,7 @@
           },
           {
             "tileid": 0,
-            "duration": 14400
+            "duration": 33600
           }
         ]
       },
@@ -5384,7 +5384,7 @@
           },
           {
             "tileid": 0,
-            "duration": 14000
+            "duration": 33200
           }
         ]
       },
@@ -5565,7 +5565,7 @@
           },
           {
             "tileid": 0,
-            "duration": 13600
+            "duration": 32800
           }
         ]
       },
@@ -5746,7 +5746,7 @@
           },
           {
             "tileid": 0,
-            "duration": 13200
+            "duration": 32400
           }
         ]
       },
@@ -5927,7 +5927,7 @@
           },
           {
             "tileid": 0,
-            "duration": 12800
+            "duration": 32000
           }
         ]
       },
@@ -6108,7 +6108,7 @@
           },
           {
             "tileid": 0,
-            "duration": 12400
+            "duration": 31600
           }
         ]
       },
@@ -6289,7 +6289,7 @@
           },
           {
             "tileid": 0,
-            "duration": 12000
+            "duration": 31200
           }
         ]
       },
@@ -6470,7 +6470,7 @@
           },
           {
             "tileid": 0,
-            "duration": 11600
+            "duration": 30800
           }
         ]
       },
@@ -6651,7 +6651,7 @@
           },
           {
             "tileid": 0,
-            "duration": 11200
+            "duration": 30400
           }
         ]
       },
@@ -6832,7 +6832,7 @@
           },
           {
             "tileid": 0,
-            "duration": 10800
+            "duration": 30000
           }
         ]
       },
@@ -7013,7 +7013,7 @@
           },
           {
             "tileid": 0,
-            "duration": 10400
+            "duration": 29600
           }
         ]
       },
@@ -7194,7 +7194,7 @@
           },
           {
             "tileid": 0,
-            "duration": 10000
+            "duration": 29200
           }
         ]
       },
@@ -7375,7 +7375,7 @@
           },
           {
             "tileid": 0,
-            "duration": 9600
+            "duration": 28800
           }
         ]
       },
@@ -7556,7 +7556,7 @@
           },
           {
             "tileid": 0,
-            "duration": 9200
+            "duration": 28400
           }
         ]
       },
@@ -7737,7 +7737,7 @@
           },
           {
             "tileid": 0,
-            "duration": 8800
+            "duration": 28000
           }
         ]
       },
@@ -7918,7 +7918,7 @@
           },
           {
             "tileid": 0,
-            "duration": 8400
+            "duration": 27600
           }
         ]
       },
@@ -8099,7 +8099,7 @@
           },
           {
             "tileid": 0,
-            "duration": 8000
+            "duration": 27200
           }
         ]
       },
@@ -8280,7 +8280,7 @@
           },
           {
             "tileid": 0,
-            "duration": 7600
+            "duration": 26800
           }
         ]
       },
@@ -8461,7 +8461,7 @@
           },
           {
             "tileid": 0,
-            "duration": 7200
+            "duration": 26400
           }
         ]
       },
@@ -8642,7 +8642,7 @@
           },
           {
             "tileid": 0,
-            "duration": 6800
+            "duration": 26000
           }
         ]
       },
@@ -8823,7 +8823,7 @@
           },
           {
             "tileid": 0,
-            "duration": 6400
+            "duration": 25600
           }
         ]
       },
@@ -8832,7 +8832,7 @@
         "frames": [
           {
             "tileid": 0,
-            "duration": 17600
+            "duration": 36800
           },
           {
             "tileid": 21,
@@ -9017,7 +9017,7 @@
         "frames": [
           {
             "tileid": 0,
-            "duration": 18000
+            "duration": 37200
           },
           {
             "tileid": 21,
@@ -9202,7 +9202,7 @@
         "frames": [
           {
             "tileid": 0,
-            "duration": 18400
+            "duration": 37600
           },
           {
             "tileid": 21,
@@ -9387,7 +9387,7 @@
         "frames": [
           {
             "tileid": 0,
-            "duration": 18800
+            "duration": 38000
           },
           {
             "tileid": 21,
@@ -9572,7 +9572,7 @@
         "frames": [
           {
             "tileid": 0,
-            "duration": 19200
+            "duration": 38400
           },
           {
             "tileid": 21,
@@ -9769,7 +9769,7 @@
           },
           {
             "tileid": 0,
-            "duration": 19200
+            "duration": 38400
           },
           {
             "tileid": 21,
@@ -9966,7 +9966,7 @@
           },
           {
             "tileid": 0,
-            "duration": 19200
+            "duration": 38400
           },
           {
             "tileid": 21,
@@ -10163,7 +10163,7 @@
           },
           {
             "tileid": 0,
-            "duration": 19200
+            "duration": 38400
           },
           {
             "tileid": 21,
@@ -10360,7 +10360,7 @@
           },
           {
             "tileid": 0,
-            "duration": 19200
+            "duration": 38400
           },
           {
             "tileid": 21,
@@ -10557,7 +10557,7 @@
           },
           {
             "tileid": 0,
-            "duration": 19200
+            "duration": 38400
           },
           {
             "tileid": 21,
@@ -10750,7 +10750,7 @@
           },
           {
             "tileid": 0,
-            "duration": 19200
+            "duration": 38400
           },
           {
             "tileid": 21,
@@ -10947,7 +10947,7 @@
           },
           {
             "tileid": 0,
-            "duration": 19200
+            "duration": 38400
           },
           {
             "tileid": 21,
@@ -11144,7 +11144,7 @@
           },
           {
             "tileid": 0,
-            "duration": 19200
+            "duration": 38400
           },
           {
             "tileid": 21,
@@ -11341,7 +11341,7 @@
           },
           {
             "tileid": 0,
-            "duration": 19200
+            "duration": 38400
           },
           {
             "tileid": 21,
@@ -11538,7 +11538,7 @@
           },
           {
             "tileid": 0,
-            "duration": 19200
+            "duration": 38400
           },
           {
             "tileid": 21,
@@ -11735,7 +11735,7 @@
           },
           {
             "tileid": 0,
-            "duration": 19200
+            "duration": 38400
           }
         ]
       },
@@ -11920,7 +11920,7 @@
           },
           {
             "tileid": 0,
-            "duration": 18800
+            "duration": 38000
           }
         ]
       },
@@ -12105,7 +12105,7 @@
           },
           {
             "tileid": 0,
-            "duration": 18400
+            "duration": 37600
           }
         ]
       },
@@ -12290,7 +12290,7 @@
           },
           {
             "tileid": 0,
-            "duration": 18000
+            "duration": 37200
           }
         ]
       },
@@ -12475,7 +12475,7 @@
           },
           {
             "tileid": 0,
-            "duration": 17600
+            "duration": 36800
           }
         ]
       },
@@ -12660,7 +12660,7 @@
           },
           {
             "tileid": 0,
-            "duration": 17200
+            "duration": 36400
           }
         ]
       },
@@ -12845,7 +12845,7 @@
           },
           {
             "tileid": 0,
-            "duration": 16800
+            "duration": 36000
           }
         ]
       },
@@ -13030,7 +13030,7 @@
           },
           {
             "tileid": 0,
-            "duration": 16400
+            "duration": 35600
           }
         ]
       },
@@ -13215,7 +13215,7 @@
           },
           {
             "tileid": 0,
-            "duration": 16000
+            "duration": 35200
           }
         ]
       },
@@ -13400,7 +13400,7 @@
           },
           {
             "tileid": 0,
-            "duration": 15600
+            "duration": 34800
           }
         ]
       },
@@ -13585,7 +13585,7 @@
           },
           {
             "tileid": 0,
-            "duration": 15200
+            "duration": 34400
           }
         ]
       },
@@ -13770,7 +13770,7 @@
           },
           {
             "tileid": 0,
-            "duration": 14800
+            "duration": 34000
           }
         ]
       },
@@ -13955,7 +13955,7 @@
           },
           {
             "tileid": 0,
-            "duration": 14400
+            "duration": 33600
           }
         ]
       },
@@ -14140,7 +14140,7 @@
           },
           {
             "tileid": 0,
-            "duration": 14000
+            "duration": 33200
           }
         ]
       },
@@ -14325,7 +14325,7 @@
           },
           {
             "tileid": 0,
-            "duration": 13600
+            "duration": 32800
           }
         ]
       },
@@ -14510,7 +14510,7 @@
           },
           {
             "tileid": 0,
-            "duration": 13200
+            "duration": 32400
           }
         ]
       },
@@ -14695,7 +14695,7 @@
           },
           {
             "tileid": 0,
-            "duration": 12800
+            "duration": 32000
           }
         ]
       },
@@ -14880,7 +14880,7 @@
           },
           {
             "tileid": 0,
-            "duration": 12400
+            "duration": 31600
           }
         ]
       },
@@ -15065,7 +15065,7 @@
           },
           {
             "tileid": 0,
-            "duration": 12000
+            "duration": 31200
           }
         ]
       },
@@ -15250,7 +15250,7 @@
           },
           {
             "tileid": 0,
-            "duration": 11600
+            "duration": 30800
           }
         ]
       },
@@ -15435,7 +15435,7 @@
           },
           {
             "tileid": 0,
-            "duration": 11200
+            "duration": 30400
           }
         ]
       },
@@ -15620,7 +15620,7 @@
           },
           {
             "tileid": 0,
-            "duration": 10800
+            "duration": 30000
           }
         ]
       },
@@ -15805,7 +15805,7 @@
           },
           {
             "tileid": 0,
-            "duration": 10400
+            "duration": 29600
           }
         ]
       },
@@ -15990,7 +15990,7 @@
           },
           {
             "tileid": 0,
-            "duration": 10000
+            "duration": 29200
           }
         ]
       },
@@ -16175,7 +16175,7 @@
           },
           {
             "tileid": 0,
-            "duration": 9600
+            "duration": 28800
           }
         ]
       },
@@ -16360,7 +16360,7 @@
           },
           {
             "tileid": 0,
-            "duration": 9200
+            "duration": 28400
           }
         ]
       },
@@ -16545,7 +16545,7 @@
           },
           {
             "tileid": 0,
-            "duration": 8800
+            "duration": 28000
           }
         ]
       },
@@ -16730,7 +16730,7 @@
           },
           {
             "tileid": 0,
-            "duration": 8400
+            "duration": 27600
           }
         ]
       },
@@ -16915,7 +16915,7 @@
           },
           {
             "tileid": 0,
-            "duration": 8000
+            "duration": 27200
           }
         ]
       },
@@ -17100,7 +17100,7 @@
           },
           {
             "tileid": 0,
-            "duration": 7600
+            "duration": 26800
           }
         ]
       },
@@ -17285,7 +17285,7 @@
           },
           {
             "tileid": 0,
-            "duration": 7200
+            "duration": 26400
           }
         ]
       },
@@ -17470,7 +17470,7 @@
           },
           {
             "tileid": 0,
-            "duration": 6800
+            "duration": 26000
           }
         ]
       },
@@ -17655,7 +17655,7 @@
           },
           {
             "tileid": 0,
-            "duration": 6400
+            "duration": 25600
           }
         ]
       },
@@ -17664,7 +17664,7 @@
         "frames": [
           {
             "tileid": 0,
-            "duration": 17600
+            "duration": 36800
           },
           {
             "tileid": 32,
@@ -17849,7 +17849,7 @@
         "frames": [
           {
             "tileid": 0,
-            "duration": 18000
+            "duration": 37200
           },
           {
             "tileid": 32,
@@ -18034,7 +18034,7 @@
         "frames": [
           {
             "tileid": 0,
-            "duration": 18400
+            "duration": 37600
           },
           {
             "tileid": 32,
@@ -18219,7 +18219,7 @@
         "frames": [
           {
             "tileid": 0,
-            "duration": 18800
+            "duration": 38000
           },
           {
             "tileid": 32,
@@ -18404,7 +18404,7 @@
         "frames": [
           {
             "tileid": 0,
-            "duration": 19200
+            "duration": 38400
           },
           {
             "tileid": 32,
@@ -18601,7 +18601,7 @@
           },
           {
             "tileid": 0,
-            "duration": 19200
+            "duration": 38400
           },
           {
             "tileid": 32,
@@ -18798,7 +18798,7 @@
           },
           {
             "tileid": 0,
-            "duration": 19200
+            "duration": 38400
           },
           {
             "tileid": 32,
@@ -18995,7 +18995,7 @@
           },
           {
             "tileid": 0,
-            "duration": 19200
+            "duration": 38400
           },
           {
             "tileid": 32,
@@ -19192,7 +19192,7 @@
           },
           {
             "tileid": 0,
-            "duration": 19200
+            "duration": 38400
           },
           {
             "tileid": 32,
@@ -19389,7 +19389,7 @@
           },
           {
             "tileid": 0,
-            "duration": 19200
+            "duration": 38400
           },
           {
             "tileid": 32,
@@ -19582,7 +19582,7 @@
           },
           {
             "tileid": 0,
-            "duration": 19200
+            "duration": 38400
           },
           {
             "tileid": 32,
@@ -19779,7 +19779,7 @@
           },
           {
             "tileid": 0,
-            "duration": 19200
+            "duration": 38400
           },
           {
             "tileid": 32,
@@ -19976,7 +19976,7 @@
           },
           {
             "tileid": 0,
-            "duration": 19200
+            "duration": 38400
           },
           {
             "tileid": 32,
@@ -20173,7 +20173,7 @@
           },
           {
             "tileid": 0,
-            "duration": 19200
+            "duration": 38400
           },
           {
             "tileid": 32,
@@ -20370,7 +20370,7 @@
           },
           {
             "tileid": 0,
-            "duration": 19200
+            "duration": 38400
           },
           {
             "tileid": 32,
@@ -20567,7 +20567,7 @@
           },
           {
             "tileid": 0,
-            "duration": 19200
+            "duration": 38400
           }
         ]
       },
@@ -20752,7 +20752,7 @@
           },
           {
             "tileid": 0,
-            "duration": 18800
+            "duration": 38000
           }
         ]
       },
@@ -20937,7 +20937,7 @@
           },
           {
             "tileid": 0,
-            "duration": 18400
+            "duration": 37600
           }
         ]
       },
@@ -21122,7 +21122,7 @@
           },
           {
             "tileid": 0,
-            "duration": 18000
+            "duration": 37200
           }
         ]
       },
@@ -21307,7 +21307,7 @@
           },
           {
             "tileid": 0,
-            "duration": 17600
+            "duration": 36800
           }
         ]
       },
@@ -21492,7 +21492,7 @@
           },
           {
             "tileid": 0,
-            "duration": 17200
+            "duration": 36400
           }
         ]
       },
@@ -21677,7 +21677,7 @@
           },
           {
             "tileid": 0,
-            "duration": 16800
+            "duration": 36000
           }
         ]
       },
@@ -21862,7 +21862,7 @@
           },
           {
             "tileid": 0,
-            "duration": 16400
+            "duration": 35600
           }
         ]
       },
@@ -22047,7 +22047,7 @@
           },
           {
             "tileid": 0,
-            "duration": 16000
+            "duration": 35200
           }
         ]
       },
@@ -22232,7 +22232,7 @@
           },
           {
             "tileid": 0,
-            "duration": 15600
+            "duration": 34800
           }
         ]
       },
@@ -22417,7 +22417,7 @@
           },
           {
             "tileid": 0,
-            "duration": 15200
+            "duration": 34400
           }
         ]
       },
@@ -22602,7 +22602,7 @@
           },
           {
             "tileid": 0,
-            "duration": 14800
+            "duration": 34000
           }
         ]
       },
@@ -22787,7 +22787,7 @@
           },
           {
             "tileid": 0,
-            "duration": 14400
+            "duration": 33600
           }
         ]
       },
@@ -22972,7 +22972,7 @@
           },
           {
             "tileid": 0,
-            "duration": 14000
+            "duration": 33200
           }
         ]
       },
@@ -23157,7 +23157,7 @@
           },
           {
             "tileid": 0,
-            "duration": 13600
+            "duration": 32800
           }
         ]
       },
@@ -23342,7 +23342,7 @@
           },
           {
             "tileid": 0,
-            "duration": 13200
+            "duration": 32400
           }
         ]
       },
@@ -23527,7 +23527,7 @@
           },
           {
             "tileid": 0,
-            "duration": 12800
+            "duration": 32000
           }
         ]
       },
@@ -23712,7 +23712,7 @@
           },
           {
             "tileid": 0,
-            "duration": 12400
+            "duration": 31600
           }
         ]
       },
@@ -23897,7 +23897,7 @@
           },
           {
             "tileid": 0,
-            "duration": 12000
+            "duration": 31200
           }
         ]
       },
@@ -24082,7 +24082,7 @@
           },
           {
             "tileid": 0,
-            "duration": 11600
+            "duration": 30800
           }
         ]
       },
@@ -24267,7 +24267,7 @@
           },
           {
             "tileid": 0,
-            "duration": 11200
+            "duration": 30400
           }
         ]
       },
@@ -24452,7 +24452,7 @@
           },
           {
             "tileid": 0,
-            "duration": 10800
+            "duration": 30000
           }
         ]
       },
@@ -24637,7 +24637,7 @@
           },
           {
             "tileid": 0,
-            "duration": 10400
+            "duration": 29600
           }
         ]
       },
@@ -24822,7 +24822,7 @@
           },
           {
             "tileid": 0,
-            "duration": 10000
+            "duration": 29200
           }
         ]
       },
@@ -25007,7 +25007,7 @@
           },
           {
             "tileid": 0,
-            "duration": 9600
+            "duration": 28800
           }
         ]
       },
@@ -25192,7 +25192,7 @@
           },
           {
             "tileid": 0,
-            "duration": 9200
+            "duration": 28400
           }
         ]
       },
@@ -25377,7 +25377,7 @@
           },
           {
             "tileid": 0,
-            "duration": 8800
+            "duration": 28000
           }
         ]
       },
@@ -25562,7 +25562,7 @@
           },
           {
             "tileid": 0,
-            "duration": 8400
+            "duration": 27600
           }
         ]
       },
@@ -25747,7 +25747,7 @@
           },
           {
             "tileid": 0,
-            "duration": 8000
+            "duration": 27200
           }
         ]
       },
@@ -25932,7 +25932,7 @@
           },
           {
             "tileid": 0,
-            "duration": 7600
+            "duration": 26800
           }
         ]
       },
@@ -26117,7 +26117,7 @@
           },
           {
             "tileid": 0,
-            "duration": 7200
+            "duration": 26400
           }
         ]
       },
@@ -26302,7 +26302,7 @@
           },
           {
             "tileid": 0,
-            "duration": 6800
+            "duration": 26000
           }
         ]
       },
@@ -26487,7 +26487,7 @@
           },
           {
             "tileid": 0,
-            "duration": 6400
+            "duration": 25600
           }
         ]
       }
@@ -26506,7 +26506,7 @@
         },
         {
           "path": "tools/art/harbour-plane.ts",
-          "sha256": "c668f34d49f32023fa6d1f7c9de05ad51f2f60e78e39fa4dbddc1b800ddcb556"
+          "sha256": "298d50cc207461ff612538839559b0abd6b2cb74b2aa01668e4db8280f65bcf2"
         },
         {
           "path": "tools/art/native-motion.ts",
@@ -26514,11 +26514,11 @@
         },
         {
           "path": "art/source/harbour-plane.json",
-          "sha256": "3a7bbc7b3ba9d32b0de13bd234d68cc79a64e8f7caf61548d7b5856a3e2f1efe"
+          "sha256": "6c291b96e42b1089c91236e0a1c4b3c7099ddfe11c3500da3bb3ca828b5a7ec3"
         },
         {
           "path": "tools/art/shore-plane.ts",
-          "sha256": "39dfb3e22bb8e058e2121c12142dc0126aa13de05efd12903a27df0bc1096e80"
+          "sha256": "3b0c6f07b417e24673453bd9e7ea73745cce40955cb3ea341899891ae902ad31"
         }
       ]
     }

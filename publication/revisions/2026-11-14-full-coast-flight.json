@@ -1,0 +1,47 @@
+{
+  "schemaVersion": 1,
+  "revisions": [
+    {
+      "path": "art/sources.json",
+      "fromSha256": "259734d8ee590ab4fe4fb7eaba9dcfb25b663d989047b7b870c46bcc57dcffb1",
+      "toSha256": "499e37d2a0fc17a894f46539b8935c1f3366abd6dc3c44d6b04b3433ca7a749c",
+      "reason": "Fix sponsor aircraft clipping at the midpoint of both96-tile coastal maps using synchronized adjacent48-tile native clips and one full-width clock. Preserve exact plane and sponsor pixels, both flight heights, DJ/audience areas, walking routes and all unrelated map content."
+    },
+    {
+      "path": "maps/constellation-shore.tmj",
+      "fromSha256": "397195513928c6d999a25147f0be3b7f312b3ef67e6cd58328b7139ef4d458a8",
+      "toSha256": "38155fbd23bc29eb3a6706a421517daf00c5c07dbd8f9f0021bd7ffc24a29969",
+      "reason": "Fix sponsor aircraft clipping at the midpoint of both96-tile coastal maps using synchronized adjacent48-tile native clips and one full-width clock. Preserve exact plane and sponsor pixels, both flight heights, DJ/audience areas, walking routes and all unrelated map content."
+    },
+    {
+      "path": "maps/preview/constellation-shore.tmj",
+      "fromSha256": "70d544bfb07649bfe358d1765cc84b325557206fef6a2a17a82e7b47d4bd2e04",
+      "toSha256": "4cb857c1921c8e89d2540646ac141d9d579a09bc8b98d7808c4ce0c2714c56c8",
+      "reason": "Fix sponsor aircraft clipping at the midpoint of both96-tile coastal maps using synchronized adjacent48-tile native clips and one full-width clock. Preserve exact plane and sponsor pixels, both flight heights, DJ/audience areas, walking routes and all unrelated map content."
+    },
+    {
+      "path": "maps/preview/shipyard-beach.tmj",
+      "fromSha256": "c25ad89bd1ab8e97ee4a5a0a8b45a5bdbcc92c0000cbf4449bd9c3d77294be03",
+      "toSha256": "ccc4af5ac23890a18d03d34c8474314da7a29db90774c41bfcde404b4059f9b6",
+      "reason": "Fix sponsor aircraft clipping at the midpoint of both96-tile coastal maps using synchronized adjacent48-tile native clips and one full-width clock. Preserve exact plane and sponsor pixels, both flight heights, DJ/audience areas, walking routes and all unrelated map content."
+    },
+    {
+      "path": "maps/shipyard-beach.tmj",
+      "fromSha256": "78808ffec7769c1e0754ae32c10adb2e41e72d616e31207bd31b1364d758fcab",
+      "toSha256": "ca68b21da663091489d726b13c0182c0d289b55bae59a682f395a036e73e8021",
+      "reason": "Fix sponsor aircraft clipping at the midpoint of both96-tile coastal maps using synchronized adjacent48-tile native clips and one full-width clock. Preserve exact plane and sponsor pixels, both flight heights, DJ/audience areas, walking routes and all unrelated map content."
+    },
+    {
+      "path": "world/layouts/constellation-shore.json",
+      "fromSha256": "7ee056fc2c3c6bd233df1221b9ee3009a42323156e312c2bf41f166b98c8a9e0",
+      "toSha256": "28c074e7a78b4f76dfff99c5a7ca8c3f525ff46b0127499a8260a01a7eb39222",
+      "reason": "Fix sponsor aircraft clipping at the midpoint of both96-tile coastal maps using synchronized adjacent48-tile native clips and one full-width clock. Preserve exact plane and sponsor pixels, both flight heights, DJ/audience areas, walking routes and all unrelated map content."
+    },
+    {
+      "path": "world/layouts/shipyard-beach.json",
+      "fromSha256": "d0f02b7da5786ad4e3700da94bbbb38501f29753ed6114759daf1c926356ca3d",
+      "toSha256": "decc54bf80e037b33c12f039acf787d04d5a76924aa9d9cccb44035915b51103",
+      "reason": "Fix sponsor aircraft clipping at the midpoint of both96-tile coastal maps using synchronized adjacent48-tile native clips and one full-width clock. Preserve exact plane and sponsor pixels, both flight heights, DJ/audience areas, walking routes and all unrelated map content."
+    }
+  ]
+}

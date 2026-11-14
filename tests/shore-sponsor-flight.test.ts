@@ -11,31 +11,32 @@ const layout=()=>read('world/layouts/constellation-shore.json') as MapLayout;
 const map=()=>read('maps/constellation-shore.tmj') as TiledMap;
 
 describe('DigiSec flag above the Constellation Shore shoreline sand',()=>{
- it('places the route over the open shoreline sand while preserving the approved aircraft pixels and clocks',()=>{
-  const flight=shorePlaneMetadata().overlay;
-  const parent=read('art/source/harbour-plane.json').overlay;
-  expect([flight.x,flight.y,flight.width,flight.height]).toEqual([0,23,48,3]);
-  expect(flight.image).toBe(parent.image);expect(flight.level).toBe('aboveScenery');
-  expect(flight.carrierTileIds).toEqual(parent.carrierTileIds);expect(flight.animations).toEqual(parent.animations);
-  expect(flight.provenance!.atlasSha256).toBe(parent.provenance.atlasSha256);
+ it('places both synchronized route halves over shoreline sand using the approved parent artwork',()=>{
+  const flights=shorePlaneMetadata().overlays;
+  expect(flights).toHaveLength(2);
+  for(const [i,flight]of flights.entries()){
+   const parent=read(`art/source/harbour-plane${i?'-east':''}.json`).overlay;
+   expect([flight.x,flight.y,flight.width,flight.height]).toEqual([i*48,23,48,3]);
+   expect(flight.image).toBe(parent.image);expect(flight.level).toBe('aboveScenery');
+   expect(flight.carrierTileIds).toEqual(parent.carrierTileIds);expect(flight.animations).toEqual(parent.animations);
+   expect(flight.provenance!.atlasSha256).toBe(parent.provenance.atlasSha256);
+  }
  });
 
- it('flies over the open sand near the shoreline using the approved existing artwork',()=>{
-  const l=layout(),m=map();
-  const flight=l.animatedOverlays!.find(o=>o.name==='coastal-flight');
-  expect(flight,'shore must publish the requested plane').toBeDefined();
-  expect([flight!.x,flight!.y,flight!.width,flight!.height]).toEqual([0,23,48,3]);
-  expect(flight!.image).toBe('assets/tilesets/original/harbour-plane.png');
-  expect(flight!.sourceId).toBe('harbour-sponsor');expect(flight!.level).toBe('aboveScenery');
-  const layer=m.layers.find(x=>x.name==='coastal-flight') as TileLayer;
-  expect(m.layers.at(-1)).toBe(layer);
-  const set=m.tilesets.find(s=>s.name==='coastal-flight')!;
-  const harbor=read('maps/shipyard-beach.tmj').tilesets.find((s:any)=>s.name==='coastal-flight');
-  expect(set.image).toBe(harbor.image);expect(set.tiles).toEqual(harbor.tiles);
-  expect(layer.data.filter(Boolean)).toHaveLength(144);
-  for(let y=0;y<m.height;y++)for(let x=0;x<m.width;x++){
-   const expected=x<48&&y>=23&&y<26?set.firstgid+flight!.carrierTileIds[(y-23)*48+x]:0;
-   expect(layer.data[y*m.width+x],`${x},${y}`).toBe(expected);
+ it('publishes both complete halves over the open shoreline sand',()=>{
+  const l=layout(),m=map(),flights=l.animatedOverlays!.filter(o=>o.name.startsWith('coastal-flight'));
+  expect(flights).toHaveLength(2);
+  expect(m.layers.slice(-2).map(l=>l.name)).toEqual(['coastal-flight','coastal-flight-east']);
+  for(const flight of flights){
+   expect(flight.sourceId).toBe('harbour-sponsor');expect(flight.level).toBe('aboveScenery');
+   const layer=m.layers.find(x=>x.name===flight.name) as TileLayer,set=m.tilesets.find(s=>s.name===flight.name)!;
+   const harbor=read('maps/shipyard-beach.tmj').tilesets.find((s:any)=>s.name===flight.name);
+   expect(set.image).toBe(harbor.image);expect(set.tiles).toEqual(harbor.tiles);
+   expect(layer.data.filter(Boolean)).toHaveLength(144);
+   for(let y=0;y<m.height;y++)for(let x=0;x<m.width;x++){
+    const expected=x>=flight.x&&x<flight.x+48&&y>=23&&y<26?set.firstgid+flight.carrierTileIds[(y-23)*48+x-flight.x]:0;
+    expect(layer.data[y*m.width+x],`${x},${y}`).toBe(expected);
+   }
   }
  });
 

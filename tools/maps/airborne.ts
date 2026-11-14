@@ -30,7 +30,7 @@ export const PLAZA_DRONES=[
  * visual crossing, so it is deliberately exempt from the bird lane rules
  * (offshore blocked lane, 32px sprite, attendee-envelope alpha). Only these
  * registered rows may claim that exemption; every other aboveScenery overlay is a bird. */
-export const AIRCRAFT=[{map:'shipyard-beach',name:'coastal-flight'},{map:'constellation-shore',name:'coastal-flight'},...PLAZA_DRONES]as readonly{map:string;name:string}[];
+export const AIRCRAFT=[...['shipyard-beach','constellation-shore'].flatMap(map=>['coastal-flight','coastal-flight-east'].map(name=>({map,name}))),...PLAZA_DRONES]as readonly{map:string;name:string}[];
 export const isCurrentAircraft=(map:string,name:string)=>AIRCRAFT.some(r=>r.map===map&&r.name===name);
 const need=(ok:unknown,m:string):void=>{if(!ok)throw Error('Airborne safety '+m);};
 const overlap=(a:TileRect,b:TileRect)=>a.x<b.x+b.width&&a.x+a.width>b.x&&a.y<b.y+b.height&&a.y+a.height>b.y;

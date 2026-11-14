@@ -61,10 +61,12 @@ describe('Constellation Shore DJ stage and beach-party boundary',()=>{
   for(let y=14;y<=16;y++)for(let x=28;x<=33;x++)expect(mask[y*map.width+x]).toBe(0);
   for(const key of ['entries','exits','areas'] as const)expect(layout[key]).toEqual(before.functional[key]);
   expect(fingerprint(layout.placements.filter(p=>!p.id.startsWith('shore-dj-')&&!p.id.startsWith('shore-party-')&&p.id!=='beach-kiosk'))).toBe(before.existingPropsSha256);
-  expect(fingerprint(layout.animatedOverlays!.filter(o=>!['coastal-flight','shore-dj-lights','shore-dj-stage-lights'].includes(o.name)))).toBe(before.wildlifeOverlaysSha256);
+  expect(fingerprint(layout.animatedOverlays!.filter(o=>!o.name.startsWith('coastal-flight')&&!['shore-dj-lights','shore-dj-stage-lights'].includes(o.name)))).toBe(before.wildlifeOverlaysSha256);
   expect(hash(readFileSync('maps/constellation-shore.wam'))).toBe(before.sourceWamSha256);
   expect(hash(readFileSync('assets/tilesets/original/coast-life-props.png'))).toBe(before.sharedPropsSha256);
-  for(const [p,digest]of Object.entries(before.otherMaps))expect(hash(readFileSync(p)),p).toBe(digest);
+  // The shared aircraft also changes the harbour; its preserved scenery and controls
+  // are checked independently in coast-flight-full.test.ts.
+  for(const [p,digest]of Object.entries(before.otherMaps))if(p!=='maps/shipyard-beach.tmj')expect(hash(readFileSync(p)),p).toBe(digest);
  });
 
  it('validates the complete native map and rejects tampered stage art or lights',()=>{
