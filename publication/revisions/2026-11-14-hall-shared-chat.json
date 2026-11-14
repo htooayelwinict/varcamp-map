@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "revisions": [
+    {
+      "path": "maps/solar-hall.wam",
+      "fromSha256": "e9f71bb8f9ead7a93234ddac27df181efd051144783592f9f58e2b099da90813",
+      "toSha256": "18532f9edd7ecc8dcff24b2c580f9a83b284d6374d88606435c050fdf4277934",
+      "reason": "Enable linked native stage and audience text chat in Solar and Lunar only; preserve all geometry, stage rights, listen-only audience audio, prep settings and manual WAM data."
+    },
+    {
+      "path": "maps/lunar-hall.wam",
+      "fromSha256": "1cc27f7c67c0124369ea6ac6443e6542106cfb98bc1a6f2aebd8f473abe46ebc",
+      "toSha256": "5c60877c72f8e5a7d4998d9dc0b018e85407861fbeed20824f63a12ab3db34ef",
+      "reason": "Enable linked native stage and audience text chat in Solar and Lunar only; preserve all geometry, stage rights, listen-only audience audio, prep settings and manual WAM data."
+    },
+    {
+      "path": "tools/maps/author.ts",
+      "fromSha256": "72f7d8aecb48a01812e070ec35df5624894a164db1a03fe43f77956e5c999e77",
+      "toSha256": "975d27683639cbbc35b5ebed1d54b2a173b85108019919a968c58170ddebb178",
+      "reason": "Enable linked native stage and audience text chat in Solar and Lunar only; preserve all geometry, stage rights, listen-only audience audio, prep settings and manual WAM data."
+    }
+  ]
+}

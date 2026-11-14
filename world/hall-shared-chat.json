@@ -1,0 +1,75 @@
+{
+  "version": 1,
+  "maps": {
+    "solar-hall": [
+      {
+        "areaId": "solar-stage",
+        "geometry": {
+          "x": 512,
+          "y": 160,
+          "width": 1024,
+          "height": 416
+        },
+        "property": {
+          "id": "solar-broadcast",
+          "type": "speakerMegaphone",
+          "name": "varcamp-solar-main",
+          "chatEnabled": true,
+          "seeAttendees": false
+        }
+      },
+      {
+        "areaId": "solar-audience",
+        "geometry": {
+          "x": 512,
+          "y": 704,
+          "width": 1024,
+          "height": 640
+        },
+        "property": {
+          "id": "solar-listen",
+          "type": "listenerMegaphone",
+          "speakerZoneName": "solar-stage",
+          "chatEnabled": true,
+          "allowTalking": false,
+          "raiseHandEnabled": true
+        }
+      }
+    ],
+    "lunar-hall": [
+      {
+        "areaId": "lunar-stage",
+        "geometry": {
+          "x": 512,
+          "y": 160,
+          "width": 1024,
+          "height": 416
+        },
+        "property": {
+          "id": "lunar-broadcast",
+          "type": "speakerMegaphone",
+          "name": "varcamp-lunar-main",
+          "chatEnabled": true,
+          "seeAttendees": false
+        }
+      },
+      {
+        "areaId": "lunar-audience",
+        "geometry": {
+          "x": 512,
+          "y": 704,
+          "width": 1024,
+          "height": 640
+        },
+        "property": {
+          "id": "lunar-listen",
+          "type": "listenerMegaphone",
+          "speakerZoneName": "lunar-stage",
+          "chatEnabled": true,
+          "allowTalking": false,
+          "raiseHandEnabled": true
+        }
+      }
+    ]
+  }
+}

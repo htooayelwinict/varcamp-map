@@ -16,7 +16,7 @@
           "id": "solar-broadcast",
           "type": "speakerMegaphone",
           "name": "varcamp-solar-main",
-          "chatEnabled": false,
+          "chatEnabled": true,
           "seeAttendees": false
         },
         {
@@ -43,7 +43,7 @@
           "id": "solar-listen",
           "type": "listenerMegaphone",
           "speakerZoneName": "solar-stage",
-          "chatEnabled": false,
+          "chatEnabled": true,
           "allowTalking": false,
           "raiseHandEnabled": true
         }

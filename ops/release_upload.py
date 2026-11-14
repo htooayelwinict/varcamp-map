@@ -20,6 +20,7 @@ from enchanted_exploration import is_exploration_wam_change
 from arrival_check_in_zone import is_arrival_check_in_wam_change
 from aries_shared_chat import is_aries_shared_chat_wam_change
 from speaker_shared_chat import is_speaker_shared_chat_wam_change
+from hall_shared_chat import is_hall_shared_chat_wam_change
 from plaza_sponsor_meetings import is_plaza_sponsor_meetings_wam_change
 from expo_booth_meetings import is_expo_booth_meetings_wam_change
 
@@ -214,6 +215,8 @@ def wam_dependencies(release, baseline, reviewed_wams=None):
                     named_migration = 'aries-shared-chat-v1'
                 elif is_speaker_shared_chat_wam_change(path, baseline[path], candidate):
                     named_migration = 'speaker-shared-chat-v1'
+                elif is_hall_shared_chat_wam_change(path, baseline[path], candidate):
+                    named_migration = 'hall-shared-chat-v1'
                 elif is_plaza_sponsor_meetings_wam_change(path, baseline[path], candidate):
                     named_migration = 'plaza-sponsor-meetings-v1'
                 elif is_expo_booth_meetings_wam_change(path, baseline[path], candidate):

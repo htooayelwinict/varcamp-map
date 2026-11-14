@@ -16,7 +16,7 @@
           "id": "lunar-broadcast",
           "type": "speakerMegaphone",
           "name": "varcamp-lunar-main",
-          "chatEnabled": false,
+          "chatEnabled": true,
           "seeAttendees": false
         },
         {
@@ -43,7 +43,7 @@
           "id": "lunar-listen",
           "type": "listenerMegaphone",
           "speakerZoneName": "lunar-stage",
-          "chatEnabled": false,
+          "chatEnabled": true,
           "allowTalking": false,
           "raiseHandEnabled": true
         }
