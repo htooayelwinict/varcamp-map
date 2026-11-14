@@ -20162,6 +20162,17 @@
       "fontSize": 13,
       "color": "#d7e3cf",
       "align": "center"
+    },
+    {
+      "name": "jyotish-reading",
+      "text": "JYOTISH ASTROLOGY",
+      "x": 27,
+      "y": 48,
+      "width": 8,
+      "height": 1,
+      "fontSize": 13,
+      "color": "#d7e3cf",
+      "align": "center"
     }
   ],
   "images": [],

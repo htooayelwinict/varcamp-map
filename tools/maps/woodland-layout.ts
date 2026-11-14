@@ -176,5 +176,7 @@ export function woodlandLayout(id:ExplorationId,catalog:TileCatalog):MapLayout{
  for(let y=0;y<H;y++)for(let x=0;x<W;x++)if((x===0||y===0||x===W-1||y===H-1)&&!paths.has(y*W+x))prop('exp-boundary',x,y,`boundary-${x}-${y}`);
  l.inspectionZones=[{name:'enchanted-exploration',kind:'landmark',x:1,y:1,width:62,height:54}];
  markExplorationExits(l);
+ // Caption an existing crystal after scenery placement so routes and physics stay exact.
+ if(id==='moon-grotto')label('jyotish-reading','JYOTISH ASTROLOGY',27,48,8);
  return l;
 }

@@ -1,0 +1,107 @@
+{
+  "schemaVersion": 1,
+  "revisions": [
+    {
+      "path": "maps/moon-grotto.tmj",
+      "fromSha256": "2c5665de3f83e041a97dd814846c57cee2c258cd39e80dc33d1ba20526901f7c",
+      "toSha256": "3d9ed2b870bba58d0a1ce9a07c4a88cbe9d7cbe2be032ecb377150bd9466fc69",
+      "reason": "Reviewed arcade pairs and public Jyotish crystal: labels, deliberate external actions, exact previews, and unchanged-art provenance; preserves geometry, entries, exits and WAM data."
+    },
+    {
+      "path": "maps/nebula-arcade.tmj",
+      "fromSha256": "b6dee9d2a74b4a72d3a85fa4477c7d643fa435daf2f0e3105ff54f037fa374bb",
+      "toSha256": "2402334a6e2ef1197937e6159ee1fda8fdcc15eab63632f15dbe22d1268c23ff",
+      "reason": "Reviewed arcade pairs and public Jyotish crystal: labels, deliberate external actions, exact previews, and unchanged-art provenance; preserves geometry, entries, exits and WAM data."
+    },
+    {
+      "path": "maps/preview/moon-grotto.tmj",
+      "fromSha256": "4010ad8b97dddaf24cd27cf515fa47ddef36401201cdba75025b70a0814b1d21",
+      "toSha256": "e0529b68c2ccd3ceac851fc4e8a6f9c051d1ec496c9e37f4e53619df60554d7e",
+      "reason": "Reviewed arcade pairs and public Jyotish crystal: labels, deliberate external actions, exact previews, and unchanged-art provenance; preserves geometry, entries, exits and WAM data."
+    },
+    {
+      "path": "maps/preview/nebula-arcade.tmj",
+      "fromSha256": "d01c082c06ca10296abc0c9cefe8948ee678c2ee402817822abf1da91c271f76",
+      "toSha256": "4d177e83ede9e377efcdf17565e33af3453d2ee78d19d4fc53e738f9b647bf19",
+      "reason": "Reviewed arcade pairs and public Jyotish crystal: labels, deliberate external actions, exact previews, and unchanged-art provenance; preserves geometry, entries, exits and WAM data."
+    },
+    {
+      "path": "src/main.ts",
+      "fromSha256": "7d6a18cc99f99ecf65fd23bb6e4eb53f792868709e09b86b0edcd5b979a0d865",
+      "toSha256": "376dec304999d0fcc69db0f03ec14073d0b50e0c9dc869eddc01d8b9c1804c66",
+      "reason": "Reviewed arcade pairs and public Jyotish crystal: labels, deliberate external actions, exact previews, and unchanged-art provenance; preserves geometry, entries, exits and WAM data."
+    },
+    {
+      "path": "world/layouts/air-district.json",
+      "fromSha256": "7cc10bd1e9005030cccb20401235b94863b39c85f14e907789c65e56d91d2b9d",
+      "toSha256": "9ae05a7c351c48f21a2f5da0c5886bc029a0aa804c5a88760fd9e98933c88f53",
+      "reason": "Reviewed arcade pairs and public Jyotish crystal: labels, deliberate external actions, exact previews, and unchanged-art provenance; preserves geometry, entries, exits and WAM data."
+    },
+    {
+      "path": "world/layouts/comet-maze.json",
+      "fromSha256": "c31f01c8eb3c8946500687058b96f344d7eb5c128576837b2a2115cb60b741be",
+      "toSha256": "0f44395f856d254acacbe9ac59f1f2b7a2d005b57f052c9f6a85ed99a10fd425",
+      "reason": "Reviewed arcade pairs and public Jyotish crystal: labels, deliberate external actions, exact previews, and unchanged-art provenance; preserves geometry, entries, exits and WAM data."
+    },
+    {
+      "path": "world/layouts/earth-district.json",
+      "fromSha256": "7eb388ff2c1328a9e8190439c458dc1907b2b02a90f8c94a123aec8918451258",
+      "toSha256": "9036bc69305255a407f13a4b2b108e31c34da77c837593972edcc763a129d0cf",
+      "reason": "Reviewed arcade pairs and public Jyotish crystal: labels, deliberate external actions, exact previews, and unchanged-art provenance; preserves geometry, entries, exits and WAM data."
+    },
+    {
+      "path": "world/layouts/fa-ship.json",
+      "fromSha256": "1ee6560e46a03944dff5a974bb49dbf4254aa4cf3cb4374e0cf839210068db50",
+      "toSha256": "93c0afb53b8a81d6bb874d5f1c0d161372451d32ceed20b0a873853ce342e129",
+      "reason": "Reviewed arcade pairs and public Jyotish crystal: labels, deliberate external actions, exact previews, and unchanged-art provenance; preserves geometry, entries, exits and WAM data."
+    },
+    {
+      "path": "world/layouts/fire-district.json",
+      "fromSha256": "f1c86f3e21598301b1b78b46f653c2d44fe96ddf3d181c50b55afc63d8ebb745",
+      "toSha256": "8265dce3ba8482268f5b1653df67a1a378ae21b85c7ca3c53b64e76cae121b26",
+      "reason": "Reviewed arcade pairs and public Jyotish crystal: labels, deliberate external actions, exact previews, and unchanged-art provenance; preserves geometry, entries, exits and WAM data."
+    },
+    {
+      "path": "world/layouts/hidden-observatory.json",
+      "fromSha256": "5f6f21b3a18b77c1732e9ef64b93c76baad58805c17924d84bf2b8141f167306",
+      "toSha256": "9b19c234eb0bd18e0a3049f11ab4d1b99ff6171da5fcb6b1b9e949d2a22320cf",
+      "reason": "Reviewed arcade pairs and public Jyotish crystal: labels, deliberate external actions, exact previews, and unchanged-art provenance; preserves geometry, entries, exits and WAM data."
+    },
+    {
+      "path": "world/layouts/moon-grotto.json",
+      "fromSha256": "8916a522f334294d27f0da288009eec2c2365bbab4226ea666a6a52d3da444ca",
+      "toSha256": "d5483d8c3e6c20bd38a94bcbd009ff71f3aec0275f3c5fc604de07fbd0bb5a21",
+      "reason": "Reviewed arcade pairs and public Jyotish crystal: labels, deliberate external actions, exact previews, and unchanged-art provenance; preserves geometry, entries, exits and WAM data."
+    },
+    {
+      "path": "world/layouts/nebula-arcade.json",
+      "fromSha256": "8dc08f0cf3b7f2bab026cadea5823ed990a82a35cf07771d1b72e74daa90ea61",
+      "toSha256": "79941803c36fc22dcd683df3fb5cb4aa863dcd2349fa5f7c2d43a450b5c0972d",
+      "reason": "Reviewed arcade pairs and public Jyotish crystal: labels, deliberate external actions, exact previews, and unchanged-art provenance; preserves geometry, entries, exits and WAM data."
+    },
+    {
+      "path": "world/layouts/orbit-maze.json",
+      "fromSha256": "2dd485b1fa490778d9543ff8e976ea1cfc81e72745074e4e5b8e8f6e3a51024b",
+      "toSha256": "716265756e1de808ed3eb9ea02036c7267cf5bba883fbd78323093a952a6c46d",
+      "reason": "Reviewed arcade pairs and public Jyotish crystal: labels, deliberate external actions, exact previews, and unchanged-art provenance; preserves geometry, entries, exits and WAM data."
+    },
+    {
+      "path": "world/layouts/orbit-playground.json",
+      "fromSha256": "d37d7009da0fc1208f00f4d0a182e4e30620853e491af23fd238e49cbbde3ad4",
+      "toSha256": "9cbc7c679f09618f2c54309d870307ac49e450e3ea05af61693f78580c860eac",
+      "reason": "Reviewed arcade pairs and public Jyotish crystal: labels, deliberate external actions, exact previews, and unchanged-art provenance; preserves geometry, entries, exits and WAM data."
+    },
+    {
+      "path": "world/layouts/water-district.json",
+      "fromSha256": "075b322aedfaf689e3badadf28baec37814850b13742113f5f7c5ce1ac89c77b",
+      "toSha256": "88e37148a3192c9a2c8a1d70596b22eb1497a7fbaf0b35c70c0268311d5e68e4",
+      "reason": "Reviewed arcade pairs and public Jyotish crystal: labels, deliberate external actions, exact previews, and unchanged-art provenance; preserves geometry, entries, exits and WAM data."
+    },
+    {
+      "path": "world/layouts/zodiac-festival-park.json",
+      "fromSha256": "77fade33a671510202a8e91bb6c4f96b12a87537ac8d716a78dfc0e54c3a4eaf",
+      "toSha256": "5a7db0f3ef112471db706466baab18a1fdfbb24c9f57df6ef1f606b93cd4afd4",
+      "reason": "Reviewed arcade pairs and public Jyotish crystal: labels, deliberate external actions, exact previews, and unchanged-art provenance; preserves geometry, entries, exits and WAM data."
+    }
+  ]
+}

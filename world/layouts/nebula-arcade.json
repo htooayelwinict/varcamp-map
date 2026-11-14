@@ -730,7 +730,7 @@
     },
     {
       "name": "game-west-0",
-      "text": "OPENTAXI",
+      "text": "WAR BROKERS",
       "x": 6,
       "y": 9,
       "width": 6,
@@ -741,7 +741,7 @@
     },
     {
       "name": "kind-west-0",
-      "text": "TAXI GAME",
+      "text": "TEAM FPS",
       "x": 5,
       "y": 13,
       "width": 5,
@@ -774,7 +774,7 @@
     },
     {
       "name": "game-west-1",
-      "text": "DEADSHOT",
+      "text": "BAGANTRAIL",
       "x": 6,
       "y": 16,
       "width": 6,
@@ -785,7 +785,7 @@
     },
     {
       "name": "kind-west-1",
-      "text": "ARENA FPS",
+      "text": "HORSE RIDING",
       "x": 5,
       "y": 20,
       "width": 5,
@@ -796,7 +796,7 @@
     },
     {
       "name": "game-east-1",
-      "text": "DEADSHOT",
+      "text": "BAGANTRAIL",
       "x": 31,
       "y": 16,
       "width": 6,
@@ -807,7 +807,7 @@
     },
     {
       "name": "kind-east-1",
-      "text": "ARENA FPS",
+      "text": "HORSE RIDING",
       "x": 31,
       "y": 20,
       "width": 5,
@@ -818,7 +818,7 @@
     },
     {
       "name": "game-west-2",
-      "text": "HAXBALL",
+      "text": "OPENTAXI",
       "x": 6,
       "y": 23,
       "width": 6,
@@ -829,7 +829,7 @@
     },
     {
       "name": "kind-west-2",
-      "text": "TEAM PVP",
+      "text": "TAXI GAME",
       "x": 5,
       "y": 27,
       "width": 5,
@@ -840,7 +840,7 @@
     },
     {
       "name": "game-east-2",
-      "text": "HAXBALL",
+      "text": "OPENTAXI",
       "x": 31,
       "y": 23,
       "width": 6,
@@ -851,7 +851,7 @@
     },
     {
       "name": "kind-east-2",
-      "text": "TEAM PVP",
+      "text": "TAXI GAME",
       "x": 31,
       "y": 27,
       "width": 5,
@@ -1423,7 +1423,7 @@
           },
           {
             "path": "art/source/park-arcade-refresh.json",
-            "sha256": "14bb2d77d5692cde4204126f3f4d849faccbff457390a272e08e772958a4b07a"
+            "sha256": "29832abe51c20aa53435ac141da5adb5c1470994e1ebbbecefd7f5540918538e"
           },
           {
             "path": "tools/maps/playground-context.ts",
@@ -1851,7 +1851,7 @@
           },
           {
             "path": "art/source/park-arcade-refresh.json",
-            "sha256": "14bb2d77d5692cde4204126f3f4d849faccbff457390a272e08e772958a4b07a"
+            "sha256": "29832abe51c20aa53435ac141da5adb5c1470994e1ebbbecefd7f5540918538e"
           },
           {
             "path": "tools/maps/playground-context.ts",
@@ -2279,7 +2279,7 @@
           },
           {
             "path": "art/source/park-arcade-refresh.json",
-            "sha256": "14bb2d77d5692cde4204126f3f4d849faccbff457390a272e08e772958a4b07a"
+            "sha256": "29832abe51c20aa53435ac141da5adb5c1470994e1ebbbecefd7f5540918538e"
           },
           {
             "path": "tools/maps/playground-context.ts",

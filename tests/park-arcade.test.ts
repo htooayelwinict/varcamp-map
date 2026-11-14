@@ -40,19 +40,23 @@ describe('park and arcade physical publication',()=>{
   }
   for(const e of l.exits){const target=read(`world/layouts/${e.destination}.json`);expect(target.entries.some((r:any)=>r.name===e.entry)).toBe(true);}
  });
- it('labels the northwest cabinet OpenTaxi while retaining the northeast War Brokers label',()=>{
+ it('labels both nearest cabinets OpenTaxi, the middle pair BaganTrail and the far pair War Brokers',()=>{
   const{l,m}=scene('nebula-arcade');
   const signs=m.layers.find(layer=>layer.name==='wayfinding-text');
   if(signs?.type!=='objectgroup')throw Error('Missing native cabinet labels');
-  for(const[name,text]of [['game-west-0','OPENTAXI'],['kind-west-0','TAXI GAME'],['game-east-0','WAR BROKERS'],['kind-east-0','TEAM FPS']]){
-   expect(l.signs!.find(sign=>sign.name===name)?.text).toBe(text);
-   expect(signs.objects.find(sign=>sign.name===name)).toMatchObject({text:{text}});
+  const start=l.entries.find(e=>e.isDefault)!;
+  expect(start.y).toBeGreaterThan(28);
+  for(const side of ['west','east'])for(const[index,label,kind]of [[0,'WAR BROKERS','TEAM FPS'],[1,'BAGANTRAIL','HORSE RIDING'],[2,'OPENTAXI','TAXI GAME']] as const){
+   for(const[name,text]of [[`game-${side}-${index}`,label],[`kind-${side}-${index}`,kind]]){
+    expect(l.signs!.find(sign=>sign.name===name)?.text).toBe(text);
+    expect(signs.objects.find(sign=>sign.name===name)).toMatchObject({text:{text}});
+   }
   }
  });
- it('six labelled cabinets launch four games from clear, separate approach mats',()=>{
+ it('six labelled cabinets launch three games from clear, separate approach mats',()=>{
   const{l,mask,seen}=scene(roster.mapId),occupied=new Set<number>();
-  expect(roster.games.filter(g=>g.kind.includes('FPS'))).toHaveLength(2);expect(roster.cabinets).toHaveLength(6);
-  expect(roster.games.map(g=>g.url)).toEqual(['https://warbrokers.io/','https://deadshot.io/','https://www.haxball.com/play','https://myanmar.opentaxi.world/opentaxi/']);
+  expect(roster.games.filter(g=>g.kind.includes('FPS'))).toHaveLength(1);expect(roster.cabinets).toHaveLength(6);
+  expect(roster.games.map(g=>g.url)).toEqual(['https://warbrokers.io/','https://myanmar.opentaxi.world/opentaxi/','https://bagantrail.com/']);
   for(const a of roster.cabinets){
    const p=l.placements.find(p=>p.id===a.placementId)!,r=a.interaction,g=roster.games.find(g=>g.id===a.gameId)!;
    expect(p.y+p.height).toBe(r.y);expect(l.signs!.some(s=>s.text===g.label)).toBe(true);

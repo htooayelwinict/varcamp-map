@@ -23,12 +23,12 @@ describe('arcade cabinet actions',()=>{
   }
  });
  it.each([
-  {placementId:'cabinet-west0',x:4,y:13,name:'OpenTaxi',url:'https://myanmar.opentaxi.world/opentaxi/'},
+  {placementId:'cabinet-west0',x:4,y:13,name:'War Brokers',url:'https://warbrokers.io/'},
   {placementId:'cabinet-east0',x:30,y:13,name:'War Brokers',url:'https://warbrokers.io/'},
-  {placementId:'cabinet-west1',x:4,y:20,name:'DEADSHOT',url:'https://deadshot.io/'},
-  {placementId:'cabinet-east1',x:30,y:20,name:'DEADSHOT',url:'https://deadshot.io/'},
-  {placementId:'cabinet-west2',x:4,y:27,name:'HaxBall',url:'https://www.haxball.com/play'},
-  {placementId:'cabinet-east2',x:30,y:27,name:'HaxBall',url:'https://www.haxball.com/play'},
+  {placementId:'cabinet-west1',x:4,y:20,name:'BaganTrail',url:'https://bagantrail.com/'},
+  {placementId:'cabinet-east1',x:30,y:20,name:'BaganTrail',url:'https://bagantrail.com/'},
+  {placementId:'cabinet-west2',x:4,y:27,name:'OpenTaxi',url:'https://myanmar.opentaxi.world/opentaxi/'},
+  {placementId:'cabinet-east2',x:30,y:27,name:'OpenTaxi',url:'https://myanmar.opentaxi.world/opentaxi/'},
  ])('offers $placementId only at its front and opens its assigned game once',game=>{
   const h=harness(),r=game;
   h.move(r.x+.5,r.y-.5);expect(h.prompts).toHaveLength(0);
@@ -41,7 +41,7 @@ describe('arcade cabinet actions',()=>{
  it('uses half-open rectangles and rejects stale prompts when moving between cabinets',()=>{
   const h=harness();h.move(8,13);expect(h.prompts).toHaveLength(0);h.move(4,15);expect(h.prompts).toHaveLength(0);
   h.move(4,13);const first=h.prompts[0];h.move(30,20);expect(first.remove).toHaveBeenCalledOnce();first.callback();expect(h.openTab).not.toHaveBeenCalled();
-  h.prompts[1].callback();expect(h.openTab).toHaveBeenCalledExactlyOnceWith('https://deadshot.io/');h.dispose();
+  h.prompts[1].callback();expect(h.openTab).toHaveBeenCalledExactlyOnceWith('https://bagantrail.com/');h.dispose();
  });
  it('does not let a delayed initial position resurrect an old prompt',async()=>{
   const h=harness();h.move(20,31);h.resolve(5,14);await Promise.resolve();expect(h.prompts).toHaveLength(0);h.dispose();

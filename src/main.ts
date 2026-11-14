@@ -1,4 +1,4 @@
-import {registerExpedition} from './adventure/interactions';
+import {registerExpedition,registerJyotish} from './adventure/interactions';
 import { initializeWorld } from './runtime';
 import { registerCheckInCounter } from './check-in/counter';
 import { registerArcadeCabinets } from './arcade/cabinets';
@@ -21,6 +21,7 @@ void WA.onInit().then(() => {
 }).catch(() => { console.warn('VarCamp playground course unavailable.'); });
 
 void WA.onInit().then(()=>{const dispose=registerExpedition(WA);window.addEventListener("pagehide",dispose,{once:true});}).catch(()=>console.warn("VarCamp expedition unavailable; physical trails remain open."));
+void WA.onInit().then(()=>{const dispose=registerJyotish(WA);window.addEventListener('pagehide',dispose,{once:true});}).catch(()=>console.warn('VarCamp astrology link unavailable.'));
 void WA.onInit().then(()=>{
  const dispose=registerNewnessCareers(WA);
  window.addEventListener('pagehide',dispose,{once:true});
