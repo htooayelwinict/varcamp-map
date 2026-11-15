@@ -1,6 +1,7 @@
 import {chromium} from './node_modules/playwright/index.mjs';
 import assert from 'node:assert/strict';
-import {writeFileSync} from 'node:fs';
+import {readFileSync,writeFileSync} from 'node:fs';
+const official=JSON.parse(readFileSync(new URL('../../tests/fixtures/programme/official-2026-11-15.json',import.meta.url),'utf8'));
 const base=process.env.PROGRAMME_BASE||'http://127.0.0.1:51284';
 const out=process.env.PROGRAMME_QA||'.qa/programme-20261113';
 const browser=await chromium.launch({headless:true});const results=[];
@@ -18,8 +19,10 @@ async function check(name,date,run,room='all',setup=async()=>{}){
  }catch(e){results.push({name,ok:false,error:e.message});}
  finally{await context.close();}
 }
-await check('full day has 56 official talks, three pending profiles and all 12 rooms','2026-11-13T10:00:00Z',async p=>{
- assert.equal(await p.locator('[data-session]').count(),56);assert.equal(await p.locator('[data-pending]').count(),3);
+await check('full day matches all 57 official talks with no pending profiles and all 12 rooms','2026-11-13T10:00:00Z',async p=>{
+ assert.equal(await p.locator('[data-session]').count(),57);assert.equal(await p.locator('[data-pending]').count(),0);
+ const cards=await p.locator('[data-session]').evaluateAll(es=>es.map(e=>({speaker:e.dataset.session,title:e.querySelector('h2').textContent,url:e.querySelector('a').href,time:e.querySelector('.meta span').textContent,room:e.querySelector('.room').textContent})));
+ assert.deepEqual(cards,official.sessions.map(s=>({speaker:s.speaker_name,title:s.session_title,url:s.speaker_url,time:`${s.start_time}–${s.end_time}`,room:`${s.room_code} · ${s.room_name}`})));
  assert.equal(await p.locator('#room option').count(),13);
  assert.match(await p.locator('body').innerText(),/Myanmar time.*UTC\+06:30/);
  const links=await p.locator('[data-session] a').evaluateAll(es=>es.map(e=>({href:e.href,target:e.target,rel:e.rel})));
@@ -27,7 +30,7 @@ await check('full day has 56 official talks, three pending profiles and all 12 r
  await p.getByRole('button',{name:'Scheduled now',exact:true}).click();assert.equal(await p.locator('[data-session]').count(),0);assert.match(await p.locator('#summary').innerText(),/15 November/);
 });
 await check('Myanmar clock selects 10:00 slot even in a US browser timezone','2026-11-15T03:45:00Z',async p=>{
- assert.equal(await p.locator('[data-session]').count(),12);assert.match(await p.locator('[data-session]').first().innerText(),/10:00.*11:00/);
+ assert.equal(await p.locator('[data-session]').count(),11);assert.match(await p.locator('[data-session]').first().innerText(),/10:00.*11:00/);
  await p.getByRole('button',{name:'Up next',exact:true}).click();assert.equal(await p.locator('[data-session]').count(),12);assert.match(await p.locator('[data-session]').first().innerText(),/11:00.*12:00/);
 });
 await check('11:00 boundary drops ended sessions','2026-11-15T04:30:00Z',async p=>{assert.equal(await p.locator('[data-session]').count(),12);assert.match(await p.locator('[data-session]').first().innerText(),/11:00.*12:00/);});
@@ -35,10 +38,10 @@ await check('lunch is explicit and next talks start at 13:00','2026-11-15T05:30:
  assert.equal(await p.locator('[data-session]').count(),0);assert.match(await p.locator('#summary').innerText(),/Lunch break/);
  await p.getByRole('button',{name:'Up next',exact:true}).click();assert.equal(await p.locator('[data-session]').count(),12);assert.match(await p.locator('[data-session]').first().innerText(),/13:00.*14:00/);
 });
-await check('room-scoped entry has no fabricated afternoon slot','2026-11-15T08:30:00Z',async p=>{
- assert.equal(await p.locator('#room').inputValue(),'sagittarius');assert.equal(await p.locator('[data-session]').count(),0);
- assert.match(await p.locator('#summary').innerText(),/No talk scheduled/);
- await p.getByRole('button',{name:'Full day',exact:true}).click();assert.equal(await p.locator('[data-session]').count(),4);
+await check('room-scoped entry includes the newly assigned afternoon speaker','2026-11-15T08:30:00Z',async p=>{
+ assert.equal(await p.locator('#room').inputValue(),'sagittarius');assert.equal(await p.locator('[data-session]').count(),1);
+ assert.equal(await p.locator('[data-session]').getAttribute('data-session'),'Dr Sitt Paing');
+ await p.getByRole('button',{name:'Full day',exact:true}).click();assert.equal(await p.locator('[data-session]').count(),5);
 },'sagittarius');
 await check('end of programme does not label ended talks as current','2026-11-15T12:00:00Z',async p=>{
  await p.getByRole('button',{name:'Scheduled now',exact:true}).click();assert.equal(await p.locator('[data-session]').count(),0);assert.match(await p.locator('#summary').innerText(),/ended/i);
@@ -51,7 +54,21 @@ await check('Burmese search, room filter and mobile layout work','2026-11-13T10:
  await p.screenshot({path:out+'/programme-mobile.png'});
  await p.getByRole('button',{name:'Close programme',exact:true}).click();assert.equal(await p.evaluate(()=>window.__programmeClosed),true);
 });
-await check('invalid room query falls back to full programme','2026-11-13T10:00:00Z',async p=>{assert.equal(await p.locator('#room').inputValue(),'all');assert.equal(await p.locator('[data-session]').count(),56);},'bad-room');
+await check('invalid room query falls back to full programme','2026-11-13T10:00:00Z',async p=>{assert.equal(await p.locator('#room').inputValue(),'all');assert.equal(await p.locator('[data-session]').count(),57);},'bad-room');
+await check('arrival board displays the current talk total','2026-11-15T07:00:00Z',async p=>{
+ await p.goto(`${base}/src/programme/board.html?room=all`,{waitUntil:'networkidle'});
+ assert.match(await p.locator('#board').innerText(),/57 talks · 12 rooms/);
+});
+await check('all room filters match the official roster including moved and removed talks','2026-11-13T10:00:00Z',async p=>{
+ for(const room of official.rooms){
+  await p.locator('#room').selectOption(room.room_id);
+  assert.deepEqual(await p.locator('[data-session]').evaluateAll(es=>es.map(e=>e.dataset.session)),official.sessions.filter(s=>s.room_id===room.room_id).map(s=>s.speaker_name));
+ }
+});
+await check('Virgo has no withdrawn 15:00 talk','2026-11-15T08:30:00Z',async p=>{
+ assert.equal(await p.locator('[data-session]').count(),0);
+ assert.match(await p.locator('#summary').innerText(),/No talk scheduled/);
+},'virgo');
 await check('board face opens its filtered programme only on click','2026-11-13T10:00:00Z',async p=>{
  await p.goto(`${base}/src/programme/board.html?room=aries`,{waitUntil:'networkidle'});
  assert.equal(await p.evaluate(()=>window.__programmeOpened),undefined);

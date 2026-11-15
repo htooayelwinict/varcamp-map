@@ -4,7 +4,7 @@
   "timezone": "Asia/Yangon",
   "utc_offset": "+06:30",
   "source_url": "https://www.var.camp/",
-  "fetched_at": "2026-11-13T13:03:43.206739+00:00",
+  "fetched_at": "2026-11-15T07:16:46.431529+00:00",
   "room_code_note": "R1–R12 are mapped from the website Room 01–Room 12 labels to match the existing VarCamp map naming.",
   "sessions": [
     {
@@ -42,18 +42,6 @@
       "speaker_name": "Naing Lin",
       "session_title": "Ship Fast, Break Less: Managing Risks in Software Releases",
       "speaker_url": "https://www.var.camp/speakers/naing-lin"
-    },
-    {
-      "start_time": "10:00",
-      "end_time": "11:00",
-      "start_iso": "2026-11-15T10:00:00+06:30",
-      "end_iso": "2026-11-15T11:00:00+06:30",
-      "room_code": "R4",
-      "room_name": "Cancer",
-      "room_id": "cancer",
-      "speaker_name": "Htoo Htet Min Eain",
-      "session_title": "Any update to date technology",
-      "speaker_url": "https://www.var.camp/speakers/htoo-htet-min-eain"
     },
     {
       "start_time": "10:00",
@@ -183,9 +171,9 @@
       "room_code": "R3",
       "room_name": "Gemini",
       "room_id": "gemini",
-      "speaker_name": "Hay Mar San",
-      "session_title": "Managing IT Projects: From Business Needs to Successful Delivery",
-      "speaker_url": "https://www.var.camp/speakers/hay-mar-san"
+      "speaker_name": "Thar Htet",
+      "session_title": "Staying Sharp in the Loop",
+      "speaker_url": "https://www.var.camp/speakers/thar-htet"
     },
     {
       "start_time": "11:00",
@@ -219,9 +207,9 @@
       "room_code": "R6",
       "room_name": "Virgo",
       "room_id": "virgo",
-      "speaker_name": "Thar Htet",
-      "session_title": "Staying Sharp in the Loop",
-      "speaker_url": "https://www.var.camp/speakers/thar-htet"
+      "speaker_name": "Hay Mar San",
+      "session_title": "Managing IT Projects: From Business Needs to Successful Delivery",
+      "speaker_url": "https://www.var.camp/speakers/hay-mar-san"
     },
     {
       "start_time": "11:00",
@@ -648,18 +636,6 @@
       "end_time": "16:00",
       "start_iso": "2026-11-15T15:00:00+06:30",
       "end_iso": "2026-11-15T16:00:00+06:30",
-      "room_code": "R6",
-      "room_name": "Virgo",
-      "room_id": "virgo",
-      "speaker_name": "Nay Htet Khant",
-      "session_title": "​Building Real-time Web Applications with Next.js and Laravel Reverb",
-      "speaker_url": "https://www.var.camp/speakers/nay-htet-khant"
-    },
-    {
-      "start_time": "15:00",
-      "end_time": "16:00",
-      "start_iso": "2026-11-15T15:00:00+06:30",
-      "end_iso": "2026-11-15T16:00:00+06:30",
       "room_code": "R7",
       "room_name": "Libra",
       "room_id": "libra",
@@ -678,6 +654,42 @@
       "speaker_name": "Yadanar",
       "session_title": "From Digital Challenges to Meaningful Solutions",
       "speaker_url": "https://www.var.camp/speakers/yadanar"
+    },
+    {
+      "start_time": "15:00",
+      "end_time": "16:00",
+      "start_iso": "2026-11-15T15:00:00+06:30",
+      "end_iso": "2026-11-15T16:00:00+06:30",
+      "room_code": "R9",
+      "room_name": "Sagittarius",
+      "room_id": "sagittarius",
+      "speaker_name": "Dr Sitt Paing",
+      "session_title": "Human Intelligence is more important than ever in the age of AI",
+      "speaker_url": "https://www.var.camp/speakers/dr-sitt-paing"
+    },
+    {
+      "start_time": "15:00",
+      "end_time": "16:00",
+      "start_iso": "2026-11-15T15:00:00+06:30",
+      "end_iso": "2026-11-15T16:00:00+06:30",
+      "room_code": "R10",
+      "room_name": "Capricorn",
+      "room_id": "capricorn",
+      "speaker_name": "Hlaing Min Paing",
+      "session_title": "From Zero to Cloud Engineer",
+      "speaker_url": "https://www.var.camp/speakers/hlaing-min-paing"
+    },
+    {
+      "start_time": "15:00",
+      "end_time": "16:00",
+      "start_iso": "2026-11-15T15:00:00+06:30",
+      "end_iso": "2026-11-15T16:00:00+06:30",
+      "room_code": "R11",
+      "room_name": "Aquarius",
+      "room_id": "aquarius",
+      "speaker_name": "Thet Paing Myo",
+      "session_title": "Data Engineering 101",
+      "speaker_url": "https://www.var.camp/speakers/thet-paing-myo"
     }
   ],
   "rooms": [
@@ -724,8 +736,9 @@
       "room_name": "Cancer",
       "website_label": "Room 04",
       "map_label": "R4 Cancer",
-      "scheduled_talks": 5,
+      "scheduled_talks": 4,
       "open_slots": [
+        "10:00",
         "16:00"
       ]
     },
@@ -748,8 +761,9 @@
       "room_name": "Virgo",
       "website_label": "Room 06",
       "map_label": "R6 Virgo",
-      "scheduled_talks": 5,
+      "scheduled_talks": 4,
       "open_slots": [
+        "15:00",
         "16:00"
       ]
     },
@@ -784,9 +798,8 @@
       "room_name": "Sagittarius",
       "website_label": "Room 09",
       "map_label": "R9 Sagittarius",
-      "scheduled_talks": 4,
+      "scheduled_talks": 5,
       "open_slots": [
-        "15:00",
         "16:00"
       ]
     },
@@ -797,9 +810,8 @@
       "room_name": "Capricorn",
       "website_label": "Room 10",
       "map_label": "R10 Capricorn",
-      "scheduled_talks": 4,
+      "scheduled_talks": 5,
       "open_slots": [
-        "15:00",
         "16:00"
       ]
     },
@@ -810,9 +822,8 @@
       "room_name": "Aquarius",
       "website_label": "Room 11",
       "map_label": "R11 Aquarius",
-      "scheduled_talks": 4,
+      "scheduled_talks": 5,
       "open_slots": [
-        "15:00",
         "16:00"
       ]
     },
@@ -862,36 +873,5 @@
       "end_time_basis": "published 60-minute slot duration"
     }
   ],
-  "unassigned_speakers": [
-    {
-      "speaker_name": "Dr Sitt Paing",
-      "speaker_slug": "dr-sitt-paing",
-      "session_title": "Human Intelligence is more important than ever is the age of AI",
-      "room_code": null,
-      "start_time": null,
-      "end_time": null,
-      "speaker_url": "https://www.var.camp/speakers/dr-sitt-paing",
-      "status": "profile_published_but_no_room_or_time"
-    },
-    {
-      "speaker_name": "Hlaing Min Paing",
-      "speaker_slug": "hlaing-min-paing",
-      "session_title": "From Zero to Cloud Engineer",
-      "room_code": null,
-      "start_time": null,
-      "end_time": null,
-      "speaker_url": "https://www.var.camp/speakers/hlaing-min-paing",
-      "status": "profile_published_but_no_room_or_time"
-    },
-    {
-      "speaker_name": "Thet Paing Myo",
-      "speaker_slug": "thet-paing-myo",
-      "session_title": "Data Engineering 101",
-      "room_code": null,
-      "start_time": null,
-      "end_time": null,
-      "speaker_url": "https://www.var.camp/speakers/thet-paing-myo",
-      "status": "profile_published_but_no_room_or_time"
-    }
-  ]
+  "unassigned_speakers": []
 }

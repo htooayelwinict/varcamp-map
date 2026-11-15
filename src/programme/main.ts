@@ -2,6 +2,8 @@ import programme from '../../world/programme.json';
 import './style.css';
 
 type View = 'now' | 'next' | 'day';
+type Speaker = Pick<(typeof programme.sessions)[number], 'session_title' | 'speaker_name' | 'speaker_url'>;
+const pendingSpeakers: Speaker[] = programme.unassigned_speakers;
 const params = new URLSearchParams(location.search);
 const rooms = programme.rooms;
 let room = rooms.some(r => r.room_id === params.get('room')) ? params.get('room')! : 'all';
@@ -83,7 +85,7 @@ function render(now = Date.now()): void {
   card.append(meta, element('h2', s.session_title), link(`${s.speaker_name} ↗`, s.speaker_url)); sessions.append(card);
  }
  pending.replaceChildren();
- const unpublished = programme.unassigned_speakers.filter(s => matches(s.session_title, s.speaker_name));
+ const unpublished = pendingSpeakers.filter(s => matches(s.session_title, s.speaker_name));
  if (view === 'day' && room === 'all' && unpublished.length) {
   pending.append(element('h2', 'Room & time to be confirmed'), element('p', 'These speaker profiles are published without a scheduled slot.'));
   for (const s of unpublished) { const card = element('article'); card.dataset.pending = s.speaker_name; card.append(element('h3', s.session_title), link(`${s.speaker_name} ↗`, s.speaker_url)); pending.append(card); }
