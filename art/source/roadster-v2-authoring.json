@@ -3,6 +3,7 @@
   "description": "Roadster v2 motion: compiler-synthesised tweens, thruster bloom, ground effects and one continuous 360-degree flip of the same upright jump sprite. No new car drawing; every car pixel still comes from roadster-poses.png through the v1 crop/scale recipe.",
   "base": "art/source/roadster-authoring.json",
   "atlas": "assets/tilesets/original/roadster-v2.png",
+  "position": { "x": 74, "y": 54 },
   "stepMs": 100,
   "visibleWidth": 144,
   "pad": {

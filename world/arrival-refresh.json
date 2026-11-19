@@ -1,0 +1,117 @@
+{
+  "version": 1,
+  "decision": "2026-10-26 owner: colourful VarCamp booth lockup, much bigger, on the arrival floor; remove the arrival road sign; move the Roadster to the upper-right corner of the blue arrival floor.",
+  "removedPlacements": [
+    {
+      "index": 1139,
+      "placement": {
+        "id": "arrival-direction-crosspost",
+        "sprite": "standing-hub-nav-arrival-crosspost",
+        "x": 66,
+        "y": 61,
+        "width": 6,
+        "height": 3,
+        "layer": "props"
+      }
+    },
+    {
+      "index": 1140,
+      "placement": {
+        "id": "arrival-crosspost-pole",
+        "sprite": "solid-sign-post",
+        "x": 68,
+        "y": 64,
+        "width": 1,
+        "height": 1,
+        "layer": "props"
+      }
+    }
+  ],
+  "removedStandingSign": {
+    "index": 0,
+    "sign": {
+      "face": "arrival-direction-crosspost",
+      "supports": [
+        "arrival-crosspost-pole"
+      ]
+    }
+  },
+  "beforeImage": {
+    "index": 14,
+    "image": {
+      "name": "VarCamp 2026 Floor",
+      "image": "assets/sponsors/varcamp-2026.png",
+      "x": 60,
+      "y": 60,
+      "width": 6,
+      "height": 2,
+      "standing": false
+    }
+  },
+  "lockup": {
+    "source": "owner-supplied varcamp2026_assets/logos+icons/varcamp-horizontal.svg",
+    "sourceSha256": "05f5ea29e8635156bf4ed74f9e39a6067bb2121ac266db514d7918703924250f",
+    "colours": {
+      "flame": "#f96216",
+      "wordmark": "#ffffff"
+    },
+    "panel": {
+      "width": 384,
+      "height": 128
+    },
+    "raster": {
+      "x": 4,
+      "y": 21,
+      "width": 376,
+      "height": 85
+    }
+  },
+  "afterImages": [
+    {
+      "name": "Arrival / VarCamp NW",
+      "image": "assets/sponsors/varcamp-arrival-nw.png",
+      "x": 58,
+      "y": 60,
+      "width": 6,
+      "height": 2,
+      "standing": false
+    },
+    {
+      "name": "Arrival / VarCamp NE",
+      "image": "assets/sponsors/varcamp-arrival-ne.png",
+      "x": 64,
+      "y": 60,
+      "width": 6,
+      "height": 2,
+      "standing": false
+    },
+    {
+      "name": "Arrival / VarCamp SW",
+      "image": "assets/sponsors/varcamp-arrival-sw.png",
+      "x": 58,
+      "y": 62,
+      "width": 6,
+      "height": 2,
+      "standing": false
+    },
+    {
+      "name": "Arrival / VarCamp SE",
+      "image": "assets/sponsors/varcamp-arrival-se.png",
+      "x": 64,
+      "y": 62,
+      "width": 6,
+      "height": 2,
+      "standing": false
+    }
+  ],
+  "roadster": {
+    "before": {
+      "x": 73,
+      "y": 60
+    },
+    "after": {
+      "x": 74,
+      "y": 54
+    }
+  }
+}
